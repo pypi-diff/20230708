@@ -1867,3 +1867,72 @@
 [2023-07-08 01:38:10] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2023-07-08 01:38:10] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-07-08 01:38:10] INFO root fetch - main [MainThread]: Store serial: [18807324]
+[2023-07-08 01:43:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807324]
+[2023-07-08 01:43:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 01:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acryl-datahub-airflow-plugin
+[2023-07-08 01:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OceanographerToolbox1
+[2023-07-08 01:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lyrics-transcriber
+[2023-07-08 01:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: excel2config
+[2023-07-08 01:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composer
+[2023-07-08 01:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mosaicml
+[2023-07-08 01:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: copyparty
+[2023-07-08 01:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hspylib-setman
+[2023-07-08 01:43:18] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-08 01:43:19] WARNING root fetch - processPackages [OceanographerToolbox1]: Skipping, unable to determine old version
+[2023-07-08 01:43:19] INFO root fetch - main [MainThread]: End processing [OceanographerToolbox1] error
+[2023-07-08 01:43:19] INFO root fetch - processPackages [lyrics-transcriber]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-08 01:43:19] INFO root fetch - processPackages [hspylib-setman]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-08 01:43:19] INFO root fetch - processPackages [mosaicml]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-08 01:43:19] INFO root fetch - processPackages [composer]: New version: [0.15.1] Old Version: [0.15.0]
+[2023-07-08 01:43:19] INFO root fetch - processPackages [excel2config]: New version: [2023.7.8] Old Version: [2023.2.20]
+[2023-07-08 01:43:19] INFO root fetch - processPackages [copyparty]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-07-08 01:43:19] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/6e/5a/f38cbaa163d9c179c169787f48a5bc8462451b81553d572111ae5573e777/lyrics_transcriber-0.6.1.tar.gz
+[2023-07-08 01:43:19] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-07-08 01:43:19] INFO root fetch - processPackages [hspylib-setman]: Downloading https://files.pythonhosted.org/packages/ca/86/d4c00d36772f3c810863e8a8facf2b40913eb2af79eed33bd695d81a8a66/hspylib-setman-0.9.8.tar.gz
+[2023-07-08 01:43:19] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/d5/ab/341f2adf3eadcb1128165e0bcc2dc175370c5933cc923e9e37991c394924/copyparty-1.8.0.tar.gz
+[2023-07-08 01:43:19] INFO root fetch - processPackages [excel2config]: Downloading https://files.pythonhosted.org/packages/3f/b7/6ce94ed7107a493d2a7f785c702bcae8b10b82201a5c017994d69b76bc82/excel2config-2023.2.20.tar.gz
+[2023-07-08 01:43:19] INFO root fetch - processPackages [composer]: Downloading https://files.pythonhosted.org/packages/28/20/05753aea63fc99713418040a73ea514a175ee184766391710d39ddfe6817/composer-0.15.0.tar.gz
+[2023-07-08 01:43:19] INFO root fetch - processPackages [mosaicml]: Downloading https://files.pythonhosted.org/packages/4a/0d/f859787a1af116665b2c57f455de98003faad15fd0cf246aac8ccd3b7317/mosaicml-0.8.2.tar.gz
+[2023-07-08 01:43:19] INFO root fetch - processPackages [hspylib-setman]: Downloading https://files.pythonhosted.org/packages/c5/a4/722debaef60a0f54fbee575ca41fa122ec39cd3fab91b4b8ddebc1dc8232/hspylib-setman-0.9.9.tar.gz
+[2023-07-08 01:43:19] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-07-08 01:43:19] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/20/da/5c10fac145a8b4673a26fbc36b403f9baa0134b3dfd4646f80286aed3fa2/lyrics_transcriber-0.6.2.tar.gz
+[2023-07-08 01:43:19] INFO root fetch - processPackages [hspylib-setman]: executing diffoscope
+[2023-07-08 01:43:19] INFO root fetch - processPackages [hspylib-setman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-setman-0.9.8.tar.gz tmp/hspylib-setman-0.9.9.tar.gz --markdown 20230708/h/hspylib-setman/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-08 01:43:19] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-07-08 01:43:19] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230708/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-08 01:43:19] INFO root fetch - processPackages [excel2config]: Downloading https://files.pythonhosted.org/packages/5c/b7/368206ed14e38b1ec12ea5695882ffa39aafe18574c8318060cf0384d8c6/excel2config-2023.7.8.tar.gz
+[2023-07-08 01:43:19] INFO root fetch - processPackages [lyrics-transcriber]: executing diffoscope
+[2023-07-08 01:43:19] INFO root fetch - processPackages [lyrics-transcriber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrics_transcriber-0.6.1.tar.gz tmp/lyrics_transcriber-0.6.2.tar.gz --markdown 20230708/l/lyrics-transcriber/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-08 01:43:19] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/66/77/0ade9f3e4fd449303b04dbac58dcae0f5c3c1a6347a74b1998b31b0a7b4c/copyparty-1.8.1.tar.gz
+[2023-07-08 01:43:19] INFO root fetch - processPackages [excel2config]: executing diffoscope
+[2023-07-08 01:43:19] INFO root fetch - processPackages [excel2config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel2config-2023.2.20.tar.gz tmp/excel2config-2023.7.8.tar.gz --markdown 20230708/e/excel2config/2023.2.20-2023.7.8/diff.md --exclude *.pyd
+[2023-07-08 01:43:19] INFO root fetch - processPackages [composer]: Downloading https://files.pythonhosted.org/packages/44/16/27fb35f3abd3dcd410ef7050bc16e89626d6a9a38af1972c681066761e2c/composer-0.15.1.tar.gz
+[2023-07-08 01:43:20] INFO root fetch - processPackages [copyparty]: executing diffoscope
+[2023-07-08 01:43:20] INFO root fetch - processPackages [copyparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copyparty-1.8.0.tar.gz tmp/copyparty-1.8.1.tar.gz --markdown 20230708/c/copyparty/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-07-08 01:43:20] INFO root fetch - processPackages [mosaicml]: Downloading https://files.pythonhosted.org/packages/d4/94/9f3bde8318895c050d35f3ea3d3da8c1f48dd35207933f8b0eaca33cf4fd/mosaicml-0.9.0.tar.gz
+[2023-07-08 01:43:20] INFO root fetch - processPackages [composer]: executing diffoscope
+[2023-07-08 01:43:20] INFO root fetch - processPackages [composer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composer-0.15.0.tar.gz tmp/composer-0.15.1.tar.gz --markdown 20230708/c/composer/0.15.0-0.15.1/diff.md --exclude *.pyd
+[2023-07-08 01:43:20] INFO root fetch - processPackages [mosaicml]: executing diffoscope
+[2023-07-08 01:43:20] INFO root fetch - processPackages [mosaicml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-0.8.2.tar.gz tmp/mosaicml-0.9.0.tar.gz --markdown 20230708/m/mosaicml/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 01:43:20] INFO root fetch - processPackages [hspylib-setman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-setman-0.9.8.tar.gz]
+[2023-07-08 01:43:20] INFO root fetch - processPackages [hspylib-setman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-setman-0.9.9.tar.gz]
+[2023-07-08 01:43:20] INFO root fetch - main [MainThread]: End processing [hspylib-setman]: success
+[2023-07-08 01:43:20] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.6.1.tar.gz]
+[2023-07-08 01:43:20] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.6.2.tar.gz]
+[2023-07-08 01:43:20] INFO root fetch - main [MainThread]: End processing [lyrics-transcriber]: success
+[2023-07-08 01:43:20] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-07-08 01:43:20] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-07-08 01:43:20] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-07-08 01:43:20] INFO root fetch - processPackages [excel2config]: Remove: archive file [/home/abi/fetcher/tmp/excel2config-2023.2.20.tar.gz]
+[2023-07-08 01:43:20] INFO root fetch - processPackages [excel2config]: Remove: archive file [/home/abi/fetcher/tmp/excel2config-2023.7.8.tar.gz]
+[2023-07-08 01:43:20] INFO root fetch - main [MainThread]: End processing [excel2config]: success
+[2023-07-08 01:43:21] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.8.0.tar.gz]
+[2023-07-08 01:43:21] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.8.1.tar.gz]
+[2023-07-08 01:43:21] INFO root fetch - main [MainThread]: End processing [copyparty]: success
+[2023-07-08 01:43:22] INFO root fetch - processPackages [composer]: Remove: archive file [/home/abi/fetcher/tmp/composer-0.15.0.tar.gz]
+[2023-07-08 01:43:22] INFO root fetch - processPackages [composer]: Remove: archive file [/home/abi/fetcher/tmp/composer-0.15.1.tar.gz]
+[2023-07-08 01:43:22] INFO root fetch - main [MainThread]: End processing [composer]: success
+[2023-07-08 01:43:23] INFO root fetch - processPackages [mosaicml]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-0.8.2.tar.gz]
+[2023-07-08 01:43:23] INFO root fetch - processPackages [mosaicml]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-0.9.0.tar.gz]
+[2023-07-08 01:43:23] INFO root fetch - main [MainThread]: End processing [mosaicml]: success
+[2023-07-08 01:43:23] INFO root fetch - main [MainThread]: Store serial: [18807351]
