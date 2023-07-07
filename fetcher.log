@@ -984,3 +984,69 @@
 [2023-07-08 00:40:24] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev4.tar.gz]
 [2023-07-08 00:40:24] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-07-08 00:40:24] INFO root fetch - main [MainThread]: Store serial: [18806981]
+[2023-07-08 00:45:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18806981]
+[2023-07-08 00:45:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 00:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ladybug-comfort
+[2023-07-08 00:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openapi-server-test
+[2023-07-08 00:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: echofish-aws-raw-to-zarr-lambda
+[2023-07-08 00:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cert-utils
+[2023-07-08 00:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: granny-pliers
+[2023-07-08 00:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: predibase-api
+[2023-07-08 00:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: predibase
+[2023-07-08 00:45:33] INFO root fetch - processPackages [predibase-api]: New version: [2023.7.6] Old Version: [2023.7.5]
+[2023-07-08 00:45:33] INFO root fetch - processPackages [openapi-server-test]: New version: [1.0.24] Old Version: [1.0.23]
+[2023-07-08 00:45:33] INFO root fetch - processPackages [cert-utils]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-08 00:45:33] INFO root fetch - processPackages [granny-pliers]: New version: [0.0.9] Old Version: [0.0.16]
+[2023-07-08 00:45:33] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: New version: [1.0.0.dev20230707222306] Old Version: [1.0.0.dev20230707184722]
+[2023-07-08 00:45:33] INFO root fetch - processPackages [predibase]: New version: [2023.7.6] Old Version: [2023.7.5]
+[2023-07-08 00:45:33] INFO root fetch - processPackages [ladybug-comfort]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-08 00:45:33] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/c7/35/21ae7ab8be9d0207ef9c0795560d6a83c2ced2de14e70a19a3ef5b338a0e/openapi_server_test-1.0.23.tar.gz
+[2023-07-08 00:45:33] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/56/e5/47bae9a6b85d1513799a744138d678c85e6843d738f7413dc12b5d7e0b8e/predibase-api-2023.7.5.tar.gz
+[2023-07-08 00:45:33] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/1f/ac/424f75aa913f51e5996d3ab1238eaeed4b0f0ff19571d17237a66a359e87/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230707184722.tar.gz
+[2023-07-08 00:45:33] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/be/72/fbaf7161fb5756098579d14092ccf4b80df9f64854acf27d5f06c0cebfb4/predibase-2023.7.5.tar.gz
+[2023-07-08 00:45:34] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/43/31/95b355ef6e9ced5b232416f8aa73f037de5d277c427aa997b5b6e7632ed9/granny-pliers-0.0.16.tar.gz
+[2023-07-08 00:45:34] INFO root fetch - processPackages [cert-utils]: Downloading https://files.pythonhosted.org/packages/28/da/d36615d95763d114f303960fa1ef7206c697b5dfaf0d7cb3d583aac1a6f6/cert_utils-0.1.3.tar.gz
+[2023-07-08 00:45:34] INFO root fetch - processPackages [ladybug-comfort]: Downloading https://files.pythonhosted.org/packages/6a/bf/8102b0e33435882b5600b8c0d7b5ebb92e379d665f3767b706dce6bdd2d3/ladybug-comfort-0.9.8.tar.gz
+[2023-07-08 00:45:34] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/50/b3/e21976cd95f2ad208f9f0ed35d12efc904f445f160d49c3b7c8a52083466/predibase-api-2023.7.6.tar.gz
+[2023-07-08 00:45:34] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/01/a8/74d14f731b69e80f69646a8e328a16fdec22aafdcea9eaa5345b0ce5b492/openapi_server_test-1.0.24.tar.gz
+[2023-07-08 00:45:34] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/8a/d7/d1bab8bf8bcb59baff07d67795f7ef8cec88922dbdc57c93e642d34d5262/predibase-2023.7.6.tar.gz
+[2023-07-08 00:45:34] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/8c/14/39b28e9d01ddbd31730806da29c59945628eca38355f5c325b2b2ec3f423/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230707222306.tar.gz
+[2023-07-08 00:45:34] INFO root fetch - processPackages [cert-utils]: Downloading https://files.pythonhosted.org/packages/f4/27/bc0c23fec781dafc523dec1ceecf19156b9cfbdd4c6824833977a9bc6274/cert_utils-0.1.4.tar.gz
+[2023-07-08 00:45:34] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/20/f0/37fcc81ed273742c6409ea0c1d18a3553183ccb9578c1da42344c98289ad/granny-pliers-0.0.9.tar.gz
+[2023-07-08 00:45:34] INFO root fetch - processPackages [predibase-api]: executing diffoscope
+[2023-07-08 00:45:34] INFO root fetch - processPackages [predibase-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-api-2023.7.5.tar.gz tmp/predibase-api-2023.7.6.tar.gz --markdown 20230708/p/predibase-api/2023.7.5-2023.7.6/diff.md --exclude *.pyd
+[2023-07-08 00:45:34] INFO root fetch - processPackages [openapi-server-test]: executing diffoscope
+[2023-07-08 00:45:34] INFO root fetch - processPackages [openapi-server-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_server_test-1.0.23.tar.gz tmp/openapi_server_test-1.0.24.tar.gz --markdown 20230708/o/openapi-server-test/1.0.23-1.0.24/diff.md --exclude *.pyd
+[2023-07-08 00:45:34] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: executing diffoscope
+[2023-07-08 00:45:34] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230707184722.tar.gz tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230707222306.tar.gz --markdown 20230708/e/echofish-aws-raw-to-zarr-lambda/1.0.0.dev20230707184722-1.0.0.dev20230707222306/diff.md --exclude *.pyd
+[2023-07-08 00:45:34] INFO root fetch - processPackages [predibase]: executing diffoscope
+[2023-07-08 00:45:34] INFO root fetch - processPackages [predibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-2023.7.5.tar.gz tmp/predibase-2023.7.6.tar.gz --markdown 20230708/p/predibase/2023.7.5-2023.7.6/diff.md --exclude *.pyd
+[2023-07-08 00:45:34] INFO root fetch - processPackages [ladybug-comfort]: Downloading https://files.pythonhosted.org/packages/01/02/b871500d4bb81f18c253d98ce272a040dfa679de4682eb2f66a1f039c17a/ladybug-comfort-0.9.9.tar.gz
+[2023-07-08 00:45:34] INFO root fetch - processPackages [cert-utils]: executing diffoscope
+[2023-07-08 00:45:34] INFO root fetch - processPackages [cert-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cert_utils-0.1.3.tar.gz tmp/cert_utils-0.1.4.tar.gz --markdown 20230708/c/cert-utils/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-08 00:45:34] INFO root fetch - processPackages [granny-pliers]: executing diffoscope
+[2023-07-08 00:45:34] INFO root fetch - processPackages [granny-pliers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granny-pliers-0.0.16.tar.gz tmp/granny-pliers-0.0.9.tar.gz --markdown 20230708/g/granny-pliers/0.0.16-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 00:45:35] INFO root fetch - processPackages [ladybug-comfort]: executing diffoscope
+[2023-07-08 00:45:35] INFO root fetch - processPackages [ladybug-comfort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-comfort-0.9.8.tar.gz tmp/ladybug-comfort-0.9.9.tar.gz --markdown 20230708/l/ladybug-comfort/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-08 00:45:35] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2023.7.5.tar.gz]
+[2023-07-08 00:45:35] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2023.7.6.tar.gz]
+[2023-07-08 00:45:35] INFO root fetch - main [MainThread]: End processing [predibase-api]: success
+[2023-07-08 00:45:35] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230707184722.tar.gz]
+[2023-07-08 00:45:35] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230707222306.tar.gz]
+[2023-07-08 00:45:35] INFO root fetch - main [MainThread]: End processing [echofish-aws-raw-to-zarr-lambda]: success
+[2023-07-08 00:45:35] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2023.7.5.tar.gz]
+[2023-07-08 00:45:35] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2023.7.6.tar.gz]
+[2023-07-08 00:45:35] INFO root fetch - main [MainThread]: End processing [predibase]: success
+[2023-07-08 00:45:36] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.23.tar.gz]
+[2023-07-08 00:45:36] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.24.tar.gz]
+[2023-07-08 00:45:36] INFO root fetch - main [MainThread]: End processing [openapi-server-test]: success
+[2023-07-08 00:45:36] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.16.tar.gz]
+[2023-07-08 00:45:36] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.9.tar.gz]
+[2023-07-08 00:45:36] INFO root fetch - main [MainThread]: End processing [granny-pliers]: success
+[2023-07-08 00:45:36] INFO root fetch - processPackages [ladybug-comfort]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-comfort-0.9.8.tar.gz]
+[2023-07-08 00:45:36] INFO root fetch - processPackages [ladybug-comfort]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-comfort-0.9.9.tar.gz]
+[2023-07-08 00:45:36] INFO root fetch - main [MainThread]: End processing [ladybug-comfort]: success
+[2023-07-08 00:45:36] INFO root fetch - processPackages [cert-utils]: Remove: archive file [/home/abi/fetcher/tmp/cert_utils-0.1.3.tar.gz]
+[2023-07-08 00:45:36] INFO root fetch - processPackages [cert-utils]: Remove: archive file [/home/abi/fetcher/tmp/cert_utils-0.1.4.tar.gz]
+[2023-07-08 00:45:36] INFO root fetch - main [MainThread]: End processing [cert-utils]: success
+[2023-07-08 00:45:36] INFO root fetch - main [MainThread]: Store serial: [18807011]
