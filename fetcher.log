@@ -281,3 +281,90 @@
 [2023-07-08 00:08:04] INFO root fetch - processPackages [wmcore]: Remove: archive file [/home/abi/fetcher/tmp/wmcore-2.2.2rc9.tar.gz]
 [2023-07-08 00:08:04] INFO root fetch - main [MainThread]: End processing [wmcore]: success
 [2023-07-08 00:08:04] INFO root fetch - main [MainThread]: Store serial: [18806697]
+[2023-07-08 00:13:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18806697]
+[2023-07-08 00:13:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-runtime
+[2023-07-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gdptools-pygeoapi-plugin
+[2023-07-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otio-burnins-adapter
+[2023-07-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idownload
+[2023-07-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyEDAA.ProjectModel
+[2023-07-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-artifactory
+[2023-07-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: satori-ci
+[2023-07-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: KeyloggerScreenshot
+[2023-07-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Files.com
+[2023-07-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: target-permutation-importances
+[2023-07-08 00:13:13] INFO root fetch - processPackages [pulumi-artifactory]: New version: [4.2.0a1688687344] Old Version: [4.2.0a1688644862]
+[2023-07-08 00:13:13] INFO root fetch - processPackages [pyEDAA.ProjectModel]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-08 00:13:13] INFO root fetch - processPackages [gdptools-pygeoapi-plugin]: New version: [0.0.8.dev0] Old Version: [0.0.7.dev0]
+[2023-07-08 00:13:13] INFO root fetch - processPackages [idownload]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-08 00:13:13] WARNING root fetch - processPackages [otio-burnins-adapter]: Skipping, unable to determine old version
+[2023-07-08 00:13:13] INFO root fetch - main [MainThread]: End processing [otio-burnins-adapter] error
+[2023-07-08 00:13:13] INFO root fetch - processPackages [KeyloggerScreenshot]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-07-08 00:13:13] INFO root fetch - processPackages [tflite-runtime]: New version: [2.9.1] Old Version: [2.8.0]
+[2023-07-08 00:13:13] INFO root fetch - processPackages [Files.com]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-08 00:13:13] INFO root fetch - processPackages [satori-ci]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-08 00:13:13] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/78/c2/38da3f655f8b6b7a376517dba91dc664eabb2d45e32f92a8de3678884478/pulumi_artifactory-4.2.0a1688644862.tar.gz
+[2023-07-08 00:13:13] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/94/53/fbdfda733dea9c814dc2617b3c6ff721e4e11d756b49b2d6dc317f00d5c3/Files.com-1.0.98.tar.gz
+[2023-07-08 00:13:13] INFO root fetch - processPackages [target-permutation-importances]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 00:13:13] INFO root fetch - processPackages [pyEDAA.ProjectModel]: Downloading https://files.pythonhosted.org/packages/05/86/11f1703305fad99e6735f7f6e2a5eddfbcf5203bc05a68ac943aef9c51e1/pyEDAA.ProjectModel-0.4.2.tar.gz
+[2023-07-08 00:13:13] INFO root fetch - processPackages [idownload]: Downloading https://files.pythonhosted.org/packages/a4/e5/f9234ddce3968b11b8535957bce81806dfe818b367fab1ebfdb679fb4133/idownload-0.1.0-py3-none-any.whl
+[2023-07-08 00:13:13] INFO root fetch - processPackages [KeyloggerScreenshot]: Downloading https://files.pythonhosted.org/packages/94/52/0c44b7c62499c457ad7607066ea068b3b8f8a4c44bfd1fe3801ad9bbea9b/KeyloggerScreenshot-0.4.3.tar.gz
+[2023-07-08 00:13:13] INFO root fetch - processPackages [gdptools-pygeoapi-plugin]: Downloading https://files.pythonhosted.org/packages/e5/79/e2b8ddaaca4c950f69ce875ccb431d18cbadc54bbf14fd238939060a404d/gdptools_pygeoapi_plugin-0.0.7.dev0.tar.gz
+[2023-07-08 00:13:13] INFO root fetch - processPackages [tflite-runtime]: Downloading https://files.pythonhosted.org/packages/95/d4/9819b1c14ffbd425f8292e774889bca203f227ed2419a7e7b6ded17c3a66/tflite_runtime-2.8.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-08 00:13:13] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/0f/e9/8730b0b247277bad0867ffd703c9de8cc8e32296273202190c6988be7d9e/satori_ci-1.2.8.tar.gz
+[2023-07-08 00:13:13] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/44/3c/3b31ceb99798d2be4dc7e7cd4953490cfd835ed7d6d6a592ef95dba2e984/target_permutation_importances-1.0.8.tar.gz
+[2023-07-08 00:13:13] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/0f/64/05b7c613c7bbdfe559ff56039e1288f650e06b1933fb237883f1c8199c41/pulumi_artifactory-4.2.0a1688687344.tar.gz
+[2023-07-08 00:13:13] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/3b/2c/ec980b43b6c82499f9f9442e06cf2b0e489d114398d6098f2a9049a19767/Files.com-1.0.99.tar.gz
+[2023-07-08 00:13:13] INFO root fetch - processPackages [idownload]: Downloading https://files.pythonhosted.org/packages/94/de/2dc6ab5b911e231af792cf50736e14bae961aceef95c4719d52fbf60ccc3/idownload-0.2.0-py3-none-any.whl
+[2023-07-08 00:13:14] INFO root fetch - processPackages [pyEDAA.ProjectModel]: Downloading https://files.pythonhosted.org/packages/fa/3d/8949e51277a8d5fde87be65b7ea632bef4266b636fa9c44abf7fb73e18f2/pyEDAA.ProjectModel-0.4.3.tar.gz
+[2023-07-08 00:13:14] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2023-07-08 00:13:14] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.0.98.tar.gz tmp/Files.com-1.0.99.tar.gz --markdown 20230708/F/Files.com/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-08 00:13:14] INFO root fetch - processPackages [KeyloggerScreenshot]: Downloading https://files.pythonhosted.org/packages/0b/ea/a87809164d5ed8a94d46de38b5689cd69c0c35500d9f3848be02613bb97d/KeyloggerScreenshot-0.5.0.tar.gz
+[2023-07-08 00:13:14] INFO root fetch - processPackages [gdptools-pygeoapi-plugin]: Downloading https://files.pythonhosted.org/packages/1c/d4/ff3fc996ae866a9884c1a066bba4a481548b95bce95126b609fffcb12e81/gdptools_pygeoapi_plugin-0.0.8.dev0.tar.gz
+[2023-07-08 00:13:14] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2023-07-08 00:13:14] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-4.2.0a1688644862.tar.gz tmp/pulumi_artifactory-4.2.0a1688687344.tar.gz --markdown 20230708/p/pulumi-artifactory/4.2.0a1688644862-4.2.0a1688687344/diff.md --exclude *.pyd
+[2023-07-08 00:13:14] INFO root fetch - processPackages [idownload]: executing diffoscope
+[2023-07-08 00:13:14] INFO root fetch - processPackages [idownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idownload-0.1.0-py3-none-any.whl.zip tmp/idownload-0.2.0-py3-none-any.whl.zip --markdown 20230708/i/idownload/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 00:13:14] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/b7/0b/451eae7159f796f9dfb4eaee887b8acdd96fc946dedeb3da9cafe052e2aa/satori_ci-1.2.9.tar.gz
+[2023-07-08 00:13:14] INFO root fetch - processPackages [pyEDAA.ProjectModel]: executing diffoscope
+[2023-07-08 00:13:14] INFO root fetch - processPackages [pyEDAA.ProjectModel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyEDAA.ProjectModel-0.4.2.tar.gz tmp/pyEDAA.ProjectModel-0.4.3.tar.gz --markdown 20230708/p/pyEDAA.ProjectModel/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-08 00:13:14] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/c8/2e/0adf5d1b25bbd228db5b4fef951bafd1e29a2615910abdb7f1cd5578c947/target_permutation_importances-1.0.9.tar.gz
+[2023-07-08 00:13:14] INFO root fetch - processPackages [KeyloggerScreenshot]: executing diffoscope
+[2023-07-08 00:13:14] INFO root fetch - processPackages [KeyloggerScreenshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KeyloggerScreenshot-0.4.3.tar.gz tmp/KeyloggerScreenshot-0.5.0.tar.gz --markdown 20230708/K/KeyloggerScreenshot/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-07-08 00:13:14] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-07-08 00:13:14] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_ci-1.2.8.tar.gz tmp/satori_ci-1.2.9.tar.gz --markdown 20230708/s/satori-ci/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-08 00:13:14] INFO root fetch - processPackages [target-permutation-importances]: executing diffoscope
+[2023-07-08 00:13:14] INFO root fetch - processPackages [target-permutation-importances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_permutation_importances-1.0.8.tar.gz tmp/target_permutation_importances-1.0.9.tar.gz --markdown 20230708/t/target-permutation-importances/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 00:13:14] INFO root fetch - processPackages [gdptools-pygeoapi-plugin]: executing diffoscope
+[2023-07-08 00:13:14] INFO root fetch - processPackages [gdptools-pygeoapi-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdptools_pygeoapi_plugin-0.0.7.dev0.tar.gz tmp/gdptools_pygeoapi_plugin-0.0.8.dev0.tar.gz --markdown 20230708/g/gdptools-pygeoapi-plugin/0.0.7.dev0-0.0.8.dev0/diff.md --exclude *.pyd
+[2023-07-08 00:13:14] INFO root fetch - processPackages [tflite-runtime]: Downloading https://files.pythonhosted.org/packages/f5/80/9edc8cbbc36318106e6cf43fbc5f1a655230d2f7f1ce1eb9eeadf2a7131d/tflite_runtime-2.9.1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-08 00:13:15] INFO root fetch - processPackages [tflite-runtime]: executing diffoscope
+[2023-07-08 00:13:15] INFO root fetch - processPackages [tflite-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime-2.8.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime-2.9.1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230708/t/tflite-runtime/2.8.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-08 00:13:15] INFO root fetch - processPackages [idownload]: Remove: archive file [/home/abi/fetcher/tmp/idownload-0.1.0-py3-none-any.whl.zip]
+[2023-07-08 00:13:15] INFO root fetch - processPackages [idownload]: Remove: archive file [/home/abi/fetcher/tmp/idownload-0.2.0-py3-none-any.whl.zip]
+[2023-07-08 00:13:15] INFO root fetch - main [MainThread]: End processing [idownload]: success
+[2023-07-08 00:13:15] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.8.tar.gz]
+[2023-07-08 00:13:15] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.9.tar.gz]
+[2023-07-08 00:13:15] INFO root fetch - main [MainThread]: End processing [target-permutation-importances]: success
+[2023-07-08 00:13:15] INFO root fetch - processPackages [satori-ci]: Remove: archive file [/home/abi/fetcher/tmp/satori_ci-1.2.8.tar.gz]
+[2023-07-08 00:13:15] INFO root fetch - processPackages [satori-ci]: Remove: archive file [/home/abi/fetcher/tmp/satori_ci-1.2.9.tar.gz]
+[2023-07-08 00:13:15] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-07-08 00:13:15] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.0.98.tar.gz]
+[2023-07-08 00:13:15] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.0.99.tar.gz]
+[2023-07-08 00:13:15] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2023-07-08 00:13:15] INFO root fetch - processPackages [pyEDAA.ProjectModel]: Remove: archive file [/home/abi/fetcher/tmp/pyEDAA.ProjectModel-0.4.2.tar.gz]
+[2023-07-08 00:13:15] INFO root fetch - processPackages [pyEDAA.ProjectModel]: Remove: archive file [/home/abi/fetcher/tmp/pyEDAA.ProjectModel-0.4.3.tar.gz]
+[2023-07-08 00:13:15] INFO root fetch - main [MainThread]: End processing [pyEDAA.ProjectModel]: success
+[2023-07-08 00:13:15] INFO root fetch - processPackages [KeyloggerScreenshot]: Remove: archive file [/home/abi/fetcher/tmp/KeyloggerScreenshot-0.4.3.tar.gz]
+[2023-07-08 00:13:15] INFO root fetch - processPackages [KeyloggerScreenshot]: Remove: archive file [/home/abi/fetcher/tmp/KeyloggerScreenshot-0.5.0.tar.gz]
+[2023-07-08 00:13:15] INFO root fetch - main [MainThread]: End processing [KeyloggerScreenshot]: success
+[2023-07-08 00:13:15] INFO root fetch - processPackages [gdptools-pygeoapi-plugin]: Remove: archive file [/home/abi/fetcher/tmp/gdptools_pygeoapi_plugin-0.0.7.dev0.tar.gz]
+[2023-07-08 00:13:15] INFO root fetch - processPackages [gdptools-pygeoapi-plugin]: Remove: archive file [/home/abi/fetcher/tmp/gdptools_pygeoapi_plugin-0.0.8.dev0.tar.gz]
+[2023-07-08 00:13:15] INFO root fetch - main [MainThread]: End processing [gdptools-pygeoapi-plugin]: success
+[2023-07-08 00:13:17] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-4.2.0a1688644862.tar.gz]
+[2023-07-08 00:13:17] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-4.2.0a1688687344.tar.gz]
+[2023-07-08 00:13:17] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2023-07-08 00:13:39] INFO root fetch - processPackages [tflite-runtime]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime-2.8.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-08 00:13:39] INFO root fetch - processPackages [tflite-runtime]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime-2.9.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-08 00:13:39] INFO root fetch - main [MainThread]: End processing [tflite-runtime]: success
+[2023-07-08 00:13:39] INFO root fetch - main [MainThread]: Store serial: [18806738]
