@@ -2019,3 +2019,32 @@
 [2023-07-08 01:48:35] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202307062345.tar.gz]
 [2023-07-08 01:48:35] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
 [2023-07-08 01:48:35] INFO root fetch - main [MainThread]: Store serial: [18807381]
+[2023-07-08 01:53:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807381]
+[2023-07-08 01:53:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 01:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: integer-fft
+[2023-07-08 01:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-chatglm
+[2023-07-08 01:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SuperSuit
+[2023-07-08 01:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shadowcopy
+[2023-07-08 01:53:44] INFO root fetch - processPackages [integer-fft]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 01:53:44] WARNING root fetch - processPackages [langchain-chatglm]: Skipping, unable to determine old version
+[2023-07-08 01:53:44] INFO root fetch - main [MainThread]: End processing [langchain-chatglm] error
+[2023-07-08 01:53:44] INFO root fetch - processPackages [shadowcopy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-08 01:53:44] INFO root fetch - processPackages [SuperSuit]: New version: [3.8.1] Old Version: [3.8.0]
+[2023-07-08 01:53:44] INFO root fetch - processPackages [integer-fft]: Downloading https://files.pythonhosted.org/packages/59/dd/992bd7d981cc45ef03f0348c174dc7446bfc4217c9d800668c50de4301d7/integer_fft-0.1.0.tar.gz
+[2023-07-08 01:53:44] INFO root fetch - processPackages [SuperSuit]: Downloading https://files.pythonhosted.org/packages/b5/f9/a88218116ed25160364a657964cb97acf1bafdb03cf8eb755967dbfebeb3/SuperSuit-3.8.0.tar.gz
+[2023-07-08 01:53:44] INFO root fetch - processPackages [shadowcopy]: Downloading https://files.pythonhosted.org/packages/ca/13/92f4a0baa65d35bbda9e8f4eddb5e931a3b3ef4f81b1c2ad3df6d84a5c25/shadowcopy-0.0.1.tar.gz
+[2023-07-08 01:53:44] WARNING root fetch - processPackages [integer-fft]: Skipping package: exceeds size limit 43703384>=10485760
+[2023-07-08 01:53:44] INFO root fetch - main [MainThread]: End processing [integer-fft] error
+[2023-07-08 01:53:44] INFO root fetch - processPackages [SuperSuit]: Downloading https://files.pythonhosted.org/packages/75/10/13959b7bf8d8dbf36b82dfe973753a5df3e7b9c0e9ce35a42b97bd17cbf5/SuperSuit-3.8.1.tar.gz
+[2023-07-08 01:53:44] INFO root fetch - processPackages [shadowcopy]: Downloading https://files.pythonhosted.org/packages/01/de/952a00f2b726bebf58fd7e72ae8ce892aebfe9e0dff49d6e9385ae9374b0/shadowcopy-0.0.2.tar.gz
+[2023-07-08 01:53:44] INFO root fetch - processPackages [SuperSuit]: executing diffoscope
+[2023-07-08 01:53:44] INFO root fetch - processPackages [SuperSuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SuperSuit-3.8.0.tar.gz tmp/SuperSuit-3.8.1.tar.gz --markdown 20230708/S/SuperSuit/3.8.0-3.8.1/diff.md --exclude *.pyd
+[2023-07-08 01:53:44] INFO root fetch - processPackages [shadowcopy]: executing diffoscope
+[2023-07-08 01:53:44] INFO root fetch - processPackages [shadowcopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shadowcopy-0.0.1.tar.gz tmp/shadowcopy-0.0.2.tar.gz --markdown 20230708/s/shadowcopy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 01:53:45] INFO root fetch - processPackages [shadowcopy]: Remove: archive file [/home/abi/fetcher/tmp/shadowcopy-0.0.1.tar.gz]
+[2023-07-08 01:53:45] INFO root fetch - processPackages [shadowcopy]: Remove: archive file [/home/abi/fetcher/tmp/shadowcopy-0.0.2.tar.gz]
+[2023-07-08 01:53:45] INFO root fetch - main [MainThread]: End processing [shadowcopy]: success
+[2023-07-08 01:53:45] INFO root fetch - processPackages [SuperSuit]: Remove: archive file [/home/abi/fetcher/tmp/SuperSuit-3.8.0.tar.gz]
+[2023-07-08 01:53:45] INFO root fetch - processPackages [SuperSuit]: Remove: archive file [/home/abi/fetcher/tmp/SuperSuit-3.8.1.tar.gz]
+[2023-07-08 01:53:45] INFO root fetch - main [MainThread]: End processing [SuperSuit]: success
+[2023-07-08 01:53:45] INFO root fetch - main [MainThread]: Store serial: [18807411]
