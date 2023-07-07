@@ -368,3 +368,105 @@
 [2023-07-08 00:13:39] INFO root fetch - processPackages [tflite-runtime]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime-2.9.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-08 00:13:39] INFO root fetch - main [MainThread]: End processing [tflite-runtime]: success
 [2023-07-08 00:13:39] INFO root fetch - main [MainThread]: Store serial: [18806738]
+[2023-07-08 00:18:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18806738]
+[2023-07-08 00:18:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-08 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thunderbeard
+[2023-07-08 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threemystic-common
+[2023-07-08 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyams-thesaurus
+[2023-07-08 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kodict-core
+[2023-07-08 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: otio-aaf-adapter
+[2023-07-08 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threemystic-cloud-client
+[2023-07-08 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ypricemagic
+[2023-07-08 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hspylib-clitt
+[2023-07-08 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-sdk
+[2023-07-08 00:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: usefulgram
+[2023-07-08 00:18:52] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.22] Old Version: [0.1.21]
+[2023-07-08 00:18:52] WARNING root fetch - processPackages [thunderbeard]: Skipping, unable to determine old version
+[2023-07-08 00:18:52] INFO root fetch - processPackages [thunderbeard]: Start processing: ladybug-geometry-polyskel
+[2023-07-08 00:18:52] INFO root fetch - main [MainThread]: End processing [thunderbeard] error
+[2023-07-08 00:18:52] INFO root fetch - processPackages [ypricemagic]: New version: [2.7.1.dev2] Old Version: [2.7.0]
+[2023-07-08 00:18:52] INFO root fetch - processPackages [otio-aaf-adapter]: New version: [1.0.0] Old Version: [0.15.0.dev1]
+[2023-07-08 00:18:52] WARNING root fetch - processPackages [usefulgram]: Skipping, unable to determine old version
+[2023-07-08 00:18:52] INFO root fetch - processPackages [pyams-thesaurus]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-08 00:18:52] INFO root fetch - processPackages [usefulgram]: Start processing: aries-cloudagent
+[2023-07-08 00:18:52] INFO root fetch - main [MainThread]: End processing [usefulgram] error
+[2023-07-08 00:18:52] INFO root fetch - processPackages [threemystic-common]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-08 00:18:52] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-08 00:18:52] WARNING root fetch - processPackages [kodict-core]: Skipping, unable to determine old version
+[2023-07-08 00:18:52] INFO root fetch - processPackages [kodict-core]: Start processing: lusid-sdk-preview
+[2023-07-08 00:18:52] INFO root fetch - main [MainThread]: End processing [kodict-core] error
+[2023-07-08 00:18:52] INFO root fetch - processPackages [aries-cloudagent]: New version: [1.0.0rc3] Old Version: [1.0.0rc2]
+[2023-07-08 00:18:52] INFO root fetch - processPackages [ladybug-geometry-polyskel]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-08 00:18:52] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-08 00:18:53] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-08 00:18:53] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/6e/18/b3bb47a1718a854a10d5aca3d9e970c918472be937afecdbda811bc4bd3c/threemystic_common-0.1.7.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/dd/21/c84bd3f7834a15801f5995b067190bf1903d20c374254ac661cd2af890a3/threemystic_cloud_client-0.1.21.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [otio-aaf-adapter]: Downloading https://files.pythonhosted.org/packages/a2/80/83c305886e8160ca0adf3e8ecc90542f74e5f9866d8d41eedf9447015bad/otio-aaf-adapter-0.15.0.dev1.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/a0/0f/42b890c8f02902edfff9f8ea73ea79d8acfea76c705b6966ff73e809437a/hspylib-clitt-0.9.8.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/5b/0c/dd20350cdde7778a06884aff44a0d0e1335ea93cf5ca03546f9180097454/ypricemagic-2.7.0.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [pyams-thesaurus]: Downloading https://files.pythonhosted.org/packages/5f/8b/f81e306d04b4637a6ce22e13804ecfdee5edfe5fd162a0fb58b36194cea2/pyams_thesaurus-1.3.4.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [aries-cloudagent]: Downloading https://files.pythonhosted.org/packages/93/05/659ccc126e716daebe92215caaf65fba86b46c515a3e36abbae43be11e95/aries_cloudagent-1.0.0rc2.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Downloading https://files.pythonhosted.org/packages/70/a4/3886c230dd5638c38bc22e301d1316c55197f4909db218feb0b686d8d0ca/ladybug-geometry-polyskel-1.4.8.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/47/f9/72c8e44dc280a8f3542b8890670b05e5c03581d2712648f572e4b0717836/hspylib-clitt-0.9.9.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/b9/ca/5d06a676406db7cd8c68d45931420d1cf76aa87e961f9067c799a66ecd0c/threemystic_common-0.1.8.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/87/9f/53a91f6a4dc62d3b9bdac8590b10bfc6fd31968b3b9d2bb03b078931da86/threemystic_cloud_client-0.1.22.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/a8/57/f24a8329cf620675ecc4ebbd69c4a9acb87d641e8c5406b21851eca47471/ypricemagic-2.7.1.dev2.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [otio-aaf-adapter]: Downloading https://files.pythonhosted.org/packages/d8/e6/7cccbb2488bbcb22e9855cacf69657af031ed4832c2c85a6dc4c6577b378/otio-aaf-adapter-1.0.0.tar.gz
+[2023-07-08 00:18:53] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-07-08 00:18:53] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230708/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-08 00:18:53] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2023-07-08 00:18:53] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.8.tar.gz tmp/hspylib-clitt-0.9.9.tar.gz --markdown 20230708/h/hspylib-clitt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-08 00:18:53] INFO root fetch - processPackages [threemystic-common]: executing diffoscope
+[2023-07-08 00:18:53] INFO root fetch - processPackages [threemystic-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_common-0.1.7.tar.gz tmp/threemystic_common-0.1.8.tar.gz --markdown 20230708/t/threemystic-common/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-08 00:18:53] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-07-08 00:18:53] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230708/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-08 00:18:53] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-08 00:18:53] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.21.tar.gz tmp/threemystic_cloud_client-0.1.22.tar.gz --markdown 20230708/t/threemystic-cloud-client/0.1.21-0.1.22/diff.md --exclude *.pyd
+[2023-07-08 00:18:54] INFO root fetch - processPackages [pyams-thesaurus]: Downloading https://files.pythonhosted.org/packages/ea/fc/0e15ed4a531f4a28ad18a4629f76467b56c8f4428f952e28554b8c66f192/pyams_thesaurus-1.3.5.tar.gz
+[2023-07-08 00:18:54] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Downloading https://files.pythonhosted.org/packages/66/a8/40ffbd6d2853e09d79d44a42df2f0eb3ad91930a41d2879849788b686b64/ladybug-geometry-polyskel-1.4.9.tar.gz
+[2023-07-08 00:18:54] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-07-08 00:18:54] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.7.0.tar.gz tmp/ypricemagic-2.7.1.dev2.tar.gz --markdown 20230708/y/ypricemagic/2.7.0-2.7.1.dev2/diff.md --exclude *.pyd
+[2023-07-08 00:18:54] INFO root fetch - processPackages [otio-aaf-adapter]: executing diffoscope
+[2023-07-08 00:18:54] INFO root fetch - processPackages [otio-aaf-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otio-aaf-adapter-0.15.0.dev1.tar.gz tmp/otio-aaf-adapter-1.0.0.tar.gz --markdown 20230708/o/otio-aaf-adapter/0.15.0.dev1-1.0.0/diff.md --exclude *.pyd
+[2023-07-08 00:18:54] INFO root fetch - processPackages [aries-cloudagent]: Downloading https://files.pythonhosted.org/packages/df/e6/2f8ad139caaeabc991da062211cd01e4413b670530de558c0984561c2ff5/aries_cloudagent-1.0.0rc3.tar.gz
+[2023-07-08 00:18:54] INFO root fetch - processPackages [ladybug-geometry-polyskel]: executing diffoscope
+[2023-07-08 00:18:54] INFO root fetch - processPackages [ladybug-geometry-polyskel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-geometry-polyskel-1.4.8.tar.gz tmp/ladybug-geometry-polyskel-1.4.9.tar.gz --markdown 20230708/l/ladybug-geometry-polyskel/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-08 00:18:54] INFO root fetch - processPackages [pyams-thesaurus]: executing diffoscope
+[2023-07-08 00:18:54] INFO root fetch - processPackages [pyams-thesaurus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyams_thesaurus-1.3.4.tar.gz tmp/pyams_thesaurus-1.3.5.tar.gz --markdown 20230708/p/pyams-thesaurus/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-08 00:18:54] INFO root fetch - processPackages [aries-cloudagent]: executing diffoscope
+[2023-07-08 00:18:54] INFO root fetch - processPackages [aries-cloudagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudagent-1.0.0rc2.tar.gz tmp/aries_cloudagent-1.0.0rc3.tar.gz --markdown 20230708/a/aries-cloudagent/1.0.0rc2-1.0.0rc3/diff.md --exclude *.pyd
+[2023-07-08 00:18:55] INFO root fetch - processPackages [otio-aaf-adapter]: Remove: archive file [/home/abi/fetcher/tmp/otio-aaf-adapter-0.15.0.dev1.tar.gz]
+[2023-07-08 00:18:55] INFO root fetch - processPackages [otio-aaf-adapter]: Remove: archive file [/home/abi/fetcher/tmp/otio-aaf-adapter-1.0.0.tar.gz]
+[2023-07-08 00:18:55] INFO root fetch - main [MainThread]: End processing [otio-aaf-adapter]: success
+[2023-07-08 00:18:55] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.1.7.tar.gz]
+[2023-07-08 00:18:55] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.1.8.tar.gz]
+[2023-07-08 00:18:55] INFO root fetch - main [MainThread]: End processing [threemystic-common]: success
+[2023-07-08 00:18:55] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.8.tar.gz]
+[2023-07-08 00:18:55] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.9.tar.gz]
+[2023-07-08 00:18:55] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2023-07-08 00:18:55] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-polyskel-1.4.8.tar.gz]
+[2023-07-08 00:18:55] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-polyskel-1.4.9.tar.gz]
+[2023-07-08 00:18:56] INFO root fetch - main [MainThread]: End processing [ladybug-geometry-polyskel]: success
+[2023-07-08 00:18:56] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.21.tar.gz]
+[2023-07-08 00:18:56] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.22.tar.gz]
+[2023-07-08 00:18:56] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-08 00:18:56] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.7.0.tar.gz]
+[2023-07-08 00:18:56] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.7.1.dev2.tar.gz]
+[2023-07-08 00:18:56] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-07-08 00:18:59] INFO root fetch - processPackages [pyams-thesaurus]: Remove: archive file [/home/abi/fetcher/tmp/pyams_thesaurus-1.3.4.tar.gz]
+[2023-07-08 00:18:59] INFO root fetch - processPackages [pyams-thesaurus]: Remove: archive file [/home/abi/fetcher/tmp/pyams_thesaurus-1.3.5.tar.gz]
+[2023-07-08 00:18:59] INFO root fetch - main [MainThread]: End processing [pyams-thesaurus]: success
+[2023-07-08 00:19:03] INFO root fetch - processPackages [aries-cloudagent]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudagent-1.0.0rc2.tar.gz]
+[2023-07-08 00:19:03] INFO root fetch - processPackages [aries-cloudagent]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudagent-1.0.0rc3.tar.gz]
+[2023-07-08 00:19:03] INFO root fetch - main [MainThread]: End processing [aries-cloudagent]: success
+[2023-07-08 00:19:04] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-07-08 00:19:04] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-07-08 00:19:04] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-07-08 00:19:08] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-07-08 00:19:08] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-07-08 00:19:08] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-07-08 00:19:08] INFO root fetch - main [MainThread]: Store serial: [18806790]
