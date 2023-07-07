@@ -1675,3 +1675,60 @@
 [2023-07-08 01:22:32] INFO root fetch - processPackages [np-probe-targets]: Remove: archive file [/home/abi/fetcher/tmp/np_probe_targets-0.0.9.tar.gz]
 [2023-07-08 01:22:32] INFO root fetch - main [MainThread]: End processing [np-probe-targets]: success
 [2023-07-08 01:22:32] INFO root fetch - main [MainThread]: Store serial: [18807240]
+[2023-07-08 01:27:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807240]
+[2023-07-08 01:27:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 01:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fasta-reader
+[2023-07-08 01:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stackviz
+[2023-07-08 01:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: voicemeeter-compact
+[2023-07-08 01:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openapi-server-test
+[2023-07-08 01:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fusion-engine-client
+[2023-07-08 01:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-github
+[2023-07-08 01:27:41] INFO root fetch - processPackages [voicemeeter-compact]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-07-08 01:27:41] INFO root fetch - processPackages [fasta-reader]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-07-08 01:27:41] INFO root fetch - processPackages [stackviz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 01:27:41] INFO root fetch - processPackages [fusion-engine-client]: New version: [1.20.0rc4] Old Version: [1.20.0rc3]
+[2023-07-08 01:27:41] INFO root fetch - processPackages [openapi-server-test]: New version: [1.0.27] Old Version: [1.0.25]
+[2023-07-08 01:27:41] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 01:27:41] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/b9/35/efcee1a6574f536e5392b6e5b41c156339231131ab5f5add1d96cc79fae5/voicemeeter_compact-1.8.3.tar.gz
+[2023-07-08 01:27:41] INFO root fetch - processPackages [fasta-reader]: Downloading https://files.pythonhosted.org/packages/e2/64/353731042762ff3d32aae0119189449cab5f61f8e663fd955fd2aad09a1d/fasta_reader-3.0.1.tar.gz
+[2023-07-08 01:27:41] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-08 01:27:41] INFO root fetch - processPackages [stackviz]: Downloading https://files.pythonhosted.org/packages/68/57/32bacfa138d01577531882d2a83609596f4a4c87d9b8c3359ff02023c387/stackviz-0.0.8.tar.gz
+[2023-07-08 01:27:42] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/1d/0e/ec4ab302142f4dbac6dcbfecb522f1f1e1279cc25227a9abe8cb40e73872/openapi_server_test-1.0.25.tar.gz
+[2023-07-08 01:27:42] INFO root fetch - processPackages [fusion-engine-client]: Downloading https://files.pythonhosted.org/packages/83/aa/1be21f888ebba610efb2f803f50d8a3a71f22bef057eb57bc1523bde9cf5/fusion-engine-client-1.20.0rc3.tar.gz
+[2023-07-08 01:27:42] INFO root fetch - processPackages [stackviz]: Downloading https://files.pythonhosted.org/packages/27/bc/b23c31dc9c7670ffb5d8c930b19ed8eba5ff4660a891e071a25df8328599/stackviz-0.0.9.tar.gz
+[2023-07-08 01:27:42] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-08 01:27:42] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/6d/3a/f048e16033d130e2fe9c7de514c8c235c2b57b87b699030fa74571e1b4b3/voicemeeter_compact-1.8.4.tar.gz
+[2023-07-08 01:27:42] INFO root fetch - processPackages [fasta-reader]: Downloading https://files.pythonhosted.org/packages/7a/02/cfc5e470938b59e4c842664ad49733d438cee5ac9f229e45a529c51524c3/fasta_reader-3.0.2.tar.gz
+[2023-07-08 01:27:42] INFO root fetch - processPackages [stackviz]: executing diffoscope
+[2023-07-08 01:27:42] INFO root fetch - processPackages [stackviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackviz-0.0.8.tar.gz tmp/stackviz-0.0.9.tar.gz --markdown 20230708/s/stackviz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 01:27:42] INFO root fetch - processPackages [voicemeeter-compact]: executing diffoscope
+[2023-07-08 01:27:42] INFO root fetch - processPackages [voicemeeter-compact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter_compact-1.8.3.tar.gz tmp/voicemeeter_compact-1.8.4.tar.gz --markdown 20230708/v/voicemeeter-compact/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-07-08 01:27:42] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-08 01:27:42] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230708/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 01:27:42] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/7f/f1/9845877cff0255f50434dbcc6c371909c26e58c46514a70e713d5d610504/openapi_server_test-1.0.27.tar.gz
+[2023-07-08 01:27:42] INFO root fetch - processPackages [fasta-reader]: executing diffoscope
+[2023-07-08 01:27:42] INFO root fetch - processPackages [fasta-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasta_reader-3.0.1.tar.gz tmp/fasta_reader-3.0.2.tar.gz --markdown 20230708/f/fasta-reader/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-07-08 01:27:42] INFO root fetch - processPackages [fusion-engine-client]: Downloading https://files.pythonhosted.org/packages/a6/22/c773610dc0600b8fb83080464a1a2f30c7a613dd15a1b03359773edd4de9/fusion-engine-client-1.20.0rc4.tar.gz
+[2023-07-08 01:27:42] INFO root fetch - processPackages [openapi-server-test]: executing diffoscope
+[2023-07-08 01:27:42] INFO root fetch - processPackages [openapi-server-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_server_test-1.0.25.tar.gz tmp/openapi_server_test-1.0.27.tar.gz --markdown 20230708/o/openapi-server-test/1.0.25-1.0.27/diff.md --exclude *.pyd
+[2023-07-08 01:27:42] INFO root fetch - processPackages [fusion-engine-client]: executing diffoscope
+[2023-07-08 01:27:42] INFO root fetch - processPackages [fusion-engine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-engine-client-1.20.0rc3.tar.gz tmp/fusion-engine-client-1.20.0rc4.tar.gz --markdown 20230708/f/fusion-engine-client/1.20.0rc3-1.20.0rc4/diff.md --exclude *.pyd
+[2023-07-08 01:27:43] INFO root fetch - processPackages [stackviz]: Remove: archive file [/home/abi/fetcher/tmp/stackviz-0.0.8.tar.gz]
+[2023-07-08 01:27:43] INFO root fetch - processPackages [stackviz]: Remove: archive file [/home/abi/fetcher/tmp/stackviz-0.0.9.tar.gz]
+[2023-07-08 01:27:43] INFO root fetch - main [MainThread]: End processing [stackviz]: success
+[2023-07-08 01:27:43] INFO root fetch - processPackages [fasta-reader]: Remove: archive file [/home/abi/fetcher/tmp/fasta_reader-3.0.1.tar.gz]
+[2023-07-08 01:27:43] INFO root fetch - processPackages [fasta-reader]: Remove: archive file [/home/abi/fetcher/tmp/fasta_reader-3.0.2.tar.gz]
+[2023-07-08 01:27:43] INFO root fetch - main [MainThread]: End processing [fasta-reader]: success
+[2023-07-08 01:27:43] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-08 01:27:43] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-08 01:27:43] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-08 01:27:43] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_compact-1.8.3.tar.gz]
+[2023-07-08 01:27:43] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_compact-1.8.4.tar.gz]
+[2023-07-08 01:27:43] INFO root fetch - main [MainThread]: End processing [voicemeeter-compact]: success
+[2023-07-08 01:27:43] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.25.tar.gz]
+[2023-07-08 01:27:43] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.27.tar.gz]
+[2023-07-08 01:27:43] INFO root fetch - main [MainThread]: End processing [openapi-server-test]: success
+[2023-07-08 01:27:44] INFO root fetch - processPackages [fusion-engine-client]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-client-1.20.0rc3.tar.gz]
+[2023-07-08 01:27:44] INFO root fetch - processPackages [fusion-engine-client]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-client-1.20.0rc4.tar.gz]
+[2023-07-08 01:27:44] INFO root fetch - main [MainThread]: End processing [fusion-engine-client]: success
+[2023-07-08 01:27:44] INFO root fetch - main [MainThread]: Store serial: [18807257]
