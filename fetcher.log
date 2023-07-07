@@ -1798,3 +1798,72 @@
 [2023-07-08 01:32:57] INFO root fetch - processPackages [idem-aws]: Remove: archive file [/home/abi/fetcher/tmp/idem-aws-3.0.1.tar.gz]
 [2023-07-08 01:32:57] INFO root fetch - main [MainThread]: End processing [idem-aws]: success
 [2023-07-08 01:32:57] INFO root fetch - main [MainThread]: Store serial: [18807288]
+[2023-07-08 01:38:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807288]
+[2023-07-08 01:38:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pulse3D
+[2023-07-08 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seismic-rna
+[2023-07-08 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audio-separator
+[2023-07-08 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typesense-server-wrapper
+[2023-07-08 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyprojectsort
+[2023-07-08 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hickleable
+[2023-07-08 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wsuks
+[2023-07-08 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: acryl-datahub
+[2023-07-08 01:38:05] INFO root fetch - processPackages [seismic-rna]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-08 01:38:05] INFO root fetch - processPackages [hickleable]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-08 01:38:05] INFO root fetch - processPackages [audio-separator]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-08 01:38:05] INFO root fetch - processPackages [wsuks]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-07-08 01:38:05] INFO root fetch - processPackages [pyprojectsort]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-08 01:38:05] WARNING root fetch - processPackages [typesense-server-wrapper]: Skipping, unable to determine old version
+[2023-07-08 01:38:05] INFO root fetch - main [MainThread]: End processing [typesense-server-wrapper] error
+[2023-07-08 01:38:05] INFO root fetch - processPackages [Pulse3D]: New version: [0.33.9] Old Version: [0.33.8]
+[2023-07-08 01:38:05] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-08 01:38:05] INFO root fetch - processPackages [wsuks]: Downloading https://files.pythonhosted.org/packages/e3/94/6aa4642df7fdb43a862499313fb0a939dad8ed947791ff49c3398533931e/wsuks-0.2.2.tar.gz
+[2023-07-08 01:38:06] INFO root fetch - processPackages [seismic-rna]: Downloading https://files.pythonhosted.org/packages/f6/e1/e708212ced2a70ba7559b1f846748cac9998ceee9d845d2df2e857513b49/seismic-rna-0.1.2.tar.gz
+[2023-07-08 01:38:06] INFO root fetch - processPackages [hickleable]: Downloading https://files.pythonhosted.org/packages/bc/9d/9b71f328c1c1448b851916a9a309d6954be7c11c6b0d60b177160521970d/hickleable-0.2.1.tar.gz
+[2023-07-08 01:38:06] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/23/e9/c051ec99dae1dd36ec7eda3a84b75adf4d121d5faaf9596118d7010f32bb/audio_separator-0.3.3.tar.gz
+[2023-07-08 01:38:06] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-07-08 01:38:06] INFO root fetch - processPackages [pyprojectsort]: Downloading https://files.pythonhosted.org/packages/ca/a9/b8ed7b71f769d59a9f67b74926916594c1ef41e0ca29ee194cbc4900d935/pyprojectsort-0.2.1.tar.gz
+[2023-07-08 01:38:06] INFO root fetch - processPackages [Pulse3D]: Downloading https://files.pythonhosted.org/packages/04/9d/0c6a47f0db508f90286b673abb964ae964032c7f77cc8b11c9a484349ae9/Pulse3D-0.33.8.tar.gz
+[2023-07-08 01:38:06] INFO root fetch - processPackages [hickleable]: Downloading https://files.pythonhosted.org/packages/c0/39/b65b2991b1610d8907e984f7d791b59c471f84d9e7fb0070395706993802/hickleable-0.2.2.tar.gz
+[2023-07-08 01:38:06] INFO root fetch - processPackages [seismic-rna]: Downloading https://files.pythonhosted.org/packages/f6/94/7643fadde6f486a0a737467944132487e0fb2b082f50ccc06459573edbe0/seismic-rna-0.1.3.tar.gz
+[2023-07-08 01:38:06] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/66/c0/fb773733f5a0738fe80f346e4a75429b90f717948121e4eb1760a33c7e80/audio_separator-0.3.4.tar.gz
+[2023-07-08 01:38:06] INFO root fetch - processPackages [pyprojectsort]: Downloading https://files.pythonhosted.org/packages/62/a0/8e957b91d3057bac3b470bda610554b8b76948dc90a3a31d0a17a0600e9a/pyprojectsort-0.2.2.tar.gz
+[2023-07-08 01:38:06] INFO root fetch - processPackages [wsuks]: Downloading https://files.pythonhosted.org/packages/cb/10/ea9a20ed6a842231f920cededd4bd11af4165795a61b4338de80d24ac722/wsuks-0.3.0.tar.gz
+[2023-07-08 01:38:06] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-07-08 01:38:06] INFO root fetch - processPackages [hickleable]: executing diffoscope
+[2023-07-08 01:38:06] INFO root fetch - processPackages [hickleable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hickleable-0.2.1.tar.gz tmp/hickleable-0.2.2.tar.gz --markdown 20230708/h/hickleable/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-08 01:38:06] INFO root fetch - processPackages [Pulse3D]: Downloading https://files.pythonhosted.org/packages/c6/97/41984430cef31e00a4dbcb6ba9652156e059270f6c7317150222d3ddf347/Pulse3D-0.33.9.tar.gz
+[2023-07-08 01:38:06] INFO root fetch - processPackages [audio-separator]: executing diffoscope
+[2023-07-08 01:38:06] INFO root fetch - processPackages [audio-separator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_separator-0.3.3.tar.gz tmp/audio_separator-0.3.4.tar.gz --markdown 20230708/a/audio-separator/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-08 01:38:06] INFO root fetch - processPackages [seismic-rna]: executing diffoscope
+[2023-07-08 01:38:06] INFO root fetch - processPackages [seismic-rna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seismic-rna-0.1.2.tar.gz tmp/seismic-rna-0.1.3.tar.gz --markdown 20230708/s/seismic-rna/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-08 01:38:06] INFO root fetch - processPackages [pyprojectsort]: executing diffoscope
+[2023-07-08 01:38:06] INFO root fetch - processPackages [pyprojectsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprojectsort-0.2.1.tar.gz tmp/pyprojectsort-0.2.2.tar.gz --markdown 20230708/p/pyprojectsort/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-08 01:38:06] INFO root fetch - processPackages [Pulse3D]: executing diffoscope
+[2023-07-08 01:38:06] INFO root fetch - processPackages [Pulse3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pulse3D-0.33.8.tar.gz tmp/Pulse3D-0.33.9.tar.gz --markdown 20230708/P/Pulse3D/0.33.8-0.33.9/diff.md --exclude *.pyd
+[2023-07-08 01:38:06] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-07-08 01:38:06] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230708/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-08 01:38:06] INFO root fetch - processPackages [wsuks]: executing diffoscope
+[2023-07-08 01:38:06] INFO root fetch - processPackages [wsuks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsuks-0.2.2.tar.gz tmp/wsuks-0.3.0.tar.gz --markdown 20230708/w/wsuks/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-07-08 01:38:07] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.3.3.tar.gz]
+[2023-07-08 01:38:07] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.3.4.tar.gz]
+[2023-07-08 01:38:07] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
+[2023-07-08 01:38:07] INFO root fetch - processPackages [hickleable]: Remove: archive file [/home/abi/fetcher/tmp/hickleable-0.2.1.tar.gz]
+[2023-07-08 01:38:07] INFO root fetch - processPackages [hickleable]: Remove: archive file [/home/abi/fetcher/tmp/hickleable-0.2.2.tar.gz]
+[2023-07-08 01:38:07] INFO root fetch - main [MainThread]: End processing [hickleable]: success
+[2023-07-08 01:38:08] INFO root fetch - processPackages [pyprojectsort]: Remove: archive file [/home/abi/fetcher/tmp/pyprojectsort-0.2.1.tar.gz]
+[2023-07-08 01:38:08] INFO root fetch - processPackages [pyprojectsort]: Remove: archive file [/home/abi/fetcher/tmp/pyprojectsort-0.2.2.tar.gz]
+[2023-07-08 01:38:08] INFO root fetch - main [MainThread]: End processing [pyprojectsort]: success
+[2023-07-08 01:38:08] INFO root fetch - processPackages [Pulse3D]: Remove: archive file [/home/abi/fetcher/tmp/Pulse3D-0.33.8.tar.gz]
+[2023-07-08 01:38:08] INFO root fetch - processPackages [Pulse3D]: Remove: archive file [/home/abi/fetcher/tmp/Pulse3D-0.33.9.tar.gz]
+[2023-07-08 01:38:08] INFO root fetch - main [MainThread]: End processing [Pulse3D]: success
+[2023-07-08 01:38:08] INFO root fetch - processPackages [wsuks]: Remove: archive file [/home/abi/fetcher/tmp/wsuks-0.2.2.tar.gz]
+[2023-07-08 01:38:08] INFO root fetch - processPackages [wsuks]: Remove: archive file [/home/abi/fetcher/tmp/wsuks-0.3.0.tar.gz]
+[2023-07-08 01:38:08] INFO root fetch - main [MainThread]: End processing [wsuks]: success
+[2023-07-08 01:38:08] INFO root fetch - processPackages [seismic-rna]: Remove: archive file [/home/abi/fetcher/tmp/seismic-rna-0.1.2.tar.gz]
+[2023-07-08 01:38:08] INFO root fetch - processPackages [seismic-rna]: Remove: archive file [/home/abi/fetcher/tmp/seismic-rna-0.1.3.tar.gz]
+[2023-07-08 01:38:08] INFO root fetch - main [MainThread]: End processing [seismic-rna]: success
+[2023-07-08 01:38:10] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-07-08 01:38:10] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-07-08 01:38:10] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-07-08 01:38:10] INFO root fetch - main [MainThread]: Store serial: [18807324]
