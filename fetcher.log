@@ -1936,3 +1936,86 @@
 [2023-07-08 01:43:23] INFO root fetch - processPackages [mosaicml]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-0.9.0.tar.gz]
 [2023-07-08 01:43:23] INFO root fetch - main [MainThread]: End processing [mosaicml]: success
 [2023-07-08 01:43:23] INFO root fetch - main [MainThread]: Store serial: [18807351]
+[2023-07-08 01:48:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807351]
+[2023-07-08 01:48:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-08 01:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opswork
+[2023-07-08 01:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: factor-analyzer
+[2023-07-08 01:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zetane
+[2023-07-08 01:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyphetools
+[2023-07-08 01:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skyplane-nightly
+[2023-07-08 01:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bluedo
+[2023-07-08 01:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cbcmgr
+[2023-07-08 01:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ElliptiCBn
+[2023-07-08 01:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygwidgets
+[2023-07-08 01:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shadowcopy
+[2023-07-08 01:48:32] INFO root fetch - processPackages [factor-analyzer]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-08 01:48:32] INFO root fetch - processPackages [bluedo]: New version: [2.3] Old Version: [2.2]
+[2023-07-08 01:48:32] INFO root fetch - processPackages [zetane]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-07-08 01:48:32] INFO root fetch - processPackages [cbcmgr]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-07-08 01:48:32] INFO root fetch - processPackages [pyphetools]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-08 01:48:32] INFO root fetch - processPackages [pygwidgets]: New version: [1.0.5] Old Version: [1.0.44]
+[2023-07-08 01:48:32] INFO root fetch - processPackages [opswork]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-08 01:48:32] INFO root fetch - processPackages [ElliptiCBn]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-08 01:48:32] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev202307062345] Old Version: [0.3.2.dev202307052345]
+[2023-07-08 01:48:32] WARNING root fetch - processPackages [shadowcopy]: Skipping, unable to determine old version
+[2023-07-08 01:48:32] INFO root fetch - main [MainThread]: End processing [shadowcopy] error
+[2023-07-08 01:48:32] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/55/9e/e6975d52c43d183935e7829af775dc6473da182640b872957540ac4168a4/cbcmgr-1.3.6.tar.gz
+[2023-07-08 01:48:32] INFO root fetch - processPackages [ElliptiCBn]: Downloading https://files.pythonhosted.org/packages/dc/4f/a0849fa2f4ee6b2a6d3424f9ce6e3685a22844c828bdd0b38c77e8efd4d4/ElliptiCBn-1.0.7.tar.gz
+[2023-07-08 01:48:32] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/16/8b/e71e001825a0208dcb4dd71ca173259e64d349df10b13a75e4744b8d2cb2/skyplane_nightly-0.3.2.dev202307052345.tar.gz
+[2023-07-08 01:48:32] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/ba/9a/40b2b3c9fef467c00a41bb012e7582dc550e985226bf4991ca879b40c5f3/pyphetools-0.4.7.tar.gz
+[2023-07-08 01:48:32] INFO root fetch - processPackages [bluedo]: Downloading https://files.pythonhosted.org/packages/0f/7b/a74d1e022422e0bf3ee9936ef2de1597e9393abbadff1a9bc42c43d1fdae/bluedo-2.2.tar.gz
+[2023-07-08 01:48:32] INFO root fetch - processPackages [factor-analyzer]: Downloading https://files.pythonhosted.org/packages/5b/23/2df9aa2257dd1940a01b873851e5531727452f328cab6a4a465b0d21ffda/factor_analyzer-0.4.1.tar.gz
+[2023-07-08 01:48:32] INFO root fetch - processPackages [zetane]: Downloading https://files.pythonhosted.org/packages/61/e6/68aa4c29886338ea14c35162b1ca327db323fe3a1ce7690f705c68d164a1/zetane-1.7.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-07-08 01:48:32] INFO root fetch - processPackages [pygwidgets]: Downloading https://files.pythonhosted.org/packages/24/0c/e5f79563d8853443b4417011d273dc4f7bbd8daadba66ebf3ed98603475e/pygwidgets-1.0.44.tar.gz
+[2023-07-08 01:48:32] INFO root fetch - processPackages [opswork]: Downloading https://files.pythonhosted.org/packages/71/29/0cb50d8540569360953f214595c802c96f0e199cc0b5fca306feea7f1ddf/opswork-0.3.0.tar.gz
+[2023-07-08 01:48:33] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/38/d8/08f426eabd6f32950b3a51c2575017b5827c8d6fcf44149c2fa6ed3aebf0/cbcmgr-1.3.7.tar.gz
+[2023-07-08 01:48:33] WARNING root fetch - processPackages [zetane]: Skipping package: exceeds size limit 19974465>=10485760
+[2023-07-08 01:48:33] INFO root fetch - main [MainThread]: End processing [zetane] error
+[2023-07-08 01:48:33] INFO root fetch - processPackages [ElliptiCBn]: Downloading https://files.pythonhosted.org/packages/d3/73/c2161e33048ae7ace07b6fa3719d6bbbeb8f87d1c4b2e2fd6dca73f71a9f/ElliptiCBn-1.0.8.tar.gz
+[2023-07-08 01:48:33] INFO root fetch - processPackages [cbcmgr]: executing diffoscope
+[2023-07-08 01:48:33] INFO root fetch - processPackages [cbcmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcmgr-1.3.6.tar.gz tmp/cbcmgr-1.3.7.tar.gz --markdown 20230708/c/cbcmgr/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-07-08 01:48:33] INFO root fetch - processPackages [opswork]: Downloading https://files.pythonhosted.org/packages/36/92/0395cb0dddd90cf7f4adad1de31632a6dd2be215a8e1ca1ec682de4cd5e1/opswork-0.4.0.tar.gz
+[2023-07-08 01:48:33] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/8c/1e/64386ca177209aef805a8d6821d07eba247bf5386f271f7ace864b0072de/pyphetools-0.4.8.tar.gz
+[2023-07-08 01:48:33] INFO root fetch - processPackages [factor-analyzer]: Downloading https://files.pythonhosted.org/packages/01/d1/14f1b0ca6ab5ac23e6d3847cc8b058406791c062826aa463f69fbf8cfc1a/factor_analyzer-0.5.0.tar.gz
+[2023-07-08 01:48:33] INFO root fetch - processPackages [ElliptiCBn]: executing diffoscope
+[2023-07-08 01:48:33] INFO root fetch - processPackages [ElliptiCBn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ElliptiCBn-1.0.7.tar.gz tmp/ElliptiCBn-1.0.8.tar.gz --markdown 20230708/E/ElliptiCBn/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-08 01:48:33] INFO root fetch - processPackages [bluedo]: Downloading https://files.pythonhosted.org/packages/03/c0/496663b357c3bf70ee7ecc57189346dae6782dccfe645e730615c4325729/bluedo-2.3.tar.gz
+[2023-07-08 01:48:33] INFO root fetch - processPackages [pygwidgets]: Downloading https://files.pythonhosted.org/packages/a3/c9/134b0ddd563d213f320e91df5fbed788e318c57ab6632ae833169938dbf9/pygwidgets-1.0.5.tar.gz
+[2023-07-08 01:48:33] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2023-07-08 01:48:33] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.4.7.tar.gz tmp/pyphetools-0.4.8.tar.gz --markdown 20230708/p/pyphetools/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-08 01:48:33] INFO root fetch - processPackages [bluedo]: executing diffoscope
+[2023-07-08 01:48:33] INFO root fetch - processPackages [bluedo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluedo-2.2.tar.gz tmp/bluedo-2.3.tar.gz --markdown 20230708/b/bluedo/2.2-2.3/diff.md --exclude *.pyd
+[2023-07-08 01:48:33] INFO root fetch - processPackages [opswork]: executing diffoscope
+[2023-07-08 01:48:33] INFO root fetch - processPackages [opswork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opswork-0.3.0.tar.gz tmp/opswork-0.4.0.tar.gz --markdown 20230708/o/opswork/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-08 01:48:33] INFO root fetch - processPackages [pygwidgets]: executing diffoscope
+[2023-07-08 01:48:33] INFO root fetch - processPackages [pygwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwidgets-1.0.44.tar.gz tmp/pygwidgets-1.0.5.tar.gz --markdown 20230708/p/pygwidgets/1.0.44-1.0.5/diff.md --exclude *.pyd
+[2023-07-08 01:48:33] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/ad/f3/d0e51bf5a83cfa1c30b1cf3124e879b352d2f0478b0bf7839b3468f43d0c/skyplane_nightly-0.3.2.dev202307062345.tar.gz
+[2023-07-08 01:48:33] INFO root fetch - processPackages [factor-analyzer]: executing diffoscope
+[2023-07-08 01:48:33] INFO root fetch - processPackages [factor-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factor_analyzer-0.4.1.tar.gz tmp/factor_analyzer-0.5.0.tar.gz --markdown 20230708/f/factor-analyzer/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-08 01:48:33] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-08 01:48:33] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev202307052345.tar.gz tmp/skyplane_nightly-0.3.2.dev202307062345.tar.gz --markdown 20230708/s/skyplane-nightly/0.3.2.dev202307052345-0.3.2.dev202307062345/diff.md --exclude *.pyd
+[2023-07-08 01:48:34] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-1.3.6.tar.gz]
+[2023-07-08 01:48:34] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-1.3.7.tar.gz]
+[2023-07-08 01:48:34] INFO root fetch - main [MainThread]: End processing [cbcmgr]: success
+[2023-07-08 01:48:34] INFO root fetch - processPackages [ElliptiCBn]: Remove: archive file [/home/abi/fetcher/tmp/ElliptiCBn-1.0.7.tar.gz]
+[2023-07-08 01:48:34] INFO root fetch - processPackages [ElliptiCBn]: Remove: archive file [/home/abi/fetcher/tmp/ElliptiCBn-1.0.8.tar.gz]
+[2023-07-08 01:48:34] INFO root fetch - main [MainThread]: End processing [ElliptiCBn]: success
+[2023-07-08 01:48:35] INFO root fetch - processPackages [opswork]: Remove: archive file [/home/abi/fetcher/tmp/opswork-0.3.0.tar.gz]
+[2023-07-08 01:48:35] INFO root fetch - processPackages [opswork]: Remove: archive file [/home/abi/fetcher/tmp/opswork-0.4.0.tar.gz]
+[2023-07-08 01:48:35] INFO root fetch - main [MainThread]: End processing [opswork]: success
+[2023-07-08 01:48:35] INFO root fetch - processPackages [bluedo]: Remove: archive file [/home/abi/fetcher/tmp/bluedo-2.2.tar.gz]
+[2023-07-08 01:48:35] INFO root fetch - processPackages [bluedo]: Remove: archive file [/home/abi/fetcher/tmp/bluedo-2.3.tar.gz]
+[2023-07-08 01:48:35] INFO root fetch - main [MainThread]: End processing [bluedo]: success
+[2023-07-08 01:48:35] INFO root fetch - processPackages [pygwidgets]: Remove: archive file [/home/abi/fetcher/tmp/pygwidgets-1.0.44.tar.gz]
+[2023-07-08 01:48:35] INFO root fetch - processPackages [pygwidgets]: Remove: archive file [/home/abi/fetcher/tmp/pygwidgets-1.0.5.tar.gz]
+[2023-07-08 01:48:35] INFO root fetch - main [MainThread]: End processing [pygwidgets]: success
+[2023-07-08 01:48:35] INFO root fetch - processPackages [factor-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/factor_analyzer-0.4.1.tar.gz]
+[2023-07-08 01:48:35] INFO root fetch - processPackages [factor-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/factor_analyzer-0.5.0.tar.gz]
+[2023-07-08 01:48:35] INFO root fetch - main [MainThread]: End processing [factor-analyzer]: success
+[2023-07-08 01:48:35] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.4.7.tar.gz]
+[2023-07-08 01:48:35] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.4.8.tar.gz]
+[2023-07-08 01:48:35] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2023-07-08 01:48:35] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202307052345.tar.gz]
+[2023-07-08 01:48:35] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202307062345.tar.gz]
+[2023-07-08 01:48:35] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-08 01:48:35] INFO root fetch - main [MainThread]: Store serial: [18807381]
