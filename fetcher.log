@@ -1594,3 +1594,84 @@
 [2023-07-08 01:17:15] INFO root fetch - processPackages [data-validation-framework]: Remove: archive file [/home/abi/fetcher/tmp/data-validation-framework-0.7.1.tar.gz]
 [2023-07-08 01:17:15] INFO root fetch - main [MainThread]: End processing [data-validation-framework]: success
 [2023-07-08 01:17:15] INFO root fetch - main [MainThread]: Store serial: [18807206]
+[2023-07-08 01:22:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807206]
+[2023-07-08 01:22:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-08 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-compose
+[2023-07-08 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: g2p-arpabet
+[2023-07-08 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macmoji
+[2023-07-08 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djaodjin-signup
+[2023-07-08 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databricks-feature-store
+[2023-07-08 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nso-applet-api
+[2023-07-08 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lantrane
+[2023-07-08 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyappi
+[2023-07-08 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ElliptiCBn
+[2023-07-08 01:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: np-probe-targets
+[2023-07-08 01:22:24] INFO root fetch - processPackages [macmoji]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-08 01:22:24] WARNING root fetch - processPackages [g2p-arpabet]: Skipping, unable to determine old version
+[2023-07-08 01:22:24] INFO root fetch - main [MainThread]: End processing [g2p-arpabet] error
+[2023-07-08 01:22:24] WARNING root fetch - processPackages [nso-applet-api]: Skipping, unable to determine old version
+[2023-07-08 01:22:24] INFO root fetch - main [MainThread]: End processing [nso-applet-api] error
+[2023-07-08 01:22:24] INFO root fetch - processPackages [torch-compose]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-08 01:22:24] INFO root fetch - processPackages [djaodjin-signup]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-08 01:22:24] INFO root fetch - processPackages [pyappi]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-08 01:22:24] INFO root fetch - processPackages [lantrane]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-08 01:22:24] INFO root fetch - processPackages [databricks-feature-store]: New version: [0.9.1a2] Old Version: [0.9.1a1]
+[2023-07-08 01:22:24] INFO root fetch - processPackages [np-probe-targets]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 01:22:24] INFO root fetch - processPackages [ElliptiCBn]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-08 01:22:24] INFO root fetch - processPackages [macmoji]: Downloading https://files.pythonhosted.org/packages/d2/e4/f45e7d8204d05b9d9bec4afa4cd3005078f65e8148acefb33a0887d01d2f/macmoji-0.1.0.tar.gz
+[2023-07-08 01:22:24] INFO root fetch - processPackages [torch-compose]: Downloading https://files.pythonhosted.org/packages/9b/14/56f266788f0f3c0913c62dc8c53ce518671451b900985da57bfa879a00b4/torch_compose-0.1.1.tar.gz
+[2023-07-08 01:22:24] INFO root fetch - processPackages [ElliptiCBn]: Downloading https://files.pythonhosted.org/packages/3e/cb/3496ddb45ba32b0eed4e5ee1a047e79f8b3256529c71ea1a76ee2ae659ea/ElliptiCBn-1.0.5.tar.gz
+[2023-07-08 01:22:24] INFO root fetch - processPackages [lantrane]: Downloading https://files.pythonhosted.org/packages/84/08/c035df8f02d58c7d93d5c346488059649a24b811b5e8d3494a87b3674898/lantrane-0.0.3.tar.gz
+[2023-07-08 01:22:24] INFO root fetch - processPackages [databricks-feature-store]: Downloading https://files.pythonhosted.org/packages/30/59/aed8ee28be2ed6205b016482ae801c804dfde835d2383f7ca75e200ba787/databricks-feature-store-0.9.1a1.tar.gz
+[2023-07-08 01:22:24] INFO root fetch - processPackages [djaodjin-signup]: Downloading https://files.pythonhosted.org/packages/64/12/2dcbb347156d6d049671bcaf8723a45394743709a238eb2da47640ad475c/djaodjin-signup-0.8.2.tar.gz
+[2023-07-08 01:22:24] INFO root fetch - processPackages [np-probe-targets]: Downloading https://files.pythonhosted.org/packages/11/e9/4c0786d45a9dfe325c438e46b9cfb57c2106dd7ea1bdaf27f220d70952db/np_probe_targets-0.0.8.tar.gz
+[2023-07-08 01:22:24] INFO root fetch - processPackages [pyappi]: Downloading https://files.pythonhosted.org/packages/cc/9c/27d229981f8ef567cf6737201c6d3a91bd57f91f73e1185f48af86553787/pyappi-1.0.1.tar.gz
+[2023-07-08 01:22:25] INFO root fetch - processPackages [ElliptiCBn]: Downloading https://files.pythonhosted.org/packages/73/85/89b3003ff398abd112195cc2e7095f269e32c62a4fd019d6303b9077a552/ElliptiCBn-1.0.6.tar.gz
+[2023-07-08 01:22:25] INFO root fetch - processPackages [lantrane]: Downloading https://files.pythonhosted.org/packages/8d/59/1307517c1f7602ddcb1a7da437b5f3445ba820a1287bc53164ec8d44bac6/lantrane-0.0.4.tar.gz
+[2023-07-08 01:22:25] INFO root fetch - processPackages [macmoji]: Downloading https://files.pythonhosted.org/packages/d9/da/65782c92c7e5bc1273318ddfba9e655d70d3cfc79514ebf91d2ee95468e3/macmoji-1.0.0.tar.gz
+[2023-07-08 01:22:25] INFO root fetch - processPackages [torch-compose]: Downloading https://files.pythonhosted.org/packages/37/ff/6d8c7647e3f4564ac7b6c642e1d743bcf16f8a73bc19deddbbcb873c6223/torch_compose-0.1.2.tar.gz
+[2023-07-08 01:22:25] INFO root fetch - processPackages [databricks-feature-store]: Downloading https://files.pythonhosted.org/packages/70/3f/1bb6ad64ce3ee786bb2d7b2e20f4d24f7f531359d90f0769b532ca553e4a/databricks-feature-store-0.9.1a2.tar.gz
+[2023-07-08 01:22:25] INFO root fetch - processPackages [ElliptiCBn]: executing diffoscope
+[2023-07-08 01:22:25] INFO root fetch - processPackages [ElliptiCBn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ElliptiCBn-1.0.5.tar.gz tmp/ElliptiCBn-1.0.6.tar.gz --markdown 20230708/E/ElliptiCBn/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-08 01:22:25] INFO root fetch - processPackages [lantrane]: executing diffoscope
+[2023-07-08 01:22:25] INFO root fetch - processPackages [lantrane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lantrane-0.0.3.tar.gz tmp/lantrane-0.0.4.tar.gz --markdown 20230708/l/lantrane/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-08 01:22:25] INFO root fetch - processPackages [djaodjin-signup]: Downloading https://files.pythonhosted.org/packages/26/46/a7770b2efd368a50b5738e05b3cc8e8b6937af7c09b88cfba1715698b8f9/djaodjin-signup-0.8.3.tar.gz
+[2023-07-08 01:22:25] INFO root fetch - processPackages [torch-compose]: executing diffoscope
+[2023-07-08 01:22:25] INFO root fetch - processPackages [torch-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_compose-0.1.1.tar.gz tmp/torch_compose-0.1.2.tar.gz --markdown 20230708/t/torch-compose/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-08 01:22:25] INFO root fetch - processPackages [pyappi]: Downloading https://files.pythonhosted.org/packages/c7/c6/4606ab0624c82d691d97162992548d9389f490d6dd6f97c0633f283ec8f9/pyappi-1.0.2.tar.gz
+[2023-07-08 01:22:25] INFO root fetch - processPackages [macmoji]: executing diffoscope
+[2023-07-08 01:22:25] INFO root fetch - processPackages [macmoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macmoji-0.1.0.tar.gz tmp/macmoji-1.0.0.tar.gz --markdown 20230708/m/macmoji/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-08 01:22:25] INFO root fetch - processPackages [np-probe-targets]: Downloading https://files.pythonhosted.org/packages/8c/12/687a9aeeda6444cf2464c50d50bca7e089546475997ce895159f1239f270/np_probe_targets-0.0.9.tar.gz
+[2023-07-08 01:22:25] INFO root fetch - processPackages [databricks-feature-store]: executing diffoscope
+[2023-07-08 01:22:25] INFO root fetch - processPackages [databricks-feature-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks-feature-store-0.9.1a1.tar.gz tmp/databricks-feature-store-0.9.1a2.tar.gz --markdown 20230708/d/databricks-feature-store/0.9.1a1-0.9.1a2/diff.md --exclude *.pyd
+[2023-07-08 01:22:25] INFO root fetch - processPackages [djaodjin-signup]: executing diffoscope
+[2023-07-08 01:22:25] INFO root fetch - processPackages [djaodjin-signup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djaodjin-signup-0.8.2.tar.gz tmp/djaodjin-signup-0.8.3.tar.gz --markdown 20230708/d/djaodjin-signup/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-08 01:22:25] INFO root fetch - processPackages [pyappi]: executing diffoscope
+[2023-07-08 01:22:25] INFO root fetch - processPackages [pyappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyappi-1.0.1.tar.gz tmp/pyappi-1.0.2.tar.gz --markdown 20230708/p/pyappi/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-08 01:22:25] INFO root fetch - processPackages [np-probe-targets]: executing diffoscope
+[2023-07-08 01:22:25] INFO root fetch - processPackages [np-probe-targets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_probe_targets-0.0.8.tar.gz tmp/np_probe_targets-0.0.9.tar.gz --markdown 20230708/n/np-probe-targets/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 01:22:26] INFO root fetch - processPackages [pyappi]: Remove: archive file [/home/abi/fetcher/tmp/pyappi-1.0.1.tar.gz]
+[2023-07-08 01:22:26] INFO root fetch - processPackages [pyappi]: Remove: archive file [/home/abi/fetcher/tmp/pyappi-1.0.2.tar.gz]
+[2023-07-08 01:22:26] INFO root fetch - main [MainThread]: End processing [pyappi]: success
+[2023-07-08 01:22:26] INFO root fetch - processPackages [lantrane]: Remove: archive file [/home/abi/fetcher/tmp/lantrane-0.0.3.tar.gz]
+[2023-07-08 01:22:26] INFO root fetch - processPackages [lantrane]: Remove: archive file [/home/abi/fetcher/tmp/lantrane-0.0.4.tar.gz]
+[2023-07-08 01:22:26] INFO root fetch - main [MainThread]: End processing [lantrane]: success
+[2023-07-08 01:22:26] INFO root fetch - processPackages [ElliptiCBn]: Remove: archive file [/home/abi/fetcher/tmp/ElliptiCBn-1.0.5.tar.gz]
+[2023-07-08 01:22:26] INFO root fetch - processPackages [ElliptiCBn]: Remove: archive file [/home/abi/fetcher/tmp/ElliptiCBn-1.0.6.tar.gz]
+[2023-07-08 01:22:26] INFO root fetch - main [MainThread]: End processing [ElliptiCBn]: success
+[2023-07-08 01:22:26] INFO root fetch - processPackages [torch-compose]: Remove: archive file [/home/abi/fetcher/tmp/torch_compose-0.1.1.tar.gz]
+[2023-07-08 01:22:26] INFO root fetch - processPackages [torch-compose]: Remove: archive file [/home/abi/fetcher/tmp/torch_compose-0.1.2.tar.gz]
+[2023-07-08 01:22:26] INFO root fetch - main [MainThread]: End processing [torch-compose]: success
+[2023-07-08 01:22:26] INFO root fetch - processPackages [macmoji]: Remove: archive file [/home/abi/fetcher/tmp/macmoji-0.1.0.tar.gz]
+[2023-07-08 01:22:26] INFO root fetch - processPackages [macmoji]: Remove: archive file [/home/abi/fetcher/tmp/macmoji-1.0.0.tar.gz]
+[2023-07-08 01:22:26] INFO root fetch - main [MainThread]: End processing [macmoji]: success
+[2023-07-08 01:22:26] INFO root fetch - processPackages [databricks-feature-store]: Remove: archive file [/home/abi/fetcher/tmp/databricks-feature-store-0.9.1a1.tar.gz]
+[2023-07-08 01:22:26] INFO root fetch - processPackages [databricks-feature-store]: Remove: archive file [/home/abi/fetcher/tmp/databricks-feature-store-0.9.1a2.tar.gz]
+[2023-07-08 01:22:26] INFO root fetch - main [MainThread]: End processing [databricks-feature-store]: success
+[2023-07-08 01:22:27] INFO root fetch - processPackages [djaodjin-signup]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-signup-0.8.2.tar.gz]
+[2023-07-08 01:22:27] INFO root fetch - processPackages [djaodjin-signup]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-signup-0.8.3.tar.gz]
+[2023-07-08 01:22:27] INFO root fetch - main [MainThread]: End processing [djaodjin-signup]: success
+[2023-07-08 01:22:32] INFO root fetch - processPackages [np-probe-targets]: Remove: archive file [/home/abi/fetcher/tmp/np_probe_targets-0.0.8.tar.gz]
+[2023-07-08 01:22:32] INFO root fetch - processPackages [np-probe-targets]: Remove: archive file [/home/abi/fetcher/tmp/np_probe_targets-0.0.9.tar.gz]
+[2023-07-08 01:22:32] INFO root fetch - main [MainThread]: End processing [np-probe-targets]: success
+[2023-07-08 01:22:32] INFO root fetch - main [MainThread]: Store serial: [18807240]
