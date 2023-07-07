@@ -1263,3 +1263,75 @@
 [2023-07-08 00:56:25] INFO root fetch - processPackages [now-lms]: Remove: archive file [/home/abi/fetcher/tmp/now_lms-0.0.1a8.post20230707.tar.gz]
 [2023-07-08 00:56:25] INFO root fetch - main [MainThread]: End processing [now-lms]: success
 [2023-07-08 00:56:25] INFO root fetch - main [MainThread]: Store serial: [18807089]
+[2023-07-08 01:01:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807089]
+[2023-07-08 01:01:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-08 01:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zaber-motion-bindings-windows
+[2023-07-08 01:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zaber-motion-bindings-linux
+[2023-07-08 01:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zaber-motion-bindings-darwin
+[2023-07-08 01:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zaber-motion
+[2023-07-08 01:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stackviz
+[2023-07-08 01:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openapi-server-test
+[2023-07-08 01:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: honeybee-radiance-postprocess
+[2023-07-08 01:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finops
+[2023-07-08 01:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: outerbounds
+[2023-07-08 01:01:34] INFO root fetch - processPackages [openapi-server-test]: New version: [1.0.24] Old Version: [1.0.23]
+[2023-07-08 01:01:34] INFO root fetch - processPackages [finops]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-08 01:01:34] INFO root fetch - processPackages [stackviz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 01:01:34] INFO root fetch - processPackages [outerbounds]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-08 01:01:34] INFO root fetch - processPackages [zaber-motion-bindings-darwin]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-07-08 01:01:34] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/c7/35/21ae7ab8be9d0207ef9c0795560d6a83c2ced2de14e70a19a3ef5b338a0e/openapi_server_test-1.0.23.tar.gz
+[2023-07-08 01:01:34] INFO root fetch - processPackages [zaber-motion-bindings-windows]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-07-08 01:01:34] INFO root fetch - processPackages [zaber-motion]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-07-08 01:01:34] INFO root fetch - processPackages [zaber-motion-bindings-linux]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-07-08 01:01:34] INFO root fetch - processPackages [finops]: Downloading https://files.pythonhosted.org/packages/86/b5/6a64e47321a3749517552b7ac1f41025e821b6cad18428cfd90b09312e79/finops-0.2.2.tar.gz
+[2023-07-08 01:01:34] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-08 01:01:34] INFO root fetch - processPackages [stackviz]: Downloading https://files.pythonhosted.org/packages/68/57/32bacfa138d01577531882d2a83609596f4a4c87d9b8c3359ff02023c387/stackviz-0.0.8.tar.gz
+[2023-07-08 01:01:34] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2023-07-08 01:01:34] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/db/c3/414322f3ea100053ac3662e6bb112f6d3bc83f54c5c0996e89fef5c3d384/outerbounds-0.3.8-py3-none-any.whl
+[2023-07-08 01:01:34] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/e9/6d/a8f42aa4e2985b39ba8433fb00dd929f7be6150f543084cfe1df2c3ee850/zaber_motion-4.2.1.tar.gz
+[2023-07-08 01:01:35] INFO root fetch - processPackages [zaber-motion-bindings-darwin]: Downloading https://files.pythonhosted.org/packages/97/5b/b7b792ad6ac8cff2ca2e41fcd0baadee12d98071da0b4ed47c27e0eea24d/zaber_motion_bindings_darwin-4.2.1.tar.gz
+[2023-07-08 01:01:35] INFO root fetch - processPackages [zaber-motion-bindings-windows]: Downloading https://files.pythonhosted.org/packages/eb/ee/35a0b4c53a5cc23e0c8cb51db1101e5fcec3c011e94959bc35ac7d6c4e44/zaber_motion_bindings_windows-4.2.1.tar.gz
+[2023-07-08 01:01:35] INFO root fetch - processPackages [zaber-motion-bindings-linux]: Downloading https://files.pythonhosted.org/packages/7e/9f/a3134d6913a943e26f1feaa32f5d64362d6bc412c5931fefb2464442fdfb/zaber_motion_bindings_linux-4.2.1.tar.gz
+[2023-07-08 01:01:35] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/01/a8/74d14f731b69e80f69646a8e328a16fdec22aafdcea9eaa5345b0ce5b492/openapi_server_test-1.0.24.tar.gz
+[2023-07-08 01:01:35] INFO root fetch - processPackages [stackviz]: Downloading https://files.pythonhosted.org/packages/27/bc/b23c31dc9c7670ffb5d8c930b19ed8eba5ff4660a891e071a25df8328599/stackviz-0.0.9.tar.gz
+[2023-07-08 01:01:35] INFO root fetch - processPackages [finops]: Downloading https://files.pythonhosted.org/packages/fd/3a/33b7b32a0a76de34bcfc7c09aae335929c7e902d0229b35debdc4e56c300/finops-0.2.3.tar.gz
+[2023-07-08 01:01:35] WARNING root fetch - processPackages [zaber-motion-bindings-darwin]: Skipping package: exceeds size limit 20987751>=10485760
+[2023-07-08 01:01:35] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-darwin] error
+[2023-07-08 01:01:35] WARNING root fetch - processPackages [zaber-motion-bindings-windows]: Skipping package: exceeds size limit 18867273>=10485760
+[2023-07-08 01:01:35] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-windows] error
+[2023-07-08 01:01:35] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2023-07-08 01:01:35] WARNING root fetch - processPackages [zaber-motion-bindings-linux]: Skipping package: exceeds size limit 37846213>=10485760
+[2023-07-08 01:01:35] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-linux] error
+[2023-07-08 01:01:35] INFO root fetch - processPackages [stackviz]: executing diffoscope
+[2023-07-08 01:01:35] INFO root fetch - processPackages [stackviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackviz-0.0.8.tar.gz tmp/stackviz-0.0.9.tar.gz --markdown 20230708/s/stackviz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 01:01:35] INFO root fetch - processPackages [openapi-server-test]: executing diffoscope
+[2023-07-08 01:01:35] INFO root fetch - processPackages [openapi-server-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_server_test-1.0.23.tar.gz tmp/openapi_server_test-1.0.24.tar.gz --markdown 20230708/o/openapi-server-test/1.0.23-1.0.24/diff.md --exclude *.pyd
+[2023-07-08 01:01:35] INFO root fetch - processPackages [finops]: executing diffoscope
+[2023-07-08 01:01:35] INFO root fetch - processPackages [finops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finops-0.2.2.tar.gz tmp/finops-0.2.3.tar.gz --markdown 20230708/f/finops/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-08 01:01:35] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/eb/c8/c87d25484be12f66ee78314f7ebd89ca4200a29e85c757b1d2e469e06c52/outerbounds-0.3.9-py3-none-any.whl
+[2023-07-08 01:01:35] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-07-08 01:01:35] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230708/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-08 01:01:35] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/27/8d/24abd1d48e368f04b1da5ed44f308cdee0f006b8cb622eda5439d5847378/zaber_motion-4.2.2.tar.gz
+[2023-07-08 01:01:35] INFO root fetch - processPackages [zaber-motion]: executing diffoscope
+[2023-07-08 01:01:35] INFO root fetch - processPackages [zaber-motion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaber_motion-4.2.1.tar.gz tmp/zaber_motion-4.2.2.tar.gz --markdown 20230708/z/zaber-motion/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-07-08 01:01:35] INFO root fetch - processPackages [outerbounds]: executing diffoscope
+[2023-07-08 01:01:35] INFO root fetch - processPackages [outerbounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outerbounds-0.3.8-py3-none-any.whl.zip tmp/outerbounds-0.3.9-py3-none-any.whl.zip --markdown 20230708/o/outerbounds/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-08 01:01:36] INFO root fetch - processPackages [stackviz]: Remove: archive file [/home/abi/fetcher/tmp/stackviz-0.0.8.tar.gz]
+[2023-07-08 01:01:36] INFO root fetch - processPackages [stackviz]: Remove: archive file [/home/abi/fetcher/tmp/stackviz-0.0.9.tar.gz]
+[2023-07-08 01:01:36] INFO root fetch - main [MainThread]: End processing [stackviz]: success
+[2023-07-08 01:01:36] INFO root fetch - processPackages [finops]: Remove: archive file [/home/abi/fetcher/tmp/finops-0.2.2.tar.gz]
+[2023-07-08 01:01:36] INFO root fetch - processPackages [finops]: Remove: archive file [/home/abi/fetcher/tmp/finops-0.2.3.tar.gz]
+[2023-07-08 01:01:36] INFO root fetch - main [MainThread]: End processing [finops]: success
+[2023-07-08 01:01:36] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.98.tar.gz]
+[2023-07-08 01:01:36] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
+[2023-07-08 01:01:36] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-07-08 01:01:36] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.8-py3-none-any.whl.zip]
+[2023-07-08 01:01:36] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.9-py3-none-any.whl.zip]
+[2023-07-08 01:01:36] INFO root fetch - main [MainThread]: End processing [outerbounds]: success
+[2023-07-08 01:01:36] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.23.tar.gz]
+[2023-07-08 01:01:36] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.24.tar.gz]
+[2023-07-08 01:01:36] INFO root fetch - main [MainThread]: End processing [openapi-server-test]: success
+[2023-07-08 01:01:37] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-4.2.1.tar.gz]
+[2023-07-08 01:01:37] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-4.2.2.tar.gz]
+[2023-07-08 01:01:37] INFO root fetch - main [MainThread]: End processing [zaber-motion]: success
+[2023-07-08 01:01:37] INFO root fetch - main [MainThread]: Store serial: [18807114]
