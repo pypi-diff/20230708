@@ -1164,3 +1164,102 @@
 [2023-07-08 00:50:50] INFO root fetch - processPackages [AnnoMate]: Remove: archive file [/home/abi/fetcher/tmp/AnnoMate-0.0.1.tar.gz]
 [2023-07-08 00:50:50] INFO root fetch - main [MainThread]: End processing [AnnoMate]: success
 [2023-07-08 00:50:50] INFO root fetch - main [MainThread]: Store serial: [18807053]
+[2023-07-08 00:55:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807053]
+[2023-07-08 00:55:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-08 00:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: capeditor
+[2023-07-08 00:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acryl-datahub
+[2023-07-08 00:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: samus-logging
+[2023-07-08 00:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acryl-datahub-airflow-plugin
+[2023-07-08 00:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strawberry-django-auth-jwt
+[2023-07-08 00:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-stripe
+[2023-07-08 00:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lbt-ladybug
+[2023-07-08 00:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stackviz
+[2023-07-08 00:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: now-lms
+[2023-07-08 00:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skytemple-files
+[2023-07-08 00:55:59] INFO root fetch - processPackages [stackviz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 00:55:59] INFO root fetch - processPackages [capeditor]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-08 00:55:59] INFO root fetch - processPackages [strawberry-django-auth-jwt]: New version: [0.2.5.dev1688769246] Old Version: [0.2.5.dev1688766475]
+[2023-07-08 00:55:59] INFO root fetch - processPackages [st-stripe]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 00:55:59] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-08 00:55:59] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-08 00:55:59] WARNING root fetch - processPackages [samus-logging]: Skipping, unable to determine old version
+[2023-07-08 00:55:59] INFO root fetch - processPackages [samus-logging]: Start processing: lbt-honeybee
+[2023-07-08 00:55:59] INFO root fetch - main [MainThread]: End processing [samus-logging] error
+[2023-07-08 00:55:59] INFO root fetch - processPackages [now-lms]: New version: [0.0.1a8.post20230707] Old Version: [0.0.1a7.post20230622]
+[2023-07-08 00:55:59] INFO root fetch - processPackages [skytemple-files]: New version: [1.6.0a1] Old Version: [1.5.4]
+[2023-07-08 00:55:59] INFO root fetch - processPackages [stackviz]: Downloading https://files.pythonhosted.org/packages/68/57/32bacfa138d01577531882d2a83609596f4a4c87d9b8c3359ff02023c387/stackviz-0.0.8.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-08 00:55:59] INFO root fetch - processPackages [lbt-ladybug]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-08 00:55:59] INFO root fetch - processPackages [st-stripe]: Downloading https://files.pythonhosted.org/packages/11/1a/47298ec7cfe387abc4ee42de7412cba945e4a2dc8306456fccb4b2de26a5/st-stripe-0.1.0.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/77/21/96499ae1e3a540a7dc11ca8ac783c65215954a7d9ae0b3790783de042178/capeditor-0.1.9.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Downloading https://files.pythonhosted.org/packages/b6/82/33503f96f06b2f963dfa2636e851fe9b43ec1081f3300a0697e9cb3720da/strawberry_django_auth_jwt-0.2.5.dev1688766475.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [skytemple-files]: Downloading https://files.pythonhosted.org/packages/c2/af/9939ca70f30d6714e0dd30b395be57ca1437ec1b9d19e9a697e0746333f2/skytemple_files-1.5.4-py3-none-any.whl
+[2023-07-08 00:55:59] INFO root fetch - processPackages [now-lms]: Downloading https://files.pythonhosted.org/packages/3c/ec/d06f2f385c0ca4b63c2c763c1d755d08da09290f3f1c3396c5c850d3dbc7/now_lms-0.0.1a7.post20230622.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/e4/ac/474c600d6f495b8d63c49d7689b2b076f0c5f94c22728fe795233852a9e1/lbt-ladybug-0.8.1.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [stackviz]: Downloading https://files.pythonhosted.org/packages/27/bc/b23c31dc9c7670ffb5d8c930b19ed8eba5ff4660a891e071a25df8328599/stackviz-0.0.9.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [st-stripe]: Downloading https://files.pythonhosted.org/packages/30/ab/2c6707658fd835017299ef164a82e2b3a60bc75b72bbb646e91f1105b169/st-stripe-0.1.1.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/2c/3c/e79b36142829635469b234af789b7358271f0c9ba602ec677c05c80278d3/capeditor-0.2.0.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [stackviz]: executing diffoscope
+[2023-07-08 00:55:59] INFO root fetch - processPackages [stackviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackviz-0.0.8.tar.gz tmp/stackviz-0.0.9.tar.gz --markdown 20230708/s/stackviz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 00:55:59] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-07-08 00:55:59] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230708/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-08 00:55:59] INFO root fetch - processPackages [st-stripe]: executing diffoscope
+[2023-07-08 00:55:59] INFO root fetch - processPackages [st-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-stripe-0.1.0.tar.gz tmp/st-stripe-0.1.1.tar.gz --markdown 20230708/s/st-stripe/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 00:55:59] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Downloading https://files.pythonhosted.org/packages/a9/21/3925441a4d085057cf1f27149286c0a4501f0f58f144a61ecd0cf7045e3e/strawberry_django_auth_jwt-0.2.5.dev1688769246.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-07-08 00:55:59] INFO root fetch - processPackages [capeditor]: executing diffoscope
+[2023-07-08 00:55:59] INFO root fetch - processPackages [capeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capeditor-0.1.9.tar.gz tmp/capeditor-0.2.0.tar.gz --markdown 20230708/c/capeditor/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 00:55:59] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-08 00:55:59] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230708/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-08 00:56:00] INFO root fetch - processPackages [strawberry-django-auth-jwt]: executing diffoscope
+[2023-07-08 00:56:00] INFO root fetch - processPackages [strawberry-django-auth-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_auth_jwt-0.2.5.dev1688766475.tar.gz tmp/strawberry_django_auth_jwt-0.2.5.dev1688769246.tar.gz --markdown 20230708/s/strawberry-django-auth-jwt/0.2.5.dev1688766475-0.2.5.dev1688769246/diff.md --exclude *.pyd
+[2023-07-08 00:56:00] INFO root fetch - processPackages [skytemple-files]: Downloading https://files.pythonhosted.org/packages/2b/15/021998c99c2b4e0b257fb875272a8734935571f335d0ba672eadb3f20227/skytemple_files-1.6.0a1-py3-none-any.whl
+[2023-07-08 00:56:00] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-07-08 00:56:00] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230708/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-08 00:56:00] INFO root fetch - processPackages [skytemple-files]: executing diffoscope
+[2023-07-08 00:56:00] INFO root fetch - processPackages [skytemple-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skytemple_files-1.5.4-py3-none-any.whl.zip tmp/skytemple_files-1.6.0a1-py3-none-any.whl.zip --markdown 20230708/s/skytemple-files/1.5.4-1.6.0a1/diff.md --exclude *.pyd
+[2023-07-08 00:56:01] INFO root fetch - processPackages [st-stripe]: Remove: archive file [/home/abi/fetcher/tmp/st-stripe-0.1.0.tar.gz]
+[2023-07-08 00:56:01] INFO root fetch - processPackages [st-stripe]: Remove: archive file [/home/abi/fetcher/tmp/st-stripe-0.1.1.tar.gz]
+[2023-07-08 00:56:01] INFO root fetch - processPackages [st-stripe]: Start processing: plottergeist
+[2023-07-08 00:56:01] INFO root fetch - main [MainThread]: End processing [st-stripe]: success
+[2023-07-08 00:56:01] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/6e/e7/a4e6dcfc6b2750475acd6dee9e849a991053471ff22a90aa8f986eaef25b/lbt-ladybug-0.9.0.tar.gz
+[2023-07-08 00:56:01] INFO root fetch - processPackages [now-lms]: Downloading https://files.pythonhosted.org/packages/74/b4/83ce778a2eb8eb790b693a0192f9982bb3337f4657a18e682da142948f43/now_lms-0.0.1a8.post20230707.tar.gz
+[2023-07-08 00:56:01] WARNING root fetch - processPackages [plottergeist]: Skipping, unable to determine old version
+[2023-07-08 00:56:01] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-07-08 00:56:01] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-07-08 00:56:01] INFO root fetch - main [MainThread]: End processing [plottergeist] error
+[2023-07-08 00:56:01] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-07-08 00:56:01] INFO root fetch - processPackages [stackviz]: Remove: archive file [/home/abi/fetcher/tmp/stackviz-0.0.8.tar.gz]
+[2023-07-08 00:56:01] INFO root fetch - processPackages [stackviz]: Remove: archive file [/home/abi/fetcher/tmp/stackviz-0.0.9.tar.gz]
+[2023-07-08 00:56:01] INFO root fetch - main [MainThread]: End processing [stackviz]: success
+[2023-07-08 00:56:01] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-08 00:56:01] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-08 00:56:01] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-08 00:56:01] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.1.9.tar.gz]
+[2023-07-08 00:56:01] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.2.0.tar.gz]
+[2023-07-08 00:56:01] INFO root fetch - main [MainThread]: End processing [capeditor]: success
+[2023-07-08 00:56:01] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_auth_jwt-0.2.5.dev1688766475.tar.gz]
+[2023-07-08 00:56:01] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_auth_jwt-0.2.5.dev1688769246.tar.gz]
+[2023-07-08 00:56:01] INFO root fetch - main [MainThread]: End processing [strawberry-django-auth-jwt]: success
+[2023-07-08 00:56:02] INFO root fetch - processPackages [lbt-ladybug]: executing diffoscope
+[2023-07-08 00:56:02] INFO root fetch - processPackages [lbt-ladybug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-ladybug-0.8.1.tar.gz tmp/lbt-ladybug-0.9.0.tar.gz --markdown 20230708/l/lbt-ladybug/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 00:56:02] INFO root fetch - processPackages [now-lms]: executing diffoscope
+[2023-07-08 00:56:02] INFO root fetch - processPackages [now-lms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/now_lms-0.0.1a7.post20230622.tar.gz tmp/now_lms-0.0.1a8.post20230707.tar.gz --markdown 20230708/n/now-lms/0.0.1a7.post20230622-0.0.1a8.post20230707/diff.md --exclude *.pyd
+[2023-07-08 00:56:03] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-07-08 00:56:03] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-07-08 00:56:03] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-07-08 00:56:04] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.8.1.tar.gz]
+[2023-07-08 00:56:04] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.9.0.tar.gz]
+[2023-07-08 00:56:04] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
+[2023-07-08 00:56:06] INFO root fetch - processPackages [skytemple-files]: Remove: archive file [/home/abi/fetcher/tmp/skytemple_files-1.5.4-py3-none-any.whl.zip]
+[2023-07-08 00:56:06] INFO root fetch - processPackages [skytemple-files]: Remove: archive file [/home/abi/fetcher/tmp/skytemple_files-1.6.0a1-py3-none-any.whl.zip]
+[2023-07-08 00:56:06] INFO root fetch - main [MainThread]: End processing [skytemple-files]: success
+[2023-07-08 00:56:25] INFO root fetch - processPackages [now-lms]: Remove: archive file [/home/abi/fetcher/tmp/now_lms-0.0.1a7.post20230622.tar.gz]
+[2023-07-08 00:56:25] INFO root fetch - processPackages [now-lms]: Remove: archive file [/home/abi/fetcher/tmp/now_lms-0.0.1a8.post20230707.tar.gz]
+[2023-07-08 00:56:25] INFO root fetch - main [MainThread]: End processing [now-lms]: success
+[2023-07-08 00:56:25] INFO root fetch - main [MainThread]: Store serial: [18807089]
