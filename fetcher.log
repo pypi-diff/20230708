@@ -1529,3 +1529,68 @@
 [2023-07-08 01:12:03] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2023-07-08 01:12:03] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-07-08 01:12:03] INFO root fetch - main [MainThread]: Store serial: [18807182]
+[2023-07-08 01:17:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807182]
+[2023-07-08 01:17:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ephysio
+[2023-07-08 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-validation-framework
+[2023-07-08 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macmoji
+[2023-07-08 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitlabx
+[2023-07-08 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strawberry-django-auth-jwt
+[2023-07-08 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fennel-ai
+[2023-07-08 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apiosintDS
+[2023-07-08 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zetane
+[2023-07-08 01:17:12] INFO root fetch - processPackages [ephysio]: New version: [1.0.1] Old Version: [1.0]
+[2023-07-08 01:17:12] INFO root fetch - processPackages [fennel-ai]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-07-08 01:17:12] INFO root fetch - processPackages [apiosintDS]: New version: [2.0] Old Version: [1.8.3]
+[2023-07-08 01:17:13] INFO root fetch - processPackages [strawberry-django-auth-jwt]: New version: [0.2.5.dev1688771654] Old Version: [0.2.5.dev1688770300]
+[2023-07-08 01:17:13] INFO root fetch - processPackages [gitlabx]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-08 01:17:13] INFO root fetch - processPackages [data-validation-framework]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-08 01:17:13] INFO root fetch - processPackages [zetane]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-07-08 01:17:13] WARNING root fetch - processPackages [macmoji]: Skipping, unable to determine old version
+[2023-07-08 01:17:13] INFO root fetch - main [MainThread]: End processing [macmoji] error
+[2023-07-08 01:17:13] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/d4/26/4eb76cfe9ce1dbe30c04220d8454ea3bc2454cab78e5cb06cba758448183/fennel_ai-0.8.6.tar.gz
+[2023-07-08 01:17:13] INFO root fetch - processPackages [gitlabx]: Downloading https://files.pythonhosted.org/packages/ed/74/8d44d8e5a889ee0567718b27b36746a5b1b79fa06f6bf12e2aa3679c82c7/gitlabx-0.4.1-py3-none-any.whl
+[2023-07-08 01:17:13] INFO root fetch - processPackages [ephysio]: Downloading https://files.pythonhosted.org/packages/19/a2/5f22ed46aba5dd4c28636bed2135c0640dc85602141a71a6f82f3dceeb44/ephysio-1.0.tar.gz
+[2023-07-08 01:17:13] INFO root fetch - processPackages [apiosintDS]: Downloading https://files.pythonhosted.org/packages/e5/db/416e2151cf3305c0d5d316daef3671d790c7ecf875a285f112c267f2f4c6/apiosintDS-1.8.3-py3-none-any.whl
+[2023-07-08 01:17:13] INFO root fetch - processPackages [data-validation-framework]: Downloading https://files.pythonhosted.org/packages/e1/c4/5caf8772a1514f302e972ad91df88e49b0dc601bccbaa7c6a229d15fd449/data-validation-framework-0.7.0.tar.gz
+[2023-07-08 01:17:13] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Downloading https://files.pythonhosted.org/packages/56/73/44a6d3362a238724f8ac214cca5e1b0222e831d4d0fe2f3c8a7d9876d8c3/strawberry_django_auth_jwt-0.2.5.dev1688770300.tar.gz
+[2023-07-08 01:17:13] INFO root fetch - processPackages [zetane]: Downloading https://files.pythonhosted.org/packages/61/e6/68aa4c29886338ea14c35162b1ca327db323fe3a1ce7690f705c68d164a1/zetane-1.7.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-07-08 01:17:13] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/4c/fc/90b33a768471ec120e5a2eb150847406a26ac2ef34bd6a41f7eb20a0432f/fennel_ai-0.8.7.tar.gz
+[2023-07-08 01:17:13] INFO root fetch - processPackages [gitlabx]: Downloading https://files.pythonhosted.org/packages/4c/05/7dc63e3aa2c9dfdb3fb39f223cf34d30ceb473337a96998cdcf526deccf2/gitlabx-0.5.0-py3-none-any.whl
+[2023-07-08 01:17:13] INFO root fetch - processPackages [apiosintDS]: Downloading https://files.pythonhosted.org/packages/5d/34/bba6edbc387751c078a301e98deb763a2cfda085845f543b2aa81a9dfe52/apiosintDS-2.0.tar.gz
+[2023-07-08 01:17:13] INFO root fetch - processPackages [ephysio]: Downloading https://files.pythonhosted.org/packages/96/52/1cc26ab250fc168c2f05d704b51a5e9f733d91282087039f6190b63a48fe/ephysio-1.0.1.tar.gz
+[2023-07-08 01:17:13] INFO root fetch - processPackages [gitlabx]: executing diffoscope
+[2023-07-08 01:17:13] INFO root fetch - processPackages [gitlabx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabx-0.4.1-py3-none-any.whl.zip tmp/gitlabx-0.5.0-py3-none-any.whl.zip --markdown 20230708/g/gitlabx/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-08 01:17:13] INFO root fetch - processPackages [data-validation-framework]: Downloading https://files.pythonhosted.org/packages/e3/0b/e7356a683975c8c0496f792183723bc0c4ee013767b7dc15b69117b6cfb1/data-validation-framework-0.7.1.tar.gz
+[2023-07-08 01:17:13] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Downloading https://files.pythonhosted.org/packages/66/76/a8138dfa55fb09c66b9332105e9cb3b79327e3f419c225413bdff6a4f699/strawberry_django_auth_jwt-0.2.5.dev1688771654.tar.gz
+[2023-07-08 01:17:13] INFO root fetch - processPackages [fennel-ai]: executing diffoscope
+[2023-07-08 01:17:13] INFO root fetch - processPackages [fennel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fennel_ai-0.8.6.tar.gz tmp/fennel_ai-0.8.7.tar.gz --markdown 20230708/f/fennel-ai/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-07-08 01:17:13] INFO root fetch - processPackages [ephysio]: executing diffoscope
+[2023-07-08 01:17:13] INFO root fetch - processPackages [ephysio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysio-1.0.tar.gz tmp/ephysio-1.0.1.tar.gz --markdown 20230708/e/ephysio/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 01:17:13] INFO root fetch - processPackages [strawberry-django-auth-jwt]: executing diffoscope
+[2023-07-08 01:17:13] INFO root fetch - processPackages [strawberry-django-auth-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_auth_jwt-0.2.5.dev1688770300.tar.gz tmp/strawberry_django_auth_jwt-0.2.5.dev1688771654.tar.gz --markdown 20230708/s/strawberry-django-auth-jwt/0.2.5.dev1688770300-0.2.5.dev1688771654/diff.md --exclude *.pyd
+[2023-07-08 01:17:13] INFO root fetch - processPackages [data-validation-framework]: executing diffoscope
+[2023-07-08 01:17:13] INFO root fetch - processPackages [data-validation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-validation-framework-0.7.0.tar.gz tmp/data-validation-framework-0.7.1.tar.gz --markdown 20230708/d/data-validation-framework/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-08 01:17:13] INFO root fetch - processPackages [apiosintDS]: executing diffoscope
+[2023-07-08 01:17:13] INFO root fetch - processPackages [apiosintDS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiosintDS-1.8.3-py3-none-any.whl.zip tmp/apiosintDS-2.0.tar.gz --markdown 20230708/a/apiosintDS/1.8.3-2.0/diff.md --exclude *.pyd
+[2023-07-08 01:17:13] WARNING root fetch - processPackages [zetane]: Skipping package: exceeds size limit 19974465>=10485760
+[2023-07-08 01:17:13] INFO root fetch - main [MainThread]: End processing [zetane] error
+[2023-07-08 01:17:14] INFO root fetch - processPackages [gitlabx]: Remove: archive file [/home/abi/fetcher/tmp/gitlabx-0.4.1-py3-none-any.whl.zip]
+[2023-07-08 01:17:14] INFO root fetch - processPackages [gitlabx]: Remove: archive file [/home/abi/fetcher/tmp/gitlabx-0.5.0-py3-none-any.whl.zip]
+[2023-07-08 01:17:14] INFO root fetch - main [MainThread]: End processing [gitlabx]: success
+[2023-07-08 01:17:14] INFO root fetch - processPackages [apiosintDS]: Remove: archive file [/home/abi/fetcher/tmp/apiosintDS-1.8.3-py3-none-any.whl.zip]
+[2023-07-08 01:17:14] INFO root fetch - processPackages [apiosintDS]: Remove: archive file [/home/abi/fetcher/tmp/apiosintDS-2.0.tar.gz]
+[2023-07-08 01:17:14] INFO root fetch - main [MainThread]: End processing [apiosintDS]: success
+[2023-07-08 01:17:14] INFO root fetch - processPackages [ephysio]: Remove: archive file [/home/abi/fetcher/tmp/ephysio-1.0.tar.gz]
+[2023-07-08 01:17:14] INFO root fetch - processPackages [ephysio]: Remove: archive file [/home/abi/fetcher/tmp/ephysio-1.0.1.tar.gz]
+[2023-07-08 01:17:14] INFO root fetch - main [MainThread]: End processing [ephysio]: success
+[2023-07-08 01:17:15] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_auth_jwt-0.2.5.dev1688770300.tar.gz]
+[2023-07-08 01:17:15] INFO root fetch - processPackages [strawberry-django-auth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_auth_jwt-0.2.5.dev1688771654.tar.gz]
+[2023-07-08 01:17:15] INFO root fetch - main [MainThread]: End processing [strawberry-django-auth-jwt]: success
+[2023-07-08 01:17:15] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.6.tar.gz]
+[2023-07-08 01:17:15] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.7.tar.gz]
+[2023-07-08 01:17:15] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
+[2023-07-08 01:17:15] INFO root fetch - processPackages [data-validation-framework]: Remove: archive file [/home/abi/fetcher/tmp/data-validation-framework-0.7.0.tar.gz]
+[2023-07-08 01:17:15] INFO root fetch - processPackages [data-validation-framework]: Remove: archive file [/home/abi/fetcher/tmp/data-validation-framework-0.7.1.tar.gz]
+[2023-07-08 01:17:15] INFO root fetch - main [MainThread]: End processing [data-validation-framework]: success
+[2023-07-08 01:17:15] INFO root fetch - main [MainThread]: Store serial: [18807206]
