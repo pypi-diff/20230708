@@ -1,0 +1,92 @@
+[2023-07-08 00:02:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18806559]
+[2023-07-08 00:02:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-08 00:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EclipsingBinaries
+[2023-07-08 00:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cPyparsing
+[2023-07-08 00:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otio-maya-sequencer-adapter
+[2023-07-08 00:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ouster-sdk
+[2023-07-08 00:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: samus-logging
+[2023-07-08 00:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EnergyCapSdk
+[2023-07-08 00:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: socket-log-receiver
+[2023-07-08 00:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: otio-fcpx-xml-adapter
+[2023-07-08 00:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyams-sequence
+[2023-07-08 00:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deephaven-core
+[2023-07-08 00:02:20] WARNING root fetch - processPackages [samus-logging]: Skipping, unable to determine old version
+[2023-07-08 00:02:20] INFO root fetch - processPackages [samus-logging]: Start processing: deephaven-server
+[2023-07-08 00:02:20] INFO root fetch - main [MainThread]: End processing [samus-logging] error
+[2023-07-08 00:02:20] WARNING root fetch - processPackages [otio-maya-sequencer-adapter]: Skipping, unable to determine old version
+[2023-07-08 00:02:20] INFO root fetch - processPackages [otio-maya-sequencer-adapter]: Start processing: otio-hls-playlist-adapter
+[2023-07-08 00:02:20] INFO root fetch - main [MainThread]: End processing [otio-maya-sequencer-adapter] error
+[2023-07-08 00:02:20] INFO root fetch - processPackages [cPyparsing]: New version: [2.4.7.2.1.1] Old Version: [2.4.7.2.1.0]
+[2023-07-08 00:02:20] INFO root fetch - processPackages [pyams-sequence]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-08 00:02:20] WARNING root fetch - processPackages [otio-fcpx-xml-adapter]: Skipping, unable to determine old version
+[2023-07-08 00:02:20] INFO root fetch - processPackages [otio-fcpx-xml-adapter]: Start processing: pydeephaven
+[2023-07-08 00:02:20] INFO root fetch - main [MainThread]: End processing [otio-fcpx-xml-adapter] error
+[2023-07-08 00:02:20] INFO root fetch - processPackages [socket-log-receiver]: New version: [23.7.0a0] Old Version: [20.4.1a0]
+[2023-07-08 00:02:20] INFO root fetch - processPackages [EclipsingBinaries]: New version: [3.1.9] Old Version: [3.1.8a5]
+[2023-07-08 00:02:20] INFO root fetch - processPackages [ouster-sdk]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-08 00:02:20] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2304.4638] Old Version: [8.2304.4636]
+[2023-07-08 00:02:20] INFO root fetch - processPackages [deephaven-core]: New version: [0.26.0] Old Version: [0.25.3]
+[2023-07-08 00:02:20] INFO root fetch - processPackages [deephaven-server]: New version: [0.26.0] Old Version: [0.25.3]
+[2023-07-08 00:02:20] WARNING root fetch - processPackages [otio-hls-playlist-adapter]: Skipping, unable to determine old version
+[2023-07-08 00:02:20] INFO root fetch - main [MainThread]: End processing [otio-hls-playlist-adapter] error
+[2023-07-08 00:02:20] INFO root fetch - processPackages [pyams-sequence]: Downloading https://files.pythonhosted.org/packages/1d/69/08eaa3b14a7fd2e6cad66956f166561e8605f1372523e84584471a0ff4a8/pyams_sequence-1.2.3.tar.gz
+[2023-07-08 00:02:20] INFO root fetch - processPackages [pydeephaven]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-08 00:02:20] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/a7/28/5acb0cd0346d6fc9b31a5ee03b8a247a6d018281c89fde5a7d577c30c7d5/EnergyCapSdk-8.2304.4636.tar.gz
+[2023-07-08 00:02:20] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/b0/4f/36a772115b3cd12ee0231afe0f0666050fb75ea027969d511cc7c8c2e54f/cPyparsing-2.4.7.2.1.0.tar.gz
+[2023-07-08 00:02:20] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/37/30/154c5aa7feb05c9f41c89183ea07738347554f53313170a182e4d0e904af/EclipsingBinaries-3.1.8a5.tar.gz
+[2023-07-08 00:02:20] INFO root fetch - processPackages [socket-log-receiver]: Downloading https://files.pythonhosted.org/packages/7a/5c/f2c0e920bd8eaf5fbf82d0dbc37a27c06541916b469746eda5ebc40ed625/socket-log-receiver-20.4.1a0.tar.gz
+[2023-07-08 00:02:20] INFO root fetch - processPackages [ouster-sdk]: Downloading https://files.pythonhosted.org/packages/cc/a7/e11859813fcff211b5087d6d580e1ba238de8d8539b5d3d147177846a463/ouster-sdk-0.8.1.tar.gz
+[2023-07-08 00:02:20] INFO root fetch - processPackages [deephaven-core]: Downloading https://files.pythonhosted.org/packages/d1/8b/32bc4f85d6ac9160dee27f81bd7c170c71cb339ac35a64dd3e470338d6dc/deephaven_core-0.25.3-py3-none-any.whl
+[2023-07-08 00:02:20] INFO root fetch - processPackages [deephaven-server]: Downloading https://files.pythonhosted.org/packages/79/39/02cb7504097e98e34d8092335007bd9d4673877b26d2d6f23e30bb986a0c/deephaven_server-0.25.3-py3-none-any.whl
+[2023-07-08 00:02:20] INFO root fetch - processPackages [pydeephaven]: Downloading https://files.pythonhosted.org/packages/f4/d6/073c81e81e07ab90a283b7ca9315e273567b95873c9dc0afbf6cccb67255/pydeephaven-0.8.0-py3-none-any.whl
+[2023-07-08 00:02:20] WARNING root fetch - processPackages [deephaven-server]: Skipping package: exceeds size limit 162153537>=10485760
+[2023-07-08 00:02:20] INFO root fetch - main [MainThread]: End processing [deephaven-server] error
+[2023-07-08 00:02:21] INFO root fetch - processPackages [pyams-sequence]: Downloading https://files.pythonhosted.org/packages/37/46/3ea2c6a2baf476ce25f7b49a4b54973198b0a34a1f7075bb2bea9115d7d7/pyams_sequence-1.2.4.tar.gz
+[2023-07-08 00:02:21] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/6e/7c/966811be3b17072b24cd1a9fdb5dc1654f2bb57a7bc5ef9d66b79f2b6045/EnergyCapSdk-8.2304.4638.tar.gz
+[2023-07-08 00:02:21] INFO root fetch - processPackages [socket-log-receiver]: Downloading https://files.pythonhosted.org/packages/53/dd/aaca89a791545b4078ee798df46567cdf4c3fab05b8d60caacb030a8aeba/socket-log-receiver-23.7.0a0.tar.gz
+[2023-07-08 00:02:21] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/4b/27/93c8685e864b52075aa63d8ba5f1f06c42d80a285e7e74823020a2da50e7/cPyparsing-2.4.7.2.1.1.tar.gz
+[2023-07-08 00:02:21] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/fc/19/411e2b0ea13567c75a1a3c69bde582c4cb5101eb72514a6aa403f6098b1b/EclipsingBinaries-3.1.9.tar.gz
+[2023-07-08 00:02:21] INFO root fetch - processPackages [pyams-sequence]: executing diffoscope
+[2023-07-08 00:02:21] INFO root fetch - processPackages [pyams-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyams_sequence-1.2.3.tar.gz tmp/pyams_sequence-1.2.4.tar.gz --markdown 20230708/p/pyams-sequence/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-08 00:02:21] INFO root fetch - processPackages [deephaven-core]: Downloading https://files.pythonhosted.org/packages/58/5c/f47e08f6e6d6e126fd7aca40d7fb3543a5b23dc39e1cb1c98aef448342de/deephaven_core-0.26.0-py3-none-any.whl
+[2023-07-08 00:02:21] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-07-08 00:02:21] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2304.4636.tar.gz tmp/EnergyCapSdk-8.2304.4638.tar.gz --markdown 20230708/E/EnergyCapSdk/8.2304.4636-8.2304.4638/diff.md --exclude *.pyd
+[2023-07-08 00:02:21] INFO root fetch - processPackages [socket-log-receiver]: executing diffoscope
+[2023-07-08 00:02:21] INFO root fetch - processPackages [socket-log-receiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket-log-receiver-20.4.1a0.tar.gz tmp/socket-log-receiver-23.7.0a0.tar.gz --markdown 20230708/s/socket-log-receiver/20.4.1a0-23.7.0a0/diff.md --exclude *.pyd
+[2023-07-08 00:02:21] INFO root fetch - processPackages [EclipsingBinaries]: executing diffoscope
+[2023-07-08 00:02:21] INFO root fetch - processPackages [EclipsingBinaries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EclipsingBinaries-3.1.8a5.tar.gz tmp/EclipsingBinaries-3.1.9.tar.gz --markdown 20230708/E/EclipsingBinaries/3.1.8a5-3.1.9/diff.md --exclude *.pyd
+[2023-07-08 00:02:21] INFO root fetch - processPackages [deephaven-core]: executing diffoscope
+[2023-07-08 00:02:21] INFO root fetch - processPackages [deephaven-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deephaven_core-0.25.3-py3-none-any.whl.zip tmp/deephaven_core-0.26.0-py3-none-any.whl.zip --markdown 20230708/d/deephaven-core/0.25.3-0.26.0/diff.md --exclude *.pyd
+[2023-07-08 00:02:21] INFO root fetch - processPackages [cPyparsing]: executing diffoscope
+[2023-07-08 00:02:21] INFO root fetch - processPackages [cPyparsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cPyparsing-2.4.7.2.1.0.tar.gz tmp/cPyparsing-2.4.7.2.1.1.tar.gz --markdown 20230708/c/cPyparsing/2.4.7.2.1.0-2.4.7.2.1.1/diff.md --exclude *.pyd
+[2023-07-08 00:02:21] INFO root fetch - processPackages [pydeephaven]: Downloading https://files.pythonhosted.org/packages/ba/d1/29e55a8d2d903d0fe4a0231e278a16816ae5fa4ee5b06795a577e848fefe/pydeephaven-0.9.0-py3-none-any.whl
+[2023-07-08 00:02:21] INFO root fetch - processPackages [ouster-sdk]: Downloading https://files.pythonhosted.org/packages/d7/d0/ff9ab5671b42c995d29481bb480cef3ee09898a512ab6b218a9a796513d7/ouster-sdk-0.9.0.tar.gz
+[2023-07-08 00:02:21] INFO root fetch - processPackages [pydeephaven]: executing diffoscope
+[2023-07-08 00:02:21] INFO root fetch - processPackages [pydeephaven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeephaven-0.8.0-py3-none-any.whl.zip tmp/pydeephaven-0.9.0-py3-none-any.whl.zip --markdown 20230708/p/pydeephaven/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 00:02:22] INFO root fetch - processPackages [ouster-sdk]: executing diffoscope
+[2023-07-08 00:02:22] INFO root fetch - processPackages [ouster-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ouster-sdk-0.8.1.tar.gz tmp/ouster-sdk-0.9.0.tar.gz --markdown 20230708/o/ouster-sdk/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 00:02:22] INFO root fetch - processPackages [socket-log-receiver]: Remove: archive file [/home/abi/fetcher/tmp/socket-log-receiver-20.4.1a0.tar.gz]
+[2023-07-08 00:02:22] INFO root fetch - processPackages [socket-log-receiver]: Remove: archive file [/home/abi/fetcher/tmp/socket-log-receiver-23.7.0a0.tar.gz]
+[2023-07-08 00:02:22] INFO root fetch - main [MainThread]: End processing [socket-log-receiver]: success
+[2023-07-08 00:02:22] INFO root fetch - processPackages [pyams-sequence]: Remove: archive file [/home/abi/fetcher/tmp/pyams_sequence-1.2.3.tar.gz]
+[2023-07-08 00:02:22] INFO root fetch - processPackages [pyams-sequence]: Remove: archive file [/home/abi/fetcher/tmp/pyams_sequence-1.2.4.tar.gz]
+[2023-07-08 00:02:22] INFO root fetch - main [MainThread]: End processing [pyams-sequence]: success
+[2023-07-08 00:02:23] INFO root fetch - processPackages [EclipsingBinaries]: Remove: archive file [/home/abi/fetcher/tmp/EclipsingBinaries-3.1.8a5.tar.gz]
+[2023-07-08 00:02:23] INFO root fetch - processPackages [EclipsingBinaries]: Remove: archive file [/home/abi/fetcher/tmp/EclipsingBinaries-3.1.9.tar.gz]
+[2023-07-08 00:02:23] INFO root fetch - main [MainThread]: End processing [EclipsingBinaries]: success
+[2023-07-08 00:02:23] INFO root fetch - processPackages [deephaven-core]: Remove: archive file [/home/abi/fetcher/tmp/deephaven_core-0.25.3-py3-none-any.whl.zip]
+[2023-07-08 00:02:23] INFO root fetch - processPackages [deephaven-core]: Remove: archive file [/home/abi/fetcher/tmp/deephaven_core-0.26.0-py3-none-any.whl.zip]
+[2023-07-08 00:02:23] INFO root fetch - main [MainThread]: End processing [deephaven-core]: success
+[2023-07-08 00:02:23] INFO root fetch - processPackages [pydeephaven]: Remove: archive file [/home/abi/fetcher/tmp/pydeephaven-0.8.0-py3-none-any.whl.zip]
+[2023-07-08 00:02:23] INFO root fetch - processPackages [pydeephaven]: Remove: archive file [/home/abi/fetcher/tmp/pydeephaven-0.9.0-py3-none-any.whl.zip]
+[2023-07-08 00:02:23] INFO root fetch - main [MainThread]: End processing [pydeephaven]: success
+[2023-07-08 00:02:25] INFO root fetch - processPackages [ouster-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ouster-sdk-0.8.1.tar.gz]
+[2023-07-08 00:02:25] INFO root fetch - processPackages [ouster-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ouster-sdk-0.9.0.tar.gz]
+[2023-07-08 00:02:25] INFO root fetch - main [MainThread]: End processing [ouster-sdk]: success
+[2023-07-08 00:02:25] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.1.0.tar.gz]
+[2023-07-08 00:02:25] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.1.1.tar.gz]
+[2023-07-08 00:02:25] INFO root fetch - main [MainThread]: End processing [cPyparsing]: success
+[2023-07-08 00:02:34] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4636.tar.gz]
+[2023-07-08 00:02:34] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4638.tar.gz]
+[2023-07-08 00:02:34] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-07-08 00:02:34] INFO root fetch - main [MainThread]: Store serial: [18806626]
