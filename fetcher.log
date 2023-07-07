@@ -90,3 +90,194 @@
 [2023-07-08 00:02:34] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4638.tar.gz]
 [2023-07-08 00:02:34] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
 [2023-07-08 00:02:34] INFO root fetch - main [MainThread]: Store serial: [18806626]
+[2023-07-08 00:07:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18806626]
+[2023-07-08 00:07:44] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-08 00:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nl2ltl
+[2023-07-08 00:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycyclops
+[2023-07-08 00:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otio-ale-adapter
+[2023-07-08 00:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HALchemy
+[2023-07-08 00:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fiddler-client
+[2023-07-08 00:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ladybug-geometry
+[2023-07-08 00:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reqmgr2ms-monitor
+[2023-07-08 00:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reqmgr2ms-output
+[2023-07-08 00:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: acdcserver
+[2023-07-08 00:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wmcore
+[2023-07-08 00:07:44] INFO root fetch - processPackages [pycyclops]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 00:07:44] INFO root fetch - processPackages [nl2ltl]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-08 00:07:44] INFO root fetch - processPackages [reqmgr2ms-monitor]: New version: [2.2.2rc9] Old Version: [2.2.2rc8]
+[2023-07-08 00:07:44] INFO root fetch - processPackages [acdcserver]: New version: [2.2.2rc9] Old Version: [2.2.2rc8]
+[2023-07-08 00:07:44] WARNING root fetch - processPackages [otio-ale-adapter]: Skipping, unable to determine old version
+[2023-07-08 00:07:44] INFO root fetch - processPackages [otio-ale-adapter]: Start processing: reqmgr2ms-unmerged
+[2023-07-08 00:07:44] INFO root fetch - main [MainThread]: End processing [otio-ale-adapter] error
+[2023-07-08 00:07:44] INFO root fetch - processPackages [wmcore]: New version: [2.2.2rc9] Old Version: [2.2.2rc8]
+[2023-07-08 00:07:44] INFO root fetch - processPackages [reqmgr2ms-output]: New version: [2.2.2rc9] Old Version: [2.2.2rc8]
+[2023-07-08 00:07:44] INFO root fetch - processPackages [HALchemy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-08 00:07:45] INFO root fetch - processPackages [ladybug-geometry]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-08 00:07:45] INFO root fetch - processPackages [reqmgr2ms-monitor]: Downloading https://files.pythonhosted.org/packages/99/17/b042e287fbd8340f064bb6ed5b90628d21952b58deb7390e1f4b0df7d851/reqmgr2ms-monitor-2.2.2rc8.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [fiddler-client]: New version: [2.0.0.dev6] Old Version: [2.0.0.dev5]
+[2023-07-08 00:07:45] INFO root fetch - processPackages [wmcore]: Downloading https://files.pythonhosted.org/packages/10/59/bd58ab87892de1b435184f6ba821bb528fecb88b862f76e19c4e6687b32e/wmcore-2.2.2rc8.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [reqmgr2ms-unmerged]: New version: [2.2.2rc9] Old Version: [2.2.2rc8]
+[2023-07-08 00:07:45] INFO root fetch - processPackages [reqmgr2ms-output]: Downloading https://files.pythonhosted.org/packages/b6/be/40ecc9cc2533d2410d77e01ccef4fb9ac8231f9728cdc5bc33b387f7a7b1/reqmgr2ms-output-2.2.2rc8.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [acdcserver]: Downloading https://files.pythonhosted.org/packages/71/b9/a1d7d8506795053ac2af26c373c60605210e1920f7c2de4087e5d5279de1/acdcserver-2.2.2rc8.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [pycyclops]: Downloading https://files.pythonhosted.org/packages/f4/bb/2f5e6d5836c21b65c66b83c9a5aa420e99fde04952dfb4441af7346a9551/pycyclops-0.1.8.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [nl2ltl]: Downloading https://files.pythonhosted.org/packages/64/b0/d470e3e1cccd122b9c7bff187d779a42b1b74a12ba90774bb24cfc7e79d8/nl2ltl-0.0.3.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [HALchemy]: Downloading https://files.pythonhosted.org/packages/55/fd/923ed2b0bc4aee96d9daa5631620359018f75869e425a35645b41dc05360/HALchemy-0.1.5-py3-none-any.whl
+[2023-07-08 00:07:45] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Downloading https://files.pythonhosted.org/packages/31/fb/0a07feaeb05f3f556179f06dbac4d44a947f6d3668160e80ef350253b23c/reqmgr2ms-unmerged-2.2.2rc8.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/a6/89/a05235ced8375ca35530ed2660fe44e6699c6d36879bc64f39eb9c4e9a1a/fiddler-client-2.0.0.dev5.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [ladybug-geometry]: Downloading https://files.pythonhosted.org/packages/73/b9/eb0d232df800d6e5dfa1247520f85cfb316c1f1c0f1fa86404231a512779/ladybug-geometry-1.8.1.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [reqmgr2ms-monitor]: Downloading https://files.pythonhosted.org/packages/b0/ea/c25a5d3fb85e658148ad837a9faa8dc35d890927bfbfa4ff8456ba726de6/reqmgr2ms-monitor-2.2.2rc9.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [reqmgr2ms-output]: Downloading https://files.pythonhosted.org/packages/0e/7c/8a8b6f92fed4b9c96c91b5e1e7016c7850c61dc7a388fb1121b27e946c3d/reqmgr2ms-output-2.2.2rc9.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [acdcserver]: Downloading https://files.pythonhosted.org/packages/44/bd/1f5890056bae5247dfd8486d42f6279fdaecf8e1aaa6d6e761195786b850/acdcserver-2.2.2rc9.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [wmcore]: Downloading https://files.pythonhosted.org/packages/55/e2/158f16e01646a1b89d9be59af8f321c4ad437d69fca1315a6ab8ab42a2fb/wmcore-2.2.2rc9.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [nl2ltl]: Downloading https://files.pythonhosted.org/packages/0b/f8/c16401f52627ed38c1af66811dcc07b4cc5f3f0954c331dd9056d420bc29/nl2ltl-0.0.4.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Downloading https://files.pythonhosted.org/packages/7b/10/7c3d60835727d93b4479c595452909c291f348a3703d05361493ada6339e/reqmgr2ms-unmerged-2.2.2rc9.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [reqmgr2ms-monitor]: executing diffoscope
+[2023-07-08 00:07:45] INFO root fetch - processPackages [reqmgr2ms-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-monitor-2.2.2rc8.tar.gz tmp/reqmgr2ms-monitor-2.2.2rc9.tar.gz --markdown 20230708/r/reqmgr2ms-monitor/2.2.2rc8-2.2.2rc9/diff.md --exclude *.pyd
+[2023-07-08 00:07:45] INFO root fetch - processPackages [pycyclops]: Downloading https://files.pythonhosted.org/packages/11/1b/e44a11b4db8509af2a75b2521e48cdf9665c8a2a621381e31ef9a9ef246c/pycyclops-0.1.9.tar.gz
+[2023-07-08 00:07:45] INFO root fetch - processPackages [HALchemy]: Downloading https://files.pythonhosted.org/packages/14/76/547b650166b33f213806e124e8f4aa5ef7dcaf7ca54bc2d5630d920a2055/HALchemy-0.1.6-py3-none-any.whl
+[2023-07-08 00:07:45] INFO root fetch - processPackages [reqmgr2ms-output]: executing diffoscope
+[2023-07-08 00:07:45] INFO root fetch - processPackages [reqmgr2ms-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-output-2.2.2rc8.tar.gz tmp/reqmgr2ms-output-2.2.2rc9.tar.gz --markdown 20230708/r/reqmgr2ms-output/2.2.2rc8-2.2.2rc9/diff.md --exclude *.pyd
+[2023-07-08 00:07:45] INFO root fetch - processPackages [acdcserver]: executing diffoscope
+[2023-07-08 00:07:45] INFO root fetch - processPackages [acdcserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acdcserver-2.2.2rc8.tar.gz tmp/acdcserver-2.2.2rc9.tar.gz --markdown 20230708/a/acdcserver/2.2.2rc8-2.2.2rc9/diff.md --exclude *.pyd
+[2023-07-08 00:07:46] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/b0/e4/ecf99f1e991407e1a8eaaefe0ff7fb583e361bad1c0dbc070e4df60d3c0b/fiddler-client-2.0.0.dev6.tar.gz
+[2023-07-08 00:07:46] INFO root fetch - processPackages [reqmgr2ms-unmerged]: executing diffoscope
+[2023-07-08 00:07:46] INFO root fetch - processPackages [reqmgr2ms-unmerged]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-unmerged-2.2.2rc8.tar.gz tmp/reqmgr2ms-unmerged-2.2.2rc9.tar.gz --markdown 20230708/r/reqmgr2ms-unmerged/2.2.2rc8-2.2.2rc9/diff.md --exclude *.pyd
+[2023-07-08 00:07:46] INFO root fetch - processPackages [nl2ltl]: executing diffoscope
+[2023-07-08 00:07:46] INFO root fetch - processPackages [nl2ltl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nl2ltl-0.0.3.tar.gz tmp/nl2ltl-0.0.4.tar.gz --markdown 20230708/n/nl2ltl/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-08 00:07:46] INFO root fetch - processPackages [ladybug-geometry]: Downloading https://files.pythonhosted.org/packages/1d/6e/0f64e45efb187aa1304e9685bee2042ef1bd0a00daba0172bf39aadfa2b6/ladybug-geometry-1.9.0.tar.gz
+[2023-07-08 00:07:46] INFO root fetch - processPackages [HALchemy]: executing diffoscope
+[2023-07-08 00:07:46] INFO root fetch - processPackages [HALchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HALchemy-0.1.5-py3-none-any.whl.zip tmp/HALchemy-0.1.6-py3-none-any.whl.zip --markdown 20230708/H/HALchemy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-08 00:07:46] INFO root fetch - processPackages [pycyclops]: executing diffoscope
+[2023-07-08 00:07:46] INFO root fetch - processPackages [pycyclops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycyclops-0.1.8.tar.gz tmp/pycyclops-0.1.9.tar.gz --markdown 20230708/p/pycyclops/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 00:07:46] INFO root fetch - processPackages [wmcore]: executing diffoscope
+[2023-07-08 00:07:46] INFO root fetch - processPackages [wmcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmcore-2.2.2rc8.tar.gz tmp/wmcore-2.2.2rc9.tar.gz --markdown 20230708/w/wmcore/2.2.2rc8-2.2.2rc9/diff.md --exclude *.pyd
+[2023-07-08 00:07:46] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-07-08 00:07:46] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-2.0.0.dev5.tar.gz tmp/fiddler-client-2.0.0.dev6.tar.gz --markdown 20230708/f/fiddler-client/2.0.0.dev5-2.0.0.dev6/diff.md --exclude *.pyd
+[2023-07-08 00:07:46] INFO root fetch - processPackages [ladybug-geometry]: executing diffoscope
+[2023-07-08 00:07:46] INFO root fetch - processPackages [ladybug-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-geometry-1.8.1.tar.gz tmp/ladybug-geometry-1.9.0.tar.gz --markdown 20230708/l/ladybug-geometry/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-08 00:07:47] INFO root fetch - processPackages [HALchemy]: Remove: archive file [/home/abi/fetcher/tmp/HALchemy-0.1.5-py3-none-any.whl.zip]
+[2023-07-08 00:07:47] INFO root fetch - processPackages [HALchemy]: Remove: archive file [/home/abi/fetcher/tmp/HALchemy-0.1.6-py3-none-any.whl.zip]
+[2023-07-08 00:07:47] INFO root fetch - processPackages [HALchemy]: Start processing: reqmgr2ms-pileup
+[2023-07-08 00:07:47] INFO root fetch - main [MainThread]: End processing [HALchemy]: success
+[2023-07-08 00:07:47] INFO root fetch - processPackages [reqmgr2ms-pileup]: New version: [2.2.2rc9] Old Version: [2.2.2rc8]
+[2023-07-08 00:07:47] INFO root fetch - processPackages [nl2ltl]: Remove: archive file [/home/abi/fetcher/tmp/nl2ltl-0.0.3.tar.gz]
+[2023-07-08 00:07:47] INFO root fetch - processPackages [nl2ltl]: Remove: archive file [/home/abi/fetcher/tmp/nl2ltl-0.0.4.tar.gz]
+[2023-07-08 00:07:47] INFO root fetch - processPackages [nl2ltl]: Start processing: reqmgr2
+[2023-07-08 00:07:47] INFO root fetch - main [MainThread]: End processing [nl2ltl]: success
+[2023-07-08 00:07:47] INFO root fetch - processPackages [reqmgr2]: New version: [2.2.2rc9] Old Version: [2.2.2rc8]
+[2023-07-08 00:07:47] INFO root fetch - processPackages [reqmgr2ms-pileup]: Downloading https://files.pythonhosted.org/packages/f0/6b/3001c064111887df4f64902c41d6badedebac6dde0ac5d4b212e0d1986fe/reqmgr2ms-pileup-2.2.2rc8.tar.gz
+[2023-07-08 00:07:47] INFO root fetch - processPackages [reqmgr2]: Downloading https://files.pythonhosted.org/packages/a5/40/02a9488fec7d20e5d9961bf0d78d3894494e213f409bcd4d0d90ac676731/reqmgr2-2.2.2rc8.tar.gz
+[2023-07-08 00:07:48] INFO root fetch - processPackages [reqmgr2ms-pileup]: Downloading https://files.pythonhosted.org/packages/4f/30/6ff1d06f65a761f9dbe94a269f4aa22c40473ea38e35feba79873acf7970/reqmgr2ms-pileup-2.2.2rc9.tar.gz
+[2023-07-08 00:07:48] INFO root fetch - processPackages [reqmgr2]: Downloading https://files.pythonhosted.org/packages/f0/b0/405cbfcc2ce117154415c9831f739abf5a44fa68826c358e21c7eadffed3/reqmgr2-2.2.2rc9.tar.gz
+[2023-07-08 00:07:48] INFO root fetch - processPackages [acdcserver]: Remove: archive file [/home/abi/fetcher/tmp/acdcserver-2.2.2rc8.tar.gz]
+[2023-07-08 00:07:48] INFO root fetch - processPackages [acdcserver]: Remove: archive file [/home/abi/fetcher/tmp/acdcserver-2.2.2rc9.tar.gz]
+[2023-07-08 00:07:48] INFO root fetch - processPackages [acdcserver]: Start processing: global-workqueue
+[2023-07-08 00:07:48] INFO root fetch - main [MainThread]: End processing [acdcserver]: success
+[2023-07-08 00:07:48] INFO root fetch - processPackages [reqmgr2ms-pileup]: executing diffoscope
+[2023-07-08 00:07:48] INFO root fetch - processPackages [reqmgr2ms-pileup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-pileup-2.2.2rc8.tar.gz tmp/reqmgr2ms-pileup-2.2.2rc9.tar.gz --markdown 20230708/r/reqmgr2ms-pileup/2.2.2rc8-2.2.2rc9/diff.md --exclude *.pyd
+[2023-07-08 00:07:48] INFO root fetch - processPackages [global-workqueue]: New version: [2.2.2rc9] Old Version: [2.2.2rc8]
+[2023-07-08 00:07:48] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev5.tar.gz]
+[2023-07-08 00:07:48] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev6.tar.gz]
+[2023-07-08 00:07:48] INFO root fetch - processPackages [fiddler-client]: Start processing: wmagent
+[2023-07-08 00:07:48] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-07-08 00:07:48] INFO root fetch - processPackages [wmagent]: New version: [2.2.2rc9] Old Version: [2.2.2rc8]
+[2023-07-08 00:07:48] INFO root fetch - processPackages [global-workqueue]: Downloading https://files.pythonhosted.org/packages/96/71/c6300e7036a3827546fc6cad4b2fc1d4bd82f5df46438ed6eed00d83dc51/global-workqueue-2.2.2rc8.tar.gz
+[2023-07-08 00:07:48] INFO root fetch - processPackages [reqmgr2]: executing diffoscope
+[2023-07-08 00:07:48] INFO root fetch - processPackages [reqmgr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2-2.2.2rc8.tar.gz tmp/reqmgr2-2.2.2rc9.tar.gz --markdown 20230708/r/reqmgr2/2.2.2rc8-2.2.2rc9/diff.md --exclude *.pyd
+[2023-07-08 00:07:48] INFO root fetch - processPackages [pycyclops]: Remove: archive file [/home/abi/fetcher/tmp/pycyclops-0.1.8.tar.gz]
+[2023-07-08 00:07:48] INFO root fetch - processPackages [pycyclops]: Remove: archive file [/home/abi/fetcher/tmp/pycyclops-0.1.9.tar.gz]
+[2023-07-08 00:07:48] INFO root fetch - processPackages [pycyclops]: Start processing: reqmon
+[2023-07-08 00:07:48] INFO root fetch - main [MainThread]: End processing [pycyclops]: success
+[2023-07-08 00:07:48] INFO root fetch - processPackages [wmagent]: Downloading https://files.pythonhosted.org/packages/2c/3b/e938d71d52ab43d88f5bbf5ad93ae02ba86843a798fd23cd920b121819dc/wmagent-2.2.2rc8.tar.gz
+[2023-07-08 00:07:48] INFO root fetch - processPackages [reqmon]: New version: [2.2.2rc9] Old Version: [2.2.2rc8]
+[2023-07-08 00:07:48] INFO root fetch - processPackages [ladybug-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-1.8.1.tar.gz]
+[2023-07-08 00:07:48] INFO root fetch - processPackages [ladybug-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-1.9.0.tar.gz]
+[2023-07-08 00:07:48] INFO root fetch - processPackages [ladybug-geometry]: Start processing: wmagent-devtools
+[2023-07-08 00:07:48] INFO root fetch - main [MainThread]: End processing [ladybug-geometry]: success
+[2023-07-08 00:07:48] INFO root fetch - processPackages [wmagent-devtools]: New version: [2.2.2rc9] Old Version: [2.2.2rc8]
+[2023-07-08 00:07:48] INFO root fetch - processPackages [reqmon]: Downloading https://files.pythonhosted.org/packages/1f/71/36334af7c34e8021ef5700145ace8ba55fed704211198202ca4289a02fc4/reqmon-2.2.2rc8.tar.gz
+[2023-07-08 00:07:48] INFO root fetch - processPackages [reqmgr2ms-monitor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-monitor-2.2.2rc8.tar.gz]
+[2023-07-08 00:07:48] INFO root fetch - processPackages [reqmgr2ms-monitor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-monitor-2.2.2rc9.tar.gz]
+[2023-07-08 00:07:48] INFO root fetch - processPackages [reqmgr2ms-monitor]: Start processing: reqmgr2ms-transferor
+[2023-07-08 00:07:48] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-monitor]: success
+[2023-07-08 00:07:48] INFO root fetch - processPackages [reqmgr2ms-transferor]: New version: [2.2.2rc9] Old Version: [2.2.2rc8]
+[2023-07-08 00:07:48] INFO root fetch - processPackages [global-workqueue]: Downloading https://files.pythonhosted.org/packages/da/0f/5df644280596817fa9a25a7fd1a7bb647268a2d7e9a5f83dfd21b2224191/global-workqueue-2.2.2rc9.tar.gz
+[2023-07-08 00:07:49] INFO root fetch - processPackages [wmagent-devtools]: Downloading https://files.pythonhosted.org/packages/f8/4c/a4c8191b4b6ef5da00b13fcc202ec51c2fd7343f22feef805422d7929055/wmagent-devtools-2.2.2rc8.tar.gz
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmgr2ms-output]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-output-2.2.2rc8.tar.gz]
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmgr2ms-output]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-output-2.2.2rc9.tar.gz]
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmgr2ms-output]: Start processing: reqmgr2ms-rulecleaner
+[2023-07-08 00:07:49] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-output]: success
+[2023-07-08 00:07:49] WARNING root fetch - processPackages [wmagent-devtools]: Skipping package: exceeds size limit 11430615>=10485760
+[2023-07-08 00:07:49] INFO root fetch - processPackages [wmagent-devtools]: Start processing: ax-mini-dl
+[2023-07-08 00:07:49] INFO root fetch - main [MainThread]: End processing [wmagent-devtools] error
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: New version: [2.2.2rc9] Old Version: [2.2.2rc8]
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmgr2ms-transferor]: Downloading https://files.pythonhosted.org/packages/4b/3c/260cbe24b15b472f9b6343a3536d06b7cfaa45c91158112b690382bd6c0c/reqmgr2ms-transferor-2.2.2rc8.tar.gz
+[2023-07-08 00:07:49] ERROR root fetch - processPackages [ax-mini-dl]: Unable to get metadata: No such project 'ax-mini-dl'
+[2023-07-08 00:07:49] INFO root fetch - processPackages [ax-mini-dl]: Start processing: raster-tools
+[2023-07-08 00:07:49] INFO root fetch - main [MainThread]: End processing [ax-mini-dl] error
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Downloading https://files.pythonhosted.org/packages/34/ba/aa79ecccf26471288876fdf3109120e76ca14e69f8efb7f7549076b773f7/reqmgr2ms-rulecleaner-2.2.2rc8.tar.gz
+[2023-07-08 00:07:49] INFO root fetch - processPackages [wmagent]: Downloading https://files.pythonhosted.org/packages/59/47/bdfb08d95b8942140b616bf2f4aa359c144849a2e02c9bc1a1481cb2ca16/wmagent-2.2.2rc9.tar.gz
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-unmerged-2.2.2rc8.tar.gz]
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-unmerged-2.2.2rc9.tar.gz]
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Start processing: otio-xges-adapter
+[2023-07-08 00:07:49] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-unmerged]: success
+[2023-07-08 00:07:49] INFO root fetch - processPackages [global-workqueue]: executing diffoscope
+[2023-07-08 00:07:49] INFO root fetch - processPackages [global-workqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/global-workqueue-2.2.2rc8.tar.gz tmp/global-workqueue-2.2.2rc9.tar.gz --markdown 20230708/g/global-workqueue/2.2.2rc8-2.2.2rc9/diff.md --exclude *.pyd
+[2023-07-08 00:07:49] INFO root fetch - processPackages [raster-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 00:07:49] WARNING root fetch - processPackages [otio-xges-adapter]: Skipping, unable to determine old version
+[2023-07-08 00:07:49] INFO root fetch - processPackages [otio-xges-adapter]: Start processing: piccolo
+[2023-07-08 00:07:49] INFO root fetch - main [MainThread]: End processing [otio-xges-adapter] error
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmon]: Downloading https://files.pythonhosted.org/packages/87/de/376f5d17bd62bd0c9e087816a70c2c1b1895501f4a80030938b5653e60d6/reqmon-2.2.2rc9.tar.gz
+[2023-07-08 00:07:49] INFO root fetch - processPackages [piccolo]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmgr2ms-transferor]: Downloading https://files.pythonhosted.org/packages/7c/41/b138661dcb920463a02500e67202daaa5ed6db246b4a540f7b25982f0653/reqmgr2ms-transferor-2.2.2rc9.tar.gz
+[2023-07-08 00:07:49] INFO root fetch - processPackages [raster-tools]: Downloading https://files.pythonhosted.org/packages/88/b3/56e8c320a2894cc77d69f6bc1e8561e5b899210cd2529555c8bf9c956c34/raster-tools-0.1.8.tar.gz
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Downloading https://files.pythonhosted.org/packages/da/da/f43a82c17579df89336e06d3f555473e0099c8bc4b19fdd38d625e614ef4/reqmgr2ms-rulecleaner-2.2.2rc9.tar.gz
+[2023-07-08 00:07:49] INFO root fetch - processPackages [wmagent]: executing diffoscope
+[2023-07-08 00:07:49] INFO root fetch - processPackages [wmagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmagent-2.2.2rc8.tar.gz tmp/wmagent-2.2.2rc9.tar.gz --markdown 20230708/w/wmagent/2.2.2rc8-2.2.2rc9/diff.md --exclude *.pyd
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmon]: executing diffoscope
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmon-2.2.2rc8.tar.gz tmp/reqmon-2.2.2rc9.tar.gz --markdown 20230708/r/reqmon/2.2.2rc8-2.2.2rc9/diff.md --exclude *.pyd
+[2023-07-08 00:07:49] INFO root fetch - processPackages [piccolo]: Downloading https://files.pythonhosted.org/packages/ce/2e/670339ba209098ad7e26363966d6f472f16037e22c57ec0998d6fc5eb2ef/piccolo-0.98.0.tar.gz
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmgr2ms-transferor]: executing diffoscope
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmgr2ms-transferor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-transferor-2.2.2rc8.tar.gz tmp/reqmgr2ms-transferor-2.2.2rc9.tar.gz --markdown 20230708/r/reqmgr2ms-transferor/2.2.2rc8-2.2.2rc9/diff.md --exclude *.pyd
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: executing diffoscope
+[2023-07-08 00:07:49] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-rulecleaner-2.2.2rc8.tar.gz tmp/reqmgr2ms-rulecleaner-2.2.2rc9.tar.gz --markdown 20230708/r/reqmgr2ms-rulecleaner/2.2.2rc8-2.2.2rc9/diff.md --exclude *.pyd
+[2023-07-08 00:07:49] INFO root fetch - processPackages [raster-tools]: Downloading https://files.pythonhosted.org/packages/da/0e/b6f3a382eb117e522dd84ee8069a191751dfc2390623150ca230b2a7a316/raster-tools-0.1.9.tar.gz
+[2023-07-08 00:07:50] INFO root fetch - processPackages [raster-tools]: executing diffoscope
+[2023-07-08 00:07:50] INFO root fetch - processPackages [raster-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raster-tools-0.1.8.tar.gz tmp/raster-tools-0.1.9.tar.gz --markdown 20230708/r/raster-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 00:07:50] INFO root fetch - processPackages [piccolo]: Downloading https://files.pythonhosted.org/packages/d1/7b/62bb2f4141cb1520764033657ecef8fc6f29e4591d23d681699dcb460558/piccolo-0.99.0.tar.gz
+[2023-07-08 00:07:50] INFO root fetch - processPackages [piccolo]: executing diffoscope
+[2023-07-08 00:07:50] INFO root fetch - processPackages [piccolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piccolo-0.98.0.tar.gz tmp/piccolo-0.99.0.tar.gz --markdown 20230708/p/piccolo/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-08 00:07:51] INFO root fetch - processPackages [reqmgr2ms-pileup]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-pileup-2.2.2rc8.tar.gz]
+[2023-07-08 00:07:51] INFO root fetch - processPackages [reqmgr2ms-pileup]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-pileup-2.2.2rc9.tar.gz]
+[2023-07-08 00:07:51] INFO root fetch - processPackages [reqmgr2ms-pileup]: Start processing: otio-aaf-adapter
+[2023-07-08 00:07:51] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-pileup]: success
+[2023-07-08 00:07:51] WARNING root fetch - processPackages [otio-aaf-adapter]: Skipping, unable to determine old version
+[2023-07-08 00:07:51] INFO root fetch - main [MainThread]: End processing [otio-aaf-adapter] error
+[2023-07-08 00:07:52] INFO root fetch - processPackages [raster-tools]: Remove: archive file [/home/abi/fetcher/tmp/raster-tools-0.1.8.tar.gz]
+[2023-07-08 00:07:52] INFO root fetch - processPackages [raster-tools]: Remove: archive file [/home/abi/fetcher/tmp/raster-tools-0.1.9.tar.gz]
+[2023-07-08 00:07:52] INFO root fetch - main [MainThread]: End processing [raster-tools]: success
+[2023-07-08 00:07:52] INFO root fetch - processPackages [reqmgr2ms-transferor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-transferor-2.2.2rc8.tar.gz]
+[2023-07-08 00:07:52] INFO root fetch - processPackages [reqmgr2ms-transferor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-transferor-2.2.2rc9.tar.gz]
+[2023-07-08 00:07:52] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-transferor]: success
+[2023-07-08 00:07:52] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-rulecleaner-2.2.2rc8.tar.gz]
+[2023-07-08 00:07:52] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-rulecleaner-2.2.2rc9.tar.gz]
+[2023-07-08 00:07:52] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-rulecleaner]: success
+[2023-07-08 00:07:53] INFO root fetch - processPackages [global-workqueue]: Remove: archive file [/home/abi/fetcher/tmp/global-workqueue-2.2.2rc8.tar.gz]
+[2023-07-08 00:07:53] INFO root fetch - processPackages [global-workqueue]: Remove: archive file [/home/abi/fetcher/tmp/global-workqueue-2.2.2rc9.tar.gz]
+[2023-07-08 00:07:53] INFO root fetch - main [MainThread]: End processing [global-workqueue]: success
+[2023-07-08 00:07:53] INFO root fetch - processPackages [piccolo]: Remove: archive file [/home/abi/fetcher/tmp/piccolo-0.98.0.tar.gz]
+[2023-07-08 00:07:53] INFO root fetch - processPackages [piccolo]: Remove: archive file [/home/abi/fetcher/tmp/piccolo-0.99.0.tar.gz]
+[2023-07-08 00:07:53] INFO root fetch - main [MainThread]: End processing [piccolo]: success
+[2023-07-08 00:07:53] INFO root fetch - processPackages [reqmon]: Remove: archive file [/home/abi/fetcher/tmp/reqmon-2.2.2rc8.tar.gz]
+[2023-07-08 00:07:53] INFO root fetch - processPackages [reqmon]: Remove: archive file [/home/abi/fetcher/tmp/reqmon-2.2.2rc9.tar.gz]
+[2023-07-08 00:07:53] INFO root fetch - main [MainThread]: End processing [reqmon]: success
+[2023-07-08 00:07:54] INFO root fetch - processPackages [reqmgr2]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2-2.2.2rc8.tar.gz]
+[2023-07-08 00:07:54] INFO root fetch - processPackages [reqmgr2]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2-2.2.2rc9.tar.gz]
+[2023-07-08 00:07:54] INFO root fetch - main [MainThread]: End processing [reqmgr2]: success
+[2023-07-08 00:07:59] INFO root fetch - processPackages [wmagent]: Remove: archive file [/home/abi/fetcher/tmp/wmagent-2.2.2rc8.tar.gz]
+[2023-07-08 00:07:59] INFO root fetch - processPackages [wmagent]: Remove: archive file [/home/abi/fetcher/tmp/wmagent-2.2.2rc9.tar.gz]
+[2023-07-08 00:07:59] INFO root fetch - main [MainThread]: End processing [wmagent]: success
+[2023-07-08 00:08:04] INFO root fetch - processPackages [wmcore]: Remove: archive file [/home/abi/fetcher/tmp/wmcore-2.2.2rc8.tar.gz]
+[2023-07-08 00:08:04] INFO root fetch - processPackages [wmcore]: Remove: archive file [/home/abi/fetcher/tmp/wmcore-2.2.2rc9.tar.gz]
+[2023-07-08 00:08:04] INFO root fetch - main [MainThread]: End processing [wmcore]: success
+[2023-07-08 00:08:04] INFO root fetch - main [MainThread]: Store serial: [18806697]
