@@ -1050,3 +1050,117 @@
 [2023-07-08 00:45:36] INFO root fetch - processPackages [cert-utils]: Remove: archive file [/home/abi/fetcher/tmp/cert_utils-0.1.4.tar.gz]
 [2023-07-08 00:45:36] INFO root fetch - main [MainThread]: End processing [cert-utils]: success
 [2023-07-08 00:45:36] INFO root fetch - main [MainThread]: Store serial: [18807011]
+[2023-07-08 00:50:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807011]
+[2023-07-08 00:50:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-08 00:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msmath
+[2023-07-08 00:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stackviz
+[2023-07-08 00:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: supervisely
+[2023-07-08 00:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TreasuryPy
+[2023-07-08 00:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: honeybee-radiance
+[2023-07-08 00:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liblineage
+[2023-07-08 00:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: honeybee-energy
+[2023-07-08 00:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyEDAA.CLITool
+[2023-07-08 00:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geoana
+[2023-07-08 00:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dragonfly-core
+[2023-07-08 00:50:45] INFO root fetch - processPackages [stackviz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 00:50:45] INFO root fetch - processPackages [msmath]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-07-08 00:50:45] INFO root fetch - processPackages [stackviz]: Downloading https://files.pythonhosted.org/packages/68/57/32bacfa138d01577531882d2a83609596f4a4c87d9b8c3359ff02023c387/stackviz-0.0.8.tar.gz
+[2023-07-08 00:50:45] INFO root fetch - processPackages [geoana]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-08 00:50:45] INFO root fetch - processPackages [liblineage]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-08 00:50:45] WARNING root fetch - processPackages [TreasuryPy]: Skipping, unable to determine old version
+[2023-07-08 00:50:45] INFO root fetch - processPackages [TreasuryPy]: Start processing: torch-hd
+[2023-07-08 00:50:45] INFO root fetch - main [MainThread]: End processing [TreasuryPy] error
+[2023-07-08 00:50:45] INFO root fetch - processPackages [pyEDAA.CLITool]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-08 00:50:45] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-08 00:50:45] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-07-08 00:50:45] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-07-08 00:50:45] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-08 00:50:45] INFO root fetch - processPackages [msmath]: Downloading https://files.pythonhosted.org/packages/f1/50/3037a10fb21732baca18e5cdb3bb8670b3696ca0f80b1da6fed364518a1b/msmath-1.0.6.tar.gz
+[2023-07-08 00:50:45] INFO root fetch - processPackages [torch-hd]: New version: [5.2.0] Old Version: [5.1.2]
+[2023-07-08 00:50:45] INFO root fetch - processPackages [geoana]: Downloading https://files.pythonhosted.org/packages/c4/ee/5cf65aa2bd2126223051492264446fad4a72d56bfdd071925d23fb7288ff/geoana-0.4.1.tar.gz
+[2023-07-08 00:50:45] INFO root fetch - processPackages [liblineage]: Downloading https://files.pythonhosted.org/packages/54/1b/02de37654690095619babcb70ca486ab2c08aa6f255bbe92422f2d47d0db/liblineage-1.3.2.tar.gz
+[2023-07-08 00:50:45] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-07-08 00:50:45] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2023-07-08 00:50:45] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2023-07-08 00:50:45] INFO root fetch - processPackages [pyEDAA.CLITool]: Downloading https://files.pythonhosted.org/packages/46/59/b2e4afa66c1d363a7158f875a16f4e9b5929fe4a5fddb45e1fd081bd4afe/pyEDAA.CLITool-0.2.0.tar.gz
+[2023-07-08 00:50:46] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2023-07-08 00:50:46] INFO root fetch - processPackages [stackviz]: Downloading https://files.pythonhosted.org/packages/27/bc/b23c31dc9c7670ffb5d8c930b19ed8eba5ff4660a891e071a25df8328599/stackviz-0.0.9.tar.gz
+[2023-07-08 00:50:46] INFO root fetch - processPackages [torch-hd]: Downloading https://files.pythonhosted.org/packages/26/2e/1208fee8d234796b53277147e67aa072ae5b1d95089f7a566182a63059ef/torch-hd-5.1.2.tar.gz
+[2023-07-08 00:50:46] INFO root fetch - processPackages [stackviz]: executing diffoscope
+[2023-07-08 00:50:46] INFO root fetch - processPackages [stackviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackviz-0.0.8.tar.gz tmp/stackviz-0.0.9.tar.gz --markdown 20230708/s/stackviz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 00:50:46] INFO root fetch - processPackages [geoana]: Downloading https://files.pythonhosted.org/packages/83/f6/a60ceb4fd1dc44cff0f50fa55dd14903464f2d1816509a81fb94efb7b3f1/geoana-0.5.0.tar.gz
+[2023-07-08 00:50:46] INFO root fetch - processPackages [pyEDAA.CLITool]: Downloading https://files.pythonhosted.org/packages/e1/52/afa7a4cbc1d8c6a0aa0b874e4bb20b061f09d4afaac33f58e468385ee39a/pyEDAA.CLITool-0.2.1.tar.gz
+[2023-07-08 00:50:46] INFO root fetch - processPackages [msmath]: Downloading https://files.pythonhosted.org/packages/51/18/87795096ae65e7669e5a2abfae5c9ce6530272224a95a5b292f48e355c95/msmath-1.0.8.tar.gz
+[2023-07-08 00:50:46] INFO root fetch - processPackages [liblineage]: Downloading https://files.pythonhosted.org/packages/8d/57/32ffbb54cc38dcab59afa5a13fd2d1ba01da25cc510130dffc6724721d04/liblineage-1.3.3.tar.gz
+[2023-07-08 00:50:46] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-07-08 00:50:46] INFO root fetch - processPackages [geoana]: executing diffoscope
+[2023-07-08 00:50:46] INFO root fetch - processPackages [geoana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoana-0.4.1.tar.gz tmp/geoana-0.5.0.tar.gz --markdown 20230708/g/geoana/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-08 00:50:46] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2023-07-08 00:50:46] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2023-07-08 00:50:46] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2023-07-08 00:50:46] INFO root fetch - processPackages [torch-hd]: Downloading https://files.pythonhosted.org/packages/0f/9d/9c3e624095db6fc17bc1101fbddcc3bc057ae7589f6d73873d3fd4095562/torch-hd-5.2.0.tar.gz
+[2023-07-08 00:50:46] INFO root fetch - processPackages [pyEDAA.CLITool]: executing diffoscope
+[2023-07-08 00:50:46] INFO root fetch - processPackages [pyEDAA.CLITool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyEDAA.CLITool-0.2.0.tar.gz tmp/pyEDAA.CLITool-0.2.1.tar.gz --markdown 20230708/p/pyEDAA.CLITool/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-08 00:50:46] INFO root fetch - processPackages [liblineage]: executing diffoscope
+[2023-07-08 00:50:46] INFO root fetch - processPackages [liblineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblineage-1.3.2.tar.gz tmp/liblineage-1.3.3.tar.gz --markdown 20230708/l/liblineage/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-08 00:50:46] INFO root fetch - processPackages [msmath]: executing diffoscope
+[2023-07-08 00:50:46] INFO root fetch - processPackages [msmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msmath-1.0.6.tar.gz tmp/msmath-1.0.8.tar.gz --markdown 20230708/m/msmath/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-07-08 00:50:46] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-07-08 00:50:46] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230708/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-07-08 00:50:46] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-07-08 00:50:46] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230708/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-07-08 00:50:46] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-07-08 00:50:46] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230708/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-08 00:50:46] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-07-08 00:50:46] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230708/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-08 00:50:46] INFO root fetch - processPackages [torch-hd]: executing diffoscope
+[2023-07-08 00:50:46] INFO root fetch - processPackages [torch-hd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-hd-5.1.2.tar.gz tmp/torch-hd-5.2.0.tar.gz --markdown 20230708/t/torch-hd/5.1.2-5.2.0/diff.md --exclude *.pyd
+[2023-07-08 00:50:47] INFO root fetch - processPackages [stackviz]: Remove: archive file [/home/abi/fetcher/tmp/stackviz-0.0.8.tar.gz]
+[2023-07-08 00:50:47] INFO root fetch - processPackages [stackviz]: Remove: archive file [/home/abi/fetcher/tmp/stackviz-0.0.9.tar.gz]
+[2023-07-08 00:50:47] INFO root fetch - processPackages [stackviz]: Start processing: neophile
+[2023-07-08 00:50:47] INFO root fetch - main [MainThread]: End processing [stackviz]: success
+[2023-07-08 00:50:47] INFO root fetch - processPackages [neophile]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-08 00:50:47] INFO root fetch - processPackages [neophile]: Downloading https://files.pythonhosted.org/packages/11/3c/4aecdbe59607ff7e194d65395153dadcab50e376992598aa34a20d4bb617/neophile-1.0.0.tar.gz
+[2023-07-08 00:50:47] INFO root fetch - processPackages [neophile]: Downloading https://files.pythonhosted.org/packages/ac/42/64e1bc7c77b80745f7332ae74965ab5b632a40afdd30a249fb1c92d5f583/neophile-2.0.0.tar.gz
+[2023-07-08 00:50:48] INFO root fetch - processPackages [neophile]: executing diffoscope
+[2023-07-08 00:50:48] INFO root fetch - processPackages [neophile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neophile-1.0.0.tar.gz tmp/neophile-2.0.0.tar.gz --markdown 20230708/n/neophile/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-08 00:50:48] INFO root fetch - processPackages [liblineage]: Remove: archive file [/home/abi/fetcher/tmp/liblineage-1.3.2.tar.gz]
+[2023-07-08 00:50:48] INFO root fetch - processPackages [liblineage]: Remove: archive file [/home/abi/fetcher/tmp/liblineage-1.3.3.tar.gz]
+[2023-07-08 00:50:48] INFO root fetch - processPackages [liblineage]: Start processing: AnnoMate
+[2023-07-08 00:50:48] INFO root fetch - main [MainThread]: End processing [liblineage]: success
+[2023-07-08 00:50:48] INFO root fetch - processPackages [msmath]: Remove: archive file [/home/abi/fetcher/tmp/msmath-1.0.6.tar.gz]
+[2023-07-08 00:50:48] INFO root fetch - processPackages [msmath]: Remove: archive file [/home/abi/fetcher/tmp/msmath-1.0.8.tar.gz]
+[2023-07-08 00:50:48] INFO root fetch - main [MainThread]: End processing [msmath]: success
+[2023-07-08 00:50:48] INFO root fetch - processPackages [AnnoMate]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-08 00:50:48] INFO root fetch - processPackages [pyEDAA.CLITool]: Remove: archive file [/home/abi/fetcher/tmp/pyEDAA.CLITool-0.2.0.tar.gz]
+[2023-07-08 00:50:48] INFO root fetch - processPackages [pyEDAA.CLITool]: Remove: archive file [/home/abi/fetcher/tmp/pyEDAA.CLITool-0.2.1.tar.gz]
+[2023-07-08 00:50:48] INFO root fetch - main [MainThread]: End processing [pyEDAA.CLITool]: success
+[2023-07-08 00:50:48] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2023-07-08 00:50:48] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2023-07-08 00:50:48] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-07-08 00:50:48] INFO root fetch - processPackages [geoana]: Remove: archive file [/home/abi/fetcher/tmp/geoana-0.4.1.tar.gz]
+[2023-07-08 00:50:48] INFO root fetch - processPackages [geoana]: Remove: archive file [/home/abi/fetcher/tmp/geoana-0.5.0.tar.gz]
+[2023-07-08 00:50:48] INFO root fetch - main [MainThread]: End processing [geoana]: success
+[2023-07-08 00:50:48] INFO root fetch - processPackages [AnnoMate]: Downloading https://files.pythonhosted.org/packages/f6/9c/e8f438b02f2ee63d29f645b6355e6bd6b247fa52ac9886fdeea558a8d7fb/AnnoMate-0.0.0.tar.gz
+[2023-07-08 00:50:49] INFO root fetch - processPackages [AnnoMate]: Downloading https://files.pythonhosted.org/packages/85/2e/208a503bd83d596f5b1b1257723d76dc89e2bfb2b75c8290cd0c61ee55e8/AnnoMate-0.0.1.tar.gz
+[2023-07-08 00:50:49] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2023-07-08 00:50:49] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2023-07-08 00:50:49] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-07-08 00:50:49] INFO root fetch - processPackages [torch-hd]: Remove: archive file [/home/abi/fetcher/tmp/torch-hd-5.1.2.tar.gz]
+[2023-07-08 00:50:49] INFO root fetch - processPackages [torch-hd]: Remove: archive file [/home/abi/fetcher/tmp/torch-hd-5.2.0.tar.gz]
+[2023-07-08 00:50:49] INFO root fetch - main [MainThread]: End processing [torch-hd]: success
+[2023-07-08 00:50:49] INFO root fetch - processPackages [AnnoMate]: executing diffoscope
+[2023-07-08 00:50:49] INFO root fetch - processPackages [AnnoMate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AnnoMate-0.0.0.tar.gz tmp/AnnoMate-0.0.1.tar.gz --markdown 20230708/A/AnnoMate/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-08 00:50:49] INFO root fetch - processPackages [neophile]: Remove: archive file [/home/abi/fetcher/tmp/neophile-1.0.0.tar.gz]
+[2023-07-08 00:50:49] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2023-07-08 00:50:49] INFO root fetch - processPackages [neophile]: Remove: archive file [/home/abi/fetcher/tmp/neophile-2.0.0.tar.gz]
+[2023-07-08 00:50:49] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2023-07-08 00:50:49] INFO root fetch - main [MainThread]: End processing [neophile]: success
+[2023-07-08 00:50:49] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-07-08 00:50:49] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-07-08 00:50:49] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-07-08 00:50:49] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-07-08 00:50:50] INFO root fetch - processPackages [AnnoMate]: Remove: archive file [/home/abi/fetcher/tmp/AnnoMate-0.0.0.tar.gz]
+[2023-07-08 00:50:50] INFO root fetch - processPackages [AnnoMate]: Remove: archive file [/home/abi/fetcher/tmp/AnnoMate-0.0.1.tar.gz]
+[2023-07-08 00:50:50] INFO root fetch - main [MainThread]: End processing [AnnoMate]: success
+[2023-07-08 00:50:50] INFO root fetch - main [MainThread]: Store serial: [18807053]
