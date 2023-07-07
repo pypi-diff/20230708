@@ -470,3 +470,144 @@
 [2023-07-08 00:19:08] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-07-08 00:19:08] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-07-08 00:19:08] INFO root fetch - main [MainThread]: Store serial: [18806790]
+[2023-07-08 00:24:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18806790]
+[2023-07-08 00:24:17] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-08 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threads-api
+[2023-07-08 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rime-sdk
+[2023-07-08 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-aws-native
+[2023-07-08 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: luminesce-sdk-preview
+[2023-07-08 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kodict-core
+[2023-07-08 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bitssh
+[2023-07-08 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ladybug-core
+[2023-07-08 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dcTrackClient
+[2023-07-08 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyTooling.CLIAbstraction
+[2023-07-08 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shape-existence
+[2023-07-08 00:24:17] INFO root fetch - processPackages [bitssh]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-08 00:24:17] INFO root fetch - processPackages [threads-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-08 00:24:17] INFO root fetch - processPackages [dcTrackClient]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-08 00:24:17] INFO root fetch - processPackages [kodict-core]: New version: [1.0.0.1] Old Version: [1.0.0]
+[2023-07-08 00:24:17] WARNING root fetch - processPackages [shape-existence]: Skipping, unable to determine old version
+[2023-07-08 00:24:17] INFO root fetch - processPackages [shape-existence]: Start processing: veevatools
+[2023-07-08 00:24:17] INFO root fetch - main [MainThread]: End processing [shape-existence] error
+[2023-07-08 00:24:17] INFO root fetch - processPackages [pyTooling.CLIAbstraction]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-08 00:24:17] INFO root fetch - processPackages [rime-sdk]: New version: [2.2.0rc0] Old Version: [2.1.3]
+[2023-07-08 00:24:17] INFO root fetch - processPackages [ladybug-core]: New version: [0.41.9] Old Version: [0.41.8]
+[2023-07-08 00:24:17] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-08 00:24:17] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.9.1a1641826769] Old Version: [0.9.1a1641824984]
+[2023-07-08 00:24:17] INFO root fetch - processPackages [veevatools]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 00:24:17] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/89/ce/96408f528e6ba1eda1aea4b6573d97640f6288eac90da3e79f8e64f86ba8/pulumi_aws_native-0.9.1a1641824984.tar.gz
+[2023-07-08 00:24:17] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-08 00:24:17] INFO root fetch - processPackages [bitssh]: Downloading https://files.pythonhosted.org/packages/db/91/eb601a8bef58db2bdb09d9500a6e9bca10089ae402161d633cfa52abbc36/bitssh-1.1.1.tar.gz
+[2023-07-08 00:24:17] INFO root fetch - processPackages [dcTrackClient]: Downloading https://files.pythonhosted.org/packages/92/af/ef64dfa9f0499da1b82f5b1dad29b8c531a73a7766f987ee06e52ffaf827/dctrackclient-0.6.2.tar.gz
+[2023-07-08 00:24:17] INFO root fetch - processPackages [ladybug-core]: Downloading https://files.pythonhosted.org/packages/b8/f4/9a3518e2f5cfc6784b95631e465a305b99314ec2627410faec6d64230814/ladybug-core-0.41.8.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [pyTooling.CLIAbstraction]: Downloading https://files.pythonhosted.org/packages/ad/03/e9e69cb8b0db160d200f00865721f69b7714946a0d3c1caabc307b189bc1/pyTooling.CLIAbstraction-0.4.0.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [kodict-core]: Downloading https://files.pythonhosted.org/packages/ca/5d/0868c78a4e3aef12206462d486dfe33d649574ea38a204d9a89978b6bd66/kodict_core-1.0.0.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/2a/6e/7826d106ab8e3a38cd06dc84dcff4366e4a7f6d2c639a28b67b4417732f5/threads-api-1.0.1.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/82/c7/5bf39dd9685d42f7667967471b1aa4ab13da46c99f22cccb831685b4b2aa/rime_sdk-2.1.3.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [veevatools]: Downloading https://files.pythonhosted.org/packages/06/6c/056be6ff0e077f2ff28308f48f2d7d62ac66bf7b26f6e9d69ff346042a57/veevatools-0.0.98.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/c5/18/9e8b8df236b81bb0bae9bd78ac3551ff235749974974287ab4dd99269408/pulumi_aws_native-0.9.1a1641826769.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [bitssh]: Downloading https://files.pythonhosted.org/packages/aa/f5/f2f33da3b4b355c32c214f9d596d7195125926d612271c2512d3678a0104/bitssh-1.1.2.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [dcTrackClient]: Downloading https://files.pythonhosted.org/packages/d4/55/e1d2429aeb049f80a5fe81c72fff7217a004e9f838b24ed6b963c7c812ee/dctrackclient-0.7.0.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/72/58/f859c5f1e6ca0e3d111414b0b8c6a3e8f9812940fbb7d3a8b800493162b4/threads-api-1.0.2.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [kodict-core]: Downloading https://files.pythonhosted.org/packages/dc/0f/6969a5ea1f1fe7d27f9421ee93296c73a39dc8df47bc036c6ab0414f920c/kodict_core-1.0.0.1.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-08 00:24:18] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230708/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-08 00:24:18] INFO root fetch - processPackages [pyTooling.CLIAbstraction]: Downloading https://files.pythonhosted.org/packages/72/7f/b2e9aa19d94e9c1678960979e02a5f554f5c0d3e41aa62c9913643fc9c79/pyTooling.CLIAbstraction-0.4.1.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [veevatools]: Downloading https://files.pythonhosted.org/packages/da/f6/0b73dbe8aef9da832a6043ef7b98e915472e0ff87f1a979d04b3aa08e80c/veevatools-0.0.99.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/d0/ff/90f672abf82ab98ec061a87b3397a46e00f723b3ba96708bc7c3faeb163a/rime_sdk-2.2.0rc0.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [ladybug-core]: Downloading https://files.pythonhosted.org/packages/e0/fe/7b27104ccfd6ad4857ea5a3f5d6b0eb826607d119e0c52e11985cf7016ea/ladybug-core-0.41.9.tar.gz
+[2023-07-08 00:24:18] INFO root fetch - processPackages [bitssh]: executing diffoscope
+[2023-07-08 00:24:18] INFO root fetch - processPackages [bitssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitssh-1.1.1.tar.gz tmp/bitssh-1.1.2.tar.gz --markdown 20230708/b/bitssh/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-08 00:24:18] INFO root fetch - processPackages [threads-api]: executing diffoscope
+[2023-07-08 00:24:18] INFO root fetch - processPackages [threads-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-api-1.0.1.tar.gz tmp/threads-api-1.0.2.tar.gz --markdown 20230708/t/threads-api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-08 00:24:18] INFO root fetch - processPackages [kodict-core]: executing diffoscope
+[2023-07-08 00:24:18] INFO root fetch - processPackages [kodict-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodict_core-1.0.0.tar.gz tmp/kodict_core-1.0.0.1.tar.gz --markdown 20230708/k/kodict-core/1.0.0-1.0.0.1/diff.md --exclude *.pyd
+[2023-07-08 00:24:18] INFO root fetch - processPackages [veevatools]: executing diffoscope
+[2023-07-08 00:24:18] INFO root fetch - processPackages [veevatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veevatools-0.0.98.tar.gz tmp/veevatools-0.0.99.tar.gz --markdown 20230708/v/veevatools/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 00:24:18] INFO root fetch - processPackages [dcTrackClient]: executing diffoscope
+[2023-07-08 00:24:18] INFO root fetch - processPackages [dcTrackClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dctrackclient-0.6.2.tar.gz tmp/dctrackclient-0.7.0.tar.gz --markdown 20230708/d/dcTrackClient/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-08 00:24:18] INFO root fetch - processPackages [pyTooling.CLIAbstraction]: executing diffoscope
+[2023-07-08 00:24:18] INFO root fetch - processPackages [pyTooling.CLIAbstraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTooling.CLIAbstraction-0.4.0.tar.gz tmp/pyTooling.CLIAbstraction-0.4.1.tar.gz --markdown 20230708/p/pyTooling.CLIAbstraction/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-08 00:24:18] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2023-07-08 00:24:18] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz --markdown 20230708/p/pulumi-aws-native/0.9.1a1641824984-0.9.1a1641826769/diff.md --exclude *.pyd
+[2023-07-08 00:24:19] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-07-08 00:24:19] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.1.3.tar.gz tmp/rime_sdk-2.2.0rc0.tar.gz --markdown 20230708/r/rime-sdk/2.1.3-2.2.0rc0/diff.md --exclude *.pyd
+[2023-07-08 00:24:19] INFO root fetch - processPackages [ladybug-core]: executing diffoscope
+[2023-07-08 00:24:19] INFO root fetch - processPackages [ladybug-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-core-0.41.8.tar.gz tmp/ladybug-core-0.41.9.tar.gz --markdown 20230708/l/ladybug-core/0.41.8-0.41.9/diff.md --exclude *.pyd
+[2023-07-08 00:24:20] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.0.1.tar.gz]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.0.2.tar.gz]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [threads-api]: Start processing: ob-metaflow-extensions
+[2023-07-08 00:24:20] INFO root fetch - main [MainThread]: End processing [threads-api]: success
+[2023-07-08 00:24:20] INFO root fetch - processPackages [ob-metaflow-extensions]: New version: [1.1.9rc1] Old Version: [1.1.9rc0]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [bitssh]: Remove: archive file [/home/abi/fetcher/tmp/bitssh-1.1.1.tar.gz]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [bitssh]: Remove: archive file [/home/abi/fetcher/tmp/bitssh-1.1.2.tar.gz]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [bitssh]: Start processing: coopapi
+[2023-07-08 00:24:20] INFO root fetch - main [MainThread]: End processing [bitssh]: success
+[2023-07-08 00:24:20] INFO root fetch - processPackages [coopapi]: New version: [1.1] Old Version: [1.0]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [dcTrackClient]: Remove: archive file [/home/abi/fetcher/tmp/dctrackclient-0.6.2.tar.gz]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [dcTrackClient]: Remove: archive file [/home/abi/fetcher/tmp/dctrackclient-0.7.0.tar.gz]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [dcTrackClient]: Start processing: slib-sorter
+[2023-07-08 00:24:20] INFO root fetch - main [MainThread]: End processing [dcTrackClient]: success
+[2023-07-08 00:24:20] INFO root fetch - processPackages [kodict-core]: Remove: archive file [/home/abi/fetcher/tmp/kodict_core-1.0.0.tar.gz]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [kodict-core]: Remove: archive file [/home/abi/fetcher/tmp/kodict_core-1.0.0.1.tar.gz]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [kodict-core]: Start processing: Andromeda-llm
+[2023-07-08 00:24:20] INFO root fetch - main [MainThread]: End processing [kodict-core]: success
+[2023-07-08 00:24:20] INFO root fetch - processPackages [slib-sorter]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [Andromeda-llm]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [ob-metaflow-extensions]: Downloading https://files.pythonhosted.org/packages/f6/24/4fdd704647ebdded38ac1efc2b8dba106c9ab672518ddbb9b1dd783862e9/ob-metaflow-extensions-1.1.9rc0.tar.gz
+[2023-07-08 00:24:20] INFO root fetch - processPackages [pyTooling.CLIAbstraction]: Remove: archive file [/home/abi/fetcher/tmp/pyTooling.CLIAbstraction-0.4.0.tar.gz]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [pyTooling.CLIAbstraction]: Remove: archive file [/home/abi/fetcher/tmp/pyTooling.CLIAbstraction-0.4.1.tar.gz]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [pyTooling.CLIAbstraction]: Start processing: mitoinstaller
+[2023-07-08 00:24:20] INFO root fetch - main [MainThread]: End processing [pyTooling.CLIAbstraction]: success
+[2023-07-08 00:24:20] INFO root fetch - processPackages [mitoinstaller]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [coopapi]: Downloading https://files.pythonhosted.org/packages/39/81/389efe98a35c7c42ef47d99b7702f53cffd32925534f8ede2fb1db12831f/coopapi-1.0.tar.gz
+[2023-07-08 00:24:20] INFO root fetch - processPackages [veevatools]: Remove: archive file [/home/abi/fetcher/tmp/veevatools-0.0.98.tar.gz]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [veevatools]: Remove: archive file [/home/abi/fetcher/tmp/veevatools-0.0.99.tar.gz]
+[2023-07-08 00:24:20] INFO root fetch - main [MainThread]: End processing [veevatools]: success
+[2023-07-08 00:24:20] INFO root fetch - processPackages [Andromeda-llm]: Downloading https://files.pythonhosted.org/packages/c9/48/e8a67124c4b628a9c706093d2333875d8e5cf20177c2947efed6ceaa9a9d/Andromeda-llm-0.0.2.tar.gz
+[2023-07-08 00:24:20] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-08 00:24:20] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-08 00:24:20] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-08 00:24:20] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/a9/cc/efea247a930bcdd3371e2847677b40c385cbf35a56d638639d1e8b121847/mitoinstaller-0.0.98.tar.gz
+[2023-07-08 00:24:20] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/a4/e2/b50a8ed81584679b48e240f8b77ad53169d4a61805e4efc3fdfca915d69c/slib-sorter-1.0.7.tar.gz
+[2023-07-08 00:24:20] INFO root fetch - processPackages [ob-metaflow-extensions]: Downloading https://files.pythonhosted.org/packages/13/fa/f6774ac8df2d55f441049045a0ed08e5ff1eef840d3cc15235e8a9411f42/ob-metaflow-extensions-1.1.9rc1.tar.gz
+[2023-07-08 00:24:21] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/90/7c/46b1dcf5bb93cdb5baf1650e82750b20b76439dbb6550a8596d1d373443a/mitoinstaller-0.0.99.tar.gz
+[2023-07-08 00:24:21] INFO root fetch - processPackages [ob-metaflow-extensions]: executing diffoscope
+[2023-07-08 00:24:21] INFO root fetch - processPackages [ob-metaflow-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-extensions-1.1.9rc0.tar.gz tmp/ob-metaflow-extensions-1.1.9rc1.tar.gz --markdown 20230708/o/ob-metaflow-extensions/1.1.9rc0-1.1.9rc1/diff.md --exclude *.pyd
+[2023-07-08 00:24:21] INFO root fetch - processPackages [coopapi]: Downloading https://files.pythonhosted.org/packages/bc/6a/150e287fd50f7e83ba075ab20a581ba232a8c318b1c1e8989d28307f5afa/coopapi-1.1.tar.gz
+[2023-07-08 00:24:21] INFO root fetch - processPackages [ladybug-core]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-core-0.41.8.tar.gz]
+[2023-07-08 00:24:21] INFO root fetch - processPackages [ladybug-core]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-core-0.41.9.tar.gz]
+[2023-07-08 00:24:21] INFO root fetch - main [MainThread]: End processing [ladybug-core]: success
+[2023-07-08 00:24:21] INFO root fetch - processPackages [Andromeda-llm]: Downloading https://files.pythonhosted.org/packages/6b/3d/8fbcb755a1508e69b9a5893ed7b44eb0cfc0f962113a5369a62a73e77499/Andromeda-llm-0.0.3.tar.gz
+[2023-07-08 00:24:21] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/f1/cc/023be4ad6e897adde5ac7859e3c503c58db16b5cc5b30d5f8f8e231e3fd2/slib_sorter-1.0.8.tar.gz
+[2023-07-08 00:24:21] INFO root fetch - processPackages [mitoinstaller]: executing diffoscope
+[2023-07-08 00:24:21] INFO root fetch - processPackages [mitoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitoinstaller-0.0.98.tar.gz tmp/mitoinstaller-0.0.99.tar.gz --markdown 20230708/m/mitoinstaller/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 00:24:21] INFO root fetch - processPackages [coopapi]: executing diffoscope
+[2023-07-08 00:24:21] INFO root fetch - processPackages [coopapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coopapi-1.0.tar.gz tmp/coopapi-1.1.tar.gz --markdown 20230708/c/coopapi/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-08 00:24:21] INFO root fetch - processPackages [Andromeda-llm]: executing diffoscope
+[2023-07-08 00:24:21] INFO root fetch - processPackages [Andromeda-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Andromeda-llm-0.0.2.tar.gz tmp/Andromeda-llm-0.0.3.tar.gz --markdown 20230708/A/Andromeda-llm/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 00:24:21] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 00:24:21] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.0.7.tar.gz tmp/slib_sorter-1.0.8.tar.gz --markdown 20230708/s/slib-sorter/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-08 00:24:22] INFO root fetch - processPackages [ob-metaflow-extensions]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-extensions-1.1.9rc0.tar.gz]
+[2023-07-08 00:24:22] INFO root fetch - processPackages [ob-metaflow-extensions]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-extensions-1.1.9rc1.tar.gz]
+[2023-07-08 00:24:22] INFO root fetch - main [MainThread]: End processing [ob-metaflow-extensions]: success
+[2023-07-08 00:24:22] INFO root fetch - processPackages [mitoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/mitoinstaller-0.0.98.tar.gz]
+[2023-07-08 00:24:22] INFO root fetch - processPackages [mitoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/mitoinstaller-0.0.99.tar.gz]
+[2023-07-08 00:24:22] INFO root fetch - main [MainThread]: End processing [mitoinstaller]: success
+[2023-07-08 00:24:22] INFO root fetch - processPackages [coopapi]: Remove: archive file [/home/abi/fetcher/tmp/coopapi-1.0.tar.gz]
+[2023-07-08 00:24:22] INFO root fetch - processPackages [coopapi]: Remove: archive file [/home/abi/fetcher/tmp/coopapi-1.1.tar.gz]
+[2023-07-08 00:24:22] INFO root fetch - main [MainThread]: End processing [coopapi]: success
+[2023-07-08 00:24:22] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.0.7.tar.gz]
+[2023-07-08 00:24:22] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib_sorter-1.0.8.tar.gz]
+[2023-07-08 00:24:22] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 00:24:22] INFO root fetch - processPackages [Andromeda-llm]: Remove: archive file [/home/abi/fetcher/tmp/Andromeda-llm-0.0.2.tar.gz]
+[2023-07-08 00:24:22] INFO root fetch - processPackages [Andromeda-llm]: Remove: archive file [/home/abi/fetcher/tmp/Andromeda-llm-0.0.3.tar.gz]
+[2023-07-08 00:24:22] INFO root fetch - main [MainThread]: End processing [Andromeda-llm]: success
+[2023-07-08 00:24:23] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.1.3.tar.gz]
+[2023-07-08 00:24:23] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc0.tar.gz]
+[2023-07-08 00:24:23] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-07-08 00:24:30] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz]
+[2023-07-08 00:24:30] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
+[2023-07-08 00:24:30] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2023-07-08 00:24:30] INFO root fetch - main [MainThread]: Store serial: [18806844]
