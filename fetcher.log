@@ -1454,3 +1454,78 @@
 [2023-07-08 01:06:50] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.2.7.tar.gz]
 [2023-07-08 01:06:50] INFO root fetch - main [MainThread]: End processing [BLACKFORGE2]: success
 [2023-07-08 01:06:50] INFO root fetch - main [MainThread]: Store serial: [18807153]
+[2023-07-08 01:11:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807153]
+[2023-07-08 01:11:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 01:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coconut-develop
+[2023-07-08 01:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: configparserc
+[2023-07-08 01:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-dragonfly
+[2023-07-08 01:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: st-stripe
+[2023-07-08 01:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scyjava
+[2023-07-08 01:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-datahub
+[2023-07-08 01:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: acryl-datahub-airflow-plugin
+[2023-07-08 01:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyEDAA.IPXACT
+[2023-07-08 01:11:59] INFO root fetch - processPackages [st-stripe]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-08 01:11:59] INFO root fetch - processPackages [scyjava]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-08 01:11:59] INFO root fetch - processPackages [configparserc]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-08 01:11:59] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-08 01:11:59] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-08 01:11:59] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-07-08 01:11:59] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-08 01:11:59] INFO root fetch - processPackages [pyEDAA.IPXACT]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-08 01:11:59] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-07-08 01:11:59] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-07-08 01:11:59] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-08 01:11:59] INFO root fetch - processPackages [st-stripe]: Downloading https://files.pythonhosted.org/packages/a2/37/44fa57def1f104abcf0f901439c7a284bd8a3cfe31684385e8ee1d6333dd/st_stripe-0.1.2.tar.gz
+[2023-07-08 01:11:59] INFO root fetch - processPackages [scyjava]: Downloading https://files.pythonhosted.org/packages/b9/62/1e4067beaeef0d42395102fd65fb860dec81f87ca2ab77d6073e8f46d0ec/scyjava-1.9.0.tar.gz
+[2023-07-08 01:11:59] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-07-08 01:11:59] INFO root fetch - processPackages [pyEDAA.IPXACT]: Downloading https://files.pythonhosted.org/packages/03/19/a278e3037a545b9fbf3320aab5e47d2e11e59e5f997ac5f976e277355c1b/pyEDAA.IPXACT-0.3.0.tar.gz
+[2023-07-08 01:11:59] INFO root fetch - processPackages [configparserc]: Downloading https://files.pythonhosted.org/packages/0f/73/994f83598bbf8507e8d4a6fd0a5da194358ea1eb25e090c8dbb09925eca9/configparserc-1.4.1.tar.gz
+[2023-07-08 01:11:59] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-08 01:11:59] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-07-08 01:11:59] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-07-08 01:11:59] INFO root fetch - processPackages [st-stripe]: Downloading https://files.pythonhosted.org/packages/6c/c8/f4908c585e207580b45337c62c76a08755fef401d32e86997d11b464c541/st_stripe-0.1.3.tar.gz
+[2023-07-08 01:11:59] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-07-08 01:11:59] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230708/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-08 01:11:59] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-08 01:11:59] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230708/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-08 01:11:59] INFO root fetch - processPackages [scyjava]: Downloading https://files.pythonhosted.org/packages/24/d9/14972ae969846cca0904016e9ca5f61a561c38fcf112df832e076694a0bf/scyjava-1.9.1.tar.gz
+[2023-07-08 01:11:59] INFO root fetch - processPackages [st-stripe]: executing diffoscope
+[2023-07-08 01:11:59] INFO root fetch - processPackages [st-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_stripe-0.1.2.tar.gz tmp/st_stripe-0.1.3.tar.gz --markdown 20230708/s/st-stripe/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-08 01:11:59] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-07-08 01:11:59] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230708/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-08 01:11:59] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-07-08 01:11:59] INFO root fetch - processPackages [scyjava]: executing diffoscope
+[2023-07-08 01:11:59] INFO root fetch - processPackages [scyjava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scyjava-1.9.0.tar.gz tmp/scyjava-1.9.1.tar.gz --markdown 20230708/s/scyjava/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-08 01:12:00] INFO root fetch - processPackages [pyEDAA.IPXACT]: Downloading https://files.pythonhosted.org/packages/e3/d3/ca6b28a1f555ca43b2f78ed0a1bf92a0a7e9f26324fd2b397e9629421229/pyEDAA.IPXACT-0.3.1.tar.gz
+[2023-07-08 01:12:00] INFO root fetch - processPackages [configparserc]: Downloading https://files.pythonhosted.org/packages/28/74/166d88607d6f2a48030b88422bb15fc031c994c7518c928359955bdb3cb9/configparserc-1.4.2.tar.gz
+[2023-07-08 01:12:00] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-07-08 01:12:00] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230708/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-07-08 01:12:00] INFO root fetch - processPackages [configparserc]: executing diffoscope
+[2023-07-08 01:12:00] INFO root fetch - processPackages [configparserc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configparserc-1.4.1.tar.gz tmp/configparserc-1.4.2.tar.gz --markdown 20230708/c/configparserc/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-08 01:12:00] INFO root fetch - processPackages [pyEDAA.IPXACT]: executing diffoscope
+[2023-07-08 01:12:00] INFO root fetch - processPackages [pyEDAA.IPXACT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyEDAA.IPXACT-0.3.0.tar.gz tmp/pyEDAA.IPXACT-0.3.1.tar.gz --markdown 20230708/p/pyEDAA.IPXACT/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-08 01:12:00] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-07-08 01:12:00] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-07-08 01:12:00] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-07-08 01:12:00] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-08 01:12:00] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-08 01:12:00] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-08 01:12:01] INFO root fetch - processPackages [st-stripe]: Remove: archive file [/home/abi/fetcher/tmp/st_stripe-0.1.2.tar.gz]
+[2023-07-08 01:12:01] INFO root fetch - processPackages [st-stripe]: Remove: archive file [/home/abi/fetcher/tmp/st_stripe-0.1.3.tar.gz]
+[2023-07-08 01:12:01] INFO root fetch - main [MainThread]: End processing [st-stripe]: success
+[2023-07-08 01:12:01] INFO root fetch - processPackages [scyjava]: Remove: archive file [/home/abi/fetcher/tmp/scyjava-1.9.0.tar.gz]
+[2023-07-08 01:12:01] INFO root fetch - processPackages [scyjava]: Remove: archive file [/home/abi/fetcher/tmp/scyjava-1.9.1.tar.gz]
+[2023-07-08 01:12:01] INFO root fetch - main [MainThread]: End processing [scyjava]: success
+[2023-07-08 01:12:01] INFO root fetch - processPackages [pyEDAA.IPXACT]: Remove: archive file [/home/abi/fetcher/tmp/pyEDAA.IPXACT-0.3.0.tar.gz]
+[2023-07-08 01:12:01] INFO root fetch - processPackages [pyEDAA.IPXACT]: Remove: archive file [/home/abi/fetcher/tmp/pyEDAA.IPXACT-0.3.1.tar.gz]
+[2023-07-08 01:12:01] INFO root fetch - main [MainThread]: End processing [pyEDAA.IPXACT]: success
+[2023-07-08 01:12:01] INFO root fetch - processPackages [configparserc]: Remove: archive file [/home/abi/fetcher/tmp/configparserc-1.4.1.tar.gz]
+[2023-07-08 01:12:01] INFO root fetch - processPackages [configparserc]: Remove: archive file [/home/abi/fetcher/tmp/configparserc-1.4.2.tar.gz]
+[2023-07-08 01:12:01] INFO root fetch - main [MainThread]: End processing [configparserc]: success
+[2023-07-08 01:12:01] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-07-08 01:12:01] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-07-08 01:12:01] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-07-08 01:12:03] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-07-08 01:12:03] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-07-08 01:12:03] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-07-08 01:12:03] INFO root fetch - main [MainThread]: Store serial: [18807182]
