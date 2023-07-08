@@ -2087,3 +2087,39 @@
 [2023-07-08 01:59:01] INFO root fetch - processPackages [tf-models-official]: Remove: archive file [/home/abi/fetcher/tmp/tf-models-official-2.9.2.tar.gz]
 [2023-07-08 01:59:01] INFO root fetch - main [MainThread]: End processing [tf-models-official]: success
 [2023-07-08 01:59:01] INFO root fetch - main [MainThread]: Store serial: [18807422]
+[2023-07-08 02:04:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807422]
+[2023-07-08 02:04:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 02:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: typetest-cli
+[2023-07-08 02:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: retryloop
+[2023-07-08 02:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shadowcopy
+[2023-07-08 02:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchdatasets-nightly
+[2023-07-08 02:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ncs-uml
+[2023-07-08 02:04:10] WARNING root fetch - processPackages [retryloop]: Skipping, unable to determine old version
+[2023-07-08 02:04:10] INFO root fetch - main [MainThread]: End processing [retryloop] error
+[2023-07-08 02:04:10] INFO root fetch - processPackages [ncs-uml]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-08 02:04:10] INFO root fetch - processPackages [shadowcopy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-08 02:04:10] WARNING root fetch - processPackages [typetest-cli]: Skipping, unable to determine old version
+[2023-07-08 02:04:10] INFO root fetch - main [MainThread]: End processing [typetest-cli] error
+[2023-07-08 02:04:10] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1688688221] Old Version: [1688601833]
+[2023-07-08 02:04:10] INFO root fetch - processPackages [ncs-uml]: Downloading https://files.pythonhosted.org/packages/52/04/6b718ac9e443fc07d7956fd88074cae5b2f2e94a42c4ae16b3c42084c295/ncs-uml-1.0.1.tar.gz
+[2023-07-08 02:04:10] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/20/10/e02b8eaef260932f9dcf24fbe082220cfc9c57563cd77e055e532783be59/torchdatasets-nightly-1688601833.tar.gz
+[2023-07-08 02:04:10] INFO root fetch - processPackages [shadowcopy]: Downloading https://files.pythonhosted.org/packages/7b/69/ba63aae4575c324cbed16a3582ab296378a3f632e387acc25035b0bb5b6c/shadowcopy-0.0.3.tar.gz
+[2023-07-08 02:04:11] INFO root fetch - processPackages [ncs-uml]: Downloading https://files.pythonhosted.org/packages/4b/f6/2e23f3f2cd5729def637ec0df75776c540c1fd4710031a7eb91ad7219a86/ncs-uml-1.0.2.tar.gz
+[2023-07-08 02:04:11] INFO root fetch - processPackages [ncs-uml]: executing diffoscope
+[2023-07-08 02:04:11] INFO root fetch - processPackages [ncs-uml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncs-uml-1.0.1.tar.gz tmp/ncs-uml-1.0.2.tar.gz --markdown 20230708/n/ncs-uml/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-08 02:04:11] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/a1/0f/958a43b76973927e3718093f0f0712539da8f063d59e3f2535f11814d8f0/torchdatasets-nightly-1688688221.tar.gz
+[2023-07-08 02:04:11] INFO root fetch - processPackages [shadowcopy]: Downloading https://files.pythonhosted.org/packages/12/44/c00420a3b7bcdf830529b933392b566c876a4944a24f31e126eb6fd28647/shadowcopy-0.0.4.tar.gz
+[2023-07-08 02:04:11] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-08 02:04:11] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1688601833.tar.gz tmp/torchdatasets-nightly-1688688221.tar.gz --markdown 20230708/t/torchdatasets-nightly/1688601833-1688688221/diff.md --exclude *.pyd
+[2023-07-08 02:04:11] INFO root fetch - processPackages [shadowcopy]: executing diffoscope
+[2023-07-08 02:04:11] INFO root fetch - processPackages [shadowcopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shadowcopy-0.0.3.tar.gz tmp/shadowcopy-0.0.4.tar.gz --markdown 20230708/s/shadowcopy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-08 02:04:12] INFO root fetch - processPackages [ncs-uml]: Remove: archive file [/home/abi/fetcher/tmp/ncs-uml-1.0.1.tar.gz]
+[2023-07-08 02:04:12] INFO root fetch - processPackages [ncs-uml]: Remove: archive file [/home/abi/fetcher/tmp/ncs-uml-1.0.2.tar.gz]
+[2023-07-08 02:04:12] INFO root fetch - main [MainThread]: End processing [ncs-uml]: success
+[2023-07-08 02:04:12] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688601833.tar.gz]
+[2023-07-08 02:04:12] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688688221.tar.gz]
+[2023-07-08 02:04:12] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-08 02:04:12] INFO root fetch - processPackages [shadowcopy]: Remove: archive file [/home/abi/fetcher/tmp/shadowcopy-0.0.3.tar.gz]
+[2023-07-08 02:04:12] INFO root fetch - processPackages [shadowcopy]: Remove: archive file [/home/abi/fetcher/tmp/shadowcopy-0.0.4.tar.gz]
+[2023-07-08 02:04:12] INFO root fetch - main [MainThread]: End processing [shadowcopy]: success
+[2023-07-08 02:04:12] INFO root fetch - main [MainThread]: Store serial: [18807441]
