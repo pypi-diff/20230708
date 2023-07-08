@@ -12373,3 +12373,27 @@
 [2023-07-08 07:43:20] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-5.0.0a1688662273.tar.gz]
 [2023-07-08 07:43:20] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
 [2023-07-08 07:43:20] INFO root fetch - main [MainThread]: Store serial: [18811180]
+[2023-07-08 07:48:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811180]
+[2023-07-08 07:48:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 07:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: concurrent-plugin
+[2023-07-08 07:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: message-system
+[2023-07-08 07:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: panda-utils
+[2023-07-08 07:48:29] INFO root fetch - processPackages [panda-utils]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-08 07:48:29] WARNING root fetch - processPackages [message-system]: Skipping, unable to determine old version
+[2023-07-08 07:48:29] INFO root fetch - main [MainThread]: End processing [message-system] error
+[2023-07-08 07:48:29] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/f6/88/5d763420dc7af78d964b81318b0207a7dfc3ce28f50bac80d24f8eb0effe/panda_utils-1.3.2.tar.gz
+[2023-07-08 07:48:29] INFO root fetch - processPackages [concurrent-plugin]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-08 07:48:30] INFO root fetch - processPackages [concurrent-plugin]: Downloading https://files.pythonhosted.org/packages/ee/4a/c9556b684cd3d0a69146e5043ccc89c4f3fd1dfd200f936f5f9ac02ec322/concurrent_plugin-0.5.3-py3-none-any.whl
+[2023-07-08 07:48:30] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/83/30/fcb0cfaac40c62d63071afca0b951b49b3f9115372d31bff7567e4c4cbaa/panda_utils-1.3.3.tar.gz
+[2023-07-08 07:48:30] INFO root fetch - processPackages [panda-utils]: executing diffoscope
+[2023-07-08 07:48:30] INFO root fetch - processPackages [panda-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_utils-1.3.2.tar.gz tmp/panda_utils-1.3.3.tar.gz --markdown 20230708/p/panda-utils/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-08 07:48:30] INFO root fetch - processPackages [concurrent-plugin]: Downloading https://files.pythonhosted.org/packages/e9/02/200a8ec8ad24ba844cd0d9b7d2560b624e5123a04c66575c68a93edeafad/concurrent_plugin-0.5.4-py3-none-any.whl
+[2023-07-08 07:48:30] INFO root fetch - processPackages [concurrent-plugin]: executing diffoscope
+[2023-07-08 07:48:30] INFO root fetch - processPackages [concurrent-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concurrent_plugin-0.5.3-py3-none-any.whl.zip tmp/concurrent_plugin-0.5.4-py3-none-any.whl.zip --markdown 20230708/c/concurrent-plugin/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-08 07:48:31] INFO root fetch - processPackages [panda-utils]: Remove: archive file [/home/abi/fetcher/tmp/panda_utils-1.3.2.tar.gz]
+[2023-07-08 07:48:31] INFO root fetch - processPackages [panda-utils]: Remove: archive file [/home/abi/fetcher/tmp/panda_utils-1.3.3.tar.gz]
+[2023-07-08 07:48:31] INFO root fetch - main [MainThread]: End processing [panda-utils]: success
+[2023-07-08 07:48:31] INFO root fetch - processPackages [concurrent-plugin]: Remove: archive file [/home/abi/fetcher/tmp/concurrent_plugin-0.5.3-py3-none-any.whl.zip]
+[2023-07-08 07:48:31] INFO root fetch - processPackages [concurrent-plugin]: Remove: archive file [/home/abi/fetcher/tmp/concurrent_plugin-0.5.4-py3-none-any.whl.zip]
+[2023-07-08 07:48:31] INFO root fetch - main [MainThread]: End processing [concurrent-plugin]: success
+[2023-07-08 07:48:31] INFO root fetch - main [MainThread]: Store serial: [18811196]
