@@ -21170,3 +21170,59 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 21:16:16] INFO root fetch - processPackages [ml-processor]: Remove: archive file [/home/abi/fetcher/tmp/ml_processor-0.5.9.tar.gz]
 [2023-07-08 21:16:16] INFO root fetch - main [MainThread]: End processing [ml-processor]: success
 [2023-07-08 21:16:16] INFO root fetch - main [MainThread]: Store serial: [18815264]
+[2023-07-08 21:21:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815264]
+[2023-07-08 21:21:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 21:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grss
+[2023-07-08 21:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eth-ape
+[2023-07-08 21:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stim
+[2023-07-08 21:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqd-song-edit
+[2023-07-08 21:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyosutools
+[2023-07-08 21:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stimcirq
+[2023-07-08 21:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sinter
+[2023-07-08 21:21:24] INFO root fetch - processPackages [grss]: New version: [0.5.5] Old Version: [0.5.1]
+[2023-07-08 21:21:24] WARNING root fetch - processPackages [pyosutools]: Skipping, unable to determine old version
+[2023-07-08 21:21:24] INFO root fetch - main [MainThread]: End processing [pyosutools] error
+[2023-07-08 21:21:24] INFO root fetch - processPackages [sqd-song-edit]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-08 21:21:25] INFO root fetch - processPackages [stim]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-08 21:21:25] INFO root fetch - processPackages [eth-ape]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-08 21:21:25] INFO root fetch - processPackages [sqd-song-edit]: Downloading https://files.pythonhosted.org/packages/9e/50/57dcb8c339c420b0ed98cf2ffc2eeb9d122c2f99b5d84a5b9ba824d23728/sqd-song-edit-1.1.1.tar.gz
+[2023-07-08 21:21:25] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-07-08 21:21:25] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-07-08 21:21:25] INFO root fetch - processPackages [grss]: Downloading https://files.pythonhosted.org/packages/09/50/6e766d0ca9969370d615c533567ba5a52705c1264789a0b1952316e9a64e/grss-0.5.1.tar.gz
+[2023-07-08 21:21:25] WARNING root fetch - processPackages [grss]: Skipping package: exceeds size limit 26391082>=10485760
+[2023-07-08 21:21:25] INFO root fetch - main [MainThread]: End processing [grss] error
+[2023-07-08 21:21:25] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/a7/d7/36196ad48b77efebe7d5d4e198ad0a9cac4f5acb5e0a8a7035133184a641/stim-1.8.0.tar.gz
+[2023-07-08 21:21:25] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-07-08 21:21:25] INFO root fetch - processPackages [eth-ape]: Downloading https://files.pythonhosted.org/packages/8a/fb/c42cce1e99bd4c22fded116f2268b3940af53d404e2f8381c1fb3731533d/eth-ape-0.6.8.tar.gz
+[2023-07-08 21:21:25] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-07-08 21:21:25] INFO root fetch - processPackages [sqd-song-edit]: Downloading https://files.pythonhosted.org/packages/15/d7/977708a6e9c90b6f9501dc9dadb66e46c84087765e03675da6805340f317/sqd-song-edit-1.1.2.tar.gz
+[2023-07-08 21:21:25] INFO root fetch - processPackages [sqd-song-edit]: executing diffoscope
+[2023-07-08 21:21:25] INFO root fetch - processPackages [sqd-song-edit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqd-song-edit-1.1.1.tar.gz tmp/sqd-song-edit-1.1.2.tar.gz --markdown 20230708/s/sqd-song-edit/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-08 21:21:25] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-07-08 21:21:25] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/d4/c3/eba3f24b52d2c1ed2e7fd5490f31c7cafa4a0a82b9282b1ffee94eee8a4c/stim-1.9.0.tar.gz
+[2023-07-08 21:21:25] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-07-08 21:21:25] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230708/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-07-08 21:21:25] INFO root fetch - processPackages [eth-ape]: Downloading https://files.pythonhosted.org/packages/db/79/5712c8c6e5d31a6f53189eb99957525f139468fd003bc798ca329e311605/eth-ape-0.6.9.tar.gz
+[2023-07-08 21:21:26] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-07-08 21:21:26] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.8.0.tar.gz tmp/stim-1.9.0.tar.gz --markdown 20230708/s/stim/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-08 21:21:26] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-07-08 21:21:26] INFO root fetch - processPackages [eth-ape]: executing diffoscope
+[2023-07-08 21:21:26] INFO root fetch - processPackages [eth-ape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-ape-0.6.8.tar.gz tmp/eth-ape-0.6.9.tar.gz --markdown 20230708/e/eth-ape/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-08 21:21:26] INFO root fetch - processPackages [sqd-song-edit]: Remove: archive file [/home/abi/fetcher/tmp/sqd-song-edit-1.1.1.tar.gz]
+[2023-07-08 21:21:26] INFO root fetch - processPackages [sqd-song-edit]: Remove: archive file [/home/abi/fetcher/tmp/sqd-song-edit-1.1.2.tar.gz]
+[2023-07-08 21:21:26] INFO root fetch - main [MainThread]: End processing [sqd-song-edit]: success
+[2023-07-08 21:21:26] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-07-08 21:21:26] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-07-08 21:21:26] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-07-08 21:21:27] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-07-08 21:21:27] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230708/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-07-08 21:21:27] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.8.0.tar.gz]
+[2023-07-08 21:21:27] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.0.tar.gz]
+[2023-07-08 21:21:27] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-07-08 21:21:27] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-07-08 21:21:27] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-07-08 21:21:27] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-07-08 21:21:28] INFO root fetch - processPackages [eth-ape]: Remove: archive file [/home/abi/fetcher/tmp/eth-ape-0.6.8.tar.gz]
+[2023-07-08 21:21:28] INFO root fetch - processPackages [eth-ape]: Remove: archive file [/home/abi/fetcher/tmp/eth-ape-0.6.9.tar.gz]
+[2023-07-08 21:21:28] INFO root fetch - main [MainThread]: End processing [eth-ape]: success
+[2023-07-08 21:21:28] INFO root fetch - main [MainThread]: Store serial: [18815310]
