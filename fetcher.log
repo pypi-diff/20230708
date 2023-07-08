@@ -19318,3 +19318,17 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 18:29:56] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20230708.1.tar.gz]
 [2023-07-08 18:29:56] INFO root fetch - main [MainThread]: End processing [py4web]: success
 [2023-07-08 18:29:56] INFO root fetch - main [MainThread]: Store serial: [18814393]
+[2023-07-08 18:35:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814393]
+[2023-07-08 18:35:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 18:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiogram-i18n
+[2023-07-08 18:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: retroplanner
+[2023-07-08 18:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotPython
+[2023-07-08 18:35:06] INFO root fetch - processPackages [spotPython]: New version: [0.5.7] Old Version: [0.5.5]
+[2023-07-08 18:35:06] WARNING root fetch - processPackages [aiogram-i18n]: Skipping, unable to determine old version
+[2023-07-08 18:35:06] INFO root fetch - main [MainThread]: End processing [aiogram-i18n] error
+[2023-07-08 18:35:06] WARNING root fetch - processPackages [retroplanner]: Skipping, unable to determine old version
+[2023-07-08 18:35:06] INFO root fetch - main [MainThread]: End processing [retroplanner] error
+[2023-07-08 18:35:06] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/f9/a8/2eeecdce23433428c0878aceb90c9b1efd7361897ab27ba8c1efb9471bc5/spotPython-0.5.5.tar.gz
+[2023-07-08 18:35:06] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 27698069>=10485760
+[2023-07-08 18:35:06] INFO root fetch - main [MainThread]: End processing [spotPython] error
+[2023-07-08 18:35:06] INFO root fetch - main [MainThread]: Store serial: [18814417]
