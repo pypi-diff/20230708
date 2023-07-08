@@ -22339,3 +22339,74 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 23:00:30] INFO root fetch - processPackages [asserto]: Remove: archive file [/home/abi/fetcher/tmp/asserto-0.1.4.tar.gz]
 [2023-07-08 23:00:30] INFO root fetch - main [MainThread]: End processing [asserto]: success
 [2023-07-08 23:00:30] INFO root fetch - main [MainThread]: Store serial: [18815749]
+[2023-07-08 23:05:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815749]
+[2023-07-08 23:05:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 23:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dogpile.cache
+[2023-07-08 23:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fundaml
+[2023-07-08 23:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cashu
+[2023-07-08 23:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optimalfolios
+[2023-07-08 23:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soapcw
+[2023-07-08 23:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Ruster
+[2023-07-08 23:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: findmyorder
+[2023-07-08 23:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clustering-geodata-cubes
+[2023-07-08 23:05:39] INFO root fetch - processPackages [dogpile.cache]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-08 23:05:39] INFO root fetch - processPackages [soapcw]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-08 23:05:39] INFO root fetch - processPackages [optimalfolios]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-08 23:05:39] INFO root fetch - processPackages [cashu]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-08 23:05:39] INFO root fetch - processPackages [fundaml]: New version: [0.1.30] Old Version: [0.1.29]
+[2023-07-08 23:05:39] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 23:05:39] INFO root fetch - processPackages [Ruster]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-08 23:05:39] INFO root fetch - processPackages [clustering-geodata-cubes]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-08 23:05:39] INFO root fetch - processPackages [fundaml]: Downloading https://files.pythonhosted.org/packages/55/25/bfb36372197126ee1cb2144d78042a9665778671e5e02ffc7705de84087e/fundaml-0.1.29.tar.gz
+[2023-07-08 23:05:39] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 23:05:39] INFO root fetch - processPackages [dogpile.cache]: Downloading https://files.pythonhosted.org/packages/21/fa/2fec52e38feb6ce89930be010314aa99ff616d6f6dc068cfaa7491ce5f3e/dogpile.cache-1.2.1.tar.gz
+[2023-07-08 23:05:39] INFO root fetch - processPackages [optimalfolios]: Downloading https://files.pythonhosted.org/packages/48/8f/23d9e0abaf3049bd521dc9f18ca15cad94b9cd50cdf08b4d749f449833bb/optimalfolios-1.0.1.tar.gz
+[2023-07-08 23:05:39] INFO root fetch - processPackages [cashu]: Downloading https://files.pythonhosted.org/packages/4c/06/f7c73d283d5c939445d90105094a4c158345a9076dad6171b10b525965db/cashu-0.9.3.tar.gz
+[2023-07-08 23:05:39] INFO root fetch - processPackages [soapcw]: Downloading https://files.pythonhosted.org/packages/58/48/6df4c63255ec9134da0a9c277eaf65075626e8fe0d1916d3f4abaddbe800/soapcw-0.1.9.tar.gz
+[2023-07-08 23:05:39] INFO root fetch - processPackages [Ruster]: Downloading https://files.pythonhosted.org/packages/92/60/8d0db4906a28c4bc59f94a53f8a5d93f7945309d1ef20716139d0dd8e05b/Ruster-2.0.0.tar.gz
+[2023-07-08 23:05:40] INFO root fetch - processPackages [clustering-geodata-cubes]: Downloading https://files.pythonhosted.org/packages/5d/6b/bc05f28f12e2f7e206a72bfb50d143e624fe0357bf9928c1e810213756dc/clustering-geodata-cubes-0.7.0.tar.gz
+[2023-07-08 23:05:40] WARNING root fetch - processPackages [cashu]: Skipping package: exceeds size limit 13352995>=10485760
+[2023-07-08 23:05:40] INFO root fetch - main [MainThread]: End processing [cashu] error
+[2023-07-08 23:05:40] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 23:05:40] INFO root fetch - processPackages [fundaml]: Downloading https://files.pythonhosted.org/packages/d5/20/ffd1a4a89eba8c1c8266676051069e60ba5933e2371bd9fc445d9078bffd/fundaml-0.1.30.tar.gz
+[2023-07-08 23:05:40] INFO root fetch - processPackages [dogpile.cache]: Downloading https://files.pythonhosted.org/packages/d2/f8/f3e877361372737d83f6592d6ba2126b2018d2208472a5dcb82773694281/dogpile.cache-1.2.2.tar.gz
+[2023-07-08 23:05:40] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 23:05:40] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 23:05:40] INFO root fetch - processPackages [Ruster]: Downloading https://files.pythonhosted.org/packages/90/0c/531d0b5489dde3153b5c9b0748f71a788bc40791127c4a1e648192e6d997/Ruster-2.0.1.tar.gz
+[2023-07-08 23:05:40] INFO root fetch - processPackages [fundaml]: executing diffoscope
+[2023-07-08 23:05:40] INFO root fetch - processPackages [fundaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fundaml-0.1.29.tar.gz tmp/fundaml-0.1.30.tar.gz --markdown 20230708/f/fundaml/0.1.29-0.1.30/diff.md --exclude *.pyd
+[2023-07-08 23:05:40] INFO root fetch - processPackages [optimalfolios]: Downloading https://files.pythonhosted.org/packages/f8/a8/63668b0cf9e500028e76f24d1e49b50ab86b1f074878a54ec2dae1b58af5/optimalfolios-1.0.2.tar.gz
+[2023-07-08 23:05:40] INFO root fetch - processPackages [soapcw]: Downloading https://files.pythonhosted.org/packages/a8/66/bc2fc75da1104b201531e417e4136ef14a462d361e6041cd424199222296/soapcw-0.2.0.tar.gz
+[2023-07-08 23:05:40] INFO root fetch - processPackages [dogpile.cache]: executing diffoscope
+[2023-07-08 23:05:40] INFO root fetch - processPackages [dogpile.cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dogpile.cache-1.2.1.tar.gz tmp/dogpile.cache-1.2.2.tar.gz --markdown 20230708/d/dogpile.cache/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-08 23:05:40] INFO root fetch - processPackages [clustering-geodata-cubes]: Downloading https://files.pythonhosted.org/packages/32/a2/efe7841139ebb1c35e788c6e6e9d288cdad19e4976119e83b76a1819c844/clustering-geodata-cubes-0.8.0.tar.gz
+[2023-07-08 23:05:40] INFO root fetch - processPackages [Ruster]: executing diffoscope
+[2023-07-08 23:05:40] INFO root fetch - processPackages [Ruster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Ruster-2.0.0.tar.gz tmp/Ruster-2.0.1.tar.gz --markdown 20230708/R/Ruster/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-08 23:05:40] INFO root fetch - processPackages [soapcw]: executing diffoscope
+[2023-07-08 23:05:40] INFO root fetch - processPackages [soapcw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soapcw-0.1.9.tar.gz tmp/soapcw-0.2.0.tar.gz --markdown 20230708/s/soapcw/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 23:05:40] INFO root fetch - processPackages [clustering-geodata-cubes]: executing diffoscope
+[2023-07-08 23:05:40] INFO root fetch - processPackages [clustering-geodata-cubes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clustering-geodata-cubes-0.7.0.tar.gz tmp/clustering-geodata-cubes-0.8.0.tar.gz --markdown 20230708/c/clustering-geodata-cubes/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-08 23:05:40] INFO root fetch - processPackages [optimalfolios]: executing diffoscope
+[2023-07-08 23:05:40] INFO root fetch - processPackages [optimalfolios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimalfolios-1.0.1.tar.gz tmp/optimalfolios-1.0.2.tar.gz --markdown 20230708/o/optimalfolios/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-08 23:05:41] INFO root fetch - processPackages [fundaml]: Remove: archive file [/home/abi/fetcher/tmp/fundaml-0.1.29.tar.gz]
+[2023-07-08 23:05:41] INFO root fetch - processPackages [fundaml]: Remove: archive file [/home/abi/fetcher/tmp/fundaml-0.1.30.tar.gz]
+[2023-07-08 23:05:41] INFO root fetch - main [MainThread]: End processing [fundaml]: success
+[2023-07-08 23:05:41] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 23:05:41] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 23:05:41] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 23:05:41] INFO root fetch - processPackages [Ruster]: Remove: archive file [/home/abi/fetcher/tmp/Ruster-2.0.0.tar.gz]
+[2023-07-08 23:05:41] INFO root fetch - processPackages [Ruster]: Remove: archive file [/home/abi/fetcher/tmp/Ruster-2.0.1.tar.gz]
+[2023-07-08 23:05:41] INFO root fetch - main [MainThread]: End processing [Ruster]: success
+[2023-07-08 23:05:42] INFO root fetch - processPackages [clustering-geodata-cubes]: Remove: archive file [/home/abi/fetcher/tmp/clustering-geodata-cubes-0.7.0.tar.gz]
+[2023-07-08 23:05:42] INFO root fetch - processPackages [clustering-geodata-cubes]: Remove: archive file [/home/abi/fetcher/tmp/clustering-geodata-cubes-0.8.0.tar.gz]
+[2023-07-08 23:05:42] INFO root fetch - main [MainThread]: End processing [clustering-geodata-cubes]: success
+[2023-07-08 23:05:42] INFO root fetch - processPackages [optimalfolios]: Remove: archive file [/home/abi/fetcher/tmp/optimalfolios-1.0.1.tar.gz]
+[2023-07-08 23:05:42] INFO root fetch - processPackages [optimalfolios]: Remove: archive file [/home/abi/fetcher/tmp/optimalfolios-1.0.2.tar.gz]
+[2023-07-08 23:05:42] INFO root fetch - main [MainThread]: End processing [optimalfolios]: success
+[2023-07-08 23:05:42] INFO root fetch - processPackages [soapcw]: Remove: archive file [/home/abi/fetcher/tmp/soapcw-0.1.9.tar.gz]
+[2023-07-08 23:05:42] INFO root fetch - processPackages [soapcw]: Remove: archive file [/home/abi/fetcher/tmp/soapcw-0.2.0.tar.gz]
+[2023-07-08 23:05:42] INFO root fetch - main [MainThread]: End processing [soapcw]: success
+[2023-07-08 23:05:43] INFO root fetch - processPackages [dogpile.cache]: Remove: archive file [/home/abi/fetcher/tmp/dogpile.cache-1.2.1.tar.gz]
+[2023-07-08 23:05:43] INFO root fetch - processPackages [dogpile.cache]: Remove: archive file [/home/abi/fetcher/tmp/dogpile.cache-1.2.2.tar.gz]
+[2023-07-08 23:05:43] INFO root fetch - main [MainThread]: End processing [dogpile.cache]: success
+[2023-07-08 23:05:43] INFO root fetch - main [MainThread]: Store serial: [18815771]
