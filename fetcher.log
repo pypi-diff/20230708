@@ -12322,3 +12322,15 @@
 [2023-07-08 07:32:58] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-1.0.3.tar.gz]
 [2023-07-08 07:32:58] INFO root fetch - main [MainThread]: End processing [deltafi]: success
 [2023-07-08 07:32:58] INFO root fetch - main [MainThread]: Store serial: [18811128]
+[2023-07-08 07:38:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811128]
+[2023-07-08 07:38:07] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-08 07:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fennel-ai
+[2023-07-08 07:38:07] INFO root fetch - processPackages [fennel-ai]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-07-08 07:38:07] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/d4/26/4eb76cfe9ce1dbe30c04220d8454ea3bc2454cab78e5cb06cba758448183/fennel_ai-0.8.6.tar.gz
+[2023-07-08 07:38:07] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/4c/fc/90b33a768471ec120e5a2eb150847406a26ac2ef34bd6a41f7eb20a0432f/fennel_ai-0.8.7.tar.gz
+[2023-07-08 07:38:08] INFO root fetch - processPackages [fennel-ai]: executing diffoscope
+[2023-07-08 07:38:08] INFO root fetch - processPackages [fennel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fennel_ai-0.8.6.tar.gz tmp/fennel_ai-0.8.7.tar.gz --markdown 20230708/f/fennel-ai/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-07-08 07:38:09] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.6.tar.gz]
+[2023-07-08 07:38:09] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.7.tar.gz]
+[2023-07-08 07:38:09] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
+[2023-07-08 07:38:09] INFO root fetch - main [MainThread]: Store serial: [18811153]
