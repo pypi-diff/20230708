@@ -13840,3 +13840,58 @@
 [2023-07-08 10:53:36] INFO root fetch - processPackages [dan-build]: Remove: archive file [/home/abi/fetcher/tmp/dan-build-0.2.7.tar.gz]
 [2023-07-08 10:53:36] INFO root fetch - main [MainThread]: End processing [dan-build]: success
 [2023-07-08 10:53:36] INFO root fetch - main [MainThread]: Store serial: [18811894]
+[2023-07-08 10:58:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811894]
+[2023-07-08 10:58:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 10:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: offlinesec-client
+[2023-07-08 10:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prompt-pilot
+[2023-07-08 10:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: changelog2version
+[2023-07-08 10:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slib-sorter
+[2023-07-08 10:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prompt-pilot
+[2023-07-08 10:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omicverse
+[2023-07-08 10:58:45] INFO root fetch - processPackages [slib-sorter]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-08 10:58:45] INFO root fetch - processPackages [prompt-pilot]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-08 10:58:45] INFO root fetch - processPackages [prompt-pilot]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-08 10:58:45] INFO root fetch - processPackages [offlinesec-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 10:58:45] INFO root fetch - processPackages [changelog2version]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-08 10:58:45] INFO root fetch - processPackages [omicverse]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-08 10:58:45] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/e3/15/72686cf5236897d910e4b1ce5e4813ae6ca9fce4436c066d4d1836b572ab/slib-sorter-1.3.3.tar.gz
+[2023-07-08 10:58:45] INFO root fetch - processPackages [offlinesec-client]: Downloading https://files.pythonhosted.org/packages/41/97/ec93622565a5d91ba6b33cce290f57d0078bc58f10398db70c467801fd87/offlinesec_client-1.0.8.tar.gz
+[2023-07-08 10:58:45] INFO root fetch - processPackages [prompt-pilot]: Downloading https://files.pythonhosted.org/packages/fc/3b/d0ac5b4970492a100caab6823a3f7ec8736e6abbba030480f76be5a19b8c/prompt_pilot-0.1.2.tar.gz
+[2023-07-08 10:58:45] INFO root fetch - processPackages [prompt-pilot]: Downloading https://files.pythonhosted.org/packages/fc/3b/d0ac5b4970492a100caab6823a3f7ec8736e6abbba030480f76be5a19b8c/prompt_pilot-0.1.2.tar.gz
+[2023-07-08 10:58:45] INFO root fetch - processPackages [changelog2version]: Downloading https://files.pythonhosted.org/packages/85/5b/8af6153ebaf550addf55246b23bcea748dc8444a12db588927ab82b0cfbd/changelog2version-0.8.0.tar.gz
+[2023-07-08 10:58:45] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/65/e7/7af99817b6a4daeccfd1d730da16caa5534e801d1a03773924bcef64cfe9/omicverse-1.4.8.tar.gz
+[2023-07-08 10:58:45] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/02/98/f0a6319a1f9e8dac565c5c33511b94e11c3a89be215208e731173b098f79/slib-sorter-1.3.4.tar.gz
+[2023-07-08 10:58:45] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 10:58:45] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.3.3.tar.gz tmp/slib-sorter-1.3.4.tar.gz --markdown 20230708/s/slib-sorter/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-08 10:58:45] INFO root fetch - processPackages [offlinesec-client]: Downloading https://files.pythonhosted.org/packages/16/f1/b37b88fa2af3d9759c4f85a7fe202d54f9a09f2b50b37753be30aba74317/offlinesec_client-1.0.9.tar.gz
+[2023-07-08 10:58:45] INFO root fetch - processPackages [prompt-pilot]: Downloading https://files.pythonhosted.org/packages/2f/7d/e5083208574bb5bab60e2fa99873433c40eab7196601833a90ca4ea3edce/prompt_pilot-0.1.3.tar.gz
+[2023-07-08 10:58:45] INFO root fetch - processPackages [prompt-pilot]: Downloading https://files.pythonhosted.org/packages/2f/7d/e5083208574bb5bab60e2fa99873433c40eab7196601833a90ca4ea3edce/prompt_pilot-0.1.3.tar.gz
+[2023-07-08 10:58:45] INFO root fetch - processPackages [offlinesec-client]: executing diffoscope
+[2023-07-08 10:58:45] INFO root fetch - processPackages [offlinesec-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offlinesec_client-1.0.8.tar.gz tmp/offlinesec_client-1.0.9.tar.gz --markdown 20230708/o/offlinesec-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 10:58:45] INFO root fetch - processPackages [changelog2version]: Downloading https://files.pythonhosted.org/packages/a6/9f/bc79513c97fb7b7a32363726f707e4b7db7dd10d825359bb95bb7a81d745/changelog2version-0.9.0.tar.gz
+[2023-07-08 10:58:45] INFO root fetch - processPackages [prompt-pilot]: executing diffoscope
+[2023-07-08 10:58:45] INFO root fetch - processPackages [prompt-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_pilot-0.1.2.tar.gz tmp/prompt_pilot-0.1.3.tar.gz --markdown 20230708/p/prompt-pilot/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-08 10:58:46] INFO root fetch - processPackages [prompt-pilot]: executing diffoscope
+[2023-07-08 10:58:46] INFO root fetch - processPackages [prompt-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_pilot-0.1.2.tar.gz tmp/prompt_pilot-0.1.3.tar.gz --markdown 20230708/p/prompt-pilot/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-08 10:58:46] INFO root fetch - processPackages [changelog2version]: executing diffoscope
+[2023-07-08 10:58:46] INFO root fetch - processPackages [changelog2version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changelog2version-0.8.0.tar.gz tmp/changelog2version-0.9.0.tar.gz --markdown 20230708/c/changelog2version/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 10:58:46] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/66/c8/f57e969d7ae412b92fa97e857ccb04286c18bd60cd1464a2e1ef11fb5351/omicverse-1.4.9.tar.gz
+[2023-07-08 10:58:46] INFO root fetch - processPackages [omicverse]: executing diffoscope
+[2023-07-08 10:58:46] INFO root fetch - processPackages [omicverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omicverse-1.4.8.tar.gz tmp/omicverse-1.4.9.tar.gz --markdown 20230708/o/omicverse/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-08 10:58:46] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.3.3.tar.gz]
+[2023-07-08 10:58:46] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.3.4.tar.gz]
+[2023-07-08 10:58:46] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 10:58:46] INFO root fetch - processPackages [offlinesec-client]: Remove: archive file [/home/abi/fetcher/tmp/offlinesec_client-1.0.8.tar.gz]
+[2023-07-08 10:58:46] INFO root fetch - processPackages [offlinesec-client]: Remove: archive file [/home/abi/fetcher/tmp/offlinesec_client-1.0.9.tar.gz]
+[2023-07-08 10:58:46] INFO root fetch - main [MainThread]: End processing [offlinesec-client]: success
+[2023-07-08 10:58:46] INFO root fetch - processPackages [prompt-pilot]: Remove: archive file [/home/abi/fetcher/tmp/prompt_pilot-0.1.2.tar.gz]
+[2023-07-08 10:58:46] INFO root fetch - processPackages [prompt-pilot]: Remove: archive file [/home/abi/fetcher/tmp/prompt_pilot-0.1.3.tar.gz]
+[2023-07-08 10:58:46] INFO root fetch - main [MainThread]: End processing [prompt-pilot]: success
+[2023-07-08 10:58:47] INFO root fetch - main [MainThread]: End processing [prompt-pilot]: success
+[2023-07-08 10:58:47] INFO root fetch - processPackages [changelog2version]: Remove: archive file [/home/abi/fetcher/tmp/changelog2version-0.8.0.tar.gz]
+[2023-07-08 10:58:47] INFO root fetch - processPackages [changelog2version]: Remove: archive file [/home/abi/fetcher/tmp/changelog2version-0.9.0.tar.gz]
+[2023-07-08 10:58:47] INFO root fetch - main [MainThread]: End processing [changelog2version]: success
+[2023-07-08 10:58:48] INFO root fetch - processPackages [omicverse]: Remove: archive file [/home/abi/fetcher/tmp/omicverse-1.4.8.tar.gz]
+[2023-07-08 10:58:48] INFO root fetch - processPackages [omicverse]: Remove: archive file [/home/abi/fetcher/tmp/omicverse-1.4.9.tar.gz]
+[2023-07-08 10:58:48] INFO root fetch - main [MainThread]: End processing [omicverse]: success
+[2023-07-08 10:58:48] INFO root fetch - main [MainThread]: Store serial: [18811936]
