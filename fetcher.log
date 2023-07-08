@@ -20154,3 +20154,88 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 19:27:17] INFO root fetch - processPackages [slurminade]: Remove: archive file [/home/abi/fetcher/tmp/slurminade-0.7.1.tar.gz]
 [2023-07-08 19:27:17] INFO root fetch - main [MainThread]: End processing [slurminade]: success
 [2023-07-08 19:27:17] INFO root fetch - main [MainThread]: Store serial: [18814846]
+[2023-07-08 19:32:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814846]
+[2023-07-08 19:32:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-08 19:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycsgogpt
+[2023-07-08 19:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ndcube
+[2023-07-08 19:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-sqlalchemy-api
+[2023-07-08 19:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edp-redy-py
+[2023-07-08 19:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crazy-thursday
+[2023-07-08 19:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qvsed
+[2023-07-08 19:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yak-server
+[2023-07-08 19:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LolzteamApi
+[2023-07-08 19:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trendalation
+[2023-07-08 19:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trendalation
+[2023-07-08 19:32:26] INFO root fetch - processPackages [yak-server]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-08 19:32:26] INFO root fetch - processPackages [trendalation]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-08 19:32:26] INFO root fetch - processPackages [LolzteamApi]: New version: [1.0.14] Old Version: [1.0.13]
+[2023-07-08 19:32:26] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.8.1] Old Version: [2023.7.8.0]
+[2023-07-08 19:32:26] INFO root fetch - processPackages [trendalation]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-08 19:32:26] INFO root fetch - processPackages [yak-server]: Downloading https://files.pythonhosted.org/packages/0d/76/2e5fe6504ef5f417050b6485dac180ad25cecfa80778abe342394e98f9e2/yak_server-0.8.0.tar.gz
+[2023-07-08 19:32:26] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/bc/e9/21b53d573093d61d960a76b459bc240ceb7307ad4652cbb3184703aab5c1/trendalation-0.1.1-py3-none-any.whl
+[2023-07-08 19:32:26] INFO root fetch - processPackages [ndcube]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-08 19:32:26] WARNING root fetch - processPackages [flask-sqlalchemy-api]: Skipping, unable to determine old version
+[2023-07-08 19:32:26] INFO root fetch - processPackages [flask-sqlalchemy-api]: Start processing: impose-cli
+[2023-07-08 19:32:26] INFO root fetch - main [MainThread]: End processing [flask-sqlalchemy-api] error
+[2023-07-08 19:32:26] INFO root fetch - processPackages [pycsgogpt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-08 19:32:26] WARNING root fetch - processPackages [edp-redy-py]: Skipping, unable to determine old version
+[2023-07-08 19:32:26] INFO root fetch - main [MainThread]: End processing [edp-redy-py] error
+[2023-07-08 19:32:26] INFO root fetch - processPackages [LolzteamApi]: Downloading https://files.pythonhosted.org/packages/66/7e/dedf5ecd792f6b04824b82ff9dcbc9651d3be75892568f0f80636395e215/LolzteamApi-1.0.13.tar.gz
+[2023-07-08 19:32:27] INFO root fetch - processPackages [impose-cli]: New version: [0.1.41rc6] Old Version: [0.1.41rc5]
+[2023-07-08 19:32:27] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/57/b3/e48455ed2af0d4e46d529e4267587c1f4addad332545da91bc87aa4e85c4/crazy-thursday-2023.7.8.0.tar.gz
+[2023-07-08 19:32:27] INFO root fetch - processPackages [qvsed]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-08 19:32:27] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/e6/21/9306c1f7075d27f32983781e4ca0cad3c43247543a2b516b983b1448454d/trendalation-0.1.3.tar.gz
+[2023-07-08 19:32:27] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/3c/51/ae8a1f7c4636fbb27adeb129068f901db5bc03369cab947f7c5a8d9aa3db/impose_cli-0.1.41rc5-py3-none-any.whl
+[2023-07-08 19:32:27] INFO root fetch - processPackages [pycsgogpt]: Downloading https://files.pythonhosted.org/packages/bb/05/1d85fc6078962edf2f4e88d9ceeb927d82dff09241de1fea2c5fff224ab2/pycsgogpt-0.1.3.tar.gz
+[2023-07-08 19:32:27] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/55/9f/83a66e27ff59d60af85b8078f41f311e58015c53e321bee09d946312fbec/qvsed-1.3.0.tar.gz
+[2023-07-08 19:32:27] INFO root fetch - processPackages [ndcube]: Downloading https://files.pythonhosted.org/packages/17/7b/2bef4ce3b5ae7647d7d36461fc0397fab6a7aa9b3be02e89e732b5c1d1c2/ndcube-2.1.2.tar.gz
+[2023-07-08 19:32:27] INFO root fetch - processPackages [trendalation]: executing diffoscope
+[2023-07-08 19:32:27] INFO root fetch - processPackages [trendalation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendalation-0.1.1-py3-none-any.whl.zip tmp/trendalation-0.1.2.tar.gz --markdown 20230708/t/trendalation/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-08 19:32:27] INFO root fetch - processPackages [yak-server]: Downloading https://files.pythonhosted.org/packages/a8/9c/2c24e63d8e257166f9c81bccd1fcaeb239352636957a046a3c7edae03504/yak_server-0.9.0.tar.gz
+[2023-07-08 19:32:27] INFO root fetch - processPackages [LolzteamApi]: Downloading https://files.pythonhosted.org/packages/e0/5d/7052345af5c8919ebd5d0077084ff9face572da553bfd7cf63cc0cac32e7/LolzteamApi-1.0.14.tar.gz
+[2023-07-08 19:32:27] INFO root fetch - processPackages [yak-server]: executing diffoscope
+[2023-07-08 19:32:27] INFO root fetch - processPackages [yak-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yak_server-0.8.0.tar.gz tmp/yak_server-0.9.0.tar.gz --markdown 20230708/y/yak-server/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 19:32:27] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/57/02/30c638785d8b3938446cef1da693fc33caf8625d1c0ce254fc238efb7a8c/crazy-thursday-2023.7.8.1.tar.gz
+[2023-07-08 19:32:27] ERROR root fetch - processPackages [impose-cli]: Unable to fetch info: No such project/version 'impose-cli' 0.1.41rc6
+[2023-07-08 19:32:27] INFO root fetch - main [MainThread]: End processing [impose-cli] error
+[2023-07-08 19:32:27] INFO root fetch - processPackages [LolzteamApi]: executing diffoscope
+[2023-07-08 19:32:27] INFO root fetch - processPackages [LolzteamApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LolzteamApi-1.0.13.tar.gz tmp/LolzteamApi-1.0.14.tar.gz --markdown 20230708/L/LolzteamApi/1.0.13-1.0.14/diff.md --exclude *.pyd
+[2023-07-08 19:32:27] INFO root fetch - processPackages [pycsgogpt]: Downloading https://files.pythonhosted.org/packages/11/79/d34df6d98b521e14803eafac47c7137b9ddf4bb9007e0b56a3756e8c204a/pycsgogpt-0.1.4.tar.gz
+[2023-07-08 19:32:27] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/af/2e/2b51353c21e72e8bfa7a40f05f38e79fe2bc454f549c4b1748b0efe42bf4/qvsed-1.3.1.tar.gz
+[2023-07-08 19:32:27] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/e6/d9/b58674ac58f7e87c2e587517ba387071f5d334fc6ea1fdb6f3a1c7b1a11d/trendalation-0.1.4.tar.gz
+[2023-07-08 19:32:27] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-08 19:32:27] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.8.0.tar.gz tmp/crazy-thursday-2023.7.8.1.tar.gz --markdown 20230708/c/crazy-thursday/2023.7.8.0-2023.7.8.1/diff.md --exclude *.pyd
+[2023-07-08 19:32:27] INFO root fetch - processPackages [ndcube]: Downloading https://files.pythonhosted.org/packages/34/c3/98041a2c8d2814eaa8ac2362fe56993dc8cf8a23c2ea8a1c981802cb798c/ndcube-2.1.3.tar.gz
+[2023-07-08 19:32:27] INFO root fetch - processPackages [pycsgogpt]: executing diffoscope
+[2023-07-08 19:32:27] INFO root fetch - processPackages [pycsgogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycsgogpt-0.1.3.tar.gz tmp/pycsgogpt-0.1.4.tar.gz --markdown 20230708/p/pycsgogpt/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-08 19:32:27] INFO root fetch - processPackages [trendalation]: executing diffoscope
+[2023-07-08 19:32:27] INFO root fetch - processPackages [trendalation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendalation-0.1.3.tar.gz tmp/trendalation-0.1.4.tar.gz --markdown 20230708/t/trendalation/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-08 19:32:28] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-08 19:32:28] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.3.0.tar.gz tmp/qvsed-1.3.1.tar.gz --markdown 20230708/q/qvsed/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-08 19:32:28] INFO root fetch - processPackages [ndcube]: executing diffoscope
+[2023-07-08 19:32:28] INFO root fetch - processPackages [ndcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndcube-2.1.2.tar.gz tmp/ndcube-2.1.3.tar.gz --markdown 20230708/n/ndcube/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-08 19:32:28] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.1.1-py3-none-any.whl.zip]
+[2023-07-08 19:32:28] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.1.2.tar.gz]
+[2023-07-08 19:32:28] INFO root fetch - main [MainThread]: End processing [trendalation]: success
+[2023-07-08 19:32:28] INFO root fetch - processPackages [yak-server]: Remove: archive file [/home/abi/fetcher/tmp/yak_server-0.8.0.tar.gz]
+[2023-07-08 19:32:28] INFO root fetch - processPackages [yak-server]: Remove: archive file [/home/abi/fetcher/tmp/yak_server-0.9.0.tar.gz]
+[2023-07-08 19:32:28] INFO root fetch - main [MainThread]: End processing [yak-server]: success
+[2023-07-08 19:32:29] INFO root fetch - processPackages [pycsgogpt]: Remove: archive file [/home/abi/fetcher/tmp/pycsgogpt-0.1.3.tar.gz]
+[2023-07-08 19:32:29] INFO root fetch - processPackages [pycsgogpt]: Remove: archive file [/home/abi/fetcher/tmp/pycsgogpt-0.1.4.tar.gz]
+[2023-07-08 19:32:29] INFO root fetch - main [MainThread]: End processing [pycsgogpt]: success
+[2023-07-08 19:32:29] INFO root fetch - processPackages [LolzteamApi]: Remove: archive file [/home/abi/fetcher/tmp/LolzteamApi-1.0.13.tar.gz]
+[2023-07-08 19:32:29] INFO root fetch - processPackages [LolzteamApi]: Remove: archive file [/home/abi/fetcher/tmp/LolzteamApi-1.0.14.tar.gz]
+[2023-07-08 19:32:29] INFO root fetch - main [MainThread]: End processing [LolzteamApi]: success
+[2023-07-08 19:32:29] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.8.0.tar.gz]
+[2023-07-08 19:32:29] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.8.1.tar.gz]
+[2023-07-08 19:32:29] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-08 19:32:29] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.1.3.tar.gz]
+[2023-07-08 19:32:29] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.1.4.tar.gz]
+[2023-07-08 19:32:29] INFO root fetch - main [MainThread]: End processing [trendalation]: success
+[2023-07-08 19:32:29] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.0.tar.gz]
+[2023-07-08 19:32:29] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.1.tar.gz]
+[2023-07-08 19:32:29] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-08 19:32:29] INFO root fetch - processPackages [ndcube]: Remove: archive file [/home/abi/fetcher/tmp/ndcube-2.1.2.tar.gz]
+[2023-07-08 19:32:29] INFO root fetch - processPackages [ndcube]: Remove: archive file [/home/abi/fetcher/tmp/ndcube-2.1.3.tar.gz]
+[2023-07-08 19:32:29] INFO root fetch - main [MainThread]: End processing [ndcube]: success
+[2023-07-08 19:32:29] INFO root fetch - main [MainThread]: Store serial: [18814886]
