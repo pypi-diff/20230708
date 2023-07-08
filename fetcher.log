@@ -11372,3 +11372,61 @@
 [2023-07-08 05:59:07] INFO root fetch - processPackages [ColabGeek]: Remove: archive file [/home/abi/fetcher/tmp/ColabGeek-1.2.2.tar.gz]
 [2023-07-08 05:59:07] INFO root fetch - main [MainThread]: End processing [ColabGeek]: success
 [2023-07-08 05:59:07] INFO root fetch - main [MainThread]: Store serial: [18810706]
+[2023-07-08 06:04:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810706]
+[2023-07-08 06:04:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 06:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: santacruz-watersmart
+[2023-07-08 06:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evals-nightly
+[2023-07-08 06:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnx2tf
+[2023-07-08 06:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slib-sorter
+[2023-07-08 06:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-cp-broadcast
+[2023-07-08 06:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pinject-design
+[2023-07-08 06:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pinject-design
+[2023-07-08 06:04:15] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230706] Old Version: [1.0.3.dev20230705]
+[2023-07-08 06:04:15] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 06:04:15] INFO root fetch - processPackages [slib-sorter]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-08 06:04:15] WARNING root fetch - processPackages [santacruz-watersmart]: Skipping, unable to determine old version
+[2023-07-08 06:04:15] INFO root fetch - main [MainThread]: End processing [santacruz-watersmart] error
+[2023-07-08 06:04:16] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-08 06:04:16] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-07-08 06:04:16] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 06:04:16] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/e5/a6/26f16a1b7b2bdc8797119cea0be291f758b0d0be88f548998c0ed150f8e3/evals-nightly-1.0.3.dev20230705.tar.gz
+[2023-07-08 06:04:16] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/5f/f2/6f47beb8ae7800164b86a0ca180efa5ad86edb3b1419d97531dddcc0c026/pinject-design-0.1.8.tar.gz
+[2023-07-08 06:04:16] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/5f/f2/6f47beb8ae7800164b86a0ca180efa5ad86edb3b1419d97531dddcc0c026/pinject-design-0.1.8.tar.gz
+[2023-07-08 06:04:16] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-07-08 06:04:16] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/b6/b3/6b504e74a51af0b2946cbc9f8b6f47fdbc63f7d927ba7aeda1b98c8210c0/nonebot_plugin_cp_broadcast-0.1.5.tar.gz
+[2023-07-08 06:04:16] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/fb/a0/7c45c4294263bacd80a35ba878f7c061a19f3a6e8e72dfea2be553f85e55/slib-sorter-1.1.9.tar.gz
+[2023-07-08 06:04:16] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-08 06:04:16] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-07-08 06:04:16] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-08 06:04:16] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-08 06:04:16] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject-design-0.1.8.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230708/p/pinject-design/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 06:04:16] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/6b/98/3a1daa244d45aed4945ef5e55ec421370e6ea3bd9cf0faaeb54971b31aaa/nonebot_plugin_cp_broadcast-0.2.0.tar.gz
+[2023-07-08 06:04:16] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/e0/f8/409ba59758d4e2a0a3e05b5605571a5acdaa6132a67b206255f5f614efd6/evals-nightly-1.0.3.dev20230706.tar.gz
+[2023-07-08 06:04:16] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/dc/7b/0b6235408cd3861e2a4009e1024a12dfeb3bf23282009294096a02730599/slib-sorter-1.2.0.tar.gz
+[2023-07-08 06:04:16] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-08 06:04:16] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject-design-0.1.8.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230708/p/pinject-design/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 06:04:16] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-07-08 06:04:16] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230708/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-08 06:04:16] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: executing diffoscope
+[2023-07-08 06:04:16] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cp_broadcast-0.1.5.tar.gz tmp/nonebot_plugin_cp_broadcast-0.2.0.tar.gz --markdown 20230708/n/nonebot-plugin-cp-broadcast/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 06:04:16] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-08 06:04:16] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230705.tar.gz tmp/evals-nightly-1.0.3.dev20230706.tar.gz --markdown 20230708/e/evals-nightly/1.0.3.dev20230705-1.0.3.dev20230706/diff.md --exclude *.pyd
+[2023-07-08 06:04:16] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 06:04:16] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.1.9.tar.gz tmp/slib-sorter-1.2.0.tar.gz --markdown 20230708/s/slib-sorter/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-08 06:04:17] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cp_broadcast-0.1.5.tar.gz]
+[2023-07-08 06:04:17] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cp_broadcast-0.2.0.tar.gz]
+[2023-07-08 06:04:17] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cp-broadcast]: success
+[2023-07-08 06:04:17] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.8.tar.gz]
+[2023-07-08 06:04:17] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.9.tar.gz]
+[2023-07-08 06:04:17] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-08 06:04:17] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-08 06:04:17] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.1.9.tar.gz]
+[2023-07-08 06:04:17] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.0.tar.gz]
+[2023-07-08 06:04:17] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 06:04:18] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-07-08 06:04:18] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-07-08 06:04:18] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-07-08 06:04:18] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230705.tar.gz]
+[2023-07-08 06:04:18] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230706.tar.gz]
+[2023-07-08 06:04:18] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-08 06:04:18] INFO root fetch - main [MainThread]: Store serial: [18810735]
