@@ -22044,3 +22044,81 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 22:34:22] INFO root fetch - processPackages [otter-grader]: Remove: archive file [/home/abi/fetcher/tmp/otter-grader-4.4.1.tar.gz]
 [2023-07-08 22:34:22] INFO root fetch - main [MainThread]: End processing [otter-grader]: success
 [2023-07-08 22:34:22] INFO root fetch - main [MainThread]: Store serial: [18815612]
+[2023-07-08 22:39:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815612]
+[2023-07-08 22:39:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-08 22:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitaudit
+[2023-07-08 22:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discoger
+[2023-07-08 22:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuNet
+[2023-07-08 22:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gbtred
+[2023-07-08 22:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dank-mids
+[2023-07-08 22:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: always-updates
+[2023-07-08 22:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyterlab-optumi
+[2023-07-08 22:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: optumi-api
+[2023-07-08 22:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: optumi-core
+[2023-07-08 22:39:31] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-08 22:39:31] INFO root fetch - processPackages [discoger]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-08 22:39:31] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-08 22:39:31] WARNING root fetch - processPackages [gbtred]: Skipping, unable to determine old version
+[2023-07-08 22:39:31] INFO root fetch - main [MainThread]: End processing [gbtred] error
+[2023-07-08 22:39:31] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 22:39:31] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-08 22:39:31] INFO root fetch - processPackages [optumi-core]: New version: [3.16.1] Old Version: [3.16.0]
+[2023-07-08 22:39:31] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/b3/e1/151f1db09de82773fed15bc20d223b5062c3271f54c460c31f9b4aa6fd45/discoger-2.0.1.tar.gz
+[2023-07-08 22:39:31] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-07-08 22:39:31] INFO root fetch - processPackages [optumi-api]: New version: [3.16.1] Old Version: [3.16.0]
+[2023-07-08 22:39:31] INFO root fetch - processPackages [jupyterlab-optumi]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-07-08 22:39:31] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-08 22:39:31] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-08 22:39:32] INFO root fetch - processPackages [optumi-core]: Downloading https://files.pythonhosted.org/packages/ef/99/1896c2363d3e8f62e575a2ace3767c581bdb842ceb9c03580700613d69b3/optumi_core-3.16.0-py3-none-any.whl
+[2023-07-08 22:39:32] INFO root fetch - processPackages [optumi-api]: Downloading https://files.pythonhosted.org/packages/04/df/3a478c093ede3abe6363433f7873518bd7859500c21614beff584a8d6722/optumi_api-3.16.0-py3-none-any.whl
+[2023-07-08 22:39:32] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-08 22:39:32] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-08 22:39:32] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/2d/30/e3485fc05b26e6d8d4ef8c4523b201e1e9c27c1f31908756f521ca2c8274/gitaudit-0.8.8.tar.gz
+[2023-07-08 22:39:32] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/7a/dc/0747067893a38a617f1a8e45ab20c583c0d1509cdd5569f0f427187e5be4/discoger-2.0.2.tar.gz
+[2023-07-08 22:39:32] INFO root fetch - processPackages [jupyterlab-optumi]: Downloading https://files.pythonhosted.org/packages/a7/8e/6085051d3edca1b7c81c1f3d4d29c79a216a8ea2dd87ead0913ef5c0cc68/jupyterlab-optumi-3.9.8.tar.gz
+[2023-07-08 22:39:32] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-08 22:39:32] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-08 22:39:32] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230708/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-08 22:39:32] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-08 22:39:32] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230708/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-08 22:39:32] INFO root fetch - processPackages [discoger]: executing diffoscope
+[2023-07-08 22:39:32] INFO root fetch - processPackages [discoger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discoger-2.0.1.tar.gz tmp/discoger-2.0.2.tar.gz --markdown 20230708/d/discoger/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-08 22:39:32] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-08 22:39:32] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230708/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 22:39:32] INFO root fetch - processPackages [optumi-core]: Downloading https://files.pythonhosted.org/packages/1b/e1/b28a4daabf6bdf028218e21a075e3f89c13dfa5e92a8627ec77fcfc2a4e5/optumi-core-3.16.1.tar.gz
+[2023-07-08 22:39:32] INFO root fetch - processPackages [optumi-api]: Downloading https://files.pythonhosted.org/packages/af/b2/6f61b91b146427126b3f9388baf395e517df34be513c054c1f74ba8e36a3/optumi-api-3.16.1.tar.gz
+[2023-07-08 22:39:32] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/6d/54/70a010633ae2008eb8086ae94d16bdd384331aa2117faa3e29f8ccfbfd59/gitaudit-0.9.0.tar.gz
+[2023-07-08 22:39:32] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-07-08 22:39:32] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230708/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 22:39:32] INFO root fetch - processPackages [optumi-api]: executing diffoscope
+[2023-07-08 22:39:32] INFO root fetch - processPackages [optumi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optumi_api-3.16.0-py3-none-any.whl.zip tmp/optumi-api-3.16.1.tar.gz --markdown 20230708/o/optumi-api/3.16.0-3.16.1/diff.md --exclude *.pyd
+[2023-07-08 22:39:32] INFO root fetch - processPackages [optumi-core]: executing diffoscope
+[2023-07-08 22:39:32] INFO root fetch - processPackages [optumi-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optumi_core-3.16.0-py3-none-any.whl.zip tmp/optumi-core-3.16.1.tar.gz --markdown 20230708/o/optumi-core/3.16.0-3.16.1/diff.md --exclude *.pyd
+[2023-07-08 22:39:33] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-08 22:39:33] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-08 22:39:33] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-08 22:39:33] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-08 22:39:33] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-08 22:39:33] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-08 22:39:33] INFO root fetch - processPackages [discoger]: Remove: archive file [/home/abi/fetcher/tmp/discoger-2.0.1.tar.gz]
+[2023-07-08 22:39:33] INFO root fetch - processPackages [discoger]: Remove: archive file [/home/abi/fetcher/tmp/discoger-2.0.2.tar.gz]
+[2023-07-08 22:39:33] INFO root fetch - main [MainThread]: End processing [discoger]: success
+[2023-07-08 22:39:33] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-08 22:39:33] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-08 22:39:33] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-08 22:39:33] INFO root fetch - processPackages [optumi-api]: Remove: archive file [/home/abi/fetcher/tmp/optumi_api-3.16.0-py3-none-any.whl.zip]
+[2023-07-08 22:39:33] INFO root fetch - processPackages [optumi-api]: Remove: archive file [/home/abi/fetcher/tmp/optumi-api-3.16.1.tar.gz]
+[2023-07-08 22:39:33] INFO root fetch - main [MainThread]: End processing [optumi-api]: success
+[2023-07-08 22:39:33] INFO root fetch - processPackages [optumi-core]: Remove: archive file [/home/abi/fetcher/tmp/optumi_core-3.16.0-py3-none-any.whl.zip]
+[2023-07-08 22:39:33] INFO root fetch - processPackages [optumi-core]: Remove: archive file [/home/abi/fetcher/tmp/optumi-core-3.16.1.tar.gz]
+[2023-07-08 22:39:33] INFO root fetch - main [MainThread]: End processing [optumi-core]: success
+[2023-07-08 22:39:33] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.8.8.tar.gz]
+[2023-07-08 22:39:33] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
+[2023-07-08 22:39:33] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-07-08 22:39:33] INFO root fetch - processPackages [jupyterlab-optumi]: Downloading https://files.pythonhosted.org/packages/97/75/ce93a28e75bfb407dedc53ae5f247a368eb93179c14c16bca8a11218f211/jupyterlab-optumi-3.9.9.tar.gz
+[2023-07-08 22:39:35] INFO root fetch - processPackages [jupyterlab-optumi]: executing diffoscope
+[2023-07-08 22:39:35] INFO root fetch - processPackages [jupyterlab-optumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab-optumi-3.9.8.tar.gz tmp/jupyterlab-optumi-3.9.9.tar.gz --markdown 20230708/j/jupyterlab-optumi/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-07-08 22:39:43] INFO root fetch - processPackages [jupyterlab-optumi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab-optumi-3.9.8.tar.gz]
+[2023-07-08 22:39:43] INFO root fetch - processPackages [jupyterlab-optumi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab-optumi-3.9.9.tar.gz]
+[2023-07-08 22:39:43] INFO root fetch - main [MainThread]: End processing [jupyterlab-optumi]: success
+[2023-07-08 22:39:43] INFO root fetch - main [MainThread]: Store serial: [18815638]
