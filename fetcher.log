@@ -11348,3 +11348,27 @@
 [2023-07-08 05:53:56] INFO root fetch - processPackages [whisper-autosrt]: Remove: archive file [/home/abi/fetcher/tmp/whisper_autosrt-0.1.7.tar.gz]
 [2023-07-08 05:53:56] INFO root fetch - main [MainThread]: End processing [whisper-autosrt]: success
 [2023-07-08 05:53:56] INFO root fetch - main [MainThread]: Store serial: [18810693]
+[2023-07-08 05:59:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810693]
+[2023-07-08 05:59:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 05:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ColabGeek
+[2023-07-08 05:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TheSilent
+[2023-07-08 05:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: icpp-candid
+[2023-07-08 05:59:05] WARNING root fetch - processPackages [icpp-candid]: Skipping, unable to determine old version
+[2023-07-08 05:59:05] INFO root fetch - main [MainThread]: End processing [icpp-candid] error
+[2023-07-08 05:59:05] INFO root fetch - processPackages [ColabGeek]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-08 05:59:05] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 05:59:05] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-08 05:59:06] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-08 05:59:06] INFO root fetch - processPackages [ColabGeek]: Downloading https://files.pythonhosted.org/packages/1c/b0/47dcc34922ba13f654af1bbcf2c60c8d61a7dd6dfd6f444d7549e02c5146/ColabGeek-1.2.1.tar.gz
+[2023-07-08 05:59:06] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-08 05:59:06] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230708/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 05:59:06] INFO root fetch - processPackages [ColabGeek]: Downloading https://files.pythonhosted.org/packages/75/96/032f97aec5cf0ad4703d39b8b8f192c62c6514012c943d1bb83918581110/ColabGeek-1.2.2.tar.gz
+[2023-07-08 05:59:06] INFO root fetch - processPackages [ColabGeek]: executing diffoscope
+[2023-07-08 05:59:06] INFO root fetch - processPackages [ColabGeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ColabGeek-1.2.1.tar.gz tmp/ColabGeek-1.2.2.tar.gz --markdown 20230708/C/ColabGeek/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-08 05:59:06] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-08 05:59:06] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-08 05:59:06] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-08 05:59:07] INFO root fetch - processPackages [ColabGeek]: Remove: archive file [/home/abi/fetcher/tmp/ColabGeek-1.2.1.tar.gz]
+[2023-07-08 05:59:07] INFO root fetch - processPackages [ColabGeek]: Remove: archive file [/home/abi/fetcher/tmp/ColabGeek-1.2.2.tar.gz]
+[2023-07-08 05:59:07] INFO root fetch - main [MainThread]: End processing [ColabGeek]: success
+[2023-07-08 05:59:07] INFO root fetch - main [MainThread]: Store serial: [18810706]
