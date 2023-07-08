@@ -15271,3 +15271,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 13:09:28] INFO root fetch - processPackages [password-lib]: Remove: archive file [/home/abi/fetcher/tmp/password_lib-0.0.3.tar.gz]
 [2023-07-08 13:09:28] INFO root fetch - main [MainThread]: End processing [password-lib]: success
 [2023-07-08 13:09:28] INFO root fetch - main [MainThread]: Store serial: [18812643]
+[2023-07-08 13:14:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812643]
+[2023-07-08 13:14:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 13:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-lite
+[2023-07-08 13:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napari-SAM4IS
+[2023-07-08 13:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bike
+[2023-07-08 13:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-videocr
+[2023-07-08 13:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roxbot
+[2023-07-08 13:14:37] INFO root fetch - processPackages [rapid-videocr]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-07-08 13:14:37] INFO root fetch - processPackages [napari-SAM4IS]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-08 13:14:37] INFO root fetch - processPackages [roxbot]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-08 13:14:37] INFO root fetch - processPackages [bike]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-08 13:14:37] INFO root fetch - processPackages [flet-lite]: New version: [1.6] Old Version: [1.4]
+[2023-07-08 13:14:37] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/09/2c/009ccba99fa99860d13bee6d7b89644953528b8f31e07e67454f14fffd31/roxbot-0.8.2.tar.gz
+[2023-07-08 13:14:37] INFO root fetch - processPackages [napari-SAM4IS]: Downloading https://files.pythonhosted.org/packages/31/f1/8072c2f6d6461a7fc16971ff4aaaddefb4fd03e9ab166692e05ce0ff0a02/napari-SAM4IS-0.0.4.tar.gz
+[2023-07-08 13:14:37] INFO root fetch - processPackages [rapid-videocr]: Downloading https://files.pythonhosted.org/packages/eb/a8/eded512e21329f8856be17ded1695b87083dbc68c228c4685333047adc61/rapid_videocr-2.2.1-py3-none-any.whl
+[2023-07-08 13:14:37] INFO root fetch - processPackages [bike]: Downloading https://files.pythonhosted.org/packages/30/b3/7982ba7c8846b6cd6639492490e2f688dcd3e0e8720027e2b546bbaabb56/bike-0.3.5.tar.gz
+[2023-07-08 13:14:37] INFO root fetch - processPackages [flet-lite]: Downloading https://files.pythonhosted.org/packages/ca/fb/46a8d7ab4e10394f531f0178ba7ba76d378bf92ce80425cc6b1d77ebd1e4/flet_lite-1.4.tar.gz
+[2023-07-08 13:14:38] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/a3/09/60f9606abbef4a37f50d89d7fac0f71edf92a067e7d60a8b66489c3a8aac/roxbot-0.8.3.tar.gz
+[2023-07-08 13:14:38] INFO root fetch - processPackages [napari-SAM4IS]: Downloading https://files.pythonhosted.org/packages/cd/a9/2f82f9464d0a0d83cd3001b4ce2095705c3d2c472bcb2a588be2fd9526b3/napari-SAM4IS-0.0.5.tar.gz
+[2023-07-08 13:14:38] INFO root fetch - processPackages [rapid-videocr]: Downloading https://files.pythonhosted.org/packages/ba/ce/8aeb08f2fd98a3a40388ad6fba47e9fd95e0fe6e520d6895f75d4ff13a4c/rapid_videocr-2.2.2-py3-none-any.whl
+[2023-07-08 13:14:38] INFO root fetch - processPackages [bike]: Downloading https://files.pythonhosted.org/packages/ef/6f/6a8528ea250ad075dc6255d60b30d4d6c5815ea535d154d2cb208cad150b/bike-0.3.6.tar.gz
+[2023-07-08 13:14:38] INFO root fetch - processPackages [napari-SAM4IS]: executing diffoscope
+[2023-07-08 13:14:38] INFO root fetch - processPackages [napari-SAM4IS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-SAM4IS-0.0.4.tar.gz tmp/napari-SAM4IS-0.0.5.tar.gz --markdown 20230708/n/napari-SAM4IS/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-08 13:14:38] INFO root fetch - processPackages [roxbot]: executing diffoscope
+[2023-07-08 13:14:38] INFO root fetch - processPackages [roxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roxbot-0.8.2.tar.gz tmp/roxbot-0.8.3.tar.gz --markdown 20230708/r/roxbot/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-08 13:14:38] INFO root fetch - processPackages [bike]: executing diffoscope
+[2023-07-08 13:14:38] INFO root fetch - processPackages [bike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bike-0.3.5.tar.gz tmp/bike-0.3.6.tar.gz --markdown 20230708/b/bike/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-08 13:14:38] INFO root fetch - processPackages [rapid-videocr]: executing diffoscope
+[2023-07-08 13:14:38] INFO root fetch - processPackages [rapid-videocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_videocr-2.2.1-py3-none-any.whl.zip tmp/rapid_videocr-2.2.2-py3-none-any.whl.zip --markdown 20230708/r/rapid-videocr/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-07-08 13:14:38] ERROR root fetch - processPackages [flet-lite]: Unable to fetch info: No such project/version 'flet-lite' 1.6
+[2023-07-08 13:14:38] INFO root fetch - main [MainThread]: End processing [flet-lite] error
+[2023-07-08 13:14:39] INFO root fetch - processPackages [napari-SAM4IS]: Remove: archive file [/home/abi/fetcher/tmp/napari-SAM4IS-0.0.4.tar.gz]
+[2023-07-08 13:14:39] INFO root fetch - processPackages [napari-SAM4IS]: Remove: archive file [/home/abi/fetcher/tmp/napari-SAM4IS-0.0.5.tar.gz]
+[2023-07-08 13:14:39] INFO root fetch - main [MainThread]: End processing [napari-SAM4IS]: success
+[2023-07-08 13:14:39] INFO root fetch - processPackages [rapid-videocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_videocr-2.2.1-py3-none-any.whl.zip]
+[2023-07-08 13:14:39] INFO root fetch - processPackages [rapid-videocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_videocr-2.2.2-py3-none-any.whl.zip]
+[2023-07-08 13:14:39] INFO root fetch - main [MainThread]: End processing [rapid-videocr]: success
+[2023-07-08 13:14:39] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.8.2.tar.gz]
+[2023-07-08 13:14:39] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.8.3.tar.gz]
+[2023-07-08 13:14:39] INFO root fetch - main [MainThread]: End processing [roxbot]: success
+[2023-07-08 13:14:39] INFO root fetch - processPackages [bike]: Remove: archive file [/home/abi/fetcher/tmp/bike-0.3.5.tar.gz]
+[2023-07-08 13:14:39] INFO root fetch - processPackages [bike]: Remove: archive file [/home/abi/fetcher/tmp/bike-0.3.6.tar.gz]
+[2023-07-08 13:14:39] INFO root fetch - main [MainThread]: End processing [bike]: success
+[2023-07-08 13:14:39] INFO root fetch - main [MainThread]: Store serial: [18812658]
