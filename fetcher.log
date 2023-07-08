@@ -13033,3 +13033,41 @@
 [2023-07-08 09:29:43] INFO root fetch - processPackages [CTkMessagebox]: Remove: archive file [/home/abi/fetcher/tmp/CTkMessagebox-2.1.tar.gz]
 [2023-07-08 09:29:43] INFO root fetch - main [MainThread]: End processing [CTkMessagebox]: success
 [2023-07-08 09:29:43] INFO root fetch - main [MainThread]: Store serial: [18811562]
+[2023-07-08 09:34:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811562]
+[2023-07-08 09:34:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 09:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Nuitka
+[2023-07-08 09:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RestrictedPython
+[2023-07-08 09:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pwforecast
+[2023-07-08 09:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pathling
+[2023-07-08 09:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pystatic-language
+[2023-07-08 09:34:52] INFO root fetch - processPackages [RestrictedPython]: New version: [7.0a1.dev0] Old Version: [6.1]
+[2023-07-08 09:34:52] INFO root fetch - processPackages [pathling]: New version: [6.3.0.dev0] Old Version: [6.2.3.dev0]
+[2023-07-08 09:34:52] INFO root fetch - processPackages [Nuitka]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-08 09:34:52] WARNING root fetch - processPackages [pwforecast]: Skipping, unable to determine old version
+[2023-07-08 09:34:52] INFO root fetch - main [MainThread]: End processing [pwforecast] error
+[2023-07-08 09:34:52] INFO root fetch - processPackages [pystatic-language]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-08 09:34:52] INFO root fetch - processPackages [pathling]: Downloading https://files.pythonhosted.org/packages/4d/7b/f0ccaafc66dfa0d80cc4a751826afd8cf03acc3bdbabde7abf0d6d594a9d/pathling-6.2.3.dev0.tar.gz
+[2023-07-08 09:34:53] WARNING root fetch - processPackages [pathling]: Skipping package: exceeds size limit 53987890>=10485760
+[2023-07-08 09:34:53] INFO root fetch - main [MainThread]: End processing [pathling] error
+[2023-07-08 09:34:53] INFO root fetch - processPackages [RestrictedPython]: Downloading https://files.pythonhosted.org/packages/93/56/56f41ca22420307997541f4324f1f0e92b597f4ff28517230ac3a5f71f82/RestrictedPython-6.1.tar.gz
+[2023-07-08 09:34:53] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/f8/8c/caf52247f0438a7e3bd30803c1184cfb69352e9b7d565fc12d402854b269/Nuitka-1.7.1.tar.gz
+[2023-07-08 09:34:53] INFO root fetch - processPackages [pystatic-language]: Downloading https://files.pythonhosted.org/packages/12/01/950514a278c7ae3a5c2509364a2f275cf295f69142f0366d37cdbad3ed1e/pystatic-language-1.1.1.tar.gz
+[2023-07-08 09:34:53] INFO root fetch - processPackages [pystatic-language]: Downloading https://files.pythonhosted.org/packages/1d/e4/32ff812f3320d001e109b826c73e471085adaafc64cfe7d3c001917d1a6f/pystatic-language-1.1.2.tar.gz
+[2023-07-08 09:34:53] INFO root fetch - processPackages [RestrictedPython]: Downloading https://files.pythonhosted.org/packages/a1/24/17eb4f3c5564475a3bb7fb7bed6dae3908648048f35cceffbb87edb5a65e/RestrictedPython-7.0a1.dev0.tar.gz
+[2023-07-08 09:34:53] INFO root fetch - processPackages [pystatic-language]: executing diffoscope
+[2023-07-08 09:34:53] INFO root fetch - processPackages [pystatic-language]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystatic-language-1.1.1.tar.gz tmp/pystatic-language-1.1.2.tar.gz --markdown 20230708/p/pystatic-language/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-08 09:34:53] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/c6/3c/5dbcc3c1f5e0dc1140a6e235c19107038d29b1058879add5af7527b075d7/Nuitka-1.7.2.tar.gz
+[2023-07-08 09:34:53] INFO root fetch - processPackages [RestrictedPython]: executing diffoscope
+[2023-07-08 09:34:53] INFO root fetch - processPackages [RestrictedPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RestrictedPython-6.1.tar.gz tmp/RestrictedPython-7.0a1.dev0.tar.gz --markdown 20230708/R/RestrictedPython/6.1-7.0a1.dev0/diff.md --exclude *.pyd
+[2023-07-08 09:34:54] INFO root fetch - processPackages [Nuitka]: executing diffoscope
+[2023-07-08 09:34:54] INFO root fetch - processPackages [Nuitka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-1.7.1.tar.gz tmp/Nuitka-1.7.2.tar.gz --markdown 20230708/N/Nuitka/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-08 09:34:54] INFO root fetch - processPackages [pystatic-language]: Remove: archive file [/home/abi/fetcher/tmp/pystatic-language-1.1.1.tar.gz]
+[2023-07-08 09:34:54] INFO root fetch - processPackages [pystatic-language]: Remove: archive file [/home/abi/fetcher/tmp/pystatic-language-1.1.2.tar.gz]
+[2023-07-08 09:34:54] INFO root fetch - main [MainThread]: End processing [pystatic-language]: success
+[2023-07-08 09:34:55] INFO root fetch - processPackages [RestrictedPython]: Remove: archive file [/home/abi/fetcher/tmp/RestrictedPython-6.1.tar.gz]
+[2023-07-08 09:34:55] INFO root fetch - processPackages [RestrictedPython]: Remove: archive file [/home/abi/fetcher/tmp/RestrictedPython-7.0a1.dev0.tar.gz]
+[2023-07-08 09:34:55] INFO root fetch - main [MainThread]: End processing [RestrictedPython]: success
+[2023-07-08 09:35:10] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.7.1.tar.gz]
+[2023-07-08 09:35:10] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.7.2.tar.gz]
+[2023-07-08 09:35:10] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
+[2023-07-08 09:35:10] INFO root fetch - main [MainThread]: Store serial: [18811583]
