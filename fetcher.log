@@ -20945,3 +20945,69 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 20:55:30] INFO root fetch - processPackages [wsuks]: Remove: archive file [/home/abi/fetcher/tmp/wsuks-0.4.0.tar.gz]
 [2023-07-08 20:55:30] INFO root fetch - main [MainThread]: End processing [wsuks]: success
 [2023-07-08 20:55:30] INFO root fetch - main [MainThread]: Store serial: [18815190]
+[2023-07-08 21:00:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815190]
+[2023-07-08 21:00:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 21:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqd-song-edit
+[2023-07-08 21:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inquirer3
+[2023-07-08 21:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sixth-python
+[2023-07-08 21:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bitssh
+[2023-07-08 21:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: turnt
+[2023-07-08 21:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xklb
+[2023-07-08 21:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ordotools
+[2023-07-08 21:00:39] INFO root fetch - processPackages [inquirer3]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-08 21:00:39] INFO root fetch - processPackages [sqd-song-edit]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-08 21:00:39] INFO root fetch - processPackages [ordotools]: New version: [0.0.9] Old Version: [0.0.6]
+[2023-07-08 21:00:39] INFO root fetch - processPackages [bitssh]: New version: [2.0.0] Old Version: [1.1.3]
+[2023-07-08 21:00:39] INFO root fetch - processPackages [sixth-python]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-08 21:00:39] INFO root fetch - processPackages [turnt]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-08 21:00:39] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-08 21:00:39] INFO root fetch - processPackages [sqd-song-edit]: Downloading https://files.pythonhosted.org/packages/36/8e/fac5676e4c87fef55a382aa8f75aa60c22a49fcc6742a112d48d36f20d07/sqd-song-edit-1.0.1.tar.gz
+[2023-07-08 21:00:39] INFO root fetch - processPackages [bitssh]: Downloading https://files.pythonhosted.org/packages/a0/31/a221a5cd9e94ed572f42154d306cd44b28a4d4b4570d6505c66f7c8c77d2/bitssh-1.1.3.tar.gz
+[2023-07-08 21:00:39] INFO root fetch - processPackages [ordotools]: Downloading https://files.pythonhosted.org/packages/c1/3b/1c77a37917843f29c2dce0c870193404fbcfc4ccc45f19a7b11a2f3ff732/ordotools-0.0.6.tar.gz
+[2023-07-08 21:00:39] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-08 21:00:39] INFO root fetch - processPackages [inquirer3]: Downloading https://files.pythonhosted.org/packages/fa/92/b94596ee119a2a711450e24336c122daf16077286072dc711c0bd7d02130/inquirer3-0.0.2.tar.gz
+[2023-07-08 21:00:39] INFO root fetch - processPackages [turnt]: Downloading https://files.pythonhosted.org/packages/ee/54/3c5fa208901e3d94f24a53a477de1098e3d6f46ab7718098aaaa878c5541/turnt-1.8.0.tar.gz
+[2023-07-08 21:00:39] INFO root fetch - processPackages [sixth-python]: Downloading https://files.pythonhosted.org/packages/7e/94/b88539b54d55d8a6b4666a2764dd7cd0d80ed1e0093b17d931b9e44ad7b3/sixth-python-0.1.1.tar.gz
+[2023-07-08 21:00:40] INFO root fetch - processPackages [ordotools]: Downloading https://files.pythonhosted.org/packages/01/db/6a489501f8c0e7ade876273a94a639d070a95fe91102e634e254e318bb3e/ordotools-0.0.9.tar.gz
+[2023-07-08 21:00:40] INFO root fetch - processPackages [sqd-song-edit]: Downloading https://files.pythonhosted.org/packages/1c/9e/75e070b4256c364fe55ab252799bf48f78b4227518b21768d13e5897ded5/sqd-song-edit-1.1.0.tar.gz
+[2023-07-08 21:00:40] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-08 21:00:40] INFO root fetch - processPackages [ordotools]: executing diffoscope
+[2023-07-08 21:00:40] INFO root fetch - processPackages [ordotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ordotools-0.0.6.tar.gz tmp/ordotools-0.0.9.tar.gz --markdown 20230708/o/ordotools/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 21:00:40] INFO root fetch - processPackages [bitssh]: Downloading https://files.pythonhosted.org/packages/a7/5c/994a3604cc4ddd2bedb22a7d3514f8b33cc009d7530df6cb2eb40760671b/bitssh-2.0.0.tar.gz
+[2023-07-08 21:00:40] INFO root fetch - processPackages [inquirer3]: Downloading https://files.pythonhosted.org/packages/2f/33/8cc8badc30f5421a401d605f7fcb44a437e2fc5ca60e901f66002b9afd17/inquirer3-0.1.0.tar.gz
+[2023-07-08 21:00:40] INFO root fetch - processPackages [sixth-python]: Downloading https://files.pythonhosted.org/packages/94/bf/08f259c23a7b2480a7a9172e457e642b724a6a6183154f74b1a5e3911675/sixth-python-0.1.2.tar.gz
+[2023-07-08 21:00:40] INFO root fetch - processPackages [sqd-song-edit]: executing diffoscope
+[2023-07-08 21:00:40] INFO root fetch - processPackages [sqd-song-edit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqd-song-edit-1.0.1.tar.gz tmp/sqd-song-edit-1.1.0.tar.gz --markdown 20230708/s/sqd-song-edit/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-08 21:00:40] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-08 21:00:40] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230708/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-08 21:00:40] INFO root fetch - processPackages [bitssh]: executing diffoscope
+[2023-07-08 21:00:40] INFO root fetch - processPackages [bitssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitssh-1.1.3.tar.gz tmp/bitssh-2.0.0.tar.gz --markdown 20230708/b/bitssh/1.1.3-2.0.0/diff.md --exclude *.pyd
+[2023-07-08 21:00:40] INFO root fetch - processPackages [turnt]: Downloading https://files.pythonhosted.org/packages/50/b5/3459aabb23ade4652fc0023df3c220e217f759aeda526ed6b20d631aaf08/turnt-1.9.0.tar.gz
+[2023-07-08 21:00:40] INFO root fetch - processPackages [inquirer3]: executing diffoscope
+[2023-07-08 21:00:40] INFO root fetch - processPackages [inquirer3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inquirer3-0.0.2.tar.gz tmp/inquirer3-0.1.0.tar.gz --markdown 20230708/i/inquirer3/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-08 21:00:40] INFO root fetch - processPackages [sixth-python]: executing diffoscope
+[2023-07-08 21:00:40] INFO root fetch - processPackages [sixth-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sixth-python-0.1.1.tar.gz tmp/sixth-python-0.1.2.tar.gz --markdown 20230708/s/sixth-python/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-08 21:00:40] INFO root fetch - processPackages [turnt]: executing diffoscope
+[2023-07-08 21:00:40] INFO root fetch - processPackages [turnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turnt-1.8.0.tar.gz tmp/turnt-1.9.0.tar.gz --markdown 20230708/t/turnt/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-08 21:00:41] INFO root fetch - processPackages [ordotools]: Remove: archive file [/home/abi/fetcher/tmp/ordotools-0.0.6.tar.gz]
+[2023-07-08 21:00:41] INFO root fetch - processPackages [ordotools]: Remove: archive file [/home/abi/fetcher/tmp/ordotools-0.0.9.tar.gz]
+[2023-07-08 21:00:41] INFO root fetch - main [MainThread]: End processing [ordotools]: success
+[2023-07-08 21:00:41] INFO root fetch - processPackages [sqd-song-edit]: Remove: archive file [/home/abi/fetcher/tmp/sqd-song-edit-1.0.1.tar.gz]
+[2023-07-08 21:00:41] INFO root fetch - processPackages [sqd-song-edit]: Remove: archive file [/home/abi/fetcher/tmp/sqd-song-edit-1.1.0.tar.gz]
+[2023-07-08 21:00:41] INFO root fetch - main [MainThread]: End processing [sqd-song-edit]: success
+[2023-07-08 21:00:41] INFO root fetch - processPackages [bitssh]: Remove: archive file [/home/abi/fetcher/tmp/bitssh-1.1.3.tar.gz]
+[2023-07-08 21:00:41] INFO root fetch - processPackages [bitssh]: Remove: archive file [/home/abi/fetcher/tmp/bitssh-2.0.0.tar.gz]
+[2023-07-08 21:00:41] INFO root fetch - main [MainThread]: End processing [bitssh]: success
+[2023-07-08 21:00:41] INFO root fetch - processPackages [inquirer3]: Remove: archive file [/home/abi/fetcher/tmp/inquirer3-0.0.2.tar.gz]
+[2023-07-08 21:00:41] INFO root fetch - processPackages [inquirer3]: Remove: archive file [/home/abi/fetcher/tmp/inquirer3-0.1.0.tar.gz]
+[2023-07-08 21:00:41] INFO root fetch - main [MainThread]: End processing [inquirer3]: success
+[2023-07-08 21:00:41] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-08 21:00:41] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-08 21:00:41] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-08 21:00:41] INFO root fetch - processPackages [sixth-python]: Remove: archive file [/home/abi/fetcher/tmp/sixth-python-0.1.1.tar.gz]
+[2023-07-08 21:00:41] INFO root fetch - processPackages [sixth-python]: Remove: archive file [/home/abi/fetcher/tmp/sixth-python-0.1.2.tar.gz]
+[2023-07-08 21:00:41] INFO root fetch - main [MainThread]: End processing [sixth-python]: success
+[2023-07-08 21:00:41] INFO root fetch - processPackages [turnt]: Remove: archive file [/home/abi/fetcher/tmp/turnt-1.8.0.tar.gz]
+[2023-07-08 21:00:41] INFO root fetch - processPackages [turnt]: Remove: archive file [/home/abi/fetcher/tmp/turnt-1.9.0.tar.gz]
+[2023-07-08 21:00:41] INFO root fetch - main [MainThread]: End processing [turnt]: success
+[2023-07-08 21:00:41] INFO root fetch - main [MainThread]: Store serial: [18815213]
