@@ -17676,3 +17676,129 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 16:18:13] INFO root fetch - processPackages [eutil]: Remove: archive file [/home/abi/fetcher/tmp/eutil-0.0.4.tar.gz]
 [2023-07-08 16:18:13] INFO root fetch - main [MainThread]: End processing [eutil]: success
 [2023-07-08 16:18:13] INFO root fetch - main [MainThread]: Store serial: [18813674]
+[2023-07-08 16:23:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813674]
+[2023-07-08 16:23:22] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-08 16:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragu
+[2023-07-08 16:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kube-copilot
+[2023-07-08 16:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafruit-circuitpython-wsgi
+[2023-07-08 16:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-mermaid
+[2023-07-08 16:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nics
+[2023-07-08 16:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: comwatt-client
+[2023-07-08 16:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adafruit-circuitpython-requests
+[2023-07-08 16:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chik-blockchain
+[2023-07-08 16:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: slib-sorter
+[2023-07-08 16:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nwebclient
+[2023-07-08 16:23:22] INFO root fetch - processPackages [ragu]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 16:23:22] INFO root fetch - processPackages [comwatt-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 16:23:22] WARNING root fetch - processPackages [streamlit-mermaid]: Skipping, unable to determine old version
+[2023-07-08 16:23:22] INFO root fetch - processPackages [streamlit-mermaid]: Start processing: pydpm
+[2023-07-08 16:23:22] INFO root fetch - main [MainThread]: End processing [streamlit-mermaid] error
+[2023-07-08 16:23:22] INFO root fetch - processPackages [adafruit-circuitpython-requests]: New version: [2.0.0] Old Version: [1.9.9]
+[2023-07-08 16:23:22] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 16:23:22] INFO root fetch - processPackages [adafruit-circuitpython-wsgi]: New version: [2.0.0] Old Version: [1.1.9]
+[2023-07-08 16:23:22] INFO root fetch - processPackages [slib-sorter]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-08 16:23:22] INFO root fetch - processPackages [nics]: New version: [2.7.2] Old Version: [2.7.1]
+[2023-07-08 16:23:23] INFO root fetch - processPackages [kube-copilot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 16:23:23] WARNING root fetch - processPackages [chik-blockchain]: Skipping, unable to determine old version
+[2023-07-08 16:23:23] INFO root fetch - processPackages [chik-blockchain]: Start processing: MusicBGX
+[2023-07-08 16:23:23] INFO root fetch - main [MainThread]: End processing [chik-blockchain] error
+[2023-07-08 16:23:23] INFO root fetch - processPackages [pydpm]: New version: [5.1.0] Old Version: [5.0.0]
+[2023-07-08 16:23:23] INFO root fetch - processPackages [MusicBGX]: New version: [1.0.5] Old Version: [1.0.0]
+[2023-07-08 16:23:23] INFO root fetch - processPackages [comwatt-client]: Downloading https://files.pythonhosted.org/packages/8c/06/2a41c27ea8cb9283be34e6c3f84a3d24ddc8776f5e5b0bf94aa6d73a6262/comwatt-client-0.1.0.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/92/ed/ae22c3eb11fd91f9bc01dbdcba0f4a7c22cef980bf8f5fef46caec814480/kube_copilot-0.1.8.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/55/ce/147b8e3ac25dc4a2cace6d485dfe4cf2e0484d7e72c526c66477f0a0ee3b/nics-2.7.1.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [ragu]: Downloading https://files.pythonhosted.org/packages/77/af/7fbd7b75aa46e5ebcf554dc894328bc9805c8995de45b895241b29c58f6a/ragu-0.1.0.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [adafruit-circuitpython-wsgi]: Downloading https://files.pythonhosted.org/packages/7e/a5/c740f1bbfc67e919b1c509419716ca2115870fcc089c1ae8125b09d50ceb/adafruit-circuitpython-wsgi-1.1.9.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/a2/5f/4d2d76d2cd71b84ea8024472a8c10a650f3bf9e939a85b6c310fb9470245/slib-sorter-1.6.2.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Downloading https://files.pythonhosted.org/packages/a0/0b/413eb4417ae990eb0822830f84f4060bd05b75f51e0ea489915839cceb0e/adafruit-circuitpython-requests-1.9.9.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [MusicBGX]: Downloading https://files.pythonhosted.org/packages/c8/02/ef23277ae75b1d689bdc091cf1df0ae876744bce201f51220098b63eb764/MusicBGX-1.0.0.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [pydpm]: Downloading https://files.pythonhosted.org/packages/e0/9e/dc23cf722bb60abbfef8dd4701ca34a4ef2887f4cffdf22d9cfdaae18b12/pydpm-5.0.0.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/fd/35/3e18869b47a41c295ac800019e28347fde14879ede6506f97393faade562/kube_copilot-0.1.9.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [comwatt-client]: Downloading https://files.pythonhosted.org/packages/60/a4/cc94426001fb99c9db828cfacb55c6bae3ba9b75a169b89c513a1801feb9/comwatt-client-0.1.1.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 16:23:23] INFO root fetch - processPackages [ragu]: Downloading https://files.pythonhosted.org/packages/d2/59/85824804d4b7a93d4591f56de009dd8f33eb88458b5259d6f92513cb8874/ragu-0.1.1.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 16:23:23] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/2d/5c/30d123b86782e216b1c43cc6ab41682961925961b2148d70abbbb8e1b257/nics-2.7.2.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/5a/e3/ad9f64febb9c138833d5358edf26d327f14ea1a6055f09949b26082eb8a4/slib-sorter-1.6.3.tar.gz
+[2023-07-08 16:23:23] INFO root fetch - processPackages [comwatt-client]: executing diffoscope
+[2023-07-08 16:23:23] INFO root fetch - processPackages [comwatt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comwatt-client-0.1.0.tar.gz tmp/comwatt-client-0.1.1.tar.gz --markdown 20230708/c/comwatt-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 16:23:23] INFO root fetch - processPackages [MusicBGX]: Downloading https://files.pythonhosted.org/packages/fa/f5/3c795ff572d897781633b4017feba1af3dc42990f490d740128161809da7/MusicBGX-1.0.5.tar.gz
+[2023-07-08 16:23:24] INFO root fetch - processPackages [adafruit-circuitpython-wsgi]: Downloading https://files.pythonhosted.org/packages/cd/20/26d64f4946901a843aa51a828049c97ea9be02ac5df68da179a21a983e6d/adafruit-circuitpython-wsgi-2.0.0.tar.gz
+[2023-07-08 16:23:24] INFO root fetch - processPackages [kube-copilot]: executing diffoscope
+[2023-07-08 16:23:24] INFO root fetch - processPackages [kube-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_copilot-0.1.8.tar.gz tmp/kube_copilot-0.1.9.tar.gz --markdown 20230708/k/kube-copilot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 16:23:24] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-08 16:23:24] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.7.1.tar.gz tmp/nics-2.7.2.tar.gz --markdown 20230708/n/nics/2.7.1-2.7.2/diff.md --exclude *.pyd
+[2023-07-08 16:23:24] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 16:23:24] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.6.2.tar.gz tmp/slib-sorter-1.6.3.tar.gz --markdown 20230708/s/slib-sorter/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-08 16:23:24] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Downloading https://files.pythonhosted.org/packages/75/d8/67875182aecd2de475b5e7d602f59d83b0c8c286f23044718ee88ccd66b9/adafruit-circuitpython-requests-2.0.0.tar.gz
+[2023-07-08 16:23:24] INFO root fetch - processPackages [ragu]: executing diffoscope
+[2023-07-08 16:23:24] INFO root fetch - processPackages [ragu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragu-0.1.0.tar.gz tmp/ragu-0.1.1.tar.gz --markdown 20230708/r/ragu/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 16:23:24] INFO root fetch - processPackages [pydpm]: Downloading https://files.pythonhosted.org/packages/15/42/bd9878213797c8ad5e1ee26ca4410c6f8a9953171496cee4ea8f91226bb5/pydpm-5.1.0.tar.gz
+[2023-07-08 16:23:24] INFO root fetch - processPackages [adafruit-circuitpython-wsgi]: executing diffoscope
+[2023-07-08 16:23:24] INFO root fetch - processPackages [adafruit-circuitpython-wsgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-wsgi-1.1.9.tar.gz tmp/adafruit-circuitpython-wsgi-2.0.0.tar.gz --markdown 20230708/a/adafruit-circuitpython-wsgi/1.1.9-2.0.0/diff.md --exclude *.pyd
+[2023-07-08 16:23:24] INFO root fetch - processPackages [adafruit-circuitpython-requests]: executing diffoscope
+[2023-07-08 16:23:24] INFO root fetch - processPackages [adafruit-circuitpython-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-requests-1.9.9.tar.gz tmp/adafruit-circuitpython-requests-2.0.0.tar.gz --markdown 20230708/a/adafruit-circuitpython-requests/1.9.9-2.0.0/diff.md --exclude *.pyd
+[2023-07-08 16:23:24] INFO root fetch - processPackages [MusicBGX]: executing diffoscope
+[2023-07-08 16:23:24] INFO root fetch - processPackages [MusicBGX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MusicBGX-1.0.0.tar.gz tmp/MusicBGX-1.0.5.tar.gz --markdown 20230708/M/MusicBGX/1.0.0-1.0.5/diff.md --exclude *.pyd
+[2023-07-08 16:23:24] INFO root fetch - processPackages [pydpm]: executing diffoscope
+[2023-07-08 16:23:24] INFO root fetch - processPackages [pydpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydpm-5.0.0.tar.gz tmp/pydpm-5.1.0.tar.gz --markdown 20230708/p/pydpm/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2023-07-08 16:23:25] INFO root fetch - processPackages [comwatt-client]: Remove: archive file [/home/abi/fetcher/tmp/comwatt-client-0.1.0.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - processPackages [comwatt-client]: Remove: archive file [/home/abi/fetcher/tmp/comwatt-client-0.1.1.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - processPackages [comwatt-client]: Start processing: nwebclient
+[2023-07-08 16:23:25] INFO root fetch - main [MainThread]: End processing [comwatt-client]: success
+[2023-07-08 16:23:25] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 16:23:25] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - processPackages [nwebclient]: Start processing: spanishconjugator
+[2023-07-08 16:23:25] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 16:23:25] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 16:23:25] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-08 16:23:25] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.8.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.9.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - processPackages [kube-copilot]: Start processing: adafruit-circuitpython-minimqtt
+[2023-07-08 16:23:25] INFO root fetch - main [MainThread]: End processing [kube-copilot]: success
+[2023-07-08 16:23:25] INFO root fetch - processPackages [ragu]: Remove: archive file [/home/abi/fetcher/tmp/ragu-0.1.0.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - processPackages [ragu]: Remove: archive file [/home/abi/fetcher/tmp/ragu-0.1.1.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - main [MainThread]: End processing [ragu]: success
+[2023-07-08 16:23:25] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.6.2.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.6.3.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 16:23:25] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.7.1.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.7.2.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-08 16:23:25] INFO root fetch - processPackages [MusicBGX]: Remove: archive file [/home/abi/fetcher/tmp/MusicBGX-1.0.0.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - processPackages [MusicBGX]: Remove: archive file [/home/abi/fetcher/tmp/MusicBGX-1.0.5.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - main [MainThread]: End processing [MusicBGX]: success
+[2023-07-08 16:23:25] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-08 16:23:25] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: New version: [7.4.0] Old Version: [7.3.2]
+[2023-07-08 16:23:25] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 16:23:25] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-requests-1.9.9.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-requests-2.0.0.tar.gz]
+[2023-07-08 16:23:25] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-requests]: success
+[2023-07-08 16:23:26] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 16:23:26] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 16:23:26] INFO root fetch - processPackages [adafruit-circuitpython-wsgi]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-wsgi-1.1.9.tar.gz]
+[2023-07-08 16:23:26] INFO root fetch - processPackages [adafruit-circuitpython-wsgi]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-wsgi-2.0.0.tar.gz]
+[2023-07-08 16:23:26] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-wsgi]: success
+[2023-07-08 16:23:26] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-08 16:23:26] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: Downloading https://files.pythonhosted.org/packages/31/38/39d29a27e436b20940333ada1b993660923a9d04abf89a0977f52c27a7fe/adafruit-circuitpython-minimqtt-7.3.2.tar.gz
+[2023-07-08 16:23:26] INFO root fetch - processPackages [pydpm]: Remove: archive file [/home/abi/fetcher/tmp/pydpm-5.0.0.tar.gz]
+[2023-07-08 16:23:26] INFO root fetch - processPackages [pydpm]: Remove: archive file [/home/abi/fetcher/tmp/pydpm-5.1.0.tar.gz]
+[2023-07-08 16:23:26] INFO root fetch - main [MainThread]: End processing [pydpm]: success
+[2023-07-08 16:23:26] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-08 16:23:26] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230708/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-08 16:23:26] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: Downloading https://files.pythonhosted.org/packages/4d/74/10122f61e7da708bec94fe433446c9d617f8332fa0975f271d3a0351267f/adafruit-circuitpython-minimqtt-7.4.0.tar.gz
+[2023-07-08 16:23:26] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: executing diffoscope
+[2023-07-08 16:23:26] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-minimqtt-7.3.2.tar.gz tmp/adafruit-circuitpython-minimqtt-7.4.0.tar.gz --markdown 20230708/a/adafruit-circuitpython-minimqtt/7.3.2-7.4.0/diff.md --exclude *.pyd
+[2023-07-08 16:23:26] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-08 16:23:26] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-08 16:23:26] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 16:23:26] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-08 16:23:26] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-08 16:23:26] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-08 16:23:27] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-minimqtt-7.3.2.tar.gz]
+[2023-07-08 16:23:27] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-minimqtt-7.4.0.tar.gz]
+[2023-07-08 16:23:27] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-minimqtt]: success
+[2023-07-08 16:23:27] INFO root fetch - main [MainThread]: Store serial: [18813719]
