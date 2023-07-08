@@ -12755,3 +12755,27 @@
 [2023-07-08 08:53:02] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.94.1.tar.gz]
 [2023-07-08 08:53:02] INFO root fetch - main [MainThread]: End processing [sklearn2pmml]: success
 [2023-07-08 08:53:02] INFO root fetch - main [MainThread]: Store serial: [18811421]
+[2023-07-08 08:58:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811421]
+[2023-07-08 08:58:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tartiflette-django
+[2023-07-08 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ahk
+[2023-07-08 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: voicemeeter-api
+[2023-07-08 08:58:12] INFO root fetch - processPackages [voicemeeter-api]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-08 08:58:12] WARNING root fetch - processPackages [tartiflette-django]: Skipping, unable to determine old version
+[2023-07-08 08:58:12] INFO root fetch - main [MainThread]: End processing [tartiflette-django] error
+[2023-07-08 08:58:12] INFO root fetch - processPackages [ahk]: New version: [1.2.0rc1] Old Version: [1.1.3rc2]
+[2023-07-08 08:58:12] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/66/07/d1f4a4c5252e1b65834f13ddb66ca240411876ba210ad68b7361a2a76a6d/ahk-1.1.3rc2.tar.gz
+[2023-07-08 08:58:12] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/77/40/9566412f8bace57ca80fa3eeca310f71dd257e687b36ebc2709b4c8990d9/voicemeeter_api-2.1.1.tar.gz
+[2023-07-08 08:58:12] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/ef/7c/5380f4704e483c7f3748e43127198502605972b497c191f7887c16bb150e/ahk-1.2.0rc1.tar.gz
+[2023-07-08 08:58:12] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/e6/83/14e8a0cac7e81eb973446256e2bc314e792c1bf0225f76eadd6f97542953/voicemeeter_api-2.1.2.tar.gz
+[2023-07-08 08:58:12] INFO root fetch - processPackages [ahk]: executing diffoscope
+[2023-07-08 08:58:12] INFO root fetch - processPackages [ahk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahk-1.1.3rc2.tar.gz tmp/ahk-1.2.0rc1.tar.gz --markdown 20230708/a/ahk/1.1.3rc2-1.2.0rc1/diff.md --exclude *.pyd
+[2023-07-08 08:58:12] INFO root fetch - processPackages [voicemeeter-api]: executing diffoscope
+[2023-07-08 08:58:12] INFO root fetch - processPackages [voicemeeter-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter_api-2.1.1.tar.gz tmp/voicemeeter_api-2.1.2.tar.gz --markdown 20230708/v/voicemeeter-api/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-08 08:58:13] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.1.1.tar.gz]
+[2023-07-08 08:58:13] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.1.2.tar.gz]
+[2023-07-08 08:58:13] INFO root fetch - main [MainThread]: End processing [voicemeeter-api]: success
+[2023-07-08 08:58:13] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.1.3rc2.tar.gz]
+[2023-07-08 08:58:13] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.2.0rc1.tar.gz]
+[2023-07-08 08:58:13] INFO root fetch - main [MainThread]: End processing [ahk]: success
+[2023-07-08 08:58:13] INFO root fetch - main [MainThread]: Store serial: [18811432]
