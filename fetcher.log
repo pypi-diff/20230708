@@ -3096,3 +3096,29 @@
 [2023-07-08 02:53:30] INFO root fetch - processPackages [icpp-free]: Remove: archive file [/home/abi/fetcher/tmp/icpp_free-2.8.0-py3-none-any.whl.zip]
 [2023-07-08 02:53:30] INFO root fetch - main [MainThread]: End processing [icpp-free]: success
 [2023-07-08 02:53:30] INFO root fetch - main [MainThread]: Store serial: [18807836]
+[2023-07-08 02:58:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807836]
+[2023-07-08 02:58:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 02:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycde
+[2023-07-08 02:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-cfassistant
+[2023-07-08 02:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-slack-chatbot
+[2023-07-08 02:58:39] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: New version: [1.0.0] Old Version: [0.0.6]
+[2023-07-08 02:58:39] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-08 02:58:39] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev895]
+[2023-07-08 02:58:39] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Downloading https://files.pythonhosted.org/packages/6e/0c/d16b0172a386e20839acbe1d33f8faa8ec148fac9fd8de6a2164db568434/nonebot-plugin-cfassistant-0.0.6.tar.gz
+[2023-07-08 02:58:39] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/a5/1e/8d0428345f578783b04ffc29cd4dd512b4b78f34dd6c59d5d7d1c653d2db/pycde-0.2.1.dev895-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-08 02:58:39] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-07-08 02:58:39] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 13487573>=10485760
+[2023-07-08 02:58:39] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2023-07-08 02:58:39] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Downloading https://files.pythonhosted.org/packages/62/a6/0cf0b819ce3f2035ea29891526b4dbe9d7bfe2d0a3a269cb4a45a79deb3d/nonebot-plugin-cfassistant-1.0.0.tar.gz
+[2023-07-08 02:58:39] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-07-08 02:58:39] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: executing diffoscope
+[2023-07-08 02:58:39] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-cfassistant-0.0.6.tar.gz tmp/nonebot-plugin-cfassistant-1.0.0.tar.gz --markdown 20230708/n/nonebot-plugin-cfassistant/0.0.6-1.0.0/diff.md --exclude *.pyd
+[2023-07-08 02:58:39] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-07-08 02:58:39] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230708/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-08 02:58:40] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-cfassistant-0.0.6.tar.gz]
+[2023-07-08 02:58:40] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-cfassistant-1.0.0.tar.gz]
+[2023-07-08 02:58:40] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cfassistant]: success
+[2023-07-08 02:58:40] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.98.tar.gz]
+[2023-07-08 02:58:40] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
+[2023-07-08 02:58:40] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-07-08 02:58:40] INFO root fetch - main [MainThread]: Store serial: [18807850]
