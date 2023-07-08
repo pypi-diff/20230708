@@ -3313,3 +3313,81 @@
 [2023-07-08 03:14:45] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4639.tar.gz]
 [2023-07-08 03:14:45] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
 [2023-07-08 03:14:45] INFO root fetch - main [MainThread]: Store serial: [18807924]
+[2023-07-08 03:19:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807924]
+[2023-07-08 03:19:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-08 03:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qt-dev-helper
+[2023-07-08 03:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rinzler
+[2023-07-08 03:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparse-dok
+[2023-07-08 03:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crystal-toolkit
+[2023-07-08 03:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyno-logger
+[2023-07-08 03:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: duckdb
+[2023-07-08 03:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyno-logger
+[2023-07-08 03:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smtpdfix
+[2023-07-08 03:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: icpp-free
+[2023-07-08 03:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cuda-ext-example
+[2023-07-08 03:19:54] INFO root fetch - processPackages [qt-dev-helper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-08 03:19:54] INFO root fetch - processPackages [smtpdfix]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-08 03:19:54] INFO root fetch - processPackages [pyno-logger]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-08 03:19:54] INFO root fetch - processPackages [sparse-dok]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2023-07-08 03:19:54] INFO root fetch - processPackages [crystal-toolkit]: New version: [2023.7.8] Old Version: [2023.6.26]
+[2023-07-08 03:19:54] INFO root fetch - processPackages [pyno-logger]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-08 03:19:54] INFO root fetch - processPackages [icpp-free]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-07-08 03:19:54] INFO root fetch - processPackages [rinzler]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-07-08 03:19:54] WARNING root fetch - processPackages [cuda-ext-example]: Skipping, unable to determine old version
+[2023-07-08 03:19:54] INFO root fetch - main [MainThread]: End processing [cuda-ext-example] error
+[2023-07-08 03:19:54] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev1493] Old Version: [0.8.2.dev1435]
+[2023-07-08 03:19:54] INFO root fetch - processPackages [sparse-dok]: Downloading https://files.pythonhosted.org/packages/82/9f/34796adfa3240d1971a5e5bf281ba1edfe51252fa3469fa4d2414ebfe361/sparse_dok-0.1.9.tar.gz
+[2023-07-08 03:19:54] INFO root fetch - processPackages [icpp-free]: Downloading https://files.pythonhosted.org/packages/3a/3a/a55887066d07226ea1283df0bd1db24ccbede0dc66e7f5d040c855c2df93/icpp_free-2.8.0-py3-none-any.whl
+[2023-07-08 03:19:54] INFO root fetch - processPackages [smtpdfix]: Downloading https://files.pythonhosted.org/packages/5d/53/ae0e6f30af8d8d6beb196e6d5a2234eb48804be2b8afbc4c2670025fb6c4/smtpdfix-0.5.0.tar.gz
+[2023-07-08 03:19:54] INFO root fetch - processPackages [pyno-logger]: Downloading https://files.pythonhosted.org/packages/09/60/92fbc4a3f9a851b5f0eb6a016014a8dcb48c2b5171fb0ed3026636c7acee/pyno_logger-0.0.4.tar.gz
+[2023-07-08 03:19:54] INFO root fetch - processPackages [qt-dev-helper]: Downloading https://files.pythonhosted.org/packages/22/25/b483d4686968058ab33a6b8f81f01c53d3e7cb17e6a696503c65b3647837/qt_dev_helper-0.0.3.tar.gz
+[2023-07-08 03:19:54] INFO root fetch - processPackages [pyno-logger]: Downloading https://files.pythonhosted.org/packages/09/60/92fbc4a3f9a851b5f0eb6a016014a8dcb48c2b5171fb0ed3026636c7acee/pyno_logger-0.0.4.tar.gz
+[2023-07-08 03:19:54] INFO root fetch - processPackages [crystal-toolkit]: Downloading https://files.pythonhosted.org/packages/36/6c/65ca2daa3b4b68c33b89e5f06fed4425feb4db01ea33c8077946e8fe917d/crystal_toolkit-2023.6.26.tar.gz
+[2023-07-08 03:19:54] INFO root fetch - processPackages [rinzler]: Downloading https://files.pythonhosted.org/packages/40/4e/1026f7b50ce4424b87777efb29dde83c2a8231abe5cbf2476df1efe8d667/rinzler-2.2.4.tar.gz
+[2023-07-08 03:19:55] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/b4/e6/0cfda9d8acb37e36fdbaf8a871419ffc189a3fd434c4d2e751cba4a98c2d/duckdb-0.8.2.dev1435.tar.gz
+[2023-07-08 03:19:55] WARNING root fetch - processPackages [crystal-toolkit]: Skipping package: exceeds size limit 15515144>=10485760
+[2023-07-08 03:19:55] INFO root fetch - main [MainThread]: End processing [crystal-toolkit] error
+[2023-07-08 03:19:55] INFO root fetch - processPackages [smtpdfix]: Downloading https://files.pythonhosted.org/packages/4e/27/b0d1183521de8b0db46b84fb5a23c6c09e1181351ea7e3c869b15db14aac/smtpdfix-0.5.1.tar.gz
+[2023-07-08 03:19:55] INFO root fetch - processPackages [sparse-dok]: Downloading https://files.pythonhosted.org/packages/40/8a/60d99ef4645c47939221456f7ef20c8a07b13075b27d4bd38fbf26bc8011/sparse_dok-0.1.9.1.tar.gz
+[2023-07-08 03:19:55] INFO root fetch - processPackages [icpp-free]: Downloading https://files.pythonhosted.org/packages/8a/d0/e5439123b7c96f79b359dfb65d510784373c227ef8bcc3d749b6d8b011ab/icpp_free-2.8.1-py3-none-any.whl
+[2023-07-08 03:19:55] INFO root fetch - processPackages [qt-dev-helper]: Downloading https://files.pythonhosted.org/packages/dd/b1/f3c471bc09806c1ed575d2892910c647822d6dbc938629937694654ea657/qt_dev_helper-0.0.4.tar.gz
+[2023-07-08 03:19:55] INFO root fetch - processPackages [pyno-logger]: Downloading https://files.pythonhosted.org/packages/95/1f/5d941a69959c6611bbaffb0c99cb866b8e7e6c3d832971a53f55c4388471/pyno_logger-0.0.5.tar.gz
+[2023-07-08 03:19:55] INFO root fetch - processPackages [pyno-logger]: Downloading https://files.pythonhosted.org/packages/95/1f/5d941a69959c6611bbaffb0c99cb866b8e7e6c3d832971a53f55c4388471/pyno_logger-0.0.5.tar.gz
+[2023-07-08 03:19:55] INFO root fetch - processPackages [sparse-dok]: executing diffoscope
+[2023-07-08 03:19:55] INFO root fetch - processPackages [sparse-dok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse_dok-0.1.9.tar.gz tmp/sparse_dok-0.1.9.1.tar.gz --markdown 20230708/s/sparse-dok/0.1.9-0.1.9.1/diff.md --exclude *.pyd
+[2023-07-08 03:19:55] INFO root fetch - processPackages [smtpdfix]: executing diffoscope
+[2023-07-08 03:19:55] INFO root fetch - processPackages [smtpdfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smtpdfix-0.5.0.tar.gz tmp/smtpdfix-0.5.1.tar.gz --markdown 20230708/s/smtpdfix/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-08 03:19:55] INFO root fetch - processPackages [pyno-logger]: executing diffoscope
+[2023-07-08 03:19:55] INFO root fetch - processPackages [pyno-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyno_logger-0.0.4.tar.gz tmp/pyno_logger-0.0.5.tar.gz --markdown 20230708/p/pyno-logger/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-08 03:19:55] INFO root fetch - processPackages [rinzler]: Downloading https://files.pythonhosted.org/packages/9c/9e/bfd7bde6c90964f8d9ffbf549e6543be22c5f969bdef0f71ba76b563a285/rinzler-2.2.5.tar.gz
+[2023-07-08 03:19:55] INFO root fetch - processPackages [pyno-logger]: executing diffoscope
+[2023-07-08 03:19:55] INFO root fetch - processPackages [pyno-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyno_logger-0.0.4.tar.gz tmp/pyno_logger-0.0.5.tar.gz --markdown 20230708/p/pyno-logger/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-08 03:19:55] INFO root fetch - processPackages [icpp-free]: executing diffoscope
+[2023-07-08 03:19:55] INFO root fetch - processPackages [icpp-free]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icpp_free-2.8.0-py3-none-any.whl.zip tmp/icpp_free-2.8.1-py3-none-any.whl.zip --markdown 20230708/i/icpp-free/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-07-08 03:19:55] INFO root fetch - processPackages [qt-dev-helper]: executing diffoscope
+[2023-07-08 03:19:55] INFO root fetch - processPackages [qt-dev-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qt_dev_helper-0.0.3.tar.gz tmp/qt_dev_helper-0.0.4.tar.gz --markdown 20230708/q/qt-dev-helper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-08 03:19:55] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/04/db/5f0a730e5734ca9500234795595bffbed18bbe89c00fade61eb3987347bb/duckdb-0.8.2.dev1493-cp36-cp36m-macosx_10_9_x86_64.whl
+[2023-07-08 03:19:55] INFO root fetch - processPackages [rinzler]: executing diffoscope
+[2023-07-08 03:19:55] INFO root fetch - processPackages [rinzler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rinzler-2.2.4.tar.gz tmp/rinzler-2.2.5.tar.gz --markdown 20230708/r/rinzler/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-07-08 03:19:55] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14890026>=10485760
+[2023-07-08 03:19:55] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-07-08 03:19:56] INFO root fetch - processPackages [pyno-logger]: Remove: archive file [/home/abi/fetcher/tmp/pyno_logger-0.0.4.tar.gz]
+[2023-07-08 03:19:56] INFO root fetch - processPackages [pyno-logger]: Remove: archive file [/home/abi/fetcher/tmp/pyno_logger-0.0.5.tar.gz]
+[2023-07-08 03:19:56] INFO root fetch - main [MainThread]: End processing [pyno-logger]: success
+[2023-07-08 03:19:56] INFO root fetch - main [MainThread]: End processing [pyno-logger]: success
+[2023-07-08 03:19:56] INFO root fetch - processPackages [smtpdfix]: Remove: archive file [/home/abi/fetcher/tmp/smtpdfix-0.5.0.tar.gz]
+[2023-07-08 03:19:56] INFO root fetch - processPackages [smtpdfix]: Remove: archive file [/home/abi/fetcher/tmp/smtpdfix-0.5.1.tar.gz]
+[2023-07-08 03:19:56] INFO root fetch - main [MainThread]: End processing [smtpdfix]: success
+[2023-07-08 03:19:56] INFO root fetch - processPackages [sparse-dok]: Remove: archive file [/home/abi/fetcher/tmp/sparse_dok-0.1.9.tar.gz]
+[2023-07-08 03:19:56] INFO root fetch - processPackages [sparse-dok]: Remove: archive file [/home/abi/fetcher/tmp/sparse_dok-0.1.9.1.tar.gz]
+[2023-07-08 03:19:56] INFO root fetch - main [MainThread]: End processing [sparse-dok]: success
+[2023-07-08 03:19:56] INFO root fetch - processPackages [rinzler]: Remove: archive file [/home/abi/fetcher/tmp/rinzler-2.2.4.tar.gz]
+[2023-07-08 03:19:56] INFO root fetch - processPackages [rinzler]: Remove: archive file [/home/abi/fetcher/tmp/rinzler-2.2.5.tar.gz]
+[2023-07-08 03:19:56] INFO root fetch - main [MainThread]: End processing [rinzler]: success
+[2023-07-08 03:19:57] INFO root fetch - processPackages [qt-dev-helper]: Remove: archive file [/home/abi/fetcher/tmp/qt_dev_helper-0.0.3.tar.gz]
+[2023-07-08 03:19:57] INFO root fetch - processPackages [qt-dev-helper]: Remove: archive file [/home/abi/fetcher/tmp/qt_dev_helper-0.0.4.tar.gz]
+[2023-07-08 03:19:57] INFO root fetch - main [MainThread]: End processing [qt-dev-helper]: success
+[2023-07-08 03:19:57] INFO root fetch - processPackages [icpp-free]: Remove: archive file [/home/abi/fetcher/tmp/icpp_free-2.8.0-py3-none-any.whl.zip]
+[2023-07-08 03:19:57] INFO root fetch - processPackages [icpp-free]: Remove: archive file [/home/abi/fetcher/tmp/icpp_free-2.8.1-py3-none-any.whl.zip]
+[2023-07-08 03:19:57] INFO root fetch - main [MainThread]: End processing [icpp-free]: success
+[2023-07-08 03:19:57] INFO root fetch - main [MainThread]: Store serial: [18807953]
