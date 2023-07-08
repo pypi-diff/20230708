@@ -10458,3 +10458,72 @@
 [2023-07-08 04:39:42] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.4.tar.gz]
 [2023-07-08 04:39:42] INFO root fetch - main [MainThread]: End processing [jupyterlab-nodeeditor]: success
 [2023-07-08 04:39:42] INFO root fetch - main [MainThread]: Store serial: [18810346]
+[2023-07-08 04:44:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810346]
+[2023-07-08 04:44:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 04:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyxtal
+[2023-07-08 04:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-24
+[2023-07-08 04:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imessagedb
+[2023-07-08 04:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msplotter
+[2023-07-08 04:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-26
+[2023-07-08 04:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-asset-management
+[2023-07-08 04:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: na-dist
+[2023-07-08 04:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: naif-eop-high-prec
+[2023-07-08 04:44:52] INFO root fetch - processPackages [pyxtal]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-08 04:44:52] INFO root fetch - processPackages [odoo-addon-account-asset-management]: New version: [16.0.1.0.3.1] Old Version: [16.0.1.0.3]
+[2023-07-08 04:44:52] WARNING root fetch - processPackages [na-dist]: Skipping, unable to determine old version
+[2023-07-08 04:44:52] INFO root fetch - main [MainThread]: End processing [na-dist] error
+[2023-07-08 04:44:52] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.7] Old Version: [2023.7.6]
+[2023-07-08 04:44:52] INFO root fetch - processPackages [imessagedb]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-08 04:44:52] INFO root fetch - processPackages [msplotter]: New version: [0.1.23] Old Version: [0.1.21]
+[2023-07-08 04:44:52] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-08 04:44:52] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-08 04:44:52] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/89/0d/cbf26cebbc98674b9fc8c8b107dc89dc6084ea26986c02fa12b37772008a/naif_eop_high_prec-2023.7.6.tar.gz
+[2023-07-08 04:44:52] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-07-08 04:44:52] INFO root fetch - processPackages [pyxtal]: Downloading https://files.pythonhosted.org/packages/4f/94/d913f404ffada54b7255ffe9b23d2632d49ddf24ed115ab1af5ce895e683/pyxtal-0.5.7.tar.gz
+[2023-07-08 04:44:52] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/c0/41/571708eebb848144b4406bcd052236cd532f739a712e976104ab9eaf9c50/odoo_addon_account_asset_management-16.0.1.0.3-py3-none-any.whl
+[2023-07-08 04:44:52] INFO root fetch - processPackages [msplotter]: Downloading https://files.pythonhosted.org/packages/ad/03/f0d766323f997051f017dc0510937fc6a34c14d9e31dd52f19a7f2153869/msplotter-0.1.21.tar.gz
+[2023-07-08 04:44:52] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-07-08 04:44:52] INFO root fetch - processPackages [imessagedb]: Downloading https://files.pythonhosted.org/packages/72/a9/4034365e31a8e79c0ad8ee39667a4e4df09933bdb12b7be60a267b843cc2/imessagedb-1.4.3.tar.gz
+[2023-07-08 04:44:52] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-08 04:44:52] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-08 04:44:52] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230708/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-08 04:44:53] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/34/9d/4858cf046996a5eb9ff7b7132d281a827bfd570f3defbefb729d3396a50b/odoo_addon_account_asset_management-16.0.1.0.3.1-py3-none-any.whl
+[2023-07-08 04:44:53] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-07-08 04:44:53] INFO root fetch - processPackages [msplotter]: Downloading https://files.pythonhosted.org/packages/ba/08/9ed468a969fa3362751a32085e5263b811f3c8780662e44fdb93f215a8ae/msplotter-0.1.23.tar.gz
+[2023-07-08 04:44:53] INFO root fetch - processPackages [imessagedb]: Downloading https://files.pythonhosted.org/packages/ee/d7/b460d2f7e418878162d3c8fd0746e10ed368b56de844dff0ead191c53a47/imessagedb-1.4.4.tar.gz
+[2023-07-08 04:44:53] INFO root fetch - processPackages [odoo-addon-account-asset-management]: executing diffoscope
+[2023-07-08 04:44:53] INFO root fetch - processPackages [odoo-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_management-16.0.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_asset_management-16.0.1.0.3.1-py3-none-any.whl.zip --markdown 20230708/o/odoo-addon-account-asset-management/16.0.1.0.3-16.0.1.0.3.1/diff.md --exclude *.pyd
+[2023-07-08 04:44:53] INFO root fetch - processPackages [pyxtal]: Downloading https://files.pythonhosted.org/packages/ce/49/99d5d3640067b25a2235be21d5f7e57cb81de30bf89d67583ec80381d22b/pyxtal-0.5.8.tar.gz
+[2023-07-08 04:44:53] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/4c/57/63778667e2c97939238c69747ff6f14a555573362f43a707c12e3332023a/naif_eop_high_prec-2023.7.7.tar.gz
+[2023-07-08 04:44:53] INFO root fetch - processPackages [msplotter]: executing diffoscope
+[2023-07-08 04:44:53] INFO root fetch - processPackages [msplotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msplotter-0.1.21.tar.gz tmp/msplotter-0.1.23.tar.gz --markdown 20230708/m/msplotter/0.1.21-0.1.23/diff.md --exclude *.pyd
+[2023-07-08 04:44:53] INFO root fetch - processPackages [pyxtal]: executing diffoscope
+[2023-07-08 04:44:53] INFO root fetch - processPackages [pyxtal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxtal-0.5.7.tar.gz tmp/pyxtal-0.5.8.tar.gz --markdown 20230708/p/pyxtal/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-08 04:44:53] INFO root fetch - processPackages [imessagedb]: executing diffoscope
+[2023-07-08 04:44:53] INFO root fetch - processPackages [imessagedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imessagedb-1.4.3.tar.gz tmp/imessagedb-1.4.4.tar.gz --markdown 20230708/i/imessagedb/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-08 04:44:53] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-08 04:44:53] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230708/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-08 04:44:54] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-08 04:44:54] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.6.tar.gz tmp/naif_eop_high_prec-2023.7.7.tar.gz --markdown 20230708/n/naif-eop-high-prec/2023.7.6-2023.7.7/diff.md --exclude *.pyd
+[2023-07-08 04:44:54] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-07-08 04:44:54] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-08 04:44:54] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-08 04:44:54] INFO root fetch - processPackages [msplotter]: Remove: archive file [/home/abi/fetcher/tmp/msplotter-0.1.21.tar.gz]
+[2023-07-08 04:44:54] INFO root fetch - processPackages [msplotter]: Remove: archive file [/home/abi/fetcher/tmp/msplotter-0.1.23.tar.gz]
+[2023-07-08 04:44:54] INFO root fetch - main [MainThread]: End processing [msplotter]: success
+[2023-07-08 04:44:54] INFO root fetch - processPackages [imessagedb]: Remove: archive file [/home/abi/fetcher/tmp/imessagedb-1.4.3.tar.gz]
+[2023-07-08 04:44:54] INFO root fetch - processPackages [imessagedb]: Remove: archive file [/home/abi/fetcher/tmp/imessagedb-1.4.4.tar.gz]
+[2023-07-08 04:44:54] INFO root fetch - main [MainThread]: End processing [imessagedb]: success
+[2023-07-08 04:44:54] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.0.3-py3-none-any.whl.zip]
+[2023-07-08 04:44:54] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.0.3.1-py3-none-any.whl.zip]
+[2023-07-08 04:44:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
+[2023-07-08 04:44:54] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-07-08 04:44:54] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-07-08 04:44:54] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-08 04:44:56] INFO root fetch - processPackages [pyxtal]: Remove: archive file [/home/abi/fetcher/tmp/pyxtal-0.5.7.tar.gz]
+[2023-07-08 04:44:56] INFO root fetch - processPackages [pyxtal]: Remove: archive file [/home/abi/fetcher/tmp/pyxtal-0.5.8.tar.gz]
+[2023-07-08 04:44:56] INFO root fetch - main [MainThread]: End processing [pyxtal]: success
+[2023-07-08 04:44:56] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.6.tar.gz]
+[2023-07-08 04:44:56] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.7.tar.gz]
+[2023-07-08 04:44:56] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-08 04:44:56] INFO root fetch - main [MainThread]: Store serial: [18810370]
