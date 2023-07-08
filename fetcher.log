@@ -18353,3 +18353,74 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 17:06:15] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.357.2.tar.gz]
 [2023-07-08 17:06:15] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-08 17:06:15] INFO root fetch - main [MainThread]: Store serial: [18813957]
+[2023-07-08 17:11:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813957]
+[2023-07-08 17:11:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 17:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poe-api
+[2023-07-08 17:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lifelib
+[2023-07-08 17:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: riotee-probe
+[2023-07-08 17:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pykeadhcp
+[2023-07-08 17:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pandera
+[2023-07-08 17:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-rds20140815-py2
+[2023-07-08 17:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-rds20140815
+[2023-07-08 17:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2023-07-08 17:11:25] INFO root fetch - processPackages [pykeadhcp]: New version: [0.6.0a1] Old Version: [0.6.0a0]
+[2023-07-08 17:11:25] INFO root fetch - processPackages [poe-api]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-08 17:11:25] INFO root fetch - processPackages [riotee-probe]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-08 17:11:25] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.7] Old Version: [2.2.6]
+[2023-07-08 17:11:25] INFO root fetch - processPackages [lifelib]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-08 17:11:25] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-08 17:11:25] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/73/c0/9e309197448a0b7eda7035432d47338f8ee04cf6dc7c67c7ae1668a91ee6/alibabacloud_rds20140815-2.2.6.tar.gz
+[2023-07-08 17:11:25] INFO root fetch - processPackages [pandera]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-08 17:11:25] INFO root fetch - processPackages [pykeadhcp]: Downloading https://files.pythonhosted.org/packages/f6/e1/f0528d977f8872bc3c30ab1abd8e5b9572af1da9164d78d58107735998ff/pykeadhcp-0.6.0a0.tar.gz
+[2023-07-08 17:11:25] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230708151056] Old Version: [2.1.1.dev20230707151752]
+[2023-07-08 17:11:25] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/47/3e/46c1eec2f2ed022d7b15fb1535220681f18acc74ae1e3eb9890bc0da23e5/alibabacloud_rds20140815_py2-1.1.7.tar.gz
+[2023-07-08 17:11:25] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/9c/44/1b1f6d3db05e1fc64e687e10d2c9b41322f4a0c9938af5d147e04ca6c42f/poe_api-0.4.8-py3-none-any.whl
+[2023-07-08 17:11:25] INFO root fetch - processPackages [riotee-probe]: Downloading https://files.pythonhosted.org/packages/d0/8c/866907245e181d11f6a3b527e8b74a962c1d619b54faeddc19ae6d29f8f7/riotee_probe-1.0.0.tar.gz
+[2023-07-08 17:11:25] INFO root fetch - processPackages [lifelib]: Downloading https://files.pythonhosted.org/packages/76/24/8ae644b68760008cb994726b4707df8f67ba41f511dc39825bc34b32a969/lifelib-0.9.0.tar.gz
+[2023-07-08 17:11:25] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/cf/a8/114f86dbf6aea59cfa3573a66859eebeaee328d2245652b33dbd9194437c/localstack-core-2.1.1.dev20230707151752.tar.gz
+[2023-07-08 17:11:25] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/b0/0e/d435a4c20c8ca9269ca2ccf44f3bb98ee85b9fc9fbfda8f1952cfc2b9c43/pandera-0.8.1.tar.gz
+[2023-07-08 17:11:25] WARNING root fetch - processPackages [lifelib]: Skipping package: exceeds size limit 16204725>=10485760
+[2023-07-08 17:11:25] INFO root fetch - main [MainThread]: End processing [lifelib] error
+[2023-07-08 17:11:26] INFO root fetch - processPackages [pykeadhcp]: Downloading https://files.pythonhosted.org/packages/f2/4b/e61aef6d86e2c214c190c702bb2b57c3472d1c0fc8a69d48cbe0e592397c/pykeadhcp-0.6.0a1.tar.gz
+[2023-07-08 17:11:26] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/90/b3/3d71702d2008fbc7a1be796b4793f72ad060eb13e729b0a73f1a005cceaa/alibabacloud_rds20140815-2.2.7.tar.gz
+[2023-07-08 17:11:26] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/c3/81/94236c4531a0f89a3f9b95bae87e56444a5729f4adac042f96194dbd706c/poe_api-0.4.9-py3-none-any.whl
+[2023-07-08 17:11:26] INFO root fetch - processPackages [riotee-probe]: Downloading https://files.pythonhosted.org/packages/4c/89/75ec381749fc54e9c5cb27f909fc0a794e8c04531edb8f8e2f315e043694/riotee_probe-1.0.1.tar.gz
+[2023-07-08 17:11:26] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/15/a5/85cc0fdc1442c0ec90dee46d748751be9cfefd8aa250e550d38ae8f00c3c/alibabacloud_rds20140815_py2-1.1.8.tar.gz
+[2023-07-08 17:11:26] INFO root fetch - processPackages [pykeadhcp]: executing diffoscope
+[2023-07-08 17:11:26] INFO root fetch - processPackages [pykeadhcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykeadhcp-0.6.0a0.tar.gz tmp/pykeadhcp-0.6.0a1.tar.gz --markdown 20230708/p/pykeadhcp/0.6.0a0-0.6.0a1/diff.md --exclude *.pyd
+[2023-07-08 17:11:26] INFO root fetch - processPackages [poe-api]: executing diffoscope
+[2023-07-08 17:11:26] INFO root fetch - processPackages [poe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_api-0.4.8-py3-none-any.whl.zip tmp/poe_api-0.4.9-py3-none-any.whl.zip --markdown 20230708/p/poe-api/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-08 17:11:26] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-07-08 17:11:26] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.6.tar.gz tmp/alibabacloud_rds20140815-2.2.7.tar.gz --markdown 20230708/a/alibabacloud-rds20140815/2.2.6-2.2.7/diff.md --exclude *.pyd
+[2023-07-08 17:11:26] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/0b/8f/199b2d6886d40d20c9382c189d0b40c6118c2df6f0df21e9e78ab886aaea/pandera-0.9.0.tar.gz
+[2023-07-08 17:11:26] INFO root fetch - processPackages [riotee-probe]: executing diffoscope
+[2023-07-08 17:11:26] INFO root fetch - processPackages [riotee-probe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riotee_probe-1.0.0.tar.gz tmp/riotee_probe-1.0.1.tar.gz --markdown 20230708/r/riotee-probe/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 17:11:26] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/df/2b/46e451ee7f0be548a6ff61ae4ab3ba87d557c5b0130277a0cf8b070914cc/localstack-core-2.1.1.dev20230708151056.tar.gz
+[2023-07-08 17:11:26] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-07-08 17:11:26] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.1.7.tar.gz tmp/alibabacloud_rds20140815_py2-1.1.8.tar.gz --markdown 20230708/a/alibabacloud-rds20140815-py2/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-08 17:11:26] INFO root fetch - processPackages [pandera]: executing diffoscope
+[2023-07-08 17:11:26] INFO root fetch - processPackages [pandera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandera-0.8.1.tar.gz tmp/pandera-0.9.0.tar.gz --markdown 20230708/p/pandera/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 17:11:26] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-08 17:11:26] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230707151752.tar.gz tmp/localstack-core-2.1.1.dev20230708151056.tar.gz --markdown 20230708/l/localstack-core/2.1.1.dev20230707151752-2.1.1.dev20230708151056/diff.md --exclude *.pyd
+[2023-07-08 17:11:27] INFO root fetch - processPackages [riotee-probe]: Remove: archive file [/home/abi/fetcher/tmp/riotee_probe-1.0.0.tar.gz]
+[2023-07-08 17:11:27] INFO root fetch - processPackages [riotee-probe]: Remove: archive file [/home/abi/fetcher/tmp/riotee_probe-1.0.1.tar.gz]
+[2023-07-08 17:11:27] INFO root fetch - main [MainThread]: End processing [riotee-probe]: success
+[2023-07-08 17:11:27] INFO root fetch - processPackages [pykeadhcp]: Remove: archive file [/home/abi/fetcher/tmp/pykeadhcp-0.6.0a0.tar.gz]
+[2023-07-08 17:11:27] INFO root fetch - processPackages [pykeadhcp]: Remove: archive file [/home/abi/fetcher/tmp/pykeadhcp-0.6.0a1.tar.gz]
+[2023-07-08 17:11:27] INFO root fetch - main [MainThread]: End processing [pykeadhcp]: success
+[2023-07-08 17:11:27] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.1.7.tar.gz]
+[2023-07-08 17:11:27] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.1.8.tar.gz]
+[2023-07-08 17:11:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-07-08 17:11:27] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.4.8-py3-none-any.whl.zip]
+[2023-07-08 17:11:27] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.4.9-py3-none-any.whl.zip]
+[2023-07-08 17:11:27] INFO root fetch - main [MainThread]: End processing [poe-api]: success
+[2023-07-08 17:11:27] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.6.tar.gz]
+[2023-07-08 17:11:27] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.7.tar.gz]
+[2023-07-08 17:11:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-07-08 17:11:28] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.8.1.tar.gz]
+[2023-07-08 17:11:28] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.9.0.tar.gz]
+[2023-07-08 17:11:28] INFO root fetch - main [MainThread]: End processing [pandera]: success
+[2023-07-08 17:11:30] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230707151752.tar.gz]
+[2023-07-08 17:11:30] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230708151056.tar.gz]
+[2023-07-08 17:11:30] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-08 17:11:30] INFO root fetch - main [MainThread]: Store serial: [18813980]
