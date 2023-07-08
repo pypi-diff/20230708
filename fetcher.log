@@ -21618,3 +21618,81 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 22:03:05] INFO root fetch - processPackages [qis]: Remove: archive file [/home/abi/fetcher/tmp/qis-2.0.1.tar.gz]
 [2023-07-08 22:03:05] INFO root fetch - main [MainThread]: End processing [qis]: success
 [2023-07-08 22:03:05] INFO root fetch - main [MainThread]: Store serial: [18815460]
+[2023-07-08 22:08:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815460]
+[2023-07-08 22:08:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-08 22:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shape-existence
+[2023-07-08 22:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shareddata
+[2023-07-08 22:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: configparser
+[2023-07-08 22:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nwebclient
+[2023-07-08 22:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gravitorch
+[2023-07-08 22:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mail-devel
+[2023-07-08 22:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: decentralizedroutines
+[2023-07-08 22:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: confluentfucci
+[2023-07-08 22:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RustAdmin
+[2023-07-08 22:08:16] INFO root fetch - processPackages [configparser]: New version: [6.0.0] Old Version: [5.3.0]
+[2023-07-08 22:08:16] INFO root fetch - processPackages [shape-existence]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-08 22:08:16] INFO root fetch - processPackages [gravitorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 22:08:16] INFO root fetch - processPackages [shareddata]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-08 22:08:16] INFO root fetch - processPackages [mail-devel]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-08 22:08:16] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 22:08:16] WARNING root fetch - processPackages [confluentfucci]: Skipping, unable to determine old version
+[2023-07-08 22:08:16] INFO root fetch - main [MainThread]: End processing [confluentfucci] error
+[2023-07-08 22:08:16] INFO root fetch - processPackages [RustAdmin]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-08 22:08:16] INFO root fetch - processPackages [decentralizedroutines]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-07-08 22:08:16] INFO root fetch - processPackages [configparser]: Downloading https://files.pythonhosted.org/packages/4b/c0/3a47084aca7a940ed1334f89ed2e67bcb42168c4f40c486e267fe71e7aa0/configparser-5.3.0.tar.gz
+[2023-07-08 22:08:16] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/3c/eb/d596884cdb31e5198aa387878eb8ef895802e567d7d679b97f4a406e21ae/gravitorch-0.0.8.tar.gz
+[2023-07-08 22:08:16] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 22:08:16] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/a3/89/36663418cc430f191945f4554d0919f8804487b2ffe208a4b81eb15419ff/shareddata-2.0.8.tar.gz
+[2023-07-08 22:08:16] INFO root fetch - processPackages [shape-existence]: Downloading https://files.pythonhosted.org/packages/fc/04/5d1ad55c84c3863f8e8d79bc8193e4c900879e9e3e639344fcc55d85e971/shape_existence-0.0.1.tar.gz
+[2023-07-08 22:08:16] INFO root fetch - processPackages [mail-devel]: Downloading https://files.pythonhosted.org/packages/a0/99/77ed1526f4393c0dc3de72ef8db02b8b20f5fa61707ff8b1028cbb90bfe4/mail_devel-0.5.0-py3-none-any.whl
+[2023-07-08 22:08:17] INFO root fetch - processPackages [RustAdmin]: Downloading https://files.pythonhosted.org/packages/5a/bc/f3bae94356f82c4dc6e358814b16a76d303b9d5282b7cc16c63c0ac706f4/rustadmin-1.0.3.tar.gz
+[2023-07-08 22:08:17] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/8c/33/34d06241f81d2cbe2d972b55e16ed405136b21130810c90b9ac6268df94c/decentralizedroutines-2.0.6.tar.gz
+[2023-07-08 22:08:17] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 22:08:17] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/d8/af/12bd29b316e1abfd4a89affc84ab78a2b03aaa0ebdf20315c6dc8c4c3886/gravitorch-0.0.9.tar.gz
+[2023-07-08 22:08:17] INFO root fetch - processPackages [configparser]: Downloading https://files.pythonhosted.org/packages/0b/65/bad3eb64f30657ee9fa2e00e80b3ad42037db5eb534fadd15a94a11fe979/configparser-6.0.0.tar.gz
+[2023-07-08 22:08:17] INFO root fetch - processPackages [mail-devel]: Downloading https://files.pythonhosted.org/packages/e4/09/29e6026c73ed560f5e3aad2d2a27e78c90f6eedec64a34c4c8eb9bdde245/mail_devel-0.6.0-py3-none-any.whl
+[2023-07-08 22:08:17] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 22:08:17] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 22:08:17] INFO root fetch - processPackages [shape-existence]: Downloading https://files.pythonhosted.org/packages/c6/17/384ee64042e6f4e97710648f513428ef42fe978c978f6a2685016d9c56cc/shape_existence-0.0.2.tar.gz
+[2023-07-08 22:08:17] INFO root fetch - processPackages [gravitorch]: executing diffoscope
+[2023-07-08 22:08:17] INFO root fetch - processPackages [gravitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitorch-0.0.8.tar.gz tmp/gravitorch-0.0.9.tar.gz --markdown 20230708/g/gravitorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 22:08:17] INFO root fetch - processPackages [RustAdmin]: Downloading https://files.pythonhosted.org/packages/f9/e2/f66345db9b49d7a51d8f41a8d0634bf1224072c4de0ba4b35aac79a64599/RustAdmin-1.0.4.tar.gz
+[2023-07-08 22:08:17] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/c9/f9/61fa61a22abefea2b892306bbb73a62ed0a1a79371960e7ef36dd8fd83b5/shareddata-2.0.9.tar.gz
+[2023-07-08 22:08:17] INFO root fetch - processPackages [configparser]: executing diffoscope
+[2023-07-08 22:08:17] INFO root fetch - processPackages [configparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configparser-5.3.0.tar.gz tmp/configparser-6.0.0.tar.gz --markdown 20230708/c/configparser/5.3.0-6.0.0/diff.md --exclude *.pyd
+[2023-07-08 22:08:17] INFO root fetch - processPackages [mail-devel]: executing diffoscope
+[2023-07-08 22:08:17] INFO root fetch - processPackages [mail-devel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mail_devel-0.5.0-py3-none-any.whl.zip tmp/mail_devel-0.6.0-py3-none-any.whl.zip --markdown 20230708/m/mail-devel/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-08 22:08:17] INFO root fetch - processPackages [shape-existence]: executing diffoscope
+[2023-07-08 22:08:17] INFO root fetch - processPackages [shape-existence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shape_existence-0.0.1.tar.gz tmp/shape_existence-0.0.2.tar.gz --markdown 20230708/s/shape-existence/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 22:08:17] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-07-08 22:08:17] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.0.8.tar.gz tmp/shareddata-2.0.9.tar.gz --markdown 20230708/s/shareddata/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-08 22:08:17] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/83/5c/d64848b26d2ef0c0086f93f0679296b742a8b4249bb28b5775e41d48c7b1/decentralizedroutines-2.0.7.tar.gz
+[2023-07-08 22:08:17] INFO root fetch - processPackages [RustAdmin]: executing diffoscope
+[2023-07-08 22:08:17] INFO root fetch - processPackages [RustAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustadmin-1.0.3.tar.gz tmp/RustAdmin-1.0.4.tar.gz --markdown 20230708/R/RustAdmin/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-08 22:08:17] INFO root fetch - processPackages [decentralizedroutines]: executing diffoscope
+[2023-07-08 22:08:17] INFO root fetch - processPackages [decentralizedroutines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentralizedroutines-2.0.6.tar.gz tmp/decentralizedroutines-2.0.7.tar.gz --markdown 20230708/d/decentralizedroutines/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-07-08 22:08:18] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-08 22:08:18] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-08 22:08:18] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 22:08:18] INFO root fetch - processPackages [RustAdmin]: Remove: archive file [/home/abi/fetcher/tmp/rustadmin-1.0.3.tar.gz]
+[2023-07-08 22:08:18] INFO root fetch - processPackages [RustAdmin]: Remove: archive file [/home/abi/fetcher/tmp/RustAdmin-1.0.4.tar.gz]
+[2023-07-08 22:08:18] INFO root fetch - main [MainThread]: End processing [RustAdmin]: success
+[2023-07-08 22:08:19] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.0.8.tar.gz]
+[2023-07-08 22:08:19] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.0.9.tar.gz]
+[2023-07-08 22:08:19] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-07-08 22:08:19] INFO root fetch - processPackages [shape-existence]: Remove: archive file [/home/abi/fetcher/tmp/shape_existence-0.0.1.tar.gz]
+[2023-07-08 22:08:19] INFO root fetch - processPackages [shape-existence]: Remove: archive file [/home/abi/fetcher/tmp/shape_existence-0.0.2.tar.gz]
+[2023-07-08 22:08:19] INFO root fetch - main [MainThread]: End processing [shape-existence]: success
+[2023-07-08 22:08:19] INFO root fetch - processPackages [configparser]: Remove: archive file [/home/abi/fetcher/tmp/configparser-5.3.0.tar.gz]
+[2023-07-08 22:08:19] INFO root fetch - processPackages [configparser]: Remove: archive file [/home/abi/fetcher/tmp/configparser-6.0.0.tar.gz]
+[2023-07-08 22:08:19] INFO root fetch - main [MainThread]: End processing [configparser]: success
+[2023-07-08 22:08:19] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-2.0.6.tar.gz]
+[2023-07-08 22:08:19] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-2.0.7.tar.gz]
+[2023-07-08 22:08:19] INFO root fetch - main [MainThread]: End processing [decentralizedroutines]: success
+[2023-07-08 22:08:19] INFO root fetch - processPackages [mail-devel]: Remove: archive file [/home/abi/fetcher/tmp/mail_devel-0.5.0-py3-none-any.whl.zip]
+[2023-07-08 22:08:19] INFO root fetch - processPackages [mail-devel]: Remove: archive file [/home/abi/fetcher/tmp/mail_devel-0.6.0-py3-none-any.whl.zip]
+[2023-07-08 22:08:19] INFO root fetch - main [MainThread]: End processing [mail-devel]: success
+[2023-07-08 22:08:20] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.8.tar.gz]
+[2023-07-08 22:08:20] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
+[2023-07-08 22:08:20] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
+[2023-07-08 22:08:20] INFO root fetch - main [MainThread]: Store serial: [18815490]
