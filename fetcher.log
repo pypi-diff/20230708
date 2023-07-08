@@ -20562,3 +20562,52 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 20:08:50] INFO root fetch - processPackages [iprocess]: Remove: archive file [/home/abi/fetcher/tmp/iprocess-0.0.4.tar.gz]
 [2023-07-08 20:08:50] INFO root fetch - main [MainThread]: End processing [iprocess]: success
 [2023-07-08 20:08:50] INFO root fetch - main [MainThread]: Store serial: [18815003]
+[2023-07-08 20:13:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815003]
+[2023-07-08 20:13:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygff
+[2023-07-08 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NikGapps
+[2023-07-08 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trab-devops-ci-cd-process
+[2023-07-08 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapo
+[2023-07-08 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapo
+[2023-07-08 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapo
+[2023-07-08 20:13:59] INFO root fetch - processPackages [rapo]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-08 20:13:59] INFO root fetch - processPackages [trab-devops-ci-cd-process]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-08 20:13:59] INFO root fetch - processPackages [NikGapps]: New version: [1.62] Old Version: [1.61]
+[2023-07-08 20:13:59] INFO root fetch - processPackages [rapo]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-08 20:13:59] INFO root fetch - processPackages [pygff]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-08 20:13:59] INFO root fetch - processPackages [rapo]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-08 20:13:59] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Downloading https://files.pythonhosted.org/packages/8f/03/42b083df09cc015a76496b49ba0d644c6d1c6aacac22643e9bcbdba58881/trab_devops_ci_cd_process-0.0.4.tar.gz
+[2023-07-08 20:13:59] INFO root fetch - processPackages [rapo]: Downloading https://files.pythonhosted.org/packages/25/18/0dc1cb5889714dd516d88d93a5178fdbdd569fcb3d23d8b0d18cd44173e8/rapo-0.4.2.tar.gz
+[2023-07-08 20:13:59] INFO root fetch - processPackages [rapo]: Downloading https://files.pythonhosted.org/packages/25/18/0dc1cb5889714dd516d88d93a5178fdbdd569fcb3d23d8b0d18cd44173e8/rapo-0.4.2.tar.gz
+[2023-07-08 20:13:59] INFO root fetch - processPackages [rapo]: Downloading https://files.pythonhosted.org/packages/25/18/0dc1cb5889714dd516d88d93a5178fdbdd569fcb3d23d8b0d18cd44173e8/rapo-0.4.2.tar.gz
+[2023-07-08 20:13:59] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/b8/1b/4df300d2900d4ae36eef59abfe47598d0188c5d67aa5fefd0aed06b671de/NikGapps-1.61.tar.gz
+[2023-07-08 20:13:59] INFO root fetch - processPackages [pygff]: Downloading https://files.pythonhosted.org/packages/ad/b4/68b5f277a29250bb279656e7ddff26022d93433e311b9442144c5dc60616/pygff-1.0.0.tar.gz
+[2023-07-08 20:13:59] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41564785>=10485760
+[2023-07-08 20:13:59] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-07-08 20:13:59] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Downloading https://files.pythonhosted.org/packages/37/c8/899a519458a71f88a17fc7986a4e2ba7827e30a70ed6bf42a43da627bcf0/trab_devops_ci_cd_process-0.0.5.tar.gz
+[2023-07-08 20:13:59] INFO root fetch - processPackages [rapo]: Downloading https://files.pythonhosted.org/packages/bd/39/154a836f8e8bbf74f8f7a0c28247e1f658281f3380293e718c0da7c4a008/rapo-0.4.3.tar.gz
+[2023-07-08 20:13:59] INFO root fetch - processPackages [rapo]: Downloading https://files.pythonhosted.org/packages/bd/39/154a836f8e8bbf74f8f7a0c28247e1f658281f3380293e718c0da7c4a008/rapo-0.4.3.tar.gz
+[2023-07-08 20:13:59] INFO root fetch - processPackages [rapo]: Downloading https://files.pythonhosted.org/packages/bd/39/154a836f8e8bbf74f8f7a0c28247e1f658281f3380293e718c0da7c4a008/rapo-0.4.3.tar.gz
+[2023-07-08 20:13:59] INFO root fetch - processPackages [trab-devops-ci-cd-process]: executing diffoscope
+[2023-07-08 20:13:59] INFO root fetch - processPackages [trab-devops-ci-cd-process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trab_devops_ci_cd_process-0.0.4.tar.gz tmp/trab_devops_ci_cd_process-0.0.5.tar.gz --markdown 20230708/t/trab-devops-ci-cd-process/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-08 20:14:00] INFO root fetch - processPackages [pygff]: Downloading https://files.pythonhosted.org/packages/c9/31/9205b24846d996257a90f1688b428771c213bf0974a2bb958df4e1d8e7ae/pygff-1.1.0.tar.gz
+[2023-07-08 20:14:00] INFO root fetch - processPackages [rapo]: executing diffoscope
+[2023-07-08 20:14:00] INFO root fetch - processPackages [rapo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapo-0.4.2.tar.gz tmp/rapo-0.4.3.tar.gz --markdown 20230708/r/rapo/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-08 20:14:00] INFO root fetch - processPackages [rapo]: executing diffoscope
+[2023-07-08 20:14:00] INFO root fetch - processPackages [rapo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapo-0.4.2.tar.gz tmp/rapo-0.4.3.tar.gz --markdown 20230708/r/rapo/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-08 20:14:00] INFO root fetch - processPackages [rapo]: executing diffoscope
+[2023-07-08 20:14:00] INFO root fetch - processPackages [rapo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapo-0.4.2.tar.gz tmp/rapo-0.4.3.tar.gz --markdown 20230708/r/rapo/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-08 20:14:00] INFO root fetch - processPackages [pygff]: executing diffoscope
+[2023-07-08 20:14:00] INFO root fetch - processPackages [pygff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygff-1.0.0.tar.gz tmp/pygff-1.1.0.tar.gz --markdown 20230708/p/pygff/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-08 20:14:00] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Remove: archive file [/home/abi/fetcher/tmp/trab_devops_ci_cd_process-0.0.4.tar.gz]
+[2023-07-08 20:14:00] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Remove: archive file [/home/abi/fetcher/tmp/trab_devops_ci_cd_process-0.0.5.tar.gz]
+[2023-07-08 20:14:00] INFO root fetch - main [MainThread]: End processing [trab-devops-ci-cd-process]: success
+[2023-07-08 20:14:01] INFO root fetch - processPackages [rapo]: Remove: archive file [/home/abi/fetcher/tmp/rapo-0.4.2.tar.gz]
+[2023-07-08 20:14:01] INFO root fetch - processPackages [rapo]: Remove: archive file [/home/abi/fetcher/tmp/rapo-0.4.3.tar.gz]
+[2023-07-08 20:14:01] INFO root fetch - main [MainThread]: End processing [rapo]: success
+[2023-07-08 20:14:01] INFO root fetch - main [MainThread]: End processing [rapo]: success
+[2023-07-08 20:14:01] INFO root fetch - processPackages [pygff]: Remove: archive file [/home/abi/fetcher/tmp/pygff-1.0.0.tar.gz]
+[2023-07-08 20:14:01] INFO root fetch - processPackages [pygff]: Remove: archive file [/home/abi/fetcher/tmp/pygff-1.1.0.tar.gz]
+[2023-07-08 20:14:01] INFO root fetch - main [MainThread]: End processing [pygff]: success
+[2023-07-08 20:14:01] INFO root fetch - main [MainThread]: End processing [rapo]: success
+[2023-07-08 20:14:01] INFO root fetch - main [MainThread]: Store serial: [18815021]
