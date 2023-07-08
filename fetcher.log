@@ -16308,3 +16308,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 14:33:07] INFO root fetch - processPackages [bcdup]: Remove: archive file [/home/abi/fetcher/tmp/bcdup-2.3.2.tar.gz]
 [2023-07-08 14:33:07] INFO root fetch - main [MainThread]: End processing [bcdup]: success
 [2023-07-08 14:33:07] INFO root fetch - main [MainThread]: Store serial: [18813092]
+[2023-07-08 14:38:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813092]
+[2023-07-08 14:38:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 14:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djfapi
+[2023-07-08 14:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gsclinks
+[2023-07-08 14:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioworkers
+[2023-07-08 14:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: projen
+[2023-07-08 14:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: always-updates
+[2023-07-08 14:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hazm
+[2023-07-08 14:38:16] INFO root fetch - processPackages [aioworkers]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-08 14:38:16] INFO root fetch - processPackages [hazm]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-08 14:38:16] INFO root fetch - processPackages [gsclinks]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-08 14:38:16] INFO root fetch - processPackages [djfapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 14:38:16] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-08 14:38:16] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-08 14:38:17] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-08 14:38:17] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/51/13/4f8acd78cd8ef30fb17e090e59a02c8737d16c94c010611c4d5347e24c76/aioworkers-0.9.2.tar.gz
+[2023-07-08 14:38:17] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-08 14:38:17] INFO root fetch - processPackages [gsclinks]: Downloading https://files.pythonhosted.org/packages/5d/a9/d42a97a3182e89b767bc5d636701a985ec9d631b731b6f9705ccfb7a58cd/gsclinks-1.0.0-py3-none-any.whl
+[2023-07-08 14:38:17] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/ec/91/212e1a394a4b7d62bf3d3dc4739dc10a9ddedc9fe6ee1c1fd3a0c3a66f24/djfapi-0.0.8.tar.gz
+[2023-07-08 14:38:17] INFO root fetch - processPackages [hazm]: Downloading https://files.pythonhosted.org/packages/1f/6e/d8cedea269e5e72cb863ae5d7a53d1e09ce5c963346edd20893f97a1e9e6/hazm-0.9.1.tar.gz
+[2023-07-08 14:38:17] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-08 14:38:17] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-08 14:38:17] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230708/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-08 14:38:17] INFO root fetch - processPackages [gsclinks]: Downloading https://files.pythonhosted.org/packages/0e/98/deb10a791d3307a99a1a280ba598a5d1753cdc7964544f95be321cfcaf10/gsclinks-1.0.1-py3-none-any.whl
+[2023-07-08 14:38:17] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/3b/d7/3d647a5afd65c18e4efed2b8ffef65dc170d7749491f9fd3c93bd259e6b7/aioworkers-0.9.3.tar.gz
+[2023-07-08 14:38:17] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/9a/84/a6710eab6739d2351d2a2585909093b9947b85cb544edc5f944e1ae1a85d/djfapi-0.0.9.tar.gz
+[2023-07-08 14:38:17] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-08 14:38:17] INFO root fetch - processPackages [hazm]: Downloading https://files.pythonhosted.org/packages/e4/1d/0d2ee71aacd7bcf074b755a704ad05f1ad9c414e96e605596d6c1514e7cd/hazm-0.9.2.tar.gz
+[2023-07-08 14:38:17] INFO root fetch - processPackages [gsclinks]: executing diffoscope
+[2023-07-08 14:38:17] INFO root fetch - processPackages [gsclinks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsclinks-1.0.0-py3-none-any.whl.zip tmp/gsclinks-1.0.1-py3-none-any.whl.zip --markdown 20230708/g/gsclinks/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 14:38:17] INFO root fetch - processPackages [djfapi]: executing diffoscope
+[2023-07-08 14:38:17] INFO root fetch - processPackages [djfapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djfapi-0.0.8.tar.gz tmp/djfapi-0.0.9.tar.gz --markdown 20230708/d/djfapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 14:38:17] INFO root fetch - processPackages [aioworkers]: executing diffoscope
+[2023-07-08 14:38:17] INFO root fetch - processPackages [aioworkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioworkers-0.9.2.tar.gz tmp/aioworkers-0.9.3.tar.gz --markdown 20230708/a/aioworkers/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-08 14:38:17] INFO root fetch - processPackages [hazm]: executing diffoscope
+[2023-07-08 14:38:17] INFO root fetch - processPackages [hazm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hazm-0.9.1.tar.gz tmp/hazm-0.9.2.tar.gz --markdown 20230708/h/hazm/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-08 14:38:18] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-08 14:38:18] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230708/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-08 14:38:18] INFO root fetch - processPackages [gsclinks]: Remove: archive file [/home/abi/fetcher/tmp/gsclinks-1.0.0-py3-none-any.whl.zip]
+[2023-07-08 14:38:18] INFO root fetch - processPackages [gsclinks]: Remove: archive file [/home/abi/fetcher/tmp/gsclinks-1.0.1-py3-none-any.whl.zip]
+[2023-07-08 14:38:18] INFO root fetch - main [MainThread]: End processing [gsclinks]: success
+[2023-07-08 14:38:18] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-08 14:38:18] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-08 14:38:18] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-08 14:38:18] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.8.tar.gz]
+[2023-07-08 14:38:18] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.9.tar.gz]
+[2023-07-08 14:38:18] INFO root fetch - main [MainThread]: End processing [djfapi]: success
+[2023-07-08 14:38:18] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.2.tar.gz]
+[2023-07-08 14:38:18] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.3.tar.gz]
+[2023-07-08 14:38:18] INFO root fetch - main [MainThread]: End processing [aioworkers]: success
+[2023-07-08 14:38:19] INFO root fetch - processPackages [hazm]: Remove: archive file [/home/abi/fetcher/tmp/hazm-0.9.1.tar.gz]
+[2023-07-08 14:38:19] INFO root fetch - processPackages [hazm]: Remove: archive file [/home/abi/fetcher/tmp/hazm-0.9.2.tar.gz]
+[2023-07-08 14:38:19] INFO root fetch - main [MainThread]: End processing [hazm]: success
+[2023-07-08 14:38:19] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-08 14:38:19] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-08 14:38:19] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-08 14:38:19] INFO root fetch - main [MainThread]: Store serial: [18813109]
