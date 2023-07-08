@@ -13320,3 +13320,52 @@
 [2023-07-08 10:06:30] INFO root fetch - processPackages [fair-cli]: Remove: archive file [/home/abi/fetcher/tmp/fair_cli-0.8.0.tar.gz]
 [2023-07-08 10:06:30] INFO root fetch - main [MainThread]: End processing [fair-cli]: success
 [2023-07-08 10:06:30] INFO root fetch - main [MainThread]: Store serial: [18811702]
+[2023-07-08 10:11:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811702]
+[2023-07-08 10:11:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seunggabi-core-python
+[2023-07-08 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyglove
+[2023-07-08 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellmachine
+[2023-07-08 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skytemple-randomizer
+[2023-07-08 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seventv
+[2023-07-08 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellmachine
+[2023-07-08 10:11:39] INFO root fetch - processPackages [cellmachine]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-08 10:11:39] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-08 10:11:39] INFO root fetch - processPackages [cellmachine]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-08 10:11:39] WARNING root fetch - processPackages [seventv]: Skipping, unable to determine old version
+[2023-07-08 10:11:39] INFO root fetch - main [MainThread]: End processing [seventv] error
+[2023-07-08 10:11:39] INFO root fetch - processPackages [skytemple-randomizer]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-08 10:11:39] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230708] Old Version: [0.3.1.dev20230707]
+[2023-07-08 10:11:40] INFO root fetch - processPackages [cellmachine]: Downloading https://files.pythonhosted.org/packages/e0/fa/8ef29ef60f5542846e95448d59ff501f0b8de9427ae2061158943de39296/cellmachine-1.2.2.tar.gz
+[2023-07-08 10:11:40] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/49/7e/07ed223c81d69b75c75203829d01e313bc406eb39519d3f470d3d031e899/pyglove-0.3.1.dev20230707.tar.gz
+[2023-07-08 10:11:40] INFO root fetch - processPackages [cellmachine]: Downloading https://files.pythonhosted.org/packages/e0/fa/8ef29ef60f5542846e95448d59ff501f0b8de9427ae2061158943de39296/cellmachine-1.2.2.tar.gz
+[2023-07-08 10:11:40] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/6b/a6/2c17c7a96c8e28d36a6d8ea8c2d6e90f5b5ac5eed0a14333ea6e901b2760/seunggabi_core_python-0.3.0.tar.gz
+[2023-07-08 10:11:40] INFO root fetch - processPackages [skytemple-randomizer]: Downloading https://files.pythonhosted.org/packages/ca/a3/db4d2f5996c6db9126b8f570f5c086b42cf53260f6fa45e8b88f70fec79d/skytemple_randomizer-1.5.3-py3-none-any.whl
+[2023-07-08 10:11:40] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/8e/7d/05e7a9dbd6a4d650c56e86880fc2c01236f4928107bbd214b258a273fb94/seunggabi_core_python-0.4.0.tar.gz
+[2023-07-08 10:11:40] INFO root fetch - processPackages [cellmachine]: Downloading https://files.pythonhosted.org/packages/c9/dd/32c4805c8cb7cc66f61e670d2934a6843aa45d4b9e521269d6a656700e87/cellmachine-1.2.3.tar.gz
+[2023-07-08 10:11:40] INFO root fetch - processPackages [cellmachine]: Downloading https://files.pythonhosted.org/packages/c9/dd/32c4805c8cb7cc66f61e670d2934a6843aa45d4b9e521269d6a656700e87/cellmachine-1.2.3.tar.gz
+[2023-07-08 10:11:40] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-07-08 10:11:40] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.3.0.tar.gz tmp/seunggabi_core_python-0.4.0.tar.gz --markdown 20230708/s/seunggabi-core-python/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-08 10:11:40] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/ed/92/c7699e2a40eab29c2e7c2c183d702e36ca724129b568afac1125d300a38e/pyglove-0.3.1.dev20230708.tar.gz
+[2023-07-08 10:11:40] INFO root fetch - processPackages [cellmachine]: executing diffoscope
+[2023-07-08 10:11:40] INFO root fetch - processPackages [cellmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmachine-1.2.2.tar.gz tmp/cellmachine-1.2.3.tar.gz --markdown 20230708/c/cellmachine/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-08 10:11:40] INFO root fetch - processPackages [cellmachine]: executing diffoscope
+[2023-07-08 10:11:40] INFO root fetch - processPackages [cellmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmachine-1.2.2.tar.gz tmp/cellmachine-1.2.3.tar.gz --markdown 20230708/c/cellmachine/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-08 10:11:40] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-08 10:11:40] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230707.tar.gz tmp/pyglove-0.3.1.dev20230708.tar.gz --markdown 20230708/p/pyglove/0.3.1.dev20230707-0.3.1.dev20230708/diff.md --exclude *.pyd
+[2023-07-08 10:11:41] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.3.0.tar.gz]
+[2023-07-08 10:11:41] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.4.0.tar.gz]
+[2023-07-08 10:11:41] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-07-08 10:11:41] INFO root fetch - processPackages [skytemple-randomizer]: Downloading https://files.pythonhosted.org/packages/c9/84/80588f479d192bcf6973231f36176b4810622f11956022a9b3c518cedec6/skytemple_randomizer-1.5.4-py3-none-any.whl
+[2023-07-08 10:11:41] INFO root fetch - processPackages [cellmachine]: Remove: archive file [/home/abi/fetcher/tmp/cellmachine-1.2.2.tar.gz]
+[2023-07-08 10:11:41] INFO root fetch - processPackages [cellmachine]: Remove: archive file [/home/abi/fetcher/tmp/cellmachine-1.2.3.tar.gz]
+[2023-07-08 10:11:41] INFO root fetch - main [MainThread]: End processing [cellmachine]: success
+[2023-07-08 10:11:41] INFO root fetch - main [MainThread]: End processing [cellmachine]: success
+[2023-07-08 10:11:41] INFO root fetch - processPackages [skytemple-randomizer]: executing diffoscope
+[2023-07-08 10:11:41] INFO root fetch - processPackages [skytemple-randomizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skytemple_randomizer-1.5.3-py3-none-any.whl.zip tmp/skytemple_randomizer-1.5.4-py3-none-any.whl.zip --markdown 20230708/s/skytemple-randomizer/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-08 10:11:42] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230707.tar.gz]
+[2023-07-08 10:11:42] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230708.tar.gz]
+[2023-07-08 10:11:42] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-08 10:11:47] INFO root fetch - processPackages [skytemple-randomizer]: Remove: archive file [/home/abi/fetcher/tmp/skytemple_randomizer-1.5.3-py3-none-any.whl.zip]
+[2023-07-08 10:11:47] INFO root fetch - processPackages [skytemple-randomizer]: Remove: archive file [/home/abi/fetcher/tmp/skytemple_randomizer-1.5.4-py3-none-any.whl.zip]
+[2023-07-08 10:11:47] INFO root fetch - main [MainThread]: End processing [skytemple-randomizer]: success
+[2023-07-08 10:11:47] INFO root fetch - main [MainThread]: Store serial: [18811721]
