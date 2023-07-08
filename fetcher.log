@@ -20900,3 +20900,48 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 20:50:19] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
 [2023-07-08 20:50:19] INFO root fetch - main [MainThread]: End processing [cs-models]: success
 [2023-07-08 20:50:19] INFO root fetch - main [MainThread]: Store serial: [18815170]
+[2023-07-08 20:55:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815170]
+[2023-07-08 20:55:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 20:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: waterfly
+[2023-07-08 20:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-pane
+[2023-07-08 20:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypdfe
+[2023-07-08 20:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nwebclient
+[2023-07-08 20:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wsuks
+[2023-07-08 20:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyundai-kia-connect-api
+[2023-07-08 20:55:28] INFO root fetch - processPackages [pypdfe]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-08 20:55:28] WARNING root fetch - processPackages [py-pane]: Skipping, unable to determine old version
+[2023-07-08 20:55:28] INFO root fetch - main [MainThread]: End processing [py-pane] error
+[2023-07-08 20:55:28] INFO root fetch - processPackages [hyundai-kia-connect-api]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-07-08 20:55:28] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 20:55:28] WARNING root fetch - processPackages [waterfly]: Skipping, unable to determine old version
+[2023-07-08 20:55:28] INFO root fetch - main [MainThread]: End processing [waterfly] error
+[2023-07-08 20:55:28] INFO root fetch - processPackages [wsuks]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-08 20:55:28] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/af/08/a5ab698c225b1d1743e230977179c35d1ea3b2ce41d58e081aea6fdc7d5c/pypdfe-0.1.2.tar.gz
+[2023-07-08 20:55:28] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 20:55:28] INFO root fetch - processPackages [wsuks]: Downloading https://files.pythonhosted.org/packages/84/8f/25cc4726b70d1e45d1c3a341736950ee15ba5d3fdcc82550c81fdae9808a/wsuks-0.3.1.tar.gz
+[2023-07-08 20:55:28] INFO root fetch - processPackages [hyundai-kia-connect-api]: Downloading https://files.pythonhosted.org/packages/70/21/a8c2ac5c19dd320be981fd15b16e27cbc4fef8f293a25ce0ac9e37cdbd4b/hyundai_kia_connect_api-3.3.8.tar.gz
+[2023-07-08 20:55:28] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 20:55:28] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/a6/2a/8fc81f20884e22f26ed6fb501b34583cb35f70a8d038c492d1bba571ac31/pypdfe-0.1.3.tar.gz
+[2023-07-08 20:55:28] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 20:55:28] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 20:55:29] INFO root fetch - processPackages [wsuks]: Downloading https://files.pythonhosted.org/packages/9b/0c/ee68e55edf7af0eb25e7e888e9fe33da16c4b49ac57ec926d90490bba243/wsuks-0.4.0.tar.gz
+[2023-07-08 20:55:29] INFO root fetch - processPackages [hyundai-kia-connect-api]: Downloading https://files.pythonhosted.org/packages/e8/ac/9ae5ca1f766df94c7e80c5824a4ad6c188c11f161d9700669afe15dd4728/hyundai_kia_connect_api-3.3.9.tar.gz
+[2023-07-08 20:55:29] INFO root fetch - processPackages [pypdfe]: executing diffoscope
+[2023-07-08 20:55:29] INFO root fetch - processPackages [pypdfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfe-0.1.2.tar.gz tmp/pypdfe-0.1.3.tar.gz --markdown 20230708/p/pypdfe/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-08 20:55:29] INFO root fetch - processPackages [hyundai-kia-connect-api]: executing diffoscope
+[2023-07-08 20:55:29] INFO root fetch - processPackages [hyundai-kia-connect-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyundai_kia_connect_api-3.3.8.tar.gz tmp/hyundai_kia_connect_api-3.3.9.tar.gz --markdown 20230708/h/hyundai-kia-connect-api/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-07-08 20:55:29] INFO root fetch - processPackages [wsuks]: executing diffoscope
+[2023-07-08 20:55:29] INFO root fetch - processPackages [wsuks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsuks-0.3.1.tar.gz tmp/wsuks-0.4.0.tar.gz --markdown 20230708/w/wsuks/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-08 20:55:29] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-08 20:55:29] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-08 20:55:29] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 20:55:29] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.2.tar.gz]
+[2023-07-08 20:55:29] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.3.tar.gz]
+[2023-07-08 20:55:29] INFO root fetch - main [MainThread]: End processing [pypdfe]: success
+[2023-07-08 20:55:30] INFO root fetch - processPackages [hyundai-kia-connect-api]: Remove: archive file [/home/abi/fetcher/tmp/hyundai_kia_connect_api-3.3.8.tar.gz]
+[2023-07-08 20:55:30] INFO root fetch - processPackages [hyundai-kia-connect-api]: Remove: archive file [/home/abi/fetcher/tmp/hyundai_kia_connect_api-3.3.9.tar.gz]
+[2023-07-08 20:55:30] INFO root fetch - main [MainThread]: End processing [hyundai-kia-connect-api]: success
+[2023-07-08 20:55:30] INFO root fetch - processPackages [wsuks]: Remove: archive file [/home/abi/fetcher/tmp/wsuks-0.3.1.tar.gz]
+[2023-07-08 20:55:30] INFO root fetch - processPackages [wsuks]: Remove: archive file [/home/abi/fetcher/tmp/wsuks-0.4.0.tar.gz]
+[2023-07-08 20:55:30] INFO root fetch - main [MainThread]: End processing [wsuks]: success
+[2023-07-08 20:55:30] INFO root fetch - main [MainThread]: Store serial: [18815190]
