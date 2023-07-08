@@ -13145,3 +13145,42 @@
 [2023-07-08 09:45:35] INFO root fetch - processPackages [modern-treasury]: Remove: archive file [/home/abi/fetcher/tmp/modern_treasury-1.9.0.tar.gz]
 [2023-07-08 09:45:35] INFO root fetch - main [MainThread]: End processing [modern-treasury]: success
 [2023-07-08 09:45:35] INFO root fetch - main [MainThread]: Store serial: [18811612]
+[2023-07-08 09:50:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811612]
+[2023-07-08 09:50:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellmachine
+[2023-07-08 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyscf
+[2023-07-08 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-nightly
+[2023-07-08 09:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygmtools
+[2023-07-08 09:50:44] INFO root fetch - processPackages [cellmachine]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-08 09:50:44] INFO root fetch - processPackages [pygmtools]: New version: [0.3.8a8] Old Version: [0.3.8a7]
+[2023-07-08 09:50:44] INFO root fetch - processPackages [pyscf]: New version: [2.3.0] Old Version: [2.2.1]
+[2023-07-08 09:50:44] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-08 09:50:44] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-08 09:50:44] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/ba/44/fb3d37928130f44ac3b82f91cf1801d0d87e43cece088c9bb1605d0cbd2c/pygmtools-0.3.8a7.tar.gz
+[2023-07-08 09:50:44] INFO root fetch - processPackages [cellmachine]: Downloading https://files.pythonhosted.org/packages/a0/52/9818f26a51b98119efa58a72f1220624953a647c10563598d45d80e3b323/cellmachine-1.2.0.tar.gz
+[2023-07-08 09:50:44] INFO root fetch - processPackages [pyscf]: Downloading https://files.pythonhosted.org/packages/57/73/eae6b26c865287aeac6a2bd8e32296f84a289afc04d46c29ee2971b45f71/pyscf-2.2.1.tar.gz
+[2023-07-08 09:50:44] INFO root fetch - processPackages [cellmachine]: Downloading https://files.pythonhosted.org/packages/33/8f/915d3822211186d47752710bf39ea549157c9770a0ff65122d34512f7307/cellmachine-1.2.1.tar.gz
+[2023-07-08 09:50:44] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-08 09:50:44] INFO root fetch - processPackages [cellmachine]: executing diffoscope
+[2023-07-08 09:50:44] INFO root fetch - processPackages [cellmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmachine-1.2.0.tar.gz tmp/cellmachine-1.2.1.tar.gz --markdown 20230708/c/cellmachine/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-08 09:50:44] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-08 09:50:44] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230708/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-08 09:50:45] INFO root fetch - processPackages [pyscf]: Downloading https://files.pythonhosted.org/packages/5b/57/35c7b9c5b8e42dd1940fc92c6c9b0a4b2d591be128120aa732b0a809503b/pyscf-2.3.0.tar.gz
+[2023-07-08 09:50:45] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/f8/8c/1f0e828d7314764991a815dbe13cdb3a9b03dc10a0d897980af025b4904b/pygmtools-0.3.8a8.tar.gz
+[2023-07-08 09:50:45] INFO root fetch - processPackages [pyscf]: executing diffoscope
+[2023-07-08 09:50:45] INFO root fetch - processPackages [pyscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscf-2.2.1.tar.gz tmp/pyscf-2.3.0.tar.gz --markdown 20230708/p/pyscf/2.2.1-2.3.0/diff.md --exclude *.pyd
+[2023-07-08 09:50:45] INFO root fetch - processPackages [cellmachine]: Remove: archive file [/home/abi/fetcher/tmp/cellmachine-1.2.0.tar.gz]
+[2023-07-08 09:50:45] INFO root fetch - processPackages [cellmachine]: Remove: archive file [/home/abi/fetcher/tmp/cellmachine-1.2.1.tar.gz]
+[2023-07-08 09:50:45] INFO root fetch - main [MainThread]: End processing [cellmachine]: success
+[2023-07-08 09:50:45] INFO root fetch - processPackages [pygmtools]: executing diffoscope
+[2023-07-08 09:50:45] INFO root fetch - processPackages [pygmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtools-0.3.8a7.tar.gz tmp/pygmtools-0.3.8a8.tar.gz --markdown 20230708/p/pygmtools/0.3.8a7-0.3.8a8/diff.md --exclude *.pyd
+[2023-07-08 09:50:47] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a7.tar.gz]
+[2023-07-08 09:50:47] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a8.tar.gz]
+[2023-07-08 09:50:47] INFO root fetch - main [MainThread]: End processing [pygmtools]: success
+[2023-07-08 09:50:48] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-08 09:50:48] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-08 09:50:48] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-08 09:50:56] INFO root fetch - processPackages [pyscf]: Remove: archive file [/home/abi/fetcher/tmp/pyscf-2.2.1.tar.gz]
+[2023-07-08 09:50:56] INFO root fetch - processPackages [pyscf]: Remove: archive file [/home/abi/fetcher/tmp/pyscf-2.3.0.tar.gz]
+[2023-07-08 09:50:56] INFO root fetch - main [MainThread]: End processing [pyscf]: success
+[2023-07-08 09:50:56] INFO root fetch - main [MainThread]: Store serial: [18811622]
