@@ -13556,3 +13556,63 @@
 [2023-07-08 10:32:37] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
 [2023-07-08 10:32:37] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2023-07-08 10:32:37] INFO root fetch - main [MainThread]: Store serial: [18811794]
+[2023-07-08 10:37:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811794]
+[2023-07-08 10:37:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 10:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ColorTER
+[2023-07-08 10:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ez-a-sync
+[2023-07-08 10:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qpro
+[2023-07-08 10:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fractal-repositories
+[2023-07-08 10:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: slib-sorter
+[2023-07-08 10:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sparkdesk-api
+[2023-07-08 10:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-estimator-nightly
+[2023-07-08 10:37:46] INFO root fetch - processPackages [fractal-repositories]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-08 10:37:46] INFO root fetch - processPackages [slib-sorter]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-08 10:37:46] INFO root fetch - processPackages [qpro]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-08 10:37:46] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.0] Old Version: [0.5.5.dev3]
+[2023-07-08 10:37:46] INFO root fetch - processPackages [sparkdesk-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-08 10:37:46] WARNING root fetch - processPackages [ColorTER]: Skipping, unable to determine old version
+[2023-07-08 10:37:46] INFO root fetch - main [MainThread]: End processing [ColorTER] error
+[2023-07-08 10:37:46] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-08 10:37:46] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-08 10:37:46] INFO root fetch - processPackages [fractal-repositories]: Downloading https://files.pythonhosted.org/packages/5b/d2/64cda6fb923ac5b13beb2208473f6809021d992e1e9cc3671890bc44a02e/fractal_repositories-0.0.4.tar.gz
+[2023-07-08 10:37:46] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/90/57/9ca6255ea3c2fd432abe57ac01d6eb232416e6b909e79fdef83e96b62029/slib-sorter-1.3.1.tar.gz
+[2023-07-08 10:37:46] INFO root fetch - processPackages [sparkdesk-api]: Downloading https://files.pythonhosted.org/packages/3d/a6/fdb0ae9a3febec566c2cd03f8e37a1270dbe45324c545def8a0f01d8fefd/sparkdesk-api-1.0.1.tar.gz
+[2023-07-08 10:37:46] INFO root fetch - processPackages [qpro]: Downloading https://files.pythonhosted.org/packages/79/0c/ae4338de3999182a858cc231bcc608283ff7dea051e3f13ac8f354bd5ebc/Qpro-0.9.8.tar.gz
+[2023-07-08 10:37:46] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/c5/74/45ba4e1272bde36eb8ec9652f680097d81689f6f7ea65d24a78c58a20b96/ez-a-sync-0.5.5.dev3.tar.gz
+[2023-07-08 10:37:46] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-08 10:37:46] INFO root fetch - processPackages [fractal-repositories]: Downloading https://files.pythonhosted.org/packages/91/41/ad4198e9bfdf3b800451f75d805b33a654b8633f61be6dd4f14352d0e655/fractal_repositories-0.0.5.tar.gz
+[2023-07-08 10:37:46] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/17/24/2eab8cd742b4c3f7cfdb7fce3d69e496b9889eca38943731dbd01f4a3875/slib-sorter-1.3.2.tar.gz
+[2023-07-08 10:37:46] INFO root fetch - processPackages [sparkdesk-api]: Downloading https://files.pythonhosted.org/packages/75/f3/a57373743eff692e2287f8c3a0c7488427577bd1c926fede69ae30afb031/sparkdesk-api-1.0.2.tar.gz
+[2023-07-08 10:37:46] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-08 10:37:46] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230708/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-08 10:37:46] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/dd/bd/b7a36f684d832d22f2bbfd0810e9ba837fd066b3f9ba25bcf22001b67a12/ez-a-sync-0.6.0.tar.gz
+[2023-07-08 10:37:46] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 10:37:46] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.3.1.tar.gz tmp/slib-sorter-1.3.2.tar.gz --markdown 20230708/s/slib-sorter/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-08 10:37:47] INFO root fetch - processPackages [fractal-repositories]: executing diffoscope
+[2023-07-08 10:37:47] INFO root fetch - processPackages [fractal-repositories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_repositories-0.0.4.tar.gz tmp/fractal_repositories-0.0.5.tar.gz --markdown 20230708/f/fractal-repositories/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-08 10:37:47] INFO root fetch - processPackages [qpro]: Downloading https://files.pythonhosted.org/packages/aa/c4/523582425967c77f08b8cca8ee3166cb8b4b7376b1eaf112114a93155488/Qpro-0.9.9.tar.gz
+[2023-07-08 10:37:47] INFO root fetch - processPackages [sparkdesk-api]: executing diffoscope
+[2023-07-08 10:37:47] INFO root fetch - processPackages [sparkdesk-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkdesk-api-1.0.1.tar.gz tmp/sparkdesk-api-1.0.2.tar.gz --markdown 20230708/s/sparkdesk-api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-08 10:37:47] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-08 10:37:47] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.5.5.dev3.tar.gz tmp/ez-a-sync-0.6.0.tar.gz --markdown 20230708/e/ez-a-sync/0.5.5.dev3-0.6.0/diff.md --exclude *.pyd
+[2023-07-08 10:37:47] INFO root fetch - processPackages [qpro]: executing diffoscope
+[2023-07-08 10:37:47] INFO root fetch - processPackages [qpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Qpro-0.9.8.tar.gz tmp/Qpro-0.9.9.tar.gz --markdown 20230708/q/qpro/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-08 10:37:48] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.3.1.tar.gz]
+[2023-07-08 10:37:48] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.3.2.tar.gz]
+[2023-07-08 10:37:48] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 10:37:48] INFO root fetch - processPackages [fractal-repositories]: Remove: archive file [/home/abi/fetcher/tmp/fractal_repositories-0.0.4.tar.gz]
+[2023-07-08 10:37:48] INFO root fetch - processPackages [fractal-repositories]: Remove: archive file [/home/abi/fetcher/tmp/fractal_repositories-0.0.5.tar.gz]
+[2023-07-08 10:37:48] INFO root fetch - main [MainThread]: End processing [fractal-repositories]: success
+[2023-07-08 10:37:48] INFO root fetch - processPackages [sparkdesk-api]: Remove: archive file [/home/abi/fetcher/tmp/sparkdesk-api-1.0.1.tar.gz]
+[2023-07-08 10:37:48] INFO root fetch - processPackages [sparkdesk-api]: Remove: archive file [/home/abi/fetcher/tmp/sparkdesk-api-1.0.2.tar.gz]
+[2023-07-08 10:37:48] INFO root fetch - main [MainThread]: End processing [sparkdesk-api]: success
+[2023-07-08 10:37:48] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.5.5.dev3.tar.gz]
+[2023-07-08 10:37:48] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.0.tar.gz]
+[2023-07-08 10:37:48] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-08 10:37:48] INFO root fetch - processPackages [qpro]: Remove: archive file [/home/abi/fetcher/tmp/Qpro-0.9.8.tar.gz]
+[2023-07-08 10:37:48] INFO root fetch - processPackages [qpro]: Remove: archive file [/home/abi/fetcher/tmp/Qpro-0.9.9.tar.gz]
+[2023-07-08 10:37:48] INFO root fetch - main [MainThread]: End processing [qpro]: success
+[2023-07-08 10:37:48] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-08 10:37:48] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-08 10:37:48] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-08 10:37:48] INFO root fetch - main [MainThread]: Store serial: [18811816]
