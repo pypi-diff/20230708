@@ -12211,3 +12211,24 @@
 [2023-07-08 07:12:00] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307070509.tar.gz]
 [2023-07-08 07:12:00] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
 [2023-07-08 07:12:00] INFO root fetch - main [MainThread]: Store serial: [18811079]
+[2023-07-08 07:17:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811079]
+[2023-07-08 07:17:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-08 07:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blint
+[2023-07-08 07:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slib-sorter
+[2023-07-08 07:17:09] INFO root fetch - processPackages [slib-sorter]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-08 07:17:09] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/a9/8d/37a58a9bedfb740b5a29de1324d7e00f5dcf3b4405d6872f5e59523b8e25/slib-sorter-1.2.3.tar.gz
+[2023-07-08 07:17:09] INFO root fetch - processPackages [blint]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 07:17:09] INFO root fetch - processPackages [blint]: Downloading https://files.pythonhosted.org/packages/e6/b0/d5ddf36678d6c1c40e060406a45bedd8d3eac80e1204239b6b3099f84d76/blint-1.0.8.tar.gz
+[2023-07-08 07:17:09] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/4a/72/e8c49f2eb6c4fa0435055931f416362560e7f632f1045dea2fe6ff7e3be9/slib-sorter-1.2.4.tar.gz
+[2023-07-08 07:17:10] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 07:17:10] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.2.3.tar.gz tmp/slib-sorter-1.2.4.tar.gz --markdown 20230708/s/slib-sorter/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-08 07:17:10] INFO root fetch - processPackages [blint]: Downloading https://files.pythonhosted.org/packages/ef/1d/0d52caf776f421b2974c0acb7dc1b6c2eff608597c6d6f5bceff17b2df85/blint-1.0.9.tar.gz
+[2023-07-08 07:17:10] INFO root fetch - processPackages [blint]: executing diffoscope
+[2023-07-08 07:17:10] INFO root fetch - processPackages [blint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blint-1.0.8.tar.gz tmp/blint-1.0.9.tar.gz --markdown 20230708/b/blint/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 07:17:10] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.3.tar.gz]
+[2023-07-08 07:17:10] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.4.tar.gz]
+[2023-07-08 07:17:10] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 07:17:11] INFO root fetch - processPackages [blint]: Remove: archive file [/home/abi/fetcher/tmp/blint-1.0.8.tar.gz]
+[2023-07-08 07:17:11] INFO root fetch - processPackages [blint]: Remove: archive file [/home/abi/fetcher/tmp/blint-1.0.9.tar.gz]
+[2023-07-08 07:17:11] INFO root fetch - main [MainThread]: End processing [blint]: success
+[2023-07-08 07:17:11] INFO root fetch - main [MainThread]: Store serial: [18811088]
