@@ -14120,3 +14120,97 @@
 [2023-07-08 11:19:34] INFO root fetch - processPackages [rpds-py]: Remove: archive file [/home/abi/fetcher/tmp/rpds_py-0.8.8.tar.gz]
 [2023-07-08 11:19:34] INFO root fetch - main [MainThread]: End processing [rpds-py]: success
 [2023-07-08 11:19:34] INFO root fetch - main [MainThread]: Store serial: [18812113]
+[2023-07-08 11:24:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812113]
+[2023-07-08 11:24:44] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-08 11:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-07-08 11:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-07-08 11:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dank-mids
+[2023-07-08 11:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zenlayercloud-sdk-python
+[2023-07-08 11:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zfs-replicate
+[2023-07-08 11:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: QuNet
+[2023-07-08 11:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mosparo-django
+[2023-07-08 11:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: im-squeck
+[2023-07-08 11:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: communica
+[2023-07-08 11:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tbp-nightly
+[2023-07-08 11:24:44] INFO root fetch - processPackages [mosparo-django]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-07-08 11:24:44] INFO root fetch - processPackages [communica]: New version: [0.2.2a1] Old Version: [0.2.1b6]
+[2023-07-08 11:24:44] WARNING root fetch - processPackages [zenlayercloud-sdk-python]: Skipping, unable to determine old version
+[2023-07-08 11:24:44] INFO root fetch - processPackages [zenlayercloud-sdk-python]: Start processing: telegramweb
+[2023-07-08 11:24:44] INFO root fetch - main [MainThread]: End processing [zenlayercloud-sdk-python] error
+[2023-07-08 11:24:44] INFO root fetch - processPackages [zfs-replicate]: New version: [3.0.0] Old Version: [2.2.1]
+[2023-07-08 11:24:44] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 11:24:44] INFO root fetch - processPackages [im-squeck]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-08 11:24:44] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-08 11:24:44] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-08 11:24:44] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-08 11:24:44] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-08 11:24:44] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-08 11:24:44] INFO root fetch - processPackages [telegramweb]: New version: [5.4] Old Version: [5.3]
+[2023-07-08 11:24:44] INFO root fetch - processPackages [mosparo-django]: Downloading https://files.pythonhosted.org/packages/e7/6c/e2464e887c52203fcb603c30a89556c5b2782723f31068fa4ffca241a5a6/mosparo_django-1.0.0b1.tar.gz
+[2023-07-08 11:24:44] INFO root fetch - processPackages [communica]: Downloading https://files.pythonhosted.org/packages/70/5d/ca5664c3177aaa42327535159583ad963bc72cdb2e8e60b296d6d80c5c2b/communica-0.2.1b6.tar.gz
+[2023-07-08 11:24:44] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-08 11:24:44] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-08 11:24:44] INFO root fetch - processPackages [im-squeck]: Downloading https://files.pythonhosted.org/packages/c5/8e/ceab51777591d1f240f3806b1695638efef4ea7cb5a0acc9f7a1eb29f7c5/im-squeck-1.1.0.tar.gz
+[2023-07-08 11:24:44] INFO root fetch - processPackages [zfs-replicate]: Downloading https://files.pythonhosted.org/packages/a7/82/c624e4249c008a704fb8a70833b44dc49341692df350818389dd988af3ae/zfs_replicate-2.2.1.tar.gz
+[2023-07-08 11:24:44] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-08 11:24:44] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-08 11:24:45] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-08 11:24:45] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/14/4c/9e0a9118dcbe2c2fd5d202e1864c3f426efaa3df0a8d3da54df3177b3478/telegramweb-5.3.tar.gz
+[2023-07-08 11:24:45] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-08 11:24:45] INFO root fetch - processPackages [mosparo-django]: Downloading https://files.pythonhosted.org/packages/db/f4/41332ccc7952ed132bd30bd7e2de2baee133e4aa1c1b9c2855ea5a0ac686/mosparo_django-1.0.0b2.tar.gz
+[2023-07-08 11:24:45] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-08 11:24:45] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-08 11:24:45] INFO root fetch - processPackages [communica]: Downloading https://files.pythonhosted.org/packages/5f/96/254248d1cafef930ee8c9883828edf794cf9648fc23b4fa1def51499b80e/communica-0.2.2a1.tar.gz
+[2023-07-08 11:24:45] INFO root fetch - processPackages [zfs-replicate]: Downloading https://files.pythonhosted.org/packages/60/49/c21928d91d08e733ea4e3aeff2b65b01e1d1bc112396b027e1929e1b8fa9/zfs_replicate-3.0.0.tar.gz
+[2023-07-08 11:24:45] INFO root fetch - processPackages [im-squeck]: Downloading https://files.pythonhosted.org/packages/33/6b/f27569ad838e9feb489f058560d0190f66d3d3911ac8f023902d64b0a4b0/im-squeck-1.1.1.tar.gz
+[2023-07-08 11:24:45] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-08 11:24:45] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230708/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 11:24:45] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-08 11:24:45] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230708/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-08 11:24:45] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-08 11:24:45] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230708/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-08 11:24:45] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-08 11:24:45] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230708/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-08 11:24:45] INFO root fetch - processPackages [zfs-replicate]: executing diffoscope
+[2023-07-08 11:24:45] INFO root fetch - processPackages [mosparo-django]: executing diffoscope
+[2023-07-08 11:24:45] INFO root fetch - processPackages [zfs-replicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfs_replicate-2.2.1.tar.gz tmp/zfs_replicate-3.0.0.tar.gz --markdown 20230708/z/zfs-replicate/2.2.1-3.0.0/diff.md --exclude *.pyd
+[2023-07-08 11:24:45] INFO root fetch - processPackages [mosparo-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosparo_django-1.0.0b1.tar.gz tmp/mosparo_django-1.0.0b2.tar.gz --markdown 20230708/m/mosparo-django/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-07-08 11:24:45] INFO root fetch - processPackages [im-squeck]: executing diffoscope
+[2023-07-08 11:24:45] INFO root fetch - processPackages [im-squeck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im-squeck-1.1.0.tar.gz tmp/im-squeck-1.1.1.tar.gz --markdown 20230708/i/im-squeck/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-08 11:24:45] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-08 11:24:45] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/19/87/7aeb228385a4f2d1373c5877d372955c25df54bc515e5f41a7f076f67c22/telegramweb-5.4.tar.gz
+[2023-07-08 11:24:45] INFO root fetch - processPackages [communica]: executing diffoscope
+[2023-07-08 11:24:45] INFO root fetch - processPackages [communica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/communica-0.2.1b6.tar.gz tmp/communica-0.2.2a1.tar.gz --markdown 20230708/c/communica/0.2.1b6-0.2.2a1/diff.md --exclude *.pyd
+[2023-07-08 11:24:45] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-07-08 11:24:45] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-5.3.tar.gz tmp/telegramweb-5.4.tar.gz --markdown 20230708/t/telegramweb/5.3-5.4/diff.md --exclude *.pyd
+[2023-07-08 11:24:46] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-08 11:24:46] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230708/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-08 11:24:46] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-08 11:24:46] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-08 11:24:46] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-08 11:24:47] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-08 11:24:47] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-08 11:24:47] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-08 11:24:47] INFO root fetch - processPackages [zfs-replicate]: Remove: archive file [/home/abi/fetcher/tmp/zfs_replicate-2.2.1.tar.gz]
+[2023-07-08 11:24:47] INFO root fetch - processPackages [zfs-replicate]: Remove: archive file [/home/abi/fetcher/tmp/zfs_replicate-3.0.0.tar.gz]
+[2023-07-08 11:24:47] INFO root fetch - main [MainThread]: End processing [zfs-replicate]: success
+[2023-07-08 11:24:47] INFO root fetch - processPackages [im-squeck]: Remove: archive file [/home/abi/fetcher/tmp/im-squeck-1.1.0.tar.gz]
+[2023-07-08 11:24:47] INFO root fetch - processPackages [im-squeck]: Remove: archive file [/home/abi/fetcher/tmp/im-squeck-1.1.1.tar.gz]
+[2023-07-08 11:24:47] INFO root fetch - main [MainThread]: End processing [im-squeck]: success
+[2023-07-08 11:24:47] INFO root fetch - processPackages [mosparo-django]: Remove: archive file [/home/abi/fetcher/tmp/mosparo_django-1.0.0b1.tar.gz]
+[2023-07-08 11:24:47] INFO root fetch - processPackages [mosparo-django]: Remove: archive file [/home/abi/fetcher/tmp/mosparo_django-1.0.0b2.tar.gz]
+[2023-07-08 11:24:47] INFO root fetch - main [MainThread]: End processing [mosparo-django]: success
+[2023-07-08 11:24:47] INFO root fetch - processPackages [communica]: Remove: archive file [/home/abi/fetcher/tmp/communica-0.2.1b6.tar.gz]
+[2023-07-08 11:24:47] INFO root fetch - processPackages [communica]: Remove: archive file [/home/abi/fetcher/tmp/communica-0.2.2a1.tar.gz]
+[2023-07-08 11:24:47] INFO root fetch - main [MainThread]: End processing [communica]: success
+[2023-07-08 11:24:47] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-08 11:24:47] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-08 11:24:47] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-08 11:24:47] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-5.3.tar.gz]
+[2023-07-08 11:24:47] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-5.4.tar.gz]
+[2023-07-08 11:24:47] INFO root fetch - main [MainThread]: End processing [telegramweb]: success
+[2023-07-08 11:24:47] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-08 11:24:48] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-08 11:24:48] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-08 11:24:48] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-08 11:24:48] INFO root fetch - main [MainThread]: Store serial: [18812162]
