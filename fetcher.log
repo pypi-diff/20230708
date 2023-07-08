@@ -16615,3 +16615,29 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 14:59:23] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
 [2023-07-08 14:59:23] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
 [2023-07-08 14:59:23] INFO root fetch - main [MainThread]: Store serial: [18813217]
+[2023-07-08 15:04:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813217]
+[2023-07-08 15:04:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 15:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nautobot
+[2023-07-08 15:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slib-sorter
+[2023-07-08 15:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: packg
+[2023-07-08 15:04:32] INFO root fetch - processPackages [slib-sorter]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-08 15:04:32] INFO root fetch - processPackages [nautobot]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-07-08 15:04:32] INFO root fetch - processPackages [packg]: New version: [0.2.21] Old Version: [0.2.20]
+[2023-07-08 15:04:32] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/39/80/bc88de6a1b12bb83dbbd2e8643504984f955ca5b7e0206ae694249ac9af4/slib-sorter-1.5.3.tar.gz
+[2023-07-08 15:04:33] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/bc/8a/30b630018bb91b9d2db465b1c3533f32a162f15fe96be5a6ecdeeda3a417/packg-0.2.20.tar.gz
+[2023-07-08 15:04:33] INFO root fetch - processPackages [nautobot]: Downloading https://files.pythonhosted.org/packages/b6/e4/91016dff7d3463d018e673b46cdf3060d55b87b8f9073920a77fb3d378ed/nautobot-2.0.0b1.tar.gz
+[2023-07-08 15:04:33] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/4f/db/9aa2faa7d8052185d055e6a9481fa7d02969877ed94653f80ba101a10361/slib-sorter-1.5.4.tar.gz
+[2023-07-08 15:04:33] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/4e/01/03123afc3a45a4ef8e93cc0242ee45a03248d1a356a6fea5409af604d24c/packg-0.2.21.tar.gz
+[2023-07-08 15:04:33] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 15:04:33] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.5.3.tar.gz tmp/slib-sorter-1.5.4.tar.gz --markdown 20230708/s/slib-sorter/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-08 15:04:33] INFO root fetch - processPackages [packg]: executing diffoscope
+[2023-07-08 15:04:33] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.2.20.tar.gz tmp/packg-0.2.21.tar.gz --markdown 20230708/p/packg/0.2.20-0.2.21/diff.md --exclude *.pyd
+[2023-07-08 15:04:33] WARNING root fetch - processPackages [nautobot]: Skipping package: exceeds size limit 87194722>=10485760
+[2023-07-08 15:04:33] INFO root fetch - main [MainThread]: End processing [nautobot] error
+[2023-07-08 15:04:34] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.3.tar.gz]
+[2023-07-08 15:04:34] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.4.tar.gz]
+[2023-07-08 15:04:34] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 15:04:34] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.20.tar.gz]
+[2023-07-08 15:04:34] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.21.tar.gz]
+[2023-07-08 15:04:34] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2023-07-08 15:04:34] INFO root fetch - main [MainThread]: Store serial: [18813226]
