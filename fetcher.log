@@ -19935,3 +19935,77 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 19:11:42] INFO root fetch - processPackages [hat-duktape]: Remove: archive file [/home/abi/fetcher/tmp/hat_duktape-0.5.6-cp310.cp311-cp310.cp311-win_amd64.whl.zip]
 [2023-07-08 19:11:42] INFO root fetch - main [MainThread]: End processing [hat-duktape]: success
 [2023-07-08 19:11:42] INFO root fetch - main [MainThread]: Store serial: [18814742]
+[2023-07-08 19:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814742]
+[2023-07-08 19:16:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-08 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-walletauth
+[2023-07-08 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: impose-cli
+[2023-07-08 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyciactions
+[2023-07-08 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-sqlalchemy-api
+[2023-07-08 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepdbagent
+[2023-07-08 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napari-script-editor
+[2023-07-08 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipwho
+[2023-07-08 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gsclinks
+[2023-07-08 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccmplots
+[2023-07-08 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: norn
+[2023-07-08 19:16:51] INFO root fetch - processPackages [gsclinks]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-08 19:16:51] INFO root fetch - processPackages [impose-cli]: New version: [0.1.41rc3] Old Version: [0.1.41rc2]
+[2023-07-08 19:16:51] INFO root fetch - processPackages [fastapi-walletauth]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-08 19:16:51] INFO root fetch - processPackages [ccmplots]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-08 19:16:51] WARNING root fetch - processPackages [ipwho]: Skipping, unable to determine old version
+[2023-07-08 19:16:51] INFO root fetch - main [MainThread]: End processing [ipwho] error
+[2023-07-08 19:16:52] INFO root fetch - processPackages [pepdbagent]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-07-08 19:16:52] INFO root fetch - processPackages [pyciactions]: New version: [1.0.9] Old Version: [1.0.8a8]
+[2023-07-08 19:16:52] WARNING root fetch - processPackages [flask-sqlalchemy-api]: Skipping, unable to determine old version
+[2023-07-08 19:16:52] INFO root fetch - main [MainThread]: End processing [flask-sqlalchemy-api] error
+[2023-07-08 19:16:52] INFO root fetch - processPackages [napari-script-editor]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-08 19:16:52] WARNING root fetch - processPackages [norn]: Skipping, unable to determine old version
+[2023-07-08 19:16:52] INFO root fetch - main [MainThread]: End processing [norn] error
+[2023-07-08 19:16:52] INFO root fetch - processPackages [gsclinks]: Downloading https://files.pythonhosted.org/packages/6e/da/6ba511d3014eb3f622ae8908ed6b50a9c5652c61f1a00dff3bc96e28c532/gsclinks-1.0.2-py3-none-any.whl
+[2023-07-08 19:16:52] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/57/64/ee22359d55d22dab6a9612dcf8a50ebb73d0b06ab50af4186e5bca72bce9/impose_cli-0.1.41rc2-py3-none-any.whl
+[2023-07-08 19:16:52] INFO root fetch - processPackages [ccmplots]: Downloading https://files.pythonhosted.org/packages/23/2d/d53be53b70f46310a6d81459a5eadfbe46eff411f2fdfc43d270ad64411f/ccmplots-0.1.2.tar.gz
+[2023-07-08 19:16:52] INFO root fetch - processPackages [fastapi-walletauth]: Downloading https://files.pythonhosted.org/packages/7c/de/58384e042307ab8f4d34a7d15cdcf5c51edd08a30b46a5651b8cf9c43e71/fastapi_walletauth-0.1.5.tar.gz
+[2023-07-08 19:16:52] INFO root fetch - processPackages [pepdbagent]: Downloading https://files.pythonhosted.org/packages/bc/91/a044c7f6ae1aa2f53bf580883a9733b984ab5666bbad83199ee8b63acc61/pepdbagent-0.4.3.tar.gz
+[2023-07-08 19:16:52] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/4f/f3/3f4bce0f1e4c09bf27f8534421b31f53514ec81a4b706ba66930ae207c9f/pyciactions-1.0.8a8.tar.gz
+[2023-07-08 19:16:52] INFO root fetch - processPackages [napari-script-editor]: Downloading https://files.pythonhosted.org/packages/2b/98/df206304480e6c3daa6ea41a07a30b87720bb986cc2fba2802597a4a4d82/napari-script-editor-0.2.8.tar.gz
+[2023-07-08 19:16:52] INFO root fetch - processPackages [fastapi-walletauth]: Downloading https://files.pythonhosted.org/packages/2b/d5/b81e4e5b6a6a085bf1c2ddb79f5f8fb937341c86f4ef0fbe5b8398944ad1/fastapi_walletauth-0.1.6.tar.gz
+[2023-07-08 19:16:52] INFO root fetch - processPackages [gsclinks]: executing diffoscope
+[2023-07-08 19:16:52] INFO root fetch - processPackages [gsclinks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsclinks-1.0.2-py3-none-any.whl.zip tmp/gsclinks-1.0.3-py3-none-any.whl.zip --markdown 20230708/g/gsclinks/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-08 19:16:52] INFO root fetch - processPackages [ccmplots]: Downloading https://files.pythonhosted.org/packages/f5/5a/e336512a2117049f043d630a0d3f5d684dbb69e33d80a56b2ea52fc78fec/ccmplots-0.1.3.tar.gz
+[2023-07-08 19:16:52] INFO root fetch - processPackages [fastapi-walletauth]: executing diffoscope
+[2023-07-08 19:16:52] INFO root fetch - processPackages [fastapi-walletauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_walletauth-0.1.5.tar.gz tmp/fastapi_walletauth-0.1.6.tar.gz --markdown 20230708/f/fastapi-walletauth/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-08 19:16:52] INFO root fetch - processPackages [ccmplots]: executing diffoscope
+[2023-07-08 19:16:52] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/10/8c/b16bca2c67093c46bad700bf09b05e870660f7851a7f41f6a61f06a2b774/impose_cli-0.1.41rc3-py3-none-any.whl
+[2023-07-08 19:16:52] INFO root fetch - processPackages [ccmplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccmplots-0.1.2.tar.gz tmp/ccmplots-0.1.3.tar.gz --markdown 20230708/c/ccmplots/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-08 19:16:52] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/31/76/449e2f9925c75cb9cae72fcc6ebcb769640e519cf941ad29cee965d3ac35/pyciactions-1.0.9.tar.gz
+[2023-07-08 19:16:52] INFO root fetch - processPackages [pepdbagent]: Downloading https://files.pythonhosted.org/packages/44/19/8190bb6015c4b43187034653ff3b4d6888717295e8de917243aa14883887/pepdbagent-0.5.0.tar.gz
+[2023-07-08 19:16:52] INFO root fetch - processPackages [napari-script-editor]: Downloading https://files.pythonhosted.org/packages/69/94/bcec1af117fc5d8770d461e2ca3d2267ff74e323ac8ed947bf28d554950c/napari-script-editor-0.2.9.tar.gz
+[2023-07-08 19:16:52] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-08 19:16:52] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose_cli-0.1.41rc2-py3-none-any.whl.zip tmp/impose_cli-0.1.41rc3-py3-none-any.whl.zip --markdown 20230708/i/impose-cli/0.1.41rc2-0.1.41rc3/diff.md --exclude *.pyd
+[2023-07-08 19:16:52] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-08 19:16:52] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a8.tar.gz tmp/pyciactions-1.0.9.tar.gz --markdown 20230708/p/pyciactions/1.0.8a8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 19:16:53] INFO root fetch - processPackages [pepdbagent]: executing diffoscope
+[2023-07-08 19:16:53] INFO root fetch - processPackages [pepdbagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepdbagent-0.4.3.tar.gz tmp/pepdbagent-0.5.0.tar.gz --markdown 20230708/p/pepdbagent/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-07-08 19:16:53] INFO root fetch - processPackages [napari-script-editor]: executing diffoscope
+[2023-07-08 19:16:53] INFO root fetch - processPackages [napari-script-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-script-editor-0.2.8.tar.gz tmp/napari-script-editor-0.2.9.tar.gz --markdown 20230708/n/napari-script-editor/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-08 19:16:53] INFO root fetch - processPackages [gsclinks]: Remove: archive file [/home/abi/fetcher/tmp/gsclinks-1.0.2-py3-none-any.whl.zip]
+[2023-07-08 19:16:53] INFO root fetch - processPackages [gsclinks]: Remove: archive file [/home/abi/fetcher/tmp/gsclinks-1.0.3-py3-none-any.whl.zip]
+[2023-07-08 19:16:53] INFO root fetch - main [MainThread]: End processing [gsclinks]: success
+[2023-07-08 19:16:53] INFO root fetch - processPackages [fastapi-walletauth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_walletauth-0.1.5.tar.gz]
+[2023-07-08 19:16:53] INFO root fetch - processPackages [fastapi-walletauth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_walletauth-0.1.6.tar.gz]
+[2023-07-08 19:16:53] INFO root fetch - main [MainThread]: End processing [fastapi-walletauth]: success
+[2023-07-08 19:16:53] INFO root fetch - processPackages [ccmplots]: Remove: archive file [/home/abi/fetcher/tmp/ccmplots-0.1.2.tar.gz]
+[2023-07-08 19:16:53] INFO root fetch - processPackages [ccmplots]: Remove: archive file [/home/abi/fetcher/tmp/ccmplots-0.1.3.tar.gz]
+[2023-07-08 19:16:53] INFO root fetch - main [MainThread]: End processing [ccmplots]: success
+[2023-07-08 19:16:54] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose_cli-0.1.41rc2-py3-none-any.whl.zip]
+[2023-07-08 19:16:54] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose_cli-0.1.41rc3-py3-none-any.whl.zip]
+[2023-07-08 19:16:54] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-08 19:16:54] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a8.tar.gz]
+[2023-07-08 19:16:54] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.9.tar.gz]
+[2023-07-08 19:16:54] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-08 19:16:54] INFO root fetch - processPackages [napari-script-editor]: Remove: archive file [/home/abi/fetcher/tmp/napari-script-editor-0.2.8.tar.gz]
+[2023-07-08 19:16:54] INFO root fetch - processPackages [napari-script-editor]: Remove: archive file [/home/abi/fetcher/tmp/napari-script-editor-0.2.9.tar.gz]
+[2023-07-08 19:16:54] INFO root fetch - main [MainThread]: End processing [napari-script-editor]: success
+[2023-07-08 19:16:54] INFO root fetch - processPackages [pepdbagent]: Remove: archive file [/home/abi/fetcher/tmp/pepdbagent-0.4.3.tar.gz]
+[2023-07-08 19:16:54] INFO root fetch - processPackages [pepdbagent]: Remove: archive file [/home/abi/fetcher/tmp/pepdbagent-0.5.0.tar.gz]
+[2023-07-08 19:16:54] INFO root fetch - main [MainThread]: End processing [pepdbagent]: success
+[2023-07-08 19:16:54] INFO root fetch - main [MainThread]: Store serial: [18814782]
