@@ -12403,3 +12403,58 @@
 [2023-07-08 07:53:40] WARNING root fetch - processPackages [message-system]: Skipping, unable to determine old version
 [2023-07-08 07:53:40] INFO root fetch - main [MainThread]: End processing [message-system] error
 [2023-07-08 07:53:40] INFO root fetch - main [MainThread]: Store serial: [18811220]
+[2023-07-08 07:58:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811220]
+[2023-07-08 07:58:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 07:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promql-http-api
+[2023-07-08 07:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Background
+[2023-07-08 07:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imesh
+[2023-07-08 07:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elefantolib-django
+[2023-07-08 07:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: noiseflow
+[2023-07-08 07:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: promql-http-api
+[2023-07-08 07:58:49] INFO root fetch - processPackages [promql-http-api]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-08 07:58:49] INFO root fetch - processPackages [promql-http-api]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-08 07:58:49] INFO root fetch - processPackages [noiseflow]: New version: [0.0.7a2] Old Version: [0.0.6b0]
+[2023-07-08 07:58:49] INFO root fetch - processPackages [Geode-Background]: New version: [7.3.1rc1] Old Version: [7.3.0rc4]
+[2023-07-08 07:58:49] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 07:58:49] INFO root fetch - processPackages [elefantolib-django]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-08 07:58:49] INFO root fetch - processPackages [promql-http-api]: Downloading https://files.pythonhosted.org/packages/df/a5/a0f0df43db83672ee0a5c826cb54dced944f4041df864403b4dd5442e880/promql_http_api-0.1.2.tar.gz
+[2023-07-08 07:58:49] INFO root fetch - processPackages [promql-http-api]: Downloading https://files.pythonhosted.org/packages/df/a5/a0f0df43db83672ee0a5c826cb54dced944f4041df864403b4dd5442e880/promql_http_api-0.1.2.tar.gz
+[2023-07-08 07:58:49] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/73/74/1b9194c4c3fa1fe15a73583b0755ac640aed3fab2db1d5752883cf82c777/noiseflow-0.0.6b0.tar.gz
+[2023-07-08 07:58:49] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2023-07-08 07:58:49] INFO root fetch - processPackages [elefantolib-django]: Downloading https://files.pythonhosted.org/packages/4b/af/59d0af275fa0ab6a4c0d533906afd8a5399205e24871baaeba00edd8926e/elefantolib_django-0.1.0.tar.gz
+[2023-07-08 07:58:49] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/4d/36/6b4ff4f27a5652a68c2ce0cf4fd23b116e0fba8ed6b57391d38257466b02/Geode_Background-7.3.0rc4-cp39-cp39-win_amd64.whl
+[2023-07-08 07:58:49] INFO root fetch - processPackages [promql-http-api]: Downloading https://files.pythonhosted.org/packages/2e/10/97e8cc4ba6694897bc8be91ad22016db8e88b0dd6b53cac9a53673e0ae1d/promql_http_api-0.2.0.tar.gz
+[2023-07-08 07:58:49] INFO root fetch - processPackages [promql-http-api]: Downloading https://files.pythonhosted.org/packages/2e/10/97e8cc4ba6694897bc8be91ad22016db8e88b0dd6b53cac9a53673e0ae1d/promql_http_api-0.2.0.tar.gz
+[2023-07-08 07:58:49] INFO root fetch - processPackages [promql-http-api]: executing diffoscope
+[2023-07-08 07:58:49] INFO root fetch - processPackages [promql-http-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promql_http_api-0.1.2.tar.gz tmp/promql_http_api-0.2.0.tar.gz --markdown 20230708/p/promql-http-api/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 07:58:50] INFO root fetch - processPackages [promql-http-api]: executing diffoscope
+[2023-07-08 07:58:50] INFO root fetch - processPackages [promql-http-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promql_http_api-0.1.2.tar.gz tmp/promql_http_api-0.2.0.tar.gz --markdown 20230708/p/promql-http-api/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 07:58:50] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/68/6a/80297e0eddbe8adc8a2a30b8ab56f382c3e5e7e19030eab990564ad5fb5f/noiseflow-0.0.7a2-cp311-cp311-manylinux_2_35_x86_64.whl
+[2023-07-08 07:58:50] INFO root fetch - processPackages [elefantolib-django]: Downloading https://files.pythonhosted.org/packages/74/56/3d69dc41c87c27a4877830bff6b5f57f228d09e22ec5da190e4bc45ee00c/elefantolib_django-0.2.0.tar.gz
+[2023-07-08 07:58:50] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2023-07-08 07:58:50] INFO root fetch - processPackages [elefantolib-django]: executing diffoscope
+[2023-07-08 07:58:50] INFO root fetch - processPackages [elefantolib-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefantolib_django-0.1.0.tar.gz tmp/elefantolib_django-0.2.0.tar.gz --markdown 20230708/e/elefantolib-django/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 07:58:50] INFO root fetch - processPackages [noiseflow]: executing diffoscope
+[2023-07-08 07:58:50] INFO root fetch - processPackages [noiseflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noiseflow-0.0.6b0.tar.gz tmp/noiseflow-0.0.7a2-cp311-cp311-manylinux_2_35_x86_64.whl.zip --markdown 20230708/n/noiseflow/0.0.6b0-0.0.7a2/diff.md --exclude *.pyd
+[2023-07-08 07:58:50] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2023-07-08 07:58:50] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20230708/i/imesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 07:58:50] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/87/60/8f34652fd105ecc1e8b526cffb90afc0892e5d572ea54b0f1b291a96a01c/Geode_Background-7.3.1rc1-cp39-cp39-win_amd64.whl
+[2023-07-08 07:58:51] INFO root fetch - processPackages [promql-http-api]: Remove: archive file [/home/abi/fetcher/tmp/promql_http_api-0.1.2.tar.gz]
+[2023-07-08 07:58:51] INFO root fetch - processPackages [promql-http-api]: Remove: archive file [/home/abi/fetcher/tmp/promql_http_api-0.2.0.tar.gz]
+[2023-07-08 07:58:51] INFO root fetch - main [MainThread]: End processing [promql-http-api]: success
+[2023-07-08 07:58:51] INFO root fetch - main [MainThread]: End processing [promql-http-api]: success
+[2023-07-08 07:58:51] INFO root fetch - processPackages [elefantolib-django]: Remove: archive file [/home/abi/fetcher/tmp/elefantolib_django-0.1.0.tar.gz]
+[2023-07-08 07:58:51] INFO root fetch - processPackages [elefantolib-django]: Remove: archive file [/home/abi/fetcher/tmp/elefantolib_django-0.2.0.tar.gz]
+[2023-07-08 07:58:51] INFO root fetch - main [MainThread]: End processing [elefantolib-django]: success
+[2023-07-08 07:58:51] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.6b0.tar.gz]
+[2023-07-08 07:58:51] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.7a2-cp311-cp311-manylinux_2_35_x86_64.whl.zip]
+[2023-07-08 07:58:51] INFO root fetch - main [MainThread]: End processing [noiseflow]: success
+[2023-07-08 07:58:51] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2023-07-08 07:58:51] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.3.0rc4-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.3.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230708/G/Geode-Background/7.3.0rc4-7.3.1rc1/diff.md --exclude *.pyd
+[2023-07-08 07:58:51] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2023-07-08 07:58:51] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2023-07-08 07:58:51] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2023-07-08 07:59:04] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.3.0rc4-cp39-cp39-win_amd64.whl.zip]
+[2023-07-08 07:59:04] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.3.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-08 07:59:04] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2023-07-08 07:59:04] INFO root fetch - main [MainThread]: Store serial: [18811257]
