@@ -18762,3 +18762,75 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 17:43:03] INFO root fetch - processPackages [python-ember-mug]: Remove: archive file [/home/abi/fetcher/tmp/python_ember_mug-0.8.0.tar.gz]
 [2023-07-08 17:43:03] INFO root fetch - main [MainThread]: End processing [python-ember-mug]: success
 [2023-07-08 17:43:03] INFO root fetch - main [MainThread]: Store serial: [18814131]
+[2023-07-08 17:48:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814131]
+[2023-07-08 17:48:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-08 17:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: actionai
+[2023-07-08 17:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coniferest
+[2023-07-08 17:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yak-server
+[2023-07-08 17:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngmapi
+[2023-07-08 17:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nwebclient
+[2023-07-08 17:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nwebclient
+[2023-07-08 17:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ogre-python
+[2023-07-08 17:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dark-gateway
+[2023-07-08 17:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nwebclient
+[2023-07-08 17:48:12] INFO root fetch - processPackages [yak-server]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-08 17:48:12] INFO root fetch - processPackages [actionai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-08 17:48:12] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 17:48:12] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 17:48:12] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 17:48:12] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 17:48:12] INFO root fetch - processPackages [coniferest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 17:48:12] INFO root fetch - processPackages [ogre-python]: New version: [14.0.0] Old Version: [13.6.4]
+[2023-07-08 17:48:12] INFO root fetch - processPackages [dark-gateway]: New version: [0.0.2a3] Old Version: [0.0.2a2]
+[2023-07-08 17:48:12] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 17:48:12] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/13/86/3d7c18a8f2dd4f2eb32a19966079123b581a8402d540deca93c3d85e8678/ngmapi-0.0.2.tar.gz
+[2023-07-08 17:48:12] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 17:48:12] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 17:48:12] INFO root fetch - processPackages [yak-server]: Downloading https://files.pythonhosted.org/packages/0d/76/2e5fe6504ef5f417050b6485dac180ad25cecfa80778abe342394e98f9e2/yak_server-0.8.0.tar.gz
+[2023-07-08 17:48:12] INFO root fetch - processPackages [actionai]: Downloading https://files.pythonhosted.org/packages/8f/f5/3783fff4db19c49d818b85f429789bf38f76bbfdd59787d391c4a0301686/actionai-0.0.1.tar.gz
+[2023-07-08 17:48:12] INFO root fetch - processPackages [dark-gateway]: Downloading https://files.pythonhosted.org/packages/09/e3/5b75fb306be6a56d09b96c46aeac06203cf825963ac5dea87dd8e309299e/dark-gateway-0.0.2a2.tar.gz
+[2023-07-08 17:48:12] INFO root fetch - processPackages [ogre-python]: Downloading https://files.pythonhosted.org/packages/56/a4/efb4f3f7076ca0a5be2316a3d6c9f590f4cbcd35c8dee66545ec7f6879d5/ogre_python-13.6.4-cp310-cp310-win_amd64.whl
+[2023-07-08 17:48:12] INFO root fetch - processPackages [coniferest]: Downloading https://files.pythonhosted.org/packages/56/9a/160ce7863ff01224616d78ce00e9c6559b811bf041f102edf824556d3bea/coniferest-0.0.8.tar.gz
+[2023-07-08 17:48:13] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 17:48:13] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 17:48:13] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-08 17:48:13] WARNING root fetch - processPackages [coniferest]: Skipping package: exceeds size limit 19305432>=10485760
+[2023-07-08 17:48:13] INFO root fetch - main [MainThread]: End processing [coniferest] error
+[2023-07-08 17:48:13] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 17:48:13] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 17:48:13] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 17:48:13] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 17:48:13] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 17:48:13] WARNING root fetch - processPackages [ogre-python]: Skipping package: exceeds size limit 12202446>=10485760
+[2023-07-08 17:48:13] INFO root fetch - main [MainThread]: End processing [ogre-python] error
+[2023-07-08 17:48:13] INFO root fetch - processPackages [actionai]: Downloading https://files.pythonhosted.org/packages/03/75/673c7cd9a000c87de93705f8267238301521dc0619b1cfb84a680713f6a6/actionai-0.0.2.tar.gz
+[2023-07-08 17:48:13] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 17:48:13] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 17:48:13] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-08 17:48:13] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.2.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230708/n/ngmapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 17:48:13] INFO root fetch - processPackages [dark-gateway]: Downloading https://files.pythonhosted.org/packages/4b/97/33d8644107d44055903235ea4346227616813c0ca31b0dd4137dbebe5c7e/dark-gateway-0.0.2a3.tar.gz
+[2023-07-08 17:48:13] INFO root fetch - processPackages [actionai]: executing diffoscope
+[2023-07-08 17:48:13] INFO root fetch - processPackages [actionai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actionai-0.0.1.tar.gz tmp/actionai-0.0.2.tar.gz --markdown 20230708/a/actionai/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 17:48:13] INFO root fetch - processPackages [yak-server]: Downloading https://files.pythonhosted.org/packages/a8/9c/2c24e63d8e257166f9c81bccd1fcaeb239352636957a046a3c7edae03504/yak_server-0.9.0.tar.gz
+[2023-07-08 17:48:13] INFO root fetch - processPackages [dark-gateway]: executing diffoscope
+[2023-07-08 17:48:13] INFO root fetch - processPackages [dark-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-gateway-0.0.2a2.tar.gz tmp/dark-gateway-0.0.2a3.tar.gz --markdown 20230708/d/dark-gateway/0.0.2a2-0.0.2a3/diff.md --exclude *.pyd
+[2023-07-08 17:48:13] INFO root fetch - processPackages [yak-server]: executing diffoscope
+[2023-07-08 17:48:13] INFO root fetch - processPackages [yak-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yak_server-0.8.0.tar.gz tmp/yak_server-0.9.0.tar.gz --markdown 20230708/y/yak-server/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 17:48:14] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-08 17:48:14] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-08 17:48:14] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 17:48:14] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 17:48:14] INFO root fetch - processPackages [actionai]: Remove: archive file [/home/abi/fetcher/tmp/actionai-0.0.1.tar.gz]
+[2023-07-08 17:48:14] INFO root fetch - processPackages [actionai]: Remove: archive file [/home/abi/fetcher/tmp/actionai-0.0.2.tar.gz]
+[2023-07-08 17:48:14] INFO root fetch - main [MainThread]: End processing [actionai]: success
+[2023-07-08 17:48:14] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.2.tar.gz]
+[2023-07-08 17:48:14] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.3.tar.gz]
+[2023-07-08 17:48:14] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-08 17:48:14] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 17:48:14] INFO root fetch - processPackages [dark-gateway]: Remove: archive file [/home/abi/fetcher/tmp/dark-gateway-0.0.2a2.tar.gz]
+[2023-07-08 17:48:14] INFO root fetch - processPackages [dark-gateway]: Remove: archive file [/home/abi/fetcher/tmp/dark-gateway-0.0.2a3.tar.gz]
+[2023-07-08 17:48:14] INFO root fetch - main [MainThread]: End processing [dark-gateway]: success
+[2023-07-08 17:48:14] INFO root fetch - processPackages [yak-server]: Remove: archive file [/home/abi/fetcher/tmp/yak_server-0.8.0.tar.gz]
+[2023-07-08 17:48:14] INFO root fetch - processPackages [yak-server]: Remove: archive file [/home/abi/fetcher/tmp/yak_server-0.9.0.tar.gz]
+[2023-07-08 17:48:14] INFO root fetch - main [MainThread]: End processing [yak-server]: success
+[2023-07-08 17:48:14] INFO root fetch - main [MainThread]: Store serial: [18814190]
