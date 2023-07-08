@@ -17502,3 +17502,85 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 16:07:36] INFO root fetch - processPackages [trzsz-libs]: Remove: archive file [/home/abi/fetcher/tmp/trzsz-libs-1.1.3.tar.gz]
 [2023-07-08 16:07:36] INFO root fetch - main [MainThread]: End processing [trzsz-libs]: success
 [2023-07-08 16:07:36] INFO root fetch - main [MainThread]: Store serial: [18813614]
+[2023-07-08 16:12:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813614]
+[2023-07-08 16:12:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-08 16:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NeuroNode
+[2023-07-08 16:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysomneo
+[2023-07-08 16:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qmp
+[2023-07-08 16:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-awsx
+[2023-07-08 16:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nwebclient
+[2023-07-08 16:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slib-sorter
+[2023-07-08 16:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seunggabi-core-python
+[2023-07-08 16:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: roxbot
+[2023-07-08 16:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nwebclient
+[2023-07-08 16:12:45] INFO root fetch - processPackages [NeuroNode]: New version: [3.9] Old Version: [3.6]
+[2023-07-08 16:12:45] INFO root fetch - processPackages [slib-sorter]: New version: [1.6.0] Old Version: [1.5.9]
+[2023-07-08 16:12:45] INFO root fetch - processPackages [qmp]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-08 16:12:45] INFO root fetch - processPackages [pulumi-awsx]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-08 16:12:45] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 16:12:45] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 16:12:45] INFO root fetch - processPackages [pysomneo]: New version: [3.0.0a9] Old Version: [3.0.0a8]
+[2023-07-08 16:12:45] INFO root fetch - processPackages [roxbot]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-08 16:12:45] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-08 16:12:45] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/4d/e8/5491d5cfef95e88245d7b464299ca8b4a0005d2a2d6fdcc6f685d350fc01/pulumi_awsx-1.0.1.tar.gz
+[2023-07-08 16:12:45] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/5c/87/0bb63fbb6d9d53b572a2629914ca0063e602964c2c20a9a2632decfaa7e4/NeuroNode-3.6.tar.gz
+[2023-07-08 16:12:45] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/29/fa/133c74067dbb3c3daaf1a7c7a00c138d73d6d0527c27ceec1684d671a878/slib-sorter-1.5.9.tar.gz
+[2023-07-08 16:12:45] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/0d/97/42023032ca8286ffc07a5c47ffa78fde6345cff946f7fef646448b497644/pysomneo-3.0.0a8.tar.gz
+[2023-07-08 16:12:45] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/a3/09/60f9606abbef4a37f50d89d7fac0f71edf92a067e7d60a8b66489c3a8aac/roxbot-0.8.3.tar.gz
+[2023-07-08 16:12:45] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/6b/a6/2c17c7a96c8e28d36a6d8ea8c2d6e90f5b5ac5eed0a14333ea6e901b2760/seunggabi_core_python-0.3.0.tar.gz
+[2023-07-08 16:12:46] INFO root fetch - processPackages [qmp]: Downloading https://files.pythonhosted.org/packages/ad/a2/73ffecc9eaf57bd5f0514a53fb5803e770985880d44fa1487f36936c484b/qmp-1.0.0.tar.gz
+[2023-07-08 16:12:46] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 16:12:46] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 16:12:46] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/ee/46/d7d58b35ecf98c41cacc537040cf39bfe32260276f683dbf00b51323a681/NeuroNode-3.9.tar.gz
+[2023-07-08 16:12:46] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/22/54/076af0e5d0b6ffde29af3abe2bab657b240779ce0cb71b26ebb5c1b7a31d/pulumi_awsx-1.0.2.tar.gz
+[2023-07-08 16:12:46] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/53/11/8475019481df9193fd0697c9696bda7e8e533f849e7a7d77f34758623eb3/pysomneo-3.0.0a9.tar.gz
+[2023-07-08 16:12:46] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/f5/5f/b0fbca065d87b0a8cde041af413315bf18e527c2a65a844898ea30ee9854/slib-sorter-1.6.0.tar.gz
+[2023-07-08 16:12:46] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/8e/7d/05e7a9dbd6a4d650c56e86880fc2c01236f4928107bbd214b258a273fb94/seunggabi_core_python-0.4.0.tar.gz
+[2023-07-08 16:12:46] INFO root fetch - processPackages [NeuroNode]: executing diffoscope
+[2023-07-08 16:12:46] INFO root fetch - processPackages [NeuroNode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroNode-3.6.tar.gz tmp/NeuroNode-3.9.tar.gz --markdown 20230708/N/NeuroNode/3.6-3.9/diff.md --exclude *.pyd
+[2023-07-08 16:12:46] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/e7/21/cee44d4d2c3ed49e1e82868f56fd527d9b96e18be100a71c0b8ab2679967/roxbot-0.8.4.tar.gz
+[2023-07-08 16:12:46] INFO root fetch - processPackages [pulumi-awsx]: executing diffoscope
+[2023-07-08 16:12:46] INFO root fetch - processPackages [pulumi-awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_awsx-1.0.1.tar.gz tmp/pulumi_awsx-1.0.2.tar.gz --markdown 20230708/p/pulumi-awsx/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-08 16:12:46] INFO root fetch - processPackages [pysomneo]: executing diffoscope
+[2023-07-08 16:12:46] INFO root fetch - processPackages [pysomneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysomneo-3.0.0a8.tar.gz tmp/pysomneo-3.0.0a9.tar.gz --markdown 20230708/p/pysomneo/3.0.0a8-3.0.0a9/diff.md --exclude *.pyd
+[2023-07-08 16:12:46] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 16:12:46] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 16:12:46] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 16:12:46] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.5.9.tar.gz tmp/slib-sorter-1.6.0.tar.gz --markdown 20230708/s/slib-sorter/1.5.9-1.6.0/diff.md --exclude *.pyd
+[2023-07-08 16:12:46] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-07-08 16:12:46] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.3.0.tar.gz tmp/seunggabi_core_python-0.4.0.tar.gz --markdown 20230708/s/seunggabi-core-python/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-08 16:12:46] INFO root fetch - processPackages [qmp]: Downloading https://files.pythonhosted.org/packages/34/e5/c34458c3fc0a3b083a6174eb06c2e050ae1fe36eef531978c01a324fa8d4/qmp-1.1.0.tar.gz
+[2023-07-08 16:12:46] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 16:12:46] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 16:12:46] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 16:12:46] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 16:12:46] INFO root fetch - processPackages [qmp]: executing diffoscope
+[2023-07-08 16:12:46] INFO root fetch - processPackages [qmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qmp-1.0.0.tar.gz tmp/qmp-1.1.0.tar.gz --markdown 20230708/q/qmp/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-08 16:12:46] INFO root fetch - processPackages [roxbot]: executing diffoscope
+[2023-07-08 16:12:46] INFO root fetch - processPackages [roxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roxbot-0.8.3.tar.gz tmp/roxbot-0.8.4.tar.gz --markdown 20230708/r/roxbot/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-08 16:12:47] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.6.tar.gz]
+[2023-07-08 16:12:47] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.9.tar.gz]
+[2023-07-08 16:12:47] INFO root fetch - main [MainThread]: End processing [NeuroNode]: success
+[2023-07-08 16:12:47] INFO root fetch - processPackages [pysomneo]: Remove: archive file [/home/abi/fetcher/tmp/pysomneo-3.0.0a8.tar.gz]
+[2023-07-08 16:12:47] INFO root fetch - processPackages [pysomneo]: Remove: archive file [/home/abi/fetcher/tmp/pysomneo-3.0.0a9.tar.gz]
+[2023-07-08 16:12:47] INFO root fetch - main [MainThread]: End processing [pysomneo]: success
+[2023-07-08 16:12:47] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.1.tar.gz]
+[2023-07-08 16:12:47] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.2.tar.gz]
+[2023-07-08 16:12:47] INFO root fetch - main [MainThread]: End processing [pulumi-awsx]: success
+[2023-07-08 16:12:47] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.3.0.tar.gz]
+[2023-07-08 16:12:47] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.4.0.tar.gz]
+[2023-07-08 16:12:47] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-07-08 16:12:47] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.9.tar.gz]
+[2023-07-08 16:12:47] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.6.0.tar.gz]
+[2023-07-08 16:12:47] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 16:12:48] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-08 16:12:48] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-08 16:12:48] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 16:12:48] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 16:12:48] INFO root fetch - processPackages [qmp]: Remove: archive file [/home/abi/fetcher/tmp/qmp-1.0.0.tar.gz]
+[2023-07-08 16:12:48] INFO root fetch - processPackages [qmp]: Remove: archive file [/home/abi/fetcher/tmp/qmp-1.1.0.tar.gz]
+[2023-07-08 16:12:48] INFO root fetch - main [MainThread]: End processing [qmp]: success
+[2023-07-08 16:12:48] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.8.3.tar.gz]
+[2023-07-08 16:12:48] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.8.4.tar.gz]
+[2023-07-08 16:12:48] INFO root fetch - main [MainThread]: End processing [roxbot]: success
+[2023-07-08 16:12:48] INFO root fetch - main [MainThread]: Store serial: [18813640]
