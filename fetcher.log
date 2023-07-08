@@ -12662,3 +12662,33 @@
 [2023-07-08 08:36:03] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
 [2023-07-08 08:36:03] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-07-08 08:36:03] INFO root fetch - main [MainThread]: Store serial: [18811379]
+[2023-07-08 08:41:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811379]
+[2023-07-08 08:41:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 08:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xklb
+[2023-07-08 08:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slib-sorter
+[2023-07-08 08:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clarifai-grpc
+[2023-07-08 08:41:12] INFO root fetch - processPackages [slib-sorter]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-08 08:41:12] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/3c/ab/1e7f103f476c144436e74171cc3af9dc9862af1b9be9b382367b698afcfd/slib-sorter-1.2.7.tar.gz
+[2023-07-08 08:41:12] INFO root fetch - processPackages [clarifai-grpc]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-07-08 08:41:12] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-08 08:41:12] INFO root fetch - processPackages [clarifai-grpc]: Downloading https://files.pythonhosted.org/packages/7a/3d/116b0ad9c117b652d177e867e61a739f21307fcbec66e2f9681eb7937d0f/clarifai-grpc-9.5.0.tar.gz
+[2023-07-08 08:41:12] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-08 08:41:12] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/15/9d/e21dd0620ff3cfb0a27e2dbbf502b3fe5e2d6f228031f7eedc908dafc112/slib-sorter-1.2.8.tar.gz
+[2023-07-08 08:41:12] INFO root fetch - processPackages [clarifai-grpc]: Downloading https://files.pythonhosted.org/packages/24/56/7a3a2f91689719e05e0686ff560637eaab1bc0c89752056fb237f4d68012/clarifai-grpc-9.6.0.tar.gz
+[2023-07-08 08:41:13] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 08:41:13] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.2.7.tar.gz tmp/slib-sorter-1.2.8.tar.gz --markdown 20230708/s/slib-sorter/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-08 08:41:13] INFO root fetch - processPackages [clarifai-grpc]: executing diffoscope
+[2023-07-08 08:41:13] INFO root fetch - processPackages [clarifai-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clarifai-grpc-9.5.0.tar.gz tmp/clarifai-grpc-9.6.0.tar.gz --markdown 20230708/c/clarifai-grpc/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-07-08 08:41:13] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-08 08:41:13] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-08 08:41:13] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230708/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-08 08:41:13] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.7.tar.gz]
+[2023-07-08 08:41:13] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.8.tar.gz]
+[2023-07-08 08:41:13] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 08:41:14] INFO root fetch - processPackages [clarifai-grpc]: Remove: archive file [/home/abi/fetcher/tmp/clarifai-grpc-9.5.0.tar.gz]
+[2023-07-08 08:41:14] INFO root fetch - processPackages [clarifai-grpc]: Remove: archive file [/home/abi/fetcher/tmp/clarifai-grpc-9.6.0.tar.gz]
+[2023-07-08 08:41:14] INFO root fetch - main [MainThread]: End processing [clarifai-grpc]: success
+[2023-07-08 08:41:14] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-08 08:41:14] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-08 08:41:14] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-08 08:41:14] INFO root fetch - main [MainThread]: Store serial: [18811389]
