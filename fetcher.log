@@ -2123,3 +2123,87 @@
 [2023-07-08 02:04:12] INFO root fetch - processPackages [shadowcopy]: Remove: archive file [/home/abi/fetcher/tmp/shadowcopy-0.0.4.tar.gz]
 [2023-07-08 02:04:12] INFO root fetch - main [MainThread]: End processing [shadowcopy]: success
 [2023-07-08 02:04:12] INFO root fetch - main [MainThread]: Store serial: [18807441]
+[2023-07-08 02:09:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807441]
+[2023-07-08 02:09:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-08 02:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2023-07-08 02:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxkern-nightly
+[2023-07-08 02:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-compose
+[2023-07-08 02:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ultralytics
+[2023-07-08 02:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-gui
+[2023-07-08 02:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxutils-nightly
+[2023-07-08 02:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-compiler-opt
+[2023-07-08 02:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchlayers-nightly
+[2023-07-08 02:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: readmet
+[2023-07-08 02:09:20] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-08 02:09:20] INFO root fetch - processPackages [torch-compose]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-08 02:09:20] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230707] Old Version: [0.0.8.dev20230706]
+[2023-07-08 02:09:20] INFO root fetch - processPackages [ovos-gui]: New version: [0.0.3a8] Old Version: [0.0.3a7]
+[2023-07-08 02:09:20] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307080007] Old Version: [0.0.1.dev202307070008]
+[2023-07-08 02:09:20] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230707.post446] Old Version: [1.9.0.20230706.post446]
+[2023-07-08 02:09:20] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-07-08 02:09:20] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1688688489] Old Version: [1688602151]
+[2023-07-08 02:09:21] INFO root fetch - processPackages [readmet]: New version: [0.7.3] Old Version: [0.7.1]
+[2023-07-08 02:09:21] INFO root fetch - processPackages [torch-compose]: Downloading https://files.pythonhosted.org/packages/37/ff/6d8c7647e3f4564ac7b6c642e1d743bcf16f8a73bc19deddbbcb873c6223/torch_compose-0.1.2.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/74/69/6cbd3cd56b012844e0628e197215c40743e5bbc891e7d8d1a750cd1da46f/jaxutils-nightly-0.0.8.dev20230706.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/46/c5/471a8b239945367cb3f095341cff57d3a037d223ba382b6433d178dd133e/ml-compiler-opt-0.0.1.dev202307070008.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/1e/b1/01ac0536eb9425b60907d744bc278b654b65f7d0567d81e89794e3637e1f/torchlayers-nightly-1688602151.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/b9/ea/eb51cf6280160108bbec0f30c3471543c9e28a42cd5f9cc213f734e72a8d/mct-nightly-1.9.0.20230706.post446.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [ovos-gui]: Downloading https://files.pythonhosted.org/packages/bc/a7/747fc5986cafe0c037190f1a45417feabb855f4e75b929b2fb52b4630b64/ovos_gui-0.0.3a7-py3-none-any.whl
+[2023-07-08 02:09:21] INFO root fetch - processPackages [readmet]: Downloading https://files.pythonhosted.org/packages/01/27/e5b7456b86326e25a4959b55b4f994def344387474792119f42f5b443d0b/readmet-0.7.1.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [torch-compose]: Downloading https://files.pythonhosted.org/packages/b9/56/5465c53cf35a82cb0957905e2897d97dbb87081430b13ea7a45184df5b72/torch_compose-0.2.0.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/d6/e8/73bb8ead2d22c553c56aba5df6a735e7dbea274382a7a8a4a54704af51c5/jaxutils-nightly-0.0.8.dev20230707.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/40/e1/0ac2e67f4759eb9a8cbc94f359faaab264598c09743c732c90bb3221368a/mct-nightly-1.9.0.20230707.post446.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-08 02:09:21] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230708/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-08 02:09:21] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/2a/9c/3fca71ef207af7f624864968a88a220150c5f3af02aeb43b4134e9a6d5bd/ml-compiler-opt-0.0.1.dev202307080007.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/7d/0d/be6b9ac4aeac6c0a1c5c339e490b70add561fec0da7768b513eceb0d4254/torchlayers-nightly-1688688489.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [torch-compose]: executing diffoscope
+[2023-07-08 02:09:21] INFO root fetch - processPackages [torch-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_compose-0.1.2.tar.gz tmp/torch_compose-0.2.0.tar.gz --markdown 20230708/t/torch-compose/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 02:09:21] INFO root fetch - processPackages [ovos-gui]: Downloading https://files.pythonhosted.org/packages/3b/e9/2b3cfaf46fe9b90ccf7b97b0ada98b86eb1a260adca1968ee49f721c3068/ovos_gui-0.0.3a8-py3-none-any.whl
+[2023-07-08 02:09:21] INFO root fetch - processPackages [readmet]: Downloading https://files.pythonhosted.org/packages/82/e9/efe4c222f054ba21f45eae68ce1a21b60f49ea265682f1d780292551e6b3/readmet-0.7.3.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-08 02:09:21] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230706.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230707.tar.gz --markdown 20230708/j/jaxutils-nightly/0.0.8.dev20230706-0.0.8.dev20230707/diff.md --exclude *.pyd
+[2023-07-08 02:09:21] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-07-08 02:09:21] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-07-08 02:09:21] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1688602151.tar.gz tmp/torchlayers-nightly-1688688489.tar.gz --markdown 20230708/t/torchlayers-nightly/1688602151-1688688489/diff.md --exclude *.pyd
+[2023-07-08 02:09:21] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-08 02:09:21] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230706.post446.tar.gz tmp/mct-nightly-1.9.0.20230707.post446.tar.gz --markdown 20230708/m/mct-nightly/1.9.0.20230706.post446-1.9.0.20230707.post446/diff.md --exclude *.pyd
+[2023-07-08 02:09:22] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-08 02:09:22] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307070008.tar.gz tmp/ml-compiler-opt-0.0.1.dev202307080007.tar.gz --markdown 20230708/m/ml-compiler-opt/0.0.1.dev202307070008-0.0.1.dev202307080007/diff.md --exclude *.pyd
+[2023-07-08 02:09:22] INFO root fetch - processPackages [ovos-gui]: executing diffoscope
+[2023-07-08 02:09:22] INFO root fetch - processPackages [ovos-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_gui-0.0.3a7-py3-none-any.whl.zip tmp/ovos_gui-0.0.3a8-py3-none-any.whl.zip --markdown 20230708/o/ovos-gui/0.0.3a7-0.0.3a8/diff.md --exclude *.pyd
+[2023-07-08 02:09:22] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-07-08 02:09:22] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230708/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-07-08 02:09:22] INFO root fetch - processPackages [readmet]: executing diffoscope
+[2023-07-08 02:09:22] INFO root fetch - processPackages [readmet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmet-0.7.1.tar.gz tmp/readmet-0.7.3.tar.gz --markdown 20230708/r/readmet/0.7.1-0.7.3/diff.md --exclude *.pyd
+[2023-07-08 02:09:22] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-08 02:09:22] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-08 02:09:22] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-08 02:09:23] INFO root fetch - processPackages [torch-compose]: Remove: archive file [/home/abi/fetcher/tmp/torch_compose-0.1.2.tar.gz]
+[2023-07-08 02:09:23] INFO root fetch - processPackages [torch-compose]: Remove: archive file [/home/abi/fetcher/tmp/torch_compose-0.2.0.tar.gz]
+[2023-07-08 02:09:23] INFO root fetch - main [MainThread]: End processing [torch-compose]: success
+[2023-07-08 02:09:23] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230706.tar.gz]
+[2023-07-08 02:09:23] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230707.tar.gz]
+[2023-07-08 02:09:23] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-08 02:09:23] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1688602151.tar.gz]
+[2023-07-08 02:09:23] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1688688489.tar.gz]
+[2023-07-08 02:09:23] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-07-08 02:09:23] INFO root fetch - processPackages [ovos-gui]: Remove: archive file [/home/abi/fetcher/tmp/ovos_gui-0.0.3a7-py3-none-any.whl.zip]
+[2023-07-08 02:09:23] INFO root fetch - processPackages [ovos-gui]: Remove: archive file [/home/abi/fetcher/tmp/ovos_gui-0.0.3a8-py3-none-any.whl.zip]
+[2023-07-08 02:09:23] INFO root fetch - main [MainThread]: End processing [ovos-gui]: success
+[2023-07-08 02:09:23] INFO root fetch - processPackages [readmet]: Remove: archive file [/home/abi/fetcher/tmp/readmet-0.7.1.tar.gz]
+[2023-07-08 02:09:23] INFO root fetch - processPackages [readmet]: Remove: archive file [/home/abi/fetcher/tmp/readmet-0.7.3.tar.gz]
+[2023-07-08 02:09:23] INFO root fetch - main [MainThread]: End processing [readmet]: success
+[2023-07-08 02:09:23] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307070008.tar.gz]
+[2023-07-08 02:09:23] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307080007.tar.gz]
+[2023-07-08 02:09:23] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-08 02:09:24] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-07-08 02:09:24] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-07-08 02:09:24] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-07-08 02:09:25] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230706.post446.tar.gz]
+[2023-07-08 02:09:25] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230707.post446.tar.gz]
+[2023-07-08 02:09:25] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-08 02:09:25] INFO root fetch - main [MainThread]: Store serial: [18807466]
