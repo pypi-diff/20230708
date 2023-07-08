@@ -21696,3 +21696,64 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 22:08:20] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
 [2023-07-08 22:08:20] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
 [2023-07-08 22:08:20] INFO root fetch - main [MainThread]: Store serial: [18815490]
+[2023-07-08 22:13:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815490]
+[2023-07-08 22:13:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 22:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: execnet
+[2023-07-08 22:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nwebclient
+[2023-07-08 22:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mymulti-key-dict
+[2023-07-08 22:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: findmyorder
+[2023-07-08 22:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hmtaipy
+[2023-07-08 22:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hmtaipy
+[2023-07-08 22:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nwebclient
+[2023-07-08 22:13:29] INFO root fetch - processPackages [mymulti-key-dict]: New version: [0.13] Old Version: [0.12]
+[2023-07-08 22:13:29] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 22:13:29] INFO root fetch - processPackages [hmtaipy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-08 22:13:29] INFO root fetch - processPackages [hmtaipy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-08 22:13:29] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 22:13:29] INFO root fetch - processPackages [execnet]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-08 22:13:29] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 22:13:29] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 22:13:29] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 22:13:29] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 22:13:29] INFO root fetch - processPackages [mymulti-key-dict]: Downloading https://files.pythonhosted.org/packages/b1/f5/689301e6ee497797b314db168d26e63996b190f90bc4ac985ea79ae8ab8d/mymulti_key_dict-0.12.tar.gz
+[2023-07-08 22:13:29] INFO root fetch - processPackages [hmtaipy]: Downloading https://files.pythonhosted.org/packages/97/f1/834698167a25affbc1e1bdcf399d498362a84e759fedaa029a26669cea4c/hmtaipy-1.0.0-py3-none-any.whl
+[2023-07-08 22:13:29] INFO root fetch - processPackages [hmtaipy]: Downloading https://files.pythonhosted.org/packages/97/f1/834698167a25affbc1e1bdcf399d498362a84e759fedaa029a26669cea4c/hmtaipy-1.0.0-py3-none-any.whl
+[2023-07-08 22:13:29] INFO root fetch - processPackages [execnet]: Downloading https://files.pythonhosted.org/packages/4f/bf/3aeb4f24c300b992d4e9db7ec1a6977c1fe1be16fef879a9f24e7b43fc1e/execnet-2.0.0.tar.gz
+[2023-07-08 22:13:29] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 22:13:29] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 22:13:29] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 22:13:29] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 22:13:29] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 22:13:29] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 22:13:29] INFO root fetch - processPackages [mymulti-key-dict]: Downloading https://files.pythonhosted.org/packages/54/62/80c9b038974507d8bd3e7c3fd260227cae9b975f9d04d3f4d266eaae4f1a/mymulti_key_dict-0.13.tar.gz
+[2023-07-08 22:13:29] INFO root fetch - processPackages [hmtaipy]: Downloading https://files.pythonhosted.org/packages/e4/ff/dd1b8213e3c2df30f5e4d680e62b19ebd5efcfa8a312f1c5bb86230f7a64/hmtaipy-1.0.1.tar.gz
+[2023-07-08 22:13:29] INFO root fetch - processPackages [hmtaipy]: Downloading https://files.pythonhosted.org/packages/e4/ff/dd1b8213e3c2df30f5e4d680e62b19ebd5efcfa8a312f1c5bb86230f7a64/hmtaipy-1.0.1.tar.gz
+[2023-07-08 22:13:30] INFO root fetch - processPackages [execnet]: Downloading https://files.pythonhosted.org/packages/26/bb/d7d24f646f2f06d46150c228148dbdebc159b2c1ae0cc410ab3de4bee800/execnet-2.0.1.tar.gz
+[2023-07-08 22:13:30] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 22:13:30] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 22:13:30] INFO root fetch - processPackages [execnet]: executing diffoscope
+[2023-07-08 22:13:30] INFO root fetch - processPackages [execnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execnet-2.0.0.tar.gz tmp/execnet-2.0.1.tar.gz --markdown 20230708/e/execnet/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-08 22:13:30] INFO root fetch - processPackages [hmtaipy]: executing diffoscope
+[2023-07-08 22:13:30] INFO root fetch - processPackages [hmtaipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmtaipy-1.0.0-py3-none-any.whl.zip tmp/hmtaipy-1.0.1.tar.gz --markdown 20230708/h/hmtaipy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 22:13:30] INFO root fetch - processPackages [hmtaipy]: executing diffoscope
+[2023-07-08 22:13:30] INFO root fetch - processPackages [hmtaipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmtaipy-1.0.0-py3-none-any.whl.zip tmp/hmtaipy-1.0.1.tar.gz --markdown 20230708/h/hmtaipy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 22:13:30] INFO root fetch - processPackages [mymulti-key-dict]: executing diffoscope
+[2023-07-08 22:13:30] INFO root fetch - processPackages [mymulti-key-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mymulti_key_dict-0.12.tar.gz tmp/mymulti_key_dict-0.13.tar.gz --markdown 20230708/m/mymulti-key-dict/0.12-0.13/diff.md --exclude *.pyd
+[2023-07-08 22:13:30] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-08 22:13:30] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-08 22:13:30] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 22:13:30] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 22:13:31] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 22:13:31] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 22:13:31] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 22:13:31] INFO root fetch - processPackages [hmtaipy]: Remove: archive file [/home/abi/fetcher/tmp/hmtaipy-1.0.0-py3-none-any.whl.zip]
+[2023-07-08 22:13:31] INFO root fetch - processPackages [hmtaipy]: Remove: archive file [/home/abi/fetcher/tmp/hmtaipy-1.0.1.tar.gz]
+[2023-07-08 22:13:31] INFO root fetch - main [MainThread]: End processing [hmtaipy]: success
+[2023-07-08 22:13:31] INFO root fetch - processPackages [mymulti-key-dict]: Remove: archive file [/home/abi/fetcher/tmp/mymulti_key_dict-0.12.tar.gz]
+[2023-07-08 22:13:31] INFO root fetch - processPackages [mymulti-key-dict]: Remove: archive file [/home/abi/fetcher/tmp/mymulti_key_dict-0.13.tar.gz]
+[2023-07-08 22:13:31] INFO root fetch - main [MainThread]: End processing [mymulti-key-dict]: success
+[2023-07-08 22:13:31] INFO root fetch - main [MainThread]: End processing [hmtaipy]: success
+[2023-07-08 22:13:31] INFO root fetch - processPackages [execnet]: Remove: archive file [/home/abi/fetcher/tmp/execnet-2.0.0.tar.gz]
+[2023-07-08 22:13:31] INFO root fetch - processPackages [execnet]: Remove: archive file [/home/abi/fetcher/tmp/execnet-2.0.1.tar.gz]
+[2023-07-08 22:13:31] INFO root fetch - main [MainThread]: End processing [execnet]: success
+[2023-07-08 22:13:31] INFO root fetch - main [MainThread]: Store serial: [18815509]
