@@ -13071,3 +13071,27 @@
 [2023-07-08 09:35:10] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.7.2.tar.gz]
 [2023-07-08 09:35:10] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
 [2023-07-08 09:35:10] INFO root fetch - main [MainThread]: Store serial: [18811583]
+[2023-07-08 09:40:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811583]
+[2023-07-08 09:40:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 09:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pwforecast
+[2023-07-08 09:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygmtools
+[2023-07-08 09:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dronecan
+[2023-07-08 09:40:19] WARNING root fetch - processPackages [pwforecast]: Skipping, unable to determine old version
+[2023-07-08 09:40:19] INFO root fetch - main [MainThread]: End processing [pwforecast] error
+[2023-07-08 09:40:19] INFO root fetch - processPackages [pygmtools]: New version: [0.3.8a6] Old Version: [0.3.8a5]
+[2023-07-08 09:40:20] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/75/94/482c11507a98f410e58356307d799fe301c4119b5791012cae27cfc16093/pygmtools-0.3.8a5.tar.gz
+[2023-07-08 09:40:20] INFO root fetch - processPackages [dronecan]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 09:40:20] INFO root fetch - processPackages [dronecan]: Downloading https://files.pythonhosted.org/packages/92/85/be287416afa29b1a92951d2cd0fd23debf48e587800c1d5e55477fe19917/dronecan-1.0.8.tar.gz
+[2023-07-08 09:40:20] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/99/11/a233b7d7c1d900a5d7e42b6dfc7bdc4348727b3fefcbbfee6ab4b0aa45fd/pygmtools-0.3.8a6.tar.gz
+[2023-07-08 09:40:21] INFO root fetch - processPackages [pygmtools]: executing diffoscope
+[2023-07-08 09:40:21] INFO root fetch - processPackages [pygmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtools-0.3.8a5.tar.gz tmp/pygmtools-0.3.8a6.tar.gz --markdown 20230708/p/pygmtools/0.3.8a5-0.3.8a6/diff.md --exclude *.pyd
+[2023-07-08 09:40:22] INFO root fetch - processPackages [dronecan]: Downloading https://files.pythonhosted.org/packages/96/09/6b038bd9e4dcad3f704ba680abb36e853e9de53060d94d50e6ab7aef9f59/dronecan-1.0.9.tar.gz
+[2023-07-08 09:40:22] INFO root fetch - processPackages [dronecan]: executing diffoscope
+[2023-07-08 09:40:22] INFO root fetch - processPackages [dronecan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronecan-1.0.8.tar.gz tmp/dronecan-1.0.9.tar.gz --markdown 20230708/d/dronecan/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 09:40:22] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a5.tar.gz]
+[2023-07-08 09:40:22] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a6.tar.gz]
+[2023-07-08 09:40:22] INFO root fetch - main [MainThread]: End processing [pygmtools]: success
+[2023-07-08 09:40:23] INFO root fetch - processPackages [dronecan]: Remove: archive file [/home/abi/fetcher/tmp/dronecan-1.0.8.tar.gz]
+[2023-07-08 09:40:23] INFO root fetch - processPackages [dronecan]: Remove: archive file [/home/abi/fetcher/tmp/dronecan-1.0.9.tar.gz]
+[2023-07-08 09:40:23] INFO root fetch - main [MainThread]: End processing [dronecan]: success
+[2023-07-08 09:40:23] INFO root fetch - main [MainThread]: Store serial: [18811591]
