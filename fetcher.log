@@ -16284,3 +16284,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 14:27:56] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-08 14:27:56] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-08 14:27:56] INFO root fetch - main [MainThread]: Store serial: [18813083]
+[2023-07-08 14:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813083]
+[2023-07-08 14:33:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 14:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gsclinks
+[2023-07-08 14:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bcdup
+[2023-07-08 14:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-Flask-Migrate
+[2023-07-08 14:33:06] INFO root fetch - processPackages [types-Flask-Migrate]: New version: [4.0.0.5] Old Version: [4.0.0.4]
+[2023-07-08 14:33:06] WARNING root fetch - processPackages [gsclinks]: Skipping, unable to determine old version
+[2023-07-08 14:33:06] INFO root fetch - main [MainThread]: End processing [gsclinks] error
+[2023-07-08 14:33:06] INFO root fetch - processPackages [bcdup]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-08 14:33:06] INFO root fetch - processPackages [bcdup]: Downloading https://files.pythonhosted.org/packages/a5/ac/0d07dbc681bde5c3c864ba73e4b4a73fc22d1839ad0b1d656f0cd4b3ae0f/bcdup-2.3.1.tar.gz
+[2023-07-08 14:33:06] INFO root fetch - processPackages [types-Flask-Migrate]: Downloading https://files.pythonhosted.org/packages/fd/f6/43906b1ec247f035bc2aa57bbef1a64fab85b46c33946bf7db5b7bc176f9/types-Flask-Migrate-4.0.0.4.tar.gz
+[2023-07-08 14:33:06] INFO root fetch - processPackages [bcdup]: Downloading https://files.pythonhosted.org/packages/ed/d6/0865cd66ae95e4623390558bdff7d661cc7e229baea8511ba7e3d242feb5/bcdup-2.3.2.tar.gz
+[2023-07-08 14:33:06] INFO root fetch - processPackages [types-Flask-Migrate]: Downloading https://files.pythonhosted.org/packages/8f/72/e822322c4e4add490727e0a759da4b67e68c1c316ca383b2fe6107a39431/types-Flask-Migrate-4.0.0.5.tar.gz
+[2023-07-08 14:33:06] INFO root fetch - processPackages [bcdup]: executing diffoscope
+[2023-07-08 14:33:06] INFO root fetch - processPackages [bcdup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcdup-2.3.1.tar.gz tmp/bcdup-2.3.2.tar.gz --markdown 20230708/b/bcdup/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-08 14:33:06] INFO root fetch - processPackages [types-Flask-Migrate]: executing diffoscope
+[2023-07-08 14:33:06] INFO root fetch - processPackages [types-Flask-Migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Flask-Migrate-4.0.0.4.tar.gz tmp/types-Flask-Migrate-4.0.0.5.tar.gz --markdown 20230708/t/types-Flask-Migrate/4.0.0.4-4.0.0.5/diff.md --exclude *.pyd
+[2023-07-08 14:33:07] INFO root fetch - processPackages [types-Flask-Migrate]: Remove: archive file [/home/abi/fetcher/tmp/types-Flask-Migrate-4.0.0.4.tar.gz]
+[2023-07-08 14:33:07] INFO root fetch - processPackages [types-Flask-Migrate]: Remove: archive file [/home/abi/fetcher/tmp/types-Flask-Migrate-4.0.0.5.tar.gz]
+[2023-07-08 14:33:07] INFO root fetch - main [MainThread]: End processing [types-Flask-Migrate]: success
+[2023-07-08 14:33:07] INFO root fetch - processPackages [bcdup]: Remove: archive file [/home/abi/fetcher/tmp/bcdup-2.3.1.tar.gz]
+[2023-07-08 14:33:07] INFO root fetch - processPackages [bcdup]: Remove: archive file [/home/abi/fetcher/tmp/bcdup-2.3.2.tar.gz]
+[2023-07-08 14:33:07] INFO root fetch - main [MainThread]: End processing [bcdup]: success
+[2023-07-08 14:33:07] INFO root fetch - main [MainThread]: Store serial: [18813092]
