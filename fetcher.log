@@ -10906,3 +10906,60 @@
 [2023-07-08 05:11:05] INFO root fetch - processPackages [pydantic-zarr]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_zarr-0.4.0.tar.gz]
 [2023-07-08 05:11:05] INFO root fetch - main [MainThread]: End processing [pydantic-zarr]: success
 [2023-07-08 05:11:05] INFO root fetch - main [MainThread]: Store serial: [18810503]
+[2023-07-08 05:16:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810503]
+[2023-07-08 05:16:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-uwg
+[2023-07-08 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Dakada
+[2023-07-08 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: covdrugsim
+[2023-07-08 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-dragonfly
+[2023-07-08 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaraco.develop
+[2023-07-08 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langsmith
+[2023-07-08 05:16:14] INFO root fetch - processPackages [covdrugsim]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-08 05:16:14] INFO root fetch - processPackages [langsmith]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-08 05:16:14] INFO root fetch - processPackages [Dakada]: New version: [2.0] Old Version: [1.9.0]
+[2023-07-08 05:16:14] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-08 05:16:14] INFO root fetch - processPackages [jaraco.develop]: New version: [8.1.0] Old Version: [8.0.0]
+[2023-07-08 05:16:14] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-08 05:16:14] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/5e/8c/c1ac98f06072a0ac0cd47b9b2f7797b9b9cc41e7c0b10063e4d898e7f33c/covdrugsim-0.3.0.tar.gz
+[2023-07-08 05:16:14] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-08 05:16:14] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-07-08 05:16:14] INFO root fetch - processPackages [jaraco.develop]: Downloading https://files.pythonhosted.org/packages/14/2a/a05eee3abbda5ff9561fba0cd900ab51d0825088d81c1c8d70480c650836/jaraco.develop-8.0.0.tar.gz
+[2023-07-08 05:16:14] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/2d/f8/aff081a317eb65c0b5bdd504c75890ac9e27220e4a18b49ebd1096d8f460/langsmith-0.0.1.tar.gz
+[2023-07-08 05:16:14] INFO root fetch - processPackages [Dakada]: Downloading https://files.pythonhosted.org/packages/18/74/2edab493af2797103b50d1d00f325d97657594e66925b12dd2b53e6f13da/Dakada-1.9.0.tar.gz
+[2023-07-08 05:16:14] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-08 05:16:15] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/5d/ca/aa3a3c1384e3098833241a806223fb6e01e06787a3450df070276b74be6a/covdrugsim-0.3.1.tar.gz
+[2023-07-08 05:16:15] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-07-08 05:16:15] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-08 05:16:15] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230708/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-08 05:16:15] INFO root fetch - processPackages [jaraco.develop]: Downloading https://files.pythonhosted.org/packages/03/e6/c6875f1baeb9aa494f9e6efcebd1fb1fcb1de9ae5c0ec7daf6045b5031d1/jaraco.develop-8.1.0.tar.gz
+[2023-07-08 05:16:15] INFO root fetch - processPackages [Dakada]: Downloading https://files.pythonhosted.org/packages/de/1f/c72a60e8569149b0946919b1d61ffdc6a564ffb1f8e2431f404f1546b1c0/Dakada-2.0.tar.gz
+[2023-07-08 05:16:15] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/69/b2/acb55d75a0b36fb5f5ecb8de8acf284ab28f1a093dbde01bf90a2983199e/langsmith-0.0.2.tar.gz
+[2023-07-08 05:16:15] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-07-08 05:16:15] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230708/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-08 05:16:15] INFO root fetch - processPackages [covdrugsim]: executing diffoscope
+[2023-07-08 05:16:15] INFO root fetch - processPackages [covdrugsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covdrugsim-0.3.0.tar.gz tmp/covdrugsim-0.3.1.tar.gz --markdown 20230708/c/covdrugsim/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-08 05:16:15] INFO root fetch - processPackages [jaraco.develop]: executing diffoscope
+[2023-07-08 05:16:15] INFO root fetch - processPackages [jaraco.develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.develop-8.0.0.tar.gz tmp/jaraco.develop-8.1.0.tar.gz --markdown 20230708/j/jaraco.develop/8.0.0-8.1.0/diff.md --exclude *.pyd
+[2023-07-08 05:16:15] INFO root fetch - processPackages [Dakada]: executing diffoscope
+[2023-07-08 05:16:15] INFO root fetch - processPackages [Dakada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dakada-1.9.0.tar.gz tmp/Dakada-2.0.tar.gz --markdown 20230708/D/Dakada/1.9.0-2.0/diff.md --exclude *.pyd
+[2023-07-08 05:16:15] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2023-07-08 05:16:15] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.0.1.tar.gz tmp/langsmith-0.0.2.tar.gz --markdown 20230708/l/langsmith/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 05:16:16] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-08 05:16:16] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-08 05:16:16] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-08 05:16:16] INFO root fetch - processPackages [Dakada]: Remove: archive file [/home/abi/fetcher/tmp/Dakada-1.9.0.tar.gz]
+[2023-07-08 05:16:16] INFO root fetch - processPackages [Dakada]: Remove: archive file [/home/abi/fetcher/tmp/Dakada-2.0.tar.gz]
+[2023-07-08 05:16:16] INFO root fetch - main [MainThread]: End processing [Dakada]: success
+[2023-07-08 05:16:16] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-0.3.0.tar.gz]
+[2023-07-08 05:16:16] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-0.3.1.tar.gz]
+[2023-07-08 05:16:16] INFO root fetch - main [MainThread]: End processing [covdrugsim]: success
+[2023-07-08 05:16:16] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.1.tar.gz]
+[2023-07-08 05:16:16] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.2.tar.gz]
+[2023-07-08 05:16:16] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2023-07-08 05:16:16] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-07-08 05:16:16] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-07-08 05:16:16] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-07-08 05:16:16] INFO root fetch - processPackages [jaraco.develop]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.develop-8.0.0.tar.gz]
+[2023-07-08 05:16:16] INFO root fetch - processPackages [jaraco.develop]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.develop-8.1.0.tar.gz]
+[2023-07-08 05:16:16] INFO root fetch - main [MainThread]: End processing [jaraco.develop]: success
+[2023-07-08 05:16:16] INFO root fetch - main [MainThread]: Store serial: [18810522]
