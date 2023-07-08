@@ -18733,3 +18733,32 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 17:37:52] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.9.2.tar.gz]
 [2023-07-08 17:37:52] INFO root fetch - main [MainThread]: End processing [bec-scan-server]: success
 [2023-07-08 17:37:52] INFO root fetch - main [MainThread]: Store serial: [18814119]
+[2023-07-08 17:42:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814119]
+[2023-07-08 17:43:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 17:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngmapi
+[2023-07-08 17:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotPython
+[2023-07-08 17:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-ember-mug
+[2023-07-08 17:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BRScraper
+[2023-07-08 17:43:01] WARNING root fetch - processPackages [BRScraper]: Skipping, unable to determine old version
+[2023-07-08 17:43:01] INFO root fetch - main [MainThread]: End processing [BRScraper] error
+[2023-07-08 17:43:01] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 17:43:01] INFO root fetch - processPackages [python-ember-mug]: New version: [0.8.0] Old Version: [0.7.0b7]
+[2023-07-08 17:43:01] INFO root fetch - processPackages [spotPython]: New version: [0.5.7] Old Version: [0.5.5]
+[2023-07-08 17:43:01] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/13/86/3d7c18a8f2dd4f2eb32a19966079123b581a8402d540deca93c3d85e8678/ngmapi-0.0.2.tar.gz
+[2023-07-08 17:43:01] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/f9/a8/2eeecdce23433428c0878aceb90c9b1efd7361897ab27ba8c1efb9471bc5/spotPython-0.5.5.tar.gz
+[2023-07-08 17:43:01] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 27698069>=10485760
+[2023-07-08 17:43:01] INFO root fetch - main [MainThread]: End processing [spotPython] error
+[2023-07-08 17:43:01] INFO root fetch - processPackages [python-ember-mug]: Downloading https://files.pythonhosted.org/packages/ce/35/72fa90a0e7b374473b75a96955a26e7e5f1accbedb9cc8336899cdef1849/python_ember_mug-0.7.0b7.tar.gz
+[2023-07-08 17:43:01] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-08 17:43:02] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-08 17:43:02] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.2.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230708/n/ngmapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 17:43:02] INFO root fetch - processPackages [python-ember-mug]: Downloading https://files.pythonhosted.org/packages/4f/29/d39ea5a95ad21e5301c1152a3e9441f941051299fd14d1578982f1ad36d6/python_ember_mug-0.8.0.tar.gz
+[2023-07-08 17:43:02] INFO root fetch - processPackages [python-ember-mug]: executing diffoscope
+[2023-07-08 17:43:02] INFO root fetch - processPackages [python-ember-mug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_ember_mug-0.7.0b7.tar.gz tmp/python_ember_mug-0.8.0.tar.gz --markdown 20230708/p/python-ember-mug/0.7.0b7-0.8.0/diff.md --exclude *.pyd
+[2023-07-08 17:43:02] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.2.tar.gz]
+[2023-07-08 17:43:02] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.3.tar.gz]
+[2023-07-08 17:43:02] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-08 17:43:03] INFO root fetch - processPackages [python-ember-mug]: Remove: archive file [/home/abi/fetcher/tmp/python_ember_mug-0.7.0b7.tar.gz]
+[2023-07-08 17:43:03] INFO root fetch - processPackages [python-ember-mug]: Remove: archive file [/home/abi/fetcher/tmp/python_ember_mug-0.8.0.tar.gz]
+[2023-07-08 17:43:03] INFO root fetch - main [MainThread]: End processing [python-ember-mug]: success
+[2023-07-08 17:43:03] INFO root fetch - main [MainThread]: Store serial: [18814131]
