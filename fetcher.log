@@ -2898,3 +2898,60 @@
 [2023-07-08 02:36:40] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b9-py3-none-any.whl.zip]
 [2023-07-08 02:36:40] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
 [2023-07-08 02:36:40] INFO root fetch - main [MainThread]: Store serial: [18807734]
+[2023-07-08 02:41:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807734]
+[2023-07-08 02:41:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 02:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyappi
+[2023-07-08 02:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chainforge
+[2023-07-08 02:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aeppl-nightly
+[2023-07-08 02:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-plus-26
+[2023-07-08 02:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stringzilla
+[2023-07-08 02:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TheSilent
+[2023-07-08 02:41:49] INFO root fetch - processPackages [pyappi]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-07-08 02:41:49] INFO root fetch - processPackages [chainforge]: New version: [0.2.0.6] Old Version: [0.2.0.5]
+[2023-07-08 02:41:49] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 02:41:49] INFO root fetch - processPackages [stringzilla]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-08 02:41:49] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20230707] Old Version: [0.1.5.dev20230706]
+[2023-07-08 02:41:49] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-08 02:41:49] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-08 02:41:49] INFO root fetch - processPackages [pyappi]: Downloading https://files.pythonhosted.org/packages/c0/60/19b09c1838ae66e73128b2b647e6e6f973a96e4d6058c0759f9e44d1244c/pyappi-1.0.3.tar.gz
+[2023-07-08 02:41:49] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/1a/69/d5391c55ef7f22510d0e725bcc13e8d1a9d94cf242b9cf561dc503f88913/chainforge-0.2.0.5.tar.gz
+[2023-07-08 02:41:49] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/c0/2e/e4ac73aa53d98fd24ead6dbaaa405366c3829c32735ff4cb80cf1669f6e2/aeppl-nightly-0.1.5.dev20230706.tar.gz
+[2023-07-08 02:41:49] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-07-08 02:41:49] INFO root fetch - processPackages [stringzilla]: Downloading https://files.pythonhosted.org/packages/cd/75/bbbe506d48f8a2c2611f4188dba18b185389a3d2cbf1e3c382f28046a19d/stringzilla-0.1.2-cp39-cp39-win_amd64.whl
+[2023-07-08 02:41:49] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-08 02:41:50] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-08 02:41:50] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-08 02:41:50] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230708/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 02:41:50] INFO root fetch - processPackages [pyappi]: Downloading https://files.pythonhosted.org/packages/a2/fc/28b94ad13c1b307bb2ab156d1fa0a23b3088f42a4bf18177872113f05467/pyappi-1.0.5.tar.gz
+[2023-07-08 02:41:50] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/2b/aa/a02367100415c6017866b13acbd85ce3526458876195b79382767274aa45/aeppl-nightly-0.1.5.dev20230707.tar.gz
+[2023-07-08 02:41:50] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/e0/f9/d8c852f0f5dd693ea2b204abe063e5efe18339ae62a99a84fcf56bcd50c7/chainforge-0.2.0.6.tar.gz
+[2023-07-08 02:41:50] INFO root fetch - processPackages [pyappi]: executing diffoscope
+[2023-07-08 02:41:50] INFO root fetch - processPackages [pyappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyappi-1.0.3.tar.gz tmp/pyappi-1.0.5.tar.gz --markdown 20230708/p/pyappi/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-07-08 02:41:50] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-08 02:41:50] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230708/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-08 02:41:50] INFO root fetch - processPackages [stringzilla]: Downloading https://files.pythonhosted.org/packages/fa/50/a183917f17c6e8c6c89d6755243208ef76e0f1ce7ff91bd2404bce9689cb/stringzilla-0.1.3-cp39-cp39-win_amd64.whl
+[2023-07-08 02:41:50] INFO root fetch - processPackages [chainforge]: executing diffoscope
+[2023-07-08 02:41:50] INFO root fetch - processPackages [chainforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainforge-0.2.0.5.tar.gz tmp/chainforge-0.2.0.6.tar.gz --markdown 20230708/c/chainforge/0.2.0.5-0.2.0.6/diff.md --exclude *.pyd
+[2023-07-08 02:41:50] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-07-08 02:41:50] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20230706.tar.gz tmp/aeppl-nightly-0.1.5.dev20230707.tar.gz --markdown 20230708/a/aeppl-nightly/0.1.5.dev20230706-0.1.5.dev20230707/diff.md --exclude *.pyd
+[2023-07-08 02:41:50] INFO root fetch - processPackages [stringzilla]: executing diffoscope
+[2023-07-08 02:41:50] INFO root fetch - processPackages [stringzilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringzilla-0.1.2-cp39-cp39-win_amd64.whl.zip tmp/stringzilla-0.1.3-cp39-cp39-win_amd64.whl.zip --markdown 20230708/s/stringzilla/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-08 02:41:51] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-08 02:41:51] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-08 02:41:51] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-08 02:41:51] INFO root fetch - processPackages [pyappi]: Remove: archive file [/home/abi/fetcher/tmp/pyappi-1.0.3.tar.gz]
+[2023-07-08 02:41:51] INFO root fetch - processPackages [pyappi]: Remove: archive file [/home/abi/fetcher/tmp/pyappi-1.0.5.tar.gz]
+[2023-07-08 02:41:51] INFO root fetch - main [MainThread]: End processing [pyappi]: success
+[2023-07-08 02:41:51] INFO root fetch - processPackages [stringzilla]: Remove: archive file [/home/abi/fetcher/tmp/stringzilla-0.1.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-08 02:41:51] INFO root fetch - processPackages [stringzilla]: Remove: archive file [/home/abi/fetcher/tmp/stringzilla-0.1.3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-08 02:41:51] INFO root fetch - main [MainThread]: End processing [stringzilla]: success
+[2023-07-08 02:41:51] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-07-08 02:41:51] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-08 02:41:51] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-08 02:41:51] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230706.tar.gz]
+[2023-07-08 02:41:51] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230707.tar.gz]
+[2023-07-08 02:41:51] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-07-08 02:42:53] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.2.0.5.tar.gz]
+[2023-07-08 02:42:53] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.2.0.6.tar.gz]
+[2023-07-08 02:42:53] INFO root fetch - main [MainThread]: End processing [chainforge]: success
+[2023-07-08 02:42:53] INFO root fetch - main [MainThread]: Store serial: [18807781]
