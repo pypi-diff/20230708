@@ -11331,3 +11331,20 @@
 [2023-07-08 05:48:43] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
 [2023-07-08 05:48:43] INFO root fetch - main [MainThread]: End processing [miniosl]: success
 [2023-07-08 05:48:43] INFO root fetch - main [MainThread]: Store serial: [18810683]
+[2023-07-08 05:53:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810683]
+[2023-07-08 05:53:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-08 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whisper-autosrt
+[2023-07-08 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amiyabot
+[2023-07-08 05:53:55] INFO root fetch - processPackages [whisper-autosrt]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-08 05:53:55] INFO root fetch - processPackages [amiyabot]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-08 05:53:55] INFO root fetch - processPackages [amiyabot]: Downloading https://files.pythonhosted.org/packages/e5/d5/083fadf6b65fc3a8f5cb5493c17d18190d037667ad6f785edea2e37240cd/amiyabot-1.5.3-py3-none-any.whl
+[2023-07-08 05:53:55] INFO root fetch - processPackages [whisper-autosrt]: Downloading https://files.pythonhosted.org/packages/c0/1e/629042dd0f5c86da1d77b086044aa378e386c5b0f479b64b5f6603891992/whisper_autosrt-0.1.6.tar.gz
+[2023-07-08 05:53:55] INFO root fetch - processPackages [whisper-autosrt]: Downloading https://files.pythonhosted.org/packages/65/3a/1fa44d35a84a1118653603bd1a27b452408e156e9656072da043d744abdc/whisper_autosrt-0.1.7.tar.gz
+[2023-07-08 05:53:56] WARNING root fetch - processPackages [amiyabot]: Skipping package: exceeds size limit 11305112>=10485760
+[2023-07-08 05:53:56] INFO root fetch - main [MainThread]: End processing [amiyabot] error
+[2023-07-08 05:53:56] INFO root fetch - processPackages [whisper-autosrt]: executing diffoscope
+[2023-07-08 05:53:56] INFO root fetch - processPackages [whisper-autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_autosrt-0.1.6.tar.gz tmp/whisper_autosrt-0.1.7.tar.gz --markdown 20230708/w/whisper-autosrt/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-08 05:53:56] INFO root fetch - processPackages [whisper-autosrt]: Remove: archive file [/home/abi/fetcher/tmp/whisper_autosrt-0.1.6.tar.gz]
+[2023-07-08 05:53:56] INFO root fetch - processPackages [whisper-autosrt]: Remove: archive file [/home/abi/fetcher/tmp/whisper_autosrt-0.1.7.tar.gz]
+[2023-07-08 05:53:56] INFO root fetch - main [MainThread]: End processing [whisper-autosrt]: success
+[2023-07-08 05:53:56] INFO root fetch - main [MainThread]: Store serial: [18810693]
