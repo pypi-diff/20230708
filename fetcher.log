@@ -20332,3 +20332,36 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 19:37:42] INFO root fetch - processPackages [ligo.skymap]: Remove: archive file [/home/abi/fetcher/tmp/ligo.skymap-1.1.1.tar.gz]
 [2023-07-08 19:37:42] INFO root fetch - main [MainThread]: End processing [ligo.skymap]: success
 [2023-07-08 19:37:42] INFO root fetch - main [MainThread]: Store serial: [18814927]
+[2023-07-08 19:42:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814927]
+[2023-07-08 19:42:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 19:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: publishcanary
+[2023-07-08 19:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hat-chatter
+[2023-07-08 19:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyTasker
+[2023-07-08 19:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiorabbit
+[2023-07-08 19:42:51] INFO root fetch - processPackages [hat-chatter]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-08 19:42:51] WARNING root fetch - processPackages [publishcanary]: Skipping, unable to determine old version
+[2023-07-08 19:42:51] INFO root fetch - processPackages [pyTasker]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-08 19:42:51] INFO root fetch - processPackages [aiorabbit]: New version: [1.0.0a1] Old Version: [1.0.0]
+[2023-07-08 19:42:51] INFO root fetch - main [MainThread]: End processing [publishcanary] error
+[2023-07-08 19:42:51] INFO root fetch - processPackages [aiorabbit]: Downloading https://files.pythonhosted.org/packages/a4/88/68a0b0114347a1b820a859fca3c35b59c32d9aa4d13ef22f73eead6fc918/aiorabbit-1.0.0.tar.gz
+[2023-07-08 19:42:51] INFO root fetch - processPackages [hat-chatter]: Downloading https://files.pythonhosted.org/packages/89/e9/393c6fcc268e14e723cfbca6ae04da6c893086c4a57d8514a96ee30b2cd1/hat_chatter-0.5.8-cp38.cp39.cp310-none-any.whl
+[2023-07-08 19:42:52] INFO root fetch - processPackages [pyTasker]: Downloading https://files.pythonhosted.org/packages/09/e1/730772daf3a146715005185cefd19fc44f9b4c7a32fbabbce7cadab9f9d2/pyTasker-0.6.1.tar.gz
+[2023-07-08 19:42:52] INFO root fetch - processPackages [aiorabbit]: Downloading https://files.pythonhosted.org/packages/ec/7e/4d75dd6f26fb769de905e2c25bc67fae73d398773753ac0b48ba9a6eba1a/aiorabbit-1.0.0a1.tar.gz
+[2023-07-08 19:42:52] INFO root fetch - processPackages [pyTasker]: Downloading https://files.pythonhosted.org/packages/f0/7c/8ca8093a78a29f63cf5a12b529b6c5d972cb697005f5626e98fc72833ec3/pyTasker-0.6.2.tar.gz
+[2023-07-08 19:42:52] INFO root fetch - processPackages [aiorabbit]: executing diffoscope
+[2023-07-08 19:42:52] INFO root fetch - processPackages [aiorabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiorabbit-1.0.0.tar.gz tmp/aiorabbit-1.0.0a1.tar.gz --markdown 20230708/a/aiorabbit/1.0.0-1.0.0a1/diff.md --exclude *.pyd
+[2023-07-08 19:42:52] INFO root fetch - processPackages [pyTasker]: executing diffoscope
+[2023-07-08 19:42:52] INFO root fetch - processPackages [pyTasker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTasker-0.6.1.tar.gz tmp/pyTasker-0.6.2.tar.gz --markdown 20230708/p/pyTasker/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-08 19:42:53] INFO root fetch - processPackages [hat-chatter]: Downloading https://files.pythonhosted.org/packages/9d/3d/3ab97b8ea64de8ae770f83a6837ca023f6870d71e9076f621cba907b4429/hat_chatter-0.5.9-cp38.cp39.cp310-none-any.whl
+[2023-07-08 19:42:53] INFO root fetch - processPackages [hat-chatter]: executing diffoscope
+[2023-07-08 19:42:53] INFO root fetch - processPackages [hat-chatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_chatter-0.5.8-cp38.cp39.cp310-none-any.whl.zip tmp/hat_chatter-0.5.9-cp38.cp39.cp310-none-any.whl.zip --markdown 20230708/h/hat-chatter/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-08 19:42:53] INFO root fetch - processPackages [aiorabbit]: Remove: archive file [/home/abi/fetcher/tmp/aiorabbit-1.0.0.tar.gz]
+[2023-07-08 19:42:53] INFO root fetch - processPackages [aiorabbit]: Remove: archive file [/home/abi/fetcher/tmp/aiorabbit-1.0.0a1.tar.gz]
+[2023-07-08 19:42:53] INFO root fetch - main [MainThread]: End processing [aiorabbit]: success
+[2023-07-08 19:42:53] INFO root fetch - processPackages [pyTasker]: Remove: archive file [/home/abi/fetcher/tmp/pyTasker-0.6.1.tar.gz]
+[2023-07-08 19:42:53] INFO root fetch - processPackages [pyTasker]: Remove: archive file [/home/abi/fetcher/tmp/pyTasker-0.6.2.tar.gz]
+[2023-07-08 19:42:53] INFO root fetch - main [MainThread]: End processing [pyTasker]: success
+[2023-07-08 19:42:54] INFO root fetch - processPackages [hat-chatter]: Remove: archive file [/home/abi/fetcher/tmp/hat_chatter-0.5.8-cp38.cp39.cp310-none-any.whl.zip]
+[2023-07-08 19:42:54] INFO root fetch - processPackages [hat-chatter]: Remove: archive file [/home/abi/fetcher/tmp/hat_chatter-0.5.9-cp38.cp39.cp310-none-any.whl.zip]
+[2023-07-08 19:42:54] INFO root fetch - main [MainThread]: End processing [hat-chatter]: success
+[2023-07-08 19:42:54] INFO root fetch - main [MainThread]: Store serial: [18814939]
