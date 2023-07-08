@@ -16082,3 +16082,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 14:12:07] INFO root fetch - main [MainThread]: End processing [cs-models]: success
 [2023-07-08 14:12:07] INFO root fetch - main [MainThread]: End processing [cs-models]: success
 [2023-07-08 14:12:07] INFO root fetch - main [MainThread]: Store serial: [18813005]
+[2023-07-08 14:17:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813005]
+[2023-07-08 14:17:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prestashop
+[2023-07-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aio-net-events
+[2023-07-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ProtonQC
+[2023-07-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swanapi
+[2023-07-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyTurboJPEG
+[2023-07-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dynamic-service
+[2023-07-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apibara
+[2023-07-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nics
+[2023-07-08 14:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: slib-sorter
+[2023-07-08 14:17:16] INFO root fetch - processPackages [aio-net-events]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-07-08 14:17:16] INFO root fetch - processPackages [PyTurboJPEG]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-08 14:17:16] WARNING root fetch - processPackages [ProtonQC]: Skipping, unable to determine old version
+[2023-07-08 14:17:16] INFO root fetch - main [MainThread]: End processing [ProtonQC] error
+[2023-07-08 14:17:16] INFO root fetch - processPackages [prestashop]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-08 14:17:16] INFO root fetch - processPackages [slib-sorter]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-07-08 14:17:16] INFO root fetch - processPackages [dynamic-service]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-08 14:17:16] INFO root fetch - processPackages [swanapi]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-08 14:17:16] INFO root fetch - processPackages [apibara]: New version: [0.7.0] Old Version: [0.6.7]
+[2023-07-08 14:17:16] INFO root fetch - processPackages [aio-net-events]: Downloading https://files.pythonhosted.org/packages/5f/34/af3d9e71fd794fec0a335339ed743937f5dbdd50d6c7a777718e24c0d1b1/aio_net_events-5.0.0.tar.gz
+[2023-07-08 14:17:17] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/c2/6e/f59bc105eb94f0318a7909b6de58c5afa63a5d6b0a86ffb2453ee911cdea/slib-sorter-1.4.9.tar.gz
+[2023-07-08 14:17:17] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/07/a3/07901bc809ca023bc796c99de730e517b79ac3a92b8e12a960b321bc9c4d/swanapi-0.1.2-py3-none-any.whl
+[2023-07-08 14:17:17] INFO root fetch - processPackages [nics]: New version: [2.7.1] Old Version: [2.6.1]
+[2023-07-08 14:17:17] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/61/a3/b07193abf1696df9e17715fa873ddccf486e744a30b3234a89fc99643de4/dynamic-service-1.3.0.tar.gz
+[2023-07-08 14:17:17] INFO root fetch - processPackages [PyTurboJPEG]: Downloading https://files.pythonhosted.org/packages/fe/89/990eefabeda21226e749bcc4fea7925bbbe87f6e7323cb0da6efa3bebd6a/PyTurboJPEG-1.7.1.tar.gz
+[2023-07-08 14:17:17] INFO root fetch - processPackages [apibara]: Downloading https://files.pythonhosted.org/packages/0c/f1/abaf851969033e6bca2dadd7dcff84a9ae1a813afdb15e8dad33067aaaff/apibara-0.6.7.tar.gz
+[2023-07-08 14:17:17] INFO root fetch - processPackages [prestashop]: Downloading https://files.pythonhosted.org/packages/e8/84/59216702b73f848f337799f1e53a662841ffe70bc667c110ce4775624413/prestashop-0.1.1-py3-none-any.whl
+[2023-07-08 14:17:17] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/d6/30/f9bea9c871724f06495fb4df89b41903c0bd1c3f97c850ca157ac09ff59c/slib-sorter-1.5.0.tar.gz
+[2023-07-08 14:17:17] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/e6/29/30c2184bc8337ca3307a440e98f3a03abac978780a7a2a0984f046ad3be8/nics-2.6.1.tar.gz
+[2023-07-08 14:17:17] INFO root fetch - processPackages [aio-net-events]: Downloading https://files.pythonhosted.org/packages/2d/4b/0a8d9d661774f7fdf5f49919558bc03f10cafce905f2f61c7882ebf7c0ce/aio_net_events-5.0.1.tar.gz
+[2023-07-08 14:17:17] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 14:17:17] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.4.9.tar.gz tmp/slib-sorter-1.5.0.tar.gz --markdown 20230708/s/slib-sorter/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-07-08 14:17:17] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/af/05/1ca7d5ab4ab0b055cdf444f65e587a31b0349632a0b38df266b9856476b8/swanapi-0.1.3-py3-none-any.whl
+[2023-07-08 14:17:17] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/f7/cf/10992079739d7137ca3294cf4d44ce8bebdb7259de4b353e3c95d471cf11/dynamic-service-1.3.1.tar.gz
+[2023-07-08 14:17:17] INFO root fetch - processPackages [aio-net-events]: executing diffoscope
+[2023-07-08 14:17:17] INFO root fetch - processPackages [aio-net-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_net_events-5.0.0.tar.gz tmp/aio_net_events-5.0.1.tar.gz --markdown 20230708/a/aio-net-events/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-07-08 14:17:17] INFO root fetch - processPackages [PyTurboJPEG]: Downloading https://files.pythonhosted.org/packages/c5/9e/ae131d28891eccf6a1112e6e8cc18e95b1f878a516d91adfb8f2231546cd/PyTurboJPEG-1.7.2.tar.gz
+[2023-07-08 14:17:17] INFO root fetch - processPackages [swanapi]: executing diffoscope
+[2023-07-08 14:17:17] INFO root fetch - processPackages [swanapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swanapi-0.1.2-py3-none-any.whl.zip tmp/swanapi-0.1.3-py3-none-any.whl.zip --markdown 20230708/s/swanapi/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-08 14:17:17] INFO root fetch - processPackages [dynamic-service]: executing diffoscope
+[2023-07-08 14:17:17] INFO root fetch - processPackages [dynamic-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-service-1.3.0.tar.gz tmp/dynamic-service-1.3.1.tar.gz --markdown 20230708/d/dynamic-service/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-08 14:17:17] INFO root fetch - processPackages [PyTurboJPEG]: executing diffoscope
+[2023-07-08 14:17:17] INFO root fetch - processPackages [PyTurboJPEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTurboJPEG-1.7.1.tar.gz tmp/PyTurboJPEG-1.7.2.tar.gz --markdown 20230708/P/PyTurboJPEG/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-08 14:17:17] INFO root fetch - processPackages [prestashop]: Downloading https://files.pythonhosted.org/packages/d7/50/d5b72cd790d3c982ce8f36321a04cfa162dba62ba5a5d894eb05752216c1/prestashop-0.1.2-py3-none-any.whl
+[2023-07-08 14:17:17] INFO root fetch - processPackages [apibara]: Downloading https://files.pythonhosted.org/packages/16/c8/26cd96f4db991f9c6dd5ff158742c5f7af4757f6632786dc935e3c9c85f0/apibara-0.7.0.tar.gz
+[2023-07-08 14:17:17] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/55/ce/147b8e3ac25dc4a2cace6d485dfe4cf2e0484d7e72c526c66477f0a0ee3b/nics-2.7.1.tar.gz
+[2023-07-08 14:17:17] INFO root fetch - processPackages [prestashop]: executing diffoscope
+[2023-07-08 14:17:17] INFO root fetch - processPackages [prestashop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prestashop-0.1.1-py3-none-any.whl.zip tmp/prestashop-0.1.2-py3-none-any.whl.zip --markdown 20230708/p/prestashop/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-08 14:17:17] INFO root fetch - processPackages [apibara]: executing diffoscope
+[2023-07-08 14:17:17] INFO root fetch - processPackages [apibara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apibara-0.6.7.tar.gz tmp/apibara-0.7.0.tar.gz --markdown 20230708/a/apibara/0.6.7-0.7.0/diff.md --exclude *.pyd
+[2023-07-08 14:17:18] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-08 14:17:18] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.6.1.tar.gz tmp/nics-2.7.1.tar.gz --markdown 20230708/n/nics/2.6.1-2.7.1/diff.md --exclude *.pyd
+[2023-07-08 14:17:18] INFO root fetch - processPackages [aio-net-events]: Remove: archive file [/home/abi/fetcher/tmp/aio_net_events-5.0.0.tar.gz]
+[2023-07-08 14:17:18] INFO root fetch - processPackages [aio-net-events]: Remove: archive file [/home/abi/fetcher/tmp/aio_net_events-5.0.1.tar.gz]
+[2023-07-08 14:17:18] INFO root fetch - main [MainThread]: End processing [aio-net-events]: success
+[2023-07-08 14:17:18] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.4.9.tar.gz]
+[2023-07-08 14:17:18] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.0.tar.gz]
+[2023-07-08 14:17:18] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 14:17:18] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.1.2-py3-none-any.whl.zip]
+[2023-07-08 14:17:18] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.3.0.tar.gz]
+[2023-07-08 14:17:18] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.1.3-py3-none-any.whl.zip]
+[2023-07-08 14:17:18] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.3.1.tar.gz]
+[2023-07-08 14:17:18] INFO root fetch - main [MainThread]: End processing [swanapi]: success
+[2023-07-08 14:17:18] INFO root fetch - main [MainThread]: End processing [dynamic-service]: success
+[2023-07-08 14:17:19] INFO root fetch - processPackages [PyTurboJPEG]: Remove: archive file [/home/abi/fetcher/tmp/PyTurboJPEG-1.7.1.tar.gz]
+[2023-07-08 14:17:19] INFO root fetch - processPackages [PyTurboJPEG]: Remove: archive file [/home/abi/fetcher/tmp/PyTurboJPEG-1.7.2.tar.gz]
+[2023-07-08 14:17:19] INFO root fetch - main [MainThread]: End processing [PyTurboJPEG]: success
+[2023-07-08 14:17:19] INFO root fetch - processPackages [apibara]: Remove: archive file [/home/abi/fetcher/tmp/apibara-0.6.7.tar.gz]
+[2023-07-08 14:17:19] INFO root fetch - processPackages [apibara]: Remove: archive file [/home/abi/fetcher/tmp/apibara-0.7.0.tar.gz]
+[2023-07-08 14:17:19] INFO root fetch - main [MainThread]: End processing [apibara]: success
+[2023-07-08 14:17:19] INFO root fetch - processPackages [prestashop]: Remove: archive file [/home/abi/fetcher/tmp/prestashop-0.1.1-py3-none-any.whl.zip]
+[2023-07-08 14:17:19] INFO root fetch - processPackages [prestashop]: Remove: archive file [/home/abi/fetcher/tmp/prestashop-0.1.2-py3-none-any.whl.zip]
+[2023-07-08 14:17:19] INFO root fetch - main [MainThread]: End processing [prestashop]: success
+[2023-07-08 14:17:19] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.6.1.tar.gz]
+[2023-07-08 14:17:19] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.7.1.tar.gz]
+[2023-07-08 14:17:19] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-08 14:17:19] INFO root fetch - main [MainThread]: Store serial: [18813026]
