@@ -13282,3 +13282,41 @@
 [2023-07-08 10:01:19] INFO root fetch - processPackages [tfrecords]: Remove: archive file [/home/abi/fetcher/tmp/tfrecords-0.2.9-cp39-cp39-win_amd64.whl.zip]
 [2023-07-08 10:01:19] INFO root fetch - main [MainThread]: End processing [tfrecords]: success
 [2023-07-08 10:01:19] INFO root fetch - main [MainThread]: Store serial: [18811682]
+[2023-07-08 10:06:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811682]
+[2023-07-08 10:06:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 10:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: practistyle
+[2023-07-08 10:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dxsp
+[2023-07-08 10:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: covdrugsim
+[2023-07-08 10:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glasses-detector
+[2023-07-08 10:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fair-cli
+[2023-07-08 10:06:28] INFO root fetch - processPackages [practistyle]: New version: [0.0.73] Old Version: [0.0.72]
+[2023-07-08 10:06:28] INFO root fetch - processPackages [dxsp]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-08 10:06:28] INFO root fetch - processPackages [covdrugsim]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-08 10:06:28] WARNING root fetch - processPackages [glasses-detector]: Skipping, unable to determine old version
+[2023-07-08 10:06:28] INFO root fetch - main [MainThread]: End processing [glasses-detector] error
+[2023-07-08 10:06:28] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/5d/ca/aa3a3c1384e3098833241a806223fb6e01e06787a3450df070276b74be6a/covdrugsim-0.3.1.tar.gz
+[2023-07-08 10:06:28] INFO root fetch - processPackages [fair-cli]: New version: [0.8.0] Old Version: [0.7.3]
+[2023-07-08 10:06:28] INFO root fetch - processPackages [practistyle]: Downloading https://files.pythonhosted.org/packages/ee/73/92b010bb2d348fb602a2ae3914bc84112365cad8e2766a0294586d3fae85/practistyle-0.0.72.tar.gz
+[2023-07-08 10:06:28] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/72/3d/d37ad3d4cccce30fc2c67fb6c0ae2ede367ea52b47e989817ad71ace8f13/dxsp-3.2.0.tar.gz
+[2023-07-08 10:06:28] WARNING root fetch - processPackages [practistyle]: Skipping package: exceeds size limit 64891865>=10485760
+[2023-07-08 10:06:28] INFO root fetch - main [MainThread]: End processing [practistyle] error
+[2023-07-08 10:06:28] INFO root fetch - processPackages [fair-cli]: Downloading https://files.pythonhosted.org/packages/eb/c3/db6c2e80fdd1c95335aea14452e9a5e8f6d67b82903cf8cf8fd2b57dfa7b/fair_cli-0.7.3.tar.gz
+[2023-07-08 10:06:28] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/03/25/7c3d0e031f86b53899777ac1857d149bb972f8ed49be1c9f86821c262a71/covdrugsim-0.4.0.tar.gz
+[2023-07-08 10:06:29] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/af/99/336326a1dc3a8cc2b0bd6b2705960e069efb1d065e8e333c9312d5c694b6/dxsp-3.3.0.tar.gz
+[2023-07-08 10:06:29] INFO root fetch - processPackages [covdrugsim]: executing diffoscope
+[2023-07-08 10:06:29] INFO root fetch - processPackages [covdrugsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covdrugsim-0.3.1.tar.gz tmp/covdrugsim-0.4.0.tar.gz --markdown 20230708/c/covdrugsim/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-08 10:06:29] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-07-08 10:06:29] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-3.2.0.tar.gz tmp/dxsp-3.3.0.tar.gz --markdown 20230708/d/dxsp/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-07-08 10:06:29] INFO root fetch - processPackages [fair-cli]: Downloading https://files.pythonhosted.org/packages/4d/a3/1918c3081791e08bb2387fce1ec15c64bcda33ea543a3763327500bdb5b3/fair_cli-0.8.0.tar.gz
+[2023-07-08 10:06:29] INFO root fetch - processPackages [fair-cli]: executing diffoscope
+[2023-07-08 10:06:29] INFO root fetch - processPackages [fair-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fair_cli-0.7.3.tar.gz tmp/fair_cli-0.8.0.tar.gz --markdown 20230708/f/fair-cli/0.7.3-0.8.0/diff.md --exclude *.pyd
+[2023-07-08 10:06:29] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.2.0.tar.gz]
+[2023-07-08 10:06:29] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.3.0.tar.gz]
+[2023-07-08 10:06:29] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-07-08 10:06:30] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-0.3.1.tar.gz]
+[2023-07-08 10:06:30] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-0.4.0.tar.gz]
+[2023-07-08 10:06:30] INFO root fetch - main [MainThread]: End processing [covdrugsim]: success
+[2023-07-08 10:06:30] INFO root fetch - processPackages [fair-cli]: Remove: archive file [/home/abi/fetcher/tmp/fair_cli-0.7.3.tar.gz]
+[2023-07-08 10:06:30] INFO root fetch - processPackages [fair-cli]: Remove: archive file [/home/abi/fetcher/tmp/fair_cli-0.8.0.tar.gz]
+[2023-07-08 10:06:30] INFO root fetch - main [MainThread]: End processing [fair-cli]: success
+[2023-07-08 10:06:30] INFO root fetch - main [MainThread]: Store serial: [18811702]
