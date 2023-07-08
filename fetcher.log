@@ -3520,3 +3520,78 @@
 [2023-07-08 03:35:35] INFO root fetch - processPackages [LolzteamApi]: Remove: archive file [/home/abi/fetcher/tmp/LolzteamApi-1.0.12.tar.gz]
 [2023-07-08 03:35:35] INFO root fetch - main [MainThread]: End processing [LolzteamApi]: success
 [2023-07-08 03:35:35] INFO root fetch - main [MainThread]: Store serial: [18808001]
+[2023-07-08 03:40:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18808001]
+[2023-07-08 03:40:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 03:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickbolt
+[2023-07-08 03:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-numpy
+[2023-07-08 03:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pykeadhcp
+[2023-07-08 03:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pandas
+[2023-07-08 03:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pytorch
+[2023-07-08 03:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipfsclient
+[2023-07-08 03:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-scipy
+[2023-07-08 03:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyturbo-aero
+[2023-07-08 03:40:44] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 03:40:44] INFO root fetch - processPackages [quickbolt]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-08 03:40:44] INFO root fetch - processPackages [pykeadhcp]: New version: [0.6.0a0] Old Version: [0.5.1]
+[2023-07-08 03:40:44] INFO root fetch - processPackages [pyturbo-aero]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-08 03:40:44] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 03:40:44] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 03:40:44] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 03:40:44] INFO root fetch - processPackages [ipfsclient]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-08 03:40:44] INFO root fetch - processPackages [pyturbo-aero]: Downloading https://files.pythonhosted.org/packages/af/f4/a1ff3d64eee2966b027ecf3702891eb2c4a085379d1b9ac64d22259c3366/pyturbo_aero-1.0.2.tar.gz
+[2023-07-08 03:40:44] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-08 03:40:44] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-08 03:40:44] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-08 03:40:44] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-08 03:40:44] INFO root fetch - processPackages [pykeadhcp]: Downloading https://files.pythonhosted.org/packages/37/47/d5b2b95652139c0de6a0db745d8bdb4ab03169eb04784f4e77741d372d5a/pykeadhcp-0.5.1.tar.gz
+[2023-07-08 03:40:44] INFO root fetch - processPackages [quickbolt]: Downloading https://files.pythonhosted.org/packages/c7/e5/9322f9ab3d3656c4d399c5505f250c679ad4cb0b6395f3b855637829c40f/quickbolt-0.1.4.tar.gz
+[2023-07-08 03:40:44] INFO root fetch - processPackages [ipfsclient]: Downloading https://files.pythonhosted.org/packages/75/b7/b36355788c114565a18f8e78c444edcd122969f4ecdf88c8d07b0261e87f/ipfsclient-0.0.7-py3-none-any.whl
+[2023-07-08 03:40:45] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-08 03:40:45] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-08 03:40:45] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-08 03:40:45] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-08 03:40:45] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-08 03:40:45] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230708/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 03:40:45] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-08 03:40:45] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230708/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 03:40:45] INFO root fetch - processPackages [pykeadhcp]: Downloading https://files.pythonhosted.org/packages/f6/e1/f0528d977f8872bc3c30ab1abd8e5b9572af1da9164d78d58107735998ff/pykeadhcp-0.6.0a0.tar.gz
+[2023-07-08 03:40:45] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-08 03:40:45] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230708/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 03:40:45] INFO root fetch - processPackages [quickbolt]: Downloading https://files.pythonhosted.org/packages/3b/2e/b2b8ba0c4cfbc412c82a369e77a53063afb725745a591aee75d1842ab4b8/quickbolt-0.1.5.tar.gz
+[2023-07-08 03:40:45] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-08 03:40:45] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230708/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 03:40:45] INFO root fetch - processPackages [pyturbo-aero]: Downloading https://files.pythonhosted.org/packages/f1/e2/e400c97979e9eeb1dafbd6bae11cc6ac824a5800528d3c6bec0a06c8fff4/pyturbo_aero-1.0.3.tar.gz
+[2023-07-08 03:40:45] INFO root fetch - processPackages [ipfsclient]: Downloading https://files.pythonhosted.org/packages/28/29/3f06bd107969616d3d8842bc74116ed664c3e841ea9407b558402d7f37f4/ipfsclient-0.0.9.tar.gz
+[2023-07-08 03:40:45] INFO root fetch - processPackages [quickbolt]: executing diffoscope
+[2023-07-08 03:40:45] INFO root fetch - processPackages [quickbolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickbolt-0.1.4.tar.gz tmp/quickbolt-0.1.5.tar.gz --markdown 20230708/q/quickbolt/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-08 03:40:45] INFO root fetch - processPackages [pyturbo-aero]: executing diffoscope
+[2023-07-08 03:40:45] INFO root fetch - processPackages [pyturbo-aero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyturbo_aero-1.0.2.tar.gz tmp/pyturbo_aero-1.0.3.tar.gz --markdown 20230708/p/pyturbo-aero/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-08 03:40:45] INFO root fetch - processPackages [pykeadhcp]: executing diffoscope
+[2023-07-08 03:40:45] INFO root fetch - processPackages [pykeadhcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykeadhcp-0.5.1.tar.gz tmp/pykeadhcp-0.6.0a0.tar.gz --markdown 20230708/p/pykeadhcp/0.5.1-0.6.0a0/diff.md --exclude *.pyd
+[2023-07-08 03:40:45] INFO root fetch - processPackages [ipfsclient]: executing diffoscope
+[2023-07-08 03:40:45] INFO root fetch - processPackages [ipfsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfsclient-0.0.7-py3-none-any.whl.zip tmp/ipfsclient-0.0.9.tar.gz --markdown 20230708/i/ipfsclient/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 03:40:46] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-08 03:40:46] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-08 03:40:46] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-08 03:40:46] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-08 03:40:46] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-08 03:40:46] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-08 03:40:46] INFO root fetch - processPackages [quickbolt]: Remove: archive file [/home/abi/fetcher/tmp/quickbolt-0.1.4.tar.gz]
+[2023-07-08 03:40:46] INFO root fetch - processPackages [quickbolt]: Remove: archive file [/home/abi/fetcher/tmp/quickbolt-0.1.5.tar.gz]
+[2023-07-08 03:40:46] INFO root fetch - main [MainThread]: End processing [quickbolt]: success
+[2023-07-08 03:40:46] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-08 03:40:46] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-08 03:40:46] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-08 03:40:46] INFO root fetch - processPackages [ipfsclient]: Remove: archive file [/home/abi/fetcher/tmp/ipfsclient-0.0.7-py3-none-any.whl.zip]
+[2023-07-08 03:40:46] INFO root fetch - processPackages [ipfsclient]: Remove: archive file [/home/abi/fetcher/tmp/ipfsclient-0.0.9.tar.gz]
+[2023-07-08 03:40:46] INFO root fetch - main [MainThread]: End processing [ipfsclient]: success
+[2023-07-08 03:40:46] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-08 03:40:46] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-08 03:40:46] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-08 03:40:46] INFO root fetch - processPackages [pykeadhcp]: Remove: archive file [/home/abi/fetcher/tmp/pykeadhcp-0.5.1.tar.gz]
+[2023-07-08 03:40:46] INFO root fetch - processPackages [pykeadhcp]: Remove: archive file [/home/abi/fetcher/tmp/pykeadhcp-0.6.0a0.tar.gz]
+[2023-07-08 03:40:46] INFO root fetch - main [MainThread]: End processing [pykeadhcp]: success
+[2023-07-08 03:40:46] INFO root fetch - processPackages [pyturbo-aero]: Remove: archive file [/home/abi/fetcher/tmp/pyturbo_aero-1.0.2.tar.gz]
+[2023-07-08 03:40:46] INFO root fetch - processPackages [pyturbo-aero]: Remove: archive file [/home/abi/fetcher/tmp/pyturbo_aero-1.0.3.tar.gz]
+[2023-07-08 03:40:46] INFO root fetch - main [MainThread]: End processing [pyturbo-aero]: success
+[2023-07-08 03:40:46] INFO root fetch - main [MainThread]: Store serial: [18808027]
