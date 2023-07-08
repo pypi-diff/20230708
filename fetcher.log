@@ -18586,3 +18586,51 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 17:27:28] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.358.0.tar.gz]
 [2023-07-08 17:27:28] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-08 17:27:28] INFO root fetch - main [MainThread]: Store serial: [18814040]
+[2023-07-08 17:32:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814040]
+[2023-07-08 17:32:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 17:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rydeen-lesson-notebook-bad-code
+[2023-07-08 17:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FastMBAR
+[2023-07-08 17:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volstreet
+[2023-07-08 17:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logs-parser-sybsystem
+[2023-07-08 17:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aitemplates
+[2023-07-08 17:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logsparsersubsystem
+[2023-07-08 17:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyipatcher
+[2023-07-08 17:32:38] ERROR root fetch - processPackages [logs-parser-sybsystem]: Unable to get metadata: No such project 'logs-parser-sybsystem'
+[2023-07-08 17:32:38] INFO root fetch - main [MainThread]: End processing [logs-parser-sybsystem] error
+[2023-07-08 17:32:38] ERROR root fetch - processPackages [logsparsersubsystem]: Unable to get metadata: No such project 'logsparsersubsystem'
+[2023-07-08 17:32:38] INFO root fetch - main [MainThread]: End processing [logsparsersubsystem] error
+[2023-07-08 17:32:38] INFO root fetch - processPackages [FastMBAR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 17:32:38] WARNING root fetch - processPackages [rydeen-lesson-notebook-bad-code]: Skipping, unable to determine old version
+[2023-07-08 17:32:38] INFO root fetch - main [MainThread]: End processing [rydeen-lesson-notebook-bad-code] error
+[2023-07-08 17:32:38] INFO root fetch - processPackages [aitemplates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 17:32:38] INFO root fetch - processPackages [volstreet]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-08 17:32:38] INFO root fetch - processPackages [pyipatcher]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-08 17:32:38] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/c9/1f/c3b35e203e73c6562287311527c36798cf058f4542a1cc2012699e54c8f2/aitemplates-0.1.8.tar.gz
+[2023-07-08 17:32:38] INFO root fetch - processPackages [FastMBAR]: Downloading https://files.pythonhosted.org/packages/a1/98/0733263d9131a76053c886ddc9b70c8a8227ac972670fb55ab85ffeb5028/FastMBAR-0.1.0.tar.gz
+[2023-07-08 17:32:38] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/74/38/469197452247c662ac5ed0210d97840a89cd56b0c7bab9a6f6b0eab60a42/volstreet-0.9.8.tar.gz
+[2023-07-08 17:32:38] INFO root fetch - processPackages [pyipatcher]: Downloading https://files.pythonhosted.org/packages/8e/c8/d4ccf4f2bfc64a754f5bf247a0e95b7487df67debb768062b5b80cea1091/pyipatcher-1.1.3.tar.gz
+[2023-07-08 17:32:39] INFO root fetch - processPackages [FastMBAR]: Downloading https://files.pythonhosted.org/packages/b5/24/faa0c8b0be985e5460b4d9f485bf320a0ba1f0a1f3a452175db3c78e60c5/FastMBAR-0.1.1.tar.gz
+[2023-07-08 17:32:39] INFO root fetch - processPackages [pyipatcher]: Downloading https://files.pythonhosted.org/packages/49/ff/f071aa29fb4bfaa0cf66f374b553f15bfd625ca803430f433267ac4d1be7/pyipatcher-1.1.4.tar.gz
+[2023-07-08 17:32:39] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/31/8d/fec27aa91f72352e256e81460077515d340f93b087b2d5f555a95e17896a/aitemplates-0.1.9.tar.gz
+[2023-07-08 17:32:39] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/a5/69/6d1420893bf88a95ed704efafd8a06fb46a548122583cb93e4d6a4f085a0/volstreet-0.9.9.tar.gz
+[2023-07-08 17:32:39] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-07-08 17:32:39] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.8.tar.gz tmp/aitemplates-0.1.9.tar.gz --markdown 20230708/a/aitemplates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 17:32:39] INFO root fetch - processPackages [FastMBAR]: executing diffoscope
+[2023-07-08 17:32:39] INFO root fetch - processPackages [FastMBAR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastMBAR-0.1.0.tar.gz tmp/FastMBAR-0.1.1.tar.gz --markdown 20230708/F/FastMBAR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 17:32:39] INFO root fetch - processPackages [pyipatcher]: executing diffoscope
+[2023-07-08 17:32:39] INFO root fetch - processPackages [pyipatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyipatcher-1.1.3.tar.gz tmp/pyipatcher-1.1.4.tar.gz --markdown 20230708/p/pyipatcher/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-08 17:32:39] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-07-08 17:32:39] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-0.9.8.tar.gz tmp/volstreet-0.9.9.tar.gz --markdown 20230708/v/volstreet/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-08 17:32:40] INFO root fetch - processPackages [FastMBAR]: Remove: archive file [/home/abi/fetcher/tmp/FastMBAR-0.1.0.tar.gz]
+[2023-07-08 17:32:40] INFO root fetch - processPackages [FastMBAR]: Remove: archive file [/home/abi/fetcher/tmp/FastMBAR-0.1.1.tar.gz]
+[2023-07-08 17:32:40] INFO root fetch - main [MainThread]: End processing [FastMBAR]: success
+[2023-07-08 17:32:40] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.8.tar.gz]
+[2023-07-08 17:32:40] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.9.tar.gz]
+[2023-07-08 17:32:40] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-07-08 17:32:40] INFO root fetch - processPackages [pyipatcher]: Remove: archive file [/home/abi/fetcher/tmp/pyipatcher-1.1.3.tar.gz]
+[2023-07-08 17:32:40] INFO root fetch - processPackages [pyipatcher]: Remove: archive file [/home/abi/fetcher/tmp/pyipatcher-1.1.4.tar.gz]
+[2023-07-08 17:32:40] INFO root fetch - main [MainThread]: End processing [pyipatcher]: success
+[2023-07-08 17:32:40] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-0.9.8.tar.gz]
+[2023-07-08 17:32:40] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-0.9.9.tar.gz]
+[2023-07-08 17:32:40] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-07-08 17:32:40] INFO root fetch - main [MainThread]: Store serial: [18814069]
