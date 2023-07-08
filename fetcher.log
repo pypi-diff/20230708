@@ -15067,3 +15067,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 12:43:33] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
 [2023-07-08 12:43:33] INFO root fetch - main [MainThread]: End processing [antgo]: success
 [2023-07-08 12:43:33] INFO root fetch - main [MainThread]: Store serial: [18812532]
+[2023-07-08 12:48:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812532]
+[2023-07-08 12:48:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elf-inspector
+[2023-07-08 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vessim
+[2023-07-08 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ez-a-sync
+[2023-07-08 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decorator-parser
+[2023-07-08 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Crackerjack
+[2023-07-08 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: selenium-simulate-ui
+[2023-07-08 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pwforecast
+[2023-07-08 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: decorator-parser
+[2023-07-08 12:48:43] INFO root fetch - processPackages [decorator-parser]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-08 12:48:43] INFO root fetch - processPackages [vessim]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-08 12:48:43] INFO root fetch - processPackages [selenium-simulate-ui]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-08 12:48:43] WARNING root fetch - processPackages [pwforecast]: Skipping, unable to determine old version
+[2023-07-08 12:48:43] INFO root fetch - main [MainThread]: End processing [pwforecast] error
+[2023-07-08 12:48:43] INFO root fetch - processPackages [Crackerjack]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-08 12:48:43] WARNING root fetch - processPackages [elf-inspector]: Skipping, unable to determine old version
+[2023-07-08 12:48:43] INFO root fetch - main [MainThread]: End processing [elf-inspector] error
+[2023-07-08 12:48:43] INFO root fetch - processPackages [decorator-parser]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-08 12:48:43] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.1.dev3] Old Version: [0.6.1.dev2]
+[2023-07-08 12:48:43] INFO root fetch - processPackages [decorator-parser]: Downloading https://files.pythonhosted.org/packages/1b/a7/f8f843dba98e183c3438de2662d15bd7a18ef4f4c1a93a7e8f5116eb62dd/decorator_parser-1.0.7-py3-none-any.whl
+[2023-07-08 12:48:43] INFO root fetch - processPackages [selenium-simulate-ui]: Downloading https://files.pythonhosted.org/packages/c1/10/e8eaebce3bfd2ca47bada952aeb9f413f23ef976e669dc118342453b484a/selenium_simulate_ui-0.1.3.tar.gz
+[2023-07-08 12:48:43] INFO root fetch - processPackages [decorator-parser]: Downloading https://files.pythonhosted.org/packages/1b/a7/f8f843dba98e183c3438de2662d15bd7a18ef4f4c1a93a7e8f5116eb62dd/decorator_parser-1.0.7-py3-none-any.whl
+[2023-07-08 12:48:43] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/95/5f/3d6e46409e30d9991fac37621f0ea651d26a4ad0a6a11fa3f8979ac40cc6/ez-a-sync-0.6.1.dev2.tar.gz
+[2023-07-08 12:48:43] INFO root fetch - processPackages [vessim]: Downloading https://files.pythonhosted.org/packages/6e/a7/fd5492e9688b63e3c2667f4a2ade474b0e7bb4de014e2cfd08f57f759842/vessim-0.0.3.tar.gz
+[2023-07-08 12:48:43] INFO root fetch - processPackages [Crackerjack]: Downloading https://files.pythonhosted.org/packages/eb/37/d13906512a1e07bb1383cde50db85dc9bf4757a844c158ba0822911d618d/crackerjack-0.3.5.tar.gz
+[2023-07-08 12:48:43] INFO root fetch - processPackages [selenium-simulate-ui]: Downloading https://files.pythonhosted.org/packages/35/40/7c545337b313f95fbacd303073fed21518e86f463fbe3a90273c9934162c/selenium_simulate_ui-0.1.4.tar.gz
+[2023-07-08 12:48:44] INFO root fetch - processPackages [selenium-simulate-ui]: executing diffoscope
+[2023-07-08 12:48:44] INFO root fetch - processPackages [selenium-simulate-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_simulate_ui-0.1.3.tar.gz tmp/selenium_simulate_ui-0.1.4.tar.gz --markdown 20230708/s/selenium-simulate-ui/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-08 12:48:44] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/8a/b8/a4fe5d20111fea955940882838a8fab56836f7c7c0e540cdf238289aed03/ez-a-sync-0.6.1.dev3.tar.gz
+[2023-07-08 12:48:44] INFO root fetch - processPackages [Crackerjack]: Downloading https://files.pythonhosted.org/packages/0d/84/680f9c51ad453e994a38996370e7012007debb193ca2d2608afab16088e7/crackerjack-0.3.6.tar.gz
+[2023-07-08 12:48:44] INFO root fetch - processPackages [decorator-parser]: Downloading https://files.pythonhosted.org/packages/f1/56/2ad354ef564c22a6165a1e33c0040b970d1bf18501014d9639d399a8cd05/decorator_parser-1.0.8-py3-none-any.whl
+[2023-07-08 12:48:44] INFO root fetch - processPackages [decorator-parser]: Downloading https://files.pythonhosted.org/packages/f1/56/2ad354ef564c22a6165a1e33c0040b970d1bf18501014d9639d399a8cd05/decorator_parser-1.0.8-py3-none-any.whl
+[2023-07-08 12:48:44] INFO root fetch - processPackages [Crackerjack]: executing diffoscope
+[2023-07-08 12:48:44] INFO root fetch - processPackages [Crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.3.5.tar.gz tmp/crackerjack-0.3.6.tar.gz --markdown 20230708/C/Crackerjack/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-08 12:48:44] INFO root fetch - processPackages [decorator-parser]: executing diffoscope
+[2023-07-08 12:48:44] INFO root fetch - processPackages [decorator-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorator_parser-1.0.7-py3-none-any.whl.zip tmp/decorator_parser-1.0.8-py3-none-any.whl.zip --markdown 20230708/d/decorator-parser/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-08 12:48:44] INFO root fetch - processPackages [decorator-parser]: executing diffoscope
+[2023-07-08 12:48:44] INFO root fetch - processPackages [decorator-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorator_parser-1.0.7-py3-none-any.whl.zip tmp/decorator_parser-1.0.8-py3-none-any.whl.zip --markdown 20230708/d/decorator-parser/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-08 12:48:44] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-08 12:48:44] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.1.dev2.tar.gz tmp/ez-a-sync-0.6.1.dev3.tar.gz --markdown 20230708/e/ez-a-sync/0.6.1.dev2-0.6.1.dev3/diff.md --exclude *.pyd
+[2023-07-08 12:48:44] INFO root fetch - processPackages [vessim]: Downloading https://files.pythonhosted.org/packages/d3/e0/b71e37ef01e0a98c6ea090076f69e24f19610c8c9cad22c3e0f6151a0480/vessim-0.1.0.tar.gz
+[2023-07-08 12:48:44] INFO root fetch - processPackages [vessim]: executing diffoscope
+[2023-07-08 12:48:44] INFO root fetch - processPackages [vessim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessim-0.0.3.tar.gz tmp/vessim-0.1.0.tar.gz --markdown 20230708/v/vessim/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-08 12:48:44] INFO root fetch - processPackages [selenium-simulate-ui]: Remove: archive file [/home/abi/fetcher/tmp/selenium_simulate_ui-0.1.3.tar.gz]
+[2023-07-08 12:48:44] INFO root fetch - processPackages [selenium-simulate-ui]: Remove: archive file [/home/abi/fetcher/tmp/selenium_simulate_ui-0.1.4.tar.gz]
+[2023-07-08 12:48:45] INFO root fetch - main [MainThread]: End processing [selenium-simulate-ui]: success
+[2023-07-08 12:48:45] INFO root fetch - processPackages [decorator-parser]: Remove: archive file [/home/abi/fetcher/tmp/decorator_parser-1.0.7-py3-none-any.whl.zip]
+[2023-07-08 12:48:45] INFO root fetch - processPackages [decorator-parser]: Remove: archive file [/home/abi/fetcher/tmp/decorator_parser-1.0.8-py3-none-any.whl.zip]
+[2023-07-08 12:48:45] INFO root fetch - main [MainThread]: End processing [decorator-parser]: success
+[2023-07-08 12:48:45] INFO root fetch - processPackages [Crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.3.5.tar.gz]
+[2023-07-08 12:48:45] INFO root fetch - processPackages [Crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.3.6.tar.gz]
+[2023-07-08 12:48:45] INFO root fetch - main [MainThread]: End processing [Crackerjack]: success
+[2023-07-08 12:48:45] INFO root fetch - main [MainThread]: End processing [decorator-parser]: success
+[2023-07-08 12:48:45] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.1.dev2.tar.gz]
+[2023-07-08 12:48:45] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.1.dev3.tar.gz]
+[2023-07-08 12:48:45] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-08 12:48:45] INFO root fetch - processPackages [vessim]: Remove: archive file [/home/abi/fetcher/tmp/vessim-0.0.3.tar.gz]
+[2023-07-08 12:48:45] INFO root fetch - processPackages [vessim]: Remove: archive file [/home/abi/fetcher/tmp/vessim-0.1.0.tar.gz]
+[2023-07-08 12:48:45] INFO root fetch - main [MainThread]: End processing [vessim]: success
+[2023-07-08 12:48:45] INFO root fetch - main [MainThread]: Store serial: [18812568]
