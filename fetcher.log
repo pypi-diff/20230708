@@ -13184,3 +13184,53 @@
 [2023-07-08 09:50:56] INFO root fetch - processPackages [pyscf]: Remove: archive file [/home/abi/fetcher/tmp/pyscf-2.3.0.tar.gz]
 [2023-07-08 09:50:56] INFO root fetch - main [MainThread]: End processing [pyscf]: success
 [2023-07-08 09:50:56] INFO root fetch - main [MainThread]: Store serial: [18811622]
+[2023-07-08 09:56:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811622]
+[2023-07-08 09:56:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 09:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: analytixhero
+[2023-07-08 09:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-spark-gpt
+[2023-07-08 09:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: url-to-file-downloader
+[2023-07-08 09:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2023-07-08 09:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elefantolib-fastapi
+[2023-07-08 09:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hezar
+[2023-07-08 09:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oarepo
+[2023-07-08 09:56:05] WARNING root fetch - processPackages [analytixhero]: Skipping, unable to determine old version
+[2023-07-08 09:56:05] INFO root fetch - main [MainThread]: End processing [analytixhero] error
+[2023-07-08 09:56:05] INFO root fetch - processPackages [elefantolib-fastapi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-08 09:56:05] WARNING root fetch - processPackages [url-to-file-downloader]: Skipping, unable to determine old version
+[2023-07-08 09:56:05] INFO root fetch - main [MainThread]: End processing [url-to-file-downloader] error
+[2023-07-08 09:56:05] INFO root fetch - processPackages [hezar]: New version: [0.14.1] Old Version: [0.14.0]
+[2023-07-08 09:56:05] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-08 09:56:05] INFO root fetch - processPackages [oarepo]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-07-08 09:56:05] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230708] Old Version: [2.14.0.dev20230707]
+[2023-07-08 09:56:05] INFO root fetch - processPackages [elefantolib-fastapi]: Downloading https://files.pythonhosted.org/packages/3d/29/754987f01b5ed7bf3bd17d58f7b20f5d8369d8c653dbca7439d3c080de64/elefantolib_fastapi-0.8.0.tar.gz
+[2023-07-08 09:56:06] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/0c/80/c81b00db689cdf8314b350d74a014b6862716d1a9326b84164dde5c8b482/hezar-0.14.0.tar.gz
+[2023-07-08 09:56:06] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/08/36/14d6dd80323f815b1c6df14a164cc23c9e5593952afb1a1914566a7675ea/nonebot_plugin_spark_gpt-1.1.0.tar.gz
+[2023-07-08 09:56:06] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 16560986>=10485760
+[2023-07-08 09:56:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-07-08 09:56:06] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/52/c5/0a13d27a1bb86acfcfef66fc3d0878155614436ab68e43027d59812ff1d3/tf_nightly_cpu-2.14.0.dev20230707-cp39-cp39-win_amd64.whl
+[2023-07-08 09:56:06] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/38/4c/f399359852cbe9b678586f09c718e6d26467563b540067619f17a7416616/oarepo-9.0.8.tar.gz
+[2023-07-08 09:56:06] INFO root fetch - processPackages [elefantolib-fastapi]: Downloading https://files.pythonhosted.org/packages/da/94/c3e138c9675f1d7107770798c04db28cbac35113caa20860dda58ba8018e/elefantolib_fastapi-0.9.0.tar.gz
+[2023-07-08 09:56:06] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/d6/75/2b9c4107995ad145e70f1f4b62d98663ba560cba49a7157ff947753a0157/hezar-0.14.1.tar.gz
+[2023-07-08 09:56:06] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/3e/4d/3f96c72f4e261ce662ca7f2b45cb4914bc2a4f59aeb70207329865b235bf/tf_nightly_cpu-2.14.0.dev20230708-cp39-cp39-win_amd64.whl
+[2023-07-08 09:56:06] INFO root fetch - processPackages [elefantolib-fastapi]: executing diffoscope
+[2023-07-08 09:56:06] INFO root fetch - processPackages [elefantolib-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefantolib_fastapi-0.8.0.tar.gz tmp/elefantolib_fastapi-0.9.0.tar.gz --markdown 20230708/e/elefantolib-fastapi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 09:56:06] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/47/d6/1ba1ba3d67b43bf65622b8597a86dda0a099313f4c7a307060535f4309b4/oarepo-9.0.9.tar.gz
+[2023-07-08 09:56:06] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-07-08 09:56:06] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.14.0.tar.gz tmp/hezar-0.14.1.tar.gz --markdown 20230708/h/hezar/0.14.0-0.14.1/diff.md --exclude *.pyd
+[2023-07-08 09:56:06] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-08 09:56:06] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230707-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230708-cp39-cp39-win_amd64.whl.zip --markdown 20230708/t/tf-nightly-cpu/2.14.0.dev20230707-2.14.0.dev20230708/diff.md --exclude *.pyd
+[2023-07-08 09:56:06] INFO root fetch - processPackages [oarepo]: executing diffoscope
+[2023-07-08 09:56:06] INFO root fetch - processPackages [oarepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-9.0.8.tar.gz tmp/oarepo-9.0.9.tar.gz --markdown 20230708/o/oarepo/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-07-08 09:56:07] INFO root fetch - processPackages [elefantolib-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/elefantolib_fastapi-0.8.0.tar.gz]
+[2023-07-08 09:56:07] INFO root fetch - processPackages [elefantolib-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/elefantolib_fastapi-0.9.0.tar.gz]
+[2023-07-08 09:56:07] INFO root fetch - main [MainThread]: End processing [elefantolib-fastapi]: success
+[2023-07-08 09:56:07] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230707-cp39-cp39-win_amd64.whl.zip]
+[2023-07-08 09:56:07] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230708-cp39-cp39-win_amd64.whl.zip]
+[2023-07-08 09:56:07] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-08 09:56:07] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.14.0.tar.gz]
+[2023-07-08 09:56:07] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.14.1.tar.gz]
+[2023-07-08 09:56:07] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-07-08 09:56:07] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.8.tar.gz]
+[2023-07-08 09:56:07] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.9.tar.gz]
+[2023-07-08 09:56:07] INFO root fetch - main [MainThread]: End processing [oarepo]: success
+[2023-07-08 09:56:07] INFO root fetch - main [MainThread]: Store serial: [18811652]
