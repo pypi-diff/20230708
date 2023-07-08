@@ -21053,3 +21053,54 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 21:05:53] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.4.tar.gz]
 [2023-07-08 21:05:53] INFO root fetch - main [MainThread]: End processing [pypdfe]: success
 [2023-07-08 21:05:53] INFO root fetch - main [MainThread]: Store serial: [18815226]
+[2023-07-08 21:10:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815226]
+[2023-07-08 21:11:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 21:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqd-song-edit
+[2023-07-08 21:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fusion-engine
+[2023-07-08 21:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nwebclient
+[2023-07-08 21:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-contribution
+[2023-07-08 21:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jplaw
+[2023-07-08 21:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: concave-uhull
+[2023-07-08 21:11:02] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 21:11:02] INFO root fetch - processPackages [concave-uhull]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-08 21:11:02] WARNING root fetch - processPackages [test-contribution]: Skipping, unable to determine old version
+[2023-07-08 21:11:02] INFO root fetch - main [MainThread]: End processing [test-contribution] error
+[2023-07-08 21:11:02] INFO root fetch - processPackages [jplaw]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-08 21:11:02] INFO root fetch - processPackages [sqd-song-edit]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-08 21:11:02] INFO root fetch - processPackages [fusion-engine]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-08 21:11:02] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 21:11:02] INFO root fetch - processPackages [concave-uhull]: Downloading https://files.pythonhosted.org/packages/0a/84/987c240ee18f07537dffe255c788f496b8e41983d618d762f9adf2785282/concave_uhull-0.2.5.tar.gz
+[2023-07-08 21:11:02] INFO root fetch - processPackages [sqd-song-edit]: Downloading https://files.pythonhosted.org/packages/1c/9e/75e070b4256c364fe55ab252799bf48f78b4227518b21768d13e5897ded5/sqd-song-edit-1.1.0.tar.gz
+[2023-07-08 21:11:02] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/50/dc/e92e6e4e0fb0c0bca201afa6ba9c51b9996bb1ecc29f4dc948af011b8516/jplaw-0.1.5.tar.gz
+[2023-07-08 21:11:02] INFO root fetch - processPackages [fusion-engine]: Downloading https://files.pythonhosted.org/packages/b9/ca/58d33bfadf85b18cb607b3e7375e10b7b3c5219c0624e25f5d573ec30944/fusion-engine-0.2.0.tar.gz
+[2023-07-08 21:11:02] INFO root fetch - processPackages [concave-uhull]: Downloading https://files.pythonhosted.org/packages/32/b7/cb2c30749228a8bbb348dc494a578e48ff9252c430b664485f371fe69eb1/concave_uhull-0.2.6.tar.gz
+[2023-07-08 21:11:02] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 21:11:03] INFO root fetch - processPackages [sqd-song-edit]: Downloading https://files.pythonhosted.org/packages/9e/50/57dcb8c339c420b0ed98cf2ffc2eeb9d122c2f99b5d84a5b9ba824d23728/sqd-song-edit-1.1.1.tar.gz
+[2023-07-08 21:11:03] INFO root fetch - processPackages [concave-uhull]: executing diffoscope
+[2023-07-08 21:11:03] INFO root fetch - processPackages [concave-uhull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concave_uhull-0.2.5.tar.gz tmp/concave_uhull-0.2.6.tar.gz --markdown 20230708/c/concave-uhull/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-08 21:11:03] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 21:11:03] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 21:11:03] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/7b/21/4969e071b034034f80e7ac122c97f6c5c4526ac9311af493707451942ee8/jplaw-0.1.6.tar.gz
+[2023-07-08 21:11:03] INFO root fetch - processPackages [fusion-engine]: Downloading https://files.pythonhosted.org/packages/a7/3e/8d74087c8aba48543695d384e7733354c3d52e170c23a0530399d360baaa/fusion-engine-0.2.1.tar.gz
+[2023-07-08 21:11:03] INFO root fetch - processPackages [jplaw]: executing diffoscope
+[2023-07-08 21:11:03] INFO root fetch - processPackages [jplaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jplaw-0.1.5.tar.gz tmp/jplaw-0.1.6.tar.gz --markdown 20230708/j/jplaw/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-08 21:11:03] INFO root fetch - processPackages [sqd-song-edit]: executing diffoscope
+[2023-07-08 21:11:03] INFO root fetch - processPackages [sqd-song-edit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqd-song-edit-1.1.0.tar.gz tmp/sqd-song-edit-1.1.1.tar.gz --markdown 20230708/s/sqd-song-edit/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-08 21:11:03] INFO root fetch - processPackages [fusion-engine]: executing diffoscope
+[2023-07-08 21:11:03] INFO root fetch - processPackages [fusion-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-engine-0.2.0.tar.gz tmp/fusion-engine-0.2.1.tar.gz --markdown 20230708/f/fusion-engine/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-08 21:11:04] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-08 21:11:04] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-08 21:11:04] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 21:11:04] INFO root fetch - processPackages [sqd-song-edit]: Remove: archive file [/home/abi/fetcher/tmp/sqd-song-edit-1.1.0.tar.gz]
+[2023-07-08 21:11:04] INFO root fetch - processPackages [sqd-song-edit]: Remove: archive file [/home/abi/fetcher/tmp/sqd-song-edit-1.1.1.tar.gz]
+[2023-07-08 21:11:04] INFO root fetch - main [MainThread]: End processing [sqd-song-edit]: success
+[2023-07-08 21:11:04] INFO root fetch - processPackages [concave-uhull]: Remove: archive file [/home/abi/fetcher/tmp/concave_uhull-0.2.5.tar.gz]
+[2023-07-08 21:11:04] INFO root fetch - processPackages [concave-uhull]: Remove: archive file [/home/abi/fetcher/tmp/concave_uhull-0.2.6.tar.gz]
+[2023-07-08 21:11:04] INFO root fetch - main [MainThread]: End processing [concave-uhull]: success
+[2023-07-08 21:11:04] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.5.tar.gz]
+[2023-07-08 21:11:04] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.6.tar.gz]
+[2023-07-08 21:11:04] INFO root fetch - main [MainThread]: End processing [jplaw]: success
+[2023-07-08 21:11:04] INFO root fetch - processPackages [fusion-engine]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-0.2.0.tar.gz]
+[2023-07-08 21:11:04] INFO root fetch - processPackages [fusion-engine]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-0.2.1.tar.gz]
+[2023-07-08 21:11:04] INFO root fetch - main [MainThread]: End processing [fusion-engine]: success
+[2023-07-08 21:11:04] INFO root fetch - main [MainThread]: Store serial: [18815244]
