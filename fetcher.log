@@ -17802,3 +17802,57 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 16:23:27] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-minimqtt-7.4.0.tar.gz]
 [2023-07-08 16:23:27] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-minimqtt]: success
 [2023-07-08 16:23:27] INFO root fetch - main [MainThread]: Store serial: [18813719]
+[2023-07-08 16:28:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813719]
+[2023-07-08 16:28:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 16:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-07-08 16:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slib-sorter
+[2023-07-08 16:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gphoto2
+[2023-07-08 16:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nwebclient
+[2023-07-08 16:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ragu
+[2023-07-08 16:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: impose-cli
+[2023-07-08 16:28:38] INFO root fetch - processPackages [slib-sorter]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-07-08 16:28:38] INFO root fetch - processPackages [ragu]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-08 16:28:38] INFO root fetch - processPackages [gphoto2]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-07-08 16:28:38] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 16:28:38] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-08 16:28:38] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/5a/e3/ad9f64febb9c138833d5358edf26d327f14ea1a6055f09949b26082eb8a4/slib-sorter-1.6.3.tar.gz
+[2023-07-08 16:28:38] INFO root fetch - processPackages [ragu]: Downloading https://files.pythonhosted.org/packages/d2/59/85824804d4b7a93d4591f56de009dd8f33eb88458b5259d6f92513cb8874/ragu-0.1.1.tar.gz
+[2023-07-08 16:28:38] INFO root fetch - processPackages [impose-cli]: New version: [0.1.41rc0] Old Version: [0.0.41]
+[2023-07-08 16:28:38] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 16:28:38] INFO root fetch - processPackages [gphoto2]: Downloading https://files.pythonhosted.org/packages/0a/ed/3f2a51de7a9d1bfa37308e938f5c68c076cbc31a57197da4d8ecca2dd4e7/gphoto2-2.3.4.tar.gz
+[2023-07-08 16:28:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-08 16:28:38] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/b4/22/780e72fb5a81cec0c3ecd6b55db36f9750a67201962524342f1e9d2cd12b/impose-cli-0.0.41.tar.gz
+[2023-07-08 16:28:38] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 16:28:38] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/de/bf/739516e620eeb6fa85d250b97d6d9a45549be6661ea035eb8537ec507069/slib-sorter-1.6.4.tar.gz
+[2023-07-08 16:28:38] INFO root fetch - processPackages [ragu]: Downloading https://files.pythonhosted.org/packages/b3/35/c5f5e380fa9947c47afafe0c5faf1dfa6b3e77a307dc4c26321ee1ee0f8e/ragu-0.1.2.tar.gz
+[2023-07-08 16:28:39] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 16:28:39] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 16:28:39] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 16:28:39] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.6.3.tar.gz tmp/slib-sorter-1.6.4.tar.gz --markdown 20230708/s/slib-sorter/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-07-08 16:28:39] INFO root fetch - processPackages [gphoto2]: Downloading https://files.pythonhosted.org/packages/af/73/277091b42948003017e0b4f145a312315718f310d66314a9db4615d9aa3d/gphoto2-2.3.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-08 16:28:39] INFO root fetch - processPackages [ragu]: executing diffoscope
+[2023-07-08 16:28:39] INFO root fetch - processPackages [ragu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragu-0.1.1.tar.gz tmp/ragu-0.1.2.tar.gz --markdown 20230708/r/ragu/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-08 16:28:39] WARNING root fetch - processPackages [gphoto2]: Skipping package: exceeds size limit 11006735>=10485760
+[2023-07-08 16:28:39] INFO root fetch - main [MainThread]: End processing [gphoto2] error
+[2023-07-08 16:28:39] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-08 16:28:39] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-08 16:28:39] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230708/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-08 16:28:39] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/09/a8/964baf77af35e55d269adf2d5608af6e0218a31062be9f57f073e0d572b9/impose-cli-0.1.41rc0.tar.gz
+[2023-07-08 16:28:39] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-08 16:28:39] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose-cli-0.0.41.tar.gz tmp/impose-cli-0.1.41rc0.tar.gz --markdown 20230708/i/impose-cli/0.0.41-0.1.41rc0/diff.md --exclude *.pyd
+[2023-07-08 16:28:40] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-08 16:28:40] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-08 16:28:40] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 16:28:40] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.6.3.tar.gz]
+[2023-07-08 16:28:40] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.6.4.tar.gz]
+[2023-07-08 16:28:40] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 16:28:40] INFO root fetch - processPackages [ragu]: Remove: archive file [/home/abi/fetcher/tmp/ragu-0.1.1.tar.gz]
+[2023-07-08 16:28:40] INFO root fetch - processPackages [ragu]: Remove: archive file [/home/abi/fetcher/tmp/ragu-0.1.2.tar.gz]
+[2023-07-08 16:28:40] INFO root fetch - main [MainThread]: End processing [ragu]: success
+[2023-07-08 16:28:40] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-08 16:28:40] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-08 16:28:40] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-08 16:28:40] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.0.41.tar.gz]
+[2023-07-08 16:28:40] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.1.41rc0.tar.gz]
+[2023-07-08 16:28:40] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-08 16:28:40] INFO root fetch - main [MainThread]: Store serial: [18813738]
