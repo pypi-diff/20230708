@@ -12292,3 +12292,33 @@
 [2023-07-08 07:27:47] INFO root fetch - processPackages [hyperdrive]: Remove: archive file [/home/abi/fetcher/tmp/hyperdrive-1.9.6.tar.gz]
 [2023-07-08 07:27:47] INFO root fetch - main [MainThread]: End processing [hyperdrive]: success
 [2023-07-08 07:27:47] INFO root fetch - main [MainThread]: Store serial: [18811106]
+[2023-07-08 07:32:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811106]
+[2023-07-08 07:32:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 07:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-07-08 07:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2023-07-08 07:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deltafi
+[2023-07-08 07:32:56] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.8.0] Old Version: [2023.7.7.1]
+[2023-07-08 07:32:56] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-08 07:32:56] INFO root fetch - processPackages [deltafi]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-08 07:32:56] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/80/37/72907dd647d6f86ac41fbeafae77fbf1f78c65b2c0f0789d580fc4d37aa0/crazy-thursday-2023.7.7.1.tar.gz
+[2023-07-08 07:32:56] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-08 07:32:57] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/13/e0/a1b3087b71da9c2df4a1847711dec20f795aa4224b27ba2273cf3dc175d1/deltafi-1.0.2.tar.gz
+[2023-07-08 07:32:57] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/57/b3/e48455ed2af0d4e46d529e4267587c1f4addad332545da91bc87aa4e85c4/crazy-thursday-2023.7.8.0.tar.gz
+[2023-07-08 07:32:57] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-08 07:32:57] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-08 07:32:57] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.7.1.tar.gz tmp/crazy-thursday-2023.7.8.0.tar.gz --markdown 20230708/c/crazy-thursday/2023.7.7.1-2023.7.8.0/diff.md --exclude *.pyd
+[2023-07-08 07:32:57] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-08 07:32:57] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230708/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-08 07:32:57] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/83/2b/c255d697ac7f15ee65e4169cbff330890061885e19433b553fedf0d4f8cb/deltafi-1.0.3.tar.gz
+[2023-07-08 07:32:57] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2023-07-08 07:32:57] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-1.0.2.tar.gz tmp/deltafi-1.0.3.tar.gz --markdown 20230708/d/deltafi/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-08 07:32:58] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.7.1.tar.gz]
+[2023-07-08 07:32:58] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.8.0.tar.gz]
+[2023-07-08 07:32:58] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-08 07:32:58] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-08 07:32:58] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-08 07:32:58] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-08 07:32:58] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-1.0.2.tar.gz]
+[2023-07-08 07:32:58] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-1.0.3.tar.gz]
+[2023-07-08 07:32:58] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2023-07-08 07:32:58] INFO root fetch - main [MainThread]: Store serial: [18811128]
