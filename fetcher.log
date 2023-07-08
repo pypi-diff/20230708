@@ -16018,3 +16018,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 14:06:55] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
 [2023-07-08 14:06:55] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-07-08 14:06:55] INFO root fetch - main [MainThread]: Store serial: [18812970]
+[2023-07-08 14:11:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812970]
+[2023-07-08 14:12:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-08 14:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: helicopyter
+[2023-07-08 14:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ProtonQ
+[2023-07-08 14:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs-models
+[2023-07-08 14:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dl-gates-perceptron-pkg
+[2023-07-08 14:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cinrad-data
+[2023-07-08 14:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrape-schema
+[2023-07-08 14:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seventv
+[2023-07-08 14:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cs-models
+[2023-07-08 14:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: medisynth
+[2023-07-08 14:12:04] INFO root fetch - processPackages [scrape-schema]: New version: [0.3.2] Old Version: [0.3.0]
+[2023-07-08 14:12:04] INFO root fetch - processPackages [dl-gates-perceptron-pkg]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-08 14:12:04] WARNING root fetch - processPackages [cinrad-data]: Skipping, unable to determine old version
+[2023-07-08 14:12:04] INFO root fetch - main [MainThread]: End processing [cinrad-data] error
+[2023-07-08 14:12:04] INFO root fetch - processPackages [seventv]: New version: [1.2.1] Old Version: [1.1.6]
+[2023-07-08 14:12:04] WARNING root fetch - processPackages [ProtonQ]: Skipping, unable to determine old version
+[2023-07-08 14:12:04] INFO root fetch - main [MainThread]: End processing [ProtonQ] error
+[2023-07-08 14:12:04] WARNING root fetch - processPackages [helicopyter]: Skipping, unable to determine old version
+[2023-07-08 14:12:04] INFO root fetch - main [MainThread]: End processing [helicopyter] error
+[2023-07-08 14:12:04] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-07-08 14:12:04] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-07-08 14:12:04] INFO root fetch - processPackages [medisynth]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-08 14:12:05] INFO root fetch - processPackages [dl-gates-perceptron-pkg]: Downloading https://files.pythonhosted.org/packages/db/84/4604217353280db335a01a37d1d1d7377aca561cc5120f4d488434440817/dl_gates_perceptron_pkg-0.0.3.tar.gz
+[2023-07-08 14:12:05] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/01/a8/076eb3a283cc11e0822120d69879d1aae33067fe149946a60d4757c12350/seventv-1.1.6.tar.gz
+[2023-07-08 14:12:05] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/68/d9/f7786dd2911da82f46b9f68234a768b9224b669d314fb8d7a548169df34c/scrape_schema-0.3.0.tar.gz
+[2023-07-08 14:12:05] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-07-08 14:12:05] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-07-08 14:12:05] INFO root fetch - processPackages [medisynth]: Downloading https://files.pythonhosted.org/packages/c1/af/567d192fa60ae3aea821c89af466639513f5791a8d32233c5631c57c0221/medisynth-0.0.0.tar.gz
+[2023-07-08 14:12:05] INFO root fetch - processPackages [dl-gates-perceptron-pkg]: Downloading https://files.pythonhosted.org/packages/09/84/6db0477d74a71b5315308908cff5f432a38dd7a692b08cf8939703bec7a0/dl_gates_perceptron_pkg-0.0.4.tar.gz
+[2023-07-08 14:12:05] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/23/79/d9ff4f9493e38dd2872b09518f0941143c60d47f8827a266c6654e8af2a2/seventv-1.2.1.tar.gz
+[2023-07-08 14:12:05] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/82/06/815d975f5ea1a4885193fc378a4eb78e1b83e4cd9be5b7b79883ddba4e14/scrape_schema-0.3.2.tar.gz
+[2023-07-08 14:12:05] INFO root fetch - processPackages [dl-gates-perceptron-pkg]: executing diffoscope
+[2023-07-08 14:12:05] INFO root fetch - processPackages [dl-gates-perceptron-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl_gates_perceptron_pkg-0.0.3.tar.gz tmp/dl_gates_perceptron_pkg-0.0.4.tar.gz --markdown 20230708/d/dl-gates-perceptron-pkg/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-08 14:12:05] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-07-08 14:12:05] INFO root fetch - processPackages [scrape-schema]: executing diffoscope
+[2023-07-08 14:12:05] INFO root fetch - processPackages [scrape-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrape_schema-0.3.0.tar.gz tmp/scrape_schema-0.3.2.tar.gz --markdown 20230708/s/scrape-schema/0.3.0-0.3.2/diff.md --exclude *.pyd
+[2023-07-08 14:12:05] INFO root fetch - processPackages [medisynth]: Downloading https://files.pythonhosted.org/packages/1a/66/3b9c8fbb89dba186b35928fb3537b8dc2a6888c2b591d22a3bb2a0ddcf51/medisynth-0.0.1.tar.gz
+[2023-07-08 14:12:05] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-07-08 14:12:05] INFO root fetch - processPackages [seventv]: executing diffoscope
+[2023-07-08 14:12:05] INFO root fetch - processPackages [seventv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seventv-1.1.6.tar.gz tmp/seventv-1.2.1.tar.gz --markdown 20230708/s/seventv/1.1.6-1.2.1/diff.md --exclude *.pyd
+[2023-07-08 14:12:05] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-07-08 14:12:05] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230708/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-07-08 14:12:05] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-07-08 14:12:05] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230708/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-07-08 14:12:05] INFO root fetch - processPackages [medisynth]: executing diffoscope
+[2023-07-08 14:12:05] INFO root fetch - processPackages [medisynth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medisynth-0.0.0.tar.gz tmp/medisynth-0.0.1.tar.gz --markdown 20230708/m/medisynth/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-08 14:12:06] INFO root fetch - processPackages [dl-gates-perceptron-pkg]: Remove: archive file [/home/abi/fetcher/tmp/dl_gates_perceptron_pkg-0.0.3.tar.gz]
+[2023-07-08 14:12:06] INFO root fetch - processPackages [dl-gates-perceptron-pkg]: Remove: archive file [/home/abi/fetcher/tmp/dl_gates_perceptron_pkg-0.0.4.tar.gz]
+[2023-07-08 14:12:06] INFO root fetch - main [MainThread]: End processing [dl-gates-perceptron-pkg]: success
+[2023-07-08 14:12:06] INFO root fetch - processPackages [medisynth]: Remove: archive file [/home/abi/fetcher/tmp/medisynth-0.0.0.tar.gz]
+[2023-07-08 14:12:06] INFO root fetch - processPackages [medisynth]: Remove: archive file [/home/abi/fetcher/tmp/medisynth-0.0.1.tar.gz]
+[2023-07-08 14:12:06] INFO root fetch - main [MainThread]: End processing [medisynth]: success
+[2023-07-08 14:12:06] INFO root fetch - processPackages [scrape-schema]: Remove: archive file [/home/abi/fetcher/tmp/scrape_schema-0.3.0.tar.gz]
+[2023-07-08 14:12:06] INFO root fetch - processPackages [scrape-schema]: Remove: archive file [/home/abi/fetcher/tmp/scrape_schema-0.3.2.tar.gz]
+[2023-07-08 14:12:06] INFO root fetch - main [MainThread]: End processing [scrape-schema]: success
+[2023-07-08 14:12:06] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-1.1.6.tar.gz]
+[2023-07-08 14:12:06] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-1.2.1.tar.gz]
+[2023-07-08 14:12:06] INFO root fetch - main [MainThread]: End processing [seventv]: success
+[2023-07-08 14:12:07] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2023-07-08 14:12:07] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2023-07-08 14:12:07] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-07-08 14:12:07] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-07-08 14:12:07] INFO root fetch - main [MainThread]: Store serial: [18813005]
