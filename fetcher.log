@@ -10818,3 +10818,91 @@
 [2023-07-08 05:05:54] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.1.6.tar.gz]
 [2023-07-08 05:05:54] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
 [2023-07-08 05:05:54] INFO root fetch - main [MainThread]: Store serial: [18810463]
+[2023-07-08 05:10:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810463]
+[2023-07-08 05:11:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-08 05:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hc-fib-pay
+[2023-07-08 05:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Final2x-core
+[2023-07-08 05:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ectool
+[2023-07-08 05:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slib-sorter
+[2023-07-08 05:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TheSilent
+[2023-07-08 05:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-radiance
+[2023-07-08 05:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dragonfly-energy
+[2023-07-08 05:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-storage
+[2023-07-08 05:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lbt-dragonfly
+[2023-07-08 05:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydantic-zarr
+[2023-07-08 05:11:03] WARNING root fetch - processPackages [slib-sorter]: Skipping, unable to determine old version
+[2023-07-08 05:11:03] INFO root fetch - processPackages [slib-sorter]: Start processing: TheSilent
+[2023-07-08 05:11:03] INFO root fetch - main [MainThread]: End processing [slib-sorter] error
+[2023-07-08 05:11:03] INFO root fetch - processPackages [ectool]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-08 05:11:03] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 05:11:03] INFO root fetch - processPackages [fastapi-storage]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-08 05:11:03] INFO root fetch - processPackages [Final2x-core]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-08 05:11:03] WARNING root fetch - processPackages [hc-fib-pay]: Skipping, unable to determine old version
+[2023-07-08 05:11:03] INFO root fetch - main [MainThread]: End processing [hc-fib-pay] error
+[2023-07-08 05:11:03] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-08 05:11:03] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-08 05:11:03] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 05:11:03] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-08 05:11:03] INFO root fetch - processPackages [pydantic-zarr]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-08 05:11:03] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [ectool]: Downloading https://files.pythonhosted.org/packages/0d/33/b0306c08c2f2c3957560e85f139d8762686d23e9f7f2bd1a011160cbe4c2/ectool-1.1.4.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [fastapi-storage]: Downloading https://files.pythonhosted.org/packages/2f/d5/3a8fadf8fa3b8da5ae816c623c0511c3ab4308182689a2b225a31355b6da/fastapi-storage-1.0.0.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [Final2x-core]: Downloading https://files.pythonhosted.org/packages/47/83/87b9e535ca09885ce8fb40930c6123b4505355d10c4d7319bac8893f17a9/Final2x-core-1.0.0.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [pydantic-zarr]: Downloading https://files.pythonhosted.org/packages/d8/e8/a7288ac299adbc7ec7fcf134cddef6b5087145e1a57000671406434fc686/pydantic_zarr-0.3.0.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [ectool]: Downloading https://files.pythonhosted.org/packages/a9/b4/e64b71886d025124d7307e9131696741d218d0d46a606dada74543a341f5/ectool-1.1.5.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-07-08 05:11:03] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230708/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-08 05:11:03] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [Final2x-core]: Downloading https://files.pythonhosted.org/packages/4f/e2/953ab4f505befca93b1cae4364170e1a83e29c13055c7e795aa50c0b4181/Final2x-core-1.0.1.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [fastapi-storage]: Downloading https://files.pythonhosted.org/packages/83/66/a10658be10a964f277f85eea58a6ea8a76695ae6f6ce619dbe64f94498e2/fastapi-storage-1.0.1.tar.gz
+[2023-07-08 05:11:03] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-07-08 05:11:03] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230708/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-08 05:11:03] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-08 05:11:03] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230708/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-08 05:11:04] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-08 05:11:04] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230708/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 05:11:04] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-08 05:11:04] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230708/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 05:11:04] INFO root fetch - processPackages [fastapi-storage]: executing diffoscope
+[2023-07-08 05:11:04] INFO root fetch - processPackages [fastapi-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-storage-1.0.0.tar.gz tmp/fastapi-storage-1.0.1.tar.gz --markdown 20230708/f/fastapi-storage/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 05:11:04] INFO root fetch - processPackages [ectool]: executing diffoscope
+[2023-07-08 05:11:04] INFO root fetch - processPackages [ectool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ectool-1.1.4.tar.gz tmp/ectool-1.1.5.tar.gz --markdown 20230708/e/ectool/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-08 05:11:04] INFO root fetch - processPackages [Final2x-core]: executing diffoscope
+[2023-07-08 05:11:04] INFO root fetch - processPackages [Final2x-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Final2x-core-1.0.0.tar.gz tmp/Final2x-core-1.0.1.tar.gz --markdown 20230708/F/Final2x-core/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 05:11:04] INFO root fetch - processPackages [pydantic-zarr]: Downloading https://files.pythonhosted.org/packages/2f/55/34d98f55b27538f2652d52c1a0e6463971bd52e63a4b50927d1cceae7915/pydantic_zarr-0.4.0.tar.gz
+[2023-07-08 05:11:04] INFO root fetch - processPackages [pydantic-zarr]: executing diffoscope
+[2023-07-08 05:11:04] INFO root fetch - processPackages [pydantic-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_zarr-0.3.0.tar.gz tmp/pydantic_zarr-0.4.0.tar.gz --markdown 20230708/p/pydantic-zarr/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-08 05:11:05] INFO root fetch - processPackages [fastapi-storage]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-storage-1.0.0.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - processPackages [fastapi-storage]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-storage-1.0.1.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - main [MainThread]: End processing [fastapi-storage]: success
+[2023-07-08 05:11:05] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.8.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-07-08 05:11:05] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-08 05:11:05] INFO root fetch - processPackages [ectool]: Remove: archive file [/home/abi/fetcher/tmp/ectool-1.1.4.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - processPackages [ectool]: Remove: archive file [/home/abi/fetcher/tmp/ectool-1.1.5.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - main [MainThread]: End processing [ectool]: success
+[2023-07-08 05:11:05] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-08 05:11:05] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-08 05:11:05] INFO root fetch - processPackages [Final2x-core]: Remove: archive file [/home/abi/fetcher/tmp/Final2x-core-1.0.0.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - processPackages [Final2x-core]: Remove: archive file [/home/abi/fetcher/tmp/Final2x-core-1.0.1.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - main [MainThread]: End processing [Final2x-core]: success
+[2023-07-08 05:11:05] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-07-08 05:11:05] INFO root fetch - processPackages [pydantic-zarr]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_zarr-0.3.0.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - processPackages [pydantic-zarr]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_zarr-0.4.0.tar.gz]
+[2023-07-08 05:11:05] INFO root fetch - main [MainThread]: End processing [pydantic-zarr]: success
+[2023-07-08 05:11:05] INFO root fetch - main [MainThread]: Store serial: [18810503]
