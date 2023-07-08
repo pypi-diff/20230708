@@ -11301,3 +11301,33 @@
 [2023-07-08 05:43:24] INFO root fetch - processPackages [streamlit-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-code-editor-0.1.7.tar.gz]
 [2023-07-08 05:43:24] INFO root fetch - main [MainThread]: End processing [streamlit-code-editor]: success
 [2023-07-08 05:43:24] INFO root fetch - main [MainThread]: Store serial: [18810666]
+[2023-07-08 05:48:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810666]
+[2023-07-08 05:48:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 05:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: karaoke-video-generator
+[2023-07-08 05:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miniosl
+[2023-07-08 05:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-helpdesk-mgmt
+[2023-07-08 05:48:34] INFO root fetch - processPackages [miniosl]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-07-08 05:48:34] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-07-08 05:48:34] INFO root fetch - processPackages [karaoke-video-generator]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-08 05:48:34] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/84/01/c800ed8af03f17f372fc40d2b25ffb9631f124e9b10d8d7a497448fc0c05/odoo_addon_helpdesk_mgmt-16.0.1.1.0-py3-none-any.whl
+[2023-07-08 05:48:35] INFO root fetch - processPackages [karaoke-video-generator]: Downloading https://files.pythonhosted.org/packages/c6/c3/e28ed9c146c67e09bbe8e348bbd83be96938a51ea31d1f945020592a4be6/karaoke_video_generator-0.3.0.tar.gz
+[2023-07-08 05:48:35] INFO root fetch - processPackages [miniosl]: Downloading https://files.pythonhosted.org/packages/7f/f2/f3a500f7ad6cee7bace95455bc11468773037f81943dca517cbfede06961/miniosl-0.0.6-cp310-cp310-manylinux_2_28_x86_64.whl
+[2023-07-08 05:48:35] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/f0/77/0d23bdb1207b16d33fd516bcffc387032cab95005d43c533fb97ee94dcd7/odoo_addon_helpdesk_mgmt-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-08 05:48:35] INFO root fetch - processPackages [karaoke-video-generator]: Downloading https://files.pythonhosted.org/packages/6e/85/74bf056ad2b4c30f081c8daca6098d783c4373dd3d096aaea880a1b36632/karaoke_video_generator-0.4.0.tar.gz
+[2023-07-08 05:48:35] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2023-07-08 05:48:35] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230708/o/odoo-addon-helpdesk-mgmt/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-07-08 05:48:35] INFO root fetch - processPackages [karaoke-video-generator]: executing diffoscope
+[2023-07-08 05:48:35] INFO root fetch - processPackages [karaoke-video-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karaoke_video_generator-0.3.0.tar.gz tmp/karaoke_video_generator-0.4.0.tar.gz --markdown 20230708/k/karaoke-video-generator/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-08 05:48:35] INFO root fetch - processPackages [miniosl]: Downloading https://files.pythonhosted.org/packages/ec/23/0a40da03e8d4efaa180037441979bfeecb3b76264d97ff4a9b50aca248fb/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl
+[2023-07-08 05:48:35] INFO root fetch - processPackages [miniosl]: executing diffoscope
+[2023-07-08 05:48:35] INFO root fetch - processPackages [miniosl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniosl-0.0.6-cp310-cp310-manylinux_2_28_x86_64.whl.zip tmp/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl.zip --markdown 20230708/m/miniosl/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-07-08 05:48:36] INFO root fetch - processPackages [karaoke-video-generator]: Remove: archive file [/home/abi/fetcher/tmp/karaoke_video_generator-0.3.0.tar.gz]
+[2023-07-08 05:48:36] INFO root fetch - processPackages [karaoke-video-generator]: Remove: archive file [/home/abi/fetcher/tmp/karaoke_video_generator-0.4.0.tar.gz]
+[2023-07-08 05:48:36] INFO root fetch - main [MainThread]: End processing [karaoke-video-generator]: success
+[2023-07-08 05:48:36] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-08 05:48:36] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-08 05:48:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2023-07-08 05:48:43] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.6-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
+[2023-07-08 05:48:43] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
+[2023-07-08 05:48:43] INFO root fetch - main [MainThread]: End processing [miniosl]: success
+[2023-07-08 05:48:43] INFO root fetch - main [MainThread]: Store serial: [18810683]
