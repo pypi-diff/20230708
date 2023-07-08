@@ -10209,3 +10209,57 @@
 [2023-07-08 04:01:37] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-csgo-case-simulator-0.1.9.tar.gz]
 [2023-07-08 04:01:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-csgo-case-simulator]: success
 [2023-07-08 04:01:37] INFO root fetch - main [MainThread]: Store serial: [18810222]
+[2023-07-08 04:06:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810222]
+[2023-07-08 04:06:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 04:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepllm
+[2023-07-08 04:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TheSilent
+[2023-07-08 04:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geovista
+[2023-07-08 04:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: playgroundrl
+[2023-07-08 04:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fullask-rest-framework
+[2023-07-08 04:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: g2p-arpabet
+[2023-07-08 04:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: slib-sorter
+[2023-07-08 04:06:48] INFO root fetch - processPackages [deepllm]: New version: [0.6.0] Old Version: [0.5.8]
+[2023-07-08 04:06:48] INFO root fetch - processPackages [geovista]: New version: [0.2.0] Old Version: [0.1a0]
+[2023-07-08 04:06:48] WARNING root fetch - processPackages [slib-sorter]: Skipping, unable to determine old version
+[2023-07-08 04:06:48] INFO root fetch - main [MainThread]: End processing [slib-sorter] error
+[2023-07-08 04:06:48] INFO root fetch - processPackages [playgroundrl]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-08 04:06:48] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-08 04:06:48] WARNING root fetch - processPackages [g2p-arpabet]: Skipping, unable to determine old version
+[2023-07-08 04:06:48] INFO root fetch - main [MainThread]: End processing [g2p-arpabet] error
+[2023-07-08 04:06:48] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 04:06:48] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/b2/f0/43078df0ba2e8d6a3a264f35f3295392f516f3bad8e4cdce36ddc371b9f0/fullask_rest_framework-0.6.1.tar.gz
+[2023-07-08 04:06:48] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/63/11/9d65cb7671a372963baf76c7480d89f4e19ec9726bcc1be4089e64f7b09f/deepllm-0.5.8.tar.gz
+[2023-07-08 04:06:48] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-08 04:06:48] INFO root fetch - processPackages [geovista]: Downloading https://files.pythonhosted.org/packages/ab/55/d4cfdc821121cec19fd327218c4ef6ee2e8374a0b1315f20d221a7e78cd6/geovista-0.1a0.tar.gz
+[2023-07-08 04:06:48] INFO root fetch - processPackages [playgroundrl]: Downloading https://files.pythonhosted.org/packages/aa/a8/fa0c649a729f0f44ede06c059ea6fb112a135bf99801661f50709f8633aa/playgroundrl-0.0.7.tar.gz
+[2023-07-08 04:06:48] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/b6/57/443ec802818bdaf35ca9f895df4ab1f42dd6d2bc70c663b335e8936d686c/fullask_rest_framework-0.7.0.tar.gz
+[2023-07-08 04:06:48] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-08 04:06:48] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-07-08 04:06:48] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask_rest_framework-0.6.1.tar.gz tmp/fullask_rest_framework-0.7.0.tar.gz --markdown 20230708/f/fullask-rest-framework/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-08 04:06:48] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/a3/9f/d0255dddc1a307343314328f5624ecf210bdcd3690460ce10ce1f273ec80/deepllm-0.6.0.tar.gz
+[2023-07-08 04:06:48] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-08 04:06:48] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230708/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 04:06:48] INFO root fetch - processPackages [deepllm]: executing diffoscope
+[2023-07-08 04:06:48] INFO root fetch - processPackages [deepllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepllm-0.5.8.tar.gz tmp/deepllm-0.6.0.tar.gz --markdown 20230708/d/deepllm/0.5.8-0.6.0/diff.md --exclude *.pyd
+[2023-07-08 04:06:48] INFO root fetch - processPackages [playgroundrl]: Downloading https://files.pythonhosted.org/packages/e0/a1/8119120b75dcc8bb13f2eae252e7343d8e280ab3ac7c30fadbf52066b42e/playgroundrl-0.0.8.tar.gz
+[2023-07-08 04:06:48] INFO root fetch - processPackages [geovista]: Downloading https://files.pythonhosted.org/packages/22/5c/29c11ec9621622f60144a1300051341cdbba7a50ba1d1677e34fc526a77a/geovista-0.2.0.tar.gz
+[2023-07-08 04:06:49] INFO root fetch - processPackages [playgroundrl]: executing diffoscope
+[2023-07-08 04:06:49] INFO root fetch - processPackages [playgroundrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playgroundrl-0.0.7.tar.gz tmp/playgroundrl-0.0.8.tar.gz --markdown 20230708/p/playgroundrl/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-08 04:06:49] INFO root fetch - processPackages [geovista]: executing diffoscope
+[2023-07-08 04:06:49] INFO root fetch - processPackages [geovista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geovista-0.1a0.tar.gz tmp/geovista-0.2.0.tar.gz --markdown 20230708/g/geovista/0.1a0-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 04:06:49] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-08 04:06:49] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-08 04:06:49] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-08 04:06:49] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-0.5.8.tar.gz]
+[2023-07-08 04:06:49] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-0.6.0.tar.gz]
+[2023-07-08 04:06:49] INFO root fetch - main [MainThread]: End processing [deepllm]: success
+[2023-07-08 04:06:49] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask_rest_framework-0.6.1.tar.gz]
+[2023-07-08 04:06:49] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask_rest_framework-0.7.0.tar.gz]
+[2023-07-08 04:06:49] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-07-08 04:06:49] INFO root fetch - processPackages [playgroundrl]: Remove: archive file [/home/abi/fetcher/tmp/playgroundrl-0.0.7.tar.gz]
+[2023-07-08 04:06:49] INFO root fetch - processPackages [playgroundrl]: Remove: archive file [/home/abi/fetcher/tmp/playgroundrl-0.0.8.tar.gz]
+[2023-07-08 04:06:49] INFO root fetch - main [MainThread]: End processing [playgroundrl]: success
+[2023-07-08 04:06:50] INFO root fetch - processPackages [geovista]: Remove: archive file [/home/abi/fetcher/tmp/geovista-0.1a0.tar.gz]
+[2023-07-08 04:06:50] INFO root fetch - processPackages [geovista]: Remove: archive file [/home/abi/fetcher/tmp/geovista-0.2.0.tar.gz]
+[2023-07-08 04:06:50] INFO root fetch - main [MainThread]: End processing [geovista]: success
+[2023-07-08 04:06:50] INFO root fetch - main [MainThread]: Store serial: [18810271]
