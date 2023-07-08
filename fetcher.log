@@ -16743,3 +16743,97 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 15:09:50] INFO root fetch - processPackages [smplotlib]: Remove: archive file [/home/abi/fetcher/tmp/smplotlib-0.0.9.tar.gz]
 [2023-07-08 15:09:50] INFO root fetch - main [MainThread]: End processing [smplotlib]: success
 [2023-07-08 15:09:50] INFO root fetch - main [MainThread]: Store serial: [18813270]
+[2023-07-08 15:14:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813270]
+[2023-07-08 15:15:00] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-08 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lihailin
+[2023-07-08 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysomneo
+[2023-07-08 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slib-sorter
+[2023-07-08 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-numpy
+[2023-07-08 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aider-chat
+[2023-07-08 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NeuroNode
+[2023-07-08 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-pandas
+[2023-07-08 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PySideSix-Frameless-Window
+[2023-07-08 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysomneo
+[2023-07-08 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-pytorch
+[2023-07-08 15:15:00] WARNING root fetch - processPackages [lihailin]: Skipping, unable to determine old version
+[2023-07-08 15:15:00] INFO root fetch - processPackages [lihailin]: Start processing: nbdev-scipy
+[2023-07-08 15:15:00] INFO root fetch - main [MainThread]: End processing [lihailin] error
+[2023-07-08 15:15:00] INFO root fetch - processPackages [aider-chat]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-08 15:15:00] INFO root fetch - processPackages [slib-sorter]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-07-08 15:15:00] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 15:15:00] INFO root fetch - processPackages [NeuroNode]: New version: [3.3] Old Version: [2.3]
+[2023-07-08 15:15:00] INFO root fetch - processPackages [PySideSix-Frameless-Window]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 15:15:00] INFO root fetch - processPackages [pysomneo]: New version: [3.0.0a2] Old Version: [3.0.0a1]
+[2023-07-08 15:15:00] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 15:15:00] INFO root fetch - processPackages [pysomneo]: New version: [3.0.0a2] Old Version: [3.0.0a1]
+[2023-07-08 15:15:00] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 15:15:00] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 15:15:01] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/f2/bd/adba3bc777a3c269f17ec5f0cd92a5b58a364206a99bb5c79eb94771677e/aider-chat-0.8.1.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/d7/7f/a19440fc43d87b881f04bcaa16f150ba6459b649fd7fb68d37547051e7ab/NeuroNode-2.3.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/29/86/02243f752d262c9931959d46b1ae775c5e1031d0eef5bb136b05cf93e3c4/slib-sorter-1.5.5.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/34/20/2d6a76a2c1834da725edbeecd46345f71b5552cf04d2c56d3d1ca392145e/pysomneo-3.0.0a1.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/34/20/2d6a76a2c1834da725edbeecd46345f71b5552cf04d2c56d3d1ca392145e/pysomneo-3.0.0a1.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [PySideSix-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/38/0c/283e2e26df9b5e8f9c6eadf1eb99454a369d28bd111cdc1b7c772323c39f/PySideSix-Frameless-Window-0.1.0.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/30/d0/736a9a79b0ca56472cbc0617919ca9c85172014263988ae2c981d16a8f00/NeuroNode-3.3.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/f0/32/f8a28dfa2be7cc5555e50ccad9d94f035891dccc740d0c704898e0c50545/aider-chat-0.8.2.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230708/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 15:15:01] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/02/4e/b38e26ae332f93ed598596b25cf5459d6266e83a59697b5b915d6b71c8ce/pysomneo-3.0.0a2.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/27/b4/116819982ac4c0c4154cfaadd687e7abae1dd325899e1d29444c19e00352/slib-sorter-1.5.6.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230708/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 15:15:01] INFO root fetch - processPackages [NeuroNode]: executing diffoscope
+[2023-07-08 15:15:01] INFO root fetch - processPackages [NeuroNode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroNode-2.3.tar.gz tmp/NeuroNode-3.3.tar.gz --markdown 20230708/N/NeuroNode/2.3-3.3/diff.md --exclude *.pyd
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230708/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-08 15:15:01] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230708/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 15:15:01] INFO root fetch - processPackages [PySideSix-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/a9/73/577a60e441e629beba7acfdc77a78b54a78eaf8a36b4506aa167a6e7de41/PySideSix-Frameless-Window-0.1.1.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/02/4e/b38e26ae332f93ed598596b25cf5459d6266e83a59697b5b915d6b71c8ce/pysomneo-3.0.0a2.tar.gz
+[2023-07-08 15:15:01] INFO root fetch - processPackages [aider-chat]: executing diffoscope
+[2023-07-08 15:15:01] INFO root fetch - processPackages [aider-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aider-chat-0.8.1.tar.gz tmp/aider-chat-0.8.2.tar.gz --markdown 20230708/a/aider-chat/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-08 15:15:02] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 15:15:02] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.5.5.tar.gz tmp/slib-sorter-1.5.6.tar.gz --markdown 20230708/s/slib-sorter/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-07-08 15:15:02] INFO root fetch - processPackages [pysomneo]: executing diffoscope
+[2023-07-08 15:15:02] INFO root fetch - processPackages [pysomneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysomneo-3.0.0a1.tar.gz tmp/pysomneo-3.0.0a2.tar.gz --markdown 20230708/p/pysomneo/3.0.0a1-3.0.0a2/diff.md --exclude *.pyd
+[2023-07-08 15:15:02] INFO root fetch - processPackages [pysomneo]: executing diffoscope
+[2023-07-08 15:15:02] INFO root fetch - processPackages [pysomneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysomneo-3.0.0a1.tar.gz tmp/pysomneo-3.0.0a2.tar.gz --markdown 20230708/p/pysomneo/3.0.0a1-3.0.0a2/diff.md --exclude *.pyd
+[2023-07-08 15:15:02] INFO root fetch - processPackages [PySideSix-Frameless-Window]: executing diffoscope
+[2023-07-08 15:15:02] INFO root fetch - processPackages [PySideSix-Frameless-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySideSix-Frameless-Window-0.1.0.tar.gz tmp/PySideSix-Frameless-Window-0.1.1.tar.gz --markdown 20230708/P/PySideSix-Frameless-Window/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 15:15:03] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-08 15:15:03] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-08 15:15:03] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-08 15:15:03] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-08 15:15:03] INFO root fetch - processPackages [pysomneo]: Remove: archive file [/home/abi/fetcher/tmp/pysomneo-3.0.0a1.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - processPackages [pysomneo]: Remove: archive file [/home/abi/fetcher/tmp/pysomneo-3.0.0a2.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - main [MainThread]: End processing [pysomneo]: success
+[2023-07-08 15:15:03] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-2.3.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.3.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - main [MainThread]: End processing [NeuroNode]: success
+[2023-07-08 15:15:03] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.5.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.6.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 15:15:03] INFO root fetch - processPackages [PySideSix-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySideSix-Frameless-Window-0.1.0.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - processPackages [PySideSix-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySideSix-Frameless-Window-0.1.1.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - main [MainThread]: End processing [PySideSix-Frameless-Window]: success
+[2023-07-08 15:15:03] INFO root fetch - main [MainThread]: End processing [pysomneo]: success
+[2023-07-08 15:15:03] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.8.1.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.8.2.tar.gz]
+[2023-07-08 15:15:03] INFO root fetch - main [MainThread]: End processing [aider-chat]: success
+[2023-07-08 15:15:03] INFO root fetch - main [MainThread]: Store serial: [18813311]
