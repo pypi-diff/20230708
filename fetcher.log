@@ -20075,3 +20075,82 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 19:22:05] INFO root fetch - processPackages [pantsbuild.pants.testutil]: Remove: archive file [/home/abi/fetcher/tmp/pantsbuild.pants.testutil-2.9.2rc0-py37.py38.py39-none-any.whl.zip]
 [2023-07-08 19:22:05] INFO root fetch - main [MainThread]: End processing [pantsbuild.pants.testutil]: success
 [2023-07-08 19:22:05] INFO root fetch - main [MainThread]: Store serial: [18814812]
+[2023-07-08 19:27:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814812]
+[2023-07-08 19:27:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-08 19:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-07-08 19:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slurminade
+[2023-07-08 19:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-07-08 19:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-survey-result-mail
+[2023-07-08 19:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: veejnashello
+[2023-07-08 19:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seventv
+[2023-07-08 19:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: impose-cli
+[2023-07-08 19:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wizlib
+[2023-07-08 19:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reprim
+[2023-07-08 19:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyciactions
+[2023-07-08 19:27:15] INFO root fetch - processPackages [reprim]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-08 19:27:15] INFO root fetch - processPackages [impose-cli]: New version: [0.1.41rc5] Old Version: [0.1.41rc4]
+[2023-07-08 19:27:15] INFO root fetch - processPackages [wizlib]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-08 19:27:15] INFO root fetch - processPackages [seventv]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-08 19:27:15] INFO root fetch - processPackages [pyciactions]: New version: [1.0.9] Old Version: [1.0.8a8]
+[2023-07-08 19:27:15] WARNING root fetch - processPackages [veejnashello]: Skipping, unable to determine old version
+[2023-07-08 19:27:15] INFO root fetch - main [MainThread]: End processing [veejnashello] error
+[2023-07-08 19:27:15] INFO root fetch - processPackages [slurminade]: New version: [0.7.1] Old Version: [0.6.1]
+[2023-07-08 19:27:15] WARNING root fetch - processPackages [odoo13-addon-survey-result-mail]: Skipping, unable to determine old version
+[2023-07-08 19:27:15] INFO root fetch - main [MainThread]: End processing [odoo13-addon-survey-result-mail] error
+[2023-07-08 19:27:15] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-08 19:27:15] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-08 19:27:15] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/4f/f3/3f4bce0f1e4c09bf27f8534421b31f53514ec81a4b706ba66930ae207c9f/pyciactions-1.0.8a8.tar.gz
+[2023-07-08 19:27:15] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/5e/ca/ac7c728c700a7b10cb87ff73f4a288de7cafffc9fa8df02551b3781dd473/seventv-1.2.2.tar.gz
+[2023-07-08 19:27:15] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/7a/7c/a7c0dd1d0df886c980b9e170f8fac44a626c702306236e79bebfb25f3a9a/impose_cli-0.1.41rc4-py3-none-any.whl
+[2023-07-08 19:27:15] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/57/43/701875f7ada993e914e4bd60724a9db9836c779ece77b0ac5fbb4d34fda6/wizlib-0.2.5.tar.gz
+[2023-07-08 19:27:15] INFO root fetch - processPackages [reprim]: Downloading https://files.pythonhosted.org/packages/b1/61/26ffd977afc68f65fcc2598a6b4e6817403482ce21f06850706d7f24656c/reprim-0.0.3.tar.gz
+[2023-07-08 19:27:15] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-08 19:27:15] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-08 19:27:15] INFO root fetch - processPackages [slurminade]: Downloading https://files.pythonhosted.org/packages/0c/19/7907d75b45d1729d212265ced0dde91895bff83ec0e547b67971be91c376/slurminade-0.6.1.tar.gz
+[2023-07-08 19:27:15] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/0f/62/e4015992d31b4105ce97ce46a703f3081e897a12b528d062b60c344255b4/seventv-1.2.3.tar.gz
+[2023-07-08 19:27:15] INFO root fetch - processPackages [pyciactions]: Downloading https://files.pythonhosted.org/packages/31/76/449e2f9925c75cb9cae72fcc6ebcb769640e519cf941ad29cee965d3ac35/pyciactions-1.0.9.tar.gz
+[2023-07-08 19:27:15] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/08/60/658654bfcc237ad7b2bf0320855da43e0a9611295635a958082df7f1b04c/wizlib-0.2.6.tar.gz
+[2023-07-08 19:27:15] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-08 19:27:16] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-08 19:27:16] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/3c/51/ae8a1f7c4636fbb27adeb129068f901db5bc03369cab947f7c5a8d9aa3db/impose_cli-0.1.41rc5-py3-none-any.whl
+[2023-07-08 19:27:16] INFO root fetch - processPackages [reprim]: Downloading https://files.pythonhosted.org/packages/59/0d/8054fe1817187b48de9ebebfbbc55fd4d8512fe7a2b9492f943f0498e07e/reprim-0.0.4.tar.gz
+[2023-07-08 19:27:16] INFO root fetch - processPackages [seventv]: executing diffoscope
+[2023-07-08 19:27:16] INFO root fetch - processPackages [seventv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seventv-1.2.2.tar.gz tmp/seventv-1.2.3.tar.gz --markdown 20230708/s/seventv/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-08 19:27:16] INFO root fetch - processPackages [pyciactions]: executing diffoscope
+[2023-07-08 19:27:16] INFO root fetch - processPackages [pyciactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciactions-1.0.8a8.tar.gz tmp/pyciactions-1.0.9.tar.gz --markdown 20230708/p/pyciactions/1.0.8a8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 19:27:16] INFO root fetch - processPackages [wizlib]: executing diffoscope
+[2023-07-08 19:27:16] INFO root fetch - processPackages [wizlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizlib-0.2.5.tar.gz tmp/wizlib-0.2.6.tar.gz --markdown 20230708/w/wizlib/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-08 19:27:16] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-08 19:27:16] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230708/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-08 19:27:16] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-08 19:27:16] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230708/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-08 19:27:16] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-08 19:27:16] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose_cli-0.1.41rc4-py3-none-any.whl.zip tmp/impose_cli-0.1.41rc5-py3-none-any.whl.zip --markdown 20230708/i/impose-cli/0.1.41rc4-0.1.41rc5/diff.md --exclude *.pyd
+[2023-07-08 19:27:16] INFO root fetch - processPackages [reprim]: executing diffoscope
+[2023-07-08 19:27:16] INFO root fetch - processPackages [reprim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprim-0.0.3.tar.gz tmp/reprim-0.0.4.tar.gz --markdown 20230708/r/reprim/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-08 19:27:16] INFO root fetch - processPackages [slurminade]: Downloading https://files.pythonhosted.org/packages/9b/cf/b759e53591dc7f93a5aaf0f112ad5e37448c8f84db1373b9e65ba217e360/slurminade-0.7.1.tar.gz
+[2023-07-08 19:27:16] INFO root fetch - processPackages [slurminade]: executing diffoscope
+[2023-07-08 19:27:16] INFO root fetch - processPackages [slurminade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurminade-0.6.1.tar.gz tmp/slurminade-0.7.1.tar.gz --markdown 20230708/s/slurminade/0.6.1-0.7.1/diff.md --exclude *.pyd
+[2023-07-08 19:27:17] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-1.2.2.tar.gz]
+[2023-07-08 19:27:17] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-1.2.3.tar.gz]
+[2023-07-08 19:27:17] INFO root fetch - main [MainThread]: End processing [seventv]: success
+[2023-07-08 19:27:17] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.8a8.tar.gz]
+[2023-07-08 19:27:17] INFO root fetch - processPackages [pyciactions]: Remove: archive file [/home/abi/fetcher/tmp/pyciactions-1.0.9.tar.gz]
+[2023-07-08 19:27:17] INFO root fetch - main [MainThread]: End processing [pyciactions]: success
+[2023-07-08 19:27:17] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.2.5.tar.gz]
+[2023-07-08 19:27:17] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.2.6.tar.gz]
+[2023-07-08 19:27:17] INFO root fetch - main [MainThread]: End processing [wizlib]: success
+[2023-07-08 19:27:17] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose_cli-0.1.41rc4-py3-none-any.whl.zip]
+[2023-07-08 19:27:17] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose_cli-0.1.41rc5-py3-none-any.whl.zip]
+[2023-07-08 19:27:17] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-08 19:27:17] INFO root fetch - processPackages [reprim]: Remove: archive file [/home/abi/fetcher/tmp/reprim-0.0.3.tar.gz]
+[2023-07-08 19:27:17] INFO root fetch - processPackages [reprim]: Remove: archive file [/home/abi/fetcher/tmp/reprim-0.0.4.tar.gz]
+[2023-07-08 19:27:17] INFO root fetch - main [MainThread]: End processing [reprim]: success
+[2023-07-08 19:27:17] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-08 19:27:17] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-08 19:27:17] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-08 19:27:17] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-08 19:27:17] INFO root fetch - processPackages [slurminade]: Remove: archive file [/home/abi/fetcher/tmp/slurminade-0.6.1.tar.gz]
+[2023-07-08 19:27:17] INFO root fetch - processPackages [slurminade]: Remove: archive file [/home/abi/fetcher/tmp/slurminade-0.7.1.tar.gz]
+[2023-07-08 19:27:17] INFO root fetch - main [MainThread]: End processing [slurminade]: success
+[2023-07-08 19:27:17] INFO root fetch - main [MainThread]: Store serial: [18814846]
