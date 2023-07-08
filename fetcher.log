@@ -22509,3 +22509,75 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 23:16:05] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.9.tar.gz]
 [2023-07-08 23:16:05] INFO root fetch - main [MainThread]: End processing [ml-pretrained]: success
 [2023-07-08 23:16:05] INFO root fetch - main [MainThread]: Store serial: [18815912]
+[2023-07-08 23:21:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815912]
+[2023-07-08 23:21:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-08 23:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: findmyorder
+[2023-07-08 23:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qvsed
+[2023-07-08 23:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edubot
+[2023-07-08 23:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dantro
+[2023-07-08 23:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kodexa
+[2023-07-08 23:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GameWidgets
+[2023-07-08 23:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testlibraryorsomething
+[2023-07-08 23:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taxonomy-connector
+[2023-07-08 23:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: get-contribution
+[2023-07-08 23:21:15] INFO root fetch - processPackages [GameWidgets]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-08 23:21:15] WARNING root fetch - processPackages [testlibraryorsomething]: Skipping, unable to determine old version
+[2023-07-08 23:21:15] INFO root fetch - main [MainThread]: End processing [testlibraryorsomething] error
+[2023-07-08 23:21:15] INFO root fetch - processPackages [edubot]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-08 23:21:15] INFO root fetch - processPackages [qvsed]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-08 23:21:15] INFO root fetch - processPackages [dantro]: New version: [0.19.0b2] Old Version: [0.19.0b1]
+[2023-07-08 23:21:15] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 23:21:15] WARNING root fetch - processPackages [get-contribution]: Skipping, unable to determine old version
+[2023-07-08 23:21:15] INFO root fetch - main [MainThread]: End processing [get-contribution] error
+[2023-07-08 23:21:15] INFO root fetch - processPackages [kodexa]: New version: [6.2.3a5260876523] Old Version: [6.2.3a5260620995]
+[2023-07-08 23:21:15] INFO root fetch - processPackages [taxonomy-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-08 23:21:15] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/4c/a2/4f7e5277359ed31a0f83406591f065419f2c2f936bdbee01d9e868467e08/qvsed-1.3.4.tar.gz
+[2023-07-08 23:21:15] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 23:21:15] INFO root fetch - processPackages [GameWidgets]: Downloading https://files.pythonhosted.org/packages/57/79/1bbbc7e8653e8d0eb7606eee0495f5550e3d9f69ab43a87100e8338a7f4c/GameWidgets-0.1.7.tar.gz
+[2023-07-08 23:21:15] INFO root fetch - processPackages [edubot]: Downloading https://files.pythonhosted.org/packages/e2/f6/fa70a8e4f492ca6d79776f8b76812c79919425705711b83b9fabda8ec9fb/edubot-0.7.2.tar.gz
+[2023-07-08 23:21:15] INFO root fetch - processPackages [dantro]: Downloading https://files.pythonhosted.org/packages/f9/aa/62b4f832a665f29fbb2355476d08a99c2df3136328fb8594fdc1f80e16ee/dantro-0.19.0b1.tar.gz
+[2023-07-08 23:21:15] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/5d/4b/e7ced7ca14408b830a8328f39e2d8f45aaf6d9ecbf973158d33f0eb56629/kodexa-6.2.3a5260620995.tar.gz
+[2023-07-08 23:21:15] INFO root fetch - processPackages [taxonomy-connector]: Downloading https://files.pythonhosted.org/packages/86/d4/cc43cca65b5c3a1ffb7ae8e713f7aa52c9f9dbb7b0c7e2655457762c6d7b/taxonomy-connector-1.8.0.tar.gz
+[2023-07-08 23:21:15] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 23:21:16] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/d2/39/542aaabf9f6a0e276d1ffd4d1dfe1e492d53ab99ad91061646c502ad0bb8/qvsed-1.3.5.tar.gz
+[2023-07-08 23:21:16] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 23:21:16] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 23:21:16] INFO root fetch - processPackages [GameWidgets]: Downloading https://files.pythonhosted.org/packages/9d/96/ccacd4d4f25ca490f111f34bd1118be784348eb2357ace20a8a7ccc4aa36/GameWidgets-0.1.8.tar.gz
+[2023-07-08 23:21:16] INFO root fetch - processPackages [edubot]: Downloading https://files.pythonhosted.org/packages/f2/48/cf1ff05f647e7c2bdb6a0dbf9c482e657b80c6062ecf140c56d21dc43dcb/edubot-0.7.3.tar.gz
+[2023-07-08 23:21:16] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-08 23:21:16] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.3.4.tar.gz tmp/qvsed-1.3.5.tar.gz --markdown 20230708/q/qvsed/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-08 23:21:16] INFO root fetch - processPackages [taxonomy-connector]: Downloading https://files.pythonhosted.org/packages/60/82/6933c49b21a0da5d910b384c5a3e2d4e588fb3ed4771a25beb40febc3ed4/taxonomy-connector-1.9.0.tar.gz
+[2023-07-08 23:21:16] INFO root fetch - processPackages [GameWidgets]: executing diffoscope
+[2023-07-08 23:21:16] INFO root fetch - processPackages [GameWidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GameWidgets-0.1.7.tar.gz tmp/GameWidgets-0.1.8.tar.gz --markdown 20230708/G/GameWidgets/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-08 23:21:16] INFO root fetch - processPackages [dantro]: Downloading https://files.pythonhosted.org/packages/06/e8/bf109eb8835d727be9a5b3e293c34fc9f0eba5425c206eceaf2272ff7c47/dantro-0.19.0b2.tar.gz
+[2023-07-08 23:21:16] INFO root fetch - processPackages [edubot]: executing diffoscope
+[2023-07-08 23:21:16] INFO root fetch - processPackages [edubot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edubot-0.7.2.tar.gz tmp/edubot-0.7.3.tar.gz --markdown 20230708/e/edubot/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-08 23:21:16] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/4a/66/617dd208a245435e376984f62632bbda4041e15ec88b301ccf1e07f3d6fd/kodexa-6.2.3a5260876523.tar.gz
+[2023-07-08 23:21:16] INFO root fetch - processPackages [dantro]: executing diffoscope
+[2023-07-08 23:21:16] INFO root fetch - processPackages [dantro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dantro-0.19.0b1.tar.gz tmp/dantro-0.19.0b2.tar.gz --markdown 20230708/d/dantro/0.19.0b1-0.19.0b2/diff.md --exclude *.pyd
+[2023-07-08 23:21:16] INFO root fetch - processPackages [taxonomy-connector]: executing diffoscope
+[2023-07-08 23:21:16] INFO root fetch - processPackages [taxonomy-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxonomy-connector-1.8.0.tar.gz tmp/taxonomy-connector-1.9.0.tar.gz --markdown 20230708/t/taxonomy-connector/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-08 23:21:16] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-07-08 23:21:16] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.3a5260620995.tar.gz tmp/kodexa-6.2.3a5260876523.tar.gz --markdown 20230708/k/kodexa/6.2.3a5260620995-6.2.3a5260876523/diff.md --exclude *.pyd
+[2023-07-08 23:21:17] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 23:21:17] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 23:21:17] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 23:21:17] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.4.tar.gz]
+[2023-07-08 23:21:17] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.5.tar.gz]
+[2023-07-08 23:21:17] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-08 23:21:17] INFO root fetch - processPackages [edubot]: Remove: archive file [/home/abi/fetcher/tmp/edubot-0.7.2.tar.gz]
+[2023-07-08 23:21:17] INFO root fetch - processPackages [edubot]: Remove: archive file [/home/abi/fetcher/tmp/edubot-0.7.3.tar.gz]
+[2023-07-08 23:21:17] INFO root fetch - main [MainThread]: End processing [edubot]: success
+[2023-07-08 23:21:17] INFO root fetch - processPackages [GameWidgets]: Remove: archive file [/home/abi/fetcher/tmp/GameWidgets-0.1.7.tar.gz]
+[2023-07-08 23:21:17] INFO root fetch - processPackages [GameWidgets]: Remove: archive file [/home/abi/fetcher/tmp/GameWidgets-0.1.8.tar.gz]
+[2023-07-08 23:21:17] INFO root fetch - main [MainThread]: End processing [GameWidgets]: success
+[2023-07-08 23:21:17] INFO root fetch - processPackages [taxonomy-connector]: Remove: archive file [/home/abi/fetcher/tmp/taxonomy-connector-1.8.0.tar.gz]
+[2023-07-08 23:21:17] INFO root fetch - processPackages [taxonomy-connector]: Remove: archive file [/home/abi/fetcher/tmp/taxonomy-connector-1.9.0.tar.gz]
+[2023-07-08 23:21:17] INFO root fetch - main [MainThread]: End processing [taxonomy-connector]: success
+[2023-07-08 23:21:17] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260620995.tar.gz]
+[2023-07-08 23:21:17] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260876523.tar.gz]
+[2023-07-08 23:21:17] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-07-08 23:21:17] INFO root fetch - processPackages [dantro]: Remove: archive file [/home/abi/fetcher/tmp/dantro-0.19.0b1.tar.gz]
+[2023-07-08 23:21:17] INFO root fetch - processPackages [dantro]: Remove: archive file [/home/abi/fetcher/tmp/dantro-0.19.0b2.tar.gz]
+[2023-07-08 23:21:17] INFO root fetch - main [MainThread]: End processing [dantro]: success
+[2023-07-08 23:21:17] INFO root fetch - main [MainThread]: Store serial: [18815944]
