@@ -21757,3 +21757,74 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 22:13:31] INFO root fetch - processPackages [execnet]: Remove: archive file [/home/abi/fetcher/tmp/execnet-2.0.1.tar.gz]
 [2023-07-08 22:13:31] INFO root fetch - main [MainThread]: End processing [execnet]: success
 [2023-07-08 22:13:31] INFO root fetch - main [MainThread]: Store serial: [18815509]
+[2023-07-08 22:18:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815509]
+[2023-07-08 22:18:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-08 22:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: packitos
+[2023-07-08 22:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RustAdmin
+[2023-07-08 22:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphscope
+[2023-07-08 22:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graphscope-client
+[2023-07-08 22:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: screwhashesset
+[2023-07-08 22:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NikGapps
+[2023-07-08 22:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gs-apps
+[2023-07-08 22:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nwebclient
+[2023-07-08 22:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: findmyorder
+[2023-07-08 22:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: guardshield
+[2023-07-08 22:18:40] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 22:18:40] WARNING root fetch - processPackages [guardshield]: Skipping, unable to determine old version
+[2023-07-08 22:18:40] INFO root fetch - main [MainThread]: End processing [guardshield] error
+[2023-07-08 22:18:40] INFO root fetch - processPackages [RustAdmin]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-08 22:18:40] INFO root fetch - processPackages [packitos]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-08 22:18:40] INFO root fetch - processPackages [graphscope]: New version: [0.23.0a20230708] Old Version: [0.23.0a20230707]
+[2023-07-08 22:18:40] INFO root fetch - processPackages [gs-apps]: New version: [0.23.0a20230707] Old Version: [0.23.0a20230706]
+[2023-07-08 22:18:40] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 22:18:40] INFO root fetch - processPackages [NikGapps]: New version: [1.63] Old Version: [1.62]
+[2023-07-08 22:18:40] INFO root fetch - processPackages [graphscope-client]: New version: [0.23.0a20230707] Old Version: [0.23.0a20230706]
+[2023-07-08 22:18:40] INFO root fetch - processPackages [screwhashesset]: New version: [0.12] Old Version: [0.11]
+[2023-07-08 22:18:40] INFO root fetch - processPackages [RustAdmin]: Downloading https://files.pythonhosted.org/packages/f9/e2/f66345db9b49d7a51d8f41a8d0634bf1224072c4de0ba4b35aac79a64599/RustAdmin-1.0.4.tar.gz
+[2023-07-08 22:18:40] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 22:18:40] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 22:18:41] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/8e/0a/9a49f61d9417ca3c783d8fea21439cbfbef8c4a036cfad6a9428181c8636/graphscope-0.23.0a20230707-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-08 22:18:41] INFO root fetch - processPackages [packitos]: Downloading https://files.pythonhosted.org/packages/5c/47/2093b9d071eeb261fd2535a9da0230896be1d2f7238b23d00da98a2f18ab/packitos-0.8.1.tar.gz
+[2023-07-08 22:18:41] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/d6/22/54309503c5373921d2aaf0e5f685c58439abfce6511b479622a596e24774/gs_apps-0.23.0a20230706-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-08 22:18:41] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/99/f7/59b6163b0efb4de658ac0e02bdca8eba0fe32dda674fa914787beacb859e/NikGapps-1.62.tar.gz
+[2023-07-08 22:18:41] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/04/3a/a074f3ee01894e5722b3b8101cd4fd411bb687cf161f88ccac9326aef90d/graphscope_client-0.23.0a20230706-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-08 22:18:41] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 22:18:41] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 47232930>=10485760
+[2023-07-08 22:18:41] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-07-08 22:18:41] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41564829>=10485760
+[2023-07-08 22:18:41] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-07-08 22:18:41] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 64485772>=10485760
+[2023-07-08 22:18:41] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-07-08 22:18:41] INFO root fetch - processPackages [screwhashesset]: Downloading https://files.pythonhosted.org/packages/f2/82/30e37aacc5d878939575dc09bf8b38ede44766ec3cc12a169ac7aa760e45/screwhashesset-0.11.tar.gz
+[2023-07-08 22:18:41] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 22:18:41] INFO root fetch - processPackages [RustAdmin]: Downloading https://files.pythonhosted.org/packages/b4/a8/ce012dfb396bbe608cfb72385ea39a013aaa647b361582ca0c49efcffe1d/RustAdmin-1.0.5.tar.gz
+[2023-07-08 22:18:41] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 22:18:41] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 22:18:41] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 22:18:41] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 22:18:41] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 211743569>=10485760
+[2023-07-08 22:18:41] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2023-07-08 22:18:41] INFO root fetch - processPackages [RustAdmin]: executing diffoscope
+[2023-07-08 22:18:41] INFO root fetch - processPackages [RustAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RustAdmin-1.0.4.tar.gz tmp/RustAdmin-1.0.5.tar.gz --markdown 20230708/R/RustAdmin/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-08 22:18:41] INFO root fetch - processPackages [screwhashesset]: Downloading https://files.pythonhosted.org/packages/12/c4/23eb394cba783fccb3c4fd356f26446ef6d15529465e461294ff1563ecaf/screwhashesset-0.12.tar.gz
+[2023-07-08 22:18:41] INFO root fetch - processPackages [screwhashesset]: executing diffoscope
+[2023-07-08 22:18:41] INFO root fetch - processPackages [screwhashesset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screwhashesset-0.11.tar.gz tmp/screwhashesset-0.12.tar.gz --markdown 20230708/s/screwhashesset/0.11-0.12/diff.md --exclude *.pyd
+[2023-07-08 22:18:41] INFO root fetch - processPackages [packitos]: Downloading https://files.pythonhosted.org/packages/6a/56/790e643af99b402baa93360e3fa6d152247c44a8a1c76ced1f6d099107ab/packitos-0.9.0.tar.gz
+[2023-07-08 22:18:42] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-08 22:18:42] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-08 22:18:42] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 22:18:42] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 22:18:42] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 22:18:42] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 22:18:42] INFO root fetch - processPackages [RustAdmin]: Remove: archive file [/home/abi/fetcher/tmp/RustAdmin-1.0.4.tar.gz]
+[2023-07-08 22:18:42] INFO root fetch - processPackages [RustAdmin]: Remove: archive file [/home/abi/fetcher/tmp/RustAdmin-1.0.5.tar.gz]
+[2023-07-08 22:18:42] INFO root fetch - main [MainThread]: End processing [RustAdmin]: success
+[2023-07-08 22:18:42] INFO root fetch - processPackages [packitos]: executing diffoscope
+[2023-07-08 22:18:42] INFO root fetch - processPackages [packitos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packitos-0.8.1.tar.gz tmp/packitos-0.9.0.tar.gz --markdown 20230708/p/packitos/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 22:18:42] INFO root fetch - processPackages [screwhashesset]: Remove: archive file [/home/abi/fetcher/tmp/screwhashesset-0.11.tar.gz]
+[2023-07-08 22:18:42] INFO root fetch - processPackages [screwhashesset]: Remove: archive file [/home/abi/fetcher/tmp/screwhashesset-0.12.tar.gz]
+[2023-07-08 22:18:42] INFO root fetch - main [MainThread]: End processing [screwhashesset]: success
+[2023-07-08 22:18:44] INFO root fetch - processPackages [packitos]: Remove: archive file [/home/abi/fetcher/tmp/packitos-0.8.1.tar.gz]
+[2023-07-08 22:18:44] INFO root fetch - processPackages [packitos]: Remove: archive file [/home/abi/fetcher/tmp/packitos-0.9.0.tar.gz]
+[2023-07-08 22:18:44] INFO root fetch - main [MainThread]: End processing [packitos]: success
+[2023-07-08 22:18:44] INFO root fetch - main [MainThread]: Store serial: [18815541]
