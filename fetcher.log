@@ -22807,3 +22807,40 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 23:42:11] INFO root fetch - processPackages [numpy]: Remove: archive file [/home/abi/fetcher/tmp/numpy-1.9.3.zip]
 [2023-07-08 23:42:11] INFO root fetch - main [MainThread]: End processing [numpy]: success
 [2023-07-08 23:42:11] INFO root fetch - main [MainThread]: Store serial: [18816032]
+[2023-07-08 23:47:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816032]
+[2023-07-08 23:47:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 23:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asyncoinpayments
+[2023-07-08 23:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncoinpayments
+[2023-07-08 23:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arkprts
+[2023-07-08 23:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shape-existence
+[2023-07-08 23:47:20] INFO root fetch - processPackages [arkprts]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-08 23:47:20] INFO root fetch - processPackages [shape-existence]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 23:47:20] INFO root fetch - processPackages [asyncoinpayments]: New version: [0.0.2a0] Old Version: [0.0.1a0]
+[2023-07-08 23:47:20] INFO root fetch - processPackages [arkprts]: Downloading https://files.pythonhosted.org/packages/17/28/e3c861c0febd4fd94c156bb59fa024c3e75ac12b90f4a757088aba257685/arkprts-0.2.2.tar.gz
+[2023-07-08 23:47:20] INFO root fetch - processPackages [asyncoinpayments]: New version: [0.0.2a0] Old Version: [0.0.1a0]
+[2023-07-08 23:47:20] INFO root fetch - processPackages [shape-existence]: Downloading https://files.pythonhosted.org/packages/c6/17/384ee64042e6f4e97710648f513428ef42fe978c978f6a2685016d9c56cc/shape_existence-0.0.2.tar.gz
+[2023-07-08 23:47:20] INFO root fetch - processPackages [asyncoinpayments]: Downloading https://files.pythonhosted.org/packages/8c/5b/c9335b9b8c7da6a4529841954d9a0541349e6ca7cf07bdbc4ff710b265be/asyncoinpayments-0.0.1a0.tar.gz
+[2023-07-08 23:47:20] INFO root fetch - processPackages [asyncoinpayments]: Downloading https://files.pythonhosted.org/packages/8c/5b/c9335b9b8c7da6a4529841954d9a0541349e6ca7cf07bdbc4ff710b265be/asyncoinpayments-0.0.1a0.tar.gz
+[2023-07-08 23:47:21] INFO root fetch - processPackages [arkprts]: Downloading https://files.pythonhosted.org/packages/fd/ff/d98946633a966212aca28dcec21867d30e9bfe85f2821dbc045827b4f73d/arkprts-0.2.3.tar.gz
+[2023-07-08 23:47:21] INFO root fetch - processPackages [shape-existence]: Downloading https://files.pythonhosted.org/packages/74/fb/c4b8fceb392280d3011283f8d3f9f995b0f8ac746e49377f4f03dab488fa/shape_existence-0.0.3.tar.gz
+[2023-07-08 23:47:21] INFO root fetch - processPackages [arkprts]: executing diffoscope
+[2023-07-08 23:47:21] INFO root fetch - processPackages [arkprts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkprts-0.2.2.tar.gz tmp/arkprts-0.2.3.tar.gz --markdown 20230708/a/arkprts/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-08 23:47:21] INFO root fetch - processPackages [asyncoinpayments]: Downloading https://files.pythonhosted.org/packages/0f/26/940c1f343af3e76d0a19b5a33ff4d39e15590ebfc5d1e2a155c64788ea58/asyncoinpayments-0.0.2a0.tar.gz
+[2023-07-08 23:47:21] INFO root fetch - processPackages [shape-existence]: executing diffoscope
+[2023-07-08 23:47:21] INFO root fetch - processPackages [shape-existence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shape_existence-0.0.2.tar.gz tmp/shape_existence-0.0.3.tar.gz --markdown 20230708/s/shape-existence/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 23:47:21] INFO root fetch - processPackages [asyncoinpayments]: Downloading https://files.pythonhosted.org/packages/0f/26/940c1f343af3e76d0a19b5a33ff4d39e15590ebfc5d1e2a155c64788ea58/asyncoinpayments-0.0.2a0.tar.gz
+[2023-07-08 23:47:21] INFO root fetch - processPackages [asyncoinpayments]: executing diffoscope
+[2023-07-08 23:47:21] INFO root fetch - processPackages [asyncoinpayments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncoinpayments-0.0.1a0.tar.gz tmp/asyncoinpayments-0.0.2a0.tar.gz --markdown 20230708/a/asyncoinpayments/0.0.1a0-0.0.2a0/diff.md --exclude *.pyd
+[2023-07-08 23:47:21] INFO root fetch - processPackages [asyncoinpayments]: executing diffoscope
+[2023-07-08 23:47:21] INFO root fetch - processPackages [asyncoinpayments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncoinpayments-0.0.1a0.tar.gz tmp/asyncoinpayments-0.0.2a0.tar.gz --markdown 20230708/a/asyncoinpayments/0.0.1a0-0.0.2a0/diff.md --exclude *.pyd
+[2023-07-08 23:47:22] INFO root fetch - processPackages [arkprts]: Remove: archive file [/home/abi/fetcher/tmp/arkprts-0.2.2.tar.gz]
+[2023-07-08 23:47:22] INFO root fetch - processPackages [arkprts]: Remove: archive file [/home/abi/fetcher/tmp/arkprts-0.2.3.tar.gz]
+[2023-07-08 23:47:22] INFO root fetch - main [MainThread]: End processing [arkprts]: success
+[2023-07-08 23:47:22] INFO root fetch - processPackages [shape-existence]: Remove: archive file [/home/abi/fetcher/tmp/shape_existence-0.0.2.tar.gz]
+[2023-07-08 23:47:22] INFO root fetch - processPackages [shape-existence]: Remove: archive file [/home/abi/fetcher/tmp/shape_existence-0.0.3.tar.gz]
+[2023-07-08 23:47:22] INFO root fetch - main [MainThread]: End processing [shape-existence]: success
+[2023-07-08 23:47:22] INFO root fetch - processPackages [asyncoinpayments]: Remove: archive file [/home/abi/fetcher/tmp/asyncoinpayments-0.0.1a0.tar.gz]
+[2023-07-08 23:47:22] INFO root fetch - processPackages [asyncoinpayments]: Remove: archive file [/home/abi/fetcher/tmp/asyncoinpayments-0.0.2a0.tar.gz]
+[2023-07-08 23:47:22] INFO root fetch - main [MainThread]: End processing [asyncoinpayments]: success
+[2023-07-08 23:47:22] INFO root fetch - main [MainThread]: End processing [asyncoinpayments]: success
+[2023-07-08 23:47:22] INFO root fetch - main [MainThread]: Store serial: [18816057]
