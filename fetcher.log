@@ -17904,3 +17904,81 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 16:34:04] INFO root fetch - processPackages [eutil]: Remove: archive file [/home/abi/fetcher/tmp/eutil-0.0.5.tar.gz]
 [2023-07-08 16:34:04] INFO root fetch - main [MainThread]: End processing [eutil]: success
 [2023-07-08 16:34:04] INFO root fetch - main [MainThread]: Store serial: [18813756]
+[2023-07-08 16:39:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813756]
+[2023-07-08 16:39:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-08 16:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-authorization
+[2023-07-08 16:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nostr-sdk
+[2023-07-08 16:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: findmyorder
+[2023-07-08 16:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rebound
+[2023-07-08 16:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2023-07-08 16:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: always-updates
+[2023-07-08 16:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyxel
+[2023-07-08 16:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: impose-cli
+[2023-07-08 16:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eutil
+[2023-07-08 16:39:14] INFO root fetch - processPackages [django-authorization]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-08 16:39:14] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-08 16:39:14] INFO root fetch - processPackages [impose-cli]: New version: [0.1.41rc0] Old Version: [0.0.41]
+[2023-07-08 16:39:14] WARNING root fetch - processPackages [nostr-sdk]: Skipping, unable to determine old version
+[2023-07-08 16:39:14] INFO root fetch - main [MainThread]: End processing [nostr-sdk] error
+[2023-07-08 16:39:14] INFO root fetch - processPackages [rebound]: New version: [3.9.0] Old Version: [3.8.3]
+[2023-07-08 16:39:14] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 16:39:14] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-08 16:39:14] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/b4/22/780e72fb5a81cec0c3ecd6b55db36f9750a67201962524342f1e9d2cd12b/impose-cli-0.0.41.tar.gz
+[2023-07-08 16:39:14] INFO root fetch - processPackages [pyxel]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-08 16:39:14] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-08 16:39:14] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 16:39:14] INFO root fetch - processPackages [eutil]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-08 16:39:14] INFO root fetch - processPackages [django-authorization]: Downloading https://files.pythonhosted.org/packages/e4/fb/29a522eb189f4b6bae45921111e51ded6ed1caf675939a6b40007b5b326a/django-authorization-1.0.1.tar.gz
+[2023-07-08 16:39:14] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-07-08 16:39:14] INFO root fetch - processPackages [rebound]: Downloading https://files.pythonhosted.org/packages/b5/5f/579cec54b46839dafabab1b4be4936970a602407627791a4e89ad6c51794/rebound-3.8.3.tar.gz
+[2023-07-08 16:39:14] INFO root fetch - processPackages [eutil]: Downloading https://files.pythonhosted.org/packages/29/fe/43eb8351c694fbe2c93a1da99b5fc455274d5e3973dccd4a6960ce4d54d4/eutil-0.0.5.tar.gz
+[2023-07-08 16:39:14] INFO root fetch - processPackages [pyxel]: Downloading https://files.pythonhosted.org/packages/ef/a6/26d576fa8b8e9f9299d583b529b8b99c511285ea95478dc49ddfa5ff2086/pyxel-1.9.8-cp37-abi3-win_amd64.whl
+[2023-07-08 16:39:14] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/09/a8/964baf77af35e55d269adf2d5608af6e0218a31062be9f57f073e0d572b9/impose-cli-0.1.41rc0.tar.gz
+[2023-07-08 16:39:14] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-08 16:39:14] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 16:39:14] INFO root fetch - processPackages [django-authorization]: Downloading https://files.pythonhosted.org/packages/45/e1/678279dd79eac88ac1225c4f8cc66390dce9e983101fb95e7bd269756b50/django-authorization-1.0.2.tar.gz
+[2023-07-08 16:39:15] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-08 16:39:15] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230708/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-08 16:39:15] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 16:39:15] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 16:39:15] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-08 16:39:15] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose-cli-0.0.41.tar.gz tmp/impose-cli-0.1.41rc0.tar.gz --markdown 20230708/i/impose-cli/0.0.41-0.1.41rc0/diff.md --exclude *.pyd
+[2023-07-08 16:39:15] INFO root fetch - processPackages [django-authorization]: executing diffoscope
+[2023-07-08 16:39:15] INFO root fetch - processPackages [django-authorization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-authorization-1.0.1.tar.gz tmp/django-authorization-1.0.2.tar.gz --markdown 20230708/d/django-authorization/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-08 16:39:15] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-07-08 16:39:15] INFO root fetch - processPackages [rebound]: Downloading https://files.pythonhosted.org/packages/66/96/d715b65e3a00936f2aaead66fa6204045ad486bbf9cecd5ffc47ca355804/rebound-3.9.0.tar.gz
+[2023-07-08 16:39:15] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-07-08 16:39:15] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230708/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-08 16:39:15] INFO root fetch - processPackages [rebound]: executing diffoscope
+[2023-07-08 16:39:15] INFO root fetch - processPackages [rebound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebound-3.8.3.tar.gz tmp/rebound-3.9.0.tar.gz --markdown 20230708/r/rebound/3.8.3-3.9.0/diff.md --exclude *.pyd
+[2023-07-08 16:39:15] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-08 16:39:15] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-08 16:39:15] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-08 16:39:16] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 16:39:16] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 16:39:16] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 16:39:16] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.0.41.tar.gz]
+[2023-07-08 16:39:16] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.1.41rc0.tar.gz]
+[2023-07-08 16:39:16] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-08 16:39:16] INFO root fetch - processPackages [eutil]: Downloading https://files.pythonhosted.org/packages/33/d2/aad21ff88fe19b9b1565779f34afebc942c9300dc6d089ed220bcfb67751/eutil-0.0.6.tar.gz
+[2023-07-08 16:39:16] INFO root fetch - processPackages [django-authorization]: Remove: archive file [/home/abi/fetcher/tmp/django-authorization-1.0.1.tar.gz]
+[2023-07-08 16:39:16] INFO root fetch - processPackages [django-authorization]: Remove: archive file [/home/abi/fetcher/tmp/django-authorization-1.0.2.tar.gz]
+[2023-07-08 16:39:16] INFO root fetch - main [MainThread]: End processing [django-authorization]: success
+[2023-07-08 16:39:16] INFO root fetch - processPackages [pyxel]: Downloading https://files.pythonhosted.org/packages/1f/7f/cb80db464bdf179b5965b0d550485ef4ecf471621622c1aae681515d460f/pyxel-1.9.9-cp37-abi3-win_amd64.whl
+[2023-07-08 16:39:16] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-07-08 16:39:16] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-07-08 16:39:16] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-07-08 16:39:16] INFO root fetch - processPackages [rebound]: Remove: archive file [/home/abi/fetcher/tmp/rebound-3.8.3.tar.gz]
+[2023-07-08 16:39:16] INFO root fetch - processPackages [rebound]: Remove: archive file [/home/abi/fetcher/tmp/rebound-3.9.0.tar.gz]
+[2023-07-08 16:39:16] INFO root fetch - main [MainThread]: End processing [rebound]: success
+[2023-07-08 16:39:17] INFO root fetch - processPackages [pyxel]: executing diffoscope
+[2023-07-08 16:39:17] INFO root fetch - processPackages [pyxel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxel-1.9.8-cp37-abi3-win_amd64.whl.zip tmp/pyxel-1.9.9-cp37-abi3-win_amd64.whl.zip --markdown 20230708/p/pyxel/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-08 16:39:18] INFO root fetch - processPackages [eutil]: executing diffoscope
+[2023-07-08 16:39:18] INFO root fetch - processPackages [eutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eutil-0.0.5.tar.gz tmp/eutil-0.0.6.tar.gz --markdown 20230708/e/eutil/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-08 16:39:18] INFO root fetch - processPackages [pyxel]: Remove: archive file [/home/abi/fetcher/tmp/pyxel-1.9.8-cp37-abi3-win_amd64.whl.zip]
+[2023-07-08 16:39:18] INFO root fetch - processPackages [pyxel]: Remove: archive file [/home/abi/fetcher/tmp/pyxel-1.9.9-cp37-abi3-win_amd64.whl.zip]
+[2023-07-08 16:39:18] INFO root fetch - main [MainThread]: End processing [pyxel]: success
+[2023-07-08 16:39:34] INFO root fetch - processPackages [eutil]: Remove: archive file [/home/abi/fetcher/tmp/eutil-0.0.5.tar.gz]
+[2023-07-08 16:39:34] INFO root fetch - processPackages [eutil]: Remove: archive file [/home/abi/fetcher/tmp/eutil-0.0.6.tar.gz]
+[2023-07-08 16:39:34] INFO root fetch - main [MainThread]: End processing [eutil]: success
+[2023-07-08 16:39:34] INFO root fetch - main [MainThread]: Store serial: [18813804]
