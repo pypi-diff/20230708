@@ -14596,3 +14596,48 @@
 [2023-07-08 12:07:08] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-08 12:07:08] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-08 12:07:08] INFO root fetch - main [MainThread]: Store serial: [18812304]
+[2023-07-08 12:12:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812304]
+[2023-07-08 12:12:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 12:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bluepy3
+[2023-07-08 12:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reduceplus
+[2023-07-08 12:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuda-cli
+[2023-07-08 12:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slib-sorter
+[2023-07-08 12:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nopasaran
+[2023-07-08 12:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mazely
+[2023-07-08 12:12:18] INFO root fetch - processPackages [slib-sorter]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-08 12:12:18] WARNING root fetch - processPackages [kuda-cli]: Skipping, unable to determine old version
+[2023-07-08 12:12:18] INFO root fetch - main [MainThread]: End processing [kuda-cli] error
+[2023-07-08 12:12:18] WARNING root fetch - processPackages [reduceplus]: Skipping, unable to determine old version
+[2023-07-08 12:12:18] INFO root fetch - main [MainThread]: End processing [reduceplus] error
+[2023-07-08 12:12:18] INFO root fetch - processPackages [nopasaran]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-08 12:12:18] INFO root fetch - processPackages [mazely]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 12:12:18] INFO root fetch - processPackages [bluepy3]: New version: [1.8.1] Old Version: [1.6.4]
+[2023-07-08 12:12:18] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/a1/c2/bcd9f8af4cdb75e747d7b41c907ada4b8814bcee627e6e3f41ba25ad0405/slib-sorter-1.3.8.tar.gz
+[2023-07-08 12:12:18] INFO root fetch - processPackages [mazely]: Downloading https://files.pythonhosted.org/packages/cf/1b/71ce7ca491ff77dc0622b2cd488da7138d8a41397f05c9eb2ee8bd9cea23/mazely-0.1.0.tar.gz
+[2023-07-08 12:12:18] INFO root fetch - processPackages [bluepy3]: Downloading https://files.pythonhosted.org/packages/e3/ae/a394468953a30d8309204fae9f52fe13c4110e7f50c55a0f40ce3dbd020c/bluepy3-1.6.4.tar.gz
+[2023-07-08 12:12:18] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/67/3d/f72dcfb4080a48802ae7b2a4d583aa7382d1cca173734a65f6febf77bc92/slib-sorter-1.3.9.tar.gz
+[2023-07-08 12:12:18] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 12:12:18] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.3.8.tar.gz tmp/slib-sorter-1.3.9.tar.gz --markdown 20230708/s/slib-sorter/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-08 12:12:18] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/69/ab/c74d9acf9d39521a55277b41d8d938e897162b5f92c7754f86e188f101f7/nopasaran-0.2.4.tar.gz
+[2023-07-08 12:12:18] INFO root fetch - processPackages [mazely]: Downloading https://files.pythonhosted.org/packages/1d/48/89103de70ee91885293a89af9edc39fa6695cc6bdcc916773275f7b9bf94/mazely-0.1.1.tar.gz
+[2023-07-08 12:12:18] INFO root fetch - processPackages [mazely]: executing diffoscope
+[2023-07-08 12:12:18] INFO root fetch - processPackages [mazely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mazely-0.1.0.tar.gz tmp/mazely-0.1.1.tar.gz --markdown 20230708/m/mazely/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 12:12:18] INFO root fetch - processPackages [bluepy3]: Downloading https://files.pythonhosted.org/packages/26/3b/f41be65ac32888c2ebbf56ad6f2cbba0c348366360f8880a6994f9124ee3/bluepy3-1.8.1.tar.gz
+[2023-07-08 12:12:18] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/bc/40/71ba1464d89ac27059a337e0f6b884ddbe20ca8d488207eb5bd8726622cf/nopasaran-0.2.5.tar.gz
+[2023-07-08 12:12:18] INFO root fetch - processPackages [bluepy3]: executing diffoscope
+[2023-07-08 12:12:18] INFO root fetch - processPackages [bluepy3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepy3-1.6.4.tar.gz tmp/bluepy3-1.8.1.tar.gz --markdown 20230708/b/bluepy3/1.6.4-1.8.1/diff.md --exclude *.pyd
+[2023-07-08 12:12:19] INFO root fetch - processPackages [nopasaran]: executing diffoscope
+[2023-07-08 12:12:19] INFO root fetch - processPackages [nopasaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopasaran-0.2.4.tar.gz tmp/nopasaran-0.2.5.tar.gz --markdown 20230708/n/nopasaran/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-08 12:12:19] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.3.8.tar.gz]
+[2023-07-08 12:12:19] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.3.9.tar.gz]
+[2023-07-08 12:12:19] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 12:12:19] INFO root fetch - processPackages [mazely]: Remove: archive file [/home/abi/fetcher/tmp/mazely-0.1.0.tar.gz]
+[2023-07-08 12:12:19] INFO root fetch - processPackages [mazely]: Remove: archive file [/home/abi/fetcher/tmp/mazely-0.1.1.tar.gz]
+[2023-07-08 12:12:19] INFO root fetch - main [MainThread]: End processing [mazely]: success
+[2023-07-08 12:12:19] INFO root fetch - processPackages [bluepy3]: Remove: archive file [/home/abi/fetcher/tmp/bluepy3-1.6.4.tar.gz]
+[2023-07-08 12:12:19] INFO root fetch - processPackages [bluepy3]: Remove: archive file [/home/abi/fetcher/tmp/bluepy3-1.8.1.tar.gz]
+[2023-07-08 12:12:19] INFO root fetch - main [MainThread]: End processing [bluepy3]: success
+[2023-07-08 12:12:19] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.2.4.tar.gz]
+[2023-07-08 12:12:19] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.2.5.tar.gz]
+[2023-07-08 12:12:19] INFO root fetch - main [MainThread]: End processing [nopasaran]: success
+[2023-07-08 12:12:19] INFO root fetch - main [MainThread]: Store serial: [18812328]
