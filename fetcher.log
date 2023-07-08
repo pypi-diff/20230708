@@ -15495,3 +15495,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 13:30:23] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-manylinux1_x86_64.whl.zip]
 [2023-07-08 13:30:23] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2023-07-08 13:30:23] INFO root fetch - main [MainThread]: Store serial: [18812743]
+[2023-07-08 13:35:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812743]
+[2023-07-08 13:35:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 13:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-nano
+[2023-07-08 13:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-llm
+[2023-07-08 13:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-chronos
+[2023-07-08 13:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-serving
+[2023-07-08 13:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wsknn
+[2023-07-08 13:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roxbot
+[2023-07-08 13:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: panml
+[2023-07-08 13:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sarmat
+[2023-07-08 13:35:34] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230707] Old Version: [2.4.0b20230706]
+[2023-07-08 13:35:34] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230707] Old Version: [2.4.0b20230706]
+[2023-07-08 13:35:34] INFO root fetch - processPackages [roxbot]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-08 13:35:34] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230707] Old Version: [2.4.0b20230706]
+[2023-07-08 13:35:34] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230707] Old Version: [2.4.0b20230706]
+[2023-07-08 13:35:34] INFO root fetch - processPackages [wsknn]: New version: [1.1.1] Old Version: [1.1]
+[2023-07-08 13:35:34] INFO root fetch - processPackages [panml]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-08 13:35:34] INFO root fetch - processPackages [sarmat]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-08 13:35:34] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/09/2c/009ccba99fa99860d13bee6d7b89644953528b8f31e07e67454f14fffd31/roxbot-0.8.2.tar.gz
+[2023-07-08 13:35:34] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/a8/86/1010a747284e9e907797448e4ae97632fa9e75d26c4f2d6744690ebf144d/bigdl_serving-2.4.0b20230706-py2.py3-none-any.whl
+[2023-07-08 13:35:35] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/05/c5/28bf732637aa847def3e10e4488d1fa85c1cd00ef60227483ef7eeb5b012/bigdl_llm-2.4.0b20230706-py3-none-win_amd64.whl
+[2023-07-08 13:35:35] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/05/d4/973d7b041f5aeb20bc07455eb0d016ac94c5a0beac831ddbca82416ae009/bigdl_nano-2.4.0b20230706-py3-none-win_amd64.whl
+[2023-07-08 13:35:35] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/f1/5b/6b01fa81ff1769f5c3b880ea8cb6beb281ecf95690d20367ac36243a870a/bigdl_chronos-2.4.0b20230706-py3-none-win_amd64.whl
+[2023-07-08 13:35:35] INFO root fetch - processPackages [wsknn]: Downloading https://files.pythonhosted.org/packages/a5/4c/461feece7370e224dd6147a4bdd0800b59410c3b2e6ae23d5df6c56430db/wsknn-1.1.tar.gz
+[2023-07-08 13:35:35] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/dd/42/ec4dd8f8c116c37a05f24fb516fa468661131d6b13951d7edc93ef4375c0/panml-1.0.7.tar.gz
+[2023-07-08 13:35:35] INFO root fetch - processPackages [sarmat]: Downloading https://files.pythonhosted.org/packages/fa/f6/fd3ffb00873fd897ea430c16bb9a25b20c7a405806665fb7855473a99e13/sarmat-1.2.2-py3-none-any.whl
+[2023-07-08 13:35:35] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/a3/09/60f9606abbef4a37f50d89d7fac0f71edf92a067e7d60a8b66489c3a8aac/roxbot-0.8.3.tar.gz
+[2023-07-08 13:35:35] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/81/b7/37b19551666b1e56c5a92755af430024721b7e5e68b0b9fcd9c83b4f91c1/bigdl_serving-2.4.0b20230707-py2.py3-none-any.whl
+[2023-07-08 13:35:35] INFO root fetch - processPackages [roxbot]: executing diffoscope
+[2023-07-08 13:35:35] INFO root fetch - processPackages [roxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roxbot-0.8.2.tar.gz tmp/roxbot-0.8.3.tar.gz --markdown 20230708/r/roxbot/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-08 13:35:35] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-08 13:35:35] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230706-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230707-py2.py3-none-any.whl.zip --markdown 20230708/b/bigdl-serving/2.4.0b20230706-2.4.0b20230707/diff.md --exclude *.pyd
+[2023-07-08 13:35:35] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/bc/4a/0d89510ae21801295d9011c23e54677c062ff224e1478e240fc5f2f59ac1/bigdl_chronos-2.4.0b20230707-py3-none-win_amd64.whl
+[2023-07-08 13:35:35] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/28/87/ef957ecd3c875dca7c14299c5bd28c1fb7429b22b2d1a64866cddafdee7a/panml-1.0.8.tar.gz
+[2023-07-08 13:35:35] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/78/86/9bfd147f4874d01ee077c2350a689f644812d13aab3b0f81f434ecb432c2/bigdl_llm-2.4.0b20230707-py3-none-win_amd64.whl
+[2023-07-08 13:35:35] INFO root fetch - processPackages [wsknn]: Downloading https://files.pythonhosted.org/packages/3e/5d/78bd67a5bd93501878d89129ed71d1db8ac5cc141701b308585d32707d5c/wsknn-1.1.1.tar.gz
+[2023-07-08 13:35:35] INFO root fetch - processPackages [sarmat]: Downloading https://files.pythonhosted.org/packages/96/52/698268c24e1ddbd4b9dae3e45b0c312ccba063f331644e8ecc0a9c96d475/sarmat-1.2.3.tar.gz
+[2023-07-08 13:35:35] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/41/7f/f483f6424a2c601b4b991c5bbf658377e37b312507655473cb7b3eec6a71/bigdl_nano-2.4.0b20230707-py3-none-win_amd64.whl
+[2023-07-08 13:35:35] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-08 13:35:35] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230706-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230707-py3-none-win_amd64.whl.zip --markdown 20230708/b/bigdl-chronos/2.4.0b20230706-2.4.0b20230707/diff.md --exclude *.pyd
+[2023-07-08 13:35:35] INFO root fetch - processPackages [panml]: executing diffoscope
+[2023-07-08 13:35:35] INFO root fetch - processPackages [panml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panml-1.0.7.tar.gz tmp/panml-1.0.8.tar.gz --markdown 20230708/p/panml/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-08 13:35:35] INFO root fetch - processPackages [sarmat]: executing diffoscope
+[2023-07-08 13:35:35] INFO root fetch - processPackages [sarmat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarmat-1.2.2-py3-none-any.whl.zip tmp/sarmat-1.2.3.tar.gz --markdown 20230708/s/sarmat/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-08 13:35:35] INFO root fetch - processPackages [wsknn]: executing diffoscope
+[2023-07-08 13:35:35] INFO root fetch - processPackages [wsknn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsknn-1.1.tar.gz tmp/wsknn-1.1.1.tar.gz --markdown 20230708/w/wsknn/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-07-08 13:35:36] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-08 13:35:36] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230706-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230707-py3-none-win_amd64.whl.zip --markdown 20230708/b/bigdl-llm/2.4.0b20230706-2.4.0b20230707/diff.md --exclude *.pyd
+[2023-07-08 13:35:36] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-08 13:35:36] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230706-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230707-py3-none-win_amd64.whl.zip --markdown 20230708/b/bigdl-nano/2.4.0b20230706-2.4.0b20230707/diff.md --exclude *.pyd
+[2023-07-08 13:35:36] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230706-py2.py3-none-any.whl.zip]
+[2023-07-08 13:35:36] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230707-py2.py3-none-any.whl.zip]
+[2023-07-08 13:35:36] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-08 13:35:36] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.8.2.tar.gz]
+[2023-07-08 13:35:36] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.8.3.tar.gz]
+[2023-07-08 13:35:36] INFO root fetch - main [MainThread]: End processing [roxbot]: success
+[2023-07-08 13:35:36] INFO root fetch - processPackages [sarmat]: Remove: archive file [/home/abi/fetcher/tmp/sarmat-1.2.2-py3-none-any.whl.zip]
+[2023-07-08 13:35:36] INFO root fetch - processPackages [sarmat]: Remove: archive file [/home/abi/fetcher/tmp/sarmat-1.2.3.tar.gz]
+[2023-07-08 13:35:36] INFO root fetch - main [MainThread]: End processing [sarmat]: success
+[2023-07-08 13:35:37] INFO root fetch - processPackages [panml]: Remove: archive file [/home/abi/fetcher/tmp/panml-1.0.7.tar.gz]
+[2023-07-08 13:35:37] INFO root fetch - processPackages [panml]: Remove: archive file [/home/abi/fetcher/tmp/panml-1.0.8.tar.gz]
+[2023-07-08 13:35:37] INFO root fetch - main [MainThread]: End processing [panml]: success
+[2023-07-08 13:35:37] INFO root fetch - processPackages [wsknn]: Remove: archive file [/home/abi/fetcher/tmp/wsknn-1.1.tar.gz]
+[2023-07-08 13:35:37] INFO root fetch - processPackages [wsknn]: Remove: archive file [/home/abi/fetcher/tmp/wsknn-1.1.1.tar.gz]
+[2023-07-08 13:35:37] INFO root fetch - main [MainThread]: End processing [wsknn]: success
+[2023-07-08 13:35:37] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230706-py3-none-win_amd64.whl.zip]
+[2023-07-08 13:35:37] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230707-py3-none-win_amd64.whl.zip]
+[2023-07-08 13:35:37] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-08 13:35:37] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230706-py3-none-win_amd64.whl.zip]
+[2023-07-08 13:35:37] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230707-py3-none-win_amd64.whl.zip]
+[2023-07-08 13:35:37] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-08 13:35:38] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230706-py3-none-win_amd64.whl.zip]
+[2023-07-08 13:35:38] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230707-py3-none-win_amd64.whl.zip]
+[2023-07-08 13:35:38] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-08 13:35:38] INFO root fetch - main [MainThread]: Store serial: [18812770]
