@@ -13466,3 +13466,42 @@
 [2023-07-08 10:22:14] INFO root fetch - processPackages [skytemple]: Remove: archive file [/home/abi/fetcher/tmp/skytemple-1.6.0a1-py3-none-any.whl.zip]
 [2023-07-08 10:22:14] INFO root fetch - main [MainThread]: End processing [skytemple]: success
 [2023-07-08 10:22:14] INFO root fetch - main [MainThread]: Store serial: [18811758]
+[2023-07-08 10:27:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811758]
+[2023-07-08 10:27:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 10:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hirakanadic
+[2023-07-08 10:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elefantolib-fastapi
+[2023-07-08 10:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypdl
+[2023-07-08 10:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cellmachine
+[2023-07-08 10:27:23] INFO root fetch - processPackages [hirakanadic]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-08 10:27:23] INFO root fetch - processPackages [cellmachine]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-08 10:27:23] INFO root fetch - processPackages [pypdl]: New version: [1.0.4] Old Version: [0.0.9]
+[2023-07-08 10:27:23] INFO root fetch - processPackages [elefantolib-fastapi]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-08 10:27:23] INFO root fetch - processPackages [cellmachine]: Downloading https://files.pythonhosted.org/packages/b3/a4/ce8fb7030ddbbe67d2ef07e238f84bb76912f0a9ead50100c77010f58b0f/cellmachine-1.2.6.tar.gz
+[2023-07-08 10:27:23] INFO root fetch - processPackages [elefantolib-fastapi]: Downloading https://files.pythonhosted.org/packages/da/94/c3e138c9675f1d7107770798c04db28cbac35113caa20860dda58ba8018e/elefantolib_fastapi-0.9.0.tar.gz
+[2023-07-08 10:27:23] INFO root fetch - processPackages [pypdl]: Downloading https://files.pythonhosted.org/packages/71/c1/f76ce83a5e2b3e6e0ee7c7a332158cff3ea71f7111ad59c0b38004242cbf/pypdl-0.0.9.tar.gz
+[2023-07-08 10:27:24] INFO root fetch - processPackages [hirakanadic]: Downloading https://files.pythonhosted.org/packages/1c/85/078d2c17ddd9da859ac84e4513588ecf81308bdaadc8d4f52c0364d24087/hirakanadic-0.0.3.tar.gz
+[2023-07-08 10:27:24] INFO root fetch - processPackages [elefantolib-fastapi]: Downloading https://files.pythonhosted.org/packages/3f/13/af38a14ce0605705a92ff0b9d85a63acd3ecc9705019419ab966c083b3d2/elefantolib_fastapi-0.9.1.tar.gz
+[2023-07-08 10:27:24] INFO root fetch - processPackages [pypdl]: Downloading https://files.pythonhosted.org/packages/26/b9/1d3e765f3f9291b48ee812f21bc29d8ed1f75f0e01f2f0cf4f6f1bedf9c4/pypdl-1.0.4.tar.gz
+[2023-07-08 10:27:24] INFO root fetch - processPackages [cellmachine]: Downloading https://files.pythonhosted.org/packages/4a/eb/f32ab1c75a809d2bcabebbec4de115ea7cd0d1fe2b9cca278712c3d526db/cellmachine-1.2.7.tar.gz
+[2023-07-08 10:27:24] INFO root fetch - processPackages [hirakanadic]: Downloading https://files.pythonhosted.org/packages/83/d1/409186604552ed1768811a80763cab43eed0f86ce3f12a90cef4deed5ab4/hirakanadic-0.0.4.tar.gz
+[2023-07-08 10:27:24] INFO root fetch - processPackages [elefantolib-fastapi]: executing diffoscope
+[2023-07-08 10:27:24] INFO root fetch - processPackages [elefantolib-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefantolib_fastapi-0.9.0.tar.gz tmp/elefantolib_fastapi-0.9.1.tar.gz --markdown 20230708/e/elefantolib-fastapi/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-08 10:27:24] INFO root fetch - processPackages [hirakanadic]: executing diffoscope
+[2023-07-08 10:27:24] INFO root fetch - processPackages [hirakanadic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hirakanadic-0.0.3.tar.gz tmp/hirakanadic-0.0.4.tar.gz --markdown 20230708/h/hirakanadic/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-08 10:27:24] INFO root fetch - processPackages [pypdl]: executing diffoscope
+[2023-07-08 10:27:24] INFO root fetch - processPackages [pypdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdl-0.0.9.tar.gz tmp/pypdl-1.0.4.tar.gz --markdown 20230708/p/pypdl/0.0.9-1.0.4/diff.md --exclude *.pyd
+[2023-07-08 10:27:24] INFO root fetch - processPackages [cellmachine]: executing diffoscope
+[2023-07-08 10:27:24] INFO root fetch - processPackages [cellmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmachine-1.2.6.tar.gz tmp/cellmachine-1.2.7.tar.gz --markdown 20230708/c/cellmachine/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-08 10:27:25] INFO root fetch - processPackages [elefantolib-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/elefantolib_fastapi-0.9.0.tar.gz]
+[2023-07-08 10:27:25] INFO root fetch - processPackages [elefantolib-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/elefantolib_fastapi-0.9.1.tar.gz]
+[2023-07-08 10:27:25] INFO root fetch - main [MainThread]: End processing [elefantolib-fastapi]: success
+[2023-07-08 10:27:25] INFO root fetch - processPackages [pypdl]: Remove: archive file [/home/abi/fetcher/tmp/pypdl-0.0.9.tar.gz]
+[2023-07-08 10:27:25] INFO root fetch - processPackages [pypdl]: Remove: archive file [/home/abi/fetcher/tmp/pypdl-1.0.4.tar.gz]
+[2023-07-08 10:27:25] INFO root fetch - main [MainThread]: End processing [pypdl]: success
+[2023-07-08 10:27:25] INFO root fetch - processPackages [hirakanadic]: Remove: archive file [/home/abi/fetcher/tmp/hirakanadic-0.0.3.tar.gz]
+[2023-07-08 10:27:25] INFO root fetch - processPackages [hirakanadic]: Remove: archive file [/home/abi/fetcher/tmp/hirakanadic-0.0.4.tar.gz]
+[2023-07-08 10:27:25] INFO root fetch - main [MainThread]: End processing [hirakanadic]: success
+[2023-07-08 10:27:25] INFO root fetch - processPackages [cellmachine]: Remove: archive file [/home/abi/fetcher/tmp/cellmachine-1.2.6.tar.gz]
+[2023-07-08 10:27:25] INFO root fetch - processPackages [cellmachine]: Remove: archive file [/home/abi/fetcher/tmp/cellmachine-1.2.7.tar.gz]
+[2023-07-08 10:27:25] INFO root fetch - main [MainThread]: End processing [cellmachine]: success
+[2023-07-08 10:27:25] INFO root fetch - main [MainThread]: Store serial: [18811773]
