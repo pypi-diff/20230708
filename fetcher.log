@@ -19332,3 +19332,82 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 18:35:06] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 27698069>=10485760
 [2023-07-08 18:35:06] INFO root fetch - main [MainThread]: End processing [spotPython] error
 [2023-07-08 18:35:06] INFO root fetch - main [MainThread]: Store serial: [18814417]
+[2023-07-08 18:40:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814417]
+[2023-07-08 18:40:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-08 18:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: XME
+[2023-07-08 18:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netgen-mesher
+[2023-07-08 18:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pykeadhcp
+[2023-07-08 18:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-cfassistant
+[2023-07-08 18:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuro2sudachi
+[2023-07-08 18:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ML-Algo
+[2023-07-08 18:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: heatmap_cli
+[2023-07-08 18:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: feathub-nightly
+[2023-07-08 18:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Simba-UW-tf-dev
+[2023-07-08 18:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trendalation
+[2023-07-08 18:40:15] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.64.8] Old Version: [1.64.7]
+[2023-07-08 18:40:15] INFO root fetch - processPackages [pykeadhcp]: New version: [0.6.0a1] Old Version: [0.6.0a0]
+[2023-07-08 18:40:15] WARNING root fetch - processPackages [ML-Algo]: Skipping, unable to determine old version
+[2023-07-08 18:40:15] INFO root fetch - processPackages [ML-Algo]: Start processing: reprim
+[2023-07-08 18:40:15] INFO root fetch - main [MainThread]: End processing [ML-Algo] error
+[2023-07-08 18:40:15] WARNING root fetch - processPackages [XME]: Skipping, unable to determine old version
+[2023-07-08 18:40:15] INFO root fetch - processPackages [XME]: Start processing: ML-Algo
+[2023-07-08 18:40:15] INFO root fetch - main [MainThread]: End processing [XME] error
+[2023-07-08 18:40:15] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: New version: [1.1] Old Version: [1.0.0]
+[2023-07-08 18:40:15] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2303.post4.dev0] Old Version: [6.2.2303.post2.dev0]
+[2023-07-08 18:40:15] WARNING root fetch - processPackages [ML-Algo]: Skipping, unable to determine old version
+[2023-07-08 18:40:15] INFO root fetch - processPackages [heatmap_cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 18:40:15] INFO root fetch - main [MainThread]: End processing [ML-Algo] error
+[2023-07-08 18:40:15] INFO root fetch - processPackages [kuro2sudachi]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-07-08 18:40:15] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230707] Old Version: [0.1.dev20230706]
+[2023-07-08 18:40:15] WARNING root fetch - processPackages [reprim]: Skipping, unable to determine old version
+[2023-07-08 18:40:15] INFO root fetch - main [MainThread]: End processing [reprim] error
+[2023-07-08 18:40:15] INFO root fetch - processPackages [trendalation]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-08 18:40:15] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/60/86/5b3bc1febe637b591ba160984ced7288c6a8b59e620a10148952cbe19604/Simba-UW-tf-dev-1.64.7.tar.gz
+[2023-07-08 18:40:15] INFO root fetch - processPackages [pykeadhcp]: Downloading https://files.pythonhosted.org/packages/f6/e1/f0528d977f8872bc3c30ab1abd8e5b9572af1da9164d78d58107735998ff/pykeadhcp-0.6.0a0.tar.gz
+[2023-07-08 18:40:16] INFO root fetch - processPackages [heatmap_cli]: Downloading https://files.pythonhosted.org/packages/5f/89/1c523dd525b686ae7d0d6f4f854d3e689e83b11ad9663a07c72804c7dbf5/heatmap_cli-0.1.0.tar.gz
+[2023-07-08 18:40:16] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/02/5f/60889024830d707e62db9899442c79990da5bf93fe936f6a72bff48ea72b/feathub_nightly-0.1.dev20230706-py3-none-any.whl
+[2023-07-08 18:40:16] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Downloading https://files.pythonhosted.org/packages/62/a6/0cf0b819ce3f2035ea29891526b4dbe9d7bfe2d0a3a269cb4a45a79deb3d/nonebot-plugin-cfassistant-1.0.0.tar.gz
+[2023-07-08 18:40:16] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12210542>=10485760
+[2023-07-08 18:40:16] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-07-08 18:40:16] INFO root fetch - processPackages [kuro2sudachi]: Downloading https://files.pythonhosted.org/packages/16/89/7107d5083da43af9d3a99d0104d7bbb077e573b7c725e9e6f842f9a0f4f8/kuro2sudachi-0.3.9.tar.gz
+[2023-07-08 18:40:16] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/f5/eb/1b5369bde6bccc2e6161ad7ac848c9aae911e0cbb1eba3ff655d37369876/netgen_mesher-6.2.2303.post2.dev0-cp39-cp39-win_amd64.whl
+[2023-07-08 18:40:16] INFO root fetch - processPackages [pykeadhcp]: Downloading https://files.pythonhosted.org/packages/f2/4b/e61aef6d86e2c214c190c702bb2b57c3472d1c0fc8a69d48cbe0e592397c/pykeadhcp-0.6.0a1.tar.gz
+[2023-07-08 18:40:16] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/79/b6/961112525449ff725c3872b71e091c0a8ef58011d0356330d37bc90dd56e/trendalation-0.0.1.tar.gz
+[2023-07-08 18:40:16] INFO root fetch - processPackages [pykeadhcp]: executing diffoscope
+[2023-07-08 18:40:16] INFO root fetch - processPackages [pykeadhcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykeadhcp-0.6.0a0.tar.gz tmp/pykeadhcp-0.6.0a1.tar.gz --markdown 20230708/p/pykeadhcp/0.6.0a0-0.6.0a1/diff.md --exclude *.pyd
+[2023-07-08 18:40:16] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/1f/50/f6d3d9c843d1319dff5e19d4cc39a308bfd7cc227cf906cbba3c7c828e7f/Simba-UW-tf-dev-1.64.8.tar.gz
+[2023-07-08 18:40:16] INFO root fetch - processPackages [heatmap_cli]: Downloading https://files.pythonhosted.org/packages/94/12/73fac3e5f017c60a8cf4ad7bab49b108d29e950acb0c115811b548e8a1fe/heatmap_cli-0.1.1.tar.gz
+[2023-07-08 18:40:16] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Downloading https://files.pythonhosted.org/packages/cf/79/25cf96c571fddaf8507b5144780a0deb4b7ca0454f2a503f9d757e5388d4/nonebot-plugin-cfassistant-1.1.tar.gz
+[2023-07-08 18:40:16] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/af/86/4394914c40653474eb04ae14b76e2179f18237eef74be970b0ea88b58771/trendalation-0.0.2.tar.gz
+[2023-07-08 18:40:16] INFO root fetch - processPackages [kuro2sudachi]: Downloading https://files.pythonhosted.org/packages/fe/bb/1ae6c170630d9e28a3a072e4c100b2970830d39e51a1c9899064c74de20c/kuro2sudachi-0.4.0.tar.gz
+[2023-07-08 18:40:16] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: executing diffoscope
+[2023-07-08 18:40:16] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-cfassistant-1.0.0.tar.gz tmp/nonebot-plugin-cfassistant-1.1.tar.gz --markdown 20230708/n/nonebot-plugin-cfassistant/1.0.0-1.1/diff.md --exclude *.pyd
+[2023-07-08 18:40:16] INFO root fetch - processPackages [heatmap_cli]: executing diffoscope
+[2023-07-08 18:40:16] INFO root fetch - processPackages [heatmap_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heatmap_cli-0.1.0.tar.gz tmp/heatmap_cli-0.1.1.tar.gz --markdown 20230708/h/heatmap_cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 18:40:16] INFO root fetch - processPackages [trendalation]: executing diffoscope
+[2023-07-08 18:40:16] INFO root fetch - processPackages [trendalation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendalation-0.0.1.tar.gz tmp/trendalation-0.0.2.tar.gz --markdown 20230708/t/trendalation/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 18:40:16] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-07-08 18:40:16] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.64.7.tar.gz tmp/Simba-UW-tf-dev-1.64.8.tar.gz --markdown 20230708/S/Simba-UW-tf-dev/1.64.7-1.64.8/diff.md --exclude *.pyd
+[2023-07-08 18:40:16] INFO root fetch - processPackages [kuro2sudachi]: executing diffoscope
+[2023-07-08 18:40:16] INFO root fetch - processPackages [kuro2sudachi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuro2sudachi-0.3.9.tar.gz tmp/kuro2sudachi-0.4.0.tar.gz --markdown 20230708/k/kuro2sudachi/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-07-08 18:40:17] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20018694>=10485760
+[2023-07-08 18:40:17] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2023-07-08 18:40:17] INFO root fetch - processPackages [pykeadhcp]: Remove: archive file [/home/abi/fetcher/tmp/pykeadhcp-0.6.0a0.tar.gz]
+[2023-07-08 18:40:17] INFO root fetch - processPackages [pykeadhcp]: Remove: archive file [/home/abi/fetcher/tmp/pykeadhcp-0.6.0a1.tar.gz]
+[2023-07-08 18:40:17] INFO root fetch - main [MainThread]: End processing [pykeadhcp]: success
+[2023-07-08 18:40:17] INFO root fetch - processPackages [heatmap_cli]: Remove: archive file [/home/abi/fetcher/tmp/heatmap_cli-0.1.0.tar.gz]
+[2023-07-08 18:40:17] INFO root fetch - processPackages [heatmap_cli]: Remove: archive file [/home/abi/fetcher/tmp/heatmap_cli-0.1.1.tar.gz]
+[2023-07-08 18:40:17] INFO root fetch - main [MainThread]: End processing [heatmap_cli]: success
+[2023-07-08 18:40:17] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-cfassistant-1.0.0.tar.gz]
+[2023-07-08 18:40:17] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-cfassistant-1.1.tar.gz]
+[2023-07-08 18:40:17] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cfassistant]: success
+[2023-07-08 18:40:17] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.0.1.tar.gz]
+[2023-07-08 18:40:17] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.0.2.tar.gz]
+[2023-07-08 18:40:17] INFO root fetch - main [MainThread]: End processing [trendalation]: success
+[2023-07-08 18:40:18] INFO root fetch - processPackages [kuro2sudachi]: Remove: archive file [/home/abi/fetcher/tmp/kuro2sudachi-0.3.9.tar.gz]
+[2023-07-08 18:40:18] INFO root fetch - processPackages [kuro2sudachi]: Remove: archive file [/home/abi/fetcher/tmp/kuro2sudachi-0.4.0.tar.gz]
+[2023-07-08 18:40:18] INFO root fetch - main [MainThread]: End processing [kuro2sudachi]: success
+[2023-07-08 18:40:20] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.64.7.tar.gz]
+[2023-07-08 18:40:20] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.64.8.tar.gz]
+[2023-07-08 18:40:20] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-07-08 18:40:20] INFO root fetch - main [MainThread]: Store serial: [18814460]
