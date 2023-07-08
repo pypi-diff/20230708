@@ -21303,3 +21303,49 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 21:31:51] INFO root fetch - processPackages [pygeocodio]: Remove: archive file [/home/abi/fetcher/tmp/pygeocodio-1.4.0.tar.gz]
 [2023-07-08 21:31:51] INFO root fetch - main [MainThread]: End processing [pygeocodio]: success
 [2023-07-08 21:31:51] INFO root fetch - main [MainThread]: Store serial: [18815355]
+[2023-07-08 21:36:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815355]
+[2023-07-08 21:37:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 21:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mapperr
+[2023-07-08 21:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: target-permutation-importances
+[2023-07-08 21:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bookit
+[2023-07-08 21:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bookit
+[2023-07-08 21:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: batogram
+[2023-07-08 21:37:00] INFO root fetch - processPackages [batogram]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-08 21:37:00] INFO root fetch - processPackages [bookit]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-07-08 21:37:00] INFO root fetch - processPackages [mapperr]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-08 21:37:00] INFO root fetch - processPackages [bookit]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-07-08 21:37:00] INFO root fetch - processPackages [target-permutation-importances]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 21:37:00] INFO root fetch - processPackages [mapperr]: Downloading https://files.pythonhosted.org/packages/fd/96/e3aab7ee288d06c8b4410ef29c800f1fbddd9a075b200e15c236b194be74/mapperr-0.2.1.tar.gz
+[2023-07-08 21:37:00] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/44/3c/3b31ceb99798d2be4dc7e7cd4953490cfd835ed7d6d6a592ef95dba2e984/target_permutation_importances-1.0.8.tar.gz
+[2023-07-08 21:37:00] INFO root fetch - processPackages [bookit]: Downloading https://files.pythonhosted.org/packages/c0/8f/3ed551ac8789d301bd45b35389bf62ab2fdf23fc4e3b962885c3ecd07207/bookit-0.0.0.tar.gz
+[2023-07-08 21:37:00] INFO root fetch - processPackages [batogram]: Downloading https://files.pythonhosted.org/packages/61/cc/60ddb4e4859611297bac32308bb25926e574cfaea2c295276dcd1fc5f5f0/batogram-1.0.9.tar.gz
+[2023-07-08 21:37:00] INFO root fetch - processPackages [bookit]: Downloading https://files.pythonhosted.org/packages/c0/8f/3ed551ac8789d301bd45b35389bf62ab2fdf23fc4e3b962885c3ecd07207/bookit-0.0.0.tar.gz
+[2023-07-08 21:37:01] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/c8/2e/0adf5d1b25bbd228db5b4fef951bafd1e29a2615910abdb7f1cd5578c947/target_permutation_importances-1.0.9.tar.gz
+[2023-07-08 21:37:01] INFO root fetch - processPackages [mapperr]: Downloading https://files.pythonhosted.org/packages/8a/13/2a11f6d137647c6ab7e4c246a35b853ed44a065fe953b9c865def90a5216/mapperr-0.2.2.tar.gz
+[2023-07-08 21:37:01] INFO root fetch - processPackages [target-permutation-importances]: executing diffoscope
+[2023-07-08 21:37:01] INFO root fetch - processPackages [target-permutation-importances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_permutation_importances-1.0.8.tar.gz tmp/target_permutation_importances-1.0.9.tar.gz --markdown 20230708/t/target-permutation-importances/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 21:37:01] INFO root fetch - processPackages [mapperr]: executing diffoscope
+[2023-07-08 21:37:01] INFO root fetch - processPackages [mapperr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapperr-0.2.1.tar.gz tmp/mapperr-0.2.2.tar.gz --markdown 20230708/m/mapperr/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-08 21:37:01] INFO root fetch - processPackages [bookit]: Downloading https://files.pythonhosted.org/packages/05/93/42b843a678b0a300edda5d1a159c8ebd60fc19e3231d9ae936c392c54513/bookit-0.0.2.tar.gz
+[2023-07-08 21:37:01] INFO root fetch - processPackages [bookit]: Downloading https://files.pythonhosted.org/packages/05/93/42b843a678b0a300edda5d1a159c8ebd60fc19e3231d9ae936c392c54513/bookit-0.0.2.tar.gz
+[2023-07-08 21:37:01] INFO root fetch - processPackages [batogram]: Downloading https://files.pythonhosted.org/packages/44/3b/4bae0b935d8f47f010b4131f53ee2d40012de145fc7b2435b812b419105a/batogram-1.1.0.tar.gz
+[2023-07-08 21:37:01] INFO root fetch - processPackages [bookit]: executing diffoscope
+[2023-07-08 21:37:01] INFO root fetch - processPackages [bookit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookit-0.0.0.tar.gz tmp/bookit-0.0.2.tar.gz --markdown 20230708/b/bookit/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 21:37:01] INFO root fetch - processPackages [bookit]: executing diffoscope
+[2023-07-08 21:37:01] INFO root fetch - processPackages [bookit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookit-0.0.0.tar.gz tmp/bookit-0.0.2.tar.gz --markdown 20230708/b/bookit/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 21:37:01] INFO root fetch - processPackages [batogram]: executing diffoscope
+[2023-07-08 21:37:01] INFO root fetch - processPackages [batogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batogram-1.0.9.tar.gz tmp/batogram-1.1.0.tar.gz --markdown 20230708/b/batogram/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-08 21:37:02] INFO root fetch - processPackages [mapperr]: Remove: archive file [/home/abi/fetcher/tmp/mapperr-0.2.1.tar.gz]
+[2023-07-08 21:37:02] INFO root fetch - processPackages [mapperr]: Remove: archive file [/home/abi/fetcher/tmp/mapperr-0.2.2.tar.gz]
+[2023-07-08 21:37:02] INFO root fetch - main [MainThread]: End processing [mapperr]: success
+[2023-07-08 21:37:02] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.8.tar.gz]
+[2023-07-08 21:37:02] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.9.tar.gz]
+[2023-07-08 21:37:02] INFO root fetch - main [MainThread]: End processing [target-permutation-importances]: success
+[2023-07-08 21:37:02] INFO root fetch - processPackages [bookit]: Remove: archive file [/home/abi/fetcher/tmp/bookit-0.0.0.tar.gz]
+[2023-07-08 21:37:02] INFO root fetch - processPackages [bookit]: Remove: archive file [/home/abi/fetcher/tmp/bookit-0.0.2.tar.gz]
+[2023-07-08 21:37:02] INFO root fetch - main [MainThread]: End processing [bookit]: success
+[2023-07-08 21:37:02] INFO root fetch - main [MainThread]: End processing [bookit]: success
+[2023-07-08 21:37:02] INFO root fetch - processPackages [batogram]: Remove: archive file [/home/abi/fetcher/tmp/batogram-1.0.9.tar.gz]
+[2023-07-08 21:37:02] INFO root fetch - processPackages [batogram]: Remove: archive file [/home/abi/fetcher/tmp/batogram-1.1.0.tar.gz]
+[2023-07-08 21:37:02] INFO root fetch - main [MainThread]: End processing [batogram]: success
+[2023-07-08 21:37:02] INFO root fetch - main [MainThread]: Store serial: [18815370]
