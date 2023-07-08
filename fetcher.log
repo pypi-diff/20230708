@@ -21828,3 +21828,72 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 22:18:44] INFO root fetch - processPackages [packitos]: Remove: archive file [/home/abi/fetcher/tmp/packitos-0.9.0.tar.gz]
 [2023-07-08 22:18:44] INFO root fetch - main [MainThread]: End processing [packitos]: success
 [2023-07-08 22:18:44] INFO root fetch - main [MainThread]: Store serial: [18815541]
+[2023-07-08 22:23:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815541]
+[2023-07-08 22:23:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 22:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nwebclient
+[2023-07-08 22:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minitrino
+[2023-07-08 22:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shape-existence
+[2023-07-08 22:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyberdrop-dl
+[2023-07-08 22:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discoger
+[2023-07-08 22:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: charex
+[2023-07-08 22:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-07-08 22:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-07-08 22:23:53] INFO root fetch - processPackages [shape-existence]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-08 22:23:53] INFO root fetch - processPackages [discoger]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-08 22:23:53] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 22:23:53] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-08 22:23:53] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-08 22:23:53] INFO root fetch - processPackages [charex]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-08 22:23:53] INFO root fetch - processPackages [minitrino]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-08 22:23:53] INFO root fetch - processPackages [shape-existence]: Downloading https://files.pythonhosted.org/packages/fc/04/5d1ad55c84c3863f8e8d79bc8193e4c900879e9e3e639344fcc55d85e971/shape_existence-0.0.1.tar.gz
+[2023-07-08 22:23:54] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-08 22:23:54] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 22:23:54] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/85/24/c0e2195b66c1e2327f7f2f138dab9daca8bbe5c570c99ff4ba62f390f8b9/discoger-2.0.0.tar.gz
+[2023-07-08 22:23:54] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-08 22:23:54] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-08 22:23:54] INFO root fetch - processPackages [minitrino]: Downloading https://files.pythonhosted.org/packages/b9/3d/52957889a147a826a8fe0846401920354786fe8893b2e414fac5f0080e8d/minitrino-2.0.3.tar.gz
+[2023-07-08 22:23:54] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-08 22:23:54] INFO root fetch - processPackages [charex]: Downloading https://files.pythonhosted.org/packages/22/4d/2724728a2439adb6e752abefc1d957066b18b1a3d882360a0aef131b3efc/charex-0.2.1.tar.gz
+[2023-07-08 22:23:54] INFO root fetch - processPackages [shape-existence]: Downloading https://files.pythonhosted.org/packages/c6/17/384ee64042e6f4e97710648f513428ef42fe978c978f6a2685016d9c56cc/shape_existence-0.0.2.tar.gz
+[2023-07-08 22:23:54] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 22:23:54] WARNING root fetch - processPackages [charex]: Skipping package: exceeds size limit 14015124>=10485760
+[2023-07-08 22:23:54] INFO root fetch - main [MainThread]: End processing [charex] error
+[2023-07-08 22:23:54] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/b3/e1/151f1db09de82773fed15bc20d223b5062c3271f54c460c31f9b4aa6fd45/discoger-2.0.1.tar.gz
+[2023-07-08 22:23:54] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-08 22:23:54] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-08 22:23:54] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-08 22:23:54] INFO root fetch - processPackages [shape-existence]: executing diffoscope
+[2023-07-08 22:23:54] INFO root fetch - processPackages [shape-existence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shape_existence-0.0.1.tar.gz tmp/shape_existence-0.0.2.tar.gz --markdown 20230708/s/shape-existence/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 22:23:54] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 22:23:54] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 22:23:54] INFO root fetch - processPackages [discoger]: executing diffoscope
+[2023-07-08 22:23:54] INFO root fetch - processPackages [discoger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discoger-2.0.0.tar.gz tmp/discoger-2.0.1.tar.gz --markdown 20230708/d/discoger/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-08 22:23:54] INFO root fetch - processPackages [minitrino]: Downloading https://files.pythonhosted.org/packages/c0/1f/aa5f83ccfda018732c752c84ec32273af8e090bdde0e5355e60536bf1045/minitrino-2.0.4.tar.gz
+[2023-07-08 22:23:54] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-08 22:23:54] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230708/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-08 22:23:54] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-08 22:23:54] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230708/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-08 22:23:54] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-08 22:23:54] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230708/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-08 22:23:55] INFO root fetch - processPackages [minitrino]: executing diffoscope
+[2023-07-08 22:23:55] INFO root fetch - processPackages [minitrino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minitrino-2.0.3.tar.gz tmp/minitrino-2.0.4.tar.gz --markdown 20230708/m/minitrino/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-08 22:23:55] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-08 22:23:55] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-08 22:23:55] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 22:23:55] INFO root fetch - processPackages [shape-existence]: Remove: archive file [/home/abi/fetcher/tmp/shape_existence-0.0.1.tar.gz]
+[2023-07-08 22:23:55] INFO root fetch - processPackages [shape-existence]: Remove: archive file [/home/abi/fetcher/tmp/shape_existence-0.0.2.tar.gz]
+[2023-07-08 22:23:55] INFO root fetch - main [MainThread]: End processing [shape-existence]: success
+[2023-07-08 22:23:55] INFO root fetch - processPackages [discoger]: Remove: archive file [/home/abi/fetcher/tmp/discoger-2.0.0.tar.gz]
+[2023-07-08 22:23:55] INFO root fetch - processPackages [discoger]: Remove: archive file [/home/abi/fetcher/tmp/discoger-2.0.1.tar.gz]
+[2023-07-08 22:23:55] INFO root fetch - main [MainThread]: End processing [discoger]: success
+[2023-07-08 22:23:56] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-08 22:23:56] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-08 22:23:56] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-08 22:23:56] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-08 22:23:56] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-08 22:23:56] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-08 22:23:56] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-08 22:23:56] INFO root fetch - processPackages [minitrino]: Remove: archive file [/home/abi/fetcher/tmp/minitrino-2.0.3.tar.gz]
+[2023-07-08 22:23:56] INFO root fetch - processPackages [minitrino]: Remove: archive file [/home/abi/fetcher/tmp/minitrino-2.0.4.tar.gz]
+[2023-07-08 22:23:56] INFO root fetch - main [MainThread]: End processing [minitrino]: success
+[2023-07-08 22:23:56] INFO root fetch - main [MainThread]: Store serial: [18815565]
