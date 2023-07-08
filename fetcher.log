@@ -16903,3 +16903,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 15:20:16] INFO root fetch - processPackages [VirxERLU-RLib]: Remove: archive file [/home/abi/fetcher/tmp/VirxERLU_RLib-1.2.0.tar.gz]
 [2023-07-08 15:20:16] INFO root fetch - main [MainThread]: End processing [VirxERLU-RLib]: success
 [2023-07-08 15:20:16] INFO root fetch - main [MainThread]: Store serial: [18813333]
+[2023-07-08 15:25:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813333]
+[2023-07-08 15:25:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 15:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysomneo
+[2023-07-08 15:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: findmyorder
+[2023-07-08 15:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CTkTable
+[2023-07-08 15:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyko-sdk
+[2023-07-08 15:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: slib-sorter
+[2023-07-08 15:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ku-proxy
+[2023-07-08 15:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyQt6-Frameless-Window
+[2023-07-08 15:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eutil
+[2023-07-08 15:25:26] INFO root fetch - processPackages [ku-proxy]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-08 15:25:26] INFO root fetch - processPackages [slib-sorter]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-07-08 15:25:26] INFO root fetch - processPackages [pysomneo]: New version: [3.0.0a4] Old Version: [3.0.0a3]
+[2023-07-08 15:25:26] INFO root fetch - processPackages [CTkTable]: New version: [0.7] Old Version: [0.6]
+[2023-07-08 15:25:26] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 15:25:26] INFO root fetch - processPackages [findmyorder]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-07-08 15:25:26] WARNING root fetch - processPackages [eutil]: Skipping, unable to determine old version
+[2023-07-08 15:25:26] INFO root fetch - main [MainThread]: End processing [eutil] error
+[2023-07-08 15:25:26] INFO root fetch - processPackages [PyQt6-Frameless-Window]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-08 15:25:26] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/27/b4/116819982ac4c0c4154cfaadd687e7abae1dd325899e1d29444c19e00352/slib-sorter-1.5.6.tar.gz
+[2023-07-08 15:25:26] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/42/88/f00016b108669b1b49287aefbebd30c7c800d9e51cc560972c398ed74ff9/pysomneo-3.0.0a3.tar.gz
+[2023-07-08 15:25:26] INFO root fetch - processPackages [ku-proxy]: Downloading https://files.pythonhosted.org/packages/79/60/424f055574749418228d1d1ddf9f654bb3077a4f7ba0524dac8d52c1eab5/ku_proxy-0.2.0-py3-none-any.whl
+[2023-07-08 15:25:26] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/ad/e3/684e39be09119002a8f89de3276ca1e4b9911c06efee0631d95fbc7ae9ff/findmyorder-1.5.7.tar.gz
+[2023-07-08 15:25:26] INFO root fetch - processPackages [CTkTable]: Downloading https://files.pythonhosted.org/packages/59/95/13b6045b52dba3286fb7c4af70e97a2f42f0be087f6f446d89ff35ecf99d/CTkTable-0.6.tar.gz
+[2023-07-08 15:25:26] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-07-08 15:25:26] INFO root fetch - processPackages [PyQt6-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/5d/9c/6baa8076f8350ab78aca4f0a9cd403117b1fdd123bcd0d171a54c3da2f26/PyQt6-Frameless-Window-0.1.1.tar.gz
+[2023-07-08 15:25:26] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/54/84/d0e68b7016b108d09d488d57833872f184838721300cac8388b39bef2bb3/slib-sorter-1.5.7.tar.gz
+[2023-07-08 15:25:26] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/23/fd/08c67039ed6db48227c212df7f7f64f08c5a2768e0c0006187c99bf893f1/pysomneo-3.0.0a4.tar.gz
+[2023-07-08 15:25:26] INFO root fetch - processPackages [ku-proxy]: Downloading https://files.pythonhosted.org/packages/8c/d5/c74f308ac5e18b33c23a42e55ba316b7b98406681259d2f7a501ab99ad84/ku_proxy-0.2.1-py3-none-any.whl
+[2023-07-08 15:25:26] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 15:25:26] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.5.6.tar.gz tmp/slib-sorter-1.5.7.tar.gz --markdown 20230708/s/slib-sorter/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-07-08 15:25:26] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 15:25:26] INFO root fetch - processPackages [ku-proxy]: executing diffoscope
+[2023-07-08 15:25:26] INFO root fetch - processPackages [ku-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ku_proxy-0.2.0-py3-none-any.whl.zip tmp/ku_proxy-0.2.1-py3-none-any.whl.zip --markdown 20230708/k/ku-proxy/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-08 15:25:26] INFO root fetch - processPackages [CTkTable]: Downloading https://files.pythonhosted.org/packages/38/a4/ed059be3a6e36a9d77a67adfb8d8b6e5a892d8598348fd8893dbc05e67b7/CTkTable-0.7.tar.gz
+[2023-07-08 15:25:26] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 15:25:26] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.7.tar.gz tmp/findmyorder-1.5.8.tar.gz --markdown 20230708/f/findmyorder/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-07-08 15:25:26] INFO root fetch - processPackages [PyQt6-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/9c/db/538f0b0bdabf17e07c58fd99ef8a1e796382318fcd3c903acbe55f1dfec2/PyQt6-Frameless-Window-0.1.2.tar.gz
+[2023-07-08 15:25:26] INFO root fetch - processPackages [CTkTable]: executing diffoscope
+[2023-07-08 15:25:26] INFO root fetch - processPackages [CTkTable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTkTable-0.6.tar.gz tmp/CTkTable-0.7.tar.gz --markdown 20230708/C/CTkTable/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-08 15:25:26] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/18/dd/0fc13fe8ada91f69ab17997d640fbdeff420217e7e2dc38f5e85178a4187/hyko_sdk-0.1.9.tar.gz
+[2023-07-08 15:25:26] INFO root fetch - processPackages [pysomneo]: executing diffoscope
+[2023-07-08 15:25:26] INFO root fetch - processPackages [pysomneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysomneo-3.0.0a3.tar.gz tmp/pysomneo-3.0.0a4.tar.gz --markdown 20230708/p/pysomneo/3.0.0a3-3.0.0a4/diff.md --exclude *.pyd
+[2023-07-08 15:25:27] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-07-08 15:25:27] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.8.tar.gz tmp/hyko_sdk-0.1.9.tar.gz --markdown 20230708/h/hyko-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 15:25:27] INFO root fetch - processPackages [PyQt6-Frameless-Window]: executing diffoscope
+[2023-07-08 15:25:27] INFO root fetch - processPackages [PyQt6-Frameless-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Frameless-Window-0.1.1.tar.gz tmp/PyQt6-Frameless-Window-0.1.2.tar.gz --markdown 20230708/P/PyQt6-Frameless-Window/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-08 15:25:27] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.6.tar.gz]
+[2023-07-08 15:25:27] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.7.tar.gz]
+[2023-07-08 15:25:27] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 15:25:27] INFO root fetch - processPackages [ku-proxy]: Remove: archive file [/home/abi/fetcher/tmp/ku_proxy-0.2.0-py3-none-any.whl.zip]
+[2023-07-08 15:25:27] INFO root fetch - processPackages [ku-proxy]: Remove: archive file [/home/abi/fetcher/tmp/ku_proxy-0.2.1-py3-none-any.whl.zip]
+[2023-07-08 15:25:27] INFO root fetch - main [MainThread]: End processing [ku-proxy]: success
+[2023-07-08 15:25:27] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.7.tar.gz]
+[2023-07-08 15:25:27] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 15:25:27] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 15:25:28] INFO root fetch - processPackages [CTkTable]: Remove: archive file [/home/abi/fetcher/tmp/CTkTable-0.6.tar.gz]
+[2023-07-08 15:25:28] INFO root fetch - processPackages [CTkTable]: Remove: archive file [/home/abi/fetcher/tmp/CTkTable-0.7.tar.gz]
+[2023-07-08 15:25:28] INFO root fetch - main [MainThread]: End processing [CTkTable]: success
+[2023-07-08 15:25:28] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-07-08 15:25:28] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.9.tar.gz]
+[2023-07-08 15:25:28] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-07-08 15:25:28] INFO root fetch - processPackages [pysomneo]: Remove: archive file [/home/abi/fetcher/tmp/pysomneo-3.0.0a3.tar.gz]
+[2023-07-08 15:25:28] INFO root fetch - processPackages [pysomneo]: Remove: archive file [/home/abi/fetcher/tmp/pysomneo-3.0.0a4.tar.gz]
+[2023-07-08 15:25:28] INFO root fetch - main [MainThread]: End processing [pysomneo]: success
+[2023-07-08 15:25:28] INFO root fetch - processPackages [PyQt6-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Frameless-Window-0.1.1.tar.gz]
+[2023-07-08 15:25:28] INFO root fetch - processPackages [PyQt6-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Frameless-Window-0.1.2.tar.gz]
+[2023-07-08 15:25:28] INFO root fetch - main [MainThread]: End processing [PyQt6-Frameless-Window]: success
+[2023-07-08 15:25:28] INFO root fetch - main [MainThread]: Store serial: [18813364]
