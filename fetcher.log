@@ -18974,3 +18974,72 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 17:58:38] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: Remove: archive file [/home/abi/fetcher/tmp/napari-segment-blobs-and-things-with-membranes-0.3.6.tar.gz]
 [2023-07-08 17:58:38] INFO root fetch - main [MainThread]: End processing [napari-segment-blobs-and-things-with-membranes]: success
 [2023-07-08 17:58:38] INFO root fetch - main [MainThread]: Store serial: [18814252]
+[2023-07-08 18:03:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814252]
+[2023-07-08 18:03:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 18:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Simple-ML-Algo
+[2023-07-08 18:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trab-devops-ci-cd-process
+[2023-07-08 18:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scientistmetrics
+[2023-07-08 18:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nb-cli
+[2023-07-08 18:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kazane
+[2023-07-08 18:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mycotools
+[2023-07-08 18:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: telepycrypto
+[2023-07-08 18:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sockets-communication
+[2023-07-08 18:03:48] INFO root fetch - processPackages [Simple-ML-Algo]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-08 18:03:48] INFO root fetch - processPackages [sockets-communication]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-08 18:03:48] INFO root fetch - processPackages [telepycrypto]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-08 18:03:48] WARNING root fetch - processPackages [scientistmetrics]: Skipping, unable to determine old version
+[2023-07-08 18:03:48] INFO root fetch - main [MainThread]: End processing [scientistmetrics] error
+[2023-07-08 18:03:48] INFO root fetch - processPackages [kazane]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-08 18:03:48] INFO root fetch - processPackages [trab-devops-ci-cd-process]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-08 18:03:48] INFO root fetch - processPackages [nb-cli]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-07-08 18:03:48] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-07-08 18:03:48] INFO root fetch - processPackages [sockets-communication]: Downloading https://files.pythonhosted.org/packages/9a/cf/9c05818730b32c4093396f77546972bef10789b1ff493326f1f44c05c078/sockets-communication-1.4.0.tar.gz
+[2023-07-08 18:03:48] INFO root fetch - processPackages [telepycrypto]: Downloading https://files.pythonhosted.org/packages/ed/0a/e2cc4249111df509af47deeda5cf548c40dfd3d02aad318df7b7d626f00e/telepycrypto-1.0.1.tar.gz
+[2023-07-08 18:03:48] INFO root fetch - processPackages [Simple-ML-Algo]: Downloading https://files.pythonhosted.org/packages/bc/b1/d352f6b789e9a8b3e5c5096428f7e7ba65accc71a2977a51dea85df58fe8/Simple_ML_Algo-1.0.0.tar.gz
+[2023-07-08 18:03:48] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Downloading https://files.pythonhosted.org/packages/7b/08/6c3e304dd6c7ba51702bd2606979ff395d6d8ce99a5e4dcb7abe6a6492a9/trab_devops_ci_cd_process-0.0.3.tar.gz
+[2023-07-08 18:03:48] INFO root fetch - processPackages [nb-cli]: Downloading https://files.pythonhosted.org/packages/a9/a4/d93a67f1d02fb4516dc7dd34302f33f7ac4ade39f991b35f3342820f56e2/nb-cli-1.1.2.tar.gz
+[2023-07-08 18:03:48] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2023-07-08 18:03:48] INFO root fetch - processPackages [kazane]: Downloading https://files.pythonhosted.org/packages/86/ca/3e3b6e2bb6b828ac21178c61756ae3173ee51262be3307c3f92dacbe848f/kazane-1.0.3.tar.gz
+[2023-07-08 18:03:48] INFO root fetch - processPackages [telepycrypto]: Downloading https://files.pythonhosted.org/packages/85/98/b5520c29ecd53b52c89bddeaf9ca424b99ddafd0eb59adc372b5da427bf4/telepycrypto-1.0.2.tar.gz
+[2023-07-08 18:03:48] INFO root fetch - processPackages [sockets-communication]: Downloading https://files.pythonhosted.org/packages/cf/20/c19c5cd2ef8e5ecd717d66435bd470b9b282c3e8dad77775b90fb2ccc1ea/sockets-communication-1.4.1.tar.gz
+[2023-07-08 18:03:48] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Downloading https://files.pythonhosted.org/packages/8f/03/42b083df09cc015a76496b49ba0d644c6d1c6aacac22643e9bcbdba58881/trab_devops_ci_cd_process-0.0.4.tar.gz
+[2023-07-08 18:03:48] INFO root fetch - processPackages [Simple-ML-Algo]: Downloading https://files.pythonhosted.org/packages/51/61/412b651bedb7eefdbf4dd0f2a9865f45449e23ef9ff17c4f0675027f0982/Simple_ML_Algo-1.0.2.tar.gz
+[2023-07-08 18:03:48] INFO root fetch - processPackages [sockets-communication]: executing diffoscope
+[2023-07-08 18:03:48] INFO root fetch - processPackages [sockets-communication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sockets-communication-1.4.0.tar.gz tmp/sockets-communication-1.4.1.tar.gz --markdown 20230708/s/sockets-communication/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-08 18:03:48] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2023-07-08 18:03:48] INFO root fetch - processPackages [telepycrypto]: executing diffoscope
+[2023-07-08 18:03:48] INFO root fetch - processPackages [telepycrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telepycrypto-1.0.1.tar.gz tmp/telepycrypto-1.0.2.tar.gz --markdown 20230708/t/telepycrypto/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-08 18:03:48] INFO root fetch - processPackages [kazane]: Downloading https://files.pythonhosted.org/packages/7b/87/f254fbb5d225b5bee70d7c957bd26bc4edc3753810e74ffd739e5445e909/kazane-1.0.4.tar.gz
+[2023-07-08 18:03:48] INFO root fetch - processPackages [trab-devops-ci-cd-process]: executing diffoscope
+[2023-07-08 18:03:48] INFO root fetch - processPackages [trab-devops-ci-cd-process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trab_devops_ci_cd_process-0.0.3.tar.gz tmp/trab_devops_ci_cd_process-0.0.4.tar.gz --markdown 20230708/t/trab-devops-ci-cd-process/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-08 18:03:48] INFO root fetch - processPackages [nb-cli]: Downloading https://files.pythonhosted.org/packages/4a/6f/7a207fac97ca11403c614cd2a6e68de99184be80fcc9a58df19661dbc3ec/nb-cli-1.2.0.tar.gz
+[2023-07-08 18:03:48] INFO root fetch - processPackages [Simple-ML-Algo]: executing diffoscope
+[2023-07-08 18:03:48] INFO root fetch - processPackages [Simple-ML-Algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simple_ML_Algo-1.0.0.tar.gz tmp/Simple_ML_Algo-1.0.2.tar.gz --markdown 20230708/S/Simple-ML-Algo/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-08 18:03:48] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2023-07-08 18:03:48] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20230708/m/mycotools/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-07-08 18:03:49] INFO root fetch - processPackages [kazane]: executing diffoscope
+[2023-07-08 18:03:49] INFO root fetch - processPackages [kazane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kazane-1.0.3.tar.gz tmp/kazane-1.0.4.tar.gz --markdown 20230708/k/kazane/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-08 18:03:49] INFO root fetch - processPackages [nb-cli]: executing diffoscope
+[2023-07-08 18:03:49] INFO root fetch - processPackages [nb-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb-cli-1.1.2.tar.gz tmp/nb-cli-1.2.0.tar.gz --markdown 20230708/n/nb-cli/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-07-08 18:03:49] INFO root fetch - processPackages [telepycrypto]: Remove: archive file [/home/abi/fetcher/tmp/telepycrypto-1.0.1.tar.gz]
+[2023-07-08 18:03:49] INFO root fetch - processPackages [telepycrypto]: Remove: archive file [/home/abi/fetcher/tmp/telepycrypto-1.0.2.tar.gz]
+[2023-07-08 18:03:49] INFO root fetch - main [MainThread]: End processing [telepycrypto]: success
+[2023-07-08 18:03:50] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Remove: archive file [/home/abi/fetcher/tmp/trab_devops_ci_cd_process-0.0.3.tar.gz]
+[2023-07-08 18:03:50] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Remove: archive file [/home/abi/fetcher/tmp/trab_devops_ci_cd_process-0.0.4.tar.gz]
+[2023-07-08 18:03:50] INFO root fetch - main [MainThread]: End processing [trab-devops-ci-cd-process]: success
+[2023-07-08 18:03:50] INFO root fetch - processPackages [Simple-ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/Simple_ML_Algo-1.0.0.tar.gz]
+[2023-07-08 18:03:50] INFO root fetch - processPackages [Simple-ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/Simple_ML_Algo-1.0.2.tar.gz]
+[2023-07-08 18:03:50] INFO root fetch - main [MainThread]: End processing [Simple-ML-Algo]: success
+[2023-07-08 18:03:50] INFO root fetch - processPackages [sockets-communication]: Remove: archive file [/home/abi/fetcher/tmp/sockets-communication-1.4.0.tar.gz]
+[2023-07-08 18:03:50] INFO root fetch - processPackages [sockets-communication]: Remove: archive file [/home/abi/fetcher/tmp/sockets-communication-1.4.1.tar.gz]
+[2023-07-08 18:03:50] INFO root fetch - main [MainThread]: End processing [sockets-communication]: success
+[2023-07-08 18:03:50] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b8.tar.gz]
+[2023-07-08 18:03:50] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b9.tar.gz]
+[2023-07-08 18:03:50] INFO root fetch - main [MainThread]: End processing [mycotools]: success
+[2023-07-08 18:03:50] INFO root fetch - processPackages [nb-cli]: Remove: archive file [/home/abi/fetcher/tmp/nb-cli-1.1.2.tar.gz]
+[2023-07-08 18:03:50] INFO root fetch - processPackages [nb-cli]: Remove: archive file [/home/abi/fetcher/tmp/nb-cli-1.2.0.tar.gz]
+[2023-07-08 18:03:50] INFO root fetch - main [MainThread]: End processing [nb-cli]: success
+[2023-07-08 18:03:50] INFO root fetch - processPackages [kazane]: Remove: archive file [/home/abi/fetcher/tmp/kazane-1.0.3.tar.gz]
+[2023-07-08 18:03:50] INFO root fetch - processPackages [kazane]: Remove: archive file [/home/abi/fetcher/tmp/kazane-1.0.4.tar.gz]
+[2023-07-08 18:03:50] INFO root fetch - main [MainThread]: End processing [kazane]: success
+[2023-07-08 18:03:50] INFO root fetch - main [MainThread]: Store serial: [18814277]
