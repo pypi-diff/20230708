@@ -11623,3 +11623,40 @@
 [2023-07-08 06:25:09] INFO root fetch - processPackages [streamlit-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-code-editor-0.1.8.tar.gz]
 [2023-07-08 06:25:09] INFO root fetch - main [MainThread]: End processing [streamlit-code-editor]: success
 [2023-07-08 06:25:09] INFO root fetch - main [MainThread]: Store serial: [18810836]
+[2023-07-08 06:30:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810836]
+[2023-07-08 06:30:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocdsextensionregistry
+[2023-07-08 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pmdsky-debug-py
+[2023-07-08 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-splatoon3
+[2023-07-08 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snowflake-connector-python-nightly
+[2023-07-08 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vosk-autosrt
+[2023-07-08 06:30:18] INFO root fetch - processPackages [vosk-autosrt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 06:30:18] INFO root fetch - processPackages [ocdsextensionregistry]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-08 06:30:19] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-08 06:30:19] INFO root fetch - processPackages [vosk-autosrt]: Downloading https://files.pythonhosted.org/packages/e5/80/94465a9f3bd443601d106cf4273006937868d3dbf03d30e362b07506d3a4/vosk_autosrt-0.1.0.tar.gz
+[2023-07-08 06:30:19] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [7.0.0] Old Version: [6.0.0]
+[2023-07-08 06:30:19] WARNING root fetch - processPackages [vosk-autosrt]: Skipping package: exceeds size limit 21465950>=10485760
+[2023-07-08 06:30:19] INFO root fetch - main [MainThread]: End processing [vosk-autosrt] error
+[2023-07-08 06:30:19] INFO root fetch - processPackages [ocdsextensionregistry]: Downloading https://files.pythonhosted.org/packages/97/b3/b74b7ba4ec5b12f0e6291b28dea1d1c01463509224f51ade1ed01a128c21/ocdsextensionregistry-0.3.2.tar.gz
+[2023-07-08 06:30:19] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: Downloading https://files.pythonhosted.org/packages/db/24/b411b7f54fec8b6318c6b6831b0b15f3043d934e710ab316cc0cbd29761b/nonebot_plugin_splatoon3-1.1.1.tar.gz
+[2023-07-08 06:30:19] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.7.8] Old Version: [2023.7.6]
+[2023-07-08 06:30:19] WARNING root fetch - processPackages [nonebot-plugin-splatoon3]: Skipping package: exceeds size limit 95486113>=10485760
+[2023-07-08 06:30:19] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-splatoon3] error
+[2023-07-08 06:30:19] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/bf/40/242a55c3b5a8acf4918eaa544a7864081fcfc9d8eca3e00d84205130f554/pmdsky_debug_py-6.0.0-py3-none-any.whl
+[2023-07-08 06:30:19] INFO root fetch - processPackages [ocdsextensionregistry]: Downloading https://files.pythonhosted.org/packages/f3/da/364bc4d9b11feb4dc98864cf77a379e08d24cdf2b4007542e32e6f684675/ocdsextensionregistry-0.3.3.tar.gz
+[2023-07-08 06:30:19] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/c9/81/c4d9965bfca21c8ac1ee47fa96c6efeeb51fa6f29adea9b6c656c1e1186f/snowflake-connector-python-nightly-2023.7.6.tar.gz
+[2023-07-08 06:30:19] INFO root fetch - processPackages [ocdsextensionregistry]: executing diffoscope
+[2023-07-08 06:30:19] INFO root fetch - processPackages [ocdsextensionregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocdsextensionregistry-0.3.2.tar.gz tmp/ocdsextensionregistry-0.3.3.tar.gz --markdown 20230708/o/ocdsextensionregistry/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-08 06:30:19] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/c6/65/5200704bfae1cfde8d86052ad1f3d002238ebeab7b532cecc0a3effc662f/pmdsky_debug_py-7.0.0-py3-none-any.whl
+[2023-07-08 06:30:19] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/05/0d/7dccaf8ba16ecbf69209608773c0bfb0dcedc3b973567aa4aa735659f1ec/snowflake_connector_python_nightly-2023.7.8-cp37-cp37m-win_amd64.whl
+[2023-07-08 06:30:19] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2023-07-08 06:30:19] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-6.0.0-py3-none-any.whl.zip tmp/pmdsky_debug_py-7.0.0-py3-none-any.whl.zip --markdown 20230708/p/pmdsky-debug-py/6.0.0-7.0.0/diff.md --exclude *.pyd
+[2023-07-08 06:30:20] WARNING root fetch - processPackages [snowflake-connector-python-nightly]: Skipping package: exceeds size limit 10653658>=10485760
+[2023-07-08 06:30:20] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly] error
+[2023-07-08 06:30:20] INFO root fetch - processPackages [ocdsextensionregistry]: Remove: archive file [/home/abi/fetcher/tmp/ocdsextensionregistry-0.3.2.tar.gz]
+[2023-07-08 06:30:20] INFO root fetch - processPackages [ocdsextensionregistry]: Remove: archive file [/home/abi/fetcher/tmp/ocdsextensionregistry-0.3.3.tar.gz]
+[2023-07-08 06:30:20] INFO root fetch - main [MainThread]: End processing [ocdsextensionregistry]: success
+[2023-07-08 06:30:21] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-6.0.0-py3-none-any.whl.zip]
+[2023-07-08 06:30:21] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.0-py3-none-any.whl.zip]
+[2023-07-08 06:30:21] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2023-07-08 06:30:21] INFO root fetch - main [MainThread]: Store serial: [18810865]
