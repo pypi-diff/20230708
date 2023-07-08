@@ -17421,3 +17421,84 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 16:02:23] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack-ext-2.1.1.dev20230708135750.tar.gz]
 [2023-07-08 16:02:23] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
 [2023-07-08 16:02:23] INFO root fetch - main [MainThread]: Store serial: [18813579]
+[2023-07-08 16:07:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813579]
+[2023-07-08 16:07:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-08 16:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysomneo
+[2023-07-08 16:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slib-sorter
+[2023-07-08 16:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seventv
+[2023-07-08 16:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iter-tools
+[2023-07-08 16:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keepvariable
+[2023-07-08 16:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-minify-html-plugin
+[2023-07-08 16:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trzsz
+[2023-07-08 16:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trzsz-libs
+[2023-07-08 16:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trzsz-svr
+[2023-07-08 16:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trzsz-iterm2
+[2023-07-08 16:07:33] INFO root fetch - processPackages [keepvariable]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-08 16:07:33] WARNING root fetch - processPackages [iter-tools]: Skipping, unable to determine old version
+[2023-07-08 16:07:33] INFO root fetch - main [MainThread]: End processing [iter-tools] error
+[2023-07-08 16:07:33] INFO root fetch - processPackages [trzsz-libs]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-08 16:07:33] INFO root fetch - processPackages [slib-sorter]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 16:07:33] INFO root fetch - processPackages [seventv]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-08 16:07:33] INFO root fetch - processPackages [trzsz-iterm2]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-08 16:07:33] INFO root fetch - processPackages [trzsz]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-08 16:07:33] INFO root fetch - processPackages [trzsz-svr]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-08 16:07:33] WARNING root fetch - processPackages [mkdocs-minify-html-plugin]: Skipping, unable to determine old version
+[2023-07-08 16:07:33] INFO root fetch - main [MainThread]: End processing [mkdocs-minify-html-plugin] error
+[2023-07-08 16:07:33] INFO root fetch - processPackages [pysomneo]: New version: [3.0.0a9] Old Version: [3.0.0a8]
+[2023-07-08 16:07:33] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/5e/ca/ac7c728c700a7b10cb87ff73f4a288de7cafffc9fa8df02551b3781dd473/seventv-1.2.2.tar.gz
+[2023-07-08 16:07:33] INFO root fetch - processPackages [keepvariable]: Downloading https://files.pythonhosted.org/packages/3b/f4/c62ba2b0718335ad82cfb1eadc2a4339f3cdec7f1f6f326aa1229e629d3f/keepvariable-1.2.4.tar.gz
+[2023-07-08 16:07:33] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/31/5e/dc24e0d62c2c179b0a4a95c7887e2b7688239f6eebbe6b4c0597d99e4c0d/slib-sorter-1.5.8.tar.gz
+[2023-07-08 16:07:33] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/0d/97/42023032ca8286ffc07a5c47ffa78fde6345cff946f7fef646448b497644/pysomneo-3.0.0a8.tar.gz
+[2023-07-08 16:07:33] INFO root fetch - processPackages [trzsz]: Downloading https://files.pythonhosted.org/packages/0c/e5/00c95527d18445cbd3b3b2c5c28a383c94c9ac5291e886796004727b25aa/trzsz-1.1.2.tar.gz
+[2023-07-08 16:07:33] INFO root fetch - processPackages [trzsz-iterm2]: Downloading https://files.pythonhosted.org/packages/ea/f8/2d26c13f511116d8dea8f4bb4610144e4a85afee1b7ddfc96f4abfbead10/trzsz-iterm2-1.1.2.tar.gz
+[2023-07-08 16:07:33] INFO root fetch - processPackages [trzsz-svr]: Downloading https://files.pythonhosted.org/packages/a2/ef/2740a48fe69e2086ad6119e0cee51ac56f217faec3de54ca4aa03bb1efff/trzsz-svr-1.1.2.tar.gz
+[2023-07-08 16:07:33] INFO root fetch - processPackages [trzsz-libs]: Downloading https://files.pythonhosted.org/packages/21/6b/fb791246cc8968dde9f35fa2f5cd404dc17faf698991150eb1cd7a858f18/trzsz-libs-1.1.2.tar.gz
+[2023-07-08 16:07:33] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/0f/62/e4015992d31b4105ce97ce46a703f3081e897a12b528d062b60c344255b4/seventv-1.2.3.tar.gz
+[2023-07-08 16:07:34] INFO root fetch - processPackages [keepvariable]: Downloading https://files.pythonhosted.org/packages/3b/fd/60381159a2b9f55099915653a81fae9ccb71c149333d0cf9d83959db48c8/keepvariable-1.2.5.tar.gz
+[2023-07-08 16:07:34] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/29/fa/133c74067dbb3c3daaf1a7c7a00c138d73d6d0527c27ceec1684d671a878/slib-sorter-1.5.9.tar.gz
+[2023-07-08 16:07:34] INFO root fetch - processPackages [seventv]: executing diffoscope
+[2023-07-08 16:07:34] INFO root fetch - processPackages [seventv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seventv-1.2.2.tar.gz tmp/seventv-1.2.3.tar.gz --markdown 20230708/s/seventv/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-08 16:07:34] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/53/11/8475019481df9193fd0697c9696bda7e8e533f849e7a7d77f34758623eb3/pysomneo-3.0.0a9.tar.gz
+[2023-07-08 16:07:34] INFO root fetch - processPackages [keepvariable]: executing diffoscope
+[2023-07-08 16:07:34] INFO root fetch - processPackages [keepvariable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keepvariable-1.2.4.tar.gz tmp/keepvariable-1.2.5.tar.gz --markdown 20230708/k/keepvariable/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-08 16:07:34] INFO root fetch - processPackages [trzsz]: Downloading https://files.pythonhosted.org/packages/33/14/5b54b20f4027f23c4dab039a3ac2c73df2b79039c449ebbe2903c98c20e4/trzsz-1.1.3.tar.gz
+[2023-07-08 16:07:34] INFO root fetch - processPackages [trzsz-svr]: Downloading https://files.pythonhosted.org/packages/65/ca/febf965d861a7766fd93349d91f73892abd78b28b30d8ad97b540d1ba07c/trzsz-svr-1.1.3.tar.gz
+[2023-07-08 16:07:34] INFO root fetch - processPackages [trzsz-iterm2]: Downloading https://files.pythonhosted.org/packages/2d/e2/ef11908cb52c1a66b751c7615c7a62aeaa2ca1c13594fcb8bac4403ce4e5/trzsz-iterm2-1.1.3.tar.gz
+[2023-07-08 16:07:34] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 16:07:34] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.5.8.tar.gz tmp/slib-sorter-1.5.9.tar.gz --markdown 20230708/s/slib-sorter/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 16:07:34] INFO root fetch - processPackages [trzsz]: executing diffoscope
+[2023-07-08 16:07:34] INFO root fetch - processPackages [trzsz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trzsz-1.1.2.tar.gz tmp/trzsz-1.1.3.tar.gz --markdown 20230708/t/trzsz/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-08 16:07:34] INFO root fetch - processPackages [trzsz-libs]: Downloading https://files.pythonhosted.org/packages/9d/7e/59ccff82d9fc525d29721e3e0acd4d3bb0adc9c56e6e56a506009800cba1/trzsz-libs-1.1.3.tar.gz
+[2023-07-08 16:07:34] INFO root fetch - processPackages [trzsz-svr]: executing diffoscope
+[2023-07-08 16:07:34] INFO root fetch - processPackages [trzsz-svr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trzsz-svr-1.1.2.tar.gz tmp/trzsz-svr-1.1.3.tar.gz --markdown 20230708/t/trzsz-svr/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-08 16:07:34] INFO root fetch - processPackages [pysomneo]: executing diffoscope
+[2023-07-08 16:07:34] INFO root fetch - processPackages [pysomneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysomneo-3.0.0a8.tar.gz tmp/pysomneo-3.0.0a9.tar.gz --markdown 20230708/p/pysomneo/3.0.0a8-3.0.0a9/diff.md --exclude *.pyd
+[2023-07-08 16:07:34] INFO root fetch - processPackages [trzsz-iterm2]: executing diffoscope
+[2023-07-08 16:07:34] INFO root fetch - processPackages [trzsz-iterm2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trzsz-iterm2-1.1.2.tar.gz tmp/trzsz-iterm2-1.1.3.tar.gz --markdown 20230708/t/trzsz-iterm2/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-08 16:07:34] INFO root fetch - processPackages [trzsz-libs]: executing diffoscope
+[2023-07-08 16:07:34] INFO root fetch - processPackages [trzsz-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trzsz-libs-1.1.2.tar.gz tmp/trzsz-libs-1.1.3.tar.gz --markdown 20230708/t/trzsz-libs/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-08 16:07:35] INFO root fetch - processPackages [keepvariable]: Remove: archive file [/home/abi/fetcher/tmp/keepvariable-1.2.4.tar.gz]
+[2023-07-08 16:07:35] INFO root fetch - processPackages [keepvariable]: Remove: archive file [/home/abi/fetcher/tmp/keepvariable-1.2.5.tar.gz]
+[2023-07-08 16:07:35] INFO root fetch - main [MainThread]: End processing [keepvariable]: success
+[2023-07-08 16:07:35] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-1.2.2.tar.gz]
+[2023-07-08 16:07:35] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-1.2.3.tar.gz]
+[2023-07-08 16:07:35] INFO root fetch - main [MainThread]: End processing [seventv]: success
+[2023-07-08 16:07:35] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.8.tar.gz]
+[2023-07-08 16:07:35] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.9.tar.gz]
+[2023-07-08 16:07:35] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 16:07:35] INFO root fetch - processPackages [trzsz]: Remove: archive file [/home/abi/fetcher/tmp/trzsz-1.1.2.tar.gz]
+[2023-07-08 16:07:35] INFO root fetch - processPackages [trzsz]: Remove: archive file [/home/abi/fetcher/tmp/trzsz-1.1.3.tar.gz]
+[2023-07-08 16:07:35] INFO root fetch - main [MainThread]: End processing [trzsz]: success
+[2023-07-08 16:07:35] INFO root fetch - processPackages [pysomneo]: Remove: archive file [/home/abi/fetcher/tmp/pysomneo-3.0.0a8.tar.gz]
+[2023-07-08 16:07:35] INFO root fetch - processPackages [pysomneo]: Remove: archive file [/home/abi/fetcher/tmp/pysomneo-3.0.0a9.tar.gz]
+[2023-07-08 16:07:35] INFO root fetch - main [MainThread]: End processing [pysomneo]: success
+[2023-07-08 16:07:35] INFO root fetch - processPackages [trzsz-iterm2]: Remove: archive file [/home/abi/fetcher/tmp/trzsz-iterm2-1.1.2.tar.gz]
+[2023-07-08 16:07:35] INFO root fetch - processPackages [trzsz-iterm2]: Remove: archive file [/home/abi/fetcher/tmp/trzsz-iterm2-1.1.3.tar.gz]
+[2023-07-08 16:07:35] INFO root fetch - main [MainThread]: End processing [trzsz-iterm2]: success
+[2023-07-08 16:07:35] INFO root fetch - processPackages [trzsz-svr]: Remove: archive file [/home/abi/fetcher/tmp/trzsz-svr-1.1.2.tar.gz]
+[2023-07-08 16:07:35] INFO root fetch - processPackages [trzsz-svr]: Remove: archive file [/home/abi/fetcher/tmp/trzsz-svr-1.1.3.tar.gz]
+[2023-07-08 16:07:35] INFO root fetch - main [MainThread]: End processing [trzsz-svr]: success
+[2023-07-08 16:07:36] INFO root fetch - processPackages [trzsz-libs]: Remove: archive file [/home/abi/fetcher/tmp/trzsz-libs-1.1.2.tar.gz]
+[2023-07-08 16:07:36] INFO root fetch - processPackages [trzsz-libs]: Remove: archive file [/home/abi/fetcher/tmp/trzsz-libs-1.1.3.tar.gz]
+[2023-07-08 16:07:36] INFO root fetch - main [MainThread]: End processing [trzsz-libs]: success
+[2023-07-08 16:07:36] INFO root fetch - main [MainThread]: Store serial: [18813614]
