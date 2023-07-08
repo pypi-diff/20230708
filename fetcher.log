@@ -19543,3 +19543,55 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 18:50:44] INFO root fetch - processPackages [datafusion]: Remove: archive file [/home/abi/fetcher/tmp/datafusion-27.0.0.tar.gz]
 [2023-07-08 18:50:44] INFO root fetch - main [MainThread]: End processing [datafusion]: success
 [2023-07-08 18:50:44] INFO root fetch - main [MainThread]: Store serial: [18814522]
+[2023-07-08 18:55:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814522]
+[2023-07-08 18:55:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: safepull
+[2023-07-08 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ragu
+[2023-07-08 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trendalation
+[2023-07-08 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uhull
+[2023-07-08 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trendalation
+[2023-07-08 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mimic-user-agent
+[2023-07-08 18:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: findmyorder
+[2023-07-08 18:55:53] WARNING root fetch - processPackages [mimic-user-agent]: Skipping, unable to determine old version
+[2023-07-08 18:55:53] INFO root fetch - main [MainThread]: End processing [mimic-user-agent] error
+[2023-07-08 18:55:53] INFO root fetch - processPackages [trendalation]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-08 18:55:53] INFO root fetch - processPackages [ragu]: New version: [0.1.22] Old Version: [0.1.21]
+[2023-07-08 18:55:53] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 18:55:53] INFO root fetch - processPackages [trendalation]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-08 18:55:53] WARNING root fetch - processPackages [uhull]: Skipping, unable to determine old version
+[2023-07-08 18:55:53] INFO root fetch - main [MainThread]: End processing [uhull] error
+[2023-07-08 18:55:53] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/79/b6/961112525449ff725c3872b71e091c0a8ef58011d0356330d37bc90dd56e/trendalation-0.0.1.tar.gz
+[2023-07-08 18:55:53] INFO root fetch - processPackages [safepull]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-08 18:55:53] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 18:55:53] INFO root fetch - processPackages [ragu]: Downloading https://files.pythonhosted.org/packages/43/8b/54dc96e776759bbdf757a328332f7d0b7ec1cf7e5376e898ed2222530db7/ragu-0.1.21.tar.gz
+[2023-07-08 18:55:53] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/79/b6/961112525449ff725c3872b71e091c0a8ef58011d0356330d37bc90dd56e/trendalation-0.0.1.tar.gz
+[2023-07-08 18:55:53] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 18:55:53] INFO root fetch - processPackages [safepull]: Downloading https://files.pythonhosted.org/packages/3c/37/e8ff3a7354d6e4cb8589228012bfb24afdbd1f4a1e115a04b9a129cb7e2c/safepull-2.0.0.tar.gz
+[2023-07-08 18:55:53] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/af/86/4394914c40653474eb04ae14b76e2179f18237eef74be970b0ea88b58771/trendalation-0.0.2.tar.gz
+[2023-07-08 18:55:53] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/af/86/4394914c40653474eb04ae14b76e2179f18237eef74be970b0ea88b58771/trendalation-0.0.2.tar.gz
+[2023-07-08 18:55:54] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 18:55:54] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 18:55:54] INFO root fetch - processPackages [ragu]: Downloading https://files.pythonhosted.org/packages/4f/e9/c0c012a55f5fa71c28fc9af43fdb6d4ecaef561f4688b59591b504aaaba5/ragu-0.1.22.tar.gz
+[2023-07-08 18:55:54] INFO root fetch - processPackages [trendalation]: executing diffoscope
+[2023-07-08 18:55:54] INFO root fetch - processPackages [trendalation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendalation-0.0.1.tar.gz tmp/trendalation-0.0.2.tar.gz --markdown 20230708/t/trendalation/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 18:55:54] INFO root fetch - processPackages [trendalation]: executing diffoscope
+[2023-07-08 18:55:54] INFO root fetch - processPackages [trendalation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendalation-0.0.1.tar.gz tmp/trendalation-0.0.2.tar.gz --markdown 20230708/t/trendalation/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 18:55:54] INFO root fetch - processPackages [safepull]: Downloading https://files.pythonhosted.org/packages/41/1b/830df7c9212281ff4cc6d1c0d505187f78e641bfc005374530fbb2ae8680/safepull-2.0.1.tar.gz
+[2023-07-08 18:55:54] INFO root fetch - processPackages [safepull]: executing diffoscope
+[2023-07-08 18:55:54] INFO root fetch - processPackages [safepull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safepull-2.0.0.tar.gz tmp/safepull-2.0.1.tar.gz --markdown 20230708/s/safepull/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-08 18:55:54] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.0.1.tar.gz]
+[2023-07-08 18:55:54] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.0.2.tar.gz]
+[2023-07-08 18:55:54] INFO root fetch - main [MainThread]: End processing [trendalation]: success
+[2023-07-08 18:55:54] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 18:55:54] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 18:55:54] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 18:55:55] INFO root fetch - main [MainThread]: End processing [trendalation]: success
+[2023-07-08 18:55:55] INFO root fetch - processPackages [safepull]: Remove: archive file [/home/abi/fetcher/tmp/safepull-2.0.0.tar.gz]
+[2023-07-08 18:55:55] INFO root fetch - processPackages [safepull]: Remove: archive file [/home/abi/fetcher/tmp/safepull-2.0.1.tar.gz]
+[2023-07-08 18:55:55] INFO root fetch - main [MainThread]: End processing [safepull]: success
+[2023-07-08 18:55:55] INFO root fetch - processPackages [ragu]: executing diffoscope
+[2023-07-08 18:55:55] INFO root fetch - processPackages [ragu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragu-0.1.21.tar.gz tmp/ragu-0.1.22.tar.gz --markdown 20230708/r/ragu/0.1.21-0.1.22/diff.md --exclude *.pyd
+[2023-07-08 18:55:58] INFO root fetch - processPackages [ragu]: Remove: archive file [/home/abi/fetcher/tmp/ragu-0.1.21.tar.gz]
+[2023-07-08 18:55:58] INFO root fetch - processPackages [ragu]: Remove: archive file [/home/abi/fetcher/tmp/ragu-0.1.22.tar.gz]
+[2023-07-08 18:55:58] INFO root fetch - main [MainThread]: End processing [ragu]: success
+[2023-07-08 18:55:58] INFO root fetch - main [MainThread]: Store serial: [18814547]
