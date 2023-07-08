@@ -16476,3 +16476,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 14:48:43] INFO root fetch - processPackages [wtlike]: Remove: archive file [/home/abi/fetcher/tmp/wtlike-0.9.8.tar.gz]
 [2023-07-08 14:48:43] INFO root fetch - main [MainThread]: End processing [wtlike]: success
 [2023-07-08 14:48:43] INFO root fetch - main [MainThread]: Store serial: [18813154]
+[2023-07-08 14:53:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813154]
+[2023-07-08 14:53:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 14:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyfi
+[2023-07-08 14:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autora-workflow
+[2023-07-08 14:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goxlr
+[2023-07-08 14:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: music-assistant-frontend
+[2023-07-08 14:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manticore
+[2023-07-08 14:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chill
+[2023-07-08 14:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: warn-transformer
+[2023-07-08 14:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: music-assistant
+[2023-07-08 14:53:54] INFO root fetch - processPackages [autora-workflow]: New version: [0.4.0b1] Old Version: [0.3.6]
+[2023-07-08 14:53:54] INFO root fetch - processPackages [warn-transformer]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-08 14:53:54] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-08 14:53:54] INFO root fetch - processPackages [goxlr]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-08 14:53:54] INFO root fetch - processPackages [chill]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-08 14:53:54] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230707] Old Version: [0.3.8.dev230706]
+[2023-07-08 14:53:54] INFO root fetch - processPackages [music-assistant-frontend]: New version: [20230707.1] Old Version: [20230707.0]
+[2023-07-08 14:53:54] INFO root fetch - processPackages [autora-workflow]: Downloading https://files.pythonhosted.org/packages/07/95/e8ccf3b08e65e769ce7256955957c3612521feb318eea190f895f9c52f5c/autora-workflow-0.3.6.tar.gz
+[2023-07-08 14:53:54] INFO root fetch - processPackages [hyfi]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-07-08 14:53:54] INFO root fetch - processPackages [warn-transformer]: Downloading https://files.pythonhosted.org/packages/27/ea/a7f48507ea48fcdbce1aeece06724a91fabd45f25890432912afb917e10a/warn-transformer-1.3.8.tar.gz
+[2023-07-08 14:53:54] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-07-08 14:53:54] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-07-08 14:53:54] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-07-08 14:53:54] WARNING root fetch - processPackages [warn-transformer]: Skipping package: exceeds size limit 17532658>=10485760
+[2023-07-08 14:53:54] INFO root fetch - main [MainThread]: End processing [warn-transformer] error
+[2023-07-08 14:53:54] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/0e/43/856431fc449e670cd9321e3499103cf89315d8d99358b1526c7b162d0ad3/manticore-0.3.8.dev230706.tar.gz
+[2023-07-08 14:53:54] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/fa/97/2e39f7089754a41307350f47a4063fbf8ae497b9856658bfd353425d424b/goxlr-1.2.0.tar.gz
+[2023-07-08 14:53:54] INFO root fetch - processPackages [chill]: Downloading https://files.pythonhosted.org/packages/51/c7/bcc035949f24127914c7ca9204ba5e30dfc6cab39bfc6d419d4d36228c4a/chill-0.8.1.tar.gz
+[2023-07-08 14:53:54] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/8a/1d/59d0aec14ecca76a4609710336bf9654c0533c319812e0b21579d51dd8ee/music_assistant_frontend-20230707.0-py3-none-any.whl
+[2023-07-08 14:53:54] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ef/99/84f04bd3c64467014f138a4a390ed8fb9f257bbf7cfd7da5a39114ee5277/hyfi-1.0.5.tar.gz
+[2023-07-08 14:53:54] INFO root fetch - processPackages [autora-workflow]: Downloading https://files.pythonhosted.org/packages/df/62/a245fe2fbd2473ab3f488297367f4254a64e102b59ee51b8bb73cf8d4bbb/autora-workflow-0.4.0b1.tar.gz
+[2023-07-08 14:53:55] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/17/9c/8e7e6a472f479d988b1d6d64ad17c8b50dae39b46ceddf85065415508606/manticore-0.3.8.dev230707.tar.gz
+[2023-07-08 14:53:55] INFO root fetch - processPackages [autora-workflow]: executing diffoscope
+[2023-07-08 14:53:55] INFO root fetch - processPackages [autora-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-workflow-0.3.6.tar.gz tmp/autora-workflow-0.4.0b1.tar.gz --markdown 20230708/a/autora-workflow/0.3.6-0.4.0b1/diff.md --exclude *.pyd
+[2023-07-08 14:53:55] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/b9/ce/21930508452f0cbb43e9a810b5be612744658715378c385a0a7d7ca09ad1/goxlr-1.3.0.tar.gz
+[2023-07-08 14:53:55] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/7f/40/4773b6b550b6703196333036306effa1917d4bb6d1894f0c0f80912d34b2/hyfi-1.1.0.tar.gz
+[2023-07-08 14:53:55] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-08 14:53:55] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230706.tar.gz tmp/manticore-0.3.8.dev230707.tar.gz --markdown 20230708/m/manticore/0.3.8.dev230706-0.3.8.dev230707/diff.md --exclude *.pyd
+[2023-07-08 14:53:55] INFO root fetch - processPackages [goxlr]: executing diffoscope
+[2023-07-08 14:53:55] INFO root fetch - processPackages [goxlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlr-1.2.0.tar.gz tmp/goxlr-1.3.0.tar.gz --markdown 20230708/g/goxlr/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-08 14:53:55] INFO root fetch - processPackages [chill]: Downloading https://files.pythonhosted.org/packages/85/9c/971f47b6dfa22bc90cb59371d44e6205d4fefa43826632c890f69119c147/chill-0.9.0.tar.gz
+[2023-07-08 14:53:55] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/6c/e4/5db0a43357c489f8787d54206236c638b8ce810e831732dbf33aea89c26c/music_assistant_frontend-20230707.1-py3-none-any.whl
+[2023-07-08 14:53:55] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-08 14:53:55] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.0.5.tar.gz tmp/hyfi-1.1.0.tar.gz --markdown 20230708/h/hyfi/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-07-08 14:53:55] INFO root fetch - processPackages [chill]: executing diffoscope
+[2023-07-08 14:53:55] INFO root fetch - processPackages [chill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chill-0.8.1.tar.gz tmp/chill-0.9.0.tar.gz --markdown 20230708/c/chill/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 14:53:55] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2023-07-08 14:53:55] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_assistant_frontend-20230707.0-py3-none-any.whl.zip tmp/music_assistant_frontend-20230707.1-py3-none-any.whl.zip --markdown 20230708/m/music-assistant-frontend/20230707.0-20230707.1/diff.md --exclude *.pyd
+[2023-07-08 14:53:56] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.2.0.tar.gz]
+[2023-07-08 14:53:56] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.3.0.tar.gz]
+[2023-07-08 14:53:56] INFO root fetch - main [MainThread]: End processing [goxlr]: success
+[2023-07-08 14:53:56] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230706.tar.gz]
+[2023-07-08 14:53:56] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230707.tar.gz]
+[2023-07-08 14:53:56] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-08 14:53:57] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.0.5.tar.gz]
+[2023-07-08 14:53:57] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.1.0.tar.gz]
+[2023-07-08 14:53:57] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-08 14:53:57] INFO root fetch - processPackages [chill]: Remove: archive file [/home/abi/fetcher/tmp/chill-0.8.1.tar.gz]
+[2023-07-08 14:53:57] INFO root fetch - processPackages [chill]: Remove: archive file [/home/abi/fetcher/tmp/chill-0.9.0.tar.gz]
+[2023-07-08 14:53:57] INFO root fetch - main [MainThread]: End processing [chill]: success
+[2023-07-08 14:53:57] INFO root fetch - processPackages [autora-workflow]: Remove: archive file [/home/abi/fetcher/tmp/autora-workflow-0.3.6.tar.gz]
+[2023-07-08 14:53:57] INFO root fetch - processPackages [autora-workflow]: Remove: archive file [/home/abi/fetcher/tmp/autora-workflow-0.4.0b1.tar.gz]
+[2023-07-08 14:53:57] INFO root fetch - main [MainThread]: End processing [autora-workflow]: success
+[2023-07-08 14:54:09] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music_assistant_frontend-20230707.0-py3-none-any.whl.zip]
+[2023-07-08 14:54:09] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music_assistant_frontend-20230707.1-py3-none-any.whl.zip]
+[2023-07-08 14:54:09] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2023-07-08 14:54:09] INFO root fetch - main [MainThread]: Store serial: [18813184]
