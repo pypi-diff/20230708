@@ -12911,3 +12911,80 @@
 [2023-07-08 09:14:02] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-08 09:14:02] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-08 09:14:02] INFO root fetch - main [MainThread]: Store serial: [18811493]
+[2023-07-08 09:19:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811493]
+[2023-07-08 09:19:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-08 09:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KwoksTool
+[2023-07-08 09:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfq-nightly
+[2023-07-08 09:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tastytrade-sdk
+[2023-07-08 09:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domain-admin
+[2023-07-08 09:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyassorted
+[2023-07-08 09:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liuaaa
+[2023-07-08 09:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nestedlistops
+[2023-07-08 09:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dhapi
+[2023-07-08 09:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiovantage
+[2023-07-08 09:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: threads-net
+[2023-07-08 09:19:11] INFO root fetch - processPackages [KwoksTool]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-08 09:19:11] INFO root fetch - processPackages [threads-net]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-08 09:19:11] INFO root fetch - processPackages [pyassorted]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-08 09:19:11] WARNING root fetch - processPackages [nestedlistops]: Skipping, unable to determine old version
+[2023-07-08 09:19:11] INFO root fetch - main [MainThread]: End processing [nestedlistops] error
+[2023-07-08 09:19:11] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230707] Old Version: [0.7.3.dev20230706]
+[2023-07-08 09:19:11] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 09:19:11] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/ad/a1/f84fe0f967507db1b85d706cbbfcac1c11fa0786bf2c16d5db20416abf01/KwoksTool-0.0.7.tar.gz
+[2023-07-08 09:19:11] WARNING root fetch - processPackages [liuaaa]: Skipping, unable to determine old version
+[2023-07-08 09:19:11] INFO root fetch - main [MainThread]: End processing [liuaaa] error
+[2023-07-08 09:19:11] INFO root fetch - processPackages [dhapi]: New version: [2.0.0] Old Version: [1.4.0]
+[2023-07-08 09:19:11] INFO root fetch - processPackages [aiovantage]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-08 09:19:11] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-08 09:19:11] INFO root fetch - processPackages [pyassorted]: Downloading https://files.pythonhosted.org/packages/3e/74/38b9964f2f8e1ef5189d1bcd8a5da396d56256f07e4a84d6e39dfdd54a5b/pyassorted-0.7.1.tar.gz
+[2023-07-08 09:19:12] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/da/31/09ac226a95ce399b9e67c3038e03a52969a3b70a0027a39509adf80cc7d6/threads-net-0.0.4.tar.gz
+[2023-07-08 09:19:12] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/5f/40/799fae94274277667fa52ff6cadc9a4d849e2b799b5d4c1ece997cf25de6/tastytrade_sdk-0.1.0.tar.gz
+[2023-07-08 09:19:12] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/e0/78/36a89ae688be0738d5029d06d59bb9225ecd781f53e65a20542f4c41ac40/tfq_nightly-0.7.3.dev20230706-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-08 09:19:12] INFO root fetch - processPackages [dhapi]: Downloading https://files.pythonhosted.org/packages/88/af/74b0af793aab7bfb9428442651a39e4280e439dbed3520741c999033026a/dhapi-1.4.0.tar.gz
+[2023-07-08 09:19:12] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/4d/62/b8062e2d0e7e46a125eeb147fca72b2340c91ba05712969399d33aaffe40/KwoksTool-0.0.8.tar.gz
+[2023-07-08 09:19:12] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807264>=10485760
+[2023-07-08 09:19:12] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-08 09:19:12] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/ac/8e/d5fd08819bf25d65f4694a3325a7651e2510ae5786e867d1e766658d5567/aiovantage-0.5.0.tar.gz
+[2023-07-08 09:19:12] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-07-08 09:19:12] INFO root fetch - processPackages [KwoksTool]: executing diffoscope
+[2023-07-08 09:19:12] INFO root fetch - processPackages [KwoksTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KwoksTool-0.0.7.tar.gz tmp/KwoksTool-0.0.8.tar.gz --markdown 20230708/K/KwoksTool/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-08 09:19:12] INFO root fetch - processPackages [pyassorted]: Downloading https://files.pythonhosted.org/packages/fc/a1/09550c87dc907323ae5c69658ed7362e3e0962a7d46b4c9261be2aa09f6a/pyassorted-0.7.2.tar.gz
+[2023-07-08 09:19:12] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/b9/7d/2749cf868e3086627a6ae0adb048da53acc4056bf6b87116dac990083f29/threads-net-0.0.5.tar.gz
+[2023-07-08 09:19:12] INFO root fetch - processPackages [pyassorted]: executing diffoscope
+[2023-07-08 09:19:12] INFO root fetch - processPackages [pyassorted]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyassorted-0.7.1.tar.gz tmp/pyassorted-0.7.2.tar.gz --markdown 20230708/p/pyassorted/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-08 09:19:12] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/d4/49/2176de13c827c85c21eadf8ea7510014c853b5f1982fc8b88c9171f3a7e5/tastytrade_sdk-0.1.1.tar.gz
+[2023-07-08 09:19:12] INFO root fetch - processPackages [dhapi]: Downloading https://files.pythonhosted.org/packages/f2/8a/29e579d9fbfff5984b2cbdac86b612bedb24c930897157ca495693e2a4be/dhapi-2.0.0.tar.gz
+[2023-07-08 09:19:12] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/3a/4e/bbe7ff467554ffad7ab3abddddd05570e459d9989cf6ea8ff357ced2609a/aiovantage-0.6.0.tar.gz
+[2023-07-08 09:19:12] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-08 09:19:12] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.4.tar.gz tmp/threads-net-0.0.5.tar.gz --markdown 20230708/t/threads-net/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-08 09:19:12] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-07-08 09:19:12] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.1.0.tar.gz tmp/tastytrade_sdk-0.1.1.tar.gz --markdown 20230708/t/tastytrade-sdk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 09:19:12] INFO root fetch - processPackages [aiovantage]: executing diffoscope
+[2023-07-08 09:19:12] INFO root fetch - processPackages [aiovantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiovantage-0.5.0.tar.gz tmp/aiovantage-0.6.0.tar.gz --markdown 20230708/a/aiovantage/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-08 09:19:12] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-07-08 09:19:12] INFO root fetch - processPackages [dhapi]: executing diffoscope
+[2023-07-08 09:19:12] INFO root fetch - processPackages [dhapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhapi-1.4.0.tar.gz tmp/dhapi-2.0.0.tar.gz --markdown 20230708/d/dhapi/1.4.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-08 09:19:13] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-08 09:19:13] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230708/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-08 09:19:13] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.7.tar.gz]
+[2023-07-08 09:19:13] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.8.tar.gz]
+[2023-07-08 09:19:13] INFO root fetch - main [MainThread]: End processing [KwoksTool]: success
+[2023-07-08 09:19:13] INFO root fetch - processPackages [pyassorted]: Remove: archive file [/home/abi/fetcher/tmp/pyassorted-0.7.1.tar.gz]
+[2023-07-08 09:19:13] INFO root fetch - processPackages [pyassorted]: Remove: archive file [/home/abi/fetcher/tmp/pyassorted-0.7.2.tar.gz]
+[2023-07-08 09:19:13] INFO root fetch - main [MainThread]: End processing [pyassorted]: success
+[2023-07-08 09:19:13] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.4.tar.gz]
+[2023-07-08 09:19:13] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.5.tar.gz]
+[2023-07-08 09:19:13] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-08 09:19:13] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.0.tar.gz]
+[2023-07-08 09:19:13] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.1.tar.gz]
+[2023-07-08 09:19:13] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-07-08 09:19:13] INFO root fetch - processPackages [dhapi]: Remove: archive file [/home/abi/fetcher/tmp/dhapi-1.4.0.tar.gz]
+[2023-07-08 09:19:13] INFO root fetch - processPackages [dhapi]: Remove: archive file [/home/abi/fetcher/tmp/dhapi-2.0.0.tar.gz]
+[2023-07-08 09:19:13] INFO root fetch - main [MainThread]: End processing [dhapi]: success
+[2023-07-08 09:19:14] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.5.0.tar.gz]
+[2023-07-08 09:19:14] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.6.0.tar.gz]
+[2023-07-08 09:19:14] INFO root fetch - main [MainThread]: End processing [aiovantage]: success
+[2023-07-08 09:19:21] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-07-08 09:19:21] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-07-08 09:19:21] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-08 09:19:21] INFO root fetch - main [MainThread]: Store serial: [18811530]
