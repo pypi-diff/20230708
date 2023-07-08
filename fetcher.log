@@ -18834,3 +18834,93 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 17:48:14] INFO root fetch - processPackages [yak-server]: Remove: archive file [/home/abi/fetcher/tmp/yak_server-0.9.0.tar.gz]
 [2023-07-08 17:48:14] INFO root fetch - main [MainThread]: End processing [yak-server]: success
 [2023-07-08 17:48:14] INFO root fetch - main [MainThread]: Store serial: [18814190]
+[2023-07-08 17:53:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814190]
+[2023-07-08 17:53:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-08 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mailpit-api-client
+[2023-07-08 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: findmyorder
+[2023-07-08 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mercury-sync
+[2023-07-08 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mimic-user-agent
+[2023-07-08 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonschema-spec
+[2023-07-08 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-index
+[2023-07-08 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llama-index
+[2023-07-08 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ngmapi
+[2023-07-08 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydid
+[2023-07-08 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sockets-communication
+[2023-07-08 17:53:23] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 17:53:23] INFO root fetch - processPackages [sockets-communication]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-08 17:53:23] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-08 17:53:23] INFO root fetch - processPackages [llama-index]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-08 17:53:23] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 17:53:23] WARNING root fetch - processPackages [mimic-user-agent]: Skipping, unable to determine old version
+[2023-07-08 17:53:23] INFO root fetch - processPackages [mimic-user-agent]: Start processing: telepycrypto
+[2023-07-08 17:53:23] INFO root fetch - main [MainThread]: End processing [mimic-user-agent] error
+[2023-07-08 17:53:23] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/13/86/3d7c18a8f2dd4f2eb32a19966079123b581a8402d540deca93c3d85e8678/ngmapi-0.0.2.tar.gz
+[2023-07-08 17:53:23] INFO root fetch - processPackages [jsonschema-spec]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-08 17:53:23] INFO root fetch - processPackages [mailpit-api-client]: New version: [0.11.0] Old Version: [0.10.3]
+[2023-07-08 17:53:23] INFO root fetch - processPackages [pydid]: New version: [0.3.9a0] Old Version: [0.3.8]
+[2023-07-08 17:53:23] INFO root fetch - processPackages [sockets-communication]: Downloading https://files.pythonhosted.org/packages/31/61/b7a6aebc2912efc7548b4c5ca5296e5c59fb3efc3b8b3cf44f6632700ea6/sockets-communication-1.3.0.tar.gz
+[2023-07-08 17:53:23] INFO root fetch - processPackages [gpt-index]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-07-08 17:53:23] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-07-08 17:53:23] WARNING root fetch - processPackages [telepycrypto]: Skipping, unable to determine old version
+[2023-07-08 17:53:23] INFO root fetch - main [MainThread]: End processing [telepycrypto] error
+[2023-07-08 17:53:23] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/c8/7e/5dcec1a661cd90a4111eae88373c8379c137ce9076d6564cd9978a16b99d/llama_index-0.7.2.tar.gz
+[2023-07-08 17:53:23] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 17:53:23] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/a5/55/d14e1df872d5f562d4a0ea8fe15b761b466ab627260792d2b9dd22c9030e/gpt_index-0.7.3.tar.gz
+[2023-07-08 17:53:24] INFO root fetch - processPackages [mailpit-api-client]: Downloading https://files.pythonhosted.org/packages/7a/0d/6a9f4e46aeb2473b9f7b6323b5390b83d56b507bc7389cd18d9cbbdad284/mailpit-api-client-0.10.3.tar.gz
+[2023-07-08 17:53:24] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-08 17:53:24] INFO root fetch - processPackages [jsonschema-spec]: Downloading https://files.pythonhosted.org/packages/f5/ba/683ef5e4e5a9a18006447971283d81683b62c405338932c68979dd8e3e85/jsonschema_spec-0.2.2.tar.gz
+[2023-07-08 17:53:24] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-07-08 17:53:24] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 17:53:24] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-08 17:53:24] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.2.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230708/n/ngmapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 17:53:24] INFO root fetch - processPackages [sockets-communication]: Downloading https://files.pythonhosted.org/packages/9a/cf/9c05818730b32c4093396f77546972bef10789b1ff493326f1f44c05c078/sockets-communication-1.4.0.tar.gz
+[2023-07-08 17:53:24] INFO root fetch - processPackages [pydid]: Downloading https://files.pythonhosted.org/packages/65/ed/a1ea5dd6c7eebf8d6863dbde59d6570c099ae4affa746fe7f0d39ec16ba2/pydid-0.3.8.tar.gz
+[2023-07-08 17:53:24] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/81/76/27ef6ffbc6bd8cbbc03f3519826022d4e0abb98c990d5f14a5b831b56bf4/llama_index-0.7.3.tar.gz
+[2023-07-08 17:53:24] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-08 17:53:24] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230708/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-08 17:53:24] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 17:53:24] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 17:53:24] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-07-08 17:53:24] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.7.2.tar.gz tmp/llama_index-0.7.3.tar.gz --markdown 20230708/l/llama-index/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-08 17:53:24] INFO root fetch - processPackages [mailpit-api-client]: Downloading https://files.pythonhosted.org/packages/9f/33/af8a4f4d6dd9c88fefa7314245c5cbe0483608674b1f3644ddd2eb6cd35c/mailpit-api-client-0.11.0.tar.gz
+[2023-07-08 17:53:24] INFO root fetch - processPackages [sockets-communication]: executing diffoscope
+[2023-07-08 17:53:24] INFO root fetch - processPackages [sockets-communication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sockets-communication-1.3.0.tar.gz tmp/sockets-communication-1.4.0.tar.gz --markdown 20230708/s/sockets-communication/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-08 17:53:24] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/c0/20/45f8e9cf3f018f336d88560e228fde00396883163e3d60562dd0d597c9ad/gpt_index-0.7.4.tar.gz
+[2023-07-08 17:53:24] INFO root fetch - processPackages [jsonschema-spec]: Downloading https://files.pythonhosted.org/packages/79/15/473588e24d57d92003f7823fdbf682a6f55ffced942e5211bc3025d89c1d/jsonschema_spec-0.2.3.tar.gz
+[2023-07-08 17:53:24] INFO root fetch - processPackages [mailpit-api-client]: executing diffoscope
+[2023-07-08 17:53:24] INFO root fetch - processPackages [mailpit-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailpit-api-client-0.10.3.tar.gz tmp/mailpit-api-client-0.11.0.tar.gz --markdown 20230708/m/mailpit-api-client/0.10.3-0.11.0/diff.md --exclude *.pyd
+[2023-07-08 17:53:24] INFO root fetch - processPackages [jsonschema-spec]: executing diffoscope
+[2023-07-08 17:53:24] INFO root fetch - processPackages [jsonschema-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema_spec-0.2.2.tar.gz tmp/jsonschema_spec-0.2.3.tar.gz --markdown 20230708/j/jsonschema-spec/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-08 17:53:24] INFO root fetch - processPackages [pydid]: Downloading https://files.pythonhosted.org/packages/57/ef/13c019581a80041b2e0ebf5c4b4a7ea245bb1d7732aee9d40d058a192d76/pydid-0.3.9a0.tar.gz
+[2023-07-08 17:53:24] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-07-08 17:53:24] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.7.3.tar.gz tmp/gpt_index-0.7.4.tar.gz --markdown 20230708/g/gpt-index/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-07-08 17:53:24] INFO root fetch - processPackages [pydid]: executing diffoscope
+[2023-07-08 17:53:24] INFO root fetch - processPackages [pydid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydid-0.3.8.tar.gz tmp/pydid-0.3.9a0.tar.gz --markdown 20230708/p/pydid/0.3.8-0.3.9a0/diff.md --exclude *.pyd
+[2023-07-08 17:53:25] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.2.tar.gz]
+[2023-07-08 17:53:25] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.3.tar.gz]
+[2023-07-08 17:53:25] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-08 17:53:25] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 17:53:25] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 17:53:25] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 17:53:25] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-07-08 17:53:25] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-07-08 17:53:25] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-07-08 17:53:25] INFO root fetch - processPackages [sockets-communication]: Remove: archive file [/home/abi/fetcher/tmp/sockets-communication-1.3.0.tar.gz]
+[2023-07-08 17:53:25] INFO root fetch - processPackages [sockets-communication]: Remove: archive file [/home/abi/fetcher/tmp/sockets-communication-1.4.0.tar.gz]
+[2023-07-08 17:53:25] INFO root fetch - main [MainThread]: End processing [sockets-communication]: success
+[2023-07-08 17:53:25] INFO root fetch - processPackages [mailpit-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mailpit-api-client-0.10.3.tar.gz]
+[2023-07-08 17:53:25] INFO root fetch - processPackages [mailpit-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mailpit-api-client-0.11.0.tar.gz]
+[2023-07-08 17:53:25] INFO root fetch - main [MainThread]: End processing [mailpit-api-client]: success
+[2023-07-08 17:53:26] INFO root fetch - processPackages [jsonschema-spec]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_spec-0.2.2.tar.gz]
+[2023-07-08 17:53:26] INFO root fetch - processPackages [jsonschema-spec]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_spec-0.2.3.tar.gz]
+[2023-07-08 17:53:26] INFO root fetch - main [MainThread]: End processing [jsonschema-spec]: success
+[2023-07-08 17:53:26] INFO root fetch - processPackages [pydid]: Remove: archive file [/home/abi/fetcher/tmp/pydid-0.3.8.tar.gz]
+[2023-07-08 17:53:26] INFO root fetch - processPackages [pydid]: Remove: archive file [/home/abi/fetcher/tmp/pydid-0.3.9a0.tar.gz]
+[2023-07-08 17:53:26] INFO root fetch - main [MainThread]: End processing [pydid]: success
+[2023-07-08 17:53:27] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.2.tar.gz]
+[2023-07-08 17:53:27] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.3.tar.gz]
+[2023-07-08 17:53:27] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-07-08 17:53:27] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.3.tar.gz]
+[2023-07-08 17:53:27] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.4.tar.gz]
+[2023-07-08 17:53:27] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-07-08 17:53:27] INFO root fetch - main [MainThread]: Store serial: [18814227]
