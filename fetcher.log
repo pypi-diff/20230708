@@ -12887,3 +12887,27 @@
 [2023-07-08 09:08:43] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
 [2023-07-08 09:08:43] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-07-08 09:08:43] INFO root fetch - main [MainThread]: Store serial: [18811480]
+[2023-07-08 09:13:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811480]
+[2023-07-08 09:13:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 09:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytelibs
+[2023-07-08 09:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elefantolib-fastapi
+[2023-07-08 09:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-nightly
+[2023-07-08 09:13:52] INFO root fetch - processPackages [elefantolib-fastapi]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-08 09:13:52] INFO root fetch - processPackages [elefantolib-fastapi]: Downloading https://files.pythonhosted.org/packages/b0/e6/2e0755048231bc81fa1f71d359a8311f6dd39e38cd020712418814d01270/elefantolib_fastapi-0.6.0.tar.gz
+[2023-07-08 09:13:52] WARNING root fetch - processPackages [pytelibs]: Skipping, unable to determine old version
+[2023-07-08 09:13:52] INFO root fetch - main [MainThread]: End processing [pytelibs] error
+[2023-07-08 09:13:52] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-08 09:13:52] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-08 09:13:52] INFO root fetch - processPackages [elefantolib-fastapi]: Downloading https://files.pythonhosted.org/packages/25/51/a0df1b8156cdca42f112c2c2ca777cb17d1a44eec361f21b78e3151c4b7b/elefantolib_fastapi-0.7.0.tar.gz
+[2023-07-08 09:13:52] INFO root fetch - processPackages [elefantolib-fastapi]: executing diffoscope
+[2023-07-08 09:13:52] INFO root fetch - processPackages [elefantolib-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefantolib_fastapi-0.6.0.tar.gz tmp/elefantolib_fastapi-0.7.0.tar.gz --markdown 20230708/e/elefantolib-fastapi/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-08 09:13:53] INFO root fetch - processPackages [elefantolib-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/elefantolib_fastapi-0.6.0.tar.gz]
+[2023-07-08 09:13:53] INFO root fetch - processPackages [elefantolib-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/elefantolib_fastapi-0.7.0.tar.gz]
+[2023-07-08 09:13:53] INFO root fetch - main [MainThread]: End processing [elefantolib-fastapi]: success
+[2023-07-08 09:13:53] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-08 09:13:54] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-08 09:13:54] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230708/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-08 09:14:02] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-08 09:14:02] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-08 09:14:02] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-08 09:14:02] INFO root fetch - main [MainThread]: Store serial: [18811493]
