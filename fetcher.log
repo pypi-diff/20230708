@@ -18424,3 +18424,78 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 17:11:30] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230708151056.tar.gz]
 [2023-07-08 17:11:30] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-08 17:11:30] INFO root fetch - main [MainThread]: Store serial: [18813980]
+[2023-07-08 17:16:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813980]
+[2023-07-08 17:16:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 17:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: concave-uhull
+[2023-07-08 17:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telnetlib3
+[2023-07-08 17:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djutils
+[2023-07-08 17:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiopywttr
+[2023-07-08 17:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywttr
+[2023-07-08 17:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djdantic
+[2023-07-08 17:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: weblodge
+[2023-07-08 17:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MusicBGX
+[2023-07-08 17:16:40] INFO root fetch - processPackages [concave-uhull]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-08 17:16:40] INFO root fetch - processPackages [MusicBGX]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-07-08 17:16:40] INFO root fetch - processPackages [weblodge]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-08 17:16:40] INFO root fetch - processPackages [telnetlib3]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-08 17:16:40] INFO root fetch - processPackages [pywttr]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-07-08 17:16:40] INFO root fetch - processPackages [djdantic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 17:16:40] INFO root fetch - processPackages [aiopywttr]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-07-08 17:16:40] INFO root fetch - processPackages [djutils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 17:16:40] INFO root fetch - processPackages [MusicBGX]: Downloading https://files.pythonhosted.org/packages/fa/f5/3c795ff572d897781633b4017feba1af3dc42990f490d740128161809da7/MusicBGX-1.0.5.tar.gz
+[2023-07-08 17:16:40] INFO root fetch - processPackages [concave-uhull]: Downloading https://files.pythonhosted.org/packages/0a/84/987c240ee18f07537dffe255c788f496b8e41983d618d762f9adf2785282/concave_uhull-0.2.5.tar.gz
+[2023-07-08 17:16:40] INFO root fetch - processPackages [weblodge]: Downloading https://files.pythonhosted.org/packages/63/0d/1bccfcaea6a48ba58bfaa03cc02c65c9ae3a1ffa1fc03074f68672b93e67/weblodge-0.1.0.tar.gz
+[2023-07-08 17:16:40] INFO root fetch - processPackages [aiopywttr]: Downloading https://files.pythonhosted.org/packages/ef/38/5e97891952ad8fd6debaa2a2ec0ed7f8736e84cb8774d9e23b5a30fbe661/aiopywttr-2.2.1.tar.gz
+[2023-07-08 17:16:40] INFO root fetch - processPackages [pywttr]: Downloading https://files.pythonhosted.org/packages/13/3a/d316dedef34329558c253c104d7ab3a4a4d189d20ea27360e41028a53819/pywttr-2.2.1.tar.gz
+[2023-07-08 17:16:40] INFO root fetch - processPackages [telnetlib3]: Downloading https://files.pythonhosted.org/packages/59/a4/86adc7d4407bb19806b7964496583152f743d0c8ca30499737677cb33b9e/telnetlib3-2.0.2.tar.gz
+[2023-07-08 17:16:40] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/6b/01/7b99b438be3180f4c11b404a39696e894c48441b43764956dfe1c658a47e/djdantic-0.0.8.tar.gz
+[2023-07-08 17:16:40] INFO root fetch - processPackages [djutils]: Downloading https://files.pythonhosted.org/packages/ee/e3/ea8a53140150fe89bf8ba980573650e3d55d42ea6ab24ec53a4b5c4d5ee6/djutils-1.0.8.tar.gz
+[2023-07-08 17:16:41] INFO root fetch - processPackages [MusicBGX]: Downloading https://files.pythonhosted.org/packages/b4/7d/42c3ac443221d2c222ecbc9fe72fc983c4ed35bf8ab25226dd3952a62ab9/MusicBGX-1.0.7.tar.gz
+[2023-07-08 17:16:41] INFO root fetch - processPackages [concave-uhull]: Downloading https://files.pythonhosted.org/packages/32/b7/cb2c30749228a8bbb348dc494a578e48ff9252c430b664485f371fe69eb1/concave_uhull-0.2.6.tar.gz
+[2023-07-08 17:16:41] INFO root fetch - processPackages [MusicBGX]: executing diffoscope
+[2023-07-08 17:16:41] INFO root fetch - processPackages [MusicBGX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MusicBGX-1.0.5.tar.gz tmp/MusicBGX-1.0.7.tar.gz --markdown 20230708/M/MusicBGX/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-07-08 17:16:41] INFO root fetch - processPackages [weblodge]: Downloading https://files.pythonhosted.org/packages/b2/ff/358b696d93c56110a5c265bbb7ad606714ece4acc8e2b2c4dd33f9c91bfd/weblodge-0.1.2.tar.gz
+[2023-07-08 17:16:41] INFO root fetch - processPackages [concave-uhull]: executing diffoscope
+[2023-07-08 17:16:41] INFO root fetch - processPackages [concave-uhull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concave_uhull-0.2.5.tar.gz tmp/concave_uhull-0.2.6.tar.gz --markdown 20230708/c/concave-uhull/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-08 17:16:41] INFO root fetch - processPackages [aiopywttr]: Downloading https://files.pythonhosted.org/packages/e0/81/286f2d80b1bd5827897964b4c3f9f23a48212191f13cadc7c446fcf3bdb2/aiopywttr-2.2.2.tar.gz
+[2023-07-08 17:16:41] INFO root fetch - processPackages [pywttr]: Downloading https://files.pythonhosted.org/packages/98/d5/e669d1401f170a41e3102e03271931c1b71728ec1b5719e53b9b6a817cae/pywttr-2.2.2.tar.gz
+[2023-07-08 17:16:41] INFO root fetch - processPackages [weblodge]: executing diffoscope
+[2023-07-08 17:16:41] INFO root fetch - processPackages [weblodge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weblodge-0.1.0.tar.gz tmp/weblodge-0.1.2.tar.gz --markdown 20230708/w/weblodge/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-08 17:16:41] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/88/22/c9aa0b10748408764928cf0af9f3447f06fac8c6db08ba9a54a5703619c0/djdantic-0.0.9.tar.gz
+[2023-07-08 17:16:41] INFO root fetch - processPackages [telnetlib3]: Downloading https://files.pythonhosted.org/packages/eb/3b/d8e388820f4f3b74901e75e6509a09333f7a26b931082fa70ad7f2cea804/telnetlib3-2.0.3.tar.gz
+[2023-07-08 17:16:41] INFO root fetch - processPackages [djutils]: Downloading https://files.pythonhosted.org/packages/2b/19/46b6e4f2a03928fb8754aa01c5979f0065dc24ecb8b9f9a683cd8b4a70dc/djutils-1.0.9.tar.gz
+[2023-07-08 17:16:41] INFO root fetch - processPackages [aiopywttr]: executing diffoscope
+[2023-07-08 17:16:41] INFO root fetch - processPackages [aiopywttr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiopywttr-2.2.1.tar.gz tmp/aiopywttr-2.2.2.tar.gz --markdown 20230708/a/aiopywttr/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-07-08 17:16:41] INFO root fetch - processPackages [pywttr]: executing diffoscope
+[2023-07-08 17:16:41] INFO root fetch - processPackages [pywttr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywttr-2.2.1.tar.gz tmp/pywttr-2.2.2.tar.gz --markdown 20230708/p/pywttr/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-07-08 17:16:41] INFO root fetch - processPackages [djdantic]: executing diffoscope
+[2023-07-08 17:16:41] INFO root fetch - processPackages [djdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djdantic-0.0.8.tar.gz tmp/djdantic-0.0.9.tar.gz --markdown 20230708/d/djdantic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 17:16:41] INFO root fetch - processPackages [djutils]: executing diffoscope
+[2023-07-08 17:16:41] INFO root fetch - processPackages [djutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djutils-1.0.8.tar.gz tmp/djutils-1.0.9.tar.gz --markdown 20230708/d/djutils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 17:16:41] INFO root fetch - processPackages [telnetlib3]: executing diffoscope
+[2023-07-08 17:16:41] INFO root fetch - processPackages [telnetlib3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telnetlib3-2.0.2.tar.gz tmp/telnetlib3-2.0.3.tar.gz --markdown 20230708/t/telnetlib3/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-08 17:16:42] INFO root fetch - processPackages [concave-uhull]: Remove: archive file [/home/abi/fetcher/tmp/concave_uhull-0.2.5.tar.gz]
+[2023-07-08 17:16:42] INFO root fetch - processPackages [concave-uhull]: Remove: archive file [/home/abi/fetcher/tmp/concave_uhull-0.2.6.tar.gz]
+[2023-07-08 17:16:42] INFO root fetch - main [MainThread]: End processing [concave-uhull]: success
+[2023-07-08 17:16:42] INFO root fetch - processPackages [MusicBGX]: Remove: archive file [/home/abi/fetcher/tmp/MusicBGX-1.0.5.tar.gz]
+[2023-07-08 17:16:42] INFO root fetch - processPackages [MusicBGX]: Remove: archive file [/home/abi/fetcher/tmp/MusicBGX-1.0.7.tar.gz]
+[2023-07-08 17:16:42] INFO root fetch - main [MainThread]: End processing [MusicBGX]: success
+[2023-07-08 17:16:42] INFO root fetch - processPackages [weblodge]: Remove: archive file [/home/abi/fetcher/tmp/weblodge-0.1.0.tar.gz]
+[2023-07-08 17:16:42] INFO root fetch - processPackages [weblodge]: Remove: archive file [/home/abi/fetcher/tmp/weblodge-0.1.2.tar.gz]
+[2023-07-08 17:16:42] INFO root fetch - main [MainThread]: End processing [weblodge]: success
+[2023-07-08 17:16:42] INFO root fetch - processPackages [aiopywttr]: Remove: archive file [/home/abi/fetcher/tmp/aiopywttr-2.2.1.tar.gz]
+[2023-07-08 17:16:42] INFO root fetch - processPackages [aiopywttr]: Remove: archive file [/home/abi/fetcher/tmp/aiopywttr-2.2.2.tar.gz]
+[2023-07-08 17:16:42] INFO root fetch - main [MainThread]: End processing [aiopywttr]: success
+[2023-07-08 17:16:42] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.8.tar.gz]
+[2023-07-08 17:16:42] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.9.tar.gz]
+[2023-07-08 17:16:42] INFO root fetch - main [MainThread]: End processing [djdantic]: success
+[2023-07-08 17:16:42] INFO root fetch - processPackages [pywttr]: Remove: archive file [/home/abi/fetcher/tmp/pywttr-2.2.1.tar.gz]
+[2023-07-08 17:16:42] INFO root fetch - processPackages [pywttr]: Remove: archive file [/home/abi/fetcher/tmp/pywttr-2.2.2.tar.gz]
+[2023-07-08 17:16:42] INFO root fetch - main [MainThread]: End processing [pywttr]: success
+[2023-07-08 17:16:43] INFO root fetch - processPackages [telnetlib3]: Remove: archive file [/home/abi/fetcher/tmp/telnetlib3-2.0.2.tar.gz]
+[2023-07-08 17:16:43] INFO root fetch - processPackages [telnetlib3]: Remove: archive file [/home/abi/fetcher/tmp/telnetlib3-2.0.3.tar.gz]
+[2023-07-08 17:16:43] INFO root fetch - main [MainThread]: End processing [telnetlib3]: success
+[2023-07-08 17:16:43] INFO root fetch - processPackages [djutils]: Remove: archive file [/home/abi/fetcher/tmp/djutils-1.0.8.tar.gz]
+[2023-07-08 17:16:43] INFO root fetch - processPackages [djutils]: Remove: archive file [/home/abi/fetcher/tmp/djutils-1.0.9.tar.gz]
+[2023-07-08 17:16:43] INFO root fetch - main [MainThread]: End processing [djutils]: success
+[2023-07-08 17:16:43] INFO root fetch - main [MainThread]: Store serial: [18814004]
