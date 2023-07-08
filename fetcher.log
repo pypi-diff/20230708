@@ -21897,3 +21897,99 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 22:23:56] INFO root fetch - processPackages [minitrino]: Remove: archive file [/home/abi/fetcher/tmp/minitrino-2.0.4.tar.gz]
 [2023-07-08 22:23:56] INFO root fetch - main [MainThread]: End processing [minitrino]: success
 [2023-07-08 22:23:56] INFO root fetch - main [MainThread]: Store serial: [18815565]
+[2023-07-08 22:29:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815565]
+[2023-07-08 22:29:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-08 22:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-glue-artifact
+[2023-07-08 22:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: findmyorder
+[2023-07-08 22:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ome-types
+[2023-07-08 22:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RustAdmin
+[2023-07-08 22:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: safepull
+[2023-07-08 22:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fbn
+[2023-07-08 22:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: matsci-opt-benchmarks
+[2023-07-08 22:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2023-07-08 22:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RustAdmin
+[2023-07-08 22:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-basic-commands
+[2023-07-08 22:29:05] INFO root fetch - processPackages [safepull]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-08 22:29:05] INFO root fetch - processPackages [RustAdmin]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-08 22:29:05] INFO root fetch - processPackages [RustAdmin]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-08 22:29:05] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 22:29:05] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230708151056] Old Version: [2.1.1.dev20230707151752]
+[2023-07-08 22:29:05] INFO root fetch - processPackages [aws-glue-artifact]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-08 22:29:05] INFO root fetch - processPackages [matsci-opt-benchmarks]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-08 22:29:05] INFO root fetch - processPackages [fbn]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 22:29:05] INFO root fetch - processPackages [ome-types]: New version: [0.4.0rc1] Old Version: [0.4.0a5]
+[2023-07-08 22:29:05] INFO root fetch - processPackages [py-basic-commands]: New version: [0.2.25b3] Old Version: [0.2.25b2]
+[2023-07-08 22:29:05] INFO root fetch - processPackages [safepull]: Downloading https://files.pythonhosted.org/packages/3c/37/e8ff3a7354d6e4cb8589228012bfb24afdbd1f4a1e115a04b9a129cb7e2c/safepull-2.0.0.tar.gz
+[2023-07-08 22:29:05] INFO root fetch - processPackages [RustAdmin]: Downloading https://files.pythonhosted.org/packages/f9/e2/f66345db9b49d7a51d8f41a8d0634bf1224072c4de0ba4b35aac79a64599/RustAdmin-1.0.4.tar.gz
+[2023-07-08 22:29:05] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 22:29:05] INFO root fetch - processPackages [RustAdmin]: Downloading https://files.pythonhosted.org/packages/f9/e2/f66345db9b49d7a51d8f41a8d0634bf1224072c4de0ba4b35aac79a64599/RustAdmin-1.0.4.tar.gz
+[2023-07-08 22:29:05] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/cf/a8/114f86dbf6aea59cfa3573a66859eebeaee328d2245652b33dbd9194437c/localstack-core-2.1.1.dev20230707151752.tar.gz
+[2023-07-08 22:29:05] INFO root fetch - processPackages [matsci-opt-benchmarks]: Downloading https://files.pythonhosted.org/packages/c1/2c/93eeaea0fc19cc23bda5d53d0a3b69e438e9ce3cd215da68cbe160e4a357/matsci-opt-benchmarks-0.2.2.tar.gz
+[2023-07-08 22:29:05] INFO root fetch - processPackages [fbn]: Downloading https://files.pythonhosted.org/packages/66/0b/1442a9d2c52a5267e28bf05ea0877dd277777d36fb840f4cfa53f9d61e20/fbn-0.0.8-py3-none-any.whl
+[2023-07-08 22:29:05] INFO root fetch - processPackages [py-basic-commands]: Downloading https://files.pythonhosted.org/packages/4d/a2/995443361cc15799cd9cb824da96e6a0b317db521fc1d8958ab867f07d89/py_basic_commands-0.2.25b2.tar.gz
+[2023-07-08 22:29:05] INFO root fetch - processPackages [ome-types]: Downloading https://files.pythonhosted.org/packages/ad/7d/7624471de7fa7df45c72f4f719bffed23e3a69c2e91a6fccd29c353643fa/ome_types-0.4.0a5.tar.gz
+[2023-07-08 22:29:05] INFO root fetch - processPackages [aws-glue-artifact]: Downloading https://files.pythonhosted.org/packages/94/5d/ca1319f8fb1fbdd611bf85dc6a29a17f5aedafd95b95868b46e9c870005b/aws_glue_artifact-0.1.1.tar.gz
+[2023-07-08 22:29:06] INFO root fetch - processPackages [safepull]: Downloading https://files.pythonhosted.org/packages/41/1b/830df7c9212281ff4cc6d1c0d505187f78e641bfc005374530fbb2ae8680/safepull-2.0.1.tar.gz
+[2023-07-08 22:29:06] INFO root fetch - processPackages [RustAdmin]: Downloading https://files.pythonhosted.org/packages/b4/a8/ce012dfb396bbe608cfb72385ea39a013aaa647b361582ca0c49efcffe1d/RustAdmin-1.0.5.tar.gz
+[2023-07-08 22:29:06] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 22:29:06] INFO root fetch - processPackages [RustAdmin]: Downloading https://files.pythonhosted.org/packages/b4/a8/ce012dfb396bbe608cfb72385ea39a013aaa647b361582ca0c49efcffe1d/RustAdmin-1.0.5.tar.gz
+[2023-07-08 22:29:06] WARNING root fetch - processPackages [matsci-opt-benchmarks]: Skipping package: exceeds size limit 38696890>=10485760
+[2023-07-08 22:29:06] INFO root fetch - processPackages [matsci-opt-benchmarks]: Start processing: QuNet
+[2023-07-08 22:29:06] INFO root fetch - main [MainThread]: End processing [matsci-opt-benchmarks] error
+[2023-07-08 22:29:06] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 22:29:06] INFO root fetch - processPackages [safepull]: executing diffoscope
+[2023-07-08 22:29:06] INFO root fetch - processPackages [safepull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safepull-2.0.0.tar.gz tmp/safepull-2.0.1.tar.gz --markdown 20230708/s/safepull/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-08 22:29:06] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/df/2b/46e451ee7f0be548a6ff61ae4ab3ba87d557c5b0130277a0cf8b070914cc/localstack-core-2.1.1.dev20230708151056.tar.gz
+[2023-07-08 22:29:06] INFO root fetch - processPackages [RustAdmin]: executing diffoscope
+[2023-07-08 22:29:06] INFO root fetch - processPackages [RustAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RustAdmin-1.0.4.tar.gz tmp/RustAdmin-1.0.5.tar.gz --markdown 20230708/R/RustAdmin/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-08 22:29:06] INFO root fetch - processPackages [RustAdmin]: executing diffoscope
+[2023-07-08 22:29:06] INFO root fetch - processPackages [RustAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RustAdmin-1.0.4.tar.gz tmp/RustAdmin-1.0.5.tar.gz --markdown 20230708/R/RustAdmin/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-08 22:29:06] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 22:29:06] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 22:29:06] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-08 22:29:06] INFO root fetch - processPackages [py-basic-commands]: Downloading https://files.pythonhosted.org/packages/0d/93/99a12bbd372e682f1ae2624bae6bbf7d28811c6c6d4e8c04ad29ffb767e0/py_basic_commands-0.2.25b3.tar.gz
+[2023-07-08 22:29:06] INFO root fetch - processPackages [aws-glue-artifact]: Downloading https://files.pythonhosted.org/packages/15/42/63462a6484dde49a1ea0932932687ad54025378587c61f54f92202cc77fd/aws_glue_artifact-0.1.2.tar.gz
+[2023-07-08 22:29:06] INFO root fetch - processPackages [ome-types]: Downloading https://files.pythonhosted.org/packages/9f/dd/35503ef1f8c5a10fc513d5bc266a5b8f8995c8b71f62683cf3399097a133/ome_types-0.4.0rc1.tar.gz
+[2023-07-08 22:29:06] INFO root fetch - processPackages [fbn]: Downloading https://files.pythonhosted.org/packages/cb/5b/d80bcea1d4fd6fe5e1657d17c0ff6c8f96f3c36c13c32e47c2403e070057/fbn-0.0.9-py3-none-any.whl
+[2023-07-08 22:29:06] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-08 22:29:06] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230707151752.tar.gz tmp/localstack-core-2.1.1.dev20230708151056.tar.gz --markdown 20230708/l/localstack-core/2.1.1.dev20230707151752-2.1.1.dev20230708151056/diff.md --exclude *.pyd
+[2023-07-08 22:29:06] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-08 22:29:06] INFO root fetch - processPackages [ome-types]: executing diffoscope
+[2023-07-08 22:29:06] INFO root fetch - processPackages [ome-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ome_types-0.4.0a5.tar.gz tmp/ome_types-0.4.0rc1.tar.gz --markdown 20230708/o/ome-types/0.4.0a5-0.4.0rc1/diff.md --exclude *.pyd
+[2023-07-08 22:29:06] INFO root fetch - processPackages [aws-glue-artifact]: executing diffoscope
+[2023-07-08 22:29:06] INFO root fetch - processPackages [aws-glue-artifact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_glue_artifact-0.1.1.tar.gz tmp/aws_glue_artifact-0.1.2.tar.gz --markdown 20230708/a/aws-glue-artifact/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-08 22:29:06] INFO root fetch - processPackages [fbn]: executing diffoscope
+[2023-07-08 22:29:06] INFO root fetch - processPackages [fbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbn-0.0.8-py3-none-any.whl.zip tmp/fbn-0.0.9-py3-none-any.whl.zip --markdown 20230708/f/fbn/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 22:29:06] INFO root fetch - processPackages [py-basic-commands]: executing diffoscope
+[2023-07-08 22:29:06] INFO root fetch - processPackages [py-basic-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_basic_commands-0.2.25b2.tar.gz tmp/py_basic_commands-0.2.25b3.tar.gz --markdown 20230708/p/py-basic-commands/0.2.25b2-0.2.25b3/diff.md --exclude *.pyd
+[2023-07-08 22:29:06] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-08 22:29:06] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230708/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 22:29:07] INFO root fetch - processPackages [RustAdmin]: Remove: archive file [/home/abi/fetcher/tmp/RustAdmin-1.0.4.tar.gz]
+[2023-07-08 22:29:07] INFO root fetch - processPackages [RustAdmin]: Remove: archive file [/home/abi/fetcher/tmp/RustAdmin-1.0.5.tar.gz]
+[2023-07-08 22:29:07] INFO root fetch - main [MainThread]: End processing [RustAdmin]: success
+[2023-07-08 22:29:07] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 22:29:07] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 22:29:07] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 22:29:07] INFO root fetch - main [MainThread]: End processing [RustAdmin]: success
+[2023-07-08 22:29:07] INFO root fetch - processPackages [safepull]: Remove: archive file [/home/abi/fetcher/tmp/safepull-2.0.0.tar.gz]
+[2023-07-08 22:29:07] INFO root fetch - processPackages [safepull]: Remove: archive file [/home/abi/fetcher/tmp/safepull-2.0.1.tar.gz]
+[2023-07-08 22:29:07] INFO root fetch - main [MainThread]: End processing [safepull]: success
+[2023-07-08 22:29:08] INFO root fetch - processPackages [fbn]: Remove: archive file [/home/abi/fetcher/tmp/fbn-0.0.8-py3-none-any.whl.zip]
+[2023-07-08 22:29:08] INFO root fetch - processPackages [fbn]: Remove: archive file [/home/abi/fetcher/tmp/fbn-0.0.9-py3-none-any.whl.zip]
+[2023-07-08 22:29:08] INFO root fetch - main [MainThread]: End processing [fbn]: success
+[2023-07-08 22:29:08] INFO root fetch - processPackages [py-basic-commands]: Remove: archive file [/home/abi/fetcher/tmp/py_basic_commands-0.2.25b2.tar.gz]
+[2023-07-08 22:29:08] INFO root fetch - processPackages [py-basic-commands]: Remove: archive file [/home/abi/fetcher/tmp/py_basic_commands-0.2.25b3.tar.gz]
+[2023-07-08 22:29:08] INFO root fetch - main [MainThread]: End processing [py-basic-commands]: success
+[2023-07-08 22:29:08] INFO root fetch - processPackages [aws-glue-artifact]: Remove: archive file [/home/abi/fetcher/tmp/aws_glue_artifact-0.1.1.tar.gz]
+[2023-07-08 22:29:08] INFO root fetch - processPackages [aws-glue-artifact]: Remove: archive file [/home/abi/fetcher/tmp/aws_glue_artifact-0.1.2.tar.gz]
+[2023-07-08 22:29:08] INFO root fetch - main [MainThread]: End processing [aws-glue-artifact]: success
+[2023-07-08 22:29:08] INFO root fetch - processPackages [ome-types]: Remove: archive file [/home/abi/fetcher/tmp/ome_types-0.4.0a5.tar.gz]
+[2023-07-08 22:29:08] INFO root fetch - processPackages [ome-types]: Remove: archive file [/home/abi/fetcher/tmp/ome_types-0.4.0rc1.tar.gz]
+[2023-07-08 22:29:08] INFO root fetch - main [MainThread]: End processing [ome-types]: success
+[2023-07-08 22:29:08] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-08 22:29:08] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-08 22:29:08] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-08 22:29:10] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230707151752.tar.gz]
+[2023-07-08 22:29:10] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230708151056.tar.gz]
+[2023-07-08 22:29:10] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-08 22:29:10] INFO root fetch - main [MainThread]: Store serial: [18815594]
