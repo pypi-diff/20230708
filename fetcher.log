@@ -14641,3 +14641,39 @@
 [2023-07-08 12:12:19] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.2.5.tar.gz]
 [2023-07-08 12:12:19] INFO root fetch - main [MainThread]: End processing [nopasaran]: success
 [2023-07-08 12:12:19] INFO root fetch - main [MainThread]: Store serial: [18812328]
+[2023-07-08 12:17:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812328]
+[2023-07-08 12:17:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 12:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codeboxapi
+[2023-07-08 12:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: samus-logging
+[2023-07-08 12:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: selenium-simulate-ui
+[2023-07-08 12:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fractal-repositories
+[2023-07-08 12:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lichenggong
+[2023-07-08 12:17:29] INFO root fetch - processPackages [fractal-repositories]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-08 12:17:29] ERROR root fetch - processPackages [selenium-simulate-ui]: Unable to get metadata: No such project 'selenium-simulate-ui'
+[2023-07-08 12:17:29] INFO root fetch - main [MainThread]: End processing [selenium-simulate-ui] error
+[2023-07-08 12:17:29] INFO root fetch - processPackages [lichenggong]: New version: [0.3.0.0] Old Version: [0.2.3.4]
+[2023-07-08 12:17:29] WARNING root fetch - processPackages [codeboxapi]: Skipping, unable to determine old version
+[2023-07-08 12:17:29] INFO root fetch - main [MainThread]: End processing [codeboxapi] error
+[2023-07-08 12:17:29] INFO root fetch - processPackages [samus-logging]: New version: [0.1.88] Old Version: [0.1.86]
+[2023-07-08 12:17:29] INFO root fetch - processPackages [samus-logging]: Downloading https://files.pythonhosted.org/packages/e5/af/86f938fe569d3853b875df8b7bbcdf6938acf499d6f1e00f09f3caee45c1/samus-logging-0.1.86.tar.gz
+[2023-07-08 12:17:29] INFO root fetch - processPackages [lichenggong]: Downloading https://files.pythonhosted.org/packages/0a/0a/12c8974b90b5737b46f07e9f1bae9533f42da9e90851debcb2c8d4580855/lichenggong-0.2.3.4.tar.gz
+[2023-07-08 12:17:29] INFO root fetch - processPackages [fractal-repositories]: Downloading https://files.pythonhosted.org/packages/91/41/ad4198e9bfdf3b800451f75d805b33a654b8633f61be6dd4f14352d0e655/fractal_repositories-0.0.5.tar.gz
+[2023-07-08 12:17:29] INFO root fetch - processPackages [samus-logging]: Downloading https://files.pythonhosted.org/packages/fa/88/f04a4dd9d795533bdb2f40bae235d9a9f3a1709cf5ea1a47b5e6e5c17ac3/samus-logging-0.1.88.tar.gz
+[2023-07-08 12:17:29] INFO root fetch - processPackages [samus-logging]: executing diffoscope
+[2023-07-08 12:17:29] INFO root fetch - processPackages [samus-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samus-logging-0.1.86.tar.gz tmp/samus-logging-0.1.88.tar.gz --markdown 20230708/s/samus-logging/0.1.86-0.1.88/diff.md --exclude *.pyd
+[2023-07-08 12:17:29] INFO root fetch - processPackages [fractal-repositories]: Downloading https://files.pythonhosted.org/packages/eb/d0/58809eb4b7348f4961b52616b4d744691129b1ac2f3d795de42fcc4170b6/fractal_repositories-0.0.6.tar.gz
+[2023-07-08 12:17:29] INFO root fetch - processPackages [lichenggong]: Downloading https://files.pythonhosted.org/packages/fa/d9/55cc910526ac1ebc16ab743f118616902a90a8ec2d91825d2d1f9c21f737/lichenggong-0.3.0.0.tar.gz
+[2023-07-08 12:17:29] INFO root fetch - processPackages [fractal-repositories]: executing diffoscope
+[2023-07-08 12:17:29] INFO root fetch - processPackages [fractal-repositories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_repositories-0.0.5.tar.gz tmp/fractal_repositories-0.0.6.tar.gz --markdown 20230708/f/fractal-repositories/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-08 12:17:29] INFO root fetch - processPackages [lichenggong]: executing diffoscope
+[2023-07-08 12:17:29] INFO root fetch - processPackages [lichenggong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lichenggong-0.2.3.4.tar.gz tmp/lichenggong-0.3.0.0.tar.gz --markdown 20230708/l/lichenggong/0.2.3.4-0.3.0.0/diff.md --exclude *.pyd
+[2023-07-08 12:17:30] INFO root fetch - processPackages [samus-logging]: Remove: archive file [/home/abi/fetcher/tmp/samus-logging-0.1.86.tar.gz]
+[2023-07-08 12:17:30] INFO root fetch - processPackages [samus-logging]: Remove: archive file [/home/abi/fetcher/tmp/samus-logging-0.1.88.tar.gz]
+[2023-07-08 12:17:30] INFO root fetch - main [MainThread]: End processing [samus-logging]: success
+[2023-07-08 12:17:30] INFO root fetch - processPackages [lichenggong]: Remove: archive file [/home/abi/fetcher/tmp/lichenggong-0.2.3.4.tar.gz]
+[2023-07-08 12:17:30] INFO root fetch - processPackages [lichenggong]: Remove: archive file [/home/abi/fetcher/tmp/lichenggong-0.3.0.0.tar.gz]
+[2023-07-08 12:17:30] INFO root fetch - main [MainThread]: End processing [lichenggong]: success
+[2023-07-08 12:17:30] INFO root fetch - processPackages [fractal-repositories]: Remove: archive file [/home/abi/fetcher/tmp/fractal_repositories-0.0.5.tar.gz]
+[2023-07-08 12:17:30] INFO root fetch - processPackages [fractal-repositories]: Remove: archive file [/home/abi/fetcher/tmp/fractal_repositories-0.0.6.tar.gz]
+[2023-07-08 12:17:30] INFO root fetch - main [MainThread]: End processing [fractal-repositories]: success
+[2023-07-08 12:17:30] INFO root fetch - main [MainThread]: Store serial: [18812356]
