@@ -20646,3 +20646,44 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 20:19:12] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
 [2023-07-08 20:19:12] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
 [2023-07-08 20:19:12] INFO root fetch - main [MainThread]: Store serial: [18815033]
+[2023-07-08 20:24:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815033]
+[2023-07-08 20:24:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 20:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strawberry-graphql
+[2023-07-08 20:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xklb
+[2023-07-08 20:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nescs
+[2023-07-08 20:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astroid
+[2023-07-08 20:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acrl
+[2023-07-08 20:24:21] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-07-08 20:24:21] WARNING root fetch - processPackages [acrl]: Skipping, unable to determine old version
+[2023-07-08 20:24:21] INFO root fetch - main [MainThread]: End processing [acrl] error
+[2023-07-08 20:24:21] INFO root fetch - processPackages [nescs]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-08 20:24:21] INFO root fetch - processPackages [astroid]: New version: [3.0.0a7] Old Version: [3.0.0a6]
+[2023-07-08 20:24:21] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-08 20:24:21] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-07-08 20:24:21] INFO root fetch - processPackages [astroid]: Downloading https://files.pythonhosted.org/packages/a6/0f/547e57c53e457ece2d21df86c47dd27e0a76872762d86c6a94727c502214/astroid-3.0.0a6.tar.gz
+[2023-07-08 20:24:21] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-07-08 20:24:21] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-08 20:24:21] INFO root fetch - processPackages [nescs]: Downloading https://files.pythonhosted.org/packages/46/09/0fe0172d2942a8d2844c48e572e0808c9209d50a1d5efaa4bca0f33bdb40/nescs-0.3.2.tar.gz
+[2023-07-08 20:24:21] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-07-08 20:24:21] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230708/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-07-08 20:24:21] INFO root fetch - processPackages [nescs]: executing diffoscope
+[2023-07-08 20:24:21] INFO root fetch - processPackages [nescs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nescs-0.3.1.tar.gz tmp/nescs-0.3.2.tar.gz --markdown 20230708/n/nescs/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-08 20:24:21] INFO root fetch - processPackages [astroid]: Downloading https://files.pythonhosted.org/packages/21/d3/b7d2156160be2ceff493d264e55b41a584178fb53ac5b49bce588732c7ac/astroid-3.0.0a7.tar.gz
+[2023-07-08 20:24:21] INFO root fetch - processPackages [astroid]: executing diffoscope
+[2023-07-08 20:24:21] INFO root fetch - processPackages [astroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astroid-3.0.0a6.tar.gz tmp/astroid-3.0.0a7.tar.gz --markdown 20230708/a/astroid/3.0.0a6-3.0.0a7/diff.md --exclude *.pyd
+[2023-07-08 20:24:21] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-08 20:24:22] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-08 20:24:22] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230708/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-08 20:24:22] INFO root fetch - processPackages [nescs]: Remove: archive file [/home/abi/fetcher/tmp/nescs-0.3.1.tar.gz]
+[2023-07-08 20:24:22] INFO root fetch - processPackages [nescs]: Remove: archive file [/home/abi/fetcher/tmp/nescs-0.3.2.tar.gz]
+[2023-07-08 20:24:22] INFO root fetch - main [MainThread]: End processing [nescs]: success
+[2023-07-08 20:24:22] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-07-08 20:24:22] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-07-08 20:24:22] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-07-08 20:24:23] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-08 20:24:23] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-08 20:24:23] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-08 20:24:23] INFO root fetch - processPackages [astroid]: Remove: archive file [/home/abi/fetcher/tmp/astroid-3.0.0a6.tar.gz]
+[2023-07-08 20:24:23] INFO root fetch - processPackages [astroid]: Remove: archive file [/home/abi/fetcher/tmp/astroid-3.0.0a7.tar.gz]
+[2023-07-08 20:24:23] INFO root fetch - main [MainThread]: End processing [astroid]: success
+[2023-07-08 20:24:23] INFO root fetch - main [MainThread]: Store serial: [18815051]
