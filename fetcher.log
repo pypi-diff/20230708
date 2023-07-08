@@ -17856,3 +17856,51 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 16:28:40] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.1.41rc0.tar.gz]
 [2023-07-08 16:28:40] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
 [2023-07-08 16:28:40] INFO root fetch - main [MainThread]: Store serial: [18813738]
+[2023-07-08 16:33:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813738]
+[2023-07-08 16:33:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 16:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NeuroNode
+[2023-07-08 16:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eutil
+[2023-07-08 16:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strawberry-graphql
+[2023-07-08 16:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Artec
+[2023-07-08 16:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nwebclient
+[2023-07-08 16:33:49] INFO root fetch - processPackages [eutil]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-08 16:33:49] INFO root fetch - processPackages [NeuroNode]: New version: [3.9] Old Version: [3.6]
+[2023-07-08 16:33:49] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 16:33:49] INFO root fetch - processPackages [Artec]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-08 16:33:49] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-07-08 16:33:49] INFO root fetch - processPackages [eutil]: Downloading https://files.pythonhosted.org/packages/df/3e/cfc618427daf4369b5296d32dfae0a3ec572ea1de98ef2e2f1a0ac785adc/eutil-0.0.4.tar.gz
+[2023-07-08 16:33:49] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/5c/87/0bb63fbb6d9d53b572a2629914ca0063e602964c2c20a9a2632decfaa7e4/NeuroNode-3.6.tar.gz
+[2023-07-08 16:33:49] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 16:33:49] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-07-08 16:33:49] INFO root fetch - processPackages [Artec]: Downloading https://files.pythonhosted.org/packages/27/99/669d5c8dee3767bf39a4c387066ad021f010d695c3d76814665ba6f9ec75/Artec-0.1.4.tar.gz
+[2023-07-08 16:33:49] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/ee/46/d7d58b35ecf98c41cacc537040cf39bfe32260276f683dbf00b51323a681/NeuroNode-3.9.tar.gz
+[2023-07-08 16:33:50] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 16:33:50] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-07-08 16:33:50] INFO root fetch - processPackages [NeuroNode]: executing diffoscope
+[2023-07-08 16:33:50] INFO root fetch - processPackages [NeuroNode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroNode-3.6.tar.gz tmp/NeuroNode-3.9.tar.gz --markdown 20230708/N/NeuroNode/3.6-3.9/diff.md --exclude *.pyd
+[2023-07-08 16:33:50] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 16:33:50] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 16:33:50] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-07-08 16:33:50] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230708/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-07-08 16:33:50] INFO root fetch - processPackages [eutil]: Downloading https://files.pythonhosted.org/packages/29/fe/43eb8351c694fbe2c93a1da99b5fc455274d5e3973dccd4a6960ce4d54d4/eutil-0.0.5.tar.gz
+[2023-07-08 16:33:50] INFO root fetch - processPackages [Artec]: Downloading https://files.pythonhosted.org/packages/29/2d/2fd8fff8a69c80bef4fda435a684cc0dab2e65cf715aeb1c464cecbce79a/Artec-0.2.0.tar.gz
+[2023-07-08 16:33:50] INFO root fetch - processPackages [Artec]: executing diffoscope
+[2023-07-08 16:33:50] INFO root fetch - processPackages [Artec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Artec-0.1.4.tar.gz tmp/Artec-0.2.0.tar.gz --markdown 20230708/A/Artec/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 16:33:50] INFO root fetch - processPackages [eutil]: executing diffoscope
+[2023-07-08 16:33:50] INFO root fetch - processPackages [eutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eutil-0.0.4.tar.gz tmp/eutil-0.0.5.tar.gz --markdown 20230708/e/eutil/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-08 16:33:50] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.6.tar.gz]
+[2023-07-08 16:33:50] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.9.tar.gz]
+[2023-07-08 16:33:50] INFO root fetch - main [MainThread]: End processing [NeuroNode]: success
+[2023-07-08 16:33:51] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-08 16:33:51] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-08 16:33:51] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 16:33:51] INFO root fetch - processPackages [Artec]: Remove: archive file [/home/abi/fetcher/tmp/Artec-0.1.4.tar.gz]
+[2023-07-08 16:33:51] INFO root fetch - processPackages [Artec]: Remove: archive file [/home/abi/fetcher/tmp/Artec-0.2.0.tar.gz]
+[2023-07-08 16:33:51] INFO root fetch - main [MainThread]: End processing [Artec]: success
+[2023-07-08 16:33:51] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-07-08 16:33:51] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-07-08 16:33:51] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-07-08 16:34:04] INFO root fetch - processPackages [eutil]: Remove: archive file [/home/abi/fetcher/tmp/eutil-0.0.4.tar.gz]
+[2023-07-08 16:34:04] INFO root fetch - processPackages [eutil]: Remove: archive file [/home/abi/fetcher/tmp/eutil-0.0.5.tar.gz]
+[2023-07-08 16:34:04] INFO root fetch - main [MainThread]: End processing [eutil]: success
+[2023-07-08 16:34:04] INFO root fetch - main [MainThread]: Store serial: [18813756]
