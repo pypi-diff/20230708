@@ -19411,3 +19411,45 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 18:40:20] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.64.8.tar.gz]
 [2023-07-08 18:40:20] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-07-08 18:40:20] INFO root fetch - main [MainThread]: Store serial: [18814460]
+[2023-07-08 18:45:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814460]
+[2023-07-08 18:45:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 18:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipwho
+[2023-07-08 18:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rayter-generator
+[2023-07-08 18:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ngmapi
+[2023-07-08 18:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ragu
+[2023-07-08 18:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ezsmdeploy
+[2023-07-08 18:45:29] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.20]
+[2023-07-08 18:45:29] INFO root fetch - processPackages [ragu]: New version: [0.1.21] Old Version: [0.1.2]
+[2023-07-08 18:45:29] INFO root fetch - processPackages [ezsmdeploy]: New version: [1.6.dev0] Old Version: [1.1.4]
+[2023-07-08 18:45:29] INFO root fetch - processPackages [rayter-generator]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 18:45:29] WARNING root fetch - processPackages [ipwho]: Skipping, unable to determine old version
+[2023-07-08 18:45:29] INFO root fetch - main [MainThread]: End processing [ipwho] error
+[2023-07-08 18:45:29] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/4a/0d/3ace6112800212821092b4771b5a31d638af58451d61f1c7836eddd10570/ngmapi-0.0.20.tar.gz
+[2023-07-08 18:45:29] INFO root fetch - processPackages [ragu]: Downloading https://files.pythonhosted.org/packages/b3/35/c5f5e380fa9947c47afafe0c5faf1dfa6b3e77a307dc4c26321ee1ee0f8e/ragu-0.1.2.tar.gz
+[2023-07-08 18:45:29] INFO root fetch - processPackages [ezsmdeploy]: Downloading https://files.pythonhosted.org/packages/32/1e/3fd36977198855356c9d9bdd3960a85c76b2791bc0c0a42bbbfe1e2cddc0/ezsmdeploy-1.1.4.tar.gz
+[2023-07-08 18:45:29] INFO root fetch - processPackages [rayter-generator]: Downloading https://files.pythonhosted.org/packages/1e/ff/96ab2788d683585721a08cd941b16bf80fc0c1962d7cb6886bd1583df95c/rayter_generator-1.0.8.tar.gz
+[2023-07-08 18:45:29] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-08 18:45:29] INFO root fetch - processPackages [ragu]: Downloading https://files.pythonhosted.org/packages/43/8b/54dc96e776759bbdf757a328332f7d0b7ec1cf7e5376e898ed2222530db7/ragu-0.1.21.tar.gz
+[2023-07-08 18:45:29] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-08 18:45:29] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.20.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230708/n/ngmapi/0.0.20-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 18:45:29] INFO root fetch - processPackages [ezsmdeploy]: Downloading https://files.pythonhosted.org/packages/3b/1c/0b33ef74b7d7cf15231c4d18622e2683de29a52db842190f37bfbec001ef/ezsmdeploy-1.6.dev0.tar.gz
+[2023-07-08 18:45:30] INFO root fetch - processPackages [rayter-generator]: Downloading https://files.pythonhosted.org/packages/f0/2e/e0e24348e1d565c0cd493d2d00f66aa4725ddd39e74e60c3f5decfc6f737/rayter_generator-1.0.9.tar.gz
+[2023-07-08 18:45:30] INFO root fetch - processPackages [ragu]: executing diffoscope
+[2023-07-08 18:45:30] INFO root fetch - processPackages [ragu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragu-0.1.2.tar.gz tmp/ragu-0.1.21.tar.gz --markdown 20230708/r/ragu/0.1.2-0.1.21/diff.md --exclude *.pyd
+[2023-07-08 18:45:30] INFO root fetch - processPackages [ezsmdeploy]: executing diffoscope
+[2023-07-08 18:45:30] INFO root fetch - processPackages [ezsmdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezsmdeploy-1.1.4.tar.gz tmp/ezsmdeploy-1.6.dev0.tar.gz --markdown 20230708/e/ezsmdeploy/1.1.4-1.6.dev0/diff.md --exclude *.pyd
+[2023-07-08 18:45:30] INFO root fetch - processPackages [rayter-generator]: executing diffoscope
+[2023-07-08 18:45:30] INFO root fetch - processPackages [rayter-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayter_generator-1.0.8.tar.gz tmp/rayter_generator-1.0.9.tar.gz --markdown 20230708/r/rayter-generator/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 18:45:30] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.20.tar.gz]
+[2023-07-08 18:45:30] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.3.tar.gz]
+[2023-07-08 18:45:30] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-08 18:45:30] INFO root fetch - processPackages [ezsmdeploy]: Remove: archive file [/home/abi/fetcher/tmp/ezsmdeploy-1.1.4.tar.gz]
+[2023-07-08 18:45:30] INFO root fetch - processPackages [ezsmdeploy]: Remove: archive file [/home/abi/fetcher/tmp/ezsmdeploy-1.6.dev0.tar.gz]
+[2023-07-08 18:45:30] INFO root fetch - main [MainThread]: End processing [ezsmdeploy]: success
+[2023-07-08 18:45:31] INFO root fetch - processPackages [rayter-generator]: Remove: archive file [/home/abi/fetcher/tmp/rayter_generator-1.0.8.tar.gz]
+[2023-07-08 18:45:31] INFO root fetch - processPackages [rayter-generator]: Remove: archive file [/home/abi/fetcher/tmp/rayter_generator-1.0.9.tar.gz]
+[2023-07-08 18:45:31] INFO root fetch - main [MainThread]: End processing [rayter-generator]: success
+[2023-07-08 18:45:31] INFO root fetch - processPackages [ragu]: Remove: archive file [/home/abi/fetcher/tmp/ragu-0.1.2.tar.gz]
+[2023-07-08 18:45:31] INFO root fetch - processPackages [ragu]: Remove: archive file [/home/abi/fetcher/tmp/ragu-0.1.21.tar.gz]
+[2023-07-08 18:45:31] INFO root fetch - main [MainThread]: End processing [ragu]: success
+[2023-07-08 18:45:31] INFO root fetch - main [MainThread]: Store serial: [18814481]
