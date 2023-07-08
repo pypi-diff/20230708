@@ -12397,3 +12397,9 @@
 [2023-07-08 07:48:31] INFO root fetch - processPackages [concurrent-plugin]: Remove: archive file [/home/abi/fetcher/tmp/concurrent_plugin-0.5.4-py3-none-any.whl.zip]
 [2023-07-08 07:48:31] INFO root fetch - main [MainThread]: End processing [concurrent-plugin]: success
 [2023-07-08 07:48:31] INFO root fetch - main [MainThread]: Store serial: [18811196]
+[2023-07-08 07:53:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811196]
+[2023-07-08 07:53:40] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-08 07:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: message-system
+[2023-07-08 07:53:40] WARNING root fetch - processPackages [message-system]: Skipping, unable to determine old version
+[2023-07-08 07:53:40] INFO root fetch - main [MainThread]: End processing [message-system] error
+[2023-07-08 07:53:40] INFO root fetch - main [MainThread]: Store serial: [18811220]
