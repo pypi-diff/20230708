@@ -22589,3 +22589,33 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 23:26:27] WARNING root fetch - processPackages [py-chalk-it]: Skipping package: exceeds size limit 33407730>=10485760
 [2023-07-08 23:26:27] INFO root fetch - main [MainThread]: End processing [py-chalk-it] error
 [2023-07-08 23:26:27] INFO root fetch - main [MainThread]: Store serial: [18815946]
+[2023-07-08 23:31:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815946]
+[2023-07-08 23:31:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 23:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ohnlp-backbone-xlang-python
+[2023-07-08 23:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dreimac
+[2023-07-08 23:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: corankco
+[2023-07-08 23:31:36] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 23:31:36] INFO root fetch - processPackages [corankco]: New version: [5.0.0] Old Version: [4.0.1]
+[2023-07-08 23:31:36] INFO root fetch - processPackages [dreimac]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-07-08 23:31:36] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/2c/af/db84e43875d1db29c1d0c5303c536942a426a5ac9a9982f5114adde6400d/ohnlp-backbone-xlang-python-1.0.8.tar.gz
+[2023-07-08 23:31:36] INFO root fetch - processPackages [corankco]: Downloading https://files.pythonhosted.org/packages/ec/7e/43c6ea53cdaebbcda5d9a3a422e6d633bdd0fbfffcd817d5ebf4dc2a4baf/corankco-4.0.1.tar.gz
+[2023-07-08 23:31:36] INFO root fetch - processPackages [dreimac]: Downloading https://files.pythonhosted.org/packages/08/46/a697615a7f068f4e26d4f0280a9d186a8772aa9c0746dca1710f866033e9/dreimac-0.2.0.tar.gz
+[2023-07-08 23:31:36] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/94/b2/be03e8009435ffd3f952d23f655bf7bd9bfdc90709c345a9d27befa172a9/ohnlp-backbone-xlang-python-1.0.9.tar.gz
+[2023-07-08 23:31:36] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: executing diffoscope
+[2023-07-08 23:31:36] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohnlp-backbone-xlang-python-1.0.8.tar.gz tmp/ohnlp-backbone-xlang-python-1.0.9.tar.gz --markdown 20230708/o/ohnlp-backbone-xlang-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 23:31:37] INFO root fetch - processPackages [dreimac]: Downloading https://files.pythonhosted.org/packages/fb/ce/34880deca073295d8b9cf497d7cc1356391364ec2004ce0fbb5c3374af9f/dreimac-0.2.2.tar.gz
+[2023-07-08 23:31:37] INFO root fetch - processPackages [dreimac]: executing diffoscope
+[2023-07-08 23:31:37] INFO root fetch - processPackages [dreimac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreimac-0.2.0.tar.gz tmp/dreimac-0.2.2.tar.gz --markdown 20230708/d/dreimac/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-07-08 23:31:37] INFO root fetch - processPackages [corankco]: Downloading https://files.pythonhosted.org/packages/41/27/b4858b5e632386b92e389a8d8493cd6f0343205fc90cc39cced1c6b0154b/corankco-5.0.0-py3-none-any.whl
+[2023-07-08 23:31:37] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.8.tar.gz]
+[2023-07-08 23:31:37] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.9.tar.gz]
+[2023-07-08 23:31:37] INFO root fetch - main [MainThread]: End processing [ohnlp-backbone-xlang-python]: success
+[2023-07-08 23:31:37] INFO root fetch - processPackages [corankco]: executing diffoscope
+[2023-07-08 23:31:37] INFO root fetch - processPackages [corankco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corankco-4.0.1.tar.gz tmp/corankco-5.0.0-py3-none-any.whl.zip --markdown 20230708/c/corankco/4.0.1-5.0.0/diff.md --exclude *.pyd
+[2023-07-08 23:31:38] INFO root fetch - processPackages [dreimac]: Remove: archive file [/home/abi/fetcher/tmp/dreimac-0.2.0.tar.gz]
+[2023-07-08 23:31:38] INFO root fetch - processPackages [dreimac]: Remove: archive file [/home/abi/fetcher/tmp/dreimac-0.2.2.tar.gz]
+[2023-07-08 23:31:38] INFO root fetch - main [MainThread]: End processing [dreimac]: success
+[2023-07-08 23:31:39] INFO root fetch - processPackages [corankco]: Remove: archive file [/home/abi/fetcher/tmp/corankco-4.0.1.tar.gz]
+[2023-07-08 23:31:39] INFO root fetch - processPackages [corankco]: Remove: archive file [/home/abi/fetcher/tmp/corankco-5.0.0-py3-none-any.whl.zip]
+[2023-07-08 23:31:39] INFO root fetch - main [MainThread]: End processing [corankco]: success
+[2023-07-08 23:31:39] INFO root fetch - main [MainThread]: Store serial: [18815954]
