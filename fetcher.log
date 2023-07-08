@@ -21379,3 +21379,69 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 21:42:13] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.8.1.tar.gz]
 [2023-07-08 21:42:13] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
 [2023-07-08 21:42:13] INFO root fetch - main [MainThread]: Store serial: [18815379]
+[2023-07-08 21:47:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815379]
+[2023-07-08 21:47:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 21:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: make-argocd-fly
+[2023-07-08 21:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lona-picocss
+[2023-07-08 21:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hat-monitor
+[2023-07-08 21:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyhackrf2
+[2023-07-08 21:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bilibili-api-python
+[2023-07-08 21:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bookit
+[2023-07-08 21:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: findmyorder
+[2023-07-08 21:47:22] INFO root fetch - processPackages [pyhackrf2]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-08 21:47:22] INFO root fetch - processPackages [lona-picocss]: New version: [0.4.1] Old Version: [0.4]
+[2023-07-08 21:47:22] INFO root fetch - processPackages [make-argocd-fly]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-08 21:47:22] INFO root fetch - processPackages [bookit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 21:47:22] INFO root fetch - processPackages [hat-monitor]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-08 21:47:23] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 21:47:23] INFO root fetch - processPackages [bilibili-api-python]: New version: [9.3.1] Old Version: [9.3.0]
+[2023-07-08 21:47:23] INFO root fetch - processPackages [bookit]: Downloading https://files.pythonhosted.org/packages/05/93/42b843a678b0a300edda5d1a159c8ebd60fc19e3231d9ae936c392c54513/bookit-0.0.2.tar.gz
+[2023-07-08 21:47:23] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 21:47:23] INFO root fetch - processPackages [lona-picocss]: Downloading https://files.pythonhosted.org/packages/22/26/30463f8818a2e43356d9116ee5e9129a5d5a437d4f0e1db5a7007a606fc8/lona-picocss-0.4.tar.gz
+[2023-07-08 21:47:23] INFO root fetch - processPackages [pyhackrf2]: Downloading https://files.pythonhosted.org/packages/fe/3c/795598368ac6f668c6da1c0554ca74ddabfa31fafc3f3af566d815e2f5a5/pyhackrf2-1.0.1.tar.gz
+[2023-07-08 21:47:23] INFO root fetch - processPackages [make-argocd-fly]: Downloading https://files.pythonhosted.org/packages/6f/81/2eb4e93153d4b134c75d786041f43aae4175c860aac442e0e8eb5d7fff68/make_argocd_fly-0.0.7.tar.gz
+[2023-07-08 21:47:23] INFO root fetch - processPackages [bilibili-api-python]: Downloading https://files.pythonhosted.org/packages/9b/6f/75134e680907dfeb54d18a424acea23668915105b48d0818cd2ea3a871c4/bilibili-api-python-9.3.0.tar.gz
+[2023-07-08 21:47:23] INFO root fetch - processPackages [hat-monitor]: Downloading https://files.pythonhosted.org/packages/27/d3/53577960f9090748a2f68b1f7b2de0494fa8f0c8d8bfd9738877a7770432/hat_monitor-0.7.1-cp38.cp39.cp310-none-any.whl
+[2023-07-08 21:47:23] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 21:47:23] INFO root fetch - processPackages [bookit]: Downloading https://files.pythonhosted.org/packages/9a/14/8e5a104a37d808b468e8ee5338650b28181b99a3a5f22ad352b1c9476d6d/bookit-0.0.3.tar.gz
+[2023-07-08 21:47:23] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 21:47:23] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 21:47:23] INFO root fetch - processPackages [pyhackrf2]: Downloading https://files.pythonhosted.org/packages/e0/93/7c7ccfa65b7efd81d522d6078d201cd03057b583b402528d45535c35b746/pyhackrf2-1.0.2.tar.gz
+[2023-07-08 21:47:23] INFO root fetch - processPackages [make-argocd-fly]: Downloading https://files.pythonhosted.org/packages/e1/76/b84109271ddeb3ce642fe2b42d7a08bcb6e8dbe243c1883e92a285425d5f/make_argocd_fly-0.0.8.tar.gz
+[2023-07-08 21:47:23] INFO root fetch - processPackages [lona-picocss]: Downloading https://files.pythonhosted.org/packages/02/34/7f9626a3a08dbfb24b578f379fedfd41d844031cb356ac87be461b04beed/lona-picocss-0.4.1.tar.gz
+[2023-07-08 21:47:23] INFO root fetch - processPackages [bookit]: executing diffoscope
+[2023-07-08 21:47:23] INFO root fetch - processPackages [bookit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookit-0.0.2.tar.gz tmp/bookit-0.0.3.tar.gz --markdown 20230708/b/bookit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 21:47:23] INFO root fetch - processPackages [hat-monitor]: Downloading https://files.pythonhosted.org/packages/3e/a4/278754e174f9f94ff9659e93cc57c68c516b1b9d5bdf2f67b747fd172d68/hat_monitor-0.7.2-cp310.cp311-none-any.whl
+[2023-07-08 21:47:23] INFO root fetch - processPackages [bilibili-api-python]: Downloading https://files.pythonhosted.org/packages/f7/75/9cefa953040943e97416ee886cdcf25f91aaf4cd46c2beb8648b84e60415/bilibili-api-python-9.3.1.tar.gz
+[2023-07-08 21:47:23] INFO root fetch - processPackages [make-argocd-fly]: executing diffoscope
+[2023-07-08 21:47:23] INFO root fetch - processPackages [make-argocd-fly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/make_argocd_fly-0.0.7.tar.gz tmp/make_argocd_fly-0.0.8.tar.gz --markdown 20230708/m/make-argocd-fly/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-08 21:47:23] INFO root fetch - processPackages [pyhackrf2]: executing diffoscope
+[2023-07-08 21:47:23] INFO root fetch - processPackages [pyhackrf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhackrf2-1.0.1.tar.gz tmp/pyhackrf2-1.0.2.tar.gz --markdown 20230708/p/pyhackrf2/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-08 21:47:23] INFO root fetch - processPackages [lona-picocss]: executing diffoscope
+[2023-07-08 21:47:23] INFO root fetch - processPackages [lona-picocss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lona-picocss-0.4.tar.gz tmp/lona-picocss-0.4.1.tar.gz --markdown 20230708/l/lona-picocss/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-07-08 21:47:24] INFO root fetch - processPackages [bilibili-api-python]: executing diffoscope
+[2023-07-08 21:47:24] INFO root fetch - processPackages [bilibili-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilibili-api-python-9.3.0.tar.gz tmp/bilibili-api-python-9.3.1.tar.gz --markdown 20230708/b/bilibili-api-python/9.3.0-9.3.1/diff.md --exclude *.pyd
+[2023-07-08 21:47:24] INFO root fetch - processPackages [hat-monitor]: executing diffoscope
+[2023-07-08 21:47:24] INFO root fetch - processPackages [hat-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_monitor-0.7.1-cp38.cp39.cp310-none-any.whl.zip tmp/hat_monitor-0.7.2-cp310.cp311-none-any.whl.zip --markdown 20230708/h/hat-monitor/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-08 21:47:24] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 21:47:24] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 21:47:24] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 21:47:24] INFO root fetch - processPackages [bookit]: Remove: archive file [/home/abi/fetcher/tmp/bookit-0.0.2.tar.gz]
+[2023-07-08 21:47:24] INFO root fetch - processPackages [bookit]: Remove: archive file [/home/abi/fetcher/tmp/bookit-0.0.3.tar.gz]
+[2023-07-08 21:47:24] INFO root fetch - main [MainThread]: End processing [bookit]: success
+[2023-07-08 21:47:24] INFO root fetch - processPackages [pyhackrf2]: Remove: archive file [/home/abi/fetcher/tmp/pyhackrf2-1.0.1.tar.gz]
+[2023-07-08 21:47:24] INFO root fetch - processPackages [pyhackrf2]: Remove: archive file [/home/abi/fetcher/tmp/pyhackrf2-1.0.2.tar.gz]
+[2023-07-08 21:47:25] INFO root fetch - main [MainThread]: End processing [pyhackrf2]: success
+[2023-07-08 21:47:25] INFO root fetch - processPackages [make-argocd-fly]: Remove: archive file [/home/abi/fetcher/tmp/make_argocd_fly-0.0.7.tar.gz]
+[2023-07-08 21:47:25] INFO root fetch - processPackages [make-argocd-fly]: Remove: archive file [/home/abi/fetcher/tmp/make_argocd_fly-0.0.8.tar.gz]
+[2023-07-08 21:47:25] INFO root fetch - main [MainThread]: End processing [make-argocd-fly]: success
+[2023-07-08 21:47:25] INFO root fetch - processPackages [hat-monitor]: Remove: archive file [/home/abi/fetcher/tmp/hat_monitor-0.7.1-cp38.cp39.cp310-none-any.whl.zip]
+[2023-07-08 21:47:25] INFO root fetch - processPackages [hat-monitor]: Remove: archive file [/home/abi/fetcher/tmp/hat_monitor-0.7.2-cp310.cp311-none-any.whl.zip]
+[2023-07-08 21:47:25] INFO root fetch - main [MainThread]: End processing [hat-monitor]: success
+[2023-07-08 21:47:25] INFO root fetch - processPackages [bilibili-api-python]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-api-python-9.3.0.tar.gz]
+[2023-07-08 21:47:25] INFO root fetch - processPackages [bilibili-api-python]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-api-python-9.3.1.tar.gz]
+[2023-07-08 21:47:25] INFO root fetch - main [MainThread]: End processing [bilibili-api-python]: success
+[2023-07-08 21:47:25] INFO root fetch - processPackages [lona-picocss]: Remove: archive file [/home/abi/fetcher/tmp/lona-picocss-0.4.tar.gz]
+[2023-07-08 21:47:25] INFO root fetch - processPackages [lona-picocss]: Remove: archive file [/home/abi/fetcher/tmp/lona-picocss-0.4.1.tar.gz]
+[2023-07-08 21:47:25] INFO root fetch - main [MainThread]: End processing [lona-picocss]: success
+[2023-07-08 21:47:25] INFO root fetch - main [MainThread]: Store serial: [18815395]
