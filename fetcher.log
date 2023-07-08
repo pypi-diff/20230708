@@ -15617,3 +15617,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 13:40:50] INFO root fetch - processPackages [typeid-python]: Remove: archive file [/home/abi/fetcher/tmp/typeid_python-0.2.1.tar.gz]
 [2023-07-08 13:40:50] INFO root fetch - main [MainThread]: End processing [typeid-python]: success
 [2023-07-08 13:40:50] INFO root fetch - main [MainThread]: Store serial: [18812790]
+[2023-07-08 13:45:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812790]
+[2023-07-08 13:45:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: perceptron-pkg-junaid-o
+[2023-07-08 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slib-sorter
+[2023-07-08 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slib-sorter
+[2023-07-08 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: warn-transformer
+[2023-07-08 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdfsquash
+[2023-07-08 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flet-lite
+[2023-07-08 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swanapi
+[2023-07-08 13:45:59] WARNING root fetch - processPackages [pdfsquash]: Skipping, unable to determine old version
+[2023-07-08 13:45:59] INFO root fetch - main [MainThread]: End processing [pdfsquash] error
+[2023-07-08 13:45:59] INFO root fetch - processPackages [flet-lite]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-08 13:45:59] INFO root fetch - processPackages [warn-transformer]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-08 13:45:59] INFO root fetch - processPackages [slib-sorter]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-08 13:45:59] WARNING root fetch - processPackages [perceptron-pkg-junaid-o]: Skipping, unable to determine old version
+[2023-07-08 13:45:59] INFO root fetch - main [MainThread]: End processing [perceptron-pkg-junaid-o] error
+[2023-07-08 13:45:59] INFO root fetch - processPackages [slib-sorter]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-08 13:45:59] INFO root fetch - processPackages [swanapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 13:45:59] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/10/df/555cab7cddb478a5a9fe96a63b155dd5185079f6008756423a0c2195e601/slib-sorter-1.4.8.tar.gz
+[2023-07-08 13:45:59] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/10/df/555cab7cddb478a5a9fe96a63b155dd5185079f6008756423a0c2195e601/slib-sorter-1.4.8.tar.gz
+[2023-07-08 13:45:59] INFO root fetch - processPackages [flet-lite]: Downloading https://files.pythonhosted.org/packages/32/3c/ce9a76c253bb4e9c6c1b1e6ba0a59b41410ff0db7554993fd412065689c0/flet_lite-1.6.1.tar.gz
+[2023-07-08 13:45:59] INFO root fetch - processPackages [warn-transformer]: Downloading https://files.pythonhosted.org/packages/27/ea/a7f48507ea48fcdbce1aeece06724a91fabd45f25890432912afb917e10a/warn-transformer-1.3.8.tar.gz
+[2023-07-08 13:45:59] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/07/6d/c22465f9f07233722a0d737dda3e8d6a13e4aa0a61c53a089c1314ae2503/SwanAPI-0.1.0.tar.gz
+[2023-07-08 13:45:59] WARNING root fetch - processPackages [warn-transformer]: Skipping package: exceeds size limit 17532658>=10485760
+[2023-07-08 13:45:59] INFO root fetch - main [MainThread]: End processing [warn-transformer] error
+[2023-07-08 13:45:59] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/c2/6e/f59bc105eb94f0318a7909b6de58c5afa63a5d6b0a86ffb2453ee911cdea/slib-sorter-1.4.9.tar.gz
+[2023-07-08 13:45:59] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/c2/6e/f59bc105eb94f0318a7909b6de58c5afa63a5d6b0a86ffb2453ee911cdea/slib-sorter-1.4.9.tar.gz
+[2023-07-08 13:45:59] INFO root fetch - processPackages [flet-lite]: Downloading https://files.pythonhosted.org/packages/00/0b/24221a5ac2b8d0a87138ae6773eaeff710fa741693d3cb4ce547c05b0880/flet_lite-1.6.2.tar.gz
+[2023-07-08 13:45:59] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 13:45:59] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.4.8.tar.gz tmp/slib-sorter-1.4.9.tar.gz --markdown 20230708/s/slib-sorter/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-08 13:46:00] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 13:46:00] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.4.8.tar.gz tmp/slib-sorter-1.4.9.tar.gz --markdown 20230708/s/slib-sorter/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-08 13:46:00] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/fd/8c/f754c4432b92a3c151f5862ed0b8dc244ff95b3cb5f8f66831e6afa0ef4a/swanapi-0.1.1-py3-none-any.whl
+[2023-07-08 13:46:00] INFO root fetch - processPackages [flet-lite]: executing diffoscope
+[2023-07-08 13:46:00] INFO root fetch - processPackages [flet-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_lite-1.6.1.tar.gz tmp/flet_lite-1.6.2.tar.gz --markdown 20230708/f/flet-lite/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-08 13:46:00] INFO root fetch - processPackages [swanapi]: executing diffoscope
+[2023-07-08 13:46:00] INFO root fetch - processPackages [swanapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SwanAPI-0.1.0.tar.gz tmp/swanapi-0.1.1-py3-none-any.whl.zip --markdown 20230708/s/swanapi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 13:46:00] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.4.8.tar.gz]
+[2023-07-08 13:46:00] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.4.9.tar.gz]
+[2023-07-08 13:46:00] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 13:46:00] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 13:46:01] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/SwanAPI-0.1.0.tar.gz]
+[2023-07-08 13:46:01] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.1.1-py3-none-any.whl.zip]
+[2023-07-08 13:46:01] INFO root fetch - main [MainThread]: End processing [swanapi]: success
+[2023-07-08 13:46:01] INFO root fetch - processPackages [flet-lite]: Remove: archive file [/home/abi/fetcher/tmp/flet_lite-1.6.1.tar.gz]
+[2023-07-08 13:46:01] INFO root fetch - processPackages [flet-lite]: Remove: archive file [/home/abi/fetcher/tmp/flet_lite-1.6.2.tar.gz]
+[2023-07-08 13:46:01] INFO root fetch - main [MainThread]: End processing [flet-lite]: success
+[2023-07-08 13:46:01] INFO root fetch - main [MainThread]: Store serial: [18812813]
