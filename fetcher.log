@@ -14742,3 +14742,55 @@
 [2023-07-08 12:22:43] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.38.tar.gz]
 [2023-07-08 12:22:43] INFO root fetch - main [MainThread]: End processing [piel]: success
 [2023-07-08 12:22:43] INFO root fetch - main [MainThread]: Store serial: [18812390]
+[2023-07-08 12:27:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812390]
+[2023-07-08 12:27:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 12:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: 1000-pip-Climber-System-cracked
+[2023-07-08 12:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphractal
+[2023-07-08 12:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slib-sorter
+[2023-07-08 12:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hat-stc
+[2023-07-08 12:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: selenium-simulate-ui
+[2023-07-08 12:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: 1000-pip-Climber-System-Download
+[2023-07-08 12:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lichenggong
+[2023-07-08 12:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: piel
+[2023-07-08 12:27:52] INFO root fetch - processPackages [lichenggong]: New version: [0.3.0.2] Old Version: [0.3.0.1]
+[2023-07-08 12:27:52] INFO root fetch - processPackages [piel]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-07-08 12:27:52] WARNING root fetch - processPackages [1000-pip-Climber-System-Download]: Skipping, unable to determine old version
+[2023-07-08 12:27:52] INFO root fetch - main [MainThread]: End processing [1000-pip-Climber-System-Download] error
+[2023-07-08 12:27:52] INFO root fetch - processPackages [sphractal]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-08 12:27:52] WARNING root fetch - processPackages [1000-pip-Climber-System-cracked]: Skipping, unable to determine old version
+[2023-07-08 12:27:52] WARNING root fetch - processPackages [selenium-simulate-ui]: Skipping, unable to determine old version
+[2023-07-08 12:27:52] INFO root fetch - main [MainThread]: End processing [1000-pip-Climber-System-cracked] error
+[2023-07-08 12:27:52] INFO root fetch - main [MainThread]: End processing [selenium-simulate-ui] error
+[2023-07-08 12:27:52] INFO root fetch - processPackages [hat-stc]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-08 12:27:52] INFO root fetch - processPackages [slib-sorter]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-07-08 12:27:52] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/cb/bf/906a4cc0363c0a8a48871b44cdb85f59ff7bcf23bdc18b4ade88f2184768/piel-0.0.38.tar.gz
+[2023-07-08 12:27:52] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/67/3d/f72dcfb4080a48802ae7b2a4d583aa7382d1cca173734a65f6febf77bc92/slib-sorter-1.3.9.tar.gz
+[2023-07-08 12:27:52] ERROR root fetch - processPackages [lichenggong]: Unable to fetch info: No such project/version 'lichenggong' 0.3.0.1
+[2023-07-08 12:27:52] INFO root fetch - main [MainThread]: End processing [lichenggong] error
+[2023-07-08 12:27:52] INFO root fetch - processPackages [hat-stc]: Downloading https://files.pythonhosted.org/packages/41/75/f880c91bcd4a645c94173ffccec2bd5261b06c0859dc050cd041d8057459/hat_stc-0.6.3-cp38.cp39.cp310-none-any.whl
+[2023-07-08 12:27:53] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/fd/c7/29a1bc711f816d7844292420df4829c92dd20370d284e5c0067b19469db4/sphractal-0.8.0.tar.gz
+[2023-07-08 12:27:53] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/9b/d3/c93e49b1aca4160ffb8b70bf545c2691bab07d2afc628c19085920361bde/piel-0.0.39.tar.gz
+[2023-07-08 12:27:53] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/64/cd/0aede55e2e39df91ffb81ecebd8446f763de5e80134abd629347936d0d9d/slib-sorter-1.4.0.tar.gz
+[2023-07-08 12:27:53] INFO root fetch - processPackages [hat-stc]: Downloading https://files.pythonhosted.org/packages/7a/20/bdb0a181aa4ff4c11580ae9df5fb666cbe7a472fc541f30d3bdbdebcf90f/hat_stc-0.6.4-cp310.cp311-none-any.whl
+[2023-07-08 12:27:53] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 12:27:53] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.3.9.tar.gz tmp/slib-sorter-1.4.0.tar.gz --markdown 20230708/s/slib-sorter/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-07-08 12:27:53] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/10/ac/3528ae2ca27de17ba47023aea5f6ad1426b4acc8a027625bd2d30fd4d77f/sphractal-0.8.1.tar.gz
+[2023-07-08 12:27:53] INFO root fetch - processPackages [piel]: executing diffoscope
+[2023-07-08 12:27:53] INFO root fetch - processPackages [piel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piel-0.0.38.tar.gz tmp/piel-0.0.39.tar.gz --markdown 20230708/p/piel/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-07-08 12:27:53] INFO root fetch - processPackages [hat-stc]: executing diffoscope
+[2023-07-08 12:27:53] INFO root fetch - processPackages [hat-stc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_stc-0.6.3-cp38.cp39.cp310-none-any.whl.zip tmp/hat_stc-0.6.4-cp310.cp311-none-any.whl.zip --markdown 20230708/h/hat-stc/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-08 12:27:53] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-08 12:27:53] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.8.0.tar.gz tmp/sphractal-0.8.1.tar.gz --markdown 20230708/s/sphractal/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-08 12:27:54] INFO root fetch - processPackages [hat-stc]: Remove: archive file [/home/abi/fetcher/tmp/hat_stc-0.6.3-cp38.cp39.cp310-none-any.whl.zip]
+[2023-07-08 12:27:54] INFO root fetch - processPackages [hat-stc]: Remove: archive file [/home/abi/fetcher/tmp/hat_stc-0.6.4-cp310.cp311-none-any.whl.zip]
+[2023-07-08 12:27:54] INFO root fetch - main [MainThread]: End processing [hat-stc]: success
+[2023-07-08 12:27:54] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.3.9.tar.gz]
+[2023-07-08 12:27:54] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.4.0.tar.gz]
+[2023-07-08 12:27:54] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 12:27:54] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.8.0.tar.gz]
+[2023-07-08 12:27:54] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.8.1.tar.gz]
+[2023-07-08 12:27:54] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-08 12:27:54] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.38.tar.gz]
+[2023-07-08 12:27:54] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.39.tar.gz]
+[2023-07-08 12:27:54] INFO root fetch - main [MainThread]: End processing [piel]: success
+[2023-07-08 12:27:54] INFO root fetch - main [MainThread]: Store serial: [18812417]
