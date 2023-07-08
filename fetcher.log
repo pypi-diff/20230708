@@ -16236,3 +16236,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 14:22:32] INFO root fetch - processPackages [visuallm]: Remove: archive file [/home/abi/fetcher/tmp/visuallm-0.2.0.tar.gz]
 [2023-07-08 14:22:32] INFO root fetch - main [MainThread]: End processing [visuallm]: success
 [2023-07-08 14:22:32] INFO root fetch - main [MainThread]: Store serial: [18813056]
+[2023-07-08 14:27:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813056]
+[2023-07-08 14:27:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: film-review-scraper
+[2023-07-08 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ProtonX
+[2023-07-08 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moto
+[2023-07-08 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slib-sorter
+[2023-07-08 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lmcloud
+[2023-07-08 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: findmyorder
+[2023-07-08 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-walletauth
+[2023-07-08 14:27:41] WARNING root fetch - processPackages [ProtonX]: Skipping, unable to determine old version
+[2023-07-08 14:27:41] INFO root fetch - main [MainThread]: End processing [ProtonX] error
+[2023-07-08 14:27:41] INFO root fetch - processPackages [slib-sorter]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-08 14:27:41] WARNING root fetch - processPackages [film-review-scraper]: Skipping, unable to determine old version
+[2023-07-08 14:27:41] INFO root fetch - main [MainThread]: End processing [film-review-scraper] error
+[2023-07-08 14:27:41] INFO root fetch - processPackages [lmcloud]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-08 14:27:41] INFO root fetch - processPackages [findmyorder]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-07-08 14:27:41] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-08 14:27:41] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/b2/53/47481303e2e5175b2758b93bbe450a47b5b5c994d12be5b3e7e5300334a5/slib-sorter-1.5.2.tar.gz
+[2023-07-08 14:27:41] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/5f/b1/03fab09fc2bdb754259eb5cd6e9f3e8eb3a53d7e655741e5430545453eed/findmyorder-1.5.5.tar.gz
+[2023-07-08 14:27:41] WARNING root fetch - processPackages [fastapi-walletauth]: Skipping, unable to determine old version
+[2023-07-08 14:27:41] INFO root fetch - main [MainThread]: End processing [fastapi-walletauth] error
+[2023-07-08 14:27:41] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-08 14:27:41] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/e4/97/bdcf3f78b8b8f5156f7f804855861e4c4c9439773b8bfb0973a6596c67fd/lmcloud-0.3.5.tar.gz
+[2023-07-08 14:27:42] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/18/f8/b4d9e39ad69646d4f9f8904fe1a04d1ad90f6bf699c1b9e543b6cc99015f/findmyorder-1.5.6.tar.gz
+[2023-07-08 14:27:42] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 14:27:42] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.5.tar.gz tmp/findmyorder-1.5.6.tar.gz --markdown 20230708/f/findmyorder/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-07-08 14:27:42] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/39/80/bc88de6a1b12bb83dbbd2e8643504984f955ca5b7e0206ae694249ac9af4/slib-sorter-1.5.3.tar.gz
+[2023-07-08 14:27:42] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 14:27:42] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.5.2.tar.gz tmp/slib-sorter-1.5.3.tar.gz --markdown 20230708/s/slib-sorter/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-08 14:27:42] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/34/45/9f05b360da5f697b2f5c0c80d7116c113d099e2e990359808a2a91d69146/lmcloud-0.3.6.tar.gz
+[2023-07-08 14:27:42] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-07-08 14:27:42] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.5.tar.gz tmp/lmcloud-0.3.6.tar.gz --markdown 20230708/l/lmcloud/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-08 14:27:42] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-08 14:27:42] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.5.tar.gz]
+[2023-07-08 14:27:42] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.6.tar.gz]
+[2023-07-08 14:27:42] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 14:27:43] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.2.tar.gz]
+[2023-07-08 14:27:43] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.3.tar.gz]
+[2023-07-08 14:27:43] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 14:27:43] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-08 14:27:43] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230708/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-08 14:27:43] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.5.tar.gz]
+[2023-07-08 14:27:43] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.6.tar.gz]
+[2023-07-08 14:27:43] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-07-08 14:27:56] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-08 14:27:56] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-08 14:27:56] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-08 14:27:56] INFO root fetch - main [MainThread]: Store serial: [18813083]
