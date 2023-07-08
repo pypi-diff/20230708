@@ -15158,3 +15158,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 12:53:57] INFO root fetch - processPackages [hat-drivers]: Remove: archive file [/home/abi/fetcher/tmp/hat_drivers-0.7.0-cp310.cp311-abi3-win_amd64.whl.zip]
 [2023-07-08 12:53:57] INFO root fetch - main [MainThread]: End processing [hat-drivers]: success
 [2023-07-08 12:53:57] INFO root fetch - main [MainThread]: Store serial: [18812581]
+[2023-07-08 12:59:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812581]
+[2023-07-08 12:59:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 12:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selenium-simulate-ui
+[2023-07-08 12:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roxbot
+[2023-07-08 12:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-cognito-lib
+[2023-07-08 12:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skinny-orm
+[2023-07-08 12:59:06] INFO root fetch - processPackages [roxbot]: New version: [0.8.2] Old Version: [0.7.0]
+[2023-07-08 12:59:06] INFO root fetch - processPackages [skinny-orm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 12:59:06] WARNING root fetch - processPackages [selenium-simulate-ui]: Skipping, unable to determine old version
+[2023-07-08 12:59:06] INFO root fetch - main [MainThread]: End processing [selenium-simulate-ui] error
+[2023-07-08 12:59:06] INFO root fetch - processPackages [flask-cognito-lib]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-08 12:59:06] INFO root fetch - processPackages [flask-cognito-lib]: Downloading https://files.pythonhosted.org/packages/b1/bc/89575d86a91954ccbc9a3d1f6d8713dbb35d18797325b9e5e59e093be643/flask_cognito_lib-1.4.0.tar.gz
+[2023-07-08 12:59:06] INFO root fetch - processPackages [skinny-orm]: Downloading https://files.pythonhosted.org/packages/07/e9/962c74a991fa4a5396040f333a779514525cdbdd472bab238599bdb0c330/skinny_orm-0.1.0.tar.gz
+[2023-07-08 12:59:06] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/ed/6b/e5294386fed56591570a21e99ad3c4cf4bf57dd5e884e3a78527c60bff78/roxbot-0.7.0.tar.gz
+[2023-07-08 12:59:06] INFO root fetch - processPackages [flask-cognito-lib]: Downloading https://files.pythonhosted.org/packages/a1/e6/84032d8dc403fab2dae74e12b20e16576d76fdf1f5df2dc138f62c8ca86f/flask_cognito_lib-1.4.1.tar.gz
+[2023-07-08 12:59:06] INFO root fetch - processPackages [flask-cognito-lib]: executing diffoscope
+[2023-07-08 12:59:06] INFO root fetch - processPackages [flask-cognito-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_cognito_lib-1.4.0.tar.gz tmp/flask_cognito_lib-1.4.1.tar.gz --markdown 20230708/f/flask-cognito-lib/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-08 12:59:06] INFO root fetch - processPackages [skinny-orm]: Downloading https://files.pythonhosted.org/packages/46/0c/eee0a5489d9bf8430233a444a6f4071fe30e93fa5609221942d50cac47fc/skinny_orm-0.1.1.tar.gz
+[2023-07-08 12:59:06] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/09/2c/009ccba99fa99860d13bee6d7b89644953528b8f31e07e67454f14fffd31/roxbot-0.8.2.tar.gz
+[2023-07-08 12:59:06] INFO root fetch - processPackages [skinny-orm]: executing diffoscope
+[2023-07-08 12:59:06] INFO root fetch - processPackages [skinny-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skinny_orm-0.1.0.tar.gz tmp/skinny_orm-0.1.1.tar.gz --markdown 20230708/s/skinny-orm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 12:59:07] INFO root fetch - processPackages [roxbot]: executing diffoscope
+[2023-07-08 12:59:07] INFO root fetch - processPackages [roxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roxbot-0.7.0.tar.gz tmp/roxbot-0.8.2.tar.gz --markdown 20230708/r/roxbot/0.7.0-0.8.2/diff.md --exclude *.pyd
+[2023-07-08 12:59:07] INFO root fetch - processPackages [skinny-orm]: Remove: archive file [/home/abi/fetcher/tmp/skinny_orm-0.1.0.tar.gz]
+[2023-07-08 12:59:07] INFO root fetch - processPackages [skinny-orm]: Remove: archive file [/home/abi/fetcher/tmp/skinny_orm-0.1.1.tar.gz]
+[2023-07-08 12:59:07] INFO root fetch - main [MainThread]: End processing [skinny-orm]: success
+[2023-07-08 12:59:07] INFO root fetch - processPackages [flask-cognito-lib]: Remove: archive file [/home/abi/fetcher/tmp/flask_cognito_lib-1.4.0.tar.gz]
+[2023-07-08 12:59:07] INFO root fetch - processPackages [flask-cognito-lib]: Remove: archive file [/home/abi/fetcher/tmp/flask_cognito_lib-1.4.1.tar.gz]
+[2023-07-08 12:59:07] INFO root fetch - main [MainThread]: End processing [flask-cognito-lib]: success
+[2023-07-08 12:59:07] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.7.0.tar.gz]
+[2023-07-08 12:59:07] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.8.2.tar.gz]
+[2023-07-08 12:59:07] INFO root fetch - main [MainThread]: End processing [roxbot]: success
+[2023-07-08 12:59:07] INFO root fetch - main [MainThread]: Store serial: [18812609]
