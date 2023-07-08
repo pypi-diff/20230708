@@ -22886,3 +22886,69 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 23:52:34] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
 [2023-07-08 23:52:34] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
 [2023-07-08 23:52:34] INFO root fetch - main [MainThread]: Store serial: [18816081]
+[2023-07-08 23:57:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816081]
+[2023-07-08 23:57:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 23:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selenium-base
+[2023-07-08 23:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-seleniumbase
+[2023-07-08 23:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-sbase
+[2023-07-08 23:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trane
+[2023-07-08 23:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypdfe
+[2023-07-08 23:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qvsed
+[2023-07-08 23:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djaodjin-signup
+[2023-07-08 23:57:43] INFO root fetch - processPackages [pypdfe]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-08 23:57:43] INFO root fetch - processPackages [qvsed]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-07-08 23:57:43] INFO root fetch - processPackages [djaodjin-signup]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-08 23:57:43] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-08 23:57:43] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/39/81/635dec9eae024ae865dd03b7623256af7dce52bdf4ee4b1d4be8e2212780/pypdfe-0.1.4.tar.gz
+[2023-07-08 23:57:43] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-08 23:57:43] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-08 23:57:43] INFO root fetch - processPackages [trane]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-08 23:57:43] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/88/ff/3b8bac7db7cb292f3e826d3fb08900ba76fa36620489d6615320fb261366/qvsed-1.3.6.tar.gz
+[2023-07-08 23:57:43] INFO root fetch - processPackages [djaodjin-signup]: Downloading https://files.pythonhosted.org/packages/64/12/2dcbb347156d6d049671bcaf8723a45394743709a238eb2da47640ad475c/djaodjin-signup-0.8.2.tar.gz
+[2023-07-08 23:57:44] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-07-08 23:57:44] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2023-07-08 23:57:44] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/f6/b9/5dfbeeeb308b889e98733c0416b100286c4e11bcedaac7efc1a9eed18af4/pypdfe-0.1.5.tar.gz
+[2023-07-08 23:57:44] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2023-07-08 23:57:44] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/9c/8c/7b690a9415c594f2cb35f09c1f769fc5e0efcd829160447b10fb8876f830/qvsed-1.3.7.tar.gz
+[2023-07-08 23:57:44] INFO root fetch - processPackages [djaodjin-signup]: Downloading https://files.pythonhosted.org/packages/26/46/a7770b2efd368a50b5738e05b3cc8e8b6937af7c09b88cfba1715698b8f9/djaodjin-signup-0.8.3.tar.gz
+[2023-07-08 23:57:44] INFO root fetch - processPackages [trane]: Downloading https://files.pythonhosted.org/packages/e3/a7/37e15a12c5c1e9cca39c059140c7ce85db259cfa686f859bb9967298b217/trane-0.3.0.tar.gz
+[2023-07-08 23:57:44] INFO root fetch - processPackages [pypdfe]: executing diffoscope
+[2023-07-08 23:57:44] INFO root fetch - processPackages [pypdfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfe-0.1.4.tar.gz tmp/pypdfe-0.1.5.tar.gz --markdown 20230708/p/pypdfe/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-08 23:57:44] INFO root fetch - processPackages [djaodjin-signup]: executing diffoscope
+[2023-07-08 23:57:44] INFO root fetch - processPackages [djaodjin-signup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djaodjin-signup-0.8.2.tar.gz tmp/djaodjin-signup-0.8.3.tar.gz --markdown 20230708/d/djaodjin-signup/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-08 23:57:44] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-08 23:57:44] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.3.6.tar.gz tmp/qvsed-1.3.7.tar.gz --markdown 20230708/q/qvsed/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-07-08 23:57:44] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2023-07-08 23:57:44] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-07-08 23:57:44] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2023-07-08 23:57:44] INFO root fetch - processPackages [trane]: Downloading https://files.pythonhosted.org/packages/d1/65/00b9bee506f7af93a1ff23366f7cfe8a7d77c2ef53166cc2a709407d4bfe/trane-0.4.0.tar.gz
+[2023-07-08 23:57:44] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-07-08 23:57:44] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230708/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-08 23:57:44] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-07-08 23:57:44] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230708/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-08 23:57:44] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-07-08 23:57:44] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230708/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-08 23:57:44] INFO root fetch - processPackages [trane]: executing diffoscope
+[2023-07-08 23:57:44] INFO root fetch - processPackages [trane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trane-0.3.0.tar.gz tmp/trane-0.4.0.tar.gz --markdown 20230708/t/trane/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-08 23:57:45] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.6.tar.gz]
+[2023-07-08 23:57:45] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.7.tar.gz]
+[2023-07-08 23:57:45] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-08 23:57:45] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.4.tar.gz]
+[2023-07-08 23:57:45] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.5.tar.gz]
+[2023-07-08 23:57:45] INFO root fetch - main [MainThread]: End processing [pypdfe]: success
+[2023-07-08 23:57:45] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2023-07-08 23:57:45] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2023-07-08 23:57:45] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-07-08 23:57:45] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2023-07-08 23:57:45] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2023-07-08 23:57:45] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-07-08 23:57:46] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2023-07-08 23:57:46] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2023-07-08 23:57:46] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-07-08 23:57:46] INFO root fetch - processPackages [trane]: Remove: archive file [/home/abi/fetcher/tmp/trane-0.3.0.tar.gz]
+[2023-07-08 23:57:46] INFO root fetch - processPackages [trane]: Remove: archive file [/home/abi/fetcher/tmp/trane-0.4.0.tar.gz]
+[2023-07-08 23:57:46] INFO root fetch - main [MainThread]: End processing [trane]: success
+[2023-07-08 23:57:46] INFO root fetch - processPackages [djaodjin-signup]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-signup-0.8.2.tar.gz]
+[2023-07-08 23:57:46] INFO root fetch - processPackages [djaodjin-signup]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-signup-0.8.3.tar.gz]
+[2023-07-08 23:57:46] INFO root fetch - main [MainThread]: End processing [djaodjin-signup]: success
+[2023-07-08 23:57:46] INFO root fetch - main [MainThread]: Store serial: [18816101]
