@@ -21559,3 +21559,62 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 21:57:48] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
 [2023-07-08 21:57:48] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
 [2023-07-08 21:57:48] INFO root fetch - main [MainThread]: Store serial: [18815435]
+[2023-07-08 22:02:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815435]
+[2023-07-08 22:02:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 22:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nwebclient
+[2023-07-08 22:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scare
+[2023-07-08 22:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qis
+[2023-07-08 22:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vdk-impala
+[2023-07-08 22:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nwebclient
+[2023-07-08 22:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ypricemagic
+[2023-07-08 22:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nwebclient
+[2023-07-08 22:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quotegen
+[2023-07-08 22:02:57] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 22:02:57] WARNING root fetch - processPackages [scare]: Skipping, unable to determine old version
+[2023-07-08 22:02:57] INFO root fetch - main [MainThread]: End processing [scare] error
+[2023-07-08 22:02:57] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 22:02:57] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-08 22:02:57] INFO root fetch - processPackages [vdk-impala]: New version: [0.4.925190661] Old Version: [0.4.923137788]
+[2023-07-08 22:02:57] INFO root fetch - processPackages [qis]: New version: [2.0.1] Old Version: [1.0.9]
+[2023-07-08 22:02:57] INFO root fetch - processPackages [ypricemagic]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-07-08 22:02:57] WARNING root fetch - processPackages [quotegen]: Skipping, unable to determine old version
+[2023-07-08 22:02:57] INFO root fetch - main [MainThread]: End processing [quotegen] error
+[2023-07-08 22:02:57] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/cd/85/4c89c59d47a7e4d8421514ba93b09789a930f4a4103b7a1cfabe1ca0ee1d/ypricemagic-2.8.1.tar.gz
+[2023-07-08 22:02:57] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 22:02:57] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 22:02:57] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-08 22:02:57] INFO root fetch - processPackages [qis]: Downloading https://files.pythonhosted.org/packages/57/d4/3e0a5df996605052210de7db721b19948f31db9dcf944d2478c37d5f4953/qis-1.0.9.tar.gz
+[2023-07-08 22:02:57] INFO root fetch - processPackages [vdk-impala]: Downloading https://files.pythonhosted.org/packages/03/66/33d429023c2c1aed732bf8a04b3a5466cebdccfe00de14ec296e39c3413d/vdk-impala-0.4.923137788.tar.gz
+[2023-07-08 22:02:58] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/bb/57/eb8503b2157169a77e3e7dd6f6b539921038f3db976aa667cc3973db6511/ypricemagic-2.8.2.tar.gz
+[2023-07-08 22:02:58] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 22:02:58] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 22:02:58] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-08 22:02:58] INFO root fetch - processPackages [vdk-impala]: Downloading https://files.pythonhosted.org/packages/3b/32/06c396771fd390a3d756b219c1b15f18a4ad651e397640ed999cee0787b7/vdk-impala-0.4.925190661.tar.gz
+[2023-07-08 22:02:58] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 22:02:58] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 22:02:58] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 22:02:58] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 22:02:58] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-08 22:02:58] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230708/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-08 22:02:58] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-07-08 22:02:58] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.8.1.tar.gz tmp/ypricemagic-2.8.2.tar.gz --markdown 20230708/y/ypricemagic/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2023-07-08 22:02:58] INFO root fetch - processPackages [vdk-impala]: executing diffoscope
+[2023-07-08 22:02:58] INFO root fetch - processPackages [vdk-impala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-impala-0.4.923137788.tar.gz tmp/vdk-impala-0.4.925190661.tar.gz --markdown 20230708/v/vdk-impala/0.4.923137788-0.4.925190661/diff.md --exclude *.pyd
+[2023-07-08 22:02:58] INFO root fetch - processPackages [qis]: Downloading https://files.pythonhosted.org/packages/c0/57/f775a6f7fd30c614f370dd7cb14a16e76b7a3ab91a373664dfeab513f6f6/qis-2.0.1.tar.gz
+[2023-07-08 22:02:59] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-08 22:02:59] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-08 22:02:59] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 22:02:59] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 22:02:59] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-08 22:02:59] INFO root fetch - processPackages [vdk-impala]: Remove: archive file [/home/abi/fetcher/tmp/vdk-impala-0.4.923137788.tar.gz]
+[2023-07-08 22:02:59] INFO root fetch - processPackages [vdk-impala]: Remove: archive file [/home/abi/fetcher/tmp/vdk-impala-0.4.925190661.tar.gz]
+[2023-07-08 22:02:59] INFO root fetch - main [MainThread]: End processing [vdk-impala]: success
+[2023-07-08 22:02:59] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.8.1.tar.gz]
+[2023-07-08 22:02:59] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.8.2.tar.gz]
+[2023-07-08 22:02:59] INFO root fetch - processPackages [qis]: executing diffoscope
+[2023-07-08 22:02:59] INFO root fetch - processPackages [qis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qis-1.0.9.tar.gz tmp/qis-2.0.1.tar.gz --markdown 20230708/q/qis/1.0.9-2.0.1/diff.md --exclude *.pyd
+[2023-07-08 22:02:59] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-07-08 22:03:05] INFO root fetch - processPackages [qis]: Remove: archive file [/home/abi/fetcher/tmp/qis-1.0.9.tar.gz]
+[2023-07-08 22:03:05] INFO root fetch - processPackages [qis]: Remove: archive file [/home/abi/fetcher/tmp/qis-2.0.1.tar.gz]
+[2023-07-08 22:03:05] INFO root fetch - main [MainThread]: End processing [qis]: success
+[2023-07-08 22:03:05] INFO root fetch - main [MainThread]: Store serial: [18815460]
