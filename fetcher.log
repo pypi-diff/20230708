@@ -12988,3 +12988,36 @@
 [2023-07-08 09:19:21] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
 [2023-07-08 09:19:21] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-07-08 09:19:21] INFO root fetch - main [MainThread]: Store serial: [18811530]
+[2023-07-08 09:24:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811530]
+[2023-07-08 09:24:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 09:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threads-net
+[2023-07-08 09:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cereja
+[2023-07-08 09:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tartiflette-django
+[2023-07-08 09:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tastytrade-sdk
+[2023-07-08 09:24:31] INFO root fetch - processPackages [threads-net]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-08 09:24:31] WARNING root fetch - processPackages [tartiflette-django]: Skipping, unable to determine old version
+[2023-07-08 09:24:31] INFO root fetch - main [MainThread]: End processing [tartiflette-django] error
+[2023-07-08 09:24:31] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 09:24:31] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/b9/7d/2749cf868e3086627a6ae0adb048da53acc4056bf6b87116dac990083f29/threads-net-0.0.5.tar.gz
+[2023-07-08 09:24:31] INFO root fetch - processPackages [cereja]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-07-08 09:24:31] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/5f/40/799fae94274277667fa52ff6cadc9a4d849e2b799b5d4c1ece997cf25de6/tastytrade_sdk-0.1.0.tar.gz
+[2023-07-08 09:24:31] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/d4/49/2176de13c827c85c21eadf8ea7510014c853b5f1982fc8b88c9171f3a7e5/tastytrade_sdk-0.1.1.tar.gz
+[2023-07-08 09:24:31] INFO root fetch - processPackages [cereja]: Downloading https://files.pythonhosted.org/packages/27/f3/5f875370bc2b13cad7241fe66ca26e0d4956e4155354eeb8616a305c6fa7/cereja-1.8.4.tar.gz
+[2023-07-08 09:24:31] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/93/2b/64d6cd5e88261d28c63a6fa2b70113a8899a604ea0ec730af551082e3b5f/threads-net-0.0.6.tar.gz
+[2023-07-08 09:24:31] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-07-08 09:24:31] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.1.0.tar.gz tmp/tastytrade_sdk-0.1.1.tar.gz --markdown 20230708/t/tastytrade-sdk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 09:24:31] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-08 09:24:31] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.5.tar.gz tmp/threads-net-0.0.6.tar.gz --markdown 20230708/t/threads-net/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-08 09:24:31] INFO root fetch - processPackages [cereja]: Downloading https://files.pythonhosted.org/packages/4b/b9/d01c96be729bdb7fe6e8bdd811246b543b283e75b10b5a11aa832a78cae6/cereja-1.8.5.tar.gz
+[2023-07-08 09:24:31] INFO root fetch - processPackages [cereja]: executing diffoscope
+[2023-07-08 09:24:31] INFO root fetch - processPackages [cereja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cereja-1.8.4.tar.gz tmp/cereja-1.8.5.tar.gz --markdown 20230708/c/cereja/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-07-08 09:24:32] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.0.tar.gz]
+[2023-07-08 09:24:32] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.1.tar.gz]
+[2023-07-08 09:24:32] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-07-08 09:24:32] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.5.tar.gz]
+[2023-07-08 09:24:32] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.6.tar.gz]
+[2023-07-08 09:24:32] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-08 09:24:32] INFO root fetch - processPackages [cereja]: Remove: archive file [/home/abi/fetcher/tmp/cereja-1.8.4.tar.gz]
+[2023-07-08 09:24:32] INFO root fetch - processPackages [cereja]: Remove: archive file [/home/abi/fetcher/tmp/cereja-1.8.5.tar.gz]
+[2023-07-08 09:24:32] INFO root fetch - main [MainThread]: End processing [cereja]: success
+[2023-07-08 09:24:32] INFO root fetch - main [MainThread]: Store serial: [18811541]
