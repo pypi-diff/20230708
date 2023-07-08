@@ -18070,3 +18070,113 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 16:45:00] INFO root fetch - processPackages [eutil]: Remove: archive file [/home/abi/fetcher/tmp/eutil-0.0.6.tar.gz]
 [2023-07-08 16:45:00] INFO root fetch - main [MainThread]: End processing [eutil]: success
 [2023-07-08 16:45:00] INFO root fetch - main [MainThread]: Store serial: [18813844]
+[2023-07-08 16:50:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813844]
+[2023-07-08 16:50:09] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-08 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OctoBot-Trading
+[2023-07-08 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strawberry-graphql-django
+[2023-07-08 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyechelle
+[2023-07-08 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: load-environ-typed
+[2023-07-08 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napatrackmater
+[2023-07-08 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KaTrain
+[2023-07-08 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: musicpy
+[2023-07-08 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aioqui
+[2023-07-08 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: impose-cli
+[2023-07-08 16:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: task2a
+[2023-07-08 16:50:10] INFO root fetch - processPackages [aioqui]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-07-08 16:50:10] INFO root fetch - processPackages [load-environ-typed]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-07-08 16:50:10] INFO root fetch - processPackages [task2a]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-08 16:50:10] INFO root fetch - processPackages [impose-cli]: New version: [0.1.41rc1] Old Version: [0.1.41rc0]
+[2023-07-08 16:50:10] WARNING root fetch - processPackages [musicpy]: Skipping, unable to determine old version
+[2023-07-08 16:50:10] INFO root fetch - processPackages [musicpy]: Start processing: z4d-certified-devices
+[2023-07-08 16:50:10] INFO root fetch - main [MainThread]: End processing [musicpy] error
+[2023-07-08 16:50:10] INFO root fetch - processPackages [pyechelle]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-08 16:50:10] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/8f/ef/9a5a1efc607f054113b9ee852deb0a9077e776330dc81fa9bee14c2e4c34/aioqui-2.1.5.tar.gz
+[2023-07-08 16:50:10] INFO root fetch - processPackages [KaTrain]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-08 16:50:10] INFO root fetch - processPackages [strawberry-graphql-django]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-08 16:50:10] INFO root fetch - processPackages [load-environ-typed]: Downloading https://files.pythonhosted.org/packages/89/21/46332b3a7dbfe0b8dfc98b4d823e82dc3d270d84209fb7515c96d965cf35/load_environ_typed-0.0.0.tar.gz
+[2023-07-08 16:50:10] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/09/a8/964baf77af35e55d269adf2d5608af6e0218a31062be9f57f073e0d572b9/impose-cli-0.1.41rc0.tar.gz
+[2023-07-08 16:50:10] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/e0/ab/b3f645ef621815c01377987bdde214ad85eac5e0ad6c82c0f76074464e0b/task2a-1.0.2.tar.gz
+[2023-07-08 16:50:10] INFO root fetch - processPackages [OctoBot-Trading]: New version: [2.4.8] Old Version: [2.4.7]
+[2023-07-08 16:50:10] INFO root fetch - processPackages [napatrackmater]: New version: [3.8.6] Old Version: [3.8.5]
+[2023-07-08 16:50:10] INFO root fetch - processPackages [z4d-certified-devices]: New version: [2.72] Old Version: [2.70]
+[2023-07-08 16:50:10] INFO root fetch - processPackages [pyechelle]: Downloading https://files.pythonhosted.org/packages/87/98/cbd15497f2e1cfd42c4c2204fa5adfb7d6f1d9893ffc240a5bbb8fe84987/pyechelle-0.3.5.tar.gz
+[2023-07-08 16:50:10] INFO root fetch - processPackages [KaTrain]: Downloading https://files.pythonhosted.org/packages/81/67/75cfc7472c86aea5226b3f4f9e4faa24513e9fa19e602348c976bead02a2/KaTrain-1.9.2.tar.gz
+[2023-07-08 16:50:10] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/e6/75/0101b0af86618a49847ceff2af8e7ac022819c3bd4cb86e26e1687f587ec/napatrackmater-3.8.5.tar.gz
+[2023-07-08 16:50:10] INFO root fetch - processPackages [strawberry-graphql-django]: Downloading https://files.pythonhosted.org/packages/84/8d/02584438b57b9d8c0141a779dd091b2f10126fe1f369ea1852d45afa3eec/strawberry_graphql_django-0.9.4.tar.gz
+[2023-07-08 16:50:10] WARNING root fetch - processPackages [KaTrain]: Skipping package: exceeds size limit 62307271>=10485760
+[2023-07-08 16:50:10] INFO root fetch - processPackages [KaTrain]: Start processing: NeuroNode
+[2023-07-08 16:50:10] INFO root fetch - main [MainThread]: End processing [KaTrain] error
+[2023-07-08 16:50:10] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/ca/b6/37dc0c23be507a843bcf540561e31940f12834841e959eba5f570768cfd8/task2a-1.0.3.tar.gz
+[2023-07-08 16:50:10] INFO root fetch - processPackages [load-environ-typed]: Downloading https://files.pythonhosted.org/packages/07/36/c330f8b0c6938c507672cfd319f8d60e16fc4931eaabbc70475ae3722f3e/load_environ_typed-0.1.0.tar.gz
+[2023-07-08 16:50:10] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/10/84/5b5bcb6b0f7adaaff7057e550894d2658ea2cdd32841e44e2750a4666a59/OctoBot-Trading-2.4.7.tar.gz
+[2023-07-08 16:50:10] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/f9/6b/c48b0f6ab89f78acabc502b495c7b7a6c00f1f5284bc11ae5ef5ae9f0c9e/aioqui-2.1.6.tar.gz
+[2023-07-08 16:50:10] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/d9/4a/e91a2229b1d7fa683d7ea4326c19ae4d7caf437930ae6bc3146adbd8eb9a/z4d-certified-devices-2.70.tar.gz
+[2023-07-08 16:50:10] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/76/de/0faae2cc2aa8b2fcb02dad047ed2ca36211e413d7608c6b1a095ebe01c89/impose-cli-0.1.41rc1.tar.gz
+[2023-07-08 16:50:10] INFO root fetch - processPackages [NeuroNode]: New version: [3.9] Old Version: [3.6]
+[2023-07-08 16:50:10] INFO root fetch - processPackages [load-environ-typed]: executing diffoscope
+[2023-07-08 16:50:10] INFO root fetch - processPackages [load-environ-typed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/load_environ_typed-0.0.0.tar.gz tmp/load_environ_typed-0.1.0.tar.gz --markdown 20230708/l/load-environ-typed/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-07-08 16:50:10] INFO root fetch - processPackages [task2a]: executing diffoscope
+[2023-07-08 16:50:10] INFO root fetch - processPackages [task2a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task2a-1.0.2.tar.gz tmp/task2a-1.0.3.tar.gz --markdown 20230708/t/task2a/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-08 16:50:10] INFO root fetch - processPackages [pyechelle]: Downloading https://files.pythonhosted.org/packages/58/d9/bb4dc284307408c9d12abd6a9b6c8ed6275d8521e67780958a990bbffd90/pyechelle-0.3.6.tar.gz
+[2023-07-08 16:50:10] INFO root fetch - processPackages [aioqui]: executing diffoscope
+[2023-07-08 16:50:10] INFO root fetch - processPackages [aioqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioqui-2.1.5.tar.gz tmp/aioqui-2.1.6.tar.gz --markdown 20230708/a/aioqui/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-07-08 16:50:11] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-08 16:50:11] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose-cli-0.1.41rc0.tar.gz tmp/impose-cli-0.1.41rc1.tar.gz --markdown 20230708/i/impose-cli/0.1.41rc0-0.1.41rc1/diff.md --exclude *.pyd
+[2023-07-08 16:50:11] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/5c/87/0bb63fbb6d9d53b572a2629914ca0063e602964c2c20a9a2632decfaa7e4/NeuroNode-3.6.tar.gz
+[2023-07-08 16:50:11] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/e3/5e/c02cfdfcfd0b75b45f613fc0f7f482af0bfc86cd665d690c36bd2392beef/napatrackmater-3.8.6.tar.gz
+[2023-07-08 16:50:11] INFO root fetch - processPackages [strawberry-graphql-django]: Downloading https://files.pythonhosted.org/packages/34/c7/6761d3816f5a7cf02928b5d035b4ed20b4e6d2a12ec6a4cf9400ce4d7cbb/strawberry_graphql_django-0.9.5.tar.gz
+[2023-07-08 16:50:11] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/73/23/c1d7881529a8c9625e383e42f1dc81df6232f45c2ceb32da5ce75194f893/OctoBot-Trading-2.4.8.tar.gz
+[2023-07-08 16:50:11] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/4e/9c/553087948e8e1d122be8fe83050a92824662db19bb280a2e7723528a8280/z4d-certified-devices-2.72.tar.gz
+[2023-07-08 16:50:11] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-07-08 16:50:11] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.8.5.tar.gz tmp/napatrackmater-3.8.6.tar.gz --markdown 20230708/n/napatrackmater/3.8.5-3.8.6/diff.md --exclude *.pyd
+[2023-07-08 16:50:11] INFO root fetch - processPackages [pyechelle]: executing diffoscope
+[2023-07-08 16:50:11] INFO root fetch - processPackages [pyechelle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyechelle-0.3.5.tar.gz tmp/pyechelle-0.3.6.tar.gz --markdown 20230708/p/pyechelle/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-08 16:50:11] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/ee/46/d7d58b35ecf98c41cacc537040cf39bfe32260276f683dbf00b51323a681/NeuroNode-3.9.tar.gz
+[2023-07-08 16:50:11] INFO root fetch - processPackages [strawberry-graphql-django]: executing diffoscope
+[2023-07-08 16:50:11] INFO root fetch - processPackages [strawberry-graphql-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_graphql_django-0.9.4.tar.gz tmp/strawberry_graphql_django-0.9.5.tar.gz --markdown 20230708/s/strawberry-graphql-django/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-08 16:50:11] INFO root fetch - processPackages [OctoBot-Trading]: executing diffoscope
+[2023-07-08 16:50:11] INFO root fetch - processPackages [OctoBot-Trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Trading-2.4.7.tar.gz tmp/OctoBot-Trading-2.4.8.tar.gz --markdown 20230708/O/OctoBot-Trading/2.4.7-2.4.8/diff.md --exclude *.pyd
+[2023-07-08 16:50:11] INFO root fetch - processPackages [z4d-certified-devices]: executing diffoscope
+[2023-07-08 16:50:11] INFO root fetch - processPackages [z4d-certified-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z4d-certified-devices-2.70.tar.gz tmp/z4d-certified-devices-2.72.tar.gz --markdown 20230708/z/z4d-certified-devices/2.70-2.72/diff.md --exclude *.pyd
+[2023-07-08 16:50:11] INFO root fetch - processPackages [NeuroNode]: executing diffoscope
+[2023-07-08 16:50:11] INFO root fetch - processPackages [NeuroNode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroNode-3.6.tar.gz tmp/NeuroNode-3.9.tar.gz --markdown 20230708/N/NeuroNode/3.6-3.9/diff.md --exclude *.pyd
+[2023-07-08 16:50:12] INFO root fetch - processPackages [load-environ-typed]: Remove: archive file [/home/abi/fetcher/tmp/load_environ_typed-0.0.0.tar.gz]
+[2023-07-08 16:50:12] INFO root fetch - processPackages [load-environ-typed]: Remove: archive file [/home/abi/fetcher/tmp/load_environ_typed-0.1.0.tar.gz]
+[2023-07-08 16:50:12] INFO root fetch - processPackages [load-environ-typed]: Start processing: Lopster
+[2023-07-08 16:50:12] INFO root fetch - main [MainThread]: End processing [load-environ-typed]: success
+[2023-07-08 16:50:12] INFO root fetch - processPackages [Lopster]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-08 16:50:12] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.2.tar.gz]
+[2023-07-08 16:50:12] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.3.tar.gz]
+[2023-07-08 16:50:12] INFO root fetch - main [MainThread]: End processing [task2a]: success
+[2023-07-08 16:50:12] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.1.41rc0.tar.gz]
+[2023-07-08 16:50:12] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.1.41rc1.tar.gz]
+[2023-07-08 16:50:12] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-08 16:50:12] INFO root fetch - processPackages [Lopster]: Downloading https://files.pythonhosted.org/packages/ab/15/cd6bce601b1efa2b08946613ee80b323505cff29b0780063b9cc9def6ae8/Lopster-0.1.5.tar.gz
+[2023-07-08 16:50:12] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.8.5.tar.gz]
+[2023-07-08 16:50:12] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.8.6.tar.gz]
+[2023-07-08 16:50:12] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-07-08 16:50:12] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.6.tar.gz]
+[2023-07-08 16:50:12] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.9.tar.gz]
+[2023-07-08 16:50:12] INFO root fetch - main [MainThread]: End processing [NeuroNode]: success
+[2023-07-08 16:50:12] INFO root fetch - processPackages [Lopster]: Downloading https://files.pythonhosted.org/packages/95/49/d363b2496d5179f5c0700ebe10bec0da10f235f02b9ff37ccbd141e5daeb/Lopster-0.1.6.tar.gz
+[2023-07-08 16:50:12] INFO root fetch - processPackages [strawberry-graphql-django]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_graphql_django-0.9.4.tar.gz]
+[2023-07-08 16:50:12] INFO root fetch - processPackages [strawberry-graphql-django]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_graphql_django-0.9.5.tar.gz]
+[2023-07-08 16:50:12] INFO root fetch - main [MainThread]: End processing [strawberry-graphql-django]: success
+[2023-07-08 16:50:12] INFO root fetch - processPackages [pyechelle]: Remove: archive file [/home/abi/fetcher/tmp/pyechelle-0.3.5.tar.gz]
+[2023-07-08 16:50:12] INFO root fetch - processPackages [pyechelle]: Remove: archive file [/home/abi/fetcher/tmp/pyechelle-0.3.6.tar.gz]
+[2023-07-08 16:50:12] INFO root fetch - main [MainThread]: End processing [pyechelle]: success
+[2023-07-08 16:50:13] INFO root fetch - processPackages [Lopster]: executing diffoscope
+[2023-07-08 16:50:13] INFO root fetch - processPackages [Lopster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lopster-0.1.5.tar.gz tmp/Lopster-0.1.6.tar.gz --markdown 20230708/L/Lopster/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-08 16:50:13] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.5.tar.gz]
+[2023-07-08 16:50:13] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.6.tar.gz]
+[2023-07-08 16:50:13] INFO root fetch - main [MainThread]: End processing [aioqui]: success
+[2023-07-08 16:50:13] INFO root fetch - processPackages [Lopster]: Remove: archive file [/home/abi/fetcher/tmp/Lopster-0.1.5.tar.gz]
+[2023-07-08 16:50:13] INFO root fetch - processPackages [Lopster]: Remove: archive file [/home/abi/fetcher/tmp/Lopster-0.1.6.tar.gz]
+[2023-07-08 16:50:13] INFO root fetch - main [MainThread]: End processing [Lopster]: success
+[2023-07-08 16:50:14] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.70.tar.gz]
+[2023-07-08 16:50:14] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.72.tar.gz]
+[2023-07-08 16:50:14] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
+[2023-07-08 16:50:15] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.7.tar.gz]
+[2023-07-08 16:50:15] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.8.tar.gz]
+[2023-07-08 16:50:15] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
+[2023-07-08 16:50:15] INFO root fetch - main [MainThread]: Store serial: [18813882]
