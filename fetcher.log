@@ -2207,3 +2207,129 @@
 [2023-07-08 02:09:25] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230707.post446.tar.gz]
 [2023-07-08 02:09:25] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-07-08 02:09:25] INFO root fetch - main [MainThread]: Store serial: [18807466]
+[2023-07-08 02:14:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807466]
+[2023-07-08 02:14:34] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-08 02:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-grafana
+[2023-07-08 02:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-reusable
+[2023-07-08 02:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aws-discord-notifiers
+[2023-07-08 02:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-common
+[2023-07-08 02:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vesselapi
+[2023-07-08 02:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: music-assistant
+[2023-07-08 02:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s
+[2023-07-08 02:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-jenkins
+[2023-07-08 02:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openbb-nightly
+[2023-07-08 02:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-operator
+[2023-07-08 02:14:34] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.35.1]
+[2023-07-08 02:14:35] INFO root fetch - processPackages [openbb-nightly]: New version: [3.1.0.dev20230707] Old Version: [3.1.0.dev20230706]
+[2023-07-08 02:14:35] INFO root fetch - processPackages [django-reusable]: New version: [9.8] Old Version: [9.7]
+[2023-07-08 02:14:35] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk8s]: New version: [2.7.96] Old Version: [2.7.95]
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-08 02:14:35] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-07-08 02:14:35] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/21/2d/891de3eb88774399181ae09f20e524005dbcd5624e609355b7f8697deb2a/vesselapi-3.35.1.tar.gz
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/d0/55/5091f0fe02ac84fdaaf38b40c9d367c6bfda09d0ba903c871a3365db5ed3/cdk8s-2.7.95.tar.gz
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-07-08 02:14:35] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-07-08 02:14:35] INFO root fetch - processPackages [music-assistant]: Start processing: mct-quantizers-nightly
+[2023-07-08 02:14:35] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-07-08 02:14:35] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/83/2d/9030bfee08f4a3da57f1c542d109529cdf4bbea8a9d43437bc0e3237dc07/openbb_nightly-3.1.0.dev20230706.tar.gz
+[2023-07-08 02:14:35] INFO root fetch - processPackages [django-reusable]: Downloading https://files.pythonhosted.org/packages/f3/a6/7c3775019320ef3410f15a15fce992836d11ca16595a77f480e5e3111cf8/django-reusable-9.7.tar.gz
+[2023-07-08 02:14:35] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.1.0.20230707.post1220] Old Version: [1.1.0.20230706.post1239]
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-07-08 02:14:35] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 21266878>=10485760
+[2023-07-08 02:14:35] INFO root fetch - processPackages [openbb-nightly]: Start processing: cdklabs.codepipeline-extensions
+[2023-07-08 02:14:35] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 02:14:35] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/63/58/a0a7e43de248ab483f8e64bf91f521b0e961d8cec60619bb798564283b0d/mct-quantizers-nightly-1.1.0.20230706.post1239.tar.gz
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-07-08 02:14:35] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/d9/70/6365e742a286b4cece00c622aaa2eca830c1c3b2852129400671693e11cb/cdk8s-2.7.96.tar.gz
+[2023-07-08 02:14:35] INFO root fetch - processPackages [django-reusable]: Downloading https://files.pythonhosted.org/packages/56/76/2298d24f3350c8efc192ca0676bb8f98d637289f4c582497fe04bc9e4630/django-reusable-9.8.tar.gz
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230708/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 02:14:35] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: speakeasy-client-sdk-python
+[2023-07-08 02:14:35] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-07-08 02:14:35] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-07-08 02:14:36] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-07-08 02:14:36] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-08 02:14:36] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-07-08 02:14:36] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230708/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-08 02:14:36] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/fd/bc/a86655e7eb3471ead72453c6df645576f1b4b72b8e745f836c2ce193801f/mct-quantizers-nightly-1.1.0.20230707.post1220.tar.gz
+[2023-07-08 02:14:36] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-07-08 02:14:36] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.35.1.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230708/v/vesselapi/3.35.1-3.5.2/diff.md --exclude *.pyd
+[2023-07-08 02:14:36] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-08 02:14:36] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.95.tar.gz tmp/cdk8s-2.7.96.tar.gz --markdown 20230708/c/cdk8s/2.7.95-2.7.96/diff.md --exclude *.pyd
+[2023-07-08 02:14:36] INFO root fetch - processPackages [django-reusable]: executing diffoscope
+[2023-07-08 02:14:36] INFO root fetch - processPackages [django-reusable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-reusable-9.7.tar.gz tmp/django-reusable-9.8.tar.gz --markdown 20230708/d/django-reusable/9.7-9.8/diff.md --exclude *.pyd
+[2023-07-08 02:14:36] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-07-08 02:14:36] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/51/73/c74332634e8130c6b89c1c8307ea722240a132020fa5c51bd7f7854b0c05/speakeasy-client-sdk-python-1.9.0.tar.gz
+[2023-07-08 02:14:36] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-07-08 02:14:36] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230708/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-08 02:14:36] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-07-08 02:14:36] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.1.0.20230706.post1239.tar.gz tmp/mct-quantizers-nightly-1.1.0.20230707.post1220.tar.gz --markdown 20230708/m/mct-quantizers-nightly/1.1.0.20230706.post1239-1.1.0.20230707.post1220/diff.md --exclude *.pyd
+[2023-07-08 02:14:36] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-07-08 02:14:36] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230708/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-08 02:14:36] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/ec/17/af09933815cbb33c06f585554b6a5963756ed5573cefe2151dde0046ce62/speakeasy-client-sdk-python-1.9.1.tar.gz
+[2023-07-08 02:14:36] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-07-08 02:14:36] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230708/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 02:14:36] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2023-07-08 02:14:36] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-1.9.0.tar.gz tmp/speakeasy-client-sdk-python-1.9.1.tar.gz --markdown 20230708/s/speakeasy-client-sdk-python/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-08 02:14:37] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-07-08 02:14:37] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-07-08 02:14:37] INFO root fetch - processPackages [cdk8s-jenkins]: Start processing: optical-dispersion-relations
+[2023-07-08 02:14:37] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-07-08 02:14:37] INFO root fetch - processPackages [optical-dispersion-relations]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-08 02:14:37] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-07-08 02:14:37] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-07-08 02:14:37] INFO root fetch - processPackages [cdk8s-operator]: Start processing: cdk-events-notify
+[2023-07-08 02:14:37] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-07-08 02:14:37] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-08 02:14:37] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-07-08 02:14:37] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-07-08 02:14:37] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-07-08 02:14:37] INFO root fetch - processPackages [optical-dispersion-relations]: Downloading https://files.pythonhosted.org/packages/fa/d3/cee72b3c7ea2b067ac2f8fdb4ab88cdb49486435ae83ae298bf9c0b03d3a/optical_dispersion_relations-0.2.0.tar.gz
+[2023-07-08 02:14:37] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.95.tar.gz]
+[2023-07-08 02:14:37] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.96.tar.gz]
+[2023-07-08 02:14:37] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-08 02:14:37] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-07-08 02:14:37] INFO root fetch - processPackages [django-reusable]: Remove: archive file [/home/abi/fetcher/tmp/django-reusable-9.7.tar.gz]
+[2023-07-08 02:14:37] INFO root fetch - processPackages [django-reusable]: Remove: archive file [/home/abi/fetcher/tmp/django-reusable-9.8.tar.gz]
+[2023-07-08 02:14:37] INFO root fetch - main [MainThread]: End processing [django-reusable]: success
+[2023-07-08 02:14:38] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230706.post1239.tar.gz]
+[2023-07-08 02:14:38] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230707.post1220.tar.gz]
+[2023-07-08 02:14:38] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-07-08 02:14:38] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-07-08 02:14:38] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-07-08 02:14:38] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-07-08 02:14:38] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-07-08 02:14:38] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-07-08 02:14:38] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-07-08 02:14:38] INFO root fetch - processPackages [optical-dispersion-relations]: Downloading https://files.pythonhosted.org/packages/13/24/43c40668f5e9bf47a58c53cd0b44b4d4233fab212cf11cd0ab962533f025/optical_dispersion_relations-0.3.0.tar.gz
+[2023-07-08 02:14:38] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.0.tar.gz]
+[2023-07-08 02:14:38] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.1.tar.gz]
+[2023-07-08 02:14:38] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2023-07-08 02:14:38] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-07-08 02:14:38] INFO root fetch - processPackages [optical-dispersion-relations]: executing diffoscope
+[2023-07-08 02:14:38] INFO root fetch - processPackages [optical-dispersion-relations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optical_dispersion_relations-0.2.0.tar.gz tmp/optical_dispersion_relations-0.3.0.tar.gz --markdown 20230708/o/optical-dispersion-relations/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-08 02:14:38] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-07-08 02:14:38] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230708/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-08 02:14:38] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.35.1.tar.gz]
+[2023-07-08 02:14:38] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-07-08 02:14:38] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-07-08 02:14:39] INFO root fetch - processPackages [optical-dispersion-relations]: Remove: archive file [/home/abi/fetcher/tmp/optical_dispersion_relations-0.2.0.tar.gz]
+[2023-07-08 02:14:39] INFO root fetch - processPackages [optical-dispersion-relations]: Remove: archive file [/home/abi/fetcher/tmp/optical_dispersion_relations-0.3.0.tar.gz]
+[2023-07-08 02:14:39] INFO root fetch - main [MainThread]: End processing [optical-dispersion-relations]: success
+[2023-07-08 02:14:39] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-07-08 02:14:39] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-07-08 02:14:39] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-07-08 02:14:39] INFO root fetch - main [MainThread]: Store serial: [18807511]
