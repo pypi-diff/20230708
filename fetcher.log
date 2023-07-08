@@ -18180,3 +18180,56 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 16:50:15] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.8.tar.gz]
 [2023-07-08 16:50:15] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
 [2023-07-08 16:50:15] INFO root fetch - main [MainThread]: Store serial: [18813882]
+[2023-07-08 16:55:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813882]
+[2023-07-08 16:55:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 16:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: semantra
+[2023-07-08 16:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: impose-cli
+[2023-07-08 16:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: v-quantum-annealing
+[2023-07-08 16:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: planetary-system-stacker
+[2023-07-08 16:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: planetary-system-stacker
+[2023-07-08 16:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: planetary-system-stacker
+[2023-07-08 16:55:24] INFO root fetch - processPackages [v-quantum-annealing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 16:55:24] INFO root fetch - processPackages [impose-cli]: New version: [0.1.41rc3] Old Version: [0.1.41rc2]
+[2023-07-08 16:55:24] INFO root fetch - processPackages [semantra]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-08 16:55:24] INFO root fetch - processPackages [planetary-system-stacker]: New version: [0.9.7.3] Old Version: [0.9.7.2]
+[2023-07-08 16:55:24] INFO root fetch - processPackages [planetary-system-stacker]: New version: [0.9.7.3] Old Version: [0.9.7.2]
+[2023-07-08 16:55:24] INFO root fetch - processPackages [planetary-system-stacker]: New version: [0.9.7.3] Old Version: [0.9.7.2]
+[2023-07-08 16:55:24] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/57/64/ee22359d55d22dab6a9612dcf8a50ebb73d0b06ab50af4186e5bca72bce9/impose_cli-0.1.41rc2-py3-none-any.whl
+[2023-07-08 16:55:24] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/a3/22/b01e7bb04835215ae01270e487b97dab9b252137f1801d1115400ea8d90a/v_quantum_annealing-0.0.8.tar.gz
+[2023-07-08 16:55:24] INFO root fetch - processPackages [semantra]: Downloading https://files.pythonhosted.org/packages/1f/b0/6a26b3cda0d86839225a06d343d8dcec0c9d76d4acfd5fd768670b66653f/semantra-0.1.6.tar.gz
+[2023-07-08 16:55:25] INFO root fetch - processPackages [planetary-system-stacker]: Downloading https://files.pythonhosted.org/packages/7e/97/49a8a7d859197348268bedf59b94279ddae64d7f4aa902d3ec68d9c4733b/planetary_system_stacker-0.9.7.2-py3-none-manylinux1_x86_64.whl
+[2023-07-08 16:55:25] INFO root fetch - processPackages [planetary-system-stacker]: Downloading https://files.pythonhosted.org/packages/7e/97/49a8a7d859197348268bedf59b94279ddae64d7f4aa902d3ec68d9c4733b/planetary_system_stacker-0.9.7.2-py3-none-manylinux1_x86_64.whl
+[2023-07-08 16:55:25] INFO root fetch - processPackages [planetary-system-stacker]: Downloading https://files.pythonhosted.org/packages/7e/97/49a8a7d859197348268bedf59b94279ddae64d7f4aa902d3ec68d9c4733b/planetary_system_stacker-0.9.7.2-py3-none-manylinux1_x86_64.whl
+[2023-07-08 16:55:25] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/10/8c/b16bca2c67093c46bad700bf09b05e870660f7851a7f41f6a61f06a2b774/impose_cli-0.1.41rc3-py3-none-any.whl
+[2023-07-08 16:55:25] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/9d/8f/5bc22a08352bc6e11eb0dee3d5cc0e9511595befb00f71e0c4b8fcb5f07b/v_quantum_annealing-0.0.9.tar.gz
+[2023-07-08 16:55:25] INFO root fetch - processPackages [planetary-system-stacker]: Downloading https://files.pythonhosted.org/packages/8a/d4/774edbcb67d28df23d8be18c7e841d9416f231123d44e94e1bcca3ec5ab8/planetary_system_stacker-0.9.7.3-py3-none-macosx_10_6_intel.whl
+[2023-07-08 16:55:25] INFO root fetch - processPackages [planetary-system-stacker]: Downloading https://files.pythonhosted.org/packages/8a/d4/774edbcb67d28df23d8be18c7e841d9416f231123d44e94e1bcca3ec5ab8/planetary_system_stacker-0.9.7.3-py3-none-macosx_10_6_intel.whl
+[2023-07-08 16:55:25] INFO root fetch - processPackages [semantra]: Downloading https://files.pythonhosted.org/packages/8b/88/989eeed6ffc64fcb8c36f29b38359ba86792bdeaed4e07d0e90c2ea7056b/semantra-0.1.7.tar.gz
+[2023-07-08 16:55:25] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-08 16:55:25] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose_cli-0.1.41rc2-py3-none-any.whl.zip tmp/impose_cli-0.1.41rc3-py3-none-any.whl.zip --markdown 20230708/i/impose-cli/0.1.41rc2-0.1.41rc3/diff.md --exclude *.pyd
+[2023-07-08 16:55:25] INFO root fetch - processPackages [planetary-system-stacker]: Downloading https://files.pythonhosted.org/packages/8a/d4/774edbcb67d28df23d8be18c7e841d9416f231123d44e94e1bcca3ec5ab8/planetary_system_stacker-0.9.7.3-py3-none-macosx_10_6_intel.whl
+[2023-07-08 16:55:25] INFO root fetch - processPackages [planetary-system-stacker]: executing diffoscope
+[2023-07-08 16:55:25] INFO root fetch - processPackages [planetary-system-stacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetary_system_stacker-0.9.7.2-py3-none-manylinux1_x86_64.whl.zip tmp/planetary_system_stacker-0.9.7.3-py3-none-macosx_10_6_intel.whl.zip --markdown 20230708/p/planetary-system-stacker/0.9.7.2-0.9.7.3/diff.md --exclude *.pyd
+[2023-07-08 16:55:25] INFO root fetch - processPackages [planetary-system-stacker]: executing diffoscope
+[2023-07-08 16:55:25] INFO root fetch - processPackages [planetary-system-stacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetary_system_stacker-0.9.7.2-py3-none-manylinux1_x86_64.whl.zip tmp/planetary_system_stacker-0.9.7.3-py3-none-macosx_10_6_intel.whl.zip --markdown 20230708/p/planetary-system-stacker/0.9.7.2-0.9.7.3/diff.md --exclude *.pyd
+[2023-07-08 16:55:25] INFO root fetch - processPackages [v-quantum-annealing]: executing diffoscope
+[2023-07-08 16:55:25] INFO root fetch - processPackages [v-quantum-annealing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v_quantum_annealing-0.0.8.tar.gz tmp/v_quantum_annealing-0.0.9.tar.gz --markdown 20230708/v/v-quantum-annealing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 16:55:25] INFO root fetch - processPackages [planetary-system-stacker]: executing diffoscope
+[2023-07-08 16:55:25] INFO root fetch - processPackages [planetary-system-stacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetary_system_stacker-0.9.7.2-py3-none-manylinux1_x86_64.whl.zip tmp/planetary_system_stacker-0.9.7.3-py3-none-macosx_10_6_intel.whl.zip --markdown 20230708/p/planetary-system-stacker/0.9.7.2-0.9.7.3/diff.md --exclude *.pyd
+[2023-07-08 16:55:25] INFO root fetch - processPackages [semantra]: executing diffoscope
+[2023-07-08 16:55:25] INFO root fetch - processPackages [semantra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantra-0.1.6.tar.gz tmp/semantra-0.1.7.tar.gz --markdown 20230708/s/semantra/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-08 16:55:26] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose_cli-0.1.41rc2-py3-none-any.whl.zip]
+[2023-07-08 16:55:26] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose_cli-0.1.41rc3-py3-none-any.whl.zip]
+[2023-07-08 16:55:26] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-08 16:55:26] INFO root fetch - processPackages [planetary-system-stacker]: Remove: archive file [/home/abi/fetcher/tmp/planetary_system_stacker-0.9.7.2-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-08 16:55:26] INFO root fetch - processPackages [planetary-system-stacker]: Remove: archive file [/home/abi/fetcher/tmp/planetary_system_stacker-0.9.7.3-py3-none-macosx_10_6_intel.whl.zip]
+[2023-07-08 16:55:26] INFO root fetch - main [MainThread]: End processing [planetary-system-stacker]: success
+[2023-07-08 16:55:26] INFO root fetch - main [MainThread]: End processing [planetary-system-stacker]: success
+[2023-07-08 16:55:27] INFO root fetch - main [MainThread]: End processing [planetary-system-stacker]: success
+[2023-07-08 16:55:27] INFO root fetch - processPackages [semantra]: Remove: archive file [/home/abi/fetcher/tmp/semantra-0.1.6.tar.gz]
+[2023-07-08 16:55:27] INFO root fetch - processPackages [semantra]: Remove: archive file [/home/abi/fetcher/tmp/semantra-0.1.7.tar.gz]
+[2023-07-08 16:55:27] INFO root fetch - main [MainThread]: End processing [semantra]: success
+[2023-07-08 16:55:27] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.8.tar.gz]
+[2023-07-08 16:55:27] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.9.tar.gz]
+[2023-07-08 16:55:27] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
+[2023-07-08 16:55:27] INFO root fetch - main [MainThread]: Store serial: [18813897]
