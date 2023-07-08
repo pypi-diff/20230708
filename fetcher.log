@@ -22461,3 +22461,51 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 23:10:54] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.22-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
 [2023-07-08 23:10:54] INFO root fetch - main [MainThread]: End processing [dithering]: success
 [2023-07-08 23:10:54] INFO root fetch - main [MainThread]: Store serial: [18815851]
+[2023-07-08 23:15:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815851]
+[2023-07-08 23:16:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 23:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zipp
+[2023-07-08 23:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymultithreading
+[2023-07-08 23:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ohnlp-backbone-xlang-python
+[2023-07-08 23:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djaodjin-multitier
+[2023-07-08 23:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-pretrained
+[2023-07-08 23:16:03] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 23:16:04] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/2c/af/db84e43875d1db29c1d0c5303c536942a426a5ac9a9982f5114adde6400d/ohnlp-backbone-xlang-python-1.0.8.tar.gz
+[2023-07-08 23:16:04] INFO root fetch - processPackages [pymultithreading]: New version: [1.0.0] Old Version: [0.2.6]
+[2023-07-08 23:16:04] INFO root fetch - processPackages [ml-pretrained]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 23:16:04] INFO root fetch - processPackages [zipp]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-08 23:16:04] INFO root fetch - processPackages [djaodjin-multitier]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 23:16:04] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/94/b2/be03e8009435ffd3f952d23f655bf7bd9bfdc90709c345a9d27befa172a9/ohnlp-backbone-xlang-python-1.0.9.tar.gz
+[2023-07-08 23:16:04] INFO root fetch - processPackages [zipp]: Downloading https://files.pythonhosted.org/packages/41/2e/1341c5634c25e7254df01ec1f6cbd2bcdee3e647709e7c3647d1b362e3ac/zipp-3.9.0.tar.gz
+[2023-07-08 23:16:04] INFO root fetch - processPackages [pymultithreading]: Downloading https://files.pythonhosted.org/packages/80/bf/f65c61c9c6eaca11d32a18482688e24afbdb022c126a25f5b0c479e84290/pymultithreading-0.2.6.tar.gz
+[2023-07-08 23:16:04] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e5/68/0f90f86a3b160e860ed5c540d8d0b88c2e127f0772a56b4aca863c8a14b8/ml-pretrained-0.0.8.tar.gz
+[2023-07-08 23:16:04] INFO root fetch - processPackages [djaodjin-multitier]: Downloading https://files.pythonhosted.org/packages/21/73/92ef5ef9bfc2af556f38a45298f175e1876ea9b388f1f725fedde41dbb48/djaodjin-multitier-0.1.8.tar.gz
+[2023-07-08 23:16:04] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: executing diffoscope
+[2023-07-08 23:16:04] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohnlp-backbone-xlang-python-1.0.8.tar.gz tmp/ohnlp-backbone-xlang-python-1.0.9.tar.gz --markdown 20230708/o/ohnlp-backbone-xlang-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 23:16:04] INFO root fetch - processPackages [zipp]: Downloading https://files.pythonhosted.org/packages/21/40/791c00c9788d8a8b005a20248a9ce2fb46aaf12fa12b0ff9e1639aea04af/zipp-3.9.1.tar.gz
+[2023-07-08 23:16:04] INFO root fetch - processPackages [pymultithreading]: Downloading https://files.pythonhosted.org/packages/e5/fa/fa02bc879065c7c0e1b2c9c29c0adff2b9a077246f74a5d45f7d979bda7c/pymultithreading-1.0.0.tar.gz
+[2023-07-08 23:16:04] INFO root fetch - processPackages [djaodjin-multitier]: Downloading https://files.pythonhosted.org/packages/1f/dc/e22c15d9f6c6ed15682ce782e386e9b75e02083228600a36dd1d038d598d/djaodjin-multitier-0.1.9.tar.gz
+[2023-07-08 23:16:04] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e1/20/911c23727f18c016144699a869482c5375e7312589fc9f690a6bb153182e/ml-pretrained-0.0.9.tar.gz
+[2023-07-08 23:16:04] INFO root fetch - processPackages [zipp]: executing diffoscope
+[2023-07-08 23:16:04] INFO root fetch - processPackages [zipp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipp-3.9.0.tar.gz tmp/zipp-3.9.1.tar.gz --markdown 20230708/z/zipp/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-08 23:16:04] INFO root fetch - processPackages [pymultithreading]: executing diffoscope
+[2023-07-08 23:16:04] INFO root fetch - processPackages [pymultithreading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymultithreading-0.2.6.tar.gz tmp/pymultithreading-1.0.0.tar.gz --markdown 20230708/p/pymultithreading/0.2.6-1.0.0/diff.md --exclude *.pyd
+[2023-07-08 23:16:04] INFO root fetch - processPackages [djaodjin-multitier]: executing diffoscope
+[2023-07-08 23:16:04] INFO root fetch - processPackages [djaodjin-multitier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djaodjin-multitier-0.1.8.tar.gz tmp/djaodjin-multitier-0.1.9.tar.gz --markdown 20230708/d/djaodjin-multitier/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 23:16:04] INFO root fetch - processPackages [ml-pretrained]: executing diffoscope
+[2023-07-08 23:16:04] INFO root fetch - processPackages [ml-pretrained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-pretrained-0.0.8.tar.gz tmp/ml-pretrained-0.0.9.tar.gz --markdown 20230708/m/ml-pretrained/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 23:16:05] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.8.tar.gz]
+[2023-07-08 23:16:05] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.9.tar.gz]
+[2023-07-08 23:16:05] INFO root fetch - main [MainThread]: End processing [ohnlp-backbone-xlang-python]: success
+[2023-07-08 23:16:05] INFO root fetch - processPackages [zipp]: Remove: archive file [/home/abi/fetcher/tmp/zipp-3.9.0.tar.gz]
+[2023-07-08 23:16:05] INFO root fetch - processPackages [zipp]: Remove: archive file [/home/abi/fetcher/tmp/zipp-3.9.1.tar.gz]
+[2023-07-08 23:16:05] INFO root fetch - main [MainThread]: End processing [zipp]: success
+[2023-07-08 23:16:05] INFO root fetch - processPackages [pymultithreading]: Remove: archive file [/home/abi/fetcher/tmp/pymultithreading-0.2.6.tar.gz]
+[2023-07-08 23:16:05] INFO root fetch - processPackages [pymultithreading]: Remove: archive file [/home/abi/fetcher/tmp/pymultithreading-1.0.0.tar.gz]
+[2023-07-08 23:16:05] INFO root fetch - main [MainThread]: End processing [pymultithreading]: success
+[2023-07-08 23:16:05] INFO root fetch - processPackages [djaodjin-multitier]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-multitier-0.1.8.tar.gz]
+[2023-07-08 23:16:05] INFO root fetch - processPackages [djaodjin-multitier]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-multitier-0.1.9.tar.gz]
+[2023-07-08 23:16:05] INFO root fetch - main [MainThread]: End processing [djaodjin-multitier]: success
+[2023-07-08 23:16:05] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.8.tar.gz]
+[2023-07-08 23:16:05] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.9.tar.gz]
+[2023-07-08 23:16:05] INFO root fetch - main [MainThread]: End processing [ml-pretrained]: success
+[2023-07-08 23:16:05] INFO root fetch - main [MainThread]: Store serial: [18815912]
