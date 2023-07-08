@@ -14982,3 +14982,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 12:38:18] INFO root fetch - processPackages [flet-lite]: Remove: archive file [/home/abi/fetcher/tmp/flet_lite-1.5.tar.gz]
 [2023-07-08 12:38:18] INFO root fetch - main [MainThread]: End processing [flet-lite]: success
 [2023-07-08 12:38:18] INFO root fetch - main [MainThread]: Store serial: [18812459]
+[2023-07-08 12:43:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812459]
+[2023-07-08 12:43:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-08 12:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sockets-communication
+[2023-07-08 12:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antgo
+[2023-07-08 12:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decorator-parser
+[2023-07-08 12:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wsuks
+[2023-07-08 12:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-cognito-lib
+[2023-07-08 12:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dynamic-service
+[2023-07-08 12:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: protosaurus
+[2023-07-08 12:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atila-vue
+[2023-07-08 12:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dank-mids
+[2023-07-08 12:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dynamic-service
+[2023-07-08 12:43:27] INFO root fetch - processPackages [dynamic-service]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-07-08 12:43:27] INFO root fetch - processPackages [antgo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 12:43:27] INFO root fetch - processPackages [wsuks]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-08 12:43:27] INFO root fetch - processPackages [atila-vue]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-08 12:43:27] INFO root fetch - processPackages [dynamic-service]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-07-08 12:43:27] INFO root fetch - processPackages [sockets-communication]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-08 12:43:27] INFO root fetch - processPackages [decorator-parser]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-08 12:43:27] INFO root fetch - processPackages [flask-cognito-lib]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-07-08 12:43:27] WARNING root fetch - processPackages [protosaurus]: Skipping, unable to determine old version
+[2023-07-08 12:43:27] INFO root fetch - main [MainThread]: End processing [protosaurus] error
+[2023-07-08 12:43:27] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-08 12:43:27] INFO root fetch - processPackages [wsuks]: Downloading https://files.pythonhosted.org/packages/cb/10/ea9a20ed6a842231f920cededd4bd11af4165795a61b4338de80d24ac722/wsuks-0.3.0.tar.gz
+[2023-07-08 12:43:27] INFO root fetch - processPackages [decorator-parser]: Downloading https://files.pythonhosted.org/packages/83/b8/f3e1b5e754a439a4612248e6a2b2270ef5e3ad193909fd79f5f2ac7d8043/decorator_parser-1.0.6-py3-none-any.whl
+[2023-07-08 12:43:27] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-08 12:43:27] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/d9/06/393f65ddee7ac668712306c07945ed36247c42cb9b6343520a1aee906cd9/dynamic-service-1.2.2.tar.gz
+[2023-07-08 12:43:27] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/d9/06/393f65ddee7ac668712306c07945ed36247c42cb9b6343520a1aee906cd9/dynamic-service-1.2.2.tar.gz
+[2023-07-08 12:43:27] INFO root fetch - processPackages [sockets-communication]: Downloading https://files.pythonhosted.org/packages/31/61/b7a6aebc2912efc7548b4c5ca5296e5c59fb3efc3b8b3cf44f6632700ea6/sockets-communication-1.3.0.tar.gz
+[2023-07-08 12:43:27] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/d4/02/7dd0f15cfae2daf6c2c1f9f3209dc76bca34c8189cfef43c75596ecbb8a1/antgo-0.1.8.tar.gz
+[2023-07-08 12:43:27] INFO root fetch - processPackages [atila-vue]: Downloading https://files.pythonhosted.org/packages/9f/67/3d3df207d2b416444f61c747ecaead083a7f24a5fc232c470a35ff0459da/atila_vue-0.3.2-py3-none-any.whl
+[2023-07-08 12:43:27] INFO root fetch - processPackages [flask-cognito-lib]: Downloading https://files.pythonhosted.org/packages/f6/15/7867d5ed2656c9bb5925f3c5c60eab09f0bf97a9bb2adae5b8f2fa4e44a3/flask_cognito_lib-1.3.2.tar.gz
+[2023-07-08 12:43:27] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-08 12:43:27] INFO root fetch - processPackages [decorator-parser]: Downloading https://files.pythonhosted.org/packages/1b/a7/f8f843dba98e183c3438de2662d15bd7a18ef4f4c1a93a7e8f5116eb62dd/decorator_parser-1.0.7-py3-none-any.whl
+[2023-07-08 12:43:28] INFO root fetch - processPackages [wsuks]: Downloading https://files.pythonhosted.org/packages/84/8f/25cc4726b70d1e45d1c3a341736950ee15ba5d3fdcc82550c81fdae9808a/wsuks-0.3.1.tar.gz
+[2023-07-08 12:43:28] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-08 12:43:28] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230708/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-08 12:43:28] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/61/a3/b07193abf1696df9e17715fa873ddccf486e744a30b3234a89fc99643de4/dynamic-service-1.3.0.tar.gz
+[2023-07-08 12:43:28] INFO root fetch - processPackages [sockets-communication]: Downloading https://files.pythonhosted.org/packages/9a/cf/9c05818730b32c4093396f77546972bef10789b1ff493326f1f44c05c078/sockets-communication-1.4.0.tar.gz
+[2023-07-08 12:43:28] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/61/a3/b07193abf1696df9e17715fa873ddccf486e744a30b3234a89fc99643de4/dynamic-service-1.3.0.tar.gz
+[2023-07-08 12:43:28] INFO root fetch - processPackages [decorator-parser]: executing diffoscope
+[2023-07-08 12:43:28] INFO root fetch - processPackages [decorator-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorator_parser-1.0.6-py3-none-any.whl.zip tmp/decorator_parser-1.0.7-py3-none-any.whl.zip --markdown 20230708/d/decorator-parser/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-08 12:43:28] INFO root fetch - processPackages [atila-vue]: Downloading https://files.pythonhosted.org/packages/9c/49/2b3ec1bbfbc9970d262346e4f69b812fa220a7079735179f3da3ddf87a81/atila_vue-0.4.0-py3-none-any.whl
+[2023-07-08 12:43:28] INFO root fetch - processPackages [flask-cognito-lib]: Downloading https://files.pythonhosted.org/packages/b1/bc/89575d86a91954ccbc9a3d1f6d8713dbb35d18797325b9e5e59e093be643/flask_cognito_lib-1.4.0.tar.gz
+[2023-07-08 12:43:28] INFO root fetch - processPackages [sockets-communication]: executing diffoscope
+[2023-07-08 12:43:28] INFO root fetch - processPackages [sockets-communication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sockets-communication-1.3.0.tar.gz tmp/sockets-communication-1.4.0.tar.gz --markdown 20230708/s/sockets-communication/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-08 12:43:28] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/38/2f/ef193c860f0d6f7d47317818323685ddea7f9bcff16e96382a4b5724db8d/antgo-0.1.9.tar.gz
+[2023-07-08 12:43:28] INFO root fetch - processPackages [dynamic-service]: executing diffoscope
+[2023-07-08 12:43:28] INFO root fetch - processPackages [dynamic-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-service-1.2.2.tar.gz tmp/dynamic-service-1.3.0.tar.gz --markdown 20230708/d/dynamic-service/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-07-08 12:43:28] INFO root fetch - processPackages [dynamic-service]: executing diffoscope
+[2023-07-08 12:43:28] INFO root fetch - processPackages [dynamic-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-service-1.2.2.tar.gz tmp/dynamic-service-1.3.0.tar.gz --markdown 20230708/d/dynamic-service/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-07-08 12:43:28] INFO root fetch - processPackages [wsuks]: executing diffoscope
+[2023-07-08 12:43:28] INFO root fetch - processPackages [wsuks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsuks-0.3.0.tar.gz tmp/wsuks-0.3.1.tar.gz --markdown 20230708/w/wsuks/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-08 12:43:28] INFO root fetch - processPackages [flask-cognito-lib]: executing diffoscope
+[2023-07-08 12:43:28] INFO root fetch - processPackages [flask-cognito-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_cognito_lib-1.3.2.tar.gz tmp/flask_cognito_lib-1.4.0.tar.gz --markdown 20230708/f/flask-cognito-lib/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-07-08 12:43:28] INFO root fetch - processPackages [atila-vue]: executing diffoscope
+[2023-07-08 12:43:28] INFO root fetch - processPackages [atila-vue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atila_vue-0.3.2-py3-none-any.whl.zip tmp/atila_vue-0.4.0-py3-none-any.whl.zip --markdown 20230708/a/atila-vue/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-08 12:43:28] INFO root fetch - processPackages [antgo]: executing diffoscope
+[2023-07-08 12:43:28] INFO root fetch - processPackages [antgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgo-0.1.8.tar.gz tmp/antgo-0.1.9.tar.gz --markdown 20230708/a/antgo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 12:43:29] INFO root fetch - processPackages [decorator-parser]: Remove: archive file [/home/abi/fetcher/tmp/decorator_parser-1.0.6-py3-none-any.whl.zip]
+[2023-07-08 12:43:29] INFO root fetch - processPackages [decorator-parser]: Remove: archive file [/home/abi/fetcher/tmp/decorator_parser-1.0.7-py3-none-any.whl.zip]
+[2023-07-08 12:43:29] INFO root fetch - main [MainThread]: End processing [decorator-parser]: success
+[2023-07-08 12:43:29] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-08 12:43:29] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-08 12:43:29] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-08 12:43:29] INFO root fetch - processPackages [sockets-communication]: Remove: archive file [/home/abi/fetcher/tmp/sockets-communication-1.3.0.tar.gz]
+[2023-07-08 12:43:29] INFO root fetch - processPackages [sockets-communication]: Remove: archive file [/home/abi/fetcher/tmp/sockets-communication-1.4.0.tar.gz]
+[2023-07-08 12:43:29] INFO root fetch - main [MainThread]: End processing [sockets-communication]: success
+[2023-07-08 12:43:29] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.2.2.tar.gz]
+[2023-07-08 12:43:29] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.3.0.tar.gz]
+[2023-07-08 12:43:29] INFO root fetch - main [MainThread]: End processing [dynamic-service]: success
+[2023-07-08 12:43:29] INFO root fetch - main [MainThread]: End processing [dynamic-service]: success
+[2023-07-08 12:43:29] INFO root fetch - processPackages [flask-cognito-lib]: Remove: archive file [/home/abi/fetcher/tmp/flask_cognito_lib-1.3.2.tar.gz]
+[2023-07-08 12:43:29] INFO root fetch - processPackages [flask-cognito-lib]: Remove: archive file [/home/abi/fetcher/tmp/flask_cognito_lib-1.4.0.tar.gz]
+[2023-07-08 12:43:29] INFO root fetch - main [MainThread]: End processing [flask-cognito-lib]: success
+[2023-07-08 12:43:30] INFO root fetch - processPackages [wsuks]: Remove: archive file [/home/abi/fetcher/tmp/wsuks-0.3.0.tar.gz]
+[2023-07-08 12:43:30] INFO root fetch - processPackages [wsuks]: Remove: archive file [/home/abi/fetcher/tmp/wsuks-0.3.1.tar.gz]
+[2023-07-08 12:43:30] INFO root fetch - main [MainThread]: End processing [wsuks]: success
+[2023-07-08 12:43:30] INFO root fetch - processPackages [atila-vue]: Remove: archive file [/home/abi/fetcher/tmp/atila_vue-0.3.2-py3-none-any.whl.zip]
+[2023-07-08 12:43:30] INFO root fetch - processPackages [atila-vue]: Remove: archive file [/home/abi/fetcher/tmp/atila_vue-0.4.0-py3-none-any.whl.zip]
+[2023-07-08 12:43:30] INFO root fetch - main [MainThread]: End processing [atila-vue]: success
+[2023-07-08 12:43:33] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.8.tar.gz]
+[2023-07-08 12:43:33] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
+[2023-07-08 12:43:33] INFO root fetch - main [MainThread]: End processing [antgo]: success
+[2023-07-08 12:43:33] INFO root fetch - main [MainThread]: Store serial: [18812532]
