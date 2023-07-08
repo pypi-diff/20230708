@@ -19736,3 +19736,202 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 19:06:26] INFO root fetch - processPackages [pi-heif]: Remove: archive file [/home/abi/fetcher/tmp/pi_heif-0.9.3.tar.gz]
 [2023-07-08 19:06:26] INFO root fetch - main [MainThread]: End processing [pi-heif]: success
 [2023-07-08 19:06:26] INFO root fetch - main [MainThread]: Store serial: [18814706]
+[2023-07-08 19:11:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814706]
+[2023-07-08 19:11:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-08 19:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: findmyorder
+[2023-07-08 19:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wizlib
+[2023-07-08 19:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pretty-jupyter
+[2023-07-08 19:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hat-duktape
+[2023-07-08 19:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-promptify-py
+[2023-07-08 19:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trendalation
+[2023-07-08 19:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fast-diff-py
+[2023-07-08 19:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-smart-reply
+[2023-07-08 19:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wcc-timetable-generator
+[2023-07-08 19:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vimeotools
+[2023-07-08 19:11:36] INFO root fetch - processPackages [wizlib]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-08 19:11:36] INFO root fetch - processPackages [pretty-jupyter]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-08 19:11:36] INFO root fetch - processPackages [trendalation]: New version: [0.1.1] Old Version: [0.1.0a0]
+[2023-07-08 19:11:36] INFO root fetch - processPackages [wcc-timetable-generator]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-08 19:11:36] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 19:11:36] INFO root fetch - processPackages [hat-duktape]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-08 19:11:36] INFO root fetch - processPackages [openai-promptify-py]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-08 19:11:36] INFO root fetch - processPackages [fast-diff-py]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-08 19:11:36] WARNING root fetch - processPackages [vimeotools]: Skipping, unable to determine old version
+[2023-07-08 19:11:36] INFO root fetch - processPackages [vimeotools]: Start processing: trendalation
+[2023-07-08 19:11:36] INFO root fetch - main [MainThread]: End processing [vimeotools] error
+[2023-07-08 19:11:36] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: New version: [0.1.114514.post3] Old Version: [0.1.114514.post2]
+[2023-07-08 19:11:36] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/d9/23/b34acc510ee92865e621c15d681b06097cb1680ea2486983005e97f709f0/wcc-timetable-generator-0.1.0.tar.gz
+[2023-07-08 19:11:36] INFO root fetch - processPackages [pretty-jupyter]: Downloading https://files.pythonhosted.org/packages/8d/ff/6b4ade1e1c7d3677b9d1f4a7df4f69d84ac11701a4c0f1cfcdf3d89aab0c/pretty-jupyter-2.0.4.tar.gz
+[2023-07-08 19:11:36] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/57/43/701875f7ada993e914e4bd60724a9db9836c779ece77b0ac5fbb4d34fda6/wizlib-0.2.5.tar.gz
+[2023-07-08 19:11:36] INFO root fetch - processPackages [trendalation]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-08 19:11:36] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 19:11:36] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/2c/cd/c4c341b29d7d53a475f9000b897decceab24f76c847135c3cde75781ad90/trendalation-0.1.0a0.tar.gz
+[2023-07-08 19:11:36] INFO root fetch - processPackages [hat-duktape]: Downloading https://files.pythonhosted.org/packages/fe/9e/726bc1e118d5c00e0baac5b85ae87a7903fb7e5ee0acf8070590265a6c90/hat_duktape-0.5.5-cp38.cp39.cp310.cp311-cp38.cp39.cp310.cp311-win_amd64.whl
+[2023-07-08 19:11:36] INFO root fetch - processPackages [openai-promptify-py]: Downloading https://files.pythonhosted.org/packages/42/ca/6f0a6b98a92a6f792768ab475839774c2dded94b2bfe80896212f3a7a8b0/openai-promptify-py-0.0.3.tar.gz
+[2023-07-08 19:11:36] INFO root fetch - processPackages [fast-diff-py]: Downloading https://files.pythonhosted.org/packages/cc/65/190ad521e2efa63f79c554c8e385944906c053fced12345294e305747caa/fast_diff_py-0.1.0.tar.gz
+[2023-07-08 19:11:37] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/bc/e9/21b53d573093d61d960a76b459bc240ceb7307ad4652cbb3184703aab5c1/trendalation-0.1.1-py3-none-any.whl
+[2023-07-08 19:11:37] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/05/7b/eb1d87dd390f83a1cb11e642b94abe49e6f236648e6c7db8543ffeefc178/wcc-timetable-generator-0.2.0.tar.gz
+[2023-07-08 19:11:37] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: Downloading https://files.pythonhosted.org/packages/6a/91/10560322d6b3507174339c7dd5780183218b9c32dfd57e8c0453181c6ff8/nonebot_plugin_smart_reply-0.1.114514.post3-py3-none-any.whl
+[2023-07-08 19:11:37] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/08/60/658654bfcc237ad7b2bf0320855da43e0a9611295635a958082df7f1b04c/wizlib-0.2.6.tar.gz
+[2023-07-08 19:11:37] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/bc/e9/21b53d573093d61d960a76b459bc240ceb7307ad4652cbb3184703aab5c1/trendalation-0.1.1-py3-none-any.whl
+[2023-07-08 19:11:37] INFO root fetch - processPackages [wcc-timetable-generator]: executing diffoscope
+[2023-07-08 19:11:37] INFO root fetch - processPackages [wcc-timetable-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcc-timetable-generator-0.1.0.tar.gz tmp/wcc-timetable-generator-0.2.0.tar.gz --markdown 20230708/w/wcc-timetable-generator/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 19:11:37] INFO root fetch - processPackages [fast-diff-py]: Downloading https://files.pythonhosted.org/packages/7a/c5/dcd8b7684eabc09ddffe078f9daa00fdc2dc5f844be415cecdfc2219ad4e/fast_diff_py-0.2.0.tar.gz
+[2023-07-08 19:11:37] INFO root fetch - processPackages [openai-promptify-py]: Downloading https://files.pythonhosted.org/packages/76/1b/ee9a7a16c5a6c0f5b5dfc7e1de54bfc5369e0aadf2c1fe97c6a5ea622c3b/openai-promptify-py-0.0.4.tar.gz
+[2023-07-08 19:11:37] INFO root fetch - processPackages [hat-duktape]: Downloading https://files.pythonhosted.org/packages/00/64/4ee84f278e78ce73b4f6e73bfe7d4778d55fa0b1b1013968449adcbb7e8f/hat_duktape-0.5.6-cp310.cp311-cp310.cp311-win_amd64.whl
+[2023-07-08 19:11:37] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 19:11:37] INFO root fetch - processPackages [pretty-jupyter]: Downloading https://files.pythonhosted.org/packages/b1/5a/191720fc00da6a6e394ada7b1625245ef6d80b1e8cf99524657f14744640/pretty-jupyter-2.0.5.tar.gz
+[2023-07-08 19:11:37] INFO root fetch - processPackages [wizlib]: executing diffoscope
+[2023-07-08 19:11:37] INFO root fetch - processPackages [wizlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizlib-0.2.5.tar.gz tmp/wizlib-0.2.6.tar.gz --markdown 20230708/w/wizlib/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-08 19:11:37] INFO root fetch - processPackages [trendalation]: executing diffoscope
+[2023-07-08 19:11:37] INFO root fetch - processPackages [trendalation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendalation-0.1.0a0.tar.gz tmp/trendalation-0.1.1-py3-none-any.whl.zip --markdown 20230708/t/trendalation/0.1.0a0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 19:11:37] INFO root fetch - processPackages [fast-diff-py]: executing diffoscope
+[2023-07-08 19:11:37] INFO root fetch - processPackages [fast-diff-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_diff_py-0.1.0.tar.gz tmp/fast_diff_py-0.2.0.tar.gz --markdown 20230708/f/fast-diff-py/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 19:11:37] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: executing diffoscope
+[2023-07-08 19:11:37] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 19:11:37] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_smart_reply-0.1.114514.post2-py3-none-any.whl.zip tmp/nonebot_plugin_smart_reply-0.1.114514.post3-py3-none-any.whl.zip --markdown 20230708/n/nonebot-plugin-smart-reply/0.1.114514.post2-0.1.114514.post3/diff.md --exclude *.pyd
+[2023-07-08 19:11:37] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 19:11:37] INFO root fetch - processPackages [openai-promptify-py]: executing diffoscope
+[2023-07-08 19:11:37] INFO root fetch - processPackages [openai-promptify-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-promptify-py-0.0.3.tar.gz tmp/openai-promptify-py-0.0.4.tar.gz --markdown 20230708/o/openai-promptify-py/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-08 19:11:37] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/9f/d4/e3f8a430da1c394eed95dc256234955f66aa9b61257775d75489b66d24be/trendalation-0.1.2.tar.gz
+[2023-07-08 19:11:37] INFO root fetch - processPackages [pretty-jupyter]: executing diffoscope
+[2023-07-08 19:11:37] INFO root fetch - processPackages [pretty-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretty-jupyter-2.0.4.tar.gz tmp/pretty-jupyter-2.0.5.tar.gz --markdown 20230708/p/pretty-jupyter/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-08 19:11:38] INFO root fetch - processPackages [trendalation]: executing diffoscope
+[2023-07-08 19:11:38] INFO root fetch - processPackages [trendalation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendalation-0.1.1-py3-none-any.whl.zip tmp/trendalation-0.1.2.tar.gz --markdown 20230708/t/trendalation/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-08 19:11:38] INFO root fetch - processPackages [hat-duktape]: executing diffoscope
+[2023-07-08 19:11:38] INFO root fetch - processPackages [hat-duktape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_duktape-0.5.5-cp38.cp39.cp310.cp311-cp38.cp39.cp310.cp311-win_amd64.whl.zip tmp/hat_duktape-0.5.6-cp310.cp311-cp310.cp311-win_amd64.whl.zip --markdown 20230708/h/hat-duktape/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-08 19:11:38] INFO root fetch - processPackages [wcc-timetable-generator]: Remove: archive file [/home/abi/fetcher/tmp/wcc-timetable-generator-0.1.0.tar.gz]
+[2023-07-08 19:11:38] INFO root fetch - processPackages [wcc-timetable-generator]: Remove: archive file [/home/abi/fetcher/tmp/wcc-timetable-generator-0.2.0.tar.gz]
+[2023-07-08 19:11:38] INFO root fetch - main [MainThread]: End processing [wcc-timetable-generator]: success
+[2023-07-08 19:11:38] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.1.0a0.tar.gz]
+[2023-07-08 19:11:38] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.1.1-py3-none-any.whl.zip]
+[2023-07-08 19:11:38] INFO root fetch - main [MainThread]: End processing [trendalation]: success
+[2023-07-08 19:11:39] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.2.5.tar.gz]
+[2023-07-08 19:11:39] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.2.6.tar.gz]
+[2023-07-08 19:11:39] INFO root fetch - main [MainThread]: End processing [wizlib]: success
+[2023-07-08 19:11:39] INFO root fetch - processPackages [openai-promptify-py]: Remove: archive file [/home/abi/fetcher/tmp/openai-promptify-py-0.0.3.tar.gz]
+[2023-07-08 19:11:39] INFO root fetch - processPackages [openai-promptify-py]: Remove: archive file [/home/abi/fetcher/tmp/openai-promptify-py-0.0.4.tar.gz]
+[2023-07-08 19:11:39] ERROR root fetch - processPackages [nonebot-plugin-smart-reply]: Diffoscope failed: time="2023-07-08T19:11:37+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 98: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 98: invalid continuation byte
+
+[2023-07-08 19:11:39] INFO root fetch - main [MainThread]: End processing [openai-promptify-py]: success
+[2023-07-08 19:11:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-smart-reply] error
+[2023-07-08 19:11:39] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 19:11:39] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 19:11:39] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 19:11:39] INFO root fetch - processPackages [fast-diff-py]: Remove: archive file [/home/abi/fetcher/tmp/fast_diff_py-0.1.0.tar.gz]
+[2023-07-08 19:11:39] INFO root fetch - processPackages [fast-diff-py]: Remove: archive file [/home/abi/fetcher/tmp/fast_diff_py-0.2.0.tar.gz]
+[2023-07-08 19:11:39] INFO root fetch - main [MainThread]: End processing [fast-diff-py]: success
+[2023-07-08 19:11:39] ERROR root fetch - processPackages [trendalation]: Diffoscope failed: time="2023-07-08T19:11:38+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
+
+[2023-07-08 19:11:39] INFO root fetch - main [MainThread]: End processing [trendalation] error
+[2023-07-08 19:11:40] INFO root fetch - processPackages [pretty-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/pretty-jupyter-2.0.4.tar.gz]
+[2023-07-08 19:11:40] INFO root fetch - processPackages [pretty-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/pretty-jupyter-2.0.5.tar.gz]
+[2023-07-08 19:11:40] INFO root fetch - main [MainThread]: End processing [pretty-jupyter]: success
+[2023-07-08 19:11:42] INFO root fetch - processPackages [hat-duktape]: Remove: archive file [/home/abi/fetcher/tmp/hat_duktape-0.5.5-cp38.cp39.cp310.cp311-cp38.cp39.cp310.cp311-win_amd64.whl.zip]
+[2023-07-08 19:11:42] INFO root fetch - processPackages [hat-duktape]: Remove: archive file [/home/abi/fetcher/tmp/hat_duktape-0.5.6-cp310.cp311-cp310.cp311-win_amd64.whl.zip]
+[2023-07-08 19:11:42] INFO root fetch - main [MainThread]: End processing [hat-duktape]: success
+[2023-07-08 19:11:42] INFO root fetch - main [MainThread]: Store serial: [18814742]
