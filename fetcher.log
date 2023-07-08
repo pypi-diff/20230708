@@ -11581,3 +11581,45 @@
 [2023-07-08 06:19:55] INFO root fetch - processPackages [bech32ref]: Remove: archive file [/home/abi/fetcher/tmp/bech32ref-0.1.0.tar.gz]
 [2023-07-08 06:19:55] INFO root fetch - main [MainThread]: End processing [bech32ref]: success
 [2023-07-08 06:19:55] INFO root fetch - main [MainThread]: Store serial: [18810821]
+[2023-07-08 06:24:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810821]
+[2023-07-08 06:25:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 06:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aider-chat
+[2023-07-08 06:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorflow-intel
+[2023-07-08 06:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-code-editor
+[2023-07-08 06:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-l10n-spain
+[2023-07-08 06:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-l10n-spain
+[2023-07-08 06:25:04] INFO root fetch - processPackages [aider-chat]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-08 06:25:04] INFO root fetch - processPackages [streamlit-code-editor]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-08 06:25:04] INFO root fetch - processPackages [tensorflow-intel]: New version: [2.13.0rc2] Old Version: [2.13.0rc1]
+[2023-07-08 06:25:05] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: New version: [16.0.20230707.0] Old Version: [16.0.20230628.0]
+[2023-07-08 06:25:05] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: New version: [16.0.20230707.0] Old Version: [16.0.20230628.0]
+[2023-07-08 06:25:05] INFO root fetch - processPackages [streamlit-code-editor]: Downloading https://files.pythonhosted.org/packages/ef/7e/addb37467f38785b4fa4c173f329a3bf7a161f8b625eff4807cfa1c57634/streamlit-code-editor-0.1.7.tar.gz
+[2023-07-08 06:25:05] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/5b/4e/a643b666c2405d412a96d631da8fda94810a4c819de82fd2d9605d04b5b2/aider-chat-0.8.0.tar.gz
+[2023-07-08 06:25:05] INFO root fetch - processPackages [tensorflow-intel]: Downloading https://files.pythonhosted.org/packages/e0/4e/fa486e73d0ab0a3a35334f8524348d8b30e8b7b315240ba679562da7a394/tensorflow_intel-2.13.0rc1-cp39-cp39-win_amd64.whl
+[2023-07-08 06:25:05] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/a1/60/f2ed749072ece8f90164873fec8fa42156287cb59c19b80377d18d6c84e2/odoo_addons_oca_l10n_spain-16.0.20230628.0-py3-none-any.whl
+[2023-07-08 06:25:05] WARNING root fetch - processPackages [tensorflow-intel]: Skipping package: exceeds size limit 276470924>=10485760
+[2023-07-08 06:25:05] INFO root fetch - main [MainThread]: End processing [tensorflow-intel] error
+[2023-07-08 06:25:05] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/a1/60/f2ed749072ece8f90164873fec8fa42156287cb59c19b80377d18d6c84e2/odoo_addons_oca_l10n_spain-16.0.20230628.0-py3-none-any.whl
+[2023-07-08 06:25:05] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/f2/bd/adba3bc777a3c269f17ec5f0cd92a5b58a364206a99bb5c79eb94771677e/aider-chat-0.8.1.tar.gz
+[2023-07-08 06:25:05] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/44/9e/335921ad8ccf6552dd97ebc8aab4a372e3bb3e6b53edda82e91cb09d26a2/odoo_addons_oca_l10n_spain-16.0.20230707.0-py3-none-any.whl
+[2023-07-08 06:25:05] INFO root fetch - processPackages [streamlit-code-editor]: Downloading https://files.pythonhosted.org/packages/01/38/275c3ed09e84e1c0885527d862abc6d3ae47ccd3eccb3a32d90604b6e707/streamlit-code-editor-0.1.8.tar.gz
+[2023-07-08 06:25:05] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/44/9e/335921ad8ccf6552dd97ebc8aab4a372e3bb3e6b53edda82e91cb09d26a2/odoo_addons_oca_l10n_spain-16.0.20230707.0-py3-none-any.whl
+[2023-07-08 06:25:05] INFO root fetch - processPackages [aider-chat]: executing diffoscope
+[2023-07-08 06:25:05] INFO root fetch - processPackages [aider-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aider-chat-0.8.0.tar.gz tmp/aider-chat-0.8.1.tar.gz --markdown 20230708/a/aider-chat/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-08 06:25:05] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: executing diffoscope
+[2023-07-08 06:25:05] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: executing diffoscope
+[2023-07-08 06:25:05] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_spain-16.0.20230628.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_spain-16.0.20230707.0-py3-none-any.whl.zip --markdown 20230708/o/odoo-addons-oca-l10n-spain/16.0.20230628.0-16.0.20230707.0/diff.md --exclude *.pyd
+[2023-07-08 06:25:05] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_spain-16.0.20230628.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_spain-16.0.20230707.0-py3-none-any.whl.zip --markdown 20230708/o/odoo-addons-oca-l10n-spain/16.0.20230628.0-16.0.20230707.0/diff.md --exclude *.pyd
+[2023-07-08 06:25:06] INFO root fetch - processPackages [streamlit-code-editor]: executing diffoscope
+[2023-07-08 06:25:06] INFO root fetch - processPackages [streamlit-code-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-code-editor-0.1.7.tar.gz tmp/streamlit-code-editor-0.1.8.tar.gz --markdown 20230708/s/streamlit-code-editor/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-08 06:25:06] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.8.0.tar.gz]
+[2023-07-08 06:25:06] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.8.1.tar.gz]
+[2023-07-08 06:25:06] INFO root fetch - main [MainThread]: End processing [aider-chat]: success
+[2023-07-08 06:25:06] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230628.0-py3-none-any.whl.zip]
+[2023-07-08 06:25:06] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230707.0-py3-none-any.whl.zip]
+[2023-07-08 06:25:06] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-spain]: success
+[2023-07-08 06:25:06] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-spain]: success
+[2023-07-08 06:25:09] INFO root fetch - processPackages [streamlit-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-code-editor-0.1.7.tar.gz]
+[2023-07-08 06:25:09] INFO root fetch - processPackages [streamlit-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-code-editor-0.1.8.tar.gz]
+[2023-07-08 06:25:09] INFO root fetch - main [MainThread]: End processing [streamlit-code-editor]: success
+[2023-07-08 06:25:09] INFO root fetch - main [MainThread]: Store serial: [18810836]
