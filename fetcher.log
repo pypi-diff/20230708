@@ -13095,3 +13095,53 @@
 [2023-07-08 09:40:23] INFO root fetch - processPackages [dronecan]: Remove: archive file [/home/abi/fetcher/tmp/dronecan-1.0.9.tar.gz]
 [2023-07-08 09:40:23] INFO root fetch - main [MainThread]: End processing [dronecan]: success
 [2023-07-08 09:40:23] INFO root fetch - main [MainThread]: Store serial: [18811591]
+[2023-07-08 09:45:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811591]
+[2023-07-08 09:45:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 09:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gardena-bluetooth
+[2023-07-08 09:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seventv.py
+[2023-07-08 09:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mathpad
+[2023-07-08 09:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modern-treasury
+[2023-07-08 09:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prompt-pilot
+[2023-07-08 09:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imesh
+[2023-07-08 09:45:32] INFO root fetch - processPackages [prompt-pilot]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 09:45:32] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 09:45:32] INFO root fetch - processPackages [modern-treasury]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-08 09:45:32] INFO root fetch - processPackages [prompt-pilot]: Downloading https://files.pythonhosted.org/packages/90/b9/1931f6ed6cf4410f70c6a0b69d73b577ac878cb9da5ee44d3504d08a791f/prompt_pilot-0.1.0.tar.gz
+[2023-07-08 09:45:32] WARNING root fetch - processPackages [seventv.py]: Skipping, unable to determine old version
+[2023-07-08 09:45:32] INFO root fetch - main [MainThread]: End processing [seventv.py] error
+[2023-07-08 09:45:32] INFO root fetch - processPackages [gardena-bluetooth]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-08 09:45:32] INFO root fetch - processPackages [mathpad]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-07-08 09:45:32] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2023-07-08 09:45:32] INFO root fetch - processPackages [modern-treasury]: Downloading https://files.pythonhosted.org/packages/43/17/6f2f5ec99209044af902a28e2442c90f90bf7c31409a3a71c5cf4b562526/modern_treasury-1.8.0.tar.gz
+[2023-07-08 09:45:33] INFO root fetch - processPackages [mathpad]: Downloading https://files.pythonhosted.org/packages/cb/67/8c48ac24587fb533b4eb5ac4d7f1f5415c27e4f56ba3160af1c5abc1d4ff/mathpad-2.0.1.tar.gz
+[2023-07-08 09:45:33] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2023-07-08 09:45:33] INFO root fetch - processPackages [gardena-bluetooth]: Downloading https://files.pythonhosted.org/packages/81/45/c0dc150a41cdf3790e653356a5f81619778b79c623d14f2580949e992de4/gardena_bluetooth-1.0.1.tar.gz
+[2023-07-08 09:45:33] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2023-07-08 09:45:33] INFO root fetch - processPackages [prompt-pilot]: Downloading https://files.pythonhosted.org/packages/54/ef/63b0076796f4b45b36d8e6ce0ae1d8c2853c442103f24f717b1f74e02089/prompt_pilot-0.1.1.tar.gz
+[2023-07-08 09:45:33] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20230708/i/imesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 09:45:33] INFO root fetch - processPackages [gardena-bluetooth]: executing diffoscope
+[2023-07-08 09:45:33] INFO root fetch - processPackages [gardena-bluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardena_bluetooth-1.0.0.tar.gz tmp/gardena_bluetooth-1.0.1.tar.gz --markdown 20230708/g/gardena-bluetooth/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 09:45:33] INFO root fetch - processPackages [prompt-pilot]: executing diffoscope
+[2023-07-08 09:45:33] INFO root fetch - processPackages [prompt-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_pilot-0.1.0.tar.gz tmp/prompt_pilot-0.1.1.tar.gz --markdown 20230708/p/prompt-pilot/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 09:45:33] INFO root fetch - processPackages [mathpad]: Downloading https://files.pythonhosted.org/packages/dc/98/e296cd306cce3f035fcf3f735c25e84abc334a0f484f2e40fe8048738db8/mathpad-2.1.0.tar.gz
+[2023-07-08 09:45:33] INFO root fetch - processPackages [modern-treasury]: Downloading https://files.pythonhosted.org/packages/ff/26/6a0d123f9af264c97fa6055f4662c13f7d4afb030d10ae147a6afb3896b8/modern_treasury-1.9.0.tar.gz
+[2023-07-08 09:45:33] INFO root fetch - processPackages [mathpad]: executing diffoscope
+[2023-07-08 09:45:33] INFO root fetch - processPackages [mathpad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathpad-2.0.1.tar.gz tmp/mathpad-2.1.0.tar.gz --markdown 20230708/m/mathpad/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-07-08 09:45:33] INFO root fetch - processPackages [modern-treasury]: executing diffoscope
+[2023-07-08 09:45:33] INFO root fetch - processPackages [modern-treasury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modern_treasury-1.8.0.tar.gz tmp/modern_treasury-1.9.0.tar.gz --markdown 20230708/m/modern-treasury/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-08 09:45:34] INFO root fetch - processPackages [gardena-bluetooth]: Remove: archive file [/home/abi/fetcher/tmp/gardena_bluetooth-1.0.0.tar.gz]
+[2023-07-08 09:45:34] INFO root fetch - processPackages [gardena-bluetooth]: Remove: archive file [/home/abi/fetcher/tmp/gardena_bluetooth-1.0.1.tar.gz]
+[2023-07-08 09:45:34] INFO root fetch - main [MainThread]: End processing [gardena-bluetooth]: success
+[2023-07-08 09:45:34] INFO root fetch - processPackages [prompt-pilot]: Remove: archive file [/home/abi/fetcher/tmp/prompt_pilot-0.1.0.tar.gz]
+[2023-07-08 09:45:34] INFO root fetch - processPackages [prompt-pilot]: Remove: archive file [/home/abi/fetcher/tmp/prompt_pilot-0.1.1.tar.gz]
+[2023-07-08 09:45:34] INFO root fetch - main [MainThread]: End processing [prompt-pilot]: success
+[2023-07-08 09:45:34] INFO root fetch - processPackages [mathpad]: Remove: archive file [/home/abi/fetcher/tmp/mathpad-2.0.1.tar.gz]
+[2023-07-08 09:45:34] INFO root fetch - processPackages [mathpad]: Remove: archive file [/home/abi/fetcher/tmp/mathpad-2.1.0.tar.gz]
+[2023-07-08 09:45:34] INFO root fetch - main [MainThread]: End processing [mathpad]: success
+[2023-07-08 09:45:34] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2023-07-08 09:45:34] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2023-07-08 09:45:34] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2023-07-08 09:45:35] INFO root fetch - processPackages [modern-treasury]: Remove: archive file [/home/abi/fetcher/tmp/modern_treasury-1.8.0.tar.gz]
+[2023-07-08 09:45:35] INFO root fetch - processPackages [modern-treasury]: Remove: archive file [/home/abi/fetcher/tmp/modern_treasury-1.9.0.tar.gz]
+[2023-07-08 09:45:35] INFO root fetch - main [MainThread]: End processing [modern-treasury]: success
+[2023-07-08 09:45:35] INFO root fetch - main [MainThread]: Store serial: [18811612]
