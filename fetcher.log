@@ -21484,3 +21484,78 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 21:52:36] INFO root fetch - processPackages [mechanism]: Remove: archive file [/home/abi/fetcher/tmp/mechanism-1.1.5.tar.gz]
 [2023-07-08 21:52:36] INFO root fetch - main [MainThread]: End processing [mechanism]: success
 [2023-07-08 21:52:36] INFO root fetch - main [MainThread]: Store serial: [18815411]
+[2023-07-08 21:57:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815411]
+[2023-07-08 21:57:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 21:57:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gspot-django-auth
+[2023-07-08 21:57:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyberdrop-dl
+[2023-07-08 21:57:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyezviz
+[2023-07-08 21:57:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: make-argocd-fly
+[2023-07-08 21:57:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ordotools
+[2023-07-08 21:57:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyhackrf2
+[2023-07-08 21:57:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: euclipy
+[2023-07-08 21:57:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TheSilent
+[2023-07-08 21:57:45] INFO root fetch - processPackages [gspot-django-auth]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-08 21:57:45] INFO root fetch - processPackages [pyezviz]: New version: [0.2.2.1] Old Version: [0.2.2.0]
+[2023-07-08 21:57:45] INFO root fetch - processPackages [euclipy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-08 21:57:45] INFO root fetch - processPackages [make-argocd-fly]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 21:57:45] INFO root fetch - processPackages [ordotools]: New version: [0.0.9] Old Version: [0.0.6]
+[2023-07-08 21:57:45] INFO root fetch - processPackages [pyhackrf2]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-08 21:57:45] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 21:57:45] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-08 21:57:45] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-08 21:57:45] INFO root fetch - processPackages [make-argocd-fly]: Downloading https://files.pythonhosted.org/packages/e1/76/b84109271ddeb3ce642fe2b42d7a08bcb6e8dbe243c1883e92a285425d5f/make_argocd_fly-0.0.8.tar.gz
+[2023-07-08 21:57:45] INFO root fetch - processPackages [pyhackrf2]: Downloading https://files.pythonhosted.org/packages/e0/93/7c7ccfa65b7efd81d522d6078d201cd03057b583b402528d45535c35b746/pyhackrf2-1.0.2.tar.gz
+[2023-07-08 21:57:45] INFO root fetch - processPackages [ordotools]: Downloading https://files.pythonhosted.org/packages/c1/3b/1c77a37917843f29c2dce0c870193404fbcfc4ccc45f19a7b11a2f3ff732/ordotools-0.0.6.tar.gz
+[2023-07-08 21:57:45] INFO root fetch - processPackages [gspot-django-auth]: Downloading https://files.pythonhosted.org/packages/65/ea/91c2a38e18147795bef20101500490b8324878e96a0808af6bac177422f1/gspot_django_auth-0.0.9.tar.gz
+[2023-07-08 21:57:45] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/27/ac/68c4fbf3349857896f2df753fa7e4054def1ad3506c3bc8a116cf1266411/pyezviz-0.2.2.0.tar.gz
+[2023-07-08 21:57:46] INFO root fetch - processPackages [euclipy]: Downloading https://files.pythonhosted.org/packages/fe/a3/d189437a9091377b49ee253bde6b95346223b132ec9721190b73cbf2eaed/euclipy-1.0.0.tar.gz
+[2023-07-08 21:57:46] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-08 21:57:46] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-08 21:57:46] INFO root fetch - processPackages [ordotools]: Downloading https://files.pythonhosted.org/packages/01/db/6a489501f8c0e7ade876273a94a639d070a95fe91102e634e254e318bb3e/ordotools-0.0.9.tar.gz
+[2023-07-08 21:57:46] INFO root fetch - processPackages [make-argocd-fly]: Downloading https://files.pythonhosted.org/packages/17/f7/c55e82d852dda67abd8d9dafec9ff6adc69734788ff11715d7fa5489256a/make_argocd_fly-0.0.9.tar.gz
+[2023-07-08 21:57:46] INFO root fetch - processPackages [pyhackrf2]: Downloading https://files.pythonhosted.org/packages/5b/35/07e4e938369d81b48495c70b6a46ee08fb9e0d96c35f3c7427d53c1efba2/pyhackrf2-1.0.3.tar.gz
+[2023-07-08 21:57:46] INFO root fetch - processPackages [gspot-django-auth]: Downloading https://files.pythonhosted.org/packages/45/ce/3e025485c2c2f6248832442c9ae4ae661b50e8ef650af786ab8dd95488be/gspot_django_auth-0.1.0.tar.gz
+[2023-07-08 21:57:46] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-08 21:57:46] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230708/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 21:57:46] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/87/d0/2e4a8bdbf097b64dd1daaa0a59a4a90f7652173dd5da17c1c4aec43bd936/pyezviz-0.2.2.1.tar.gz
+[2023-07-08 21:57:46] INFO root fetch - processPackages [ordotools]: executing diffoscope
+[2023-07-08 21:57:46] INFO root fetch - processPackages [ordotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ordotools-0.0.6.tar.gz tmp/ordotools-0.0.9.tar.gz --markdown 20230708/o/ordotools/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 21:57:46] INFO root fetch - processPackages [euclipy]: Downloading https://files.pythonhosted.org/packages/28/6f/2dd154781ef78f53f8af7c23e16f67a7dbecc489b76c77f580a2d6e07e93/euclipy-1.0.1.tar.gz
+[2023-07-08 21:57:46] INFO root fetch - processPackages [gspot-django-auth]: executing diffoscope
+[2023-07-08 21:57:46] INFO root fetch - processPackages [gspot-django-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gspot_django_auth-0.0.9.tar.gz tmp/gspot_django_auth-0.1.0.tar.gz --markdown 20230708/g/gspot-django-auth/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-08 21:57:46] INFO root fetch - processPackages [pyhackrf2]: executing diffoscope
+[2023-07-08 21:57:46] INFO root fetch - processPackages [pyhackrf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhackrf2-1.0.2.tar.gz tmp/pyhackrf2-1.0.3.tar.gz --markdown 20230708/p/pyhackrf2/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-08 21:57:46] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-08 21:57:46] INFO root fetch - processPackages [make-argocd-fly]: executing diffoscope
+[2023-07-08 21:57:46] INFO root fetch - processPackages [make-argocd-fly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/make_argocd_fly-0.0.8.tar.gz tmp/make_argocd_fly-0.0.9.tar.gz --markdown 20230708/m/make-argocd-fly/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 21:57:46] INFO root fetch - processPackages [pyezviz]: executing diffoscope
+[2023-07-08 21:57:46] INFO root fetch - processPackages [pyezviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyezviz-0.2.2.0.tar.gz tmp/pyezviz-0.2.2.1.tar.gz --markdown 20230708/p/pyezviz/0.2.2.0-0.2.2.1/diff.md --exclude *.pyd
+[2023-07-08 21:57:46] INFO root fetch - processPackages [euclipy]: executing diffoscope
+[2023-07-08 21:57:46] INFO root fetch - processPackages [euclipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/euclipy-1.0.0.tar.gz tmp/euclipy-1.0.1.tar.gz --markdown 20230708/e/euclipy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 21:57:46] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-08 21:57:46] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230708/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-08 21:57:47] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-08 21:57:47] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-08 21:57:47] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-08 21:57:47] INFO root fetch - processPackages [ordotools]: Remove: archive file [/home/abi/fetcher/tmp/ordotools-0.0.6.tar.gz]
+[2023-07-08 21:57:47] INFO root fetch - processPackages [ordotools]: Remove: archive file [/home/abi/fetcher/tmp/ordotools-0.0.9.tar.gz]
+[2023-07-08 21:57:47] INFO root fetch - main [MainThread]: End processing [ordotools]: success
+[2023-07-08 21:57:47] INFO root fetch - processPackages [pyhackrf2]: Remove: archive file [/home/abi/fetcher/tmp/pyhackrf2-1.0.2.tar.gz]
+[2023-07-08 21:57:47] INFO root fetch - processPackages [pyhackrf2]: Remove: archive file [/home/abi/fetcher/tmp/pyhackrf2-1.0.3.tar.gz]
+[2023-07-08 21:57:47] INFO root fetch - main [MainThread]: End processing [pyhackrf2]: success
+[2023-07-08 21:57:47] INFO root fetch - processPackages [gspot-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/gspot_django_auth-0.0.9.tar.gz]
+[2023-07-08 21:57:47] INFO root fetch - processPackages [gspot-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/gspot_django_auth-0.1.0.tar.gz]
+[2023-07-08 21:57:47] INFO root fetch - main [MainThread]: End processing [gspot-django-auth]: success
+[2023-07-08 21:57:47] INFO root fetch - processPackages [make-argocd-fly]: Remove: archive file [/home/abi/fetcher/tmp/make_argocd_fly-0.0.8.tar.gz]
+[2023-07-08 21:57:47] INFO root fetch - processPackages [make-argocd-fly]: Remove: archive file [/home/abi/fetcher/tmp/make_argocd_fly-0.0.9.tar.gz]
+[2023-07-08 21:57:47] INFO root fetch - main [MainThread]: End processing [make-argocd-fly]: success
+[2023-07-08 21:57:48] INFO root fetch - processPackages [euclipy]: Remove: archive file [/home/abi/fetcher/tmp/euclipy-1.0.0.tar.gz]
+[2023-07-08 21:57:48] INFO root fetch - processPackages [euclipy]: Remove: archive file [/home/abi/fetcher/tmp/euclipy-1.0.1.tar.gz]
+[2023-07-08 21:57:48] INFO root fetch - main [MainThread]: End processing [euclipy]: success
+[2023-07-08 21:57:48] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.2.0.tar.gz]
+[2023-07-08 21:57:48] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.2.1.tar.gz]
+[2023-07-08 21:57:48] INFO root fetch - main [MainThread]: End processing [pyezviz]: success
+[2023-07-08 21:57:48] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-08 21:57:48] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-08 21:57:48] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-08 21:57:48] INFO root fetch - main [MainThread]: Store serial: [18815435]
