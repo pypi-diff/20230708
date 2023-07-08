@@ -3122,3 +3122,42 @@
 [2023-07-08 02:58:40] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
 [2023-07-08 02:58:40] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
 [2023-07-08 02:58:40] INFO root fetch - main [MainThread]: Store serial: [18807850]
+[2023-07-08 03:03:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807850]
+[2023-07-08 03:03:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 03:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-confluentcloud
+[2023-07-08 03:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyno-logger
+[2023-07-08 03:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte
+[2023-07-08 03:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-databrew-cicd
+[2023-07-08 03:03:49] INFO root fetch - processPackages [airbyte]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-08 03:03:49] INFO root fetch - processPackages [pyno-logger]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 03:03:49] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-07-08 03:03:49] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-08 03:03:49] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-07-08 03:03:49] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/95/09/eea230e893ab55370e867c76f081945c8f60016ebdb0b385d9f077a4fc0c/airbyte-1.9.2.tar.gz
+[2023-07-08 03:03:49] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-07-08 03:03:49] INFO root fetch - processPackages [pyno-logger]: Downloading https://files.pythonhosted.org/packages/93/8c/6a653b10d9aa0b750038dafc0ecad533e6090071ff58777e70524ef4edbf/pyno_logger-0.0.2.tar.gz
+[2023-07-08 03:03:49] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-07-08 03:03:49] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/c8/0f/877b6add49894978bf75b52f0cac1579d618edd3403e2547fc5a23f4705e/airbyte-1.9.3.tar.gz
+[2023-07-08 03:03:50] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-07-08 03:03:50] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-07-08 03:03:50] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.2.tar.gz tmp/airbyte-1.9.3.tar.gz --markdown 20230708/a/airbyte/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-08 03:03:50] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-07-08 03:03:50] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230708/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-08 03:03:50] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-07-08 03:03:50] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230708/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-07-08 03:03:50] INFO root fetch - processPackages [pyno-logger]: Downloading https://files.pythonhosted.org/packages/34/33/01cac4e25f134ab1c93377dfdfd32bf310fa01f0db2cfb39f97123556e90/pyno_logger-0.0.3.tar.gz
+[2023-07-08 03:03:50] INFO root fetch - processPackages [pyno-logger]: executing diffoscope
+[2023-07-08 03:03:50] INFO root fetch - processPackages [pyno-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyno_logger-0.0.2.tar.gz tmp/pyno_logger-0.0.3.tar.gz --markdown 20230708/p/pyno-logger/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 03:03:51] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-07-08 03:03:51] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-07-08 03:03:51] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-07-08 03:03:51] INFO root fetch - processPackages [pyno-logger]: Remove: archive file [/home/abi/fetcher/tmp/pyno_logger-0.0.2.tar.gz]
+[2023-07-08 03:03:51] INFO root fetch - processPackages [pyno-logger]: Remove: archive file [/home/abi/fetcher/tmp/pyno_logger-0.0.3.tar.gz]
+[2023-07-08 03:03:51] INFO root fetch - main [MainThread]: End processing [pyno-logger]: success
+[2023-07-08 03:03:51] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2023-07-08 03:03:51] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2023-07-08 03:03:51] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-07-08 03:03:51] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.2.tar.gz]
+[2023-07-08 03:03:51] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.3.tar.gz]
+[2023-07-08 03:03:51] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-07-08 03:03:51] INFO root fetch - main [MainThread]: Store serial: [18807865]
