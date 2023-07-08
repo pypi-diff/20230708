@@ -13895,3 +13895,45 @@
 [2023-07-08 10:58:48] INFO root fetch - processPackages [omicverse]: Remove: archive file [/home/abi/fetcher/tmp/omicverse-1.4.9.tar.gz]
 [2023-07-08 10:58:48] INFO root fetch - main [MainThread]: End processing [omicverse]: success
 [2023-07-08 10:58:48] INFO root fetch - main [MainThread]: Store serial: [18811936]
+[2023-07-08 11:03:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811936]
+[2023-07-08 11:03:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 11:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mosparo-api-client
+[2023-07-08 11:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cikcek
+[2023-07-08 11:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KapoorLabs-Lightning
+[2023-07-08 11:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: voltcraft
+[2023-07-08 11:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: slib-sorter
+[2023-07-08 11:03:57] INFO root fetch - processPackages [slib-sorter]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-08 11:03:57] INFO root fetch - processPackages [KapoorLabs-Lightning]: New version: [5.3.0] Old Version: [5.2.8]
+[2023-07-08 11:03:57] WARNING root fetch - processPackages [cikcek]: Skipping, unable to determine old version
+[2023-07-08 11:03:57] INFO root fetch - main [MainThread]: End processing [cikcek] error
+[2023-07-08 11:03:57] INFO root fetch - processPackages [mosparo-api-client]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-08 11:03:57] INFO root fetch - processPackages [voltcraft]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-08 11:03:57] INFO root fetch - processPackages [voltcraft]: Downloading https://files.pythonhosted.org/packages/c6/5f/5ec41a9a3eb83c83819a3282c079d660aba2dd4cb85211c4472e982e7627/voltcraft-1.3.1.tar.gz
+[2023-07-08 11:03:57] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/84/46/e6b697904cb7bafcd8eac3c0fdb1b221c42355c93b5bce56075ad1e7ec32/slib-sorter-1.3.5.tar.gz
+[2023-07-08 11:03:57] INFO root fetch - processPackages [KapoorLabs-Lightning]: Downloading https://files.pythonhosted.org/packages/fa/7a/3e19097bf8f861645bfb643f02224d33ed6c788d41925f3f35d191d97722/KapoorLabs-Lightning-5.2.8.tar.gz
+[2023-07-08 11:03:57] INFO root fetch - processPackages [mosparo-api-client]: Downloading https://files.pythonhosted.org/packages/a4/c6/631c3ca004a3dae9be8262e2b451220689c75acbcbce94a848e0e8b90f27/mosparo_api_client-1.0.0.tar.gz
+[2023-07-08 11:03:58] INFO root fetch - processPackages [voltcraft]: Downloading https://files.pythonhosted.org/packages/82/e4/2f706cf290521f1144f09852a855feab9a0de22f7926dce00d65185554c1/voltcraft-1.3.2.tar.gz
+[2023-07-08 11:03:58] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/f0/c6/eede1a25db6ca4e42bdcfeded2fef5fe9b7b8ec18e8bf8858d5cd0ca08b6/slib-sorter-1.3.6.tar.gz
+[2023-07-08 11:03:58] INFO root fetch - processPackages [KapoorLabs-Lightning]: Downloading https://files.pythonhosted.org/packages/33/88/816b0cdf7e82782b0dce46608e796b510f24475876c304daf5a69dc362b5/KapoorLabs-Lightning-5.3.0.tar.gz
+[2023-07-08 11:03:58] INFO root fetch - processPackages [voltcraft]: executing diffoscope
+[2023-07-08 11:03:58] INFO root fetch - processPackages [voltcraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voltcraft-1.3.1.tar.gz tmp/voltcraft-1.3.2.tar.gz --markdown 20230708/v/voltcraft/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-08 11:03:58] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 11:03:58] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.3.5.tar.gz tmp/slib-sorter-1.3.6.tar.gz --markdown 20230708/s/slib-sorter/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-08 11:03:58] INFO root fetch - processPackages [mosparo-api-client]: Downloading https://files.pythonhosted.org/packages/1b/07/7706bbab7014e6a7d88c89bf92ed778d62f481b8ea53d26226b65636d80d/mosparo_api_client-1.0.1.tar.gz
+[2023-07-08 11:03:58] INFO root fetch - processPackages [KapoorLabs-Lightning]: executing diffoscope
+[2023-07-08 11:03:58] INFO root fetch - processPackages [KapoorLabs-Lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KapoorLabs-Lightning-5.2.8.tar.gz tmp/KapoorLabs-Lightning-5.3.0.tar.gz --markdown 20230708/K/KapoorLabs-Lightning/5.2.8-5.3.0/diff.md --exclude *.pyd
+[2023-07-08 11:03:58] INFO root fetch - processPackages [mosparo-api-client]: executing diffoscope
+[2023-07-08 11:03:58] INFO root fetch - processPackages [mosparo-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosparo_api_client-1.0.0.tar.gz tmp/mosparo_api_client-1.0.1.tar.gz --markdown 20230708/m/mosparo-api-client/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 11:03:59] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.3.5.tar.gz]
+[2023-07-08 11:03:59] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.3.6.tar.gz]
+[2023-07-08 11:03:59] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 11:03:59] INFO root fetch - processPackages [voltcraft]: Remove: archive file [/home/abi/fetcher/tmp/voltcraft-1.3.1.tar.gz]
+[2023-07-08 11:03:59] INFO root fetch - processPackages [voltcraft]: Remove: archive file [/home/abi/fetcher/tmp/voltcraft-1.3.2.tar.gz]
+[2023-07-08 11:03:59] INFO root fetch - main [MainThread]: End processing [voltcraft]: success
+[2023-07-08 11:03:59] INFO root fetch - processPackages [mosparo-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mosparo_api_client-1.0.0.tar.gz]
+[2023-07-08 11:03:59] INFO root fetch - processPackages [mosparo-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mosparo_api_client-1.0.1.tar.gz]
+[2023-07-08 11:03:59] INFO root fetch - main [MainThread]: End processing [mosparo-api-client]: success
+[2023-07-08 11:03:59] INFO root fetch - processPackages [KapoorLabs-Lightning]: Remove: archive file [/home/abi/fetcher/tmp/KapoorLabs-Lightning-5.2.8.tar.gz]
+[2023-07-08 11:03:59] INFO root fetch - processPackages [KapoorLabs-Lightning]: Remove: archive file [/home/abi/fetcher/tmp/KapoorLabs-Lightning-5.3.0.tar.gz]
+[2023-07-08 11:03:59] INFO root fetch - main [MainThread]: End processing [KapoorLabs-Lightning]: success
+[2023-07-08 11:03:59] INFO root fetch - main [MainThread]: Store serial: [18811952]
