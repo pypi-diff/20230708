@@ -16160,3 +16160,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 14:17:19] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.7.1.tar.gz]
 [2023-07-08 14:17:19] INFO root fetch - main [MainThread]: End processing [nics]: success
 [2023-07-08 14:17:19] INFO root fetch - main [MainThread]: Store serial: [18813026]
+[2023-07-08 14:22:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813026]
+[2023-07-08 14:22:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-08 14:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slib-sorter
+[2023-07-08 14:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FiveMCipherFinder
+[2023-07-08 14:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: df-config
+[2023-07-08 14:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ProtonZ
+[2023-07-08 14:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kube-copilot
+[2023-07-08 14:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-gscode
+[2023-07-08 14:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: slib-sorter
+[2023-07-08 14:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: visuallm
+[2023-07-08 14:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: df-websockets
+[2023-07-08 14:22:28] INFO root fetch - processPackages [visuallm]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-07-08 14:22:28] INFO root fetch - processPackages [kube-copilot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 14:22:28] INFO root fetch - processPackages [df-config]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-08 14:22:28] INFO root fetch - processPackages [FiveMCipherFinder]: New version: [2.0.0] Old Version: [1.6.0]
+[2023-07-08 14:22:28] WARNING root fetch - processPackages [ProtonZ]: Skipping, unable to determine old version
+[2023-07-08 14:22:28] INFO root fetch - main [MainThread]: End processing [ProtonZ] error
+[2023-07-08 14:22:28] INFO root fetch - processPackages [nonebot-plugin-gscode]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-08 14:22:28] INFO root fetch - processPackages [df-websockets]: New version: [1.0.8] Old Version: [1.0.3]
+[2023-07-08 14:22:28] INFO root fetch - processPackages [slib-sorter]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-08 14:22:28] INFO root fetch - processPackages [slib-sorter]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-08 14:22:28] INFO root fetch - processPackages [FiveMCipherFinder]: Downloading https://files.pythonhosted.org/packages/08/1d/a63c882a5f3d40202b8a59c93a89699d4a42cf076c4dd828c09585ad1221/FiveMCipherFinder-1.6.0.tar.gz
+[2023-07-08 14:22:28] INFO root fetch - processPackages [nonebot-plugin-gscode]: Downloading https://files.pythonhosted.org/packages/3c/35/4d16ef2ff8abb5dc520fa6ad967b699a187c56ee831391fb0d4f5ce1f63b/nonebot_plugin_gscode-0.2.0.tar.gz
+[2023-07-08 14:22:28] INFO root fetch - processPackages [visuallm]: Downloading https://files.pythonhosted.org/packages/0e/b2/8c94167eb9a89e5b11f298ac050fc2f5c4928473bf96ab8cd4bb9414a8ee/visuallm-0.1.8.tar.gz
+[2023-07-08 14:22:28] INFO root fetch - processPackages [df-config]: Downloading https://files.pythonhosted.org/packages/09/91/df36954d7f97ae19a46241196d5ae26563010e569c1db34ee364330db382/df_config-1.1.8.tar.gz
+[2023-07-08 14:22:28] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/92/ed/ae22c3eb11fd91f9bc01dbdcba0f4a7c22cef980bf8f5fef46caec814480/kube_copilot-0.1.8.tar.gz
+[2023-07-08 14:22:28] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/80/40/9a1745efed751efa12b181ea69c1abff9bbe0db6c71ddc7823de25807c03/slib-sorter-1.5.1.tar.gz
+[2023-07-08 14:22:28] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/80/40/9a1745efed751efa12b181ea69c1abff9bbe0db6c71ddc7823de25807c03/slib-sorter-1.5.1.tar.gz
+[2023-07-08 14:22:28] INFO root fetch - processPackages [df-websockets]: Downloading https://files.pythonhosted.org/packages/9b/dd/f8f12f7451d21c56fb7aa929087662ba72b1f79d2a19170e26255c9dcecd/df_websockets-1.0.3.tar.gz
+[2023-07-08 14:22:29] INFO root fetch - processPackages [FiveMCipherFinder]: Downloading https://files.pythonhosted.org/packages/a5/28/f9d1f76282a28b7426bb0b52d10f0b7fd7bbac3e99b842f23963bae76125/FiveMCipherFinder-2.0.0.tar.gz
+[2023-07-08 14:22:29] INFO root fetch - processPackages [nonebot-plugin-gscode]: Downloading https://files.pythonhosted.org/packages/ac/da/d515753249b80fd2899d7c19aef5f833117d5157616996686b609c70ab96/nonebot_plugin_gscode-0.2.1.tar.gz
+[2023-07-08 14:22:29] INFO root fetch - processPackages [visuallm]: Downloading https://files.pythonhosted.org/packages/3f/91/d89416e3c83b9c98f19fd2d94d650f25d14fc98b21cb51bdf14f8112de5b/visuallm-0.2.0.tar.gz
+[2023-07-08 14:22:29] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/b2/53/47481303e2e5175b2758b93bbe450a47b5b5c994d12be5b3e7e5300334a5/slib-sorter-1.5.2.tar.gz
+[2023-07-08 14:22:29] INFO root fetch - processPackages [df-config]: Downloading https://files.pythonhosted.org/packages/b4/ad/2b2b0a0d45e34bce362659c39c446e5470998570dbb424c47f25b2f25f3e/df_config-1.1.9.tar.gz
+[2023-07-08 14:22:29] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/b2/53/47481303e2e5175b2758b93bbe450a47b5b5c994d12be5b3e7e5300334a5/slib-sorter-1.5.2.tar.gz
+[2023-07-08 14:22:29] INFO root fetch - processPackages [nonebot-plugin-gscode]: executing diffoscope
+[2023-07-08 14:22:29] INFO root fetch - processPackages [nonebot-plugin-gscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_gscode-0.2.0.tar.gz tmp/nonebot_plugin_gscode-0.2.1.tar.gz --markdown 20230708/n/nonebot-plugin-gscode/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-08 14:22:29] INFO root fetch - processPackages [df-websockets]: Downloading https://files.pythonhosted.org/packages/be/8c/1958af714218cbd30b5d5b6b2b1ee79a663cd06eb9572237d224bcf15d5c/df_websockets-1.0.8.tar.gz
+[2023-07-08 14:22:29] INFO root fetch - processPackages [FiveMCipherFinder]: executing diffoscope
+[2023-07-08 14:22:29] INFO root fetch - processPackages [FiveMCipherFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiveMCipherFinder-1.6.0.tar.gz tmp/FiveMCipherFinder-2.0.0.tar.gz --markdown 20230708/F/FiveMCipherFinder/1.6.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-08 14:22:29] INFO root fetch - processPackages [kube-copilot]: Downloading https://files.pythonhosted.org/packages/fd/35/3e18869b47a41c295ac800019e28347fde14879ede6506f97393faade562/kube_copilot-0.1.9.tar.gz
+[2023-07-08 14:22:29] INFO root fetch - processPackages [visuallm]: executing diffoscope
+[2023-07-08 14:22:29] INFO root fetch - processPackages [visuallm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visuallm-0.1.8.tar.gz tmp/visuallm-0.2.0.tar.gz --markdown 20230708/v/visuallm/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 14:22:29] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 14:22:29] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.5.1.tar.gz tmp/slib-sorter-1.5.2.tar.gz --markdown 20230708/s/slib-sorter/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-08 14:22:29] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 14:22:29] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.5.1.tar.gz tmp/slib-sorter-1.5.2.tar.gz --markdown 20230708/s/slib-sorter/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-08 14:22:29] INFO root fetch - processPackages [df-config]: executing diffoscope
+[2023-07-08 14:22:29] INFO root fetch - processPackages [df-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/df_config-1.1.8.tar.gz tmp/df_config-1.1.9.tar.gz --markdown 20230708/d/df-config/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-08 14:22:29] INFO root fetch - processPackages [df-websockets]: executing diffoscope
+[2023-07-08 14:22:29] INFO root fetch - processPackages [df-websockets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/df_websockets-1.0.3.tar.gz tmp/df_websockets-1.0.8.tar.gz --markdown 20230708/d/df-websockets/1.0.3-1.0.8/diff.md --exclude *.pyd
+[2023-07-08 14:22:29] INFO root fetch - processPackages [kube-copilot]: executing diffoscope
+[2023-07-08 14:22:29] INFO root fetch - processPackages [kube-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_copilot-0.1.8.tar.gz tmp/kube_copilot-0.1.9.tar.gz --markdown 20230708/k/kube-copilot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 14:22:30] INFO root fetch - processPackages [nonebot-plugin-gscode]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_gscode-0.2.0.tar.gz]
+[2023-07-08 14:22:30] INFO root fetch - processPackages [nonebot-plugin-gscode]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_gscode-0.2.1.tar.gz]
+[2023-07-08 14:22:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gscode]: success
+[2023-07-08 14:22:30] INFO root fetch - processPackages [FiveMCipherFinder]: Remove: archive file [/home/abi/fetcher/tmp/FiveMCipherFinder-1.6.0.tar.gz]
+[2023-07-08 14:22:30] INFO root fetch - processPackages [FiveMCipherFinder]: Remove: archive file [/home/abi/fetcher/tmp/FiveMCipherFinder-2.0.0.tar.gz]
+[2023-07-08 14:22:30] INFO root fetch - main [MainThread]: End processing [FiveMCipherFinder]: success
+[2023-07-08 14:22:30] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.1.tar.gz]
+[2023-07-08 14:22:30] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.2.tar.gz]
+[2023-07-08 14:22:30] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 14:22:30] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.8.tar.gz]
+[2023-07-08 14:22:30] INFO root fetch - processPackages [kube-copilot]: Remove: archive file [/home/abi/fetcher/tmp/kube_copilot-0.1.9.tar.gz]
+[2023-07-08 14:22:30] INFO root fetch - main [MainThread]: End processing [kube-copilot]: success
+[2023-07-08 14:22:30] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 14:22:31] INFO root fetch - processPackages [df-config]: Remove: archive file [/home/abi/fetcher/tmp/df_config-1.1.8.tar.gz]
+[2023-07-08 14:22:31] INFO root fetch - processPackages [df-config]: Remove: archive file [/home/abi/fetcher/tmp/df_config-1.1.9.tar.gz]
+[2023-07-08 14:22:31] INFO root fetch - main [MainThread]: End processing [df-config]: success
+[2023-07-08 14:22:32] INFO root fetch - processPackages [df-websockets]: Remove: archive file [/home/abi/fetcher/tmp/df_websockets-1.0.3.tar.gz]
+[2023-07-08 14:22:32] INFO root fetch - processPackages [df-websockets]: Remove: archive file [/home/abi/fetcher/tmp/df_websockets-1.0.8.tar.gz]
+[2023-07-08 14:22:32] INFO root fetch - main [MainThread]: End processing [df-websockets]: success
+[2023-07-08 14:22:32] INFO root fetch - processPackages [visuallm]: Remove: archive file [/home/abi/fetcher/tmp/visuallm-0.1.8.tar.gz]
+[2023-07-08 14:22:32] INFO root fetch - processPackages [visuallm]: Remove: archive file [/home/abi/fetcher/tmp/visuallm-0.2.0.tar.gz]
+[2023-07-08 14:22:32] INFO root fetch - main [MainThread]: End processing [visuallm]: success
+[2023-07-08 14:22:32] INFO root fetch - main [MainThread]: Store serial: [18813056]
