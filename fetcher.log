@@ -12334,3 +12334,42 @@
 [2023-07-08 07:38:09] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.7.tar.gz]
 [2023-07-08 07:38:09] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
 [2023-07-08 07:38:09] INFO root fetch - main [MainThread]: Store serial: [18811153]
+[2023-07-08 07:43:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811153]
+[2023-07-08 07:43:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 07:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nicovideo.py
+[2023-07-08 07:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alphacore
+[2023-07-08 07:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promql-http-api
+[2023-07-08 07:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-akamai
+[2023-07-08 07:43:18] INFO root fetch - processPackages [pulumi-akamai]: New version: [5.0.0a1688662273] Old Version: [5.0.0]
+[2023-07-08 07:43:18] INFO root fetch - processPackages [nicovideo.py]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-08 07:43:18] INFO root fetch - processPackages [alphacore]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-08 07:43:18] INFO root fetch - processPackages [promql-http-api]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-08 07:43:18] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/d0/c6/9996fa63e7fda096d384f0e2ca5be7850209bc497caa24d47be46ed27107/pulumi_akamai-5.0.0.tar.gz
+[2023-07-08 07:43:18] INFO root fetch - processPackages [promql-http-api]: Downloading https://files.pythonhosted.org/packages/df/a5/a0f0df43db83672ee0a5c826cb54dced944f4041df864403b4dd5442e880/promql_http_api-0.1.2.tar.gz
+[2023-07-08 07:43:18] INFO root fetch - processPackages [nicovideo.py]: Downloading https://files.pythonhosted.org/packages/35/e7/55b9b6d88713ca53a811a7a79221100052cbad026e4441f27aee42f90341/nicovideo.py-0.0.6.tar.gz
+[2023-07-08 07:43:18] INFO root fetch - processPackages [alphacore]: Downloading https://files.pythonhosted.org/packages/16/75/6e9244d0eb5b2f6cce9821365617ff72e19b4a8202d616c3b5c5ebd1c71c/alphacore-0.0.7.tar.gz
+[2023-07-08 07:43:18] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/ff/e2/0b6e6d69f367e1bea5971cf6b615804fdab6c771a4ccbaf07d1619b3ba90/pulumi_akamai-5.0.0a1688662273.tar.gz
+[2023-07-08 07:43:18] INFO root fetch - processPackages [promql-http-api]: Downloading https://files.pythonhosted.org/packages/2e/10/97e8cc4ba6694897bc8be91ad22016db8e88b0dd6b53cac9a53673e0ae1d/promql_http_api-0.2.0.tar.gz
+[2023-07-08 07:43:18] INFO root fetch - processPackages [nicovideo.py]: Downloading https://files.pythonhosted.org/packages/75/6c/95f4ec59907878ac9d99bbadcd0ca2cd1f4484755b41e6b0ea5d6fa4e1ce/nicovideo.py-0.0.7.tar.gz
+[2023-07-08 07:43:18] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2023-07-08 07:43:18] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-5.0.0.tar.gz tmp/pulumi_akamai-5.0.0a1688662273.tar.gz --markdown 20230708/p/pulumi-akamai/5.0.0-5.0.0a1688662273/diff.md --exclude *.pyd
+[2023-07-08 07:43:18] INFO root fetch - processPackages [promql-http-api]: executing diffoscope
+[2023-07-08 07:43:18] INFO root fetch - processPackages [promql-http-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promql_http_api-0.1.2.tar.gz tmp/promql_http_api-0.2.0.tar.gz --markdown 20230708/p/promql-http-api/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 07:43:18] INFO root fetch - processPackages [alphacore]: Downloading https://files.pythonhosted.org/packages/9d/8a/db92ac5990d5865856fdcb2bd576497a946cb1333de71817dd2893cfee8f/alphacore-0.0.8.tar.gz
+[2023-07-08 07:43:18] INFO root fetch - processPackages [nicovideo.py]: executing diffoscope
+[2023-07-08 07:43:18] INFO root fetch - processPackages [nicovideo.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicovideo.py-0.0.6.tar.gz tmp/nicovideo.py-0.0.7.tar.gz --markdown 20230708/n/nicovideo.py/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-08 07:43:19] INFO root fetch - processPackages [alphacore]: executing diffoscope
+[2023-07-08 07:43:19] INFO root fetch - processPackages [alphacore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphacore-0.0.7.tar.gz tmp/alphacore-0.0.8.tar.gz --markdown 20230708/a/alphacore/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-08 07:43:19] INFO root fetch - processPackages [promql-http-api]: Remove: archive file [/home/abi/fetcher/tmp/promql_http_api-0.1.2.tar.gz]
+[2023-07-08 07:43:19] INFO root fetch - processPackages [promql-http-api]: Remove: archive file [/home/abi/fetcher/tmp/promql_http_api-0.2.0.tar.gz]
+[2023-07-08 07:43:19] INFO root fetch - main [MainThread]: End processing [promql-http-api]: success
+[2023-07-08 07:43:19] INFO root fetch - processPackages [nicovideo.py]: Remove: archive file [/home/abi/fetcher/tmp/nicovideo.py-0.0.6.tar.gz]
+[2023-07-08 07:43:19] INFO root fetch - processPackages [nicovideo.py]: Remove: archive file [/home/abi/fetcher/tmp/nicovideo.py-0.0.7.tar.gz]
+[2023-07-08 07:43:19] INFO root fetch - main [MainThread]: End processing [nicovideo.py]: success
+[2023-07-08 07:43:19] INFO root fetch - processPackages [alphacore]: Remove: archive file [/home/abi/fetcher/tmp/alphacore-0.0.7.tar.gz]
+[2023-07-08 07:43:19] INFO root fetch - processPackages [alphacore]: Remove: archive file [/home/abi/fetcher/tmp/alphacore-0.0.8.tar.gz]
+[2023-07-08 07:43:19] INFO root fetch - main [MainThread]: End processing [alphacore]: success
+[2023-07-08 07:43:20] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-5.0.0.tar.gz]
+[2023-07-08 07:43:20] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-5.0.0a1688662273.tar.gz]
+[2023-07-08 07:43:20] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2023-07-08 07:43:20] INFO root fetch - main [MainThread]: Store serial: [18811180]
