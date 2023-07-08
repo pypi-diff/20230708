@@ -18542,3 +18542,47 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 17:21:54] INFO root fetch - processPackages [etsy-apiv3]: Remove: archive file [/home/abi/fetcher/tmp/etsy-apiv3-1.9.6.tar.gz]
 [2023-07-08 17:21:54] INFO root fetch - main [MainThread]: End processing [etsy-apiv3]: success
 [2023-07-08 17:21:54] INFO root fetch - main [MainThread]: Store serial: [18814024]
+[2023-07-08 17:26:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814024]
+[2023-07-08 17:27:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 17:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotPython
+[2023-07-08 17:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngmapi
+[2023-07-08 17:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: policyengine-us
+[2023-07-08 17:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trab-devops-ci-cd-process
+[2023-07-08 17:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: piel
+[2023-07-08 17:27:03] INFO root fetch - processPackages [piel]: New version: [0.0.41] Old Version: [0.0.40]
+[2023-07-08 17:27:03] INFO root fetch - processPackages [trab-devops-ci-cd-process]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 17:27:03] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 17:27:03] INFO root fetch - processPackages [spotPython]: New version: [0.5.7] Old Version: [0.5.5]
+[2023-07-08 17:27:03] INFO root fetch - processPackages [policyengine-us]: New version: [0.358.0] Old Version: [0.357.2]
+[2023-07-08 17:27:03] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/13/86/3d7c18a8f2dd4f2eb32a19966079123b581a8402d540deca93c3d85e8678/ngmapi-0.0.2.tar.gz
+[2023-07-08 17:27:03] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/9f/39/39044afb75b3ebd14a0f0f93f99a8453e2326100d33b48f40eea7a84c6ac/policyengine-us-0.357.2.tar.gz
+[2023-07-08 17:27:03] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/c7/40/ea2cc7699fb45f7eb1cc2432b4f53d5a4f0f0e3d8923b4c460e5e65b8675/piel-0.0.40.tar.gz
+[2023-07-08 17:27:03] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Downloading https://files.pythonhosted.org/packages/88/9b/9596e59012906296e050e085a38614b9759bfced375a2e72f93606a3008d/trab_devops_ci_cd_process-0.0.2.tar.gz
+[2023-07-08 17:27:03] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/f9/a8/2eeecdce23433428c0878aceb90c9b1efd7361897ab27ba8c1efb9471bc5/spotPython-0.5.5.tar.gz
+[2023-07-08 17:27:03] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 27698069>=10485760
+[2023-07-08 17:27:03] INFO root fetch - main [MainThread]: End processing [spotPython] error
+[2023-07-08 17:27:03] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-08 17:27:04] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/33/8a/b73644b3656aab191cc204b95213c56a6e63e60d7ac6b25fa438c961a659/piel-0.0.41.tar.gz
+[2023-07-08 17:27:04] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-08 17:27:04] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.2.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230708/n/ngmapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 17:27:04] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/df/4c/1cb68ec23410bff4b333bbe0c64d5e0ea71de289360bf3b696c09713051e/policyengine-us-0.358.0.tar.gz
+[2023-07-08 17:27:04] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Downloading https://files.pythonhosted.org/packages/7b/08/6c3e304dd6c7ba51702bd2606979ff395d6d8ce99a5e4dcb7abe6a6492a9/trab_devops_ci_cd_process-0.0.3.tar.gz
+[2023-07-08 17:27:04] INFO root fetch - processPackages [piel]: executing diffoscope
+[2023-07-08 17:27:04] INFO root fetch - processPackages [piel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piel-0.0.40.tar.gz tmp/piel-0.0.41.tar.gz --markdown 20230708/p/piel/0.0.40-0.0.41/diff.md --exclude *.pyd
+[2023-07-08 17:27:04] INFO root fetch - processPackages [trab-devops-ci-cd-process]: executing diffoscope
+[2023-07-08 17:27:04] INFO root fetch - processPackages [trab-devops-ci-cd-process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trab_devops_ci_cd_process-0.0.2.tar.gz tmp/trab_devops_ci_cd_process-0.0.3.tar.gz --markdown 20230708/t/trab-devops-ci-cd-process/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 17:27:04] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-08 17:27:04] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.357.2.tar.gz tmp/policyengine-us-0.358.0.tar.gz --markdown 20230708/p/policyengine-us/0.357.2-0.358.0/diff.md --exclude *.pyd
+[2023-07-08 17:27:04] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.2.tar.gz]
+[2023-07-08 17:27:04] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.3.tar.gz]
+[2023-07-08 17:27:04] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-08 17:27:05] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Remove: archive file [/home/abi/fetcher/tmp/trab_devops_ci_cd_process-0.0.2.tar.gz]
+[2023-07-08 17:27:05] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Remove: archive file [/home/abi/fetcher/tmp/trab_devops_ci_cd_process-0.0.3.tar.gz]
+[2023-07-08 17:27:05] INFO root fetch - main [MainThread]: End processing [trab-devops-ci-cd-process]: success
+[2023-07-08 17:27:05] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.40.tar.gz]
+[2023-07-08 17:27:05] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.41.tar.gz]
+[2023-07-08 17:27:05] INFO root fetch - main [MainThread]: End processing [piel]: success
+[2023-07-08 17:27:28] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.357.2.tar.gz]
+[2023-07-08 17:27:28] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.358.0.tar.gz]
+[2023-07-08 17:27:28] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-08 17:27:28] INFO root fetch - main [MainThread]: Store serial: [18814040]
