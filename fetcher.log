@@ -18924,3 +18924,53 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 17:53:27] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.4.tar.gz]
 [2023-07-08 17:53:27] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
 [2023-07-08 17:53:27] INFO root fetch - main [MainThread]: Store serial: [18814227]
+[2023-07-08 17:58:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814227]
+[2023-07-08 17:58:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 17:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asynccore
+[2023-07-08 17:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napari-segment-blobs-and-things-with-membranes
+[2023-07-08 17:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heatmap_cli
+[2023-07-08 17:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logsparsersubsystem
+[2023-07-08 17:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: findmyorder
+[2023-07-08 17:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ngmapi
+[2023-07-08 17:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: telepycrypto
+[2023-07-08 17:58:37] INFO root fetch - processPackages [logsparsersubsystem]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-08 17:58:37] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 17:58:37] INFO root fetch - processPackages [telepycrypto]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-08 17:58:37] WARNING root fetch - processPackages [asynccore]: Skipping, unable to determine old version
+[2023-07-08 17:58:37] WARNING root fetch - processPackages [heatmap_cli]: Skipping, unable to determine old version
+[2023-07-08 17:58:37] INFO root fetch - main [MainThread]: End processing [asynccore] error
+[2023-07-08 17:58:37] INFO root fetch - main [MainThread]: End processing [heatmap_cli] error
+[2023-07-08 17:58:37] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-08 17:58:37] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 17:58:37] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/13/86/3d7c18a8f2dd4f2eb32a19966079123b581a8402d540deca93c3d85e8678/ngmapi-0.0.2.tar.gz
+[2023-07-08 17:58:37] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 17:58:37] INFO root fetch - processPackages [logsparsersubsystem]: Downloading https://files.pythonhosted.org/packages/32/56/89372528ec4d1818ebb912242eb09e9c1f7610f6059bdb112173ea7a1e92/logsparsersubsystem-1.0.1.tar.gz
+[2023-07-08 17:58:37] WARNING root fetch - processPackages [logsparsersubsystem]: Skipping package: exceeds size limit 21592350>=10485760
+[2023-07-08 17:58:37] INFO root fetch - processPackages [telepycrypto]: Downloading https://files.pythonhosted.org/packages/a7/5f/4937ea22c64df2333466e979d0930b9aded9b00df3ab464eae5ea472a1b7/telepycrypto-1.0.0.tar.gz
+[2023-07-08 17:58:37] INFO root fetch - main [MainThread]: End processing [logsparsersubsystem] error
+[2023-07-08 17:58:37] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: Downloading https://files.pythonhosted.org/packages/53/36/813ef55ca1dc57e49019086781922f1496eacb9112a48253e5342d148e60/napari-segment-blobs-and-things-with-membranes-0.3.5.tar.gz
+[2023-07-08 17:58:37] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-08 17:58:37] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 17:58:37] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-08 17:58:37] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.2.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230708/n/ngmapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 17:58:37] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 17:58:37] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 17:58:37] INFO root fetch - processPackages [telepycrypto]: Downloading https://files.pythonhosted.org/packages/ed/0a/e2cc4249111df509af47deeda5cf548c40dfd3d02aad318df7b7d626f00e/telepycrypto-1.0.1.tar.gz
+[2023-07-08 17:58:37] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: Downloading https://files.pythonhosted.org/packages/85/27/368f72b9e5edba959da9dfb173f999964915b316043d9d514aa4514e6f34/napari-segment-blobs-and-things-with-membranes-0.3.6.tar.gz
+[2023-07-08 17:58:37] INFO root fetch - processPackages [telepycrypto]: executing diffoscope
+[2023-07-08 17:58:37] INFO root fetch - processPackages [telepycrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telepycrypto-1.0.0.tar.gz tmp/telepycrypto-1.0.1.tar.gz --markdown 20230708/t/telepycrypto/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 17:58:38] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: executing diffoscope
+[2023-07-08 17:58:38] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-segment-blobs-and-things-with-membranes-0.3.5.tar.gz tmp/napari-segment-blobs-and-things-with-membranes-0.3.6.tar.gz --markdown 20230708/n/napari-segment-blobs-and-things-with-membranes/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-08 17:58:38] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 17:58:38] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 17:58:38] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 17:58:38] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.2.tar.gz]
+[2023-07-08 17:58:38] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.3.tar.gz]
+[2023-07-08 17:58:38] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-08 17:58:38] INFO root fetch - processPackages [telepycrypto]: Remove: archive file [/home/abi/fetcher/tmp/telepycrypto-1.0.0.tar.gz]
+[2023-07-08 17:58:38] INFO root fetch - processPackages [telepycrypto]: Remove: archive file [/home/abi/fetcher/tmp/telepycrypto-1.0.1.tar.gz]
+[2023-07-08 17:58:38] INFO root fetch - main [MainThread]: End processing [telepycrypto]: success
+[2023-07-08 17:58:38] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: Remove: archive file [/home/abi/fetcher/tmp/napari-segment-blobs-and-things-with-membranes-0.3.5.tar.gz]
+[2023-07-08 17:58:38] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: Remove: archive file [/home/abi/fetcher/tmp/napari-segment-blobs-and-things-with-membranes-0.3.6.tar.gz]
+[2023-07-08 17:58:38] INFO root fetch - main [MainThread]: End processing [napari-segment-blobs-and-things-with-membranes]: success
+[2023-07-08 17:58:38] INFO root fetch - main [MainThread]: Store serial: [18814252]
