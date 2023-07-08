@@ -3391,3 +3391,40 @@
 [2023-07-08 03:19:57] INFO root fetch - processPackages [icpp-free]: Remove: archive file [/home/abi/fetcher/tmp/icpp_free-2.8.1-py3-none-any.whl.zip]
 [2023-07-08 03:19:57] INFO root fetch - main [MainThread]: End processing [icpp-free]: success
 [2023-07-08 03:19:57] INFO root fetch - main [MainThread]: Store serial: [18807953]
+[2023-07-08 03:25:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807953]
+[2023-07-08 03:25:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 03:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyno-logger
+[2023-07-08 03:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flax
+[2023-07-08 03:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyno-logger
+[2023-07-08 03:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: translate4colors
+[2023-07-08 03:25:06] INFO root fetch - processPackages [pyno-logger]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-08 03:25:06] INFO root fetch - processPackages [translate4colors]: New version: [0.11] Old Version: [0.10]
+[2023-07-08 03:25:06] INFO root fetch - processPackages [flax]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-07-08 03:25:06] INFO root fetch - processPackages [pyno-logger]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-08 03:25:06] INFO root fetch - processPackages [pyno-logger]: Downloading https://files.pythonhosted.org/packages/0b/7b/f088e50504f94895b122aa0add11430244a95f114f109b66a0aee9269edc/pyno_logger-0.0.6.tar.gz
+[2023-07-08 03:25:06] INFO root fetch - processPackages [pyno-logger]: Downloading https://files.pythonhosted.org/packages/0b/7b/f088e50504f94895b122aa0add11430244a95f114f109b66a0aee9269edc/pyno_logger-0.0.6.tar.gz
+[2023-07-08 03:25:06] INFO root fetch - processPackages [translate4colors]: Downloading https://files.pythonhosted.org/packages/23/02/81f1993a2cc0a7da58d9faa8f2c7eb626617f7a59001a68a595be2f3114f/translate4colors-0.10.tar.gz
+[2023-07-08 03:25:06] INFO root fetch - processPackages [flax]: Downloading https://files.pythonhosted.org/packages/f1/30/60fc59a1db0001d66f55b4f071b227377d0fc5f6a23a1c591580124af1c5/flax-0.6.9.tar.gz
+[2023-07-08 03:25:07] INFO root fetch - processPackages [translate4colors]: Downloading https://files.pythonhosted.org/packages/77/be/94f11b5be097982cac371ae2bdd55e0cfce6a8751b6d4f14c914ca63ebb1/translate4colors-0.11.tar.gz
+[2023-07-08 03:25:07] INFO root fetch - processPackages [pyno-logger]: Downloading https://files.pythonhosted.org/packages/88/ab/ca7d6acb75cbd0614daf28bd570b9020c03d740323219b305747a5dfb016/pyno_logger-0.0.7.tar.gz
+[2023-07-08 03:25:07] INFO root fetch - processPackages [pyno-logger]: Downloading https://files.pythonhosted.org/packages/88/ab/ca7d6acb75cbd0614daf28bd570b9020c03d740323219b305747a5dfb016/pyno_logger-0.0.7.tar.gz
+[2023-07-08 03:25:07] INFO root fetch - processPackages [translate4colors]: executing diffoscope
+[2023-07-08 03:25:07] INFO root fetch - processPackages [translate4colors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translate4colors-0.10.tar.gz tmp/translate4colors-0.11.tar.gz --markdown 20230708/t/translate4colors/0.10-0.11/diff.md --exclude *.pyd
+[2023-07-08 03:25:07] INFO root fetch - processPackages [pyno-logger]: executing diffoscope
+[2023-07-08 03:25:07] INFO root fetch - processPackages [pyno-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyno_logger-0.0.6.tar.gz tmp/pyno_logger-0.0.7.tar.gz --markdown 20230708/p/pyno-logger/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-08 03:25:07] INFO root fetch - processPackages [pyno-logger]: executing diffoscope
+[2023-07-08 03:25:07] INFO root fetch - processPackages [pyno-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyno_logger-0.0.6.tar.gz tmp/pyno_logger-0.0.7.tar.gz --markdown 20230708/p/pyno-logger/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-08 03:25:07] INFO root fetch - processPackages [flax]: Downloading https://files.pythonhosted.org/packages/62/fe/3a6a89c088fd055e02446a2b921d6d1f619dc7d28d578c81fc303331b587/flax-0.7.0.tar.gz
+[2023-07-08 03:25:08] INFO root fetch - processPackages [flax]: executing diffoscope
+[2023-07-08 03:25:08] INFO root fetch - processPackages [flax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flax-0.6.9.tar.gz tmp/flax-0.7.0.tar.gz --markdown 20230708/f/flax/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-07-08 03:25:08] INFO root fetch - processPackages [pyno-logger]: Remove: archive file [/home/abi/fetcher/tmp/pyno_logger-0.0.6.tar.gz]
+[2023-07-08 03:25:08] INFO root fetch - processPackages [pyno-logger]: Remove: archive file [/home/abi/fetcher/tmp/pyno_logger-0.0.7.tar.gz]
+[2023-07-08 03:25:08] INFO root fetch - main [MainThread]: End processing [pyno-logger]: success
+[2023-07-08 03:25:08] INFO root fetch - processPackages [translate4colors]: Remove: archive file [/home/abi/fetcher/tmp/translate4colors-0.10.tar.gz]
+[2023-07-08 03:25:08] INFO root fetch - processPackages [translate4colors]: Remove: archive file [/home/abi/fetcher/tmp/translate4colors-0.11.tar.gz]
+[2023-07-08 03:25:08] INFO root fetch - main [MainThread]: End processing [translate4colors]: success
+[2023-07-08 03:25:08] INFO root fetch - main [MainThread]: End processing [pyno-logger]: success
+[2023-07-08 03:25:11] INFO root fetch - processPackages [flax]: Remove: archive file [/home/abi/fetcher/tmp/flax-0.6.9.tar.gz]
+[2023-07-08 03:25:11] INFO root fetch - processPackages [flax]: Remove: archive file [/home/abi/fetcher/tmp/flax-0.7.0.tar.gz]
+[2023-07-08 03:25:11] INFO root fetch - main [MainThread]: End processing [flax]: success
+[2023-07-08 03:25:11] INFO root fetch - main [MainThread]: Store serial: [18807965]
