@@ -13369,3 +13369,42 @@
 [2023-07-08 10:11:47] INFO root fetch - processPackages [skytemple-randomizer]: Remove: archive file [/home/abi/fetcher/tmp/skytemple_randomizer-1.5.4-py3-none-any.whl.zip]
 [2023-07-08 10:11:47] INFO root fetch - main [MainThread]: End processing [skytemple-randomizer]: success
 [2023-07-08 10:11:47] INFO root fetch - main [MainThread]: Store serial: [18811721]
+[2023-07-08 10:16:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811721]
+[2023-07-08 10:16:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 10:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RestrictedPython
+[2023-07-08 10:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellmachine
+[2023-07-08 10:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cm2py
+[2023-07-08 10:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seventv
+[2023-07-08 10:16:56] INFO root fetch - processPackages [seventv]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-08 10:16:56] INFO root fetch - processPackages [cm2py]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-08 10:16:56] INFO root fetch - processPackages [cellmachine]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-08 10:16:56] INFO root fetch - processPackages [RestrictedPython]: New version: [7.0a1.dev0] Old Version: [6.1]
+[2023-07-08 10:16:56] INFO root fetch - processPackages [RestrictedPython]: Downloading https://files.pythonhosted.org/packages/93/56/56f41ca22420307997541f4324f1f0e92b597f4ff28517230ac3a5f71f82/RestrictedPython-6.1.tar.gz
+[2023-07-08 10:16:56] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/42/d4/a5f531f1da43f523f227a7980e625ba62c2b831559da1c2e60a8298516bf/seventv-1.1.1.tar.gz
+[2023-07-08 10:16:56] INFO root fetch - processPackages [cellmachine]: Downloading https://files.pythonhosted.org/packages/bf/2d/9d58f66b35ba30fea4145419c3abe62593556bd2f1daea1b945c96829411/cellmachine-1.2.4.tar.gz
+[2023-07-08 10:16:56] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/ae/b0/f15093f8bc67895ed5d93fb707acca91f45439f04095163ce80212db1364/cm2py-0.2.2.tar.gz
+[2023-07-08 10:16:56] INFO root fetch - processPackages [RestrictedPython]: Downloading https://files.pythonhosted.org/packages/a1/24/17eb4f3c5564475a3bb7fb7bed6dae3908648048f35cceffbb87edb5a65e/RestrictedPython-7.0a1.dev0.tar.gz
+[2023-07-08 10:16:56] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/df/fe/834330191494ad7c99155088be262f90950c36a416af96ea5872a7b8bc38/seventv-1.1.2.tar.gz
+[2023-07-08 10:16:56] INFO root fetch - processPackages [cellmachine]: Downloading https://files.pythonhosted.org/packages/42/aa/bd117053cd48a53c633976c1cb6ef536437617e6d1940bccdb12e46eece4/cellmachine-1.2.5.tar.gz
+[2023-07-08 10:16:57] INFO root fetch - processPackages [seventv]: executing diffoscope
+[2023-07-08 10:16:57] INFO root fetch - processPackages [seventv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seventv-1.1.1.tar.gz tmp/seventv-1.1.2.tar.gz --markdown 20230708/s/seventv/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-08 10:16:57] INFO root fetch - processPackages [RestrictedPython]: executing diffoscope
+[2023-07-08 10:16:57] INFO root fetch - processPackages [RestrictedPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RestrictedPython-6.1.tar.gz tmp/RestrictedPython-7.0a1.dev0.tar.gz --markdown 20230708/R/RestrictedPython/6.1-7.0a1.dev0/diff.md --exclude *.pyd
+[2023-07-08 10:16:57] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/07/92/1e77df4e1bea095c1caaf17fb20dfc568d2669c585d4d2a05ce3962cd8d1/cm2py-0.2.3-py3-none-any.whl
+[2023-07-08 10:16:57] INFO root fetch - processPackages [cm2py]: executing diffoscope
+[2023-07-08 10:16:57] INFO root fetch - processPackages [cm2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm2py-0.2.2.tar.gz tmp/cm2py-0.2.3-py3-none-any.whl.zip --markdown 20230708/c/cm2py/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-08 10:16:57] INFO root fetch - processPackages [cellmachine]: executing diffoscope
+[2023-07-08 10:16:57] INFO root fetch - processPackages [cellmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmachine-1.2.4.tar.gz tmp/cellmachine-1.2.5.tar.gz --markdown 20230708/c/cellmachine/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-08 10:16:57] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-1.1.1.tar.gz]
+[2023-07-08 10:16:57] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-1.1.2.tar.gz]
+[2023-07-08 10:16:57] INFO root fetch - main [MainThread]: End processing [seventv]: success
+[2023-07-08 10:16:58] INFO root fetch - processPackages [cellmachine]: Remove: archive file [/home/abi/fetcher/tmp/cellmachine-1.2.4.tar.gz]
+[2023-07-08 10:16:58] INFO root fetch - processPackages [cellmachine]: Remove: archive file [/home/abi/fetcher/tmp/cellmachine-1.2.5.tar.gz]
+[2023-07-08 10:16:58] INFO root fetch - main [MainThread]: End processing [cellmachine]: success
+[2023-07-08 10:16:58] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.2.2.tar.gz]
+[2023-07-08 10:16:58] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.2.3-py3-none-any.whl.zip]
+[2023-07-08 10:16:58] INFO root fetch - main [MainThread]: End processing [cm2py]: success
+[2023-07-08 10:16:58] INFO root fetch - processPackages [RestrictedPython]: Remove: archive file [/home/abi/fetcher/tmp/RestrictedPython-6.1.tar.gz]
+[2023-07-08 10:16:58] INFO root fetch - processPackages [RestrictedPython]: Remove: archive file [/home/abi/fetcher/tmp/RestrictedPython-7.0a1.dev0.tar.gz]
+[2023-07-08 10:16:58] INFO root fetch - main [MainThread]: End processing [RestrictedPython]: success
+[2023-07-08 10:16:58] INFO root fetch - main [MainThread]: Store serial: [18811732]
