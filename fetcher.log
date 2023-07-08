@@ -14473,3 +14473,51 @@
 [2023-07-08 11:50:47] INFO root fetch - processPackages [nidalee]: Remove: archive file [/home/abi/fetcher/tmp/nidalee-0.1.9-py3-none-any.whl.zip]
 [2023-07-08 11:50:47] INFO root fetch - main [MainThread]: End processing [nidalee]: success
 [2023-07-08 11:50:47] INFO root fetch - main [MainThread]: Store serial: [18812256]
+[2023-07-08 11:55:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812256]
+[2023-07-08 11:55:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 11:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nidalee
+[2023-07-08 11:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QuNet
+[2023-07-08 11:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipynao
+[2023-07-08 11:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyNyaaTa
+[2023-07-08 11:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telegramweb
+[2023-07-08 11:55:57] INFO root fetch - processPackages [nidalee]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 11:55:57] INFO root fetch - processPackages [telegramweb]: New version: [5.4] Old Version: [5.3]
+[2023-07-08 11:55:57] INFO root fetch - processPackages [ipynao]: New version: [0.6.1] Old Version: [0.5.0]
+[2023-07-08 11:55:57] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 11:55:57] INFO root fetch - processPackages [PyNyaaTa]: New version: [202307080954] Old Version: [202307011532]
+[2023-07-08 11:55:57] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/14/4c/9e0a9118dcbe2c2fd5d202e1864c3f426efaa3df0a8d3da54df3177b3478/telegramweb-5.3.tar.gz
+[2023-07-08 11:55:57] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-08 11:55:57] INFO root fetch - processPackages [ipynao]: Downloading https://files.pythonhosted.org/packages/02/2e/8917d9abb9a554060b85e32883682f18b0478877cce27e6b59beca8c7f61/ipynao-0.5.0-py3-none-any.whl
+[2023-07-08 11:55:57] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/10/7a/59bae3ebb58ef342466a6f44f31ea5ed574cfcd1206172174c0eae90c40f/nidalee-0.1.8-py3-none-any.whl
+[2023-07-08 11:55:57] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/1c/80/13794b11aa5b4f7089eff03a716a44a5978f32955d0af8a527e358187184/PyNyaaTa-202307011532.tar.gz
+[2023-07-08 11:55:57] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/19/87/7aeb228385a4f2d1373c5877d372955c25df54bc515e5f41a7f076f67c22/telegramweb-5.4.tar.gz
+[2023-07-08 11:55:57] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-08 11:55:57] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-07-08 11:55:57] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-5.3.tar.gz tmp/telegramweb-5.4.tar.gz --markdown 20230708/t/telegramweb/5.3-5.4/diff.md --exclude *.pyd
+[2023-07-08 11:55:57] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-08 11:55:57] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230708/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 11:55:57] INFO root fetch - processPackages [ipynao]: Downloading https://files.pythonhosted.org/packages/ab/51/c580883bb2a687a43e03a11da19a4a305695632ca9105501d63d10eefcfa/ipynao-0.6.1-py3-none-any.whl
+[2023-07-08 11:55:57] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/37/2f/002de4c831febb44fcd9667de64ed4961fb3a5769f5a7159c915aa27f04d/PyNyaaTa-202307080954.tar.gz
+[2023-07-08 11:55:58] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/7b/aa/5d7542fb6437eddba82a60b311003a8763fdde7cc5d9bce83abd335996cd/nidalee-0.1.9-py3-none-any.whl
+[2023-07-08 11:55:58] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-07-08 11:55:58] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202307011532.tar.gz tmp/PyNyaaTa-202307080954.tar.gz --markdown 20230708/P/PyNyaaTa/202307011532-202307080954/diff.md --exclude *.pyd
+[2023-07-08 11:55:58] INFO root fetch - processPackages [ipynao]: executing diffoscope
+[2023-07-08 11:55:58] INFO root fetch - processPackages [ipynao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipynao-0.5.0-py3-none-any.whl.zip tmp/ipynao-0.6.1-py3-none-any.whl.zip --markdown 20230708/i/ipynao/0.5.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-08 11:55:58] INFO root fetch - processPackages [nidalee]: executing diffoscope
+[2023-07-08 11:55:58] INFO root fetch - processPackages [nidalee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nidalee-0.1.8-py3-none-any.whl.zip tmp/nidalee-0.1.9-py3-none-any.whl.zip --markdown 20230708/n/nidalee/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 11:55:58] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-5.3.tar.gz]
+[2023-07-08 11:55:58] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-5.4.tar.gz]
+[2023-07-08 11:55:58] INFO root fetch - main [MainThread]: End processing [telegramweb]: success
+[2023-07-08 11:55:58] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-08 11:55:58] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-08 11:55:58] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-08 11:55:59] INFO root fetch - processPackages [nidalee]: Remove: archive file [/home/abi/fetcher/tmp/nidalee-0.1.8-py3-none-any.whl.zip]
+[2023-07-08 11:55:59] INFO root fetch - processPackages [nidalee]: Remove: archive file [/home/abi/fetcher/tmp/nidalee-0.1.9-py3-none-any.whl.zip]
+[2023-07-08 11:55:59] INFO root fetch - main [MainThread]: End processing [nidalee]: success
+[2023-07-08 11:55:59] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202307011532.tar.gz]
+[2023-07-08 11:55:59] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202307080954.tar.gz]
+[2023-07-08 11:55:59] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-07-08 11:56:00] INFO root fetch - processPackages [ipynao]: Remove: archive file [/home/abi/fetcher/tmp/ipynao-0.5.0-py3-none-any.whl.zip]
+[2023-07-08 11:56:00] INFO root fetch - processPackages [ipynao]: Remove: archive file [/home/abi/fetcher/tmp/ipynao-0.6.1-py3-none-any.whl.zip]
+[2023-07-08 11:56:00] INFO root fetch - main [MainThread]: End processing [ipynao]: success
+[2023-07-08 11:56:00] INFO root fetch - main [MainThread]: Store serial: [18812268]
