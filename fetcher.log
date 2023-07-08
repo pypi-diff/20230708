@@ -21993,3 +21993,54 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 22:29:10] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230708151056.tar.gz]
 [2023-07-08 22:29:10] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-08 22:29:10] INFO root fetch - main [MainThread]: Store serial: [18815594]
+[2023-07-08 22:34:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815594]
+[2023-07-08 22:34:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 22:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QuNet
+[2023-07-08 22:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discoverable-garage-door
+[2023-07-08 22:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: findmyorder
+[2023-07-08 22:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: otter-grader
+[2023-07-08 22:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ohnlp-backbone-xlang-python
+[2023-07-08 22:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threads-api
+[2023-07-08 22:34:20] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 22:34:20] INFO root fetch - processPackages [threads-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-08 22:34:20] WARNING root fetch - processPackages [discoverable-garage-door]: Skipping, unable to determine old version
+[2023-07-08 22:34:20] INFO root fetch - main [MainThread]: End processing [discoverable-garage-door] error
+[2023-07-08 22:34:20] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 22:34:20] INFO root fetch - processPackages [otter-grader]: New version: [4.4.1] Old Version: [4.4.0]
+[2023-07-08 22:34:20] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 22:34:20] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/2c/af/db84e43875d1db29c1d0c5303c536942a426a5ac9a9982f5114adde6400d/ohnlp-backbone-xlang-python-1.0.8.tar.gz
+[2023-07-08 22:34:20] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 22:34:20] INFO root fetch - processPackages [otter-grader]: Downloading https://files.pythonhosted.org/packages/eb/50/a4c54f1c589689ba224f4ddbf160dff5ea4ca3da38a63fbaab3a17b819c2/otter-grader-4.4.0.tar.gz
+[2023-07-08 22:34:20] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-08 22:34:20] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/15/cf/3c6f675205f2c298ca336e39c4b94bd8e49724fd745cdf69e51e8b480d70/threads-api-1.0.3.tar.gz
+[2023-07-08 22:34:20] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/94/b2/be03e8009435ffd3f952d23f655bf7bd9bfdc90709c345a9d27befa172a9/ohnlp-backbone-xlang-python-1.0.9.tar.gz
+[2023-07-08 22:34:20] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 22:34:20] INFO root fetch - processPackages [otter-grader]: Downloading https://files.pythonhosted.org/packages/7c/0c/074624075102173d6438e2ae811c06e0a89fbd0b11b414bf3e5034efed21/otter-grader-4.4.1.tar.gz
+[2023-07-08 22:34:20] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 22:34:20] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 22:34:20] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: executing diffoscope
+[2023-07-08 22:34:20] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohnlp-backbone-xlang-python-1.0.8.tar.gz tmp/ohnlp-backbone-xlang-python-1.0.9.tar.gz --markdown 20230708/o/ohnlp-backbone-xlang-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 22:34:21] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-08 22:34:21] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/fb/95/0302ba8fed80b58e8d7c5c602471eea31b0ea9656f27c42f647c78b37bec/threads-api-1.0.4.tar.gz
+[2023-07-08 22:34:21] INFO root fetch - processPackages [otter-grader]: executing diffoscope
+[2023-07-08 22:34:21] INFO root fetch - processPackages [otter-grader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otter-grader-4.4.0.tar.gz tmp/otter-grader-4.4.1.tar.gz --markdown 20230708/o/otter-grader/4.4.0-4.4.1/diff.md --exclude *.pyd
+[2023-07-08 22:34:21] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-08 22:34:21] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230708/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 22:34:21] INFO root fetch - processPackages [threads-api]: executing diffoscope
+[2023-07-08 22:34:21] INFO root fetch - processPackages [threads-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-api-1.0.3.tar.gz tmp/threads-api-1.0.4.tar.gz --markdown 20230708/t/threads-api/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-08 22:34:21] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.8.tar.gz]
+[2023-07-08 22:34:21] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.9.tar.gz]
+[2023-07-08 22:34:21] INFO root fetch - main [MainThread]: End processing [ohnlp-backbone-xlang-python]: success
+[2023-07-08 22:34:21] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 22:34:21] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 22:34:21] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 22:34:22] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.0.3.tar.gz]
+[2023-07-08 22:34:22] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.0.4.tar.gz]
+[2023-07-08 22:34:22] INFO root fetch - main [MainThread]: End processing [threads-api]: success
+[2023-07-08 22:34:22] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-08 22:34:22] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-08 22:34:22] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-08 22:34:22] INFO root fetch - processPackages [otter-grader]: Remove: archive file [/home/abi/fetcher/tmp/otter-grader-4.4.0.tar.gz]
+[2023-07-08 22:34:22] INFO root fetch - processPackages [otter-grader]: Remove: archive file [/home/abi/fetcher/tmp/otter-grader-4.4.1.tar.gz]
+[2023-07-08 22:34:22] INFO root fetch - main [MainThread]: End processing [otter-grader]: success
+[2023-07-08 22:34:22] INFO root fetch - main [MainThread]: Store serial: [18815612]
