@@ -21349,3 +21349,33 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 21:37:02] INFO root fetch - processPackages [batogram]: Remove: archive file [/home/abi/fetcher/tmp/batogram-1.1.0.tar.gz]
 [2023-07-08 21:37:02] INFO root fetch - main [MainThread]: End processing [batogram]: success
 [2023-07-08 21:37:02] INFO root fetch - main [MainThread]: Store serial: [18815370]
+[2023-07-08 21:42:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815370]
+[2023-07-08 21:42:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 21:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simplekivy
+[2023-07-08 21:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ypricemagic
+[2023-07-08 21:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threads-py
+[2023-07-08 21:42:12] INFO root fetch - processPackages [threads-py]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 21:42:12] INFO root fetch - processPackages [simplekivy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-08 21:42:12] INFO root fetch - processPackages [ypricemagic]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-07-08 21:42:12] INFO root fetch - processPackages [threads-py]: Downloading https://files.pythonhosted.org/packages/1e/da/a860b7c940c3ccdde391279b265f6ac3dfe389d41b813cfdf515794d1f5a/threads-py-0.0.2.tar.gz
+[2023-07-08 21:42:12] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/ce/07/abdb06ba801dd2c6fd82eedc7263477e6264d2b84d4099290fcd31e169d5/ypricemagic-2.8.0.tar.gz
+[2023-07-08 21:42:12] INFO root fetch - processPackages [simplekivy]: Downloading https://files.pythonhosted.org/packages/e5/98/9cd9db2012c65e1d61ed225fcbe25b4e4167506b7cd029a4c41c4561c5d4/simplekivy-0.0.1.tar.gz
+[2023-07-08 21:42:12] INFO root fetch - processPackages [threads-py]: Downloading https://files.pythonhosted.org/packages/24/71/02f93fefec68d6d2c96eb37dd57d7e3695070c58e3682eb7f205d5262ada/threads-py-0.0.3.tar.gz
+[2023-07-08 21:42:12] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/cd/85/4c89c59d47a7e4d8421514ba93b09789a930f4a4103b7a1cfabe1ca0ee1d/ypricemagic-2.8.1.tar.gz
+[2023-07-08 21:42:12] INFO root fetch - processPackages [simplekivy]: Downloading https://files.pythonhosted.org/packages/2b/26/91373ead0064557e8e560e32ecadd554c4d42a3fb6c8e81360c0745d7255/simplekivy-0.0.2.tar.gz
+[2023-07-08 21:42:12] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-07-08 21:42:12] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.8.0.tar.gz tmp/ypricemagic-2.8.1.tar.gz --markdown 20230708/y/ypricemagic/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-07-08 21:42:12] INFO root fetch - processPackages [threads-py]: executing diffoscope
+[2023-07-08 21:42:12] INFO root fetch - processPackages [threads-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-py-0.0.2.tar.gz tmp/threads-py-0.0.3.tar.gz --markdown 20230708/t/threads-py/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 21:42:12] INFO root fetch - processPackages [simplekivy]: executing diffoscope
+[2023-07-08 21:42:12] INFO root fetch - processPackages [simplekivy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplekivy-0.0.1.tar.gz tmp/simplekivy-0.0.2.tar.gz --markdown 20230708/s/simplekivy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 21:42:13] INFO root fetch - processPackages [threads-py]: Remove: archive file [/home/abi/fetcher/tmp/threads-py-0.0.2.tar.gz]
+[2023-07-08 21:42:13] INFO root fetch - processPackages [threads-py]: Remove: archive file [/home/abi/fetcher/tmp/threads-py-0.0.3.tar.gz]
+[2023-07-08 21:42:13] INFO root fetch - main [MainThread]: End processing [threads-py]: success
+[2023-07-08 21:42:13] INFO root fetch - processPackages [simplekivy]: Remove: archive file [/home/abi/fetcher/tmp/simplekivy-0.0.1.tar.gz]
+[2023-07-08 21:42:13] INFO root fetch - processPackages [simplekivy]: Remove: archive file [/home/abi/fetcher/tmp/simplekivy-0.0.2.tar.gz]
+[2023-07-08 21:42:13] INFO root fetch - main [MainThread]: End processing [simplekivy]: success
+[2023-07-08 21:42:13] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.8.0.tar.gz]
+[2023-07-08 21:42:13] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.8.1.tar.gz]
+[2023-07-08 21:42:13] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-07-08 21:42:13] INFO root fetch - main [MainThread]: Store serial: [18815379]
