@@ -12067,3 +12067,14 @@
 [2023-07-08 06:46:04] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip]
 [2023-07-08 06:46:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2023-07-08 06:46:04] INFO root fetch - main [MainThread]: Store serial: [18811012]
+[2023-07-08 06:51:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811012]
+[2023-07-08 06:51:13] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-08 06:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rttbackend
+[2023-07-08 06:51:13] INFO root fetch - processPackages [rttbackend]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-08 06:51:14] INFO root fetch - processPackages [rttbackend]: Downloading https://files.pythonhosted.org/packages/f3/fd/425d71e157c36d0ec2399f3b343d8149299c7bffab3a0632adac6e2a65e9/rttbackend-0.3.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl
+[2023-07-08 06:51:14] INFO root fetch - processPackages [rttbackend]: executing diffoscope
+[2023-07-08 06:51:14] INFO root fetch - processPackages [rttbackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rttbackend-0.3.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.zip tmp/rttbackend-0.3.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.zip --markdown 20230708/r/rttbackend/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-08 06:51:15] INFO root fetch - processPackages [rttbackend]: Remove: archive file [/home/abi/fetcher/tmp/rttbackend-0.3.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.zip]
+[2023-07-08 06:51:15] INFO root fetch - processPackages [rttbackend]: Remove: archive file [/home/abi/fetcher/tmp/rttbackend-0.3.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.zip]
+[2023-07-08 06:51:15] INFO root fetch - main [MainThread]: End processing [rttbackend]: success
+[2023-07-08 06:51:15] INFO root fetch - main [MainThread]: Store serial: [18811016]
