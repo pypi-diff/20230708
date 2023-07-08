@@ -17352,3 +17352,72 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 15:57:05] INFO root fetch - processPackages [eutil]: Remove: archive file [/home/abi/fetcher/tmp/eutil-0.0.3.tar.gz]
 [2023-07-08 15:57:05] INFO root fetch - main [MainThread]: End processing [eutil]: success
 [2023-07-08 15:57:05] INFO root fetch - main [MainThread]: Store serial: [18813553]
+[2023-07-08 16:02:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813553]
+[2023-07-08 16:02:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NeuroNode
+[2023-07-08 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iter-tools
+[2023-07-08 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zen-han-converter
+[2023-07-08 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack
+[2023-07-08 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-ext
+[2023-07-08 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sigtonoise
+[2023-07-08 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: powertools-oas-validator
+[2023-07-08 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: slib-sorter
+[2023-07-08 16:02:15] INFO root fetch - processPackages [localstack]: New version: [2.1.1.dev20230708135750] Old Version: [2.1.1.dev20230621080533]
+[2023-07-08 16:02:15] INFO root fetch - processPackages [localstack-ext]: New version: [2.1.1.dev20230708135750] Old Version: [2.1.1.dev20230621080533]
+[2023-07-08 16:02:15] WARNING root fetch - processPackages [iter-tools]: Skipping, unable to determine old version
+[2023-07-08 16:02:15] INFO root fetch - main [MainThread]: End processing [iter-tools] error
+[2023-07-08 16:02:15] INFO root fetch - processPackages [powertools-oas-validator]: New version: [6.0.0] Old Version: [0.6.0]
+[2023-07-08 16:02:15] INFO root fetch - processPackages [slib-sorter]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-07-08 16:02:15] INFO root fetch - processPackages [NeuroNode]: New version: [3.9] Old Version: [3.6]
+[2023-07-08 16:02:15] INFO root fetch - processPackages [zen-han-converter]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-08 16:02:15] INFO root fetch - processPackages [sigtonoise]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-08 16:02:15] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/12/df/28c0ac019bc1abfc1769c1f099f36f12ee6cfa3d3ac3696d730e1441744d/powertools_oas_validator-0.6.0.tar.gz
+[2023-07-08 16:02:15] INFO root fetch - processPackages [zen-han-converter]: Downloading https://files.pythonhosted.org/packages/7f/9d/2e8706380fee49b8aea06b54b1d44e319e34a4c2087824f71b0e1e26571f/zen_han_converter-1.0.1.tar.gz
+[2023-07-08 16:02:15] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/27/b4/116819982ac4c0c4154cfaadd687e7abae1dd325899e1d29444c19e00352/slib-sorter-1.5.6.tar.gz
+[2023-07-08 16:02:15] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/2a/13/9fbc3040ec80fabde6fc413a5649c3da0c0c846981bbdfe264cc87309da8/localstack-2.1.1.dev20230621080533.tar.gz
+[2023-07-08 16:02:15] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/5c/87/0bb63fbb6d9d53b572a2629914ca0063e602964c2c20a9a2632decfaa7e4/NeuroNode-3.6.tar.gz
+[2023-07-08 16:02:15] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/74/d2/d68dba8c929d6be1016bae0d647252e09267898c04cd232e42c34c1060f2/localstack-ext-2.1.1.dev20230621080533.tar.gz
+[2023-07-08 16:02:15] INFO root fetch - processPackages [sigtonoise]: Downloading https://files.pythonhosted.org/packages/b9/65/6676c77f2f3da299b7a6d7496db04cf5489fe694a182e9677781a18d9f67/sigtonoise-1.0.0.tar.gz
+[2023-07-08 16:02:15] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/9d/81/eb29509cbf6703d81364935c01e581ca3dd36e69154ee15ebe6b77bddb63/powertools_oas_validator-6.0.0.tar.gz
+[2023-07-08 16:02:15] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/54/84/d0e68b7016b108d09d488d57833872f184838721300cac8388b39bef2bb3/slib-sorter-1.5.7.tar.gz
+[2023-07-08 16:02:15] INFO root fetch - processPackages [zen-han-converter]: Downloading https://files.pythonhosted.org/packages/34/9a/dcaf3a72dec459526da352f6d369a808ba4a05d403a5f7891f7f5905d3a5/zen_han_converter-1.1.0.tar.gz
+[2023-07-08 16:02:15] INFO root fetch - processPackages [powertools-oas-validator]: executing diffoscope
+[2023-07-08 16:02:15] INFO root fetch - processPackages [powertools-oas-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powertools_oas_validator-0.6.0.tar.gz tmp/powertools_oas_validator-6.0.0.tar.gz --markdown 20230708/p/powertools-oas-validator/0.6.0-6.0.0/diff.md --exclude *.pyd
+[2023-07-08 16:02:15] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 16:02:15] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.5.6.tar.gz tmp/slib-sorter-1.5.7.tar.gz --markdown 20230708/s/slib-sorter/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-07-08 16:02:15] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/cc/48/0a712119e66ebc136e69d03e738b94c194424ec553c11b830d828548d0aa/localstack-2.1.1.dev20230708135750.tar.gz
+[2023-07-08 16:02:15] INFO root fetch - processPackages [sigtonoise]: Downloading https://files.pythonhosted.org/packages/2b/a6/75fdd40c109babd3a408e69676587fad6c26764ded4e1d6a894b1133c09b/sigtonoise-1.0.1.tar.gz
+[2023-07-08 16:02:15] INFO root fetch - processPackages [zen-han-converter]: executing diffoscope
+[2023-07-08 16:02:15] INFO root fetch - processPackages [zen-han-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zen_han_converter-1.0.1.tar.gz tmp/zen_han_converter-1.1.0.tar.gz --markdown 20230708/z/zen-han-converter/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-08 16:02:15] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/ee/46/d7d58b35ecf98c41cacc537040cf39bfe32260276f683dbf00b51323a681/NeuroNode-3.9.tar.gz
+[2023-07-08 16:02:16] INFO root fetch - processPackages [localstack]: executing diffoscope
+[2023-07-08 16:02:16] INFO root fetch - processPackages [localstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-2.1.1.dev20230621080533.tar.gz tmp/localstack-2.1.1.dev20230708135750.tar.gz --markdown 20230708/l/localstack/2.1.1.dev20230621080533-2.1.1.dev20230708135750/diff.md --exclude *.pyd
+[2023-07-08 16:02:16] INFO root fetch - processPackages [NeuroNode]: executing diffoscope
+[2023-07-08 16:02:16] INFO root fetch - processPackages [NeuroNode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroNode-3.6.tar.gz tmp/NeuroNode-3.9.tar.gz --markdown 20230708/N/NeuroNode/3.6-3.9/diff.md --exclude *.pyd
+[2023-07-08 16:02:16] INFO root fetch - processPackages [sigtonoise]: executing diffoscope
+[2023-07-08 16:02:16] INFO root fetch - processPackages [sigtonoise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigtonoise-1.0.0.tar.gz tmp/sigtonoise-1.0.1.tar.gz --markdown 20230708/s/sigtonoise/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 16:02:16] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-0.6.0.tar.gz]
+[2023-07-08 16:02:16] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-6.0.0.tar.gz]
+[2023-07-08 16:02:16] INFO root fetch - main [MainThread]: End processing [powertools-oas-validator]: success
+[2023-07-08 16:02:16] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.6.tar.gz]
+[2023-07-08 16:02:16] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.7.tar.gz]
+[2023-07-08 16:02:16] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 16:02:17] INFO root fetch - processPackages [zen-han-converter]: Remove: archive file [/home/abi/fetcher/tmp/zen_han_converter-1.0.1.tar.gz]
+[2023-07-08 16:02:17] INFO root fetch - processPackages [zen-han-converter]: Remove: archive file [/home/abi/fetcher/tmp/zen_han_converter-1.1.0.tar.gz]
+[2023-07-08 16:02:17] INFO root fetch - main [MainThread]: End processing [zen-han-converter]: success
+[2023-07-08 16:02:17] INFO root fetch - processPackages [localstack]: Remove: archive file [/home/abi/fetcher/tmp/localstack-2.1.1.dev20230621080533.tar.gz]
+[2023-07-08 16:02:17] INFO root fetch - processPackages [localstack]: Remove: archive file [/home/abi/fetcher/tmp/localstack-2.1.1.dev20230708135750.tar.gz]
+[2023-07-08 16:02:17] INFO root fetch - main [MainThread]: End processing [localstack]: success
+[2023-07-08 16:02:17] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.6.tar.gz]
+[2023-07-08 16:02:17] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.9.tar.gz]
+[2023-07-08 16:02:17] INFO root fetch - main [MainThread]: End processing [NeuroNode]: success
+[2023-07-08 16:02:17] INFO root fetch - processPackages [sigtonoise]: Remove: archive file [/home/abi/fetcher/tmp/sigtonoise-1.0.0.tar.gz]
+[2023-07-08 16:02:17] INFO root fetch - processPackages [sigtonoise]: Remove: archive file [/home/abi/fetcher/tmp/sigtonoise-1.0.1.tar.gz]
+[2023-07-08 16:02:17] INFO root fetch - main [MainThread]: End processing [sigtonoise]: success
+[2023-07-08 16:02:17] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/13/c6/75ba150231c541322ea2090ed903a4357a0978b2b6394683df04267e6b18/localstack-ext-2.1.1.dev20230708135750.tar.gz
+[2023-07-08 16:02:18] INFO root fetch - processPackages [localstack-ext]: executing diffoscope
+[2023-07-08 16:02:18] INFO root fetch - processPackages [localstack-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-ext-2.1.1.dev20230621080533.tar.gz tmp/localstack-ext-2.1.1.dev20230708135750.tar.gz --markdown 20230708/l/localstack-ext/2.1.1.dev20230621080533-2.1.1.dev20230708135750/diff.md --exclude *.pyd
+[2023-07-08 16:02:23] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack-ext-2.1.1.dev20230621080533.tar.gz]
+[2023-07-08 16:02:23] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack-ext-2.1.1.dev20230708135750.tar.gz]
+[2023-07-08 16:02:23] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
+[2023-07-08 16:02:23] INFO root fetch - main [MainThread]: Store serial: [18813579]
