@@ -22619,3 +22619,86 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 23:31:39] INFO root fetch - processPackages [corankco]: Remove: archive file [/home/abi/fetcher/tmp/corankco-5.0.0-py3-none-any.whl.zip]
 [2023-07-08 23:31:39] INFO root fetch - main [MainThread]: End processing [corankco]: success
 [2023-07-08 23:31:39] INFO root fetch - main [MainThread]: Store serial: [18815954]
+[2023-07-08 23:36:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815954]
+[2023-07-08 23:36:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-08 23:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skyplane-nightly
+[2023-07-08 23:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autochain
+[2023-07-08 23:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logistic-dml
+[2023-07-08 23:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snap-saas-base
+[2023-07-08 23:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pwforecast
+[2023-07-08 23:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qvsed
+[2023-07-08 23:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arkprts
+[2023-07-08 23:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flow-models
+[2023-07-08 23:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ohnlp-backbone-xlang-python
+[2023-07-08 23:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-jmap
+[2023-07-08 23:36:49] INFO root fetch - processPackages [pwforecast]: New version: [1.0.0] Old Version: [0.1.11]
+[2023-07-08 23:36:49] WARNING root fetch - processPackages [snap-saas-base]: Skipping, unable to determine old version
+[2023-07-08 23:36:49] INFO root fetch - processPackages [snap-saas-base]: Start processing: q2report
+[2023-07-08 23:36:49] INFO root fetch - main [MainThread]: End processing [snap-saas-base] error
+[2023-07-08 23:36:49] INFO root fetch - processPackages [autochain]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-08 23:36:49] INFO root fetch - processPackages [qvsed]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-08 23:36:49] INFO root fetch - processPackages [arkprts]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-08 23:36:49] WARNING root fetch - processPackages [logistic-dml]: Skipping, unable to determine old version
+[2023-07-08 23:36:49] INFO root fetch - main [MainThread]: End processing [logistic-dml] error
+[2023-07-08 23:36:49] INFO root fetch - processPackages [flow-models]: New version: [1.4] Old Version: [1.1]
+[2023-07-08 23:36:49] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 23:36:49] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev202307072345] Old Version: [0.3.2.dev202307062345]
+[2023-07-08 23:36:49] WARNING root fetch - processPackages [python-jmap]: Skipping, unable to determine old version
+[2023-07-08 23:36:49] INFO root fetch - main [MainThread]: End processing [python-jmap] error
+[2023-07-08 23:36:49] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/d2/39/542aaabf9f6a0e276d1ffd4d1dfe1e492d53ab99ad91061646c502ad0bb8/qvsed-1.3.5.tar.gz
+[2023-07-08 23:36:49] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/2c/af/db84e43875d1db29c1d0c5303c536942a426a5ac9a9982f5114adde6400d/ohnlp-backbone-xlang-python-1.0.8.tar.gz
+[2023-07-08 23:36:49] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/ad/f3/d0e51bf5a83cfa1c30b1cf3124e879b352d2f0478b0bf7839b3468f43d0c/skyplane_nightly-0.3.2.dev202307062345.tar.gz
+[2023-07-08 23:36:49] INFO root fetch - processPackages [q2report]: New version: [0.1.29] Old Version: [0.1.28]
+[2023-07-08 23:36:49] INFO root fetch - processPackages [arkprts]: Downloading https://files.pythonhosted.org/packages/17/28/e3c861c0febd4fd94c156bb59fa024c3e75ac12b90f4a757088aba257685/arkprts-0.2.2.tar.gz
+[2023-07-08 23:36:49] INFO root fetch - processPackages [autochain]: Downloading https://files.pythonhosted.org/packages/af/6b/6ab3de957f25a6977e2a9b732fa3755f5b54ee1b3f9fa37141a5923c4a4c/autochain-0.0.1.tar.gz
+[2023-07-08 23:36:49] INFO root fetch - processPackages [pwforecast]: Downloading https://files.pythonhosted.org/packages/0e/0f/5fd27b38fc79f20f20b6db027cd08b9db065b46b20b91804a2de2e64f24b/pwforecast-0.1.11.tar.gz
+[2023-07-08 23:36:49] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/94/b2/be03e8009435ffd3f952d23f655bf7bd9bfdc90709c345a9d27befa172a9/ohnlp-backbone-xlang-python-1.0.9.tar.gz
+[2023-07-08 23:36:49] INFO root fetch - processPackages [flow-models]: Downloading https://files.pythonhosted.org/packages/50/36/e25c5b5b7e5471fc39213b04051d7835fb6667f2a1be9e2ee8a74225fbc2/flow_models-1.1.tar.gz
+[2023-07-08 23:36:49] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/88/ff/3b8bac7db7cb292f3e826d3fb08900ba76fa36620489d6615320fb261366/qvsed-1.3.6.tar.gz
+[2023-07-08 23:36:49] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/f9/4d/f535709d66efc533234b90c36fc440eef936519e2d5d5bd438606dc31630/skyplane_nightly-0.3.2.dev202307072345.tar.gz
+[2023-07-08 23:36:49] INFO root fetch - processPackages [arkprts]: Downloading https://files.pythonhosted.org/packages/fd/ff/d98946633a966212aca28dcec21867d30e9bfe85f2821dbc045827b4f73d/arkprts-0.2.3.tar.gz
+[2023-07-08 23:36:49] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: executing diffoscope
+[2023-07-08 23:36:49] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohnlp-backbone-xlang-python-1.0.8.tar.gz tmp/ohnlp-backbone-xlang-python-1.0.9.tar.gz --markdown 20230708/o/ohnlp-backbone-xlang-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 23:36:49] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-08 23:36:49] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.3.5.tar.gz tmp/qvsed-1.3.6.tar.gz --markdown 20230708/q/qvsed/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-08 23:36:49] INFO root fetch - processPackages [autochain]: Downloading https://files.pythonhosted.org/packages/24/94/9bb7b06d3ac3d43d7c3cab680ad27259d8e27b801918d95b45951d96d94b/autochain-0.0.2.tar.gz
+[2023-07-08 23:36:50] INFO root fetch - processPackages [pwforecast]: Downloading https://files.pythonhosted.org/packages/47/4c/7f0bc26b69ddfaf026d6d6a4b0e79cc9f97fa5cf3b65309f6b3cac58ed62/pwforecast-1.0.0.tar.gz
+[2023-07-08 23:36:50] INFO root fetch - processPackages [q2report]: Downloading https://files.pythonhosted.org/packages/72/6e/16f054e3f19c429adefee74dd8f4789f60c89a5a930706a260a855ee08ce/q2report-0.1.29.tar.gz
+[2023-07-08 23:36:50] INFO root fetch - processPackages [arkprts]: executing diffoscope
+[2023-07-08 23:36:50] INFO root fetch - processPackages [arkprts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkprts-0.2.2.tar.gz tmp/arkprts-0.2.3.tar.gz --markdown 20230708/a/arkprts/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-08 23:36:50] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-08 23:36:50] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev202307062345.tar.gz tmp/skyplane_nightly-0.3.2.dev202307072345.tar.gz --markdown 20230708/s/skyplane-nightly/0.3.2.dev202307062345-0.3.2.dev202307072345/diff.md --exclude *.pyd
+[2023-07-08 23:36:50] INFO root fetch - processPackages [autochain]: executing diffoscope
+[2023-07-08 23:36:50] INFO root fetch - processPackages [autochain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autochain-0.0.1.tar.gz tmp/autochain-0.0.2.tar.gz --markdown 20230708/a/autochain/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 23:36:50] INFO root fetch - processPackages [flow-models]: Downloading https://files.pythonhosted.org/packages/c2/91/54bffc01e609e610e49a527bb5c7caf140f44e5126fe41b6ae494501fafc/flow_models-1.4.tar.gz
+[2023-07-08 23:36:50] INFO root fetch - processPackages [pwforecast]: executing diffoscope
+[2023-07-08 23:36:50] INFO root fetch - processPackages [pwforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwforecast-0.1.11.tar.gz tmp/pwforecast-1.0.0.tar.gz --markdown 20230708/p/pwforecast/0.1.11-1.0.0/diff.md --exclude *.pyd
+[2023-07-08 23:36:50] INFO root fetch - processPackages [q2report]: executing diffoscope
+[2023-07-08 23:36:50] INFO root fetch - processPackages [q2report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2report-0.1.28.tar.gz tmp/q2report-0.1.29.tar.gz --markdown 20230708/q/q2report/0.1.28-0.1.29/diff.md --exclude *.pyd
+[2023-07-08 23:36:50] INFO root fetch - processPackages [flow-models]: executing diffoscope
+[2023-07-08 23:36:50] INFO root fetch - processPackages [flow-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow_models-1.1.tar.gz tmp/flow_models-1.4.tar.gz --markdown 20230708/f/flow-models/1.1-1.4/diff.md --exclude *.pyd
+[2023-07-08 23:36:51] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.8.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.9.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - main [MainThread]: End processing [ohnlp-backbone-xlang-python]: success
+[2023-07-08 23:36:51] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.5.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.6.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-08 23:36:51] INFO root fetch - processPackages [autochain]: Remove: archive file [/home/abi/fetcher/tmp/autochain-0.0.1.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - processPackages [autochain]: Remove: archive file [/home/abi/fetcher/tmp/autochain-0.0.2.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - main [MainThread]: End processing [autochain]: success
+[2023-07-08 23:36:51] INFO root fetch - processPackages [q2report]: Remove: archive file [/home/abi/fetcher/tmp/q2report-0.1.28.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - processPackages [q2report]: Remove: archive file [/home/abi/fetcher/tmp/q2report-0.1.29.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - main [MainThread]: End processing [q2report]: success
+[2023-07-08 23:36:51] INFO root fetch - processPackages [pwforecast]: Remove: archive file [/home/abi/fetcher/tmp/pwforecast-0.1.11.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - processPackages [pwforecast]: Remove: archive file [/home/abi/fetcher/tmp/pwforecast-1.0.0.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - main [MainThread]: End processing [pwforecast]: success
+[2023-07-08 23:36:51] INFO root fetch - processPackages [arkprts]: Remove: archive file [/home/abi/fetcher/tmp/arkprts-0.2.2.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - processPackages [arkprts]: Remove: archive file [/home/abi/fetcher/tmp/arkprts-0.2.3.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - main [MainThread]: End processing [arkprts]: success
+[2023-07-08 23:36:51] INFO root fetch - processPackages [flow-models]: Remove: archive file [/home/abi/fetcher/tmp/flow_models-1.1.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - processPackages [flow-models]: Remove: archive file [/home/abi/fetcher/tmp/flow_models-1.4.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - main [MainThread]: End processing [flow-models]: success
+[2023-07-08 23:36:51] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202307062345.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202307072345.tar.gz]
+[2023-07-08 23:36:51] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-08 23:36:51] INFO root fetch - main [MainThread]: Store serial: [18815989]
