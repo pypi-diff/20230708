@@ -20822,3 +20822,42 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 20:39:57] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.2.tar.gz]
 [2023-07-08 20:39:57] INFO root fetch - main [MainThread]: End processing [pypdfe]: success
 [2023-07-08 20:39:57] INFO root fetch - main [MainThread]: Store serial: [18815143]
+[2023-07-08 20:45:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815143]
+[2023-07-08 20:45:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 20:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitlabci-local
+[2023-07-08 20:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx-basic-ng
+[2023-07-08 20:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fundaml
+[2023-07-08 20:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqd-song-edit
+[2023-07-08 20:45:06] INFO root fetch - processPackages [sphinx-basic-ng]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-07-08 20:45:06] INFO root fetch - processPackages [fundaml]: New version: [0.1.29] Old Version: [0.1.28]
+[2023-07-08 20:45:06] INFO root fetch - processPackages [sqd-song-edit]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-08 20:45:06] INFO root fetch - processPackages [gitlabci-local]: New version: [7.1.0] Old Version: [7.0.1]
+[2023-07-08 20:45:06] INFO root fetch - processPackages [sphinx-basic-ng]: Downloading https://files.pythonhosted.org/packages/80/77/df8674b4c0eb26d5a3817858ec83f103389c7c1ce31f7d31b13394a6ff0e/sphinx_basic_ng-1.0.0b1.tar.gz
+[2023-07-08 20:45:06] INFO root fetch - processPackages [fundaml]: Downloading https://files.pythonhosted.org/packages/37/9f/d34382c293510d9706e03cbcb55a0c842078b11bfcc8ee17ad58dcce1bb9/fundaml-0.1.28.tar.gz
+[2023-07-08 20:45:06] INFO root fetch - processPackages [gitlabci-local]: Downloading https://files.pythonhosted.org/packages/26/42/73b813f8de48d9b13f06f289eca36ec9737688eb3ef6032cfeca59a9bb1b/gitlabci_local-7.0.1-py3-none-any.whl
+[2023-07-08 20:45:06] INFO root fetch - processPackages [sqd-song-edit]: Downloading https://files.pythonhosted.org/packages/61/cc/ca533718dd42a12ade4f9f0c4e65a7672297490199b0b2b0eeec5b64b80e/sqd-song-edit-1.0.0.tar.gz
+[2023-07-08 20:45:06] INFO root fetch - processPackages [sphinx-basic-ng]: Downloading https://files.pythonhosted.org/packages/98/0b/a866924ded68efec7a1759587a4e478aec7559d8165fac8b2ad1c0e774d6/sphinx_basic_ng-1.0.0b2.tar.gz
+[2023-07-08 20:45:06] INFO root fetch - processPackages [fundaml]: Downloading https://files.pythonhosted.org/packages/55/25/bfb36372197126ee1cb2144d78042a9665778671e5e02ffc7705de84087e/fundaml-0.1.29.tar.gz
+[2023-07-08 20:45:06] INFO root fetch - processPackages [gitlabci-local]: Downloading https://files.pythonhosted.org/packages/c1/7d/d842db00d10c2a1aff9fb44ffe4499efdcb16d2f085d10df47dd3b7b6051/gitlabci_local-7.1.0-py3-none-any.whl
+[2023-07-08 20:45:06] INFO root fetch - processPackages [sqd-song-edit]: Downloading https://files.pythonhosted.org/packages/36/8e/fac5676e4c87fef55a382aa8f75aa60c22a49fcc6742a112d48d36f20d07/sqd-song-edit-1.0.1.tar.gz
+[2023-07-08 20:45:06] INFO root fetch - processPackages [sphinx-basic-ng]: executing diffoscope
+[2023-07-08 20:45:06] INFO root fetch - processPackages [sphinx-basic-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_basic_ng-1.0.0b1.tar.gz tmp/sphinx_basic_ng-1.0.0b2.tar.gz --markdown 20230708/s/sphinx-basic-ng/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-07-08 20:45:06] INFO root fetch - processPackages [fundaml]: executing diffoscope
+[2023-07-08 20:45:06] INFO root fetch - processPackages [fundaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fundaml-0.1.28.tar.gz tmp/fundaml-0.1.29.tar.gz --markdown 20230708/f/fundaml/0.1.28-0.1.29/diff.md --exclude *.pyd
+[2023-07-08 20:45:06] INFO root fetch - processPackages [sqd-song-edit]: executing diffoscope
+[2023-07-08 20:45:06] INFO root fetch - processPackages [gitlabci-local]: executing diffoscope
+[2023-07-08 20:45:06] INFO root fetch - processPackages [sqd-song-edit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqd-song-edit-1.0.0.tar.gz tmp/sqd-song-edit-1.0.1.tar.gz --markdown 20230708/s/sqd-song-edit/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 20:45:06] INFO root fetch - processPackages [gitlabci-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabci_local-7.0.1-py3-none-any.whl.zip tmp/gitlabci_local-7.1.0-py3-none-any.whl.zip --markdown 20230708/g/gitlabci-local/7.0.1-7.1.0/diff.md --exclude *.pyd
+[2023-07-08 20:45:07] INFO root fetch - processPackages [fundaml]: Remove: archive file [/home/abi/fetcher/tmp/fundaml-0.1.28.tar.gz]
+[2023-07-08 20:45:07] INFO root fetch - processPackages [fundaml]: Remove: archive file [/home/abi/fetcher/tmp/fundaml-0.1.29.tar.gz]
+[2023-07-08 20:45:07] INFO root fetch - main [MainThread]: End processing [fundaml]: success
+[2023-07-08 20:45:07] INFO root fetch - processPackages [gitlabci-local]: Remove: archive file [/home/abi/fetcher/tmp/gitlabci_local-7.0.1-py3-none-any.whl.zip]
+[2023-07-08 20:45:07] INFO root fetch - processPackages [gitlabci-local]: Remove: archive file [/home/abi/fetcher/tmp/gitlabci_local-7.1.0-py3-none-any.whl.zip]
+[2023-07-08 20:45:07] INFO root fetch - main [MainThread]: End processing [gitlabci-local]: success
+[2023-07-08 20:45:08] INFO root fetch - processPackages [sqd-song-edit]: Remove: archive file [/home/abi/fetcher/tmp/sqd-song-edit-1.0.0.tar.gz]
+[2023-07-08 20:45:08] INFO root fetch - processPackages [sqd-song-edit]: Remove: archive file [/home/abi/fetcher/tmp/sqd-song-edit-1.0.1.tar.gz]
+[2023-07-08 20:45:08] INFO root fetch - main [MainThread]: End processing [sqd-song-edit]: success
+[2023-07-08 20:45:08] INFO root fetch - processPackages [sphinx-basic-ng]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_basic_ng-1.0.0b1.tar.gz]
+[2023-07-08 20:45:08] INFO root fetch - processPackages [sphinx-basic-ng]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_basic_ng-1.0.0b2.tar.gz]
+[2023-07-08 20:45:08] INFO root fetch - main [MainThread]: End processing [sphinx-basic-ng]: success
+[2023-07-08 20:45:08] INFO root fetch - main [MainThread]: Store serial: [18815156]
