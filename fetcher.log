@@ -16972,3 +16972,98 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 15:25:28] INFO root fetch - processPackages [PyQt6-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Frameless-Window-0.1.2.tar.gz]
 [2023-07-08 15:25:28] INFO root fetch - main [MainThread]: End processing [PyQt6-Frameless-Window]: success
 [2023-07-08 15:25:28] INFO root fetch - main [MainThread]: Store serial: [18813364]
+[2023-07-08 15:30:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813364]
+[2023-07-08 15:30:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-08 15:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CEEMDAN-LSTM
+[2023-07-08 15:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: winter
+[2023-07-08 15:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs-models
+[2023-07-08 15:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fbgemm-gpu-nightly
+[2023-07-08 15:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lfinancial
+[2023-07-08 15:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rendersrt
+[2023-07-08 15:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: femr
+[2023-07-08 15:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: embedsrt
+[2023-07-08 15:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: femr-cuda
+[2023-07-08 15:30:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: femr-oldcpu
+[2023-07-08 15:30:37] INFO root fetch - processPackages [femr-cuda]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 15:30:37] INFO root fetch - processPackages [CEEMDAN-LSTM]: New version: [1.2b2] Old Version: [1.2b1]
+[2023-07-08 15:30:37] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.7] Old Version: [2023.7.6]
+[2023-07-08 15:30:37] INFO root fetch - processPackages [lfinancial]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-08 15:30:37] INFO root fetch - processPackages [embedsrt]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 15:30:37] INFO root fetch - processPackages [femr-oldcpu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 15:30:37] INFO root fetch - processPackages [rendersrt]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-08 15:30:37] INFO root fetch - processPackages [femr]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 15:30:37] INFO root fetch - processPackages [winter]: New version: [9.6.4] Old Version: [9.6.3]
+[2023-07-08 15:30:37] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-07-08 15:30:37] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/e8/cb/1152f3a4b5353d6d2cd99b4167c1f1bdbe88c1c10202102b20ec6227cb0a/fbgemm_gpu_nightly-2023.7.6-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-08 15:30:37] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/94/39/b0d778cb0e1b7852324bcd43d08d1f6cf0a2ad3f8406d15f5e58529c9b26/lfinancial-0.2.3.tar.gz
+[2023-07-08 15:30:37] INFO root fetch - processPackages [CEEMDAN-LSTM]: Downloading https://files.pythonhosted.org/packages/ba/a4/006f532bdebf8fac93f4982fa71138dfb1b8dda46e05855d663add8d2aaf/CEEMDAN_LSTM-1.2b1.tar.gz
+[2023-07-08 15:30:37] INFO root fetch - processPackages [femr-cuda]: Downloading https://files.pythonhosted.org/packages/67/7f/df7956701c7ea7a0fbaa637d2d8a9b688fbd5b01b2646fa917c7a6a5675b/femr_cuda-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-08 15:30:37] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-07-08 15:30:38] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 262954087>=10485760
+[2023-07-08 15:30:38] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: leechcorepyc
+[2023-07-08 15:30:38] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-08 15:30:38] INFO root fetch - processPackages [rendersrt]: Downloading https://files.pythonhosted.org/packages/0c/70/6e8a1d2005c98cb48ffa381aba5ad6e965f5c2753d18b5659bd4ed32d176/rendersrt-0.0.7.tar.gz
+[2023-07-08 15:30:38] INFO root fetch - processPackages [embedsrt]: Downloading https://files.pythonhosted.org/packages/07/f2/0e86630389b7b86681003aa25c172d1a77504ef6941994c133926f402881/embedsrt-0.0.2.tar.gz
+[2023-07-08 15:30:38] INFO root fetch - processPackages [femr]: Downloading https://files.pythonhosted.org/packages/ff/bf/0e8a5ba345650ad69da87255688668f9c2318f9cb544d8278dd2a37fcffb/femr-0.1.8.tar.gz
+[2023-07-08 15:30:38] INFO root fetch - processPackages [winter]: Downloading https://files.pythonhosted.org/packages/46/8a/816fba55ee7b4f089bab594def4e1f6d52ff11618d5c02c388eb2ca05c8e/winter-9.6.3.tar.gz
+[2023-07-08 15:30:38] INFO root fetch - processPackages [leechcorepyc]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-07-08 15:30:38] INFO root fetch - processPackages [femr-oldcpu]: Downloading https://files.pythonhosted.org/packages/cb/f3/e541dc14821d86ba255ff4b11d13f991266c95f4efcdad29c10546926229/femr_oldcpu-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-08 15:30:38] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-07-08 15:30:38] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/5b/a1/763721673092831f0638898c6b33bceb0249a56807d92889148b09acef71/lfinancial-0.2.4.tar.gz
+[2023-07-08 15:30:38] INFO root fetch - processPackages [CEEMDAN-LSTM]: Downloading https://files.pythonhosted.org/packages/8f/6c/53d6c32e5ed5d0da9b9b4e8456470de45ed81c92167043d9a460c42b1488/CEEMDAN_LSTM-1.2b2.tar.gz
+[2023-07-08 15:30:38] INFO root fetch - processPackages [rendersrt]: Downloading https://files.pythonhosted.org/packages/b0/bf/3e5d72ba1d061966f83eedbd64a6d9cf15f03d0d1008128b7ebc2935455c/rendersrt-0.0.8.tar.gz
+[2023-07-08 15:30:38] INFO root fetch - processPackages [leechcorepyc]: Downloading https://files.pythonhosted.org/packages/54/9e/10b361cfa728f728beecfacdc1e4fc2ca0462f56c8e73fd7e8738f5c8f36/leechcorepyc-2.8.0.tar.gz
+[2023-07-08 15:30:38] INFO root fetch - processPackages [embedsrt]: Downloading https://files.pythonhosted.org/packages/6b/6b/d65f82ba906234ff5249a8ee6c4c60a977f2c76288f68a4803f7c18c00dc/embedsrt-0.0.3.tar.gz
+[2023-07-08 15:30:38] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-07-08 15:30:38] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230708/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-07-08 15:30:38] INFO root fetch - processPackages [CEEMDAN-LSTM]: executing diffoscope
+[2023-07-08 15:30:38] INFO root fetch - processPackages [CEEMDAN-LSTM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CEEMDAN_LSTM-1.2b1.tar.gz tmp/CEEMDAN_LSTM-1.2b2.tar.gz --markdown 20230708/C/CEEMDAN-LSTM/1.2b1-1.2b2/diff.md --exclude *.pyd
+[2023-07-08 15:30:38] INFO root fetch - processPackages [femr]: Downloading https://files.pythonhosted.org/packages/af/d3/670b5bad856d66539d238ac884d1ebd052c45afc6f32cf0ffc575beacea4/femr-0.1.9.tar.gz
+[2023-07-08 15:30:38] INFO root fetch - processPackages [femr-cuda]: Downloading https://files.pythonhosted.org/packages/26/8e/156db16a8eb271d92dfa1dd8049a27788b892c80efc5ba0a95e17cce7afb/femr_cuda-0.1.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-08 15:30:38] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-07-08 15:30:38] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.2.3.tar.gz tmp/lfinancial-0.2.4.tar.gz --markdown 20230708/l/lfinancial/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-08 15:30:38] INFO root fetch - processPackages [rendersrt]: executing diffoscope
+[2023-07-08 15:30:38] INFO root fetch - processPackages [rendersrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rendersrt-0.0.7.tar.gz tmp/rendersrt-0.0.8.tar.gz --markdown 20230708/r/rendersrt/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-08 15:30:38] INFO root fetch - processPackages [winter]: Downloading https://files.pythonhosted.org/packages/e8/5d/636b014ae9453463f8cd456911d870d57243f605ea0324c1f5888edb5ed6/winter-9.6.4.tar.gz
+[2023-07-08 15:30:38] INFO root fetch - processPackages [embedsrt]: executing diffoscope
+[2023-07-08 15:30:38] INFO root fetch - processPackages [embedsrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedsrt-0.0.2.tar.gz tmp/embedsrt-0.0.3.tar.gz --markdown 20230708/e/embedsrt/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 15:30:38] INFO root fetch - processPackages [femr-oldcpu]: Downloading https://files.pythonhosted.org/packages/03/88/1f2d222eb171672716ca49fe10a209cd25e416a7626b69190060d3a6fe49/femr_oldcpu-0.1.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-08 15:30:38] WARNING root fetch - processPackages [femr]: Skipping package: exceeds size limit 11698301>=10485760
+[2023-07-08 15:30:38] INFO root fetch - main [MainThread]: End processing [femr] error
+[2023-07-08 15:30:39] INFO root fetch - processPackages [leechcorepyc]: Downloading https://files.pythonhosted.org/packages/e6/52/24292fbdc9d104ec939737b4a4b656fcc87a4a658d6cf8281f31a4ae82e8/leechcorepyc-2.8.1.tar.gz
+[2023-07-08 15:30:39] INFO root fetch - processPackages [femr-cuda]: executing diffoscope
+[2023-07-08 15:30:39] INFO root fetch - processPackages [femr-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femr_cuda-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/femr_cuda-0.1.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230708/f/femr-cuda/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 15:30:39] INFO root fetch - processPackages [leechcorepyc]: executing diffoscope
+[2023-07-08 15:30:39] INFO root fetch - processPackages [leechcorepyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leechcorepyc-2.8.0.tar.gz tmp/leechcorepyc-2.8.1.tar.gz --markdown 20230708/l/leechcorepyc/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-07-08 15:30:39] INFO root fetch - processPackages [femr-oldcpu]: executing diffoscope
+[2023-07-08 15:30:39] INFO root fetch - processPackages [femr-oldcpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femr_oldcpu-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/femr_oldcpu-0.1.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230708/f/femr-oldcpu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 15:30:39] INFO root fetch - processPackages [winter]: executing diffoscope
+[2023-07-08 15:30:39] INFO root fetch - processPackages [winter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winter-9.6.3.tar.gz tmp/winter-9.6.4.tar.gz --markdown 20230708/w/winter/9.6.3-9.6.4/diff.md --exclude *.pyd
+[2023-07-08 15:30:40] INFO root fetch - processPackages [embedsrt]: Remove: archive file [/home/abi/fetcher/tmp/embedsrt-0.0.2.tar.gz]
+[2023-07-08 15:30:40] INFO root fetch - processPackages [embedsrt]: Remove: archive file [/home/abi/fetcher/tmp/embedsrt-0.0.3.tar.gz]
+[2023-07-08 15:30:40] INFO root fetch - main [MainThread]: End processing [embedsrt]: success
+[2023-07-08 15:30:40] INFO root fetch - processPackages [rendersrt]: Remove: archive file [/home/abi/fetcher/tmp/rendersrt-0.0.7.tar.gz]
+[2023-07-08 15:30:40] INFO root fetch - processPackages [rendersrt]: Remove: archive file [/home/abi/fetcher/tmp/rendersrt-0.0.8.tar.gz]
+[2023-07-08 15:30:40] INFO root fetch - main [MainThread]: End processing [rendersrt]: success
+[2023-07-08 15:30:40] INFO root fetch - processPackages [CEEMDAN-LSTM]: Remove: archive file [/home/abi/fetcher/tmp/CEEMDAN_LSTM-1.2b1.tar.gz]
+[2023-07-08 15:30:40] INFO root fetch - processPackages [CEEMDAN-LSTM]: Remove: archive file [/home/abi/fetcher/tmp/CEEMDAN_LSTM-1.2b2.tar.gz]
+[2023-07-08 15:30:40] INFO root fetch - main [MainThread]: End processing [CEEMDAN-LSTM]: success
+[2023-07-08 15:30:40] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.2.3.tar.gz]
+[2023-07-08 15:30:40] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.2.4.tar.gz]
+[2023-07-08 15:30:40] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-07-08 15:30:40] INFO root fetch - processPackages [leechcorepyc]: Remove: archive file [/home/abi/fetcher/tmp/leechcorepyc-2.8.0.tar.gz]
+[2023-07-08 15:30:40] INFO root fetch - processPackages [leechcorepyc]: Remove: archive file [/home/abi/fetcher/tmp/leechcorepyc-2.8.1.tar.gz]
+[2023-07-08 15:30:40] INFO root fetch - main [MainThread]: End processing [leechcorepyc]: success
+[2023-07-08 15:30:40] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2023-07-08 15:30:40] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2023-07-08 15:30:40] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-07-08 15:30:40] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.3.tar.gz]
+[2023-07-08 15:30:40] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.4.tar.gz]
+[2023-07-08 15:30:40] INFO root fetch - main [MainThread]: End processing [winter]: success
+[2023-07-08 15:30:47] INFO root fetch - processPackages [femr-oldcpu]: Remove: archive file [/home/abi/fetcher/tmp/femr_oldcpu-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-08 15:30:47] INFO root fetch - processPackages [femr-oldcpu]: Remove: archive file [/home/abi/fetcher/tmp/femr_oldcpu-0.1.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-08 15:30:47] INFO root fetch - main [MainThread]: End processing [femr-oldcpu]: success
+[2023-07-08 15:30:47] INFO root fetch - processPackages [femr-cuda]: Remove: archive file [/home/abi/fetcher/tmp/femr_cuda-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-08 15:30:47] INFO root fetch - processPackages [femr-cuda]: Remove: archive file [/home/abi/fetcher/tmp/femr_cuda-0.1.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-08 15:30:47] INFO root fetch - main [MainThread]: End processing [femr-cuda]: success
+[2023-07-08 15:30:47] INFO root fetch - main [MainThread]: Store serial: [18813417]
