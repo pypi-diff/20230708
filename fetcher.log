@@ -14677,3 +14677,68 @@
 [2023-07-08 12:17:30] INFO root fetch - processPackages [fractal-repositories]: Remove: archive file [/home/abi/fetcher/tmp/fractal_repositories-0.0.6.tar.gz]
 [2023-07-08 12:17:30] INFO root fetch - main [MainThread]: End processing [fractal-repositories]: success
 [2023-07-08 12:17:30] INFO root fetch - main [MainThread]: Store serial: [18812356]
+[2023-07-08 12:22:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812356]
+[2023-07-08 12:22:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-08 12:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azure-native
+[2023-07-08 12:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomlite
+[2023-07-08 12:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opendigger-cli
+[2023-07-08 12:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lichenggong
+[2023-07-08 12:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hezar
+[2023-07-08 12:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: 1000pipClimberSystem-Free-Download
+[2023-07-08 12:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: codeboxapi
+[2023-07-08 12:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: piel
+[2023-07-08 12:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: selenium-simulate-ui
+[2023-07-08 12:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: decorator-parser
+[2023-07-08 12:22:41] INFO root fetch - processPackages [atomlite]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-08 12:22:41] WARNING root fetch - processPackages [codeboxapi]: Skipping, unable to determine old version
+[2023-07-08 12:22:41] INFO root fetch - main [MainThread]: End processing [codeboxapi] error
+[2023-07-08 12:22:41] INFO root fetch - processPackages [lichenggong]: New version: [0.3.0.0] Old Version: [0.2.3.4]
+[2023-07-08 12:22:41] INFO root fetch - processPackages [hezar]: New version: [0.14.2] Old Version: [0.14.1]
+[2023-07-08 12:22:41] WARNING root fetch - processPackages [opendigger-cli]: Skipping, unable to determine old version
+[2023-07-08 12:22:41] INFO root fetch - main [MainThread]: End processing [opendigger-cli] error
+[2023-07-08 12:22:41] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.0.0b3] Old Version: [2.0.0b2]
+[2023-07-08 12:22:41] WARNING root fetch - processPackages [1000pipClimberSystem-Free-Download]: Skipping, unable to determine old version
+[2023-07-08 12:22:41] INFO root fetch - main [MainThread]: End processing [1000pipClimberSystem-Free-Download] error
+[2023-07-08 12:22:41] INFO root fetch - processPackages [decorator-parser]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-08 12:22:41] WARNING root fetch - processPackages [selenium-simulate-ui]: Skipping, unable to determine old version
+[2023-07-08 12:22:41] INFO root fetch - main [MainThread]: End processing [selenium-simulate-ui] error
+[2023-07-08 12:22:41] INFO root fetch - processPackages [piel]: New version: [0.0.38] Old Version: [0.0.37]
+[2023-07-08 12:22:41] INFO root fetch - processPackages [lichenggong]: Downloading https://files.pythonhosted.org/packages/0a/0a/12c8974b90b5737b46f07e9f1bae9533f42da9e90851debcb2c8d4580855/lichenggong-0.2.3.4.tar.gz
+[2023-07-08 12:22:41] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/d6/75/2b9c4107995ad145e70f1f4b62d98663ba560cba49a7157ff947753a0157/hezar-0.14.1.tar.gz
+[2023-07-08 12:22:41] INFO root fetch - processPackages [atomlite]: Downloading https://files.pythonhosted.org/packages/c5/7e/f41c920d56475a8e5e11f4c461e957fcaa8dc52ae4a14a33e0cd6e3d5679/atomlite-1.3.1.tar.gz
+[2023-07-08 12:22:41] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/01/19/190cb9e341bad5ad2a98fc3889fd014c9cf7e57f48e6e42ed5a40b2b64bf/pulumi_azure_native-2.0.0b2.tar.gz
+[2023-07-08 12:22:41] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/49/8d/111e54a6bbd01ca6a30bbe2d7f8b05c2ef6bf550827238f347ba12991b26/piel-0.0.37.tar.gz
+[2023-07-08 12:22:41] INFO root fetch - processPackages [decorator-parser]: Downloading https://files.pythonhosted.org/packages/1e/92/d00955789205f7f27dee5892f4403a2e2ec4ce81e20b7746182257980c77/decorator_parser-1.0.4.tar.gz
+[2023-07-08 12:22:41] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 20902255>=10485760
+[2023-07-08 12:22:41] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-07-08 12:22:41] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/c9/9c/8d5b8346fd14787bbb4fea8987274d84365b5a72e32b7c134691bcf35e4f/hezar-0.14.2.tar.gz
+[2023-07-08 12:22:41] INFO root fetch - processPackages [lichenggong]: Downloading https://files.pythonhosted.org/packages/fa/d9/55cc910526ac1ebc16ab743f118616902a90a8ec2d91825d2d1f9c21f737/lichenggong-0.3.0.0.tar.gz
+[2023-07-08 12:22:41] INFO root fetch - processPackages [atomlite]: Downloading https://files.pythonhosted.org/packages/b5/93/6706206e88c0c5c2e561faac0a9694503d04a0bc652ece1c893ec641946f/atomlite-1.3.2.tar.gz
+[2023-07-08 12:22:41] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-07-08 12:22:41] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.14.1.tar.gz tmp/hezar-0.14.2.tar.gz --markdown 20230708/h/hezar/0.14.1-0.14.2/diff.md --exclude *.pyd
+[2023-07-08 12:22:41] INFO root fetch - processPackages [decorator-parser]: Downloading https://files.pythonhosted.org/packages/c7/ec/853bdcf6eefeabd361f59c3ea270c20d300894733a6aa381a3bee072112a/decorator_parser-1.0.5-py3-none-any.whl
+[2023-07-08 12:22:41] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/cb/bf/906a4cc0363c0a8a48871b44cdb85f59ff7bcf23bdc18b4ade88f2184768/piel-0.0.38.tar.gz
+[2023-07-08 12:22:41] INFO root fetch - processPackages [atomlite]: executing diffoscope
+[2023-07-08 12:22:41] INFO root fetch - processPackages [atomlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomlite-1.3.1.tar.gz tmp/atomlite-1.3.2.tar.gz --markdown 20230708/a/atomlite/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-08 12:22:41] INFO root fetch - processPackages [lichenggong]: executing diffoscope
+[2023-07-08 12:22:41] INFO root fetch - processPackages [lichenggong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lichenggong-0.2.3.4.tar.gz tmp/lichenggong-0.3.0.0.tar.gz --markdown 20230708/l/lichenggong/0.2.3.4-0.3.0.0/diff.md --exclude *.pyd
+[2023-07-08 12:22:41] INFO root fetch - processPackages [decorator-parser]: executing diffoscope
+[2023-07-08 12:22:41] INFO root fetch - processPackages [decorator-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorator_parser-1.0.4.tar.gz tmp/decorator_parser-1.0.5-py3-none-any.whl.zip --markdown 20230708/d/decorator-parser/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-08 12:22:41] INFO root fetch - processPackages [piel]: executing diffoscope
+[2023-07-08 12:22:41] INFO root fetch - processPackages [piel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piel-0.0.37.tar.gz tmp/piel-0.0.38.tar.gz --markdown 20230708/p/piel/0.0.37-0.0.38/diff.md --exclude *.pyd
+[2023-07-08 12:22:42] INFO root fetch - processPackages [atomlite]: Remove: archive file [/home/abi/fetcher/tmp/atomlite-1.3.1.tar.gz]
+[2023-07-08 12:22:42] INFO root fetch - processPackages [atomlite]: Remove: archive file [/home/abi/fetcher/tmp/atomlite-1.3.2.tar.gz]
+[2023-07-08 12:22:42] INFO root fetch - main [MainThread]: End processing [atomlite]: success
+[2023-07-08 12:22:42] INFO root fetch - processPackages [lichenggong]: Remove: archive file [/home/abi/fetcher/tmp/lichenggong-0.2.3.4.tar.gz]
+[2023-07-08 12:22:42] INFO root fetch - processPackages [lichenggong]: Remove: archive file [/home/abi/fetcher/tmp/lichenggong-0.3.0.0.tar.gz]
+[2023-07-08 12:22:42] INFO root fetch - main [MainThread]: End processing [lichenggong]: success
+[2023-07-08 12:22:42] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.14.1.tar.gz]
+[2023-07-08 12:22:42] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.14.2.tar.gz]
+[2023-07-08 12:22:42] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-07-08 12:22:42] INFO root fetch - processPackages [decorator-parser]: Remove: archive file [/home/abi/fetcher/tmp/decorator_parser-1.0.4.tar.gz]
+[2023-07-08 12:22:42] INFO root fetch - processPackages [decorator-parser]: Remove: archive file [/home/abi/fetcher/tmp/decorator_parser-1.0.5-py3-none-any.whl.zip]
+[2023-07-08 12:22:42] INFO root fetch - main [MainThread]: End processing [decorator-parser]: success
+[2023-07-08 12:22:43] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.37.tar.gz]
+[2023-07-08 12:22:43] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.38.tar.gz]
+[2023-07-08 12:22:43] INFO root fetch - main [MainThread]: End processing [piel]: success
+[2023-07-08 12:22:43] INFO root fetch - main [MainThread]: Store serial: [18812390]
