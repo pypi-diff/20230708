@@ -15128,3 +15128,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 12:48:45] INFO root fetch - processPackages [vessim]: Remove: archive file [/home/abi/fetcher/tmp/vessim-0.1.0.tar.gz]
 [2023-07-08 12:48:45] INFO root fetch - main [MainThread]: End processing [vessim]: success
 [2023-07-08 12:48:45] INFO root fetch - main [MainThread]: Store serial: [18812568]
+[2023-07-08 12:53:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812568]
+[2023-07-08 12:53:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 12:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hat-drivers
+[2023-07-08 12:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slib-sorter
+[2023-07-08 12:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: samus-logging
+[2023-07-08 12:53:54] INFO root fetch - processPackages [slib-sorter]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-08 12:53:54] INFO root fetch - processPackages [samus-logging]: New version: [0.1.89] Old Version: [0.1.88]
+[2023-07-08 12:53:54] INFO root fetch - processPackages [hat-drivers]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-07-08 12:53:54] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/fe/5b/43e31ddc8c33cd1910dfd302a1441f666a893cc4ec2923b6c73e8f59af24/slib-sorter-1.4.1.tar.gz
+[2023-07-08 12:53:55] INFO root fetch - processPackages [samus-logging]: Downloading https://files.pythonhosted.org/packages/fa/88/f04a4dd9d795533bdb2f40bae235d9a9f3a1709cf5ea1a47b5e6e5c17ac3/samus-logging-0.1.88.tar.gz
+[2023-07-08 12:53:55] INFO root fetch - processPackages [hat-drivers]: Downloading https://files.pythonhosted.org/packages/bb/0e/3deca62b8cf028be043e4c745056433957f7732a03d966617c974481e439/hat_drivers-0.6.9-cp38.cp39.cp310-none-any.whl
+[2023-07-08 12:53:55] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/09/63/331f9752dcfcaeae8128cdea2b45ce47ce4d2f9492d540ad292a9af8347b/slib-sorter-1.4.2.tar.gz
+[2023-07-08 12:53:55] INFO root fetch - processPackages [samus-logging]: Downloading https://files.pythonhosted.org/packages/85/9d/b80df9eb1394d5cf990ee9b85a705b8ba788169096ee5a4a6a73508a8086/samus-logging-0.1.89.tar.gz
+[2023-07-08 12:53:55] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 12:53:55] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.4.1.tar.gz tmp/slib-sorter-1.4.2.tar.gz --markdown 20230708/s/slib-sorter/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-08 12:53:55] INFO root fetch - processPackages [hat-drivers]: Downloading https://files.pythonhosted.org/packages/b5/49/70fa5dbd6d1e40b3db2e47fe71ccc6bb4fceeddf58cc36f3b24ed241ec66/hat_drivers-0.7.0-cp310.cp311-abi3-win_amd64.whl
+[2023-07-08 12:53:55] INFO root fetch - processPackages [samus-logging]: executing diffoscope
+[2023-07-08 12:53:55] INFO root fetch - processPackages [samus-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samus-logging-0.1.88.tar.gz tmp/samus-logging-0.1.89.tar.gz --markdown 20230708/s/samus-logging/0.1.88-0.1.89/diff.md --exclude *.pyd
+[2023-07-08 12:53:55] INFO root fetch - processPackages [hat-drivers]: executing diffoscope
+[2023-07-08 12:53:55] INFO root fetch - processPackages [hat-drivers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_drivers-0.6.9-cp38.cp39.cp310-none-any.whl.zip tmp/hat_drivers-0.7.0-cp310.cp311-abi3-win_amd64.whl.zip --markdown 20230708/h/hat-drivers/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-07-08 12:53:56] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.4.1.tar.gz]
+[2023-07-08 12:53:56] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.4.2.tar.gz]
+[2023-07-08 12:53:56] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 12:53:56] INFO root fetch - processPackages [samus-logging]: Remove: archive file [/home/abi/fetcher/tmp/samus-logging-0.1.88.tar.gz]
+[2023-07-08 12:53:56] INFO root fetch - processPackages [samus-logging]: Remove: archive file [/home/abi/fetcher/tmp/samus-logging-0.1.89.tar.gz]
+[2023-07-08 12:53:56] INFO root fetch - main [MainThread]: End processing [samus-logging]: success
+[2023-07-08 12:53:57] INFO root fetch - processPackages [hat-drivers]: Remove: archive file [/home/abi/fetcher/tmp/hat_drivers-0.6.9-cp38.cp39.cp310-none-any.whl.zip]
+[2023-07-08 12:53:57] INFO root fetch - processPackages [hat-drivers]: Remove: archive file [/home/abi/fetcher/tmp/hat_drivers-0.7.0-cp310.cp311-abi3-win_amd64.whl.zip]
+[2023-07-08 12:53:57] INFO root fetch - main [MainThread]: End processing [hat-drivers]: success
+[2023-07-08 12:53:57] INFO root fetch - main [MainThread]: Store serial: [18812581]
