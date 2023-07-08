@@ -10425,3 +10425,36 @@
 [2023-07-08 04:34:26] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
 [2023-07-08 04:34:26] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-07-08 04:34:26] INFO root fetch - main [MainThread]: Store serial: [18810328]
+[2023-07-08 04:39:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810328]
+[2023-07-08 04:39:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 04:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bebas
+[2023-07-08 04:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-nodeeditor
+[2023-07-08 04:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slib-sorter
+[2023-07-08 04:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meshed
+[2023-07-08 04:39:35] INFO root fetch - processPackages [jupyterlab-nodeeditor]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-08 04:39:35] INFO root fetch - processPackages [slib-sorter]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-08 04:39:35] WARNING root fetch - processPackages [bebas]: Skipping, unable to determine old version
+[2023-07-08 04:39:35] INFO root fetch - main [MainThread]: End processing [bebas] error
+[2023-07-08 04:39:35] INFO root fetch - processPackages [meshed]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-08 04:39:35] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/c3/fb/69fab794662f125f2cf8131a1711c7d73274bda85ee6804d4612bb749549/slib-sorter-1.1.2.tar.gz
+[2023-07-08 04:39:35] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/ec/66/ec18e469de7a31199ec17594f774aa629498f1f4b963deea16117918bef2/meshed-0.1.98.tar.gz
+[2023-07-08 04:39:35] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/2e/89/f849a0da4c0603ff09e9b5ae474353b314f5063d196dc35e5ec581de7237/jupyterlab_nodeeditor-1.0.3.tar.gz
+[2023-07-08 04:39:36] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/52/c3/21e2c03ab6607bd25fb9f6efb994798b3e75db906daf491bf961ee733450/meshed-0.1.99.tar.gz
+[2023-07-08 04:39:36] INFO root fetch - processPackages [meshed]: executing diffoscope
+[2023-07-08 04:39:36] INFO root fetch - processPackages [meshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshed-0.1.98.tar.gz tmp/meshed-0.1.99.tar.gz --markdown 20230708/m/meshed/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-08 04:39:36] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/0f/aa/ce75bffd29f898f38000b707540d787e7c3827a23d10d3df3c0967b5ab1f/slib-sorter-1.1.3.tar.gz
+[2023-07-08 04:39:36] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 04:39:36] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.1.2.tar.gz tmp/slib-sorter-1.1.3.tar.gz --markdown 20230708/s/slib-sorter/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-08 04:39:37] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/2f/db/b99cf9bb91848a0a61a31c6ba5b66701b22dfe52a68631565481d66a1e9c/jupyterlab_nodeeditor-1.0.4.tar.gz
+[2023-07-08 04:39:37] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.1.2.tar.gz]
+[2023-07-08 04:39:37] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.1.3.tar.gz]
+[2023-07-08 04:39:37] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 04:39:37] INFO root fetch - processPackages [meshed]: Remove: archive file [/home/abi/fetcher/tmp/meshed-0.1.98.tar.gz]
+[2023-07-08 04:39:37] INFO root fetch - processPackages [meshed]: Remove: archive file [/home/abi/fetcher/tmp/meshed-0.1.99.tar.gz]
+[2023-07-08 04:39:37] INFO root fetch - main [MainThread]: End processing [meshed]: success
+[2023-07-08 04:39:38] INFO root fetch - processPackages [jupyterlab-nodeeditor]: executing diffoscope
+[2023-07-08 04:39:38] INFO root fetch - processPackages [jupyterlab-nodeeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_nodeeditor-1.0.3.tar.gz tmp/jupyterlab_nodeeditor-1.0.4.tar.gz --markdown 20230708/j/jupyterlab-nodeeditor/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-08 04:39:42] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.3.tar.gz]
+[2023-07-08 04:39:42] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.4.tar.gz]
+[2023-07-08 04:39:42] INFO root fetch - main [MainThread]: End processing [jupyterlab-nodeeditor]: success
+[2023-07-08 04:39:42] INFO root fetch - main [MainThread]: Store serial: [18810346]
