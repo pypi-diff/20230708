@@ -12232,3 +12232,24 @@
 [2023-07-08 07:17:11] INFO root fetch - processPackages [blint]: Remove: archive file [/home/abi/fetcher/tmp/blint-1.0.9.tar.gz]
 [2023-07-08 07:17:11] INFO root fetch - main [MainThread]: End processing [blint]: success
 [2023-07-08 07:17:11] INFO root fetch - main [MainThread]: Store serial: [18811088]
+[2023-07-08 07:22:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811088]
+[2023-07-08 07:22:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-08 07:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scidatalib
+[2023-07-08 07:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litedfs
+[2023-07-08 07:22:20] INFO root fetch - processPackages [scidatalib]: New version: [0.2.6a6] Old Version: [0.2.6a1]
+[2023-07-08 07:22:20] INFO root fetch - processPackages [litedfs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 07:22:20] INFO root fetch - processPackages [litedfs]: Downloading https://files.pythonhosted.org/packages/4d/67/21b118eb247f18ef88879daefc3d8742f6bf61170af29f7a4b1081651086/litedfs-0.0.8-py3-none-any.whl
+[2023-07-08 07:22:20] INFO root fetch - processPackages [scidatalib]: Downloading https://files.pythonhosted.org/packages/f2/e2/b6a5544e0a33f471dd319a3841dbde647e2203ba6ea27d7caedc771acdcf/SciDataLib-0.2.6a1.tar.gz
+[2023-07-08 07:22:21] INFO root fetch - processPackages [scidatalib]: Downloading https://files.pythonhosted.org/packages/89/b7/5e8163a0f12b0b5d42dd47838d14bbe79347a9919d95c46c7b7fca111702/scidatalib-0.2.6a6.tar.gz
+[2023-07-08 07:22:21] INFO root fetch - processPackages [scidatalib]: executing diffoscope
+[2023-07-08 07:22:21] INFO root fetch - processPackages [scidatalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SciDataLib-0.2.6a1.tar.gz tmp/scidatalib-0.2.6a6.tar.gz --markdown 20230708/s/scidatalib/0.2.6a1-0.2.6a6/diff.md --exclude *.pyd
+[2023-07-08 07:22:22] INFO root fetch - processPackages [scidatalib]: Remove: archive file [/home/abi/fetcher/tmp/SciDataLib-0.2.6a1.tar.gz]
+[2023-07-08 07:22:22] INFO root fetch - processPackages [scidatalib]: Remove: archive file [/home/abi/fetcher/tmp/scidatalib-0.2.6a6.tar.gz]
+[2023-07-08 07:22:22] INFO root fetch - main [MainThread]: End processing [scidatalib]: success
+[2023-07-08 07:22:22] INFO root fetch - processPackages [litedfs]: Downloading https://files.pythonhosted.org/packages/db/8a/1383c3a428e08e1e0b5762acc0d1d4011d3dbe4649aa81834449cff63fcb/litedfs-0.0.9.tar.gz
+[2023-07-08 07:22:23] INFO root fetch - processPackages [litedfs]: executing diffoscope
+[2023-07-08 07:22:23] INFO root fetch - processPackages [litedfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litedfs-0.0.8-py3-none-any.whl.zip tmp/litedfs-0.0.9.tar.gz --markdown 20230708/l/litedfs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 07:22:26] INFO root fetch - processPackages [litedfs]: Remove: archive file [/home/abi/fetcher/tmp/litedfs-0.0.8-py3-none-any.whl.zip]
+[2023-07-08 07:22:26] INFO root fetch - processPackages [litedfs]: Remove: archive file [/home/abi/fetcher/tmp/litedfs-0.0.9.tar.gz]
+[2023-07-08 07:22:26] INFO root fetch - main [MainThread]: End processing [litedfs]: success
+[2023-07-08 07:22:26] INFO root fetch - main [MainThread]: Store serial: [18811094]
