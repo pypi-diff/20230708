@@ -18634,3 +18634,102 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 17:32:40] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-0.9.9.tar.gz]
 [2023-07-08 17:32:40] INFO root fetch - main [MainThread]: End processing [volstreet]: success
 [2023-07-08 17:32:40] INFO root fetch - main [MainThread]: Store serial: [18814069]
+[2023-07-08 17:37:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814069]
+[2023-07-08 17:37:49] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-08 17:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logsparsersubsystem
+[2023-07-08 17:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fenjing
+[2023-07-08 17:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bec-ipython-client
+[2023-07-08 17:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bec-lib
+[2023-07-08 17:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bec-scan-server
+[2023-07-08 17:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bec-device-server
+[2023-07-08 17:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bec-scan-bundler
+[2023-07-08 17:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bec-file-writer
+[2023-07-08 17:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bec-dap
+[2023-07-08 17:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bec-scihub
+[2023-07-08 17:37:49] WARNING root fetch - processPackages [logsparsersubsystem]: Skipping, unable to determine old version
+[2023-07-08 17:37:49] INFO root fetch - processPackages [logsparsersubsystem]: Start processing: bec-server
+[2023-07-08 17:37:49] INFO root fetch - main [MainThread]: End processing [logsparsersubsystem] error
+[2023-07-08 17:37:49] WARNING root fetch - processPackages [bec-scihub]: Skipping, unable to determine old version
+[2023-07-08 17:37:49] INFO root fetch - processPackages [bec-scihub]: Start processing: BRScraper
+[2023-07-08 17:37:49] INFO root fetch - main [MainThread]: End processing [bec-scihub] error
+[2023-07-08 17:37:49] INFO root fetch - processPackages [bec-ipython-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-08 17:37:49] INFO root fetch - processPackages [bec-lib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-08 17:37:49] INFO root fetch - processPackages [bec-scan-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-08 17:37:49] INFO root fetch - processPackages [bec-device-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-08 17:37:49] INFO root fetch - processPackages [bec-scan-bundler]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-08 17:37:49] INFO root fetch - processPackages [bec-file-writer]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-08 17:37:49] INFO root fetch - processPackages [fenjing]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-08 17:37:49] INFO root fetch - processPackages [bec-dap]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-08 17:37:49] WARNING root fetch - processPackages [BRScraper]: Skipping, unable to determine old version
+[2023-07-08 17:37:49] INFO root fetch - processPackages [BRScraper]: Start processing: ngmapi
+[2023-07-08 17:37:49] INFO root fetch - main [MainThread]: End processing [BRScraper] error
+[2023-07-08 17:37:49] WARNING root fetch - processPackages [bec-server]: Skipping, unable to determine old version
+[2023-07-08 17:37:49] INFO root fetch - processPackages [bec-server]: Start processing: rydeen-lesson-notebook-bad-code
+[2023-07-08 17:37:49] INFO root fetch - main [MainThread]: End processing [bec-server] error
+[2023-07-08 17:37:50] WARNING root fetch - processPackages [rydeen-lesson-notebook-bad-code]: Skipping, unable to determine old version
+[2023-07-08 17:37:50] INFO root fetch - main [MainThread]: End processing [rydeen-lesson-notebook-bad-code] error
+[2023-07-08 17:37:50] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 17:37:50] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/48/48/edaf21eb459c957d1bcff023f3b2390e31f6af718b7715e7f1921c451b6b/fenjing-0.4.4.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/13/86/3d7c18a8f2dd4f2eb32a19966079123b581a8402d540deca93c3d85e8678/ngmapi-0.0.2.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/80/1a/e0d2150fef3297ea426e95a559ee9e812ea471f758a1591a1e1a31c60bee/bec_ipython_client-0.9.1.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/cb/64/51bf9809484a9277dceabf8baefa5d9d07f80218cb67d4eb998fd7a9473e/bec_scan_server-0.9.1.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/10/72/fd70dd6de9ada1dbf36ab04b738aec40cce0fa10f4f1c12897646c491458/bec_lib-0.9.1.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/81/42/8e41bc83ee85380775dc7e9e78255b1af56834cd7a46730a17c4e265dbdc/bec_device_server-0.9.1.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/fb/88/7e9b38f57dbd367fc0b1f0cf660158da462175cf6c193945c6517f9a1cd0/bec_scan_bundler-0.9.1.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/e6/8d/a8a9a797f782350c5115f92cc8dc16531bb5d41e46e724845ccad8323099/bec_file_writer-0.9.1.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/95/df/2aaddc7df5119e32ae08438452d9bf5a8d6f2646a25b26b3969cbf8f3b2b/bec_dap-0.9.1.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/b0/4e/909c5947c67900d5a5353b013d15608979941228e2803ba80fe9d89a5450/fenjing-0.4.5.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/d4/42/a52b278cd9b6356e2546adcdd8d6d35dcd87ac1f8c1e7ade834aacd70d99/bec_ipython_client-0.9.2.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-08 17:37:50] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.2.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230708/n/ngmapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 17:37:50] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-07-08 17:37:50] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.4.4.tar.gz tmp/fenjing-0.4.5.tar.gz --markdown 20230708/f/fenjing/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/76/7c/92a87c0d5f1866953ec124d11828df00cffb284813bda708dbf13c08f73d/bec_device_server-0.9.2.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/7f/ed/38cb719532c4fd836921020e92576363fd5cccb784d31938729ac9947764/bec_lib-0.9.2.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/38/05/95cfc86a9861bf5c43f55cc0bcaec195e42103f67c68171ea89fb71499d2/bec_scan_server-0.9.2.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/35/07/ef4b7da734470cb7d26a00dba0cd0319c44760d855741371f66e48f5fc45/bec_file_writer-0.9.2.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/82/ab/c66a690c813002dd285c0a4b874b05e93016ddacf9e837a9598f76d3dedf/bec_dap-0.9.2.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/cd/e2/d981aa11cf19542a4a10271b46de366633f111d96196b24ab991430ce1a3/bec_scan_bundler-0.9.2.tar.gz
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-0.9.1.tar.gz tmp/bec_ipython_client-0.9.2.tar.gz --markdown 20230708/b/bec-ipython-client/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-device-server]: executing diffoscope
+[2023-07-08 17:37:50] INFO root fetch - processPackages [bec-device-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_device_server-0.9.1.tar.gz tmp/bec_device_server-0.9.2.tar.gz --markdown 20230708/b/bec-device-server/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-08 17:37:51] INFO root fetch - processPackages [bec-file-writer]: executing diffoscope
+[2023-07-08 17:37:51] INFO root fetch - processPackages [bec-file-writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_file_writer-0.9.1.tar.gz tmp/bec_file_writer-0.9.2.tar.gz --markdown 20230708/b/bec-file-writer/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-08 17:37:51] INFO root fetch - processPackages [bec-scan-server]: executing diffoscope
+[2023-07-08 17:37:51] INFO root fetch - processPackages [bec-scan-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_server-0.9.1.tar.gz tmp/bec_scan_server-0.9.2.tar.gz --markdown 20230708/b/bec-scan-server/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-08 17:37:51] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2023-07-08 17:37:51] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-0.9.1.tar.gz tmp/bec_lib-0.9.2.tar.gz --markdown 20230708/b/bec-lib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-08 17:37:51] INFO root fetch - processPackages [bec-dap]: executing diffoscope
+[2023-07-08 17:37:51] INFO root fetch - processPackages [bec-dap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_dap-0.9.1.tar.gz tmp/bec_dap-0.9.2.tar.gz --markdown 20230708/b/bec-dap/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-08 17:37:51] INFO root fetch - processPackages [bec-scan-bundler]: executing diffoscope
+[2023-07-08 17:37:51] INFO root fetch - processPackages [bec-scan-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_bundler-0.9.1.tar.gz tmp/bec_scan_bundler-0.9.2.tar.gz --markdown 20230708/b/bec-scan-bundler/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-08 17:37:51] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.2.tar.gz]
+[2023-07-08 17:37:51] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.3.tar.gz]
+[2023-07-08 17:37:51] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-08 17:37:52] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.9.1.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.9.2.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - main [MainThread]: End processing [bec-device-server]: success
+[2023-07-08 17:37:52] INFO root fetch - processPackages [fenjing]: Remove: archive file [/home/abi/fetcher/tmp/fenjing-0.4.4.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - processPackages [fenjing]: Remove: archive file [/home/abi/fetcher/tmp/fenjing-0.4.5.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-07-08 17:37:52] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.9.1.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.9.2.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - main [MainThread]: End processing [bec-dap]: success
+[2023-07-08 17:37:52] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.9.1.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.9.2.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2023-07-08 17:37:52] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.9.1.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.9.2.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - main [MainThread]: End processing [bec-file-writer]: success
+[2023-07-08 17:37:52] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.9.1.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.9.2.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2023-07-08 17:37:52] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.9.1.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.9.2.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - main [MainThread]: End processing [bec-scan-bundler]: success
+[2023-07-08 17:37:52] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.9.1.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.9.2.tar.gz]
+[2023-07-08 17:37:52] INFO root fetch - main [MainThread]: End processing [bec-scan-server]: success
+[2023-07-08 17:37:52] INFO root fetch - main [MainThread]: Store serial: [18814119]
