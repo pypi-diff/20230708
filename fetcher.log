@@ -3229,3 +3229,87 @@
 [2023-07-08 03:09:21] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-07-08 03:09:21] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-07-08 03:09:21] INFO root fetch - main [MainThread]: Store serial: [18807895]
+[2023-07-08 03:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807895]
+[2023-07-08 03:14:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-08 03:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-08 03:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: textsum
+[2023-07-08 03:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raydp-nightly
+[2023-07-08 03:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cubelib
+[2023-07-08 03:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stitch3d
+[2023-07-08 03:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EnergyCapSdk
+[2023-07-08 03:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imagecodecs-numcodecs
+[2023-07-08 03:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sparse-dok
+[2023-07-08 03:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-lambda-layer-curl
+[2023-07-08 03:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aemcmc-nightly
+[2023-07-08 03:14:31] INFO root fetch - processPackages [textsum]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-07-08 03:14:31] INFO root fetch - processPackages [imagecodecs-numcodecs]: New version: [2023.7.4] Old Version: [2023.3.16]
+[2023-07-08 03:14:31] INFO root fetch - processPackages [cubelib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 03:14:31] WARNING root fetch - processPackages [stitch3d]: Skipping, unable to determine old version
+[2023-07-08 03:14:31] INFO root fetch - main [MainThread]: End processing [stitch3d] error
+[2023-07-08 03:14:31] INFO root fetch - processPackages [raydp-nightly]: New version: [2023.7.8.dev0] Old Version: [2023.7.5.dev0]
+[2023-07-08 03:14:31] INFO root fetch - processPackages [sparse-dok]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 03:14:31] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230707] Old Version: [0.0.8.dev20230706]
+[2023-07-08 03:14:31] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-08 03:14:31] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2304.4639] Old Version: [8.2304.4638]
+[2023-07-08 03:14:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-08 03:14:31] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/6e/7c/966811be3b17072b24cd1a9fdb5dc1654f2bb57a7bc5ef9d66b79f2b6045/EnergyCapSdk-8.2304.4638.tar.gz
+[2023-07-08 03:14:31] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/ef/ca/65897c68d1aee0df855c4e3f6a2205a06f424f3a043f7f02748c1193d890/aemcmc-nightly-0.0.8.dev20230706.tar.gz
+[2023-07-08 03:14:31] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-08 03:14:31] INFO root fetch - processPackages [textsum]: Downloading https://files.pythonhosted.org/packages/e8/92/ad1a6eb5478d4bb82bb0c62278e27226b21cf80f5a211fbacd785d870ef1/textsum-0.1.5.tar.gz
+[2023-07-08 03:14:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-08 03:14:31] INFO root fetch - processPackages [imagecodecs-numcodecs]: Downloading https://files.pythonhosted.org/packages/5b/4d/ac1fced09a2940ec81e4906cc5ce601322ee6190775f2252fba396b5f535/imagecodecs_numcodecs-2023.3.16-py3-none-any.whl
+[2023-07-08 03:14:31] INFO root fetch - processPackages [cubelib]: Downloading https://files.pythonhosted.org/packages/73/dc/818b920fa78febdb03d2f1f1dbc7f7096657ee2fdfe34e8178f374018ac5/cubelib-1.0.8-py3-none-any.whl
+[2023-07-08 03:14:31] INFO root fetch - processPackages [sparse-dok]: Downloading https://files.pythonhosted.org/packages/09/21/2fe68fd2296840992f35ce35b61121d2873653214c529221be6731c16340/sparse_dok-0.1.8.tar.gz
+[2023-07-08 03:14:31] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/0a/48/44e6d5f53f0163269b01ea8d85eba779f431c6eee07edb197cb29beb1f0a/raydp_nightly-2023.7.5.dev0-py3-none-any.whl
+[2023-07-08 03:14:31] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/22/1e/d68703ec2bf7c8be1db6661fb4fb1b7dbe565f6632c51b407d6ffba28790/EnergyCapSdk-8.2304.4639.tar.gz
+[2023-07-08 03:14:32] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/6f/a9/2e6aae939ba95259b617d31006728b9b6eff19b3fbf953214b2d93f69b69/aemcmc-nightly-0.0.8.dev20230707.tar.gz
+[2023-07-08 03:14:32] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-08 03:14:32] INFO root fetch - processPackages [cubelib]: Downloading https://files.pythonhosted.org/packages/bc/e0/4886c3ae4fc8f21e6801c08550e5505c3d8a2a1781e3dcda0f0ff2396b2e/cubelib-1.0.9-py3-none-any.whl
+[2023-07-08 03:14:32] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-08 03:14:32] INFO root fetch - processPackages [textsum]: Downloading https://files.pythonhosted.org/packages/a1/5a/e46ee7dddf34c5b651b6145b9d2babda3f96567867b9045ec7f5ac4156f7/textsum-0.2.0.tar.gz
+[2023-07-08 03:14:32] INFO root fetch - processPackages [sparse-dok]: Downloading https://files.pythonhosted.org/packages/82/9f/34796adfa3240d1971a5e5bf281ba1edfe51252fa3469fa4d2414ebfe361/sparse_dok-0.1.9.tar.gz
+[2023-07-08 03:14:32] INFO root fetch - processPackages [imagecodecs-numcodecs]: Downloading https://files.pythonhosted.org/packages/54/b5/8e44b688c34510212a5a4d99589d3d5176b3f9bab0bf3ed42dbf207f5b41/imagecodecs_numcodecs-2023.7.4-py3-none-any.whl
+[2023-07-08 03:14:32] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-08 03:14:32] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230706.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230707.tar.gz --markdown 20230708/a/aemcmc-nightly/0.0.8.dev20230706-0.0.8.dev20230707/diff.md --exclude *.pyd
+[2023-07-08 03:14:32] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-07-08 03:14:32] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2304.4638.tar.gz tmp/EnergyCapSdk-8.2304.4639.tar.gz --markdown 20230708/E/EnergyCapSdk/8.2304.4638-8.2304.4639/diff.md --exclude *.pyd
+[2023-07-08 03:14:32] INFO root fetch - processPackages [textsum]: executing diffoscope
+[2023-07-08 03:14:32] INFO root fetch - processPackages [textsum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textsum-0.1.5.tar.gz tmp/textsum-0.2.0.tar.gz --markdown 20230708/t/textsum/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 03:14:32] INFO root fetch - processPackages [cubelib]: executing diffoscope
+[2023-07-08 03:14:32] INFO root fetch - processPackages [cubelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubelib-1.0.8-py3-none-any.whl.zip tmp/cubelib-1.0.9-py3-none-any.whl.zip --markdown 20230708/c/cubelib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 03:14:32] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-08 03:14:32] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230708/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-08 03:14:32] INFO root fetch - processPackages [sparse-dok]: executing diffoscope
+[2023-07-08 03:14:32] INFO root fetch - processPackages [sparse-dok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse_dok-0.1.8.tar.gz tmp/sparse_dok-0.1.9.tar.gz --markdown 20230708/s/sparse-dok/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 03:14:32] INFO root fetch - processPackages [imagecodecs-numcodecs]: executing diffoscope
+[2023-07-08 03:14:32] INFO root fetch - processPackages [imagecodecs-numcodecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imagecodecs_numcodecs-2023.3.16-py3-none-any.whl.zip tmp/imagecodecs_numcodecs-2023.7.4-py3-none-any.whl.zip --markdown 20230708/i/imagecodecs-numcodecs/2023.3.16-2023.7.4/diff.md --exclude *.pyd
+[2023-07-08 03:14:32] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/8c/4a/78fe0bb67bf8ba7f9a6818c527710d13384978acf186be934b1411089b78/raydp_nightly-2023.7.8.dev0-py3-none-any.whl
+[2023-07-08 03:14:32] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-08 03:14:32] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230708/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-08 03:14:32] WARNING root fetch - processPackages [raydp-nightly]: Skipping package: exceeds size limit 14070389>=10485760
+[2023-07-08 03:14:32] INFO root fetch - main [MainThread]: End processing [raydp-nightly] error
+[2023-07-08 03:14:33] INFO root fetch - processPackages [textsum]: Remove: archive file [/home/abi/fetcher/tmp/textsum-0.1.5.tar.gz]
+[2023-07-08 03:14:33] INFO root fetch - processPackages [textsum]: Remove: archive file [/home/abi/fetcher/tmp/textsum-0.2.0.tar.gz]
+[2023-07-08 03:14:33] INFO root fetch - main [MainThread]: End processing [textsum]: success
+[2023-07-08 03:14:33] INFO root fetch - processPackages [imagecodecs-numcodecs]: Remove: archive file [/home/abi/fetcher/tmp/imagecodecs_numcodecs-2023.3.16-py3-none-any.whl.zip]
+[2023-07-08 03:14:33] INFO root fetch - processPackages [imagecodecs-numcodecs]: Remove: archive file [/home/abi/fetcher/tmp/imagecodecs_numcodecs-2023.7.4-py3-none-any.whl.zip]
+[2023-07-08 03:14:33] INFO root fetch - main [MainThread]: End processing [imagecodecs-numcodecs]: success
+[2023-07-08 03:14:33] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230706.tar.gz]
+[2023-07-08 03:14:33] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230707.tar.gz]
+[2023-07-08 03:14:33] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-08 03:14:33] INFO root fetch - processPackages [sparse-dok]: Remove: archive file [/home/abi/fetcher/tmp/sparse_dok-0.1.8.tar.gz]
+[2023-07-08 03:14:33] INFO root fetch - processPackages [sparse-dok]: Remove: archive file [/home/abi/fetcher/tmp/sparse_dok-0.1.9.tar.gz]
+[2023-07-08 03:14:33] INFO root fetch - main [MainThread]: End processing [sparse-dok]: success
+[2023-07-08 03:14:33] INFO root fetch - processPackages [cubelib]: Remove: archive file [/home/abi/fetcher/tmp/cubelib-1.0.8-py3-none-any.whl.zip]
+[2023-07-08 03:14:33] INFO root fetch - processPackages [cubelib]: Remove: archive file [/home/abi/fetcher/tmp/cubelib-1.0.9-py3-none-any.whl.zip]
+[2023-07-08 03:14:33] INFO root fetch - main [MainThread]: End processing [cubelib]: success
+[2023-07-08 03:14:33] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-08 03:14:33] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-08 03:14:33] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-08 03:14:34] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-08 03:14:34] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-08 03:14:34] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-08 03:14:45] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4638.tar.gz]
+[2023-07-08 03:14:45] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4639.tar.gz]
+[2023-07-08 03:14:45] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-07-08 03:14:45] INFO root fetch - main [MainThread]: Store serial: [18807924]
