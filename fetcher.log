@@ -19595,3 +19595,93 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 18:55:58] INFO root fetch - processPackages [ragu]: Remove: archive file [/home/abi/fetcher/tmp/ragu-0.1.22.tar.gz]
 [2023-07-08 18:55:58] INFO root fetch - main [MainThread]: End processing [ragu]: success
 [2023-07-08 18:55:58] INFO root fetch - main [MainThread]: Store serial: [18814547]
+[2023-07-08 19:01:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814547]
+[2023-07-08 19:01:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-08 19:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-carousel
+[2023-07-08 19:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VideoEmotionRecognition
+[2023-07-08 19:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wcc-timetable-generator
+[2023-07-08 19:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipwho
+[2023-07-08 19:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyassorted
+[2023-07-08 19:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: actionai
+[2023-07-08 19:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: frankAllSkyCam
+[2023-07-08 19:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pillow-heif
+[2023-07-08 19:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccmplots
+[2023-07-08 19:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mailpit-api-client
+[2023-07-08 19:01:07] INFO root fetch - processPackages [VideoEmotionRecognition]: New version: [0.2.1] Old Version: [0.2]
+[2023-07-08 19:01:07] INFO root fetch - processPackages [actionai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-08 19:01:07] INFO root fetch - processPackages [wcc-timetable-generator]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-08 19:01:07] INFO root fetch - processPackages [streamlit-carousel]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 19:01:07] INFO root fetch - processPackages [pyassorted]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-08 19:01:07] WARNING root fetch - processPackages [ipwho]: Skipping, unable to determine old version
+[2023-07-08 19:01:07] INFO root fetch - processPackages [ipwho]: Start processing: iprocess
+[2023-07-08 19:01:07] INFO root fetch - main [MainThread]: End processing [ipwho] error
+[2023-07-08 19:01:07] INFO root fetch - processPackages [frankAllSkyCam]: New version: [8.5] Old Version: [8.4]
+[2023-07-08 19:01:07] INFO root fetch - processPackages [streamlit-carousel]: Downloading https://files.pythonhosted.org/packages/06/23/0879b21ee9716a82c803184ed76b6c647201ba914fbe5cef81c832517f77/streamlit_carousel-0.0.2.tar.gz
+[2023-07-08 19:01:07] INFO root fetch - processPackages [pyassorted]: Downloading https://files.pythonhosted.org/packages/fc/a1/09550c87dc907323ae5c69658ed7362e3e0962a7d46b4c9261be2aa09f6a/pyassorted-0.7.2.tar.gz
+[2023-07-08 19:01:07] INFO root fetch - processPackages [ccmplots]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-08 19:01:07] INFO root fetch - processPackages [mailpit-api-client]: New version: [0.12.0] Old Version: [0.11.0]
+[2023-07-08 19:01:07] INFO root fetch - processPackages [VideoEmotionRecognition]: Downloading https://files.pythonhosted.org/packages/da/56/2a2538217a707580c3bf4c5189acf7e3b601f3afdbf71e223e65dccbda48/VideoEmotionRecognition-0.2.tar.gz
+[2023-07-08 19:01:07] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/d9/23/b34acc510ee92865e621c15d681b06097cb1680ea2486983005e97f709f0/wcc-timetable-generator-0.1.0.tar.gz
+[2023-07-08 19:01:07] INFO root fetch - processPackages [actionai]: Downloading https://files.pythonhosted.org/packages/8f/f5/3783fff4db19c49d818b85f429789bf38f76bbfdd59787d391c4a0301686/actionai-0.0.1.tar.gz
+[2023-07-08 19:01:07] WARNING root fetch - processPackages [iprocess]: Skipping, unable to determine old version
+[2023-07-08 19:01:07] INFO root fetch - main [MainThread]: End processing [iprocess] error
+[2023-07-08 19:01:07] INFO root fetch - processPackages [pillow-heif]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-08 19:01:08] INFO root fetch - processPackages [frankAllSkyCam]: Downloading https://files.pythonhosted.org/packages/83/b7/db19f964ed38d0a917f86a1dcb90bd30379242061822fb77804639e88f02/frankAllSkyCam-8.4.tar.gz
+[2023-07-08 19:01:08] INFO root fetch - processPackages [ccmplots]: Downloading https://files.pythonhosted.org/packages/23/2d/d53be53b70f46310a6d81459a5eadfbe46eff411f2fdfc43d270ad64411f/ccmplots-0.1.2.tar.gz
+[2023-07-08 19:01:08] INFO root fetch - processPackages [mailpit-api-client]: Downloading https://files.pythonhosted.org/packages/9f/33/af8a4f4d6dd9c88fefa7314245c5cbe0483608674b1f3644ddd2eb6cd35c/mailpit-api-client-0.11.0.tar.gz
+[2023-07-08 19:01:08] INFO root fetch - processPackages [pillow-heif]: Downloading https://files.pythonhosted.org/packages/93/8f/3808d7e562d12b6b66aed6ea4bc12380bdc76556cde5c6d50141e7b43141/pillow_heif-0.9.2.tar.gz
+[2023-07-08 19:01:08] INFO root fetch - processPackages [actionai]: Downloading https://files.pythonhosted.org/packages/03/75/673c7cd9a000c87de93705f8267238301521dc0619b1cfb84a680713f6a6/actionai-0.0.2.tar.gz
+[2023-07-08 19:01:08] INFO root fetch - processPackages [streamlit-carousel]: Downloading https://files.pythonhosted.org/packages/8f/07/34a023412e287b534eec72fc6f1cb7e2b01838c6a887e15baaecf102a042/streamlit_carousel-0.0.3.tar.gz
+[2023-07-08 19:01:08] INFO root fetch - processPackages [pyassorted]: Downloading https://files.pythonhosted.org/packages/14/9c/a91efee3ccd03fa5838e0eb4e18fd12a54a31f597f50000a65dbfea26ee2/pyassorted-0.7.3.tar.gz
+[2023-07-08 19:01:08] INFO root fetch - processPackages [VideoEmotionRecognition]: Downloading https://files.pythonhosted.org/packages/73/f9/6c046f6100b6ad1a2ddc6fb4c3bc7651f8f5f66ad4cdb782321a9b3d9890/VideoEmotionRecognition-0.2.1.tar.gz
+[2023-07-08 19:01:08] INFO root fetch - processPackages [wcc-timetable-generator]: Downloading https://files.pythonhosted.org/packages/05/7b/eb1d87dd390f83a1cb11e642b94abe49e6f236648e6c7db8543ffeefc178/wcc-timetable-generator-0.2.0.tar.gz
+[2023-07-08 19:01:08] INFO root fetch - processPackages [actionai]: executing diffoscope
+[2023-07-08 19:01:08] INFO root fetch - processPackages [actionai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actionai-0.0.1.tar.gz tmp/actionai-0.0.2.tar.gz --markdown 20230708/a/actionai/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 19:01:08] INFO root fetch - processPackages [pyassorted]: executing diffoscope
+[2023-07-08 19:01:08] INFO root fetch - processPackages [pyassorted]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyassorted-0.7.2.tar.gz tmp/pyassorted-0.7.3.tar.gz --markdown 20230708/p/pyassorted/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-08 19:01:08] INFO root fetch - processPackages [ccmplots]: Downloading https://files.pythonhosted.org/packages/f5/5a/e336512a2117049f043d630a0d3f5d684dbb69e33d80a56b2ea52fc78fec/ccmplots-0.1.3.tar.gz
+[2023-07-08 19:01:08] INFO root fetch - processPackages [VideoEmotionRecognition]: executing diffoscope
+[2023-07-08 19:01:08] INFO root fetch - processPackages [VideoEmotionRecognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VideoEmotionRecognition-0.2.tar.gz tmp/VideoEmotionRecognition-0.2.1.tar.gz --markdown 20230708/V/VideoEmotionRecognition/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-08 19:01:08] INFO root fetch - processPackages [frankAllSkyCam]: Downloading https://files.pythonhosted.org/packages/cc/78/ef6f11918a573fd2828f8920234ce617e3a7a6a40532dcb37cf7b6376d40/frankAllSkyCam-8.5.tar.gz
+[2023-07-08 19:01:08] INFO root fetch - processPackages [wcc-timetable-generator]: executing diffoscope
+[2023-07-08 19:01:08] INFO root fetch - processPackages [wcc-timetable-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcc-timetable-generator-0.1.0.tar.gz tmp/wcc-timetable-generator-0.2.0.tar.gz --markdown 20230708/w/wcc-timetable-generator/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 19:01:08] INFO root fetch - processPackages [mailpit-api-client]: Downloading https://files.pythonhosted.org/packages/4c/c4/bd1654be959ac5b7fb3fe401fccb487924539b54192c604a8b9ea2dbea7f/mailpit-api-client-0.12.0.tar.gz
+[2023-07-08 19:01:08] INFO root fetch - processPackages [streamlit-carousel]: executing diffoscope
+[2023-07-08 19:01:08] INFO root fetch - processPackages [streamlit-carousel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_carousel-0.0.2.tar.gz tmp/streamlit_carousel-0.0.3.tar.gz --markdown 20230708/s/streamlit-carousel/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 19:01:08] INFO root fetch - processPackages [ccmplots]: executing diffoscope
+[2023-07-08 19:01:08] INFO root fetch - processPackages [ccmplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccmplots-0.1.2.tar.gz tmp/ccmplots-0.1.3.tar.gz --markdown 20230708/c/ccmplots/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-08 19:01:08] INFO root fetch - processPackages [frankAllSkyCam]: executing diffoscope
+[2023-07-08 19:01:08] INFO root fetch - processPackages [frankAllSkyCam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frankAllSkyCam-8.4.tar.gz tmp/frankAllSkyCam-8.5.tar.gz --markdown 20230708/f/frankAllSkyCam/8.4-8.5/diff.md --exclude *.pyd
+[2023-07-08 19:01:08] INFO root fetch - processPackages [mailpit-api-client]: executing diffoscope
+[2023-07-08 19:01:08] INFO root fetch - processPackages [mailpit-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailpit-api-client-0.11.0.tar.gz tmp/mailpit-api-client-0.12.0.tar.gz --markdown 20230708/m/mailpit-api-client/0.11.0-0.12.0/diff.md --exclude *.pyd
+[2023-07-08 19:01:09] INFO root fetch - processPackages [actionai]: Remove: archive file [/home/abi/fetcher/tmp/actionai-0.0.1.tar.gz]
+[2023-07-08 19:01:09] INFO root fetch - processPackages [actionai]: Remove: archive file [/home/abi/fetcher/tmp/actionai-0.0.2.tar.gz]
+[2023-07-08 19:01:09] INFO root fetch - main [MainThread]: End processing [actionai]: success
+[2023-07-08 19:01:09] INFO root fetch - processPackages [wcc-timetable-generator]: Remove: archive file [/home/abi/fetcher/tmp/wcc-timetable-generator-0.1.0.tar.gz]
+[2023-07-08 19:01:09] INFO root fetch - processPackages [wcc-timetable-generator]: Remove: archive file [/home/abi/fetcher/tmp/wcc-timetable-generator-0.2.0.tar.gz]
+[2023-07-08 19:01:09] INFO root fetch - main [MainThread]: End processing [wcc-timetable-generator]: success
+[2023-07-08 19:01:09] INFO root fetch - processPackages [VideoEmotionRecognition]: Remove: archive file [/home/abi/fetcher/tmp/VideoEmotionRecognition-0.2.tar.gz]
+[2023-07-08 19:01:09] INFO root fetch - processPackages [VideoEmotionRecognition]: Remove: archive file [/home/abi/fetcher/tmp/VideoEmotionRecognition-0.2.1.tar.gz]
+[2023-07-08 19:01:09] INFO root fetch - main [MainThread]: End processing [VideoEmotionRecognition]: success
+[2023-07-08 19:01:09] INFO root fetch - processPackages [pyassorted]: Remove: archive file [/home/abi/fetcher/tmp/pyassorted-0.7.2.tar.gz]
+[2023-07-08 19:01:09] INFO root fetch - processPackages [pyassorted]: Remove: archive file [/home/abi/fetcher/tmp/pyassorted-0.7.3.tar.gz]
+[2023-07-08 19:01:09] INFO root fetch - main [MainThread]: End processing [pyassorted]: success
+[2023-07-08 19:01:10] INFO root fetch - processPackages [ccmplots]: Remove: archive file [/home/abi/fetcher/tmp/ccmplots-0.1.2.tar.gz]
+[2023-07-08 19:01:10] INFO root fetch - processPackages [ccmplots]: Remove: archive file [/home/abi/fetcher/tmp/ccmplots-0.1.3.tar.gz]
+[2023-07-08 19:01:10] INFO root fetch - main [MainThread]: End processing [ccmplots]: success
+[2023-07-08 19:01:10] INFO root fetch - processPackages [mailpit-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mailpit-api-client-0.11.0.tar.gz]
+[2023-07-08 19:01:10] INFO root fetch - processPackages [mailpit-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mailpit-api-client-0.12.0.tar.gz]
+[2023-07-08 19:01:10] INFO root fetch - main [MainThread]: End processing [mailpit-api-client]: success
+[2023-07-08 19:01:10] INFO root fetch - processPackages [frankAllSkyCam]: Remove: archive file [/home/abi/fetcher/tmp/frankAllSkyCam-8.4.tar.gz]
+[2023-07-08 19:01:10] INFO root fetch - processPackages [frankAllSkyCam]: Remove: archive file [/home/abi/fetcher/tmp/frankAllSkyCam-8.5.tar.gz]
+[2023-07-08 19:01:10] INFO root fetch - main [MainThread]: End processing [frankAllSkyCam]: success
+[2023-07-08 19:01:10] INFO root fetch - processPackages [streamlit-carousel]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_carousel-0.0.2.tar.gz]
+[2023-07-08 19:01:10] INFO root fetch - processPackages [streamlit-carousel]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_carousel-0.0.3.tar.gz]
+[2023-07-08 19:01:10] INFO root fetch - main [MainThread]: End processing [streamlit-carousel]: success
+[2023-07-08 19:01:10] INFO root fetch - processPackages [pillow-heif]: Downloading https://files.pythonhosted.org/packages/ec/a1/54a57a796adea5fd7272e94a4597acdd9fc03779f5efad58e291455784a8/pillow_heif-0.9.3.tar.gz
+[2023-07-08 19:01:11] INFO root fetch - processPackages [pillow-heif]: executing diffoscope
+[2023-07-08 19:01:11] INFO root fetch - processPackages [pillow-heif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillow_heif-0.9.2.tar.gz tmp/pillow_heif-0.9.3.tar.gz --markdown 20230708/p/pillow-heif/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-08 19:01:13] INFO root fetch - processPackages [pillow-heif]: Remove: archive file [/home/abi/fetcher/tmp/pillow_heif-0.9.2.tar.gz]
+[2023-07-08 19:01:13] INFO root fetch - processPackages [pillow-heif]: Remove: archive file [/home/abi/fetcher/tmp/pillow_heif-0.9.3.tar.gz]
+[2023-07-08 19:01:13] INFO root fetch - main [MainThread]: End processing [pillow-heif]: success
+[2023-07-08 19:01:13] INFO root fetch - main [MainThread]: Store serial: [18814591]
