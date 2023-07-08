@@ -14521,3 +14521,48 @@
 [2023-07-08 11:56:00] INFO root fetch - processPackages [ipynao]: Remove: archive file [/home/abi/fetcher/tmp/ipynao-0.6.1-py3-none-any.whl.zip]
 [2023-07-08 11:56:00] INFO root fetch - main [MainThread]: End processing [ipynao]: success
 [2023-07-08 11:56:00] INFO root fetch - main [MainThread]: Store serial: [18812268]
+[2023-07-08 12:01:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812268]
+[2023-07-08 12:01:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 12:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pwforecast
+[2023-07-08 12:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: YekongLib
+[2023-07-08 12:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ez-a-sync
+[2023-07-08 12:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opendigger-cli
+[2023-07-08 12:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sphinx_mochi_theme
+[2023-07-08 12:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vl-convert-python
+[2023-07-08 12:01:09] WARNING root fetch - processPackages [pwforecast]: Skipping, unable to determine old version
+[2023-07-08 12:01:09] INFO root fetch - main [MainThread]: End processing [pwforecast] error
+[2023-07-08 12:01:09] INFO root fetch - processPackages [YekongLib]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-08 12:01:09] INFO root fetch - processPackages [sphinx_mochi_theme]: New version: [2023.7.8] Old Version: [2023.7.7]
+[2023-07-08 12:01:09] INFO root fetch - processPackages [vl-convert-python]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-08 12:01:09] WARNING root fetch - processPackages [opendigger-cli]: Skipping, unable to determine old version
+[2023-07-08 12:01:09] INFO root fetch - main [MainThread]: End processing [opendigger-cli] error
+[2023-07-08 12:01:09] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.1.dev2] Old Version: [0.6.1.dev1]
+[2023-07-08 12:01:09] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/c7/d1/0ff5c09c371dbbf1eeccefbe8f531044cc85eaf1965d431947ec5c7f4322/ez-a-sync-0.6.1.dev1.tar.gz
+[2023-07-08 12:01:09] INFO root fetch - processPackages [YekongLib]: Downloading https://files.pythonhosted.org/packages/a0/fb/f852212e03290a3a1b09651a356f94125cf900ccabd872beaa65c26cfecc/YekongLib-1.1.1.tar.gz
+[2023-07-08 12:01:09] INFO root fetch - processPackages [sphinx_mochi_theme]: Downloading https://files.pythonhosted.org/packages/6d/14/e9c67fa9c1e1f5778617e348f0fb4f6c16d9f3861cf74d4a35a9ac3bdd3b/sphinx_mochi_theme-2023.7.7.tar.gz
+[2023-07-08 12:01:09] INFO root fetch - processPackages [vl-convert-python]: Downloading https://files.pythonhosted.org/packages/64/cc/eecb15b1a2cc6fd37fb5a3af89faa3bb0f6c5c588dda5887002df1c67241/vl_convert_python-0.8.1.tar.gz
+[2023-07-08 12:01:09] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/95/5f/3d6e46409e30d9991fac37621f0ea651d26a4ad0a6a11fa3f8979ac40cc6/ez-a-sync-0.6.1.dev2.tar.gz
+[2023-07-08 12:01:09] INFO root fetch - processPackages [YekongLib]: Downloading https://files.pythonhosted.org/packages/87/21/35c45cf6fe25b08a33d923394c4a1f37f47365d12b60ec951cc68820b817/YekongLib-1.1.2.tar.gz
+[2023-07-08 12:01:09] INFO root fetch - processPackages [sphinx_mochi_theme]: Downloading https://files.pythonhosted.org/packages/49/f5/2a47251c51a40718af38bfba6d236ca857f2716538d2eb737c2a316a9000/sphinx_mochi_theme-2023.7.8.tar.gz
+[2023-07-08 12:01:09] INFO root fetch - processPackages [YekongLib]: executing diffoscope
+[2023-07-08 12:01:09] INFO root fetch - processPackages [YekongLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YekongLib-1.1.1.tar.gz tmp/YekongLib-1.1.2.tar.gz --markdown 20230708/Y/YekongLib/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-08 12:01:09] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-08 12:01:09] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.1.dev1.tar.gz tmp/ez-a-sync-0.6.1.dev2.tar.gz --markdown 20230708/e/ez-a-sync/0.6.1.dev1-0.6.1.dev2/diff.md --exclude *.pyd
+[2023-07-08 12:01:10] INFO root fetch - processPackages [sphinx_mochi_theme]: executing diffoscope
+[2023-07-08 12:01:10] INFO root fetch - processPackages [sphinx_mochi_theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_mochi_theme-2023.7.7.tar.gz tmp/sphinx_mochi_theme-2023.7.8.tar.gz --markdown 20230708/s/sphinx_mochi_theme/2023.7.7-2023.7.8/diff.md --exclude *.pyd
+[2023-07-08 12:01:10] INFO root fetch - processPackages [vl-convert-python]: Downloading https://files.pythonhosted.org/packages/2c/5e/b6ef3a0bd418911bc9813078e2373acb839085abe1ef6df34b9c045df500/vl_convert_python-0.9.0.tar.gz
+[2023-07-08 12:01:10] INFO root fetch - processPackages [YekongLib]: Remove: archive file [/home/abi/fetcher/tmp/YekongLib-1.1.1.tar.gz]
+[2023-07-08 12:01:10] INFO root fetch - processPackages [YekongLib]: Remove: archive file [/home/abi/fetcher/tmp/YekongLib-1.1.2.tar.gz]
+[2023-07-08 12:01:10] INFO root fetch - main [MainThread]: End processing [YekongLib]: success
+[2023-07-08 12:01:10] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.1.dev1.tar.gz]
+[2023-07-08 12:01:10] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.1.dev2.tar.gz]
+[2023-07-08 12:01:10] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-08 12:01:10] INFO root fetch - processPackages [vl-convert-python]: executing diffoscope
+[2023-07-08 12:01:10] INFO root fetch - processPackages [vl-convert-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vl_convert_python-0.8.1.tar.gz tmp/vl_convert_python-0.9.0.tar.gz --markdown 20230708/v/vl-convert-python/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 12:01:10] INFO root fetch - processPackages [sphinx_mochi_theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_mochi_theme-2023.7.7.tar.gz]
+[2023-07-08 12:01:10] INFO root fetch - processPackages [sphinx_mochi_theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_mochi_theme-2023.7.8.tar.gz]
+[2023-07-08 12:01:10] INFO root fetch - main [MainThread]: End processing [sphinx_mochi_theme]: success
+[2023-07-08 12:01:48] INFO root fetch - processPackages [vl-convert-python]: Remove: archive file [/home/abi/fetcher/tmp/vl_convert_python-0.8.1.tar.gz]
+[2023-07-08 12:01:48] INFO root fetch - processPackages [vl-convert-python]: Remove: archive file [/home/abi/fetcher/tmp/vl_convert_python-0.9.0.tar.gz]
+[2023-07-08 12:01:48] INFO root fetch - main [MainThread]: End processing [vl-convert-python]: success
+[2023-07-08 12:01:48] INFO root fetch - main [MainThread]: Store serial: [18812292]
