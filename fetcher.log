@@ -10557,3 +10557,102 @@
 [2023-07-08 04:50:13] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.8.0.tar.gz]
 [2023-07-08 04:50:13] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
 [2023-07-08 04:50:13] INFO root fetch - main [MainThread]: Store serial: [18810378]
+[2023-07-08 04:55:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810378]
+[2023-07-08 04:55:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-08 04:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-07-08 04:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anjani
+[2023-07-08 04:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slib-sorter
+[2023-07-08 04:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reliableGPT
+[2023-07-08 04:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amazon-sagemaker-jupyter-scheduler
+[2023-07-08 04:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reliableGPT
+[2023-07-08 04:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iam-actions
+[2023-07-08 04:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlflow-knative
+[2023-07-08 04:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: einops
+[2023-07-08 04:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fscraper
+[2023-07-08 04:55:22] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.978] Old Version: [0.2.977]
+[2023-07-08 04:55:22] INFO root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-08 04:55:22] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.978] Old Version: [0.2.977]
+[2023-07-08 04:55:22] INFO root fetch - processPackages [anjani]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-07-08 04:55:22] INFO root fetch - processPackages [slib-sorter]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-08 04:55:22] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230708] Old Version: [1.2.20230707]
+[2023-07-08 04:55:22] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-08 04:55:22] INFO root fetch - processPackages [mlflow-knative]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-08 04:55:22] INFO root fetch - processPackages [fscraper]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-08 04:55:22] INFO root fetch - processPackages [einops]: New version: [0.7.0rc1] Old Version: [0.6.2rc0]
+[2023-07-08 04:55:22] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/0f/aa/ce75bffd29f898f38000b707540d787e7c3827a23d10d3df3c0967b5ab1f/slib-sorter-1.1.3.tar.gz
+[2023-07-08 04:55:22] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/ff/48/0208916d83b28751401a8594236df3aa5f27094471f003584cf3f07bccbf/iam_actions-1.2.20230707.tar.gz
+[2023-07-08 04:55:22] INFO root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: Downloading https://files.pythonhosted.org/packages/38/fb/850073820c104bdfe03b51277ff3c16f9aae376539d7b9d8b8293cb2a633/amazon_sagemaker_jupyter_scheduler-2.0.1.tar.gz
+[2023-07-08 04:55:22] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/d2/53/49c207c1e41fabc99c86c7a3365e1c4d84d81d641fa6233be08d090a741c/reliableGPT-0.2.977.tar.gz
+[2023-07-08 04:55:22] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/d2/53/49c207c1e41fabc99c86c7a3365e1c4d84d81d641fa6233be08d090a741c/reliableGPT-0.2.977.tar.gz
+[2023-07-08 04:55:22] INFO root fetch - processPackages [anjani]: Downloading https://files.pythonhosted.org/packages/a0/4b/02833bc01203d0b9addbff43d3b48c7c40022e828cbd0b8fdb836018bcac/anjani-2.8.1.tar.gz
+[2023-07-08 04:55:22] INFO root fetch - processPackages [einops]: Downloading https://files.pythonhosted.org/packages/d1/d4/30c8c3ca796853641b935c676971b9ae65f08c4fb168abab3cc958512c49/einops-0.6.2rc0.tar.gz
+[2023-07-08 04:55:22] INFO root fetch - processPackages [fscraper]: Downloading https://files.pythonhosted.org/packages/2d/81/fc3d7d8746f4c2cf0b44e055588095e2301d039907690c70b31e7140795d/fscraper-1.0.0.tar.gz
+[2023-07-08 04:55:22] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-08 04:55:23] INFO root fetch - processPackages [mlflow-knative]: Downloading https://files.pythonhosted.org/packages/48/ac/a6f6d8748f7d7b30b0e967785b1b3f405048c5d25338d06bf9a0a3a4c732/mlflow_knative-0.2.0.tar.gz
+[2023-07-08 04:55:23] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/bd/47/0f5b36ef5eb5688b5c36d407584e12b6b0330b57e535715b5b7b314a5bbc/slib-sorter-1.1.4.tar.gz
+[2023-07-08 04:55:23] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/38/44/55a4d1b9ca28d7077e87d1cb7ad802dda206dea9fa84e71878cce61b3242/iam_actions-1.2.20230708.tar.gz
+[2023-07-08 04:55:23] INFO root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: Downloading https://files.pythonhosted.org/packages/fc/93/691c9d88a0b15c0db31117f2a98311f7efacd03ac322c60fb802798e12aa/amazon_sagemaker_jupyter_scheduler-2.0.2.tar.gz
+[2023-07-08 04:55:23] INFO root fetch - processPackages [einops]: Downloading https://files.pythonhosted.org/packages/11/64/a23b25454d481d07694ff2d77ce55e6ef4b8a8837a7c8ef0e26bf2630d2d/einops-0.7.0rc1.tar.gz
+[2023-07-08 04:55:23] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/7b/01/2bc36ca3636373443fd13bd5514248df4608eba6c84f237fb05e515ce421/reliableGPT-0.2.978.tar.gz
+[2023-07-08 04:55:23] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/7b/01/2bc36ca3636373443fd13bd5514248df4608eba6c84f237fb05e515ce421/reliableGPT-0.2.978.tar.gz
+[2023-07-08 04:55:23] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 04:55:23] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.1.3.tar.gz tmp/slib-sorter-1.1.4.tar.gz --markdown 20230708/s/slib-sorter/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-08 04:55:23] INFO root fetch - processPackages [mlflow-knative]: executing diffoscope
+[2023-07-08 04:55:23] INFO root fetch - processPackages [mlflow-knative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_knative-0.1.3.tar.gz tmp/mlflow_knative-0.2.0.tar.gz --markdown 20230708/m/mlflow-knative/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 04:55:23] INFO root fetch - processPackages [anjani]: Downloading https://files.pythonhosted.org/packages/f9/9d/09023cad363092c71cd40b8312939b2e4d4bfbd47cae721893d04ab5a6d9/anjani-2.9.0.tar.gz
+[2023-07-08 04:55:23] INFO root fetch - processPackages [fscraper]: Downloading https://files.pythonhosted.org/packages/8c/9f/9ea055b5b884b2dec830afd6d969e6f81070ee1367f410677558506a1584/fscraper-1.0.1.tar.gz
+[2023-07-08 04:55:23] INFO root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: executing diffoscope
+[2023-07-08 04:55:23] INFO root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_sagemaker_jupyter_scheduler-2.0.1.tar.gz tmp/amazon_sagemaker_jupyter_scheduler-2.0.2.tar.gz --markdown 20230708/a/amazon-sagemaker-jupyter-scheduler/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-08 04:55:23] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-08 04:55:23] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-08 04:55:23] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230707.tar.gz tmp/iam_actions-1.2.20230708.tar.gz --markdown 20230708/i/iam-actions/1.2.20230707-1.2.20230708/diff.md --exclude *.pyd
+[2023-07-08 04:55:23] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-08 04:55:23] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.977.tar.gz tmp/reliableGPT-0.2.978.tar.gz --markdown 20230708/r/reliableGPT/0.2.977-0.2.978/diff.md --exclude *.pyd
+[2023-07-08 04:55:23] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-08 04:55:23] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.977.tar.gz tmp/reliableGPT-0.2.978.tar.gz --markdown 20230708/r/reliableGPT/0.2.977-0.2.978/diff.md --exclude *.pyd
+[2023-07-08 04:55:23] INFO root fetch - processPackages [einops]: executing diffoscope
+[2023-07-08 04:55:23] INFO root fetch - processPackages [einops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/einops-0.6.2rc0.tar.gz tmp/einops-0.7.0rc1.tar.gz --markdown 20230708/e/einops/0.6.2rc0-0.7.0rc1/diff.md --exclude *.pyd
+[2023-07-08 04:55:23] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-08 04:55:23] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230708/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-08 04:55:23] INFO root fetch - processPackages [anjani]: executing diffoscope
+[2023-07-08 04:55:23] INFO root fetch - processPackages [anjani]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anjani-2.8.1.tar.gz tmp/anjani-2.9.0.tar.gz --markdown 20230708/a/anjani/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-07-08 04:55:23] INFO root fetch - processPackages [fscraper]: executing diffoscope
+[2023-07-08 04:55:23] INFO root fetch - processPackages [fscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fscraper-1.0.0.tar.gz tmp/fscraper-1.0.1.tar.gz --markdown 20230708/f/fscraper/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 04:55:24] INFO root fetch - processPackages [mlflow-knative]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_knative-0.1.3.tar.gz]
+[2023-07-08 04:55:24] INFO root fetch - processPackages [mlflow-knative]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_knative-0.2.0.tar.gz]
+[2023-07-08 04:55:24] INFO root fetch - processPackages [mlflow-knative]: Start processing: reliableGPT
+[2023-07-08 04:55:24] INFO root fetch - main [MainThread]: End processing [mlflow-knative]: success
+[2023-07-08 04:55:24] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.979] Old Version: [0.2.978]
+[2023-07-08 04:55:24] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.1.3.tar.gz]
+[2023-07-08 04:55:24] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.1.4.tar.gz]
+[2023-07-08 04:55:24] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 04:55:25] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.977.tar.gz]
+[2023-07-08 04:55:25] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.978.tar.gz]
+[2023-07-08 04:55:25] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-08 04:55:25] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-08 04:55:25] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/03/4c/1c65afcf1ab7fc6e27e4f7122cda09f1f0fd0b775fda171da6de9efda310/reliableGPT-0.2.979.tar.gz
+[2023-07-08 04:55:25] INFO root fetch - processPackages [fscraper]: Remove: archive file [/home/abi/fetcher/tmp/fscraper-1.0.0.tar.gz]
+[2023-07-08 04:55:25] INFO root fetch - processPackages [fscraper]: Remove: archive file [/home/abi/fetcher/tmp/fscraper-1.0.1.tar.gz]
+[2023-07-08 04:55:25] INFO root fetch - main [MainThread]: End processing [fscraper]: success
+[2023-07-08 04:55:25] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-08 04:55:25] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-08 04:55:25] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-08 04:55:25] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-08 04:55:25] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.978.tar.gz tmp/reliableGPT-0.2.979.tar.gz --markdown 20230708/r/reliableGPT/0.2.978-0.2.979/diff.md --exclude *.pyd
+[2023-07-08 04:55:25] INFO root fetch - processPackages [einops]: Remove: archive file [/home/abi/fetcher/tmp/einops-0.6.2rc0.tar.gz]
+[2023-07-08 04:55:25] INFO root fetch - processPackages [einops]: Remove: archive file [/home/abi/fetcher/tmp/einops-0.7.0rc1.tar.gz]
+[2023-07-08 04:55:25] INFO root fetch - main [MainThread]: End processing [einops]: success
+[2023-07-08 04:55:25] INFO root fetch - processPackages [anjani]: Remove: archive file [/home/abi/fetcher/tmp/anjani-2.8.1.tar.gz]
+[2023-07-08 04:55:25] INFO root fetch - processPackages [anjani]: Remove: archive file [/home/abi/fetcher/tmp/anjani-2.9.0.tar.gz]
+[2023-07-08 04:55:25] INFO root fetch - main [MainThread]: End processing [anjani]: success
+[2023-07-08 04:55:25] ERROR root fetch - processPackages [reliableGPT]: Diffoscope failed: time="2023-07-08T04:55:25+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/reliableGPT-0.2.978.tar.gz: No such file or directory
+
+[2023-07-08 04:55:25] INFO root fetch - main [MainThread]: End processing [reliableGPT] error
+[2023-07-08 04:55:26] INFO root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/amazon_sagemaker_jupyter_scheduler-2.0.1.tar.gz]
+[2023-07-08 04:55:26] INFO root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/amazon_sagemaker_jupyter_scheduler-2.0.2.tar.gz]
+[2023-07-08 04:55:26] INFO root fetch - main [MainThread]: End processing [amazon-sagemaker-jupyter-scheduler]: success
+[2023-07-08 04:55:29] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230707.tar.gz]
+[2023-07-08 04:55:29] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230708.tar.gz]
+[2023-07-08 04:55:29] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-08 04:55:29] INFO root fetch - main [MainThread]: Store serial: [18810411]
