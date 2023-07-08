@@ -17201,3 +17201,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 15:46:27] INFO root fetch - processPackages [eutil]: Remove: archive file [/home/abi/fetcher/tmp/eutil-0.0.2-py3-none-any.whl.zip]
 [2023-07-08 15:46:27] INFO root fetch - main [MainThread]: End processing [eutil]: success
 [2023-07-08 15:46:27] INFO root fetch - main [MainThread]: Store serial: [18813490]
+[2023-07-08 15:51:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813490]
+[2023-07-08 15:51:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 15:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tarandm-analytics
+[2023-07-08 15:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysomneo
+[2023-07-08 15:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sigtonoise
+[2023-07-08 15:51:37] INFO root fetch - processPackages [tarandm-analytics]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-08 15:51:37] WARNING root fetch - processPackages [sigtonoise]: Skipping, unable to determine old version
+[2023-07-08 15:51:37] INFO root fetch - main [MainThread]: End processing [sigtonoise] error
+[2023-07-08 15:51:37] INFO root fetch - processPackages [pysomneo]: New version: [3.0.0a7] Old Version: [3.0.0a6]
+[2023-07-08 15:51:37] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/d5/bc/849856156ab0b0fb4b03d6956c65eae6806a79a1844d086f3184c0b50f23/pysomneo-3.0.0a6.tar.gz
+[2023-07-08 15:51:38] INFO root fetch - processPackages [tarandm-analytics]: Downloading https://files.pythonhosted.org/packages/ef/6e/5c5b2f9e09a0e3d9ad3fe9fb76e7504452328c4fd1254f5f1410a1543d59/tarandm_analytics-0.0.6.tar.gz
+[2023-07-08 15:51:38] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/bf/bc/c70314421a115d63a678d5a22a74c85dc0b5a7e2992cab92e6bbf1340394/pysomneo-3.0.0a7.tar.gz
+[2023-07-08 15:51:38] INFO root fetch - processPackages [tarandm-analytics]: Downloading https://files.pythonhosted.org/packages/ee/ad/3244a80c26b526ca0ff1b25c7db12849dcb97872b9ae0eacc62d9f72a923/tarandm_analytics-0.0.7.tar.gz
+[2023-07-08 15:51:38] INFO root fetch - processPackages [pysomneo]: executing diffoscope
+[2023-07-08 15:51:38] INFO root fetch - processPackages [pysomneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysomneo-3.0.0a6.tar.gz tmp/pysomneo-3.0.0a7.tar.gz --markdown 20230708/p/pysomneo/3.0.0a6-3.0.0a7/diff.md --exclude *.pyd
+[2023-07-08 15:51:38] INFO root fetch - processPackages [tarandm-analytics]: executing diffoscope
+[2023-07-08 15:51:38] INFO root fetch - processPackages [tarandm-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarandm_analytics-0.0.6.tar.gz tmp/tarandm_analytics-0.0.7.tar.gz --markdown 20230708/t/tarandm-analytics/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-08 15:51:39] INFO root fetch - processPackages [pysomneo]: Remove: archive file [/home/abi/fetcher/tmp/pysomneo-3.0.0a6.tar.gz]
+[2023-07-08 15:51:39] INFO root fetch - processPackages [pysomneo]: Remove: archive file [/home/abi/fetcher/tmp/pysomneo-3.0.0a7.tar.gz]
+[2023-07-08 15:51:39] INFO root fetch - main [MainThread]: End processing [pysomneo]: success
+[2023-07-08 15:51:39] INFO root fetch - processPackages [tarandm-analytics]: Remove: archive file [/home/abi/fetcher/tmp/tarandm_analytics-0.0.6.tar.gz]
+[2023-07-08 15:51:39] INFO root fetch - processPackages [tarandm-analytics]: Remove: archive file [/home/abi/fetcher/tmp/tarandm_analytics-0.0.7.tar.gz]
+[2023-07-08 15:51:39] INFO root fetch - main [MainThread]: End processing [tarandm-analytics]: success
+[2023-07-08 15:51:39] INFO root fetch - main [MainThread]: Store serial: [18813507]
