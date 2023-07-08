@@ -19211,3 +19211,54 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 18:19:26] INFO root fetch - processPackages [py-topping]: Remove: archive file [/home/abi/fetcher/tmp/py_topping-0.4.7.tar.gz]
 [2023-07-08 18:19:26] INFO root fetch - main [MainThread]: End processing [py-topping]: success
 [2023-07-08 18:19:26] INFO root fetch - main [MainThread]: Store serial: [18814344]
+[2023-07-08 18:24:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814344]
+[2023-07-08 18:24:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 18:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Simple-ML-Algo
+[2023-07-08 18:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ragu
+[2023-07-08 18:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysensibo
+[2023-07-08 18:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dynamic-service
+[2023-07-08 18:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arts
+[2023-07-08 18:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-carousel
+[2023-07-08 18:24:35] INFO root fetch - processPackages [Simple-ML-Algo]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-08 18:24:35] INFO root fetch - processPackages [dynamic-service]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-07-08 18:24:35] INFO root fetch - processPackages [pysensibo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 18:24:35] INFO root fetch - processPackages [ragu]: New version: [0.1.21] Old Version: [0.1.2]
+[2023-07-08 18:24:35] WARNING root fetch - processPackages [streamlit-carousel]: Skipping, unable to determine old version
+[2023-07-08 18:24:35] INFO root fetch - main [MainThread]: End processing [streamlit-carousel] error
+[2023-07-08 18:24:35] INFO root fetch - processPackages [arts]: New version: [2023.7.9] Old Version: [2023.6.24]
+[2023-07-08 18:24:36] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/f7/cf/10992079739d7137ca3294cf4d44ce8bebdb7259de4b353e3c95d471cf11/dynamic-service-1.3.1.tar.gz
+[2023-07-08 18:24:36] INFO root fetch - processPackages [ragu]: Downloading https://files.pythonhosted.org/packages/b3/35/c5f5e380fa9947c47afafe0c5faf1dfa6b3e77a307dc4c26321ee1ee0f8e/ragu-0.1.2.tar.gz
+[2023-07-08 18:24:36] INFO root fetch - processPackages [pysensibo]: Downloading https://files.pythonhosted.org/packages/af/4c/8116c33c00bca7b5a5fff60756f8391e12b67b1d1e5ef744286e16a99e08/pysensibo-1.0.8.tar.gz
+[2023-07-08 18:24:36] INFO root fetch - processPackages [Simple-ML-Algo]: Downloading https://files.pythonhosted.org/packages/bc/b1/d352f6b789e9a8b3e5c5096428f7e7ba65accc71a2977a51dea85df58fe8/Simple_ML_Algo-1.0.0.tar.gz
+[2023-07-08 18:24:36] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/d2/9b/4823043aea8b1f3f53bc28e03f093b3cba801be23fce2ad344e9d1dcf922/arts-2023.6.24.tar.gz
+[2023-07-08 18:24:36] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/91/b3/e62eeba54e65c17c394bc8590264d12fee0910c1544d6f1ba19279bf5049/dynamic-service-1.4.0.tar.gz
+[2023-07-08 18:24:36] INFO root fetch - processPackages [ragu]: Downloading https://files.pythonhosted.org/packages/43/8b/54dc96e776759bbdf757a328332f7d0b7ec1cf7e5376e898ed2222530db7/ragu-0.1.21.tar.gz
+[2023-07-08 18:24:36] INFO root fetch - processPackages [dynamic-service]: executing diffoscope
+[2023-07-08 18:24:36] INFO root fetch - processPackages [dynamic-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-service-1.3.1.tar.gz tmp/dynamic-service-1.4.0.tar.gz --markdown 20230708/d/dynamic-service/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-07-08 18:24:36] INFO root fetch - processPackages [Simple-ML-Algo]: Downloading https://files.pythonhosted.org/packages/f9/18/b3c0539707683ce9ddcb07a7c82b7a0d0bb4e3baaac0b87b71c3a60b354a/Simple_ML_Algo-1.0.1-py3-none-any.whl
+[2023-07-08 18:24:36] INFO root fetch - processPackages [pysensibo]: Downloading https://files.pythonhosted.org/packages/74/b9/30a2c00590d3482692d7b5e8d6094384f519992a13ae674c69db37cdd068/pysensibo-1.0.9.tar.gz
+[2023-07-08 18:24:36] INFO root fetch - processPackages [pysensibo]: executing diffoscope
+[2023-07-08 18:24:36] INFO root fetch - processPackages [pysensibo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysensibo-1.0.8.tar.gz tmp/pysensibo-1.0.9.tar.gz --markdown 20230708/p/pysensibo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 18:24:36] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/63/e3/b831404ac87dde6b1b1aa16ccadda888f075becdfdb4b631d030c0bc7dbe/arts-2023.7.9.tar.gz
+[2023-07-08 18:24:36] INFO root fetch - processPackages [Simple-ML-Algo]: executing diffoscope
+[2023-07-08 18:24:36] INFO root fetch - processPackages [Simple-ML-Algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simple_ML_Algo-1.0.0.tar.gz tmp/Simple_ML_Algo-1.0.1-py3-none-any.whl.zip --markdown 20230708/S/Simple-ML-Algo/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 18:24:37] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.3.1.tar.gz]
+[2023-07-08 18:24:37] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.4.0.tar.gz]
+[2023-07-08 18:24:37] INFO root fetch - main [MainThread]: End processing [dynamic-service]: success
+[2023-07-08 18:24:37] INFO root fetch - processPackages [arts]: executing diffoscope
+[2023-07-08 18:24:37] INFO root fetch - processPackages [arts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arts-2023.6.24.tar.gz tmp/arts-2023.7.9.tar.gz --markdown 20230708/a/arts/2023.6.24-2023.7.9/diff.md --exclude *.pyd
+[2023-07-08 18:24:37] INFO root fetch - processPackages [Simple-ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/Simple_ML_Algo-1.0.0.tar.gz]
+[2023-07-08 18:24:37] INFO root fetch - processPackages [Simple-ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/Simple_ML_Algo-1.0.1-py3-none-any.whl.zip]
+[2023-07-08 18:24:37] INFO root fetch - main [MainThread]: End processing [Simple-ML-Algo]: success
+[2023-07-08 18:24:37] INFO root fetch - processPackages [pysensibo]: Remove: archive file [/home/abi/fetcher/tmp/pysensibo-1.0.8.tar.gz]
+[2023-07-08 18:24:37] INFO root fetch - processPackages [pysensibo]: Remove: archive file [/home/abi/fetcher/tmp/pysensibo-1.0.9.tar.gz]
+[2023-07-08 18:24:37] INFO root fetch - main [MainThread]: End processing [pysensibo]: success
+[2023-07-08 18:24:38] INFO root fetch - processPackages [ragu]: executing diffoscope
+[2023-07-08 18:24:38] INFO root fetch - processPackages [ragu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragu-0.1.2.tar.gz tmp/ragu-0.1.21.tar.gz --markdown 20230708/r/ragu/0.1.2-0.1.21/diff.md --exclude *.pyd
+[2023-07-08 18:24:38] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-2023.6.24.tar.gz]
+[2023-07-08 18:24:38] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-2023.7.9.tar.gz]
+[2023-07-08 18:24:38] INFO root fetch - main [MainThread]: End processing [arts]: success
+[2023-07-08 18:24:40] INFO root fetch - processPackages [ragu]: Remove: archive file [/home/abi/fetcher/tmp/ragu-0.1.2.tar.gz]
+[2023-07-08 18:24:40] INFO root fetch - processPackages [ragu]: Remove: archive file [/home/abi/fetcher/tmp/ragu-0.1.21.tar.gz]
+[2023-07-08 18:24:40] INFO root fetch - main [MainThread]: End processing [ragu]: success
+[2023-07-08 18:24:40] INFO root fetch - main [MainThread]: Store serial: [18814365]
