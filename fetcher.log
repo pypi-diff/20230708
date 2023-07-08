@@ -14794,3 +14794,36 @@
 [2023-07-08 12:27:54] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.39.tar.gz]
 [2023-07-08 12:27:54] INFO root fetch - main [MainThread]: End processing [piel]: success
 [2023-07-08 12:27:54] INFO root fetch - main [MainThread]: Store serial: [18812417]
+[2023-07-08 12:32:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812417]
+[2023-07-08 12:33:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 12:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dev-assistant-client
+[2023-07-08 12:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aura-cli
+[2023-07-08 12:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythorhead
+[2023-07-08 12:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slib-sorter
+[2023-07-08 12:33:03] INFO root fetch - processPackages [dev-assistant-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-08 12:33:03] INFO root fetch - processPackages [slib-sorter]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-08 12:33:03] WARNING root fetch - processPackages [aura-cli]: Skipping, unable to determine old version
+[2023-07-08 12:33:03] INFO root fetch - main [MainThread]: End processing [aura-cli] error
+[2023-07-08 12:33:03] INFO root fetch - processPackages [pythorhead]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-08 12:33:03] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/64/cd/0aede55e2e39df91ffb81ecebd8446f763de5e80134abd629347936d0d9d/slib-sorter-1.4.0.tar.gz
+[2023-07-08 12:33:03] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/de/98/0adfdb014da3c33a1ec7c2bfda690b372a6eca41ad10ee32c224f58650b4/dev-assistant-client-0.1.2.tar.gz
+[2023-07-08 12:33:04] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/49/15/aea378d4d4e85b3e6c2c1042b5c1f51f9328340bbc85c946e808e6c5fd1b/pythorhead-0.9.2.tar.gz
+[2023-07-08 12:33:04] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/fe/5b/43e31ddc8c33cd1910dfd302a1441f666a893cc4ec2923b6c73e8f59af24/slib-sorter-1.4.1.tar.gz
+[2023-07-08 12:33:04] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/e1/b0/655e0a06b20d5c34926037caf1c03a4a74456a04fba06777ce35c3ed95c9/dev_assistant_client-0.1.3-py3-none-any.whl
+[2023-07-08 12:33:04] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 12:33:04] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.4.0.tar.gz tmp/slib-sorter-1.4.1.tar.gz --markdown 20230708/s/slib-sorter/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-08 12:33:04] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/c1/fa/85c3735e3c50c153ffc2c378a1fddb2f33d95bc334d4a415d7db6589fd8a/pythorhead-0.9.3.tar.gz
+[2023-07-08 12:33:04] INFO root fetch - processPackages [dev-assistant-client]: executing diffoscope
+[2023-07-08 12:33:04] INFO root fetch - processPackages [dev-assistant-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-assistant-client-0.1.2.tar.gz tmp/dev_assistant_client-0.1.3-py3-none-any.whl.zip --markdown 20230708/d/dev-assistant-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-08 12:33:04] INFO root fetch - processPackages [pythorhead]: executing diffoscope
+[2023-07-08 12:33:04] INFO root fetch - processPackages [pythorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythorhead-0.9.2.tar.gz tmp/pythorhead-0.9.3.tar.gz --markdown 20230708/p/pythorhead/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-08 12:33:05] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.4.0.tar.gz]
+[2023-07-08 12:33:05] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.4.1.tar.gz]
+[2023-07-08 12:33:05] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 12:33:05] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.2.tar.gz]
+[2023-07-08 12:33:05] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev_assistant_client-0.1.3-py3-none-any.whl.zip]
+[2023-07-08 12:33:05] INFO root fetch - main [MainThread]: End processing [dev-assistant-client]: success
+[2023-07-08 12:33:05] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.9.2.tar.gz]
+[2023-07-08 12:33:05] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.9.3.tar.gz]
+[2023-07-08 12:33:05] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
+[2023-07-08 12:33:05] INFO root fetch - main [MainThread]: Store serial: [18812437]
