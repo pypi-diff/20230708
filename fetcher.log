@@ -12037,3 +12037,33 @@
 [2023-07-08 06:40:51] INFO root fetch - processPackages [scutls]: Remove: archive file [/home/abi/fetcher/tmp/scutls-0.3.0.tar.gz]
 [2023-07-08 06:40:51] INFO root fetch - main [MainThread]: End processing [scutls]: success
 [2023-07-08 06:40:51] INFO root fetch - main [MainThread]: Store serial: [18811003]
+[2023-07-08 06:45:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811003]
+[2023-07-08 06:46:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 06:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiofauna
+[2023-07-08 06:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slib-sorter
+[2023-07-08 06:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-openupgrade-scripts
+[2023-07-08 06:46:01] INFO root fetch - processPackages [slib-sorter]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-08 06:46:01] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/f7/7b/d06b328e464d7b4f58a0062474ce87be07a53b271d6bf7471a84916da2ea/slib-sorter-1.2.1.tar.gz
+[2023-07-08 06:46:01] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.3.9] Old Version: [16.0.1.0.3.7]
+[2023-07-08 06:46:01] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 06:46:01] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d2/29/e2cb7ea93979e027e6d5309d7a314ee9e6d65f7021f477e355ae236a55c9/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl
+[2023-07-08 06:46:01] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/3e/34/45e4d8e4dc572a71d3667cb471907d117cbe30ff4ab274142fdfc9aff5bb/aiofauna-0.1.8.tar.gz
+[2023-07-08 06:46:01] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/21/28/35a2a0ad35865d75b2fa6b3fdd1abd914e5dca3c4ceb7759f4b99f71bcf4/slib-sorter-1.2.2.tar.gz
+[2023-07-08 06:46:01] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 06:46:01] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.2.1.tar.gz tmp/slib-sorter-1.2.2.tar.gz --markdown 20230708/s/slib-sorter/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-08 06:46:01] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/17/81/574f2d588623a030241dff9b1e5a89ed58aca17a00ce25c81995ecf57f8c/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl
+[2023-07-08 06:46:02] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-08 06:46:02] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip --markdown 20230708/o/odoo-addon-openupgrade-scripts/16.0.1.0.3.7-16.0.1.0.3.9/diff.md --exclude *.pyd
+[2023-07-08 06:46:02] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/d7/d5/ea2895300374337f982c6e19ce7049fb1c99fa3489038d2ff524d477a522/aiofauna-0.1.9.tar.gz
+[2023-07-08 06:46:02] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-07-08 06:46:02] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230708/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 06:46:02] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.1.tar.gz]
+[2023-07-08 06:46:02] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.2.tar.gz]
+[2023-07-08 06:46:02] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 06:46:03] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.8.tar.gz]
+[2023-07-08 06:46:03] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
+[2023-07-08 06:46:03] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-07-08 06:46:04] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip]
+[2023-07-08 06:46:04] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip]
+[2023-07-08 06:46:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-07-08 06:46:04] INFO root fetch - main [MainThread]: Store serial: [18811012]
