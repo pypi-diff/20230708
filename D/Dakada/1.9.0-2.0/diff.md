@@ -1,4 +1,4 @@
-# Comparing `tmp/Dakada-1.9.0.tar.gz` & `tmp/Dakada-2.0.tar.gz`
+# Comparing `tmp/Dakada-1.9.0.tar.gz` & `tmp/Dakada-2.0-py3-none-any.whl.zip`
 
 ## filetype from file(1)
 
@@ -8,7 +8,7 @@
 +gzip compressed data, was "dist\Dakada-2.0.tar", last modified: Sat Jul  8 03:11:43 2023, max compression
 ```
 
-## Comparing `Dakada-1.9.0.tar` & `Dakada-2.0.tar`
+## Comparing `Dakada-1.9.0.tar` & `Dakada-2.0-py3-none-any.whl.zip-content`
 
 ### file list
 

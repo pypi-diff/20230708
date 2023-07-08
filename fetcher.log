@@ -10963,3 +10963,64 @@
 [2023-07-08 05:16:16] INFO root fetch - processPackages [jaraco.develop]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.develop-8.1.0.tar.gz]
 [2023-07-08 05:16:16] INFO root fetch - main [MainThread]: End processing [jaraco.develop]: success
 [2023-07-08 05:16:16] INFO root fetch - main [MainThread]: Store serial: [18810522]
+[2023-07-08 05:21:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810522]
+[2023-07-08 05:21:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 05:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agixt
+[2023-07-08 05:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NearBeach
+[2023-07-08 05:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-financial-risk-info
+[2023-07-08 05:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-credit-control
+[2023-07-08 05:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Dakada
+[2023-07-08 05:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slib-sorter
+[2023-07-08 05:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Dakada
+[2023-07-08 05:21:25] INFO root fetch - processPackages [odoo-addon-sale-financial-risk-info]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-08 05:21:25] INFO root fetch - processPackages [NearBeach]: New version: [0.30.0rc4] Old Version: [0.30.0rc3]
+[2023-07-08 05:21:25] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: New version: [16.0.20230707.0] Old Version: [16.0.20230705.0]
+[2023-07-08 05:21:25] INFO root fetch - processPackages [slib-sorter]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-08 05:21:25] INFO root fetch - processPackages [Dakada]: New version: [2.0] Old Version: [1.9.0]
+[2023-07-08 05:21:25] INFO root fetch - processPackages [Dakada]: New version: [2.0] Old Version: [1.9.0]
+[2023-07-08 05:21:25] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-08 05:21:25] INFO root fetch - processPackages [odoo-addon-sale-financial-risk-info]: Downloading https://files.pythonhosted.org/packages/55/46/0c7d6d80e531c6f7649205ae9431a845b341090eca3580d92e633e6a60db/odoo_addon_sale_financial_risk_info-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-08 05:21:25] INFO root fetch - processPackages [Dakada]: Downloading https://files.pythonhosted.org/packages/18/74/2edab493af2797103b50d1d00f325d97657594e66925b12dd2b53e6f13da/Dakada-1.9.0.tar.gz
+[2023-07-08 05:21:25] INFO root fetch - processPackages [Dakada]: Downloading https://files.pythonhosted.org/packages/18/74/2edab493af2797103b50d1d00f325d97657594e66925b12dd2b53e6f13da/Dakada-1.9.0.tar.gz
+[2023-07-08 05:21:25] INFO root fetch - processPackages [NearBeach]: Downloading https://files.pythonhosted.org/packages/48/ef/4fe893d540b28dfca68c8b7c5bf2cc70a8562ced9e4002654f6c513ee77a/NearBeach-0.30.0rc3.tar.gz
+[2023-07-08 05:21:25] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/7a/12/05ca8c927f3e325933a81657e476333e42fd89d6220a2d0dfe4ccea10365/slib-sorter-1.1.7.tar.gz
+[2023-07-08 05:21:26] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Downloading https://files.pythonhosted.org/packages/2e/43/fb1ad78bf61ed307588380f5bed648812afdaac7cc492dd890bf7726ffbf/odoo_addons_oca_credit_control-16.0.20230705.0-py3-none-any.whl
+[2023-07-08 05:21:26] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-07-08 05:21:26] WARNING root fetch - processPackages [NearBeach]: Skipping package: exceeds size limit 15031318>=10485760
+[2023-07-08 05:21:26] INFO root fetch - main [MainThread]: End processing [NearBeach] error
+[2023-07-08 05:21:26] INFO root fetch - processPackages [Dakada]: Downloading https://files.pythonhosted.org/packages/de/1f/c72a60e8569149b0946919b1d61ffdc6a564ffb1f8e2431f404f1546b1c0/Dakada-2.0.tar.gz
+[2023-07-08 05:21:26] INFO root fetch - processPackages [Dakada]: Downloading https://files.pythonhosted.org/packages/de/1f/c72a60e8569149b0946919b1d61ffdc6a564ffb1f8e2431f404f1546b1c0/Dakada-2.0.tar.gz
+[2023-07-08 05:21:26] INFO root fetch - processPackages [odoo-addon-sale-financial-risk-info]: Downloading https://files.pythonhosted.org/packages/99/52/d8738b38902b656fb54156e3ffc797db805fe7d52eb4c228dd2236fb6c74/odoo_addon_sale_financial_risk_info-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-08 05:21:26] INFO root fetch - processPackages [Dakada]: executing diffoscope
+[2023-07-08 05:21:26] INFO root fetch - processPackages [Dakada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dakada-1.9.0.tar.gz tmp/Dakada-2.0.tar.gz --markdown 20230708/D/Dakada/1.9.0-2.0/diff.md --exclude *.pyd
+[2023-07-08 05:21:26] INFO root fetch - processPackages [Dakada]: executing diffoscope
+[2023-07-08 05:21:26] INFO root fetch - processPackages [Dakada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dakada-1.9.0.tar.gz tmp/Dakada-2.0-py3-none-any.whl.zip --markdown 20230708/D/Dakada/1.9.0-2.0/diff.md --exclude *.pyd
+[2023-07-08 05:21:26] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/df/1a/4e5d2c11209efd5a87eb88e19468bdd0a23317e196d6ccb45714a17ade47/slib-sorter-1.1.8.tar.gz
+[2023-07-08 05:21:26] INFO root fetch - processPackages [odoo-addon-sale-financial-risk-info]: executing diffoscope
+[2023-07-08 05:21:26] INFO root fetch - processPackages [odoo-addon-sale-financial-risk-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_financial_risk_info-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_financial_risk_info-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230708/o/odoo-addon-sale-financial-risk-info/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-08 05:21:26] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 05:21:26] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.1.7.tar.gz tmp/slib-sorter-1.1.8.tar.gz --markdown 20230708/s/slib-sorter/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-08 05:21:26] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Downloading https://files.pythonhosted.org/packages/e4/df/876ebbacbb7fa3d4a9c45bdbf524c16ba2e14b501f465d14a1d4f59db210/odoo_addons_oca_credit_control-16.0.20230707.0-py3-none-any.whl
+[2023-07-08 05:21:26] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-07-08 05:21:26] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: executing diffoscope
+[2023-07-08 05:21:26] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_credit_control-16.0.20230705.0-py3-none-any.whl.zip tmp/odoo_addons_oca_credit_control-16.0.20230707.0-py3-none-any.whl.zip --markdown 20230708/o/odoo-addons-oca-credit-control/16.0.20230705.0-16.0.20230707.0/diff.md --exclude *.pyd
+[2023-07-08 05:21:26] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-08 05:21:26] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230708/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-08 05:21:27] INFO root fetch - processPackages [Dakada]: Remove: archive file [/home/abi/fetcher/tmp/Dakada-1.9.0.tar.gz]
+[2023-07-08 05:21:27] INFO root fetch - processPackages [Dakada]: Remove: archive file [/home/abi/fetcher/tmp/Dakada-2.0.tar.gz]
+[2023-07-08 05:21:27] INFO root fetch - main [MainThread]: End processing [Dakada]: success
+[2023-07-08 05:21:27] INFO root fetch - processPackages [Dakada]: Remove: archive file [/home/abi/fetcher/tmp/Dakada-2.0-py3-none-any.whl.zip]
+[2023-07-08 05:21:27] INFO root fetch - main [MainThread]: End processing [Dakada]: success
+[2023-07-08 05:21:27] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_credit_control-16.0.20230705.0-py3-none-any.whl.zip]
+[2023-07-08 05:21:27] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_credit_control-16.0.20230707.0-py3-none-any.whl.zip]
+[2023-07-08 05:21:27] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-credit-control]: success
+[2023-07-08 05:21:27] INFO root fetch - processPackages [odoo-addon-sale-financial-risk-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_financial_risk_info-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-08 05:21:27] INFO root fetch - processPackages [odoo-addon-sale-financial-risk-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_financial_risk_info-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-08 05:21:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-financial-risk-info]: success
+[2023-07-08 05:21:27] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.1.7.tar.gz]
+[2023-07-08 05:21:27] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.1.8.tar.gz]
+[2023-07-08 05:21:27] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 05:21:28] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-07-08 05:21:28] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-07-08 05:21:28] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-08 05:21:28] INFO root fetch - main [MainThread]: Store serial: [18810541]
