@@ -11235,3 +11235,69 @@
 [2023-07-08 05:37:06] INFO root fetch - processPackages [odoo-addon-product-template-multi-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_template_multi_link-15.0.1.0.0.5-py3-none-any.whl.zip]
 [2023-07-08 05:37:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-template-multi-link]: success
 [2023-07-08 05:37:06] INFO root fetch - main [MainThread]: Store serial: [18810634]
+[2023-07-08 05:42:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810634]
+[2023-07-08 05:42:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 05:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lfinancial
+[2023-07-08 05:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: konfuzio-sdk
+[2023-07-08 05:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tastytrade
+[2023-07-08 05:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: khoj-assistant
+[2023-07-08 05:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-code-editor
+[2023-07-08 05:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pinject-design
+[2023-07-08 05:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sedaro
+[2023-07-08 05:42:15] INFO root fetch - processPackages [lfinancial]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-08 05:42:15] INFO root fetch - processPackages [khoj-assistant]: New version: [0.7.2.dev42] Old Version: [0.7.2.dev4]
+[2023-07-08 05:42:15] INFO root fetch - processPackages [streamlit-code-editor]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-08 05:42:15] INFO root fetch - processPackages [tastytrade]: New version: [5.7] Old Version: [5.6]
+[2023-07-08 05:42:15] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 05:42:15] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-07-08 05:42:15] INFO root fetch - processPackages [sedaro]: New version: [4.3.1] Old Version: [4.1.1]
+[2023-07-08 05:42:15] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/c2/6e/b0c91cf3fc4afc1be967283631e31f0a669aa4910b42c14412d22f6408a1/lfinancial-0.2.1.tar.gz
+[2023-07-08 05:42:15] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/5f/f2/6f47beb8ae7800164b86a0ca180efa5ad86edb3b1419d97531dddcc0c026/pinject-design-0.1.8.tar.gz
+[2023-07-08 05:42:15] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-07-08 05:42:16] INFO root fetch - processPackages [streamlit-code-editor]: Downloading https://files.pythonhosted.org/packages/04/29/cfe644ea517f95d71416abeba02b7aa4a922b045e471791b35e38750f74a/streamlit-code-editor-0.1.6.tar.gz
+[2023-07-08 05:42:16] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/73/aa/033d52c8171d9ef20ea673de1753232bb27beb74b259991bcceeabea9485/khoj_assistant-0.7.2.dev4.tar.gz
+[2023-07-08 05:42:16] INFO root fetch - processPackages [tastytrade]: Downloading https://files.pythonhosted.org/packages/69/2a/6cdaeada70eb8df99810436dfbafaeac588c5aa0b4274db0a0f022849913/tastytrade-5.6.tar.gz
+[2023-07-08 05:42:16] INFO root fetch - processPackages [sedaro]: Downloading https://files.pythonhosted.org/packages/49/aa/fec886b0b9fcf1bb15ba9abb96ab7950b32925ca5928a0f5c32ae79d97fc/sedaro-4.1.1.tar.gz
+[2023-07-08 05:42:16] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-08 05:42:16] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-07-08 05:42:16] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/09/d1/1c72e081191443fb8cf1874c68a8720f83dce6244f292bc6804e6584fb54/lfinancial-0.2.2.tar.gz
+[2023-07-08 05:42:16] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-08 05:42:16] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject-design-0.1.8.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230708/p/pinject-design/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 05:42:16] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-07-08 05:42:16] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230708/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-07-08 05:42:16] INFO root fetch - processPackages [tastytrade]: Downloading https://files.pythonhosted.org/packages/1d/d3/2ff1c1e77950d1c48b76e235618dfe36e665dc4d909485d59ab8cc0f5398/tastytrade-5.7.tar.gz
+[2023-07-08 05:42:16] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-07-08 05:42:16] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.2.1.tar.gz tmp/lfinancial-0.2.2.tar.gz --markdown 20230708/l/lfinancial/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-08 05:42:16] INFO root fetch - processPackages [sedaro]: Downloading https://files.pythonhosted.org/packages/8f/7b/522a34afe4767311403fc5765ad26e50621f38df161f4737dbe2389ee550/sedaro-4.3.1.tar.gz
+[2023-07-08 05:42:16] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/3c/7f/9e7f1440240a74805762db9d5ec765ab0bb15bf83b25f13286de760f8f9c/khoj_assistant-0.7.2.dev42.tar.gz
+[2023-07-08 05:42:16] INFO root fetch - processPackages [tastytrade]: executing diffoscope
+[2023-07-08 05:42:16] INFO root fetch - processPackages [tastytrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade-5.6.tar.gz tmp/tastytrade-5.7.tar.gz --markdown 20230708/t/tastytrade/5.6-5.7/diff.md --exclude *.pyd
+[2023-07-08 05:42:16] INFO root fetch - processPackages [streamlit-code-editor]: Downloading https://files.pythonhosted.org/packages/ef/7e/addb37467f38785b4fa4c173f329a3bf7a161f8b625eff4807cfa1c57634/streamlit-code-editor-0.1.7.tar.gz
+[2023-07-08 05:42:17] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-08 05:42:17] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.7.2.dev4.tar.gz tmp/khoj_assistant-0.7.2.dev42.tar.gz --markdown 20230708/k/khoj-assistant/0.7.2.dev4-0.7.2.dev42/diff.md --exclude *.pyd
+[2023-07-08 05:42:17] INFO root fetch - processPackages [streamlit-code-editor]: executing diffoscope
+[2023-07-08 05:42:17] INFO root fetch - processPackages [streamlit-code-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-code-editor-0.1.6.tar.gz tmp/streamlit-code-editor-0.1.7.tar.gz --markdown 20230708/s/streamlit-code-editor/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-08 05:42:17] INFO root fetch - processPackages [sedaro]: executing diffoscope
+[2023-07-08 05:42:17] INFO root fetch - processPackages [sedaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sedaro-4.1.1.tar.gz tmp/sedaro-4.3.1.tar.gz --markdown 20230708/s/sedaro/4.1.1-4.3.1/diff.md --exclude *.pyd
+[2023-07-08 05:42:17] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.8.tar.gz]
+[2023-07-08 05:42:17] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.9.tar.gz]
+[2023-07-08 05:42:17] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-08 05:42:17] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-07-08 05:42:17] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-07-08 05:42:17] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-07-08 05:42:17] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.2.1.tar.gz]
+[2023-07-08 05:42:17] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.2.2.tar.gz]
+[2023-07-08 05:42:17] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-07-08 05:42:17] INFO root fetch - processPackages [tastytrade]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade-5.6.tar.gz]
+[2023-07-08 05:42:17] INFO root fetch - processPackages [tastytrade]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade-5.7.tar.gz]
+[2023-07-08 05:42:17] INFO root fetch - main [MainThread]: End processing [tastytrade]: success
+[2023-07-08 05:42:18] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev4.tar.gz]
+[2023-07-08 05:42:18] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev42.tar.gz]
+[2023-07-08 05:42:18] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-08 05:42:20] INFO root fetch - processPackages [sedaro]: Remove: archive file [/home/abi/fetcher/tmp/sedaro-4.1.1.tar.gz]
+[2023-07-08 05:42:20] INFO root fetch - processPackages [sedaro]: Remove: archive file [/home/abi/fetcher/tmp/sedaro-4.3.1.tar.gz]
+[2023-07-08 05:42:20] INFO root fetch - main [MainThread]: End processing [sedaro]: success
+[2023-07-08 05:43:24] INFO root fetch - processPackages [streamlit-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-code-editor-0.1.6.tar.gz]
+[2023-07-08 05:43:24] INFO root fetch - processPackages [streamlit-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-code-editor-0.1.7.tar.gz]
+[2023-07-08 05:43:24] INFO root fetch - main [MainThread]: End processing [streamlit-code-editor]: success
+[2023-07-08 05:43:24] INFO root fetch - main [MainThread]: Store serial: [18810666]
