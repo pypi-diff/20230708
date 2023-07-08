@@ -11534,3 +11534,50 @@
 [2023-07-08 06:14:44] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.0.7-py3-none-any.whl.zip]
 [2023-07-08 06:14:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-assets-management]: success
 [2023-07-08 06:14:44] INFO root fetch - main [MainThread]: Store serial: [18810786]
+[2023-07-08 06:19:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810786]
+[2023-07-08 06:19:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 06:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slib-sorter
+[2023-07-08 06:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: statute-utils
+[2023-07-08 06:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheSilent
+[2023-07-08 06:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grss
+[2023-07-08 06:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bech32ref
+[2023-07-08 06:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bacot
+[2023-07-08 06:19:53] INFO root fetch - processPackages [slib-sorter]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-08 06:19:53] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 06:19:54] INFO root fetch - processPackages [bech32ref]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-08 06:19:54] INFO root fetch - processPackages [grss]: New version: [0.5.0] Old Version: [0.2.0]
+[2023-07-08 06:19:54] WARNING root fetch - processPackages [bacot]: Skipping, unable to determine old version
+[2023-07-08 06:19:54] INFO root fetch - main [MainThread]: End processing [bacot] error
+[2023-07-08 06:19:54] INFO root fetch - processPackages [statute-utils]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-08 06:19:54] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-08 06:19:54] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/fb/a0/7c45c4294263bacd80a35ba878f7c061a19f3a6e8e72dfea2be553f85e55/slib-sorter-1.1.9.tar.gz
+[2023-07-08 06:19:54] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-08 06:19:54] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/95/f4/7613cf02f1ba021ec86350153cd02c7f1b5f350cf902adfefd5bbc34e436/statute_utils-0.5.3.tar.gz
+[2023-07-08 06:19:54] INFO root fetch - processPackages [bech32ref]: Downloading https://files.pythonhosted.org/packages/c3/27/c2e4da5e93d75719a5a74bf0b413ab69b65b655477c21af06d4810bb1534/bech32ref-0.0.1.tar.gz
+[2023-07-08 06:19:54] INFO root fetch - processPackages [grss]: Downloading https://files.pythonhosted.org/packages/a9/f2/f6e502e2c580d1b6b5a42659a65ab6b10b223878e10a4f00ce40014b2ce1/grss-0.2.0.tar.gz
+[2023-07-08 06:19:54] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-08 06:19:54] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230708/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 06:19:54] WARNING root fetch - processPackages [grss]: Skipping package: exceeds size limit 26290033>=10485760
+[2023-07-08 06:19:54] INFO root fetch - main [MainThread]: End processing [grss] error
+[2023-07-08 06:19:54] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/dc/7b/0b6235408cd3861e2a4009e1024a12dfeb3bf23282009294096a02730599/slib-sorter-1.2.0.tar.gz
+[2023-07-08 06:19:54] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 06:19:54] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.1.9.tar.gz tmp/slib-sorter-1.2.0.tar.gz --markdown 20230708/s/slib-sorter/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-08 06:19:54] INFO root fetch - processPackages [bech32ref]: Downloading https://files.pythonhosted.org/packages/da/de/6b39a2f35549fb0e6716088c05aa8a3e8a25e17a99877c81546926dc6a55/bech32ref-0.1.0.tar.gz
+[2023-07-08 06:19:54] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/2f/c3/bd9527382774b1756b0c03a06c3bc54ce31679ef197274be2ff927854615/statute_utils-0.5.4.tar.gz
+[2023-07-08 06:19:54] INFO root fetch - processPackages [bech32ref]: executing diffoscope
+[2023-07-08 06:19:54] INFO root fetch - processPackages [bech32ref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bech32ref-0.0.1.tar.gz tmp/bech32ref-0.1.0.tar.gz --markdown 20230708/b/bech32ref/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-08 06:19:54] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2023-07-08 06:19:54] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.5.3.tar.gz tmp/statute_utils-0.5.4.tar.gz --markdown 20230708/s/statute-utils/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-08 06:19:55] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-08 06:19:55] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-08 06:19:55] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-08 06:19:55] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.1.9.tar.gz]
+[2023-07-08 06:19:55] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.0.tar.gz]
+[2023-07-08 06:19:55] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 06:19:55] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.5.3.tar.gz]
+[2023-07-08 06:19:55] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.5.4.tar.gz]
+[2023-07-08 06:19:55] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2023-07-08 06:19:55] INFO root fetch - processPackages [bech32ref]: Remove: archive file [/home/abi/fetcher/tmp/bech32ref-0.0.1.tar.gz]
+[2023-07-08 06:19:55] INFO root fetch - processPackages [bech32ref]: Remove: archive file [/home/abi/fetcher/tmp/bech32ref-0.1.0.tar.gz]
+[2023-07-08 06:19:55] INFO root fetch - main [MainThread]: End processing [bech32ref]: success
+[2023-07-08 06:19:55] INFO root fetch - main [MainThread]: Store serial: [18810821]
