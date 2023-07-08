@@ -3033,3 +3033,66 @@
 [2023-07-08 02:48:18] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307070045.tar.gz]
 [2023-07-08 02:48:18] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-07-08 02:48:18] INFO root fetch - main [MainThread]: Store serial: [18807812]
+[2023-07-08 02:53:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807812]
+[2023-07-08 02:53:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raster-basics
+[2023-07-08 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-gscode
+[2023-07-08 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: horusdemodlib
+[2023-07-08 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssid
+[2023-07-08 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepllm
+[2023-07-08 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: icpp-free
+[2023-07-08 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: translate4colors
+[2023-07-08 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-comprehend-s3olap
+[2023-07-08 02:53:27] INFO root fetch - processPackages [horusdemodlib]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-07-08 02:53:27] INFO root fetch - processPackages [ssid]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 02:53:27] INFO root fetch - processPackages [raster-basics]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-08 02:53:27] INFO root fetch - processPackages [nonebot-plugin-gscode]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-07-08 02:53:27] INFO root fetch - processPackages [deepllm]: New version: [0.6.0] Old Version: [0.5.8]
+[2023-07-08 02:53:27] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-08 02:53:27] WARNING root fetch - processPackages [translate4colors]: Skipping, unable to determine old version
+[2023-07-08 02:53:27] INFO root fetch - main [MainThread]: End processing [translate4colors] error
+[2023-07-08 02:53:27] INFO root fetch - processPackages [icpp-free]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-07-08 02:53:27] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-08 02:53:27] INFO root fetch - processPackages [ssid]: Downloading https://files.pythonhosted.org/packages/52/3f/0876e44c539917b0d692902ad57afb3b7e5fa77f03fe6561f199c398241b/ssid-0.0.2.tar.gz
+[2023-07-08 02:53:27] INFO root fetch - processPackages [horusdemodlib]: Downloading https://files.pythonhosted.org/packages/22/de/ffae1ac1786790a303b7f7286536903097ef994d93014b81c29975afbf75/horusdemodlib-0.3.7.tar.gz
+[2023-07-08 02:53:27] INFO root fetch - processPackages [nonebot-plugin-gscode]: Downloading https://files.pythonhosted.org/packages/2c/a4/37bbeae23e6a502f327c01f5b0c3d606b36b5f55900fa817655b401dd5f3/nonebot_plugin_gscode-0.1.8.tar.gz
+[2023-07-08 02:53:27] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-08 02:53:27] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-08 02:53:27] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/63/11/9d65cb7671a372963baf76c7480d89f4e19ec9726bcc1be4089e64f7b09f/deepllm-0.5.8.tar.gz
+[2023-07-08 02:53:27] INFO root fetch - processPackages [icpp-free]: Downloading https://files.pythonhosted.org/packages/c4/81/299e2a7ddc8092ebe59f6607fa1541472d6db284d5cd3a0e1713e68d2a03/icpp_free-2.7.0-py3-none-any.whl
+[2023-07-08 02:53:28] INFO root fetch - processPackages [raster-basics]: executing diffoscope
+[2023-07-08 02:53:28] INFO root fetch - processPackages [raster-basics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raster_basics-1.3.8.tar.gz tmp/raster_basics-1.3.9.tar.gz --markdown 20230708/r/raster-basics/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-08 02:53:28] INFO root fetch - processPackages [ssid]: Downloading https://files.pythonhosted.org/packages/0d/e0/23c2379af68ed4d2bd8121a3f16839b21cecf87a7ab85043fc98517c6f8c/ssid-0.0.3.tar.gz
+[2023-07-08 02:53:28] INFO root fetch - processPackages [nonebot-plugin-gscode]: Downloading https://files.pythonhosted.org/packages/3c/35/4d16ef2ff8abb5dc520fa6ad967b699a187c56ee831391fb0d4f5ce1f63b/nonebot_plugin_gscode-0.2.0.tar.gz
+[2023-07-08 02:53:28] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/a3/9f/d0255dddc1a307343314328f5624ecf210bdcd3690460ce10ce1f273ec80/deepllm-0.6.0.tar.gz
+[2023-07-08 02:53:28] INFO root fetch - processPackages [icpp-free]: Downloading https://files.pythonhosted.org/packages/3a/3a/a55887066d07226ea1283df0bd1db24ccbede0dc66e7f5d040c855c2df93/icpp_free-2.8.0-py3-none-any.whl
+[2023-07-08 02:53:28] INFO root fetch - processPackages [horusdemodlib]: Downloading https://files.pythonhosted.org/packages/b1/14/e36f42a19ae9af42f5a3a153477607ca959e83a8ec6f3653a240b4f8476c/horusdemodlib-0.3.9.tar.gz
+[2023-07-08 02:53:28] INFO root fetch - processPackages [ssid]: executing diffoscope
+[2023-07-08 02:53:28] INFO root fetch - processPackages [ssid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssid-0.0.2.tar.gz tmp/ssid-0.0.3.tar.gz --markdown 20230708/s/ssid/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 02:53:28] INFO root fetch - processPackages [nonebot-plugin-gscode]: executing diffoscope
+[2023-07-08 02:53:28] INFO root fetch - processPackages [nonebot-plugin-gscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_gscode-0.1.8.tar.gz tmp/nonebot_plugin_gscode-0.2.0.tar.gz --markdown 20230708/n/nonebot-plugin-gscode/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 02:53:28] INFO root fetch - processPackages [horusdemodlib]: executing diffoscope
+[2023-07-08 02:53:28] INFO root fetch - processPackages [horusdemodlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horusdemodlib-0.3.7.tar.gz tmp/horusdemodlib-0.3.9.tar.gz --markdown 20230708/h/horusdemodlib/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-07-08 02:53:28] INFO root fetch - processPackages [deepllm]: executing diffoscope
+[2023-07-08 02:53:28] INFO root fetch - processPackages [deepllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepllm-0.5.8.tar.gz tmp/deepllm-0.6.0.tar.gz --markdown 20230708/d/deepllm/0.5.8-0.6.0/diff.md --exclude *.pyd
+[2023-07-08 02:53:28] INFO root fetch - processPackages [icpp-free]: executing diffoscope
+[2023-07-08 02:53:28] INFO root fetch - processPackages [icpp-free]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icpp_free-2.7.0-py3-none-any.whl.zip tmp/icpp_free-2.8.0-py3-none-any.whl.zip --markdown 20230708/i/icpp-free/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-07-08 02:53:28] INFO root fetch - processPackages [raster-basics]: Remove: archive file [/home/abi/fetcher/tmp/raster_basics-1.3.8.tar.gz]
+[2023-07-08 02:53:28] INFO root fetch - processPackages [raster-basics]: Remove: archive file [/home/abi/fetcher/tmp/raster_basics-1.3.9.tar.gz]
+[2023-07-08 02:53:28] INFO root fetch - main [MainThread]: End processing [raster-basics]: success
+[2023-07-08 02:53:29] INFO root fetch - processPackages [ssid]: Remove: archive file [/home/abi/fetcher/tmp/ssid-0.0.2.tar.gz]
+[2023-07-08 02:53:29] INFO root fetch - processPackages [ssid]: Remove: archive file [/home/abi/fetcher/tmp/ssid-0.0.3.tar.gz]
+[2023-07-08 02:53:29] INFO root fetch - main [MainThread]: End processing [ssid]: success
+[2023-07-08 02:53:29] INFO root fetch - processPackages [horusdemodlib]: Remove: archive file [/home/abi/fetcher/tmp/horusdemodlib-0.3.7.tar.gz]
+[2023-07-08 02:53:29] INFO root fetch - processPackages [horusdemodlib]: Remove: archive file [/home/abi/fetcher/tmp/horusdemodlib-0.3.9.tar.gz]
+[2023-07-08 02:53:29] INFO root fetch - main [MainThread]: End processing [horusdemodlib]: success
+[2023-07-08 02:53:29] INFO root fetch - processPackages [nonebot-plugin-gscode]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_gscode-0.1.8.tar.gz]
+[2023-07-08 02:53:29] INFO root fetch - processPackages [nonebot-plugin-gscode]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_gscode-0.2.0.tar.gz]
+[2023-07-08 02:53:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gscode]: success
+[2023-07-08 02:53:29] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-0.5.8.tar.gz]
+[2023-07-08 02:53:29] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-0.6.0.tar.gz]
+[2023-07-08 02:53:29] INFO root fetch - main [MainThread]: End processing [deepllm]: success
+[2023-07-08 02:53:30] INFO root fetch - processPackages [icpp-free]: Remove: archive file [/home/abi/fetcher/tmp/icpp_free-2.7.0-py3-none-any.whl.zip]
+[2023-07-08 02:53:30] INFO root fetch - processPackages [icpp-free]: Remove: archive file [/home/abi/fetcher/tmp/icpp_free-2.8.0-py3-none-any.whl.zip]
+[2023-07-08 02:53:30] INFO root fetch - main [MainThread]: End processing [icpp-free]: success
+[2023-07-08 02:53:30] INFO root fetch - main [MainThread]: Store serial: [18807836]
