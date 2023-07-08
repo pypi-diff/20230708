@@ -12829,3 +12829,61 @@
 [2023-07-08 09:03:31] INFO root fetch - processPackages [django-comments-xtd]: Remove: archive file [/home/abi/fetcher/tmp/django-comments-xtd-2.9.9.tar.gz]
 [2023-07-08 09:03:31] INFO root fetch - main [MainThread]: End processing [django-comments-xtd]: success
 [2023-07-08 09:03:31] INFO root fetch - main [MainThread]: Store serial: [18811458]
+[2023-07-08 09:08:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811458]
+[2023-07-08 09:08:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 09:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyepics-asyncio
+[2023-07-08 09:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typedpy
+[2023-07-08 09:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-chatglm
+[2023-07-08 09:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain
+[2023-07-08 09:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cone-commands
+[2023-07-08 09:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-hub-nightly
+[2023-07-08 09:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-chatglm
+[2023-07-08 09:08:40] INFO root fetch - processPackages [langchain-chatglm]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-08 09:08:40] INFO root fetch - processPackages [langchain-chatglm]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-08 09:08:40] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-07-08 09:08:40] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-08 09:08:40] INFO root fetch - processPackages [pyepics-asyncio]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-08 09:08:40] WARNING root fetch - processPackages [cone-commands]: Skipping, unable to determine old version
+[2023-07-08 09:08:40] INFO root fetch - main [MainThread]: End processing [cone-commands] error
+[2023-07-08 09:08:40] INFO root fetch - processPackages [typedpy]: New version: [2.9.0] Old Version: [2.8.2]
+[2023-07-08 09:08:40] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-08 09:08:40] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/cb/1c/e42acf7f13c36eeae3e18b36cb1d9383c858b9ffc9d373db62f479d1c07b/langchain-chatglm-0.0.4.tar.gz
+[2023-07-08 09:08:40] INFO root fetch - processPackages [pyepics-asyncio]: Downloading https://files.pythonhosted.org/packages/ec/cb/b96769162dc61a7f6b07b6b0e396d721c70a92aaf49d2031a52809b35429/pyepics-asyncio-0.2.0.tar.gz
+[2023-07-08 09:08:40] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/cb/1c/e42acf7f13c36eeae3e18b36cb1d9383c858b9ffc9d373db62f479d1c07b/langchain-chatglm-0.0.4.tar.gz
+[2023-07-08 09:08:40] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-07-08 09:08:40] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/27/f4/f7ae09b3573eaf9438274f873686c75134c5c6d14d9ecbfe0759ef1a6908/typedpy-2.8.2.tar.gz
+[2023-07-08 09:08:40] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-08 09:08:40] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-08 09:08:40] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230708/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-08 09:08:40] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/7b/51/4e9a2c89473f4a0d62412598d0249dbd424b42e82d07766f666100dff524/langchain-chatglm-0.0.5.tar.gz
+[2023-07-08 09:08:40] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/7b/51/4e9a2c89473f4a0d62412598d0249dbd424b42e82d07766f666100dff524/langchain-chatglm-0.0.5.tar.gz
+[2023-07-08 09:08:41] INFO root fetch - processPackages [pyepics-asyncio]: Downloading https://files.pythonhosted.org/packages/bb/0e/a237790a4cd90f3e612dc240fb750a66d3dce81590e8893bb5aa93b5b006/pyepics_asyncio-0.2.1.tar.gz
+[2023-07-08 09:08:41] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-07-08 09:08:41] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/09/0d/3518f7fd28505046b25ea42ab09a2b7ca99222a917f91ffd54ea61a0e007/typedpy-2.9.0.tar.gz
+[2023-07-08 09:08:41] INFO root fetch - processPackages [langchain-chatglm]: executing diffoscope
+[2023-07-08 09:08:41] INFO root fetch - processPackages [langchain-chatglm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-chatglm-0.0.4.tar.gz tmp/langchain-chatglm-0.0.5.tar.gz --markdown 20230708/l/langchain-chatglm/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-08 09:08:41] INFO root fetch - processPackages [pyepics-asyncio]: executing diffoscope
+[2023-07-08 09:08:41] INFO root fetch - processPackages [pyepics-asyncio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepics-asyncio-0.2.0.tar.gz tmp/pyepics_asyncio-0.2.1.tar.gz --markdown 20230708/p/pyepics-asyncio/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-08 09:08:41] INFO root fetch - processPackages [langchain-chatglm]: executing diffoscope
+[2023-07-08 09:08:41] INFO root fetch - processPackages [langchain-chatglm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-chatglm-0.0.4.tar.gz tmp/langchain-chatglm-0.0.5.tar.gz --markdown 20230708/l/langchain-chatglm/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-08 09:08:41] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-07-08 09:08:41] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230708/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-07-08 09:08:41] INFO root fetch - processPackages [typedpy]: executing diffoscope
+[2023-07-08 09:08:41] INFO root fetch - processPackages [typedpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedpy-2.8.2.tar.gz tmp/typedpy-2.9.0.tar.gz --markdown 20230708/t/typedpy/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2023-07-08 09:08:42] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-08 09:08:42] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-08 09:08:42] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-08 09:08:42] INFO root fetch - processPackages [langchain-chatglm]: Remove: archive file [/home/abi/fetcher/tmp/langchain-chatglm-0.0.4.tar.gz]
+[2023-07-08 09:08:42] INFO root fetch - processPackages [langchain-chatglm]: Remove: archive file [/home/abi/fetcher/tmp/langchain-chatglm-0.0.5.tar.gz]
+[2023-07-08 09:08:42] INFO root fetch - main [MainThread]: End processing [langchain-chatglm]: success
+[2023-07-08 09:08:42] INFO root fetch - processPackages [pyepics-asyncio]: Remove: archive file [/home/abi/fetcher/tmp/pyepics-asyncio-0.2.0.tar.gz]
+[2023-07-08 09:08:42] INFO root fetch - processPackages [pyepics-asyncio]: Remove: archive file [/home/abi/fetcher/tmp/pyepics_asyncio-0.2.1.tar.gz]
+[2023-07-08 09:08:42] INFO root fetch - main [MainThread]: End processing [pyepics-asyncio]: success
+[2023-07-08 09:08:42] INFO root fetch - main [MainThread]: End processing [langchain-chatglm]: success
+[2023-07-08 09:08:42] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.8.2.tar.gz]
+[2023-07-08 09:08:42] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.9.0.tar.gz]
+[2023-07-08 09:08:42] INFO root fetch - main [MainThread]: End processing [typedpy]: success
+[2023-07-08 09:08:43] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-07-08 09:08:43] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-07-08 09:08:43] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-07-08 09:08:43] INFO root fetch - main [MainThread]: Store serial: [18811480]
