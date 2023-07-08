@@ -16398,3 +16398,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 14:43:30] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-1.2.2.tar.gz]
 [2023-07-08 14:43:30] INFO root fetch - main [MainThread]: End processing [seventv]: success
 [2023-07-08 14:43:30] INFO root fetch - main [MainThread]: Store serial: [18813124]
+[2023-07-08 14:48:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813124]
+[2023-07-08 14:48:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-08 14:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorcircuit-nightly
+[2023-07-08 14:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bot-common
+[2023-07-08 14:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wtlike
+[2023-07-08 14:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-walletauth
+[2023-07-08 14:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cocapi
+[2023-07-08 14:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-bili-push
+[2023-07-08 14:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oauthenticator
+[2023-07-08 14:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MusicBGX
+[2023-07-08 14:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: slib-sorter
+[2023-07-08 14:48:40] INFO root fetch - processPackages [slib-sorter]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-08 14:48:40] INFO root fetch - processPackages [fastapi-walletauth]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 14:48:40] INFO root fetch - processPackages [bot-common]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-08 14:48:40] INFO root fetch - processPackages [oauthenticator]: New version: [16.0.3] Old Version: [16.0.2]
+[2023-07-08 14:48:40] INFO root fetch - processPackages [wtlike]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-08 14:48:40] INFO root fetch - processPackages [cocapi]: New version: [2.1.0] Old Version: [2.0.6]
+[2023-07-08 14:48:40] WARNING root fetch - processPackages [MusicBGX]: Skipping, unable to determine old version
+[2023-07-08 14:48:40] INFO root fetch - main [MainThread]: End processing [MusicBGX] error
+[2023-07-08 14:48:40] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/b2/53/47481303e2e5175b2758b93bbe450a47b5b5c994d12be5b3e7e5300334a5/slib-sorter-1.5.2.tar.gz
+[2023-07-08 14:48:40] INFO root fetch - processPackages [fastapi-walletauth]: Downloading https://files.pythonhosted.org/packages/2a/9c/68c303351e462a006cdb4322bd73240e691add347e1e129a6f594db15b0a/fastapi_walletauth-0.1.0.tar.gz
+[2023-07-08 14:48:40] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 14:48:40] INFO root fetch - processPackages [oauthenticator]: Downloading https://files.pythonhosted.org/packages/c2/b5/3afdf1120e432344055f06682932a7cc5ccc01a4e393df9dea391272d0c8/oauthenticator-16.0.2.tar.gz
+[2023-07-08 14:48:40] INFO root fetch - processPackages [fastapi-walletauth]: Downloading https://files.pythonhosted.org/packages/86/88/79888376f07e2969a8aee2bbca319603c643a89628cf2446fbb3ec2b5287/fastapi_walletauth-0.1.1.tar.gz
+[2023-07-08 14:48:40] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/39/80/bc88de6a1b12bb83dbbd2e8643504984f955ca5b7e0206ae694249ac9af4/slib-sorter-1.5.3.tar.gz
+[2023-07-08 14:48:40] INFO root fetch - processPackages [bot-common]: Downloading https://files.pythonhosted.org/packages/0c/9e/279520225e0bedef2bd07a5e169b629c906fdd5593af7ee03059b2e5151e/bot_common-0.1.6.tar.gz
+[2023-07-08 14:48:41] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-07-08 14:48:41] INFO root fetch - processPackages [cocapi]: Downloading https://files.pythonhosted.org/packages/b0/fa/701d61d2138f726629b0730d336ac05c2b4e559d43210e19e95def932705/cocapi-2.0.6.tar.gz
+[2023-07-08 14:48:41] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-07-08 14:48:41] INFO root fetch - processPackages [fastapi-walletauth]: executing diffoscope
+[2023-07-08 14:48:41] INFO root fetch - processPackages [fastapi-walletauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_walletauth-0.1.0.tar.gz tmp/fastapi_walletauth-0.1.1.tar.gz --markdown 20230708/f/fastapi-walletauth/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 14:48:41] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 14:48:41] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.5.2.tar.gz tmp/slib-sorter-1.5.3.tar.gz --markdown 20230708/s/slib-sorter/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-08 14:48:41] INFO root fetch - processPackages [wtlike]: Downloading https://files.pythonhosted.org/packages/05/b0/fb6fdf0ac1a637bc567ce0b107db24287741371e39ce6a865fa5f8cf2ee3/wtlike-0.9.7.tar.gz
+[2023-07-08 14:48:41] INFO root fetch - processPackages [oauthenticator]: Downloading https://files.pythonhosted.org/packages/27/a1/8024cd6dddc7df9926ffefc42b17fcd6fd003728cb2633d1e60dfa2c75d0/oauthenticator-16.0.3.tar.gz
+[2023-07-08 14:48:41] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-07-08 14:48:41] INFO root fetch - processPackages [bot-common]: Downloading https://files.pythonhosted.org/packages/84/5d/7e066bbef165e8328e6410c14e4f52c79aa6dd44502cd941873997e48cd6/bot_common-0.1.7.tar.gz
+[2023-07-08 14:48:41] INFO root fetch - processPackages [cocapi]: Downloading https://files.pythonhosted.org/packages/c8/5f/029a1a530b4b1fed7787ac7a938bc42f46f4f045b4d94ea238b47578b577/cocapi-2.1.0.tar.gz
+[2023-07-08 14:48:41] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/7a/de/eb6aaa4df9bfca89e16091310ba9209ee5026d1ad5eaaaa17aa8e4121daf/nonebot_plugin_bili_push-0.1.9.tar.gz
+[2023-07-08 14:48:41] INFO root fetch - processPackages [bot-common]: executing diffoscope
+[2023-07-08 14:48:41] INFO root fetch - processPackages [bot-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bot_common-0.1.6.tar.gz tmp/bot_common-0.1.7.tar.gz --markdown 20230708/b/bot-common/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-08 14:48:41] INFO root fetch - processPackages [oauthenticator]: executing diffoscope
+[2023-07-08 14:48:41] INFO root fetch - processPackages [oauthenticator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oauthenticator-16.0.2.tar.gz tmp/oauthenticator-16.0.3.tar.gz --markdown 20230708/o/oauthenticator/16.0.2-16.0.3/diff.md --exclude *.pyd
+[2023-07-08 14:48:41] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-07-08 14:48:41] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.8.tar.gz tmp/nonebot_plugin_bili_push-0.1.9.tar.gz --markdown 20230708/n/nonebot-plugin-bili-push/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 14:48:41] INFO root fetch - processPackages [cocapi]: executing diffoscope
+[2023-07-08 14:48:41] INFO root fetch - processPackages [cocapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocapi-2.0.6.tar.gz tmp/cocapi-2.1.0.tar.gz --markdown 20230708/c/cocapi/2.0.6-2.1.0/diff.md --exclude *.pyd
+[2023-07-08 14:48:41] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-07-08 14:48:41] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-07-08 14:48:41] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230708/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-07-08 14:48:42] INFO root fetch - processPackages [fastapi-walletauth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_walletauth-0.1.0.tar.gz]
+[2023-07-08 14:48:42] INFO root fetch - processPackages [fastapi-walletauth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_walletauth-0.1.1.tar.gz]
+[2023-07-08 14:48:42] INFO root fetch - main [MainThread]: End processing [fastapi-walletauth]: success
+[2023-07-08 14:48:42] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.2.tar.gz]
+[2023-07-08 14:48:42] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.5.3.tar.gz]
+[2023-07-08 14:48:42] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 14:48:42] INFO root fetch - processPackages [wtlike]: Downloading https://files.pythonhosted.org/packages/ea/26/89c7e92dbbb1265e219e6e213236722a3bcdbea7eb3d803a81e1c77dcb60/wtlike-0.9.8.tar.gz
+[2023-07-08 14:48:42] INFO root fetch - processPackages [bot-common]: Remove: archive file [/home/abi/fetcher/tmp/bot_common-0.1.6.tar.gz]
+[2023-07-08 14:48:42] INFO root fetch - processPackages [bot-common]: Remove: archive file [/home/abi/fetcher/tmp/bot_common-0.1.7.tar.gz]
+[2023-07-08 14:48:42] INFO root fetch - main [MainThread]: End processing [bot-common]: success
+[2023-07-08 14:48:42] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-07-08 14:48:42] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.9.tar.gz]
+[2023-07-08 14:48:42] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-07-08 14:48:42] INFO root fetch - processPackages [cocapi]: Remove: archive file [/home/abi/fetcher/tmp/cocapi-2.0.6.tar.gz]
+[2023-07-08 14:48:42] INFO root fetch - processPackages [cocapi]: Remove: archive file [/home/abi/fetcher/tmp/cocapi-2.1.0.tar.gz]
+[2023-07-08 14:48:42] INFO root fetch - main [MainThread]: End processing [cocapi]: success
+[2023-07-08 14:48:42] INFO root fetch - processPackages [oauthenticator]: Remove: archive file [/home/abi/fetcher/tmp/oauthenticator-16.0.2.tar.gz]
+[2023-07-08 14:48:42] INFO root fetch - processPackages [oauthenticator]: Remove: archive file [/home/abi/fetcher/tmp/oauthenticator-16.0.3.tar.gz]
+[2023-07-08 14:48:42] INFO root fetch - main [MainThread]: End processing [oauthenticator]: success
+[2023-07-08 14:48:42] INFO root fetch - processPackages [wtlike]: executing diffoscope
+[2023-07-08 14:48:42] INFO root fetch - processPackages [wtlike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtlike-0.9.7.tar.gz tmp/wtlike-0.9.8.tar.gz --markdown 20230708/w/wtlike/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-08 14:48:43] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-07-08 14:48:43] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-07-08 14:48:43] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-07-08 14:48:43] INFO root fetch - processPackages [wtlike]: Remove: archive file [/home/abi/fetcher/tmp/wtlike-0.9.7.tar.gz]
+[2023-07-08 14:48:43] INFO root fetch - processPackages [wtlike]: Remove: archive file [/home/abi/fetcher/tmp/wtlike-0.9.8.tar.gz]
+[2023-07-08 14:48:43] INFO root fetch - main [MainThread]: End processing [wtlike]: success
+[2023-07-08 14:48:43] INFO root fetch - main [MainThread]: Store serial: [18813154]
