@@ -21264,3 +21264,42 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 21:26:40] INFO root fetch - processPackages [sb-arch-opt]: Remove: archive file [/home/abi/fetcher/tmp/sb-arch-opt-1.1.4.tar.gz]
 [2023-07-08 21:26:40] INFO root fetch - main [MainThread]: End processing [sb-arch-opt]: success
 [2023-07-08 21:26:40] INFO root fetch - main [MainThread]: Store serial: [18815337]
+[2023-07-08 21:31:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815337]
+[2023-07-08 21:31:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 21:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hs-api
+[2023-07-08 21:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ohnlp-backbone-xlang-python
+[2023-07-08 21:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qvsed
+[2023-07-08 21:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygeocodio
+[2023-07-08 21:31:49] INFO root fetch - processPackages [qvsed]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-08 21:31:49] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 21:31:49] INFO root fetch - processPackages [hs-api]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-08 21:31:49] INFO root fetch - processPackages [pygeocodio]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-08 21:31:49] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/2c/af/db84e43875d1db29c1d0c5303c536942a426a5ac9a9982f5114adde6400d/ohnlp-backbone-xlang-python-1.0.8.tar.gz
+[2023-07-08 21:31:49] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/b3/e9/99305231552f99f307aa93d53d8915c7a9ce5a2c914df95c90ebba11bd3a/qvsed-1.3.3.tar.gz
+[2023-07-08 21:31:49] INFO root fetch - processPackages [hs-api]: Downloading https://files.pythonhosted.org/packages/13/7a/07879e42bdd5549ec983e3df6a1e7ef6b175e1a07c6edeb90ceec207dec9/hs_api-0.1.3.tar.gz
+[2023-07-08 21:31:50] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Downloading https://files.pythonhosted.org/packages/94/b2/be03e8009435ffd3f952d23f655bf7bd9bfdc90709c345a9d27befa172a9/ohnlp-backbone-xlang-python-1.0.9.tar.gz
+[2023-07-08 21:31:50] INFO root fetch - processPackages [pygeocodio]: Downloading https://files.pythonhosted.org/packages/d6/12/51ab6c49a2d251a4bdfa26f4b03683c5908a7d045755e9cc9b268f3fc615/pygeocodio-1.3.0.tar.gz
+[2023-07-08 21:31:50] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: executing diffoscope
+[2023-07-08 21:31:50] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohnlp-backbone-xlang-python-1.0.8.tar.gz tmp/ohnlp-backbone-xlang-python-1.0.9.tar.gz --markdown 20230708/o/ohnlp-backbone-xlang-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 21:31:50] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/4c/a2/4f7e5277359ed31a0f83406591f065419f2c2f936bdbee01d9e868467e08/qvsed-1.3.4.tar.gz
+[2023-07-08 21:31:50] INFO root fetch - processPackages [hs-api]: Downloading https://files.pythonhosted.org/packages/86/31/5d6385fcedbac57c52f403209932708a8d983b3282306a0b86f476e397b4/hs_api-0.1.4.tar.gz
+[2023-07-08 21:31:50] INFO root fetch - processPackages [hs-api]: executing diffoscope
+[2023-07-08 21:31:50] INFO root fetch - processPackages [hs-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hs_api-0.1.3.tar.gz tmp/hs_api-0.1.4.tar.gz --markdown 20230708/h/hs-api/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-08 21:31:50] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-08 21:31:50] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.3.3.tar.gz tmp/qvsed-1.3.4.tar.gz --markdown 20230708/q/qvsed/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-08 21:31:50] INFO root fetch - processPackages [pygeocodio]: Downloading https://files.pythonhosted.org/packages/da/b1/bc3c628ed5b9c97e7e9a83561704a4075855cf3ee17a59080fdb4a31eaf8/pygeocodio-1.4.0.tar.gz
+[2023-07-08 21:31:50] INFO root fetch - processPackages [pygeocodio]: executing diffoscope
+[2023-07-08 21:31:50] INFO root fetch - processPackages [pygeocodio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeocodio-1.3.0.tar.gz tmp/pygeocodio-1.4.0.tar.gz --markdown 20230708/p/pygeocodio/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-08 21:31:50] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.8.tar.gz]
+[2023-07-08 21:31:50] INFO root fetch - processPackages [ohnlp-backbone-xlang-python]: Remove: archive file [/home/abi/fetcher/tmp/ohnlp-backbone-xlang-python-1.0.9.tar.gz]
+[2023-07-08 21:31:50] INFO root fetch - main [MainThread]: End processing [ohnlp-backbone-xlang-python]: success
+[2023-07-08 21:31:51] INFO root fetch - processPackages [hs-api]: Remove: archive file [/home/abi/fetcher/tmp/hs_api-0.1.3.tar.gz]
+[2023-07-08 21:31:51] INFO root fetch - processPackages [hs-api]: Remove: archive file [/home/abi/fetcher/tmp/hs_api-0.1.4.tar.gz]
+[2023-07-08 21:31:51] INFO root fetch - main [MainThread]: End processing [hs-api]: success
+[2023-07-08 21:31:51] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.3.tar.gz]
+[2023-07-08 21:31:51] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.4.tar.gz]
+[2023-07-08 21:31:51] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-08 21:31:51] INFO root fetch - processPackages [pygeocodio]: Remove: archive file [/home/abi/fetcher/tmp/pygeocodio-1.3.0.tar.gz]
+[2023-07-08 21:31:51] INFO root fetch - processPackages [pygeocodio]: Remove: archive file [/home/abi/fetcher/tmp/pygeocodio-1.4.0.tar.gz]
+[2023-07-08 21:31:51] INFO root fetch - main [MainThread]: End processing [pygeocodio]: success
+[2023-07-08 21:31:51] INFO root fetch - main [MainThread]: Store serial: [18815355]
