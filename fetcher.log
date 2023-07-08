@@ -20792,3 +20792,33 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 20:34:46] INFO root fetch - processPackages [pyllamacpp]: Remove: archive file [/home/abi/fetcher/tmp/pyllamacpp-2.4.1.tar.gz]
 [2023-07-08 20:34:46] INFO root fetch - main [MainThread]: End processing [pyllamacpp]: success
 [2023-07-08 20:34:46] INFO root fetch - main [MainThread]: Store serial: [18815135]
+[2023-07-08 20:39:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815135]
+[2023-07-08 20:39:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 20:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tarandm-analytics
+[2023-07-08 20:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fentoboardimage
+[2023-07-08 20:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypdfe
+[2023-07-08 20:39:55] INFO root fetch - processPackages [tarandm-analytics]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-08 20:39:55] INFO root fetch - processPackages [pypdfe]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-08 20:39:55] INFO root fetch - processPackages [fentoboardimage]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-08 20:39:55] INFO root fetch - processPackages [tarandm-analytics]: Downloading https://files.pythonhosted.org/packages/ee/ad/3244a80c26b526ca0ff1b25c7db12849dcb97872b9ae0eacc62d9f72a923/tarandm_analytics-0.0.7.tar.gz
+[2023-07-08 20:39:55] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/c8/10/9274d8407708679372bf40321b3aabb608e8e7edba06cb8a20e4b73840f9/pypdfe-0.1.1.tar.gz
+[2023-07-08 20:39:55] INFO root fetch - processPackages [fentoboardimage]: Downloading https://files.pythonhosted.org/packages/73/57/6ddc32bd46ab0288edd71d888e36d4f22d456da776162821db913dd3930f/fentoboardimage-1.1.0.tar.gz
+[2023-07-08 20:39:56] INFO root fetch - processPackages [tarandm-analytics]: Downloading https://files.pythonhosted.org/packages/ae/f9/eb536299457c9dc27a4c91a7e9d6c149802e7ff958137e9bf3afa0e4a286/tarandm_analytics-0.0.8.tar.gz
+[2023-07-08 20:39:56] INFO root fetch - processPackages [fentoboardimage]: Downloading https://files.pythonhosted.org/packages/49/48/e4150cd547bd0a4412e6d8a3e314893711777a4be18f1208657e5b041cbc/fentoboardimage-1.1.1.tar.gz
+[2023-07-08 20:39:56] INFO root fetch - processPackages [tarandm-analytics]: executing diffoscope
+[2023-07-08 20:39:56] INFO root fetch - processPackages [tarandm-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarandm_analytics-0.0.7.tar.gz tmp/tarandm_analytics-0.0.8.tar.gz --markdown 20230708/t/tarandm-analytics/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-08 20:39:56] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/af/08/a5ab698c225b1d1743e230977179c35d1ea3b2ce41d58e081aea6fdc7d5c/pypdfe-0.1.2.tar.gz
+[2023-07-08 20:39:56] INFO root fetch - processPackages [fentoboardimage]: executing diffoscope
+[2023-07-08 20:39:56] INFO root fetch - processPackages [fentoboardimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fentoboardimage-1.1.0.tar.gz tmp/fentoboardimage-1.1.1.tar.gz --markdown 20230708/f/fentoboardimage/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-08 20:39:56] INFO root fetch - processPackages [pypdfe]: executing diffoscope
+[2023-07-08 20:39:56] INFO root fetch - processPackages [pypdfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfe-0.1.1.tar.gz tmp/pypdfe-0.1.2.tar.gz --markdown 20230708/p/pypdfe/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-08 20:39:57] INFO root fetch - processPackages [tarandm-analytics]: Remove: archive file [/home/abi/fetcher/tmp/tarandm_analytics-0.0.7.tar.gz]
+[2023-07-08 20:39:57] INFO root fetch - processPackages [tarandm-analytics]: Remove: archive file [/home/abi/fetcher/tmp/tarandm_analytics-0.0.8.tar.gz]
+[2023-07-08 20:39:57] INFO root fetch - main [MainThread]: End processing [tarandm-analytics]: success
+[2023-07-08 20:39:57] INFO root fetch - processPackages [fentoboardimage]: Remove: archive file [/home/abi/fetcher/tmp/fentoboardimage-1.1.0.tar.gz]
+[2023-07-08 20:39:57] INFO root fetch - processPackages [fentoboardimage]: Remove: archive file [/home/abi/fetcher/tmp/fentoboardimage-1.1.1.tar.gz]
+[2023-07-08 20:39:57] INFO root fetch - main [MainThread]: End processing [fentoboardimage]: success
+[2023-07-08 20:39:57] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.1.tar.gz]
+[2023-07-08 20:39:57] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.2.tar.gz]
+[2023-07-08 20:39:57] INFO root fetch - main [MainThread]: End processing [pypdfe]: success
+[2023-07-08 20:39:57] INFO root fetch - main [MainThread]: Store serial: [18815143]
