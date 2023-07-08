@@ -19453,3 +19453,93 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 18:45:31] INFO root fetch - processPackages [ragu]: Remove: archive file [/home/abi/fetcher/tmp/ragu-0.1.21.tar.gz]
 [2023-07-08 18:45:31] INFO root fetch - main [MainThread]: End processing [ragu]: success
 [2023-07-08 18:45:31] INFO root fetch - main [MainThread]: Store serial: [18814481]
+[2023-07-08 18:50:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814481]
+[2023-07-08 18:50:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-08 18:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unifi-protect-backup
+[2023-07-08 18:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typefit
+[2023-07-08 18:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-carousel
+[2023-07-08 18:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reprim
+[2023-07-08 18:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyupgrade
+[2023-07-08 18:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gitlabx
+[2023-07-08 18:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datafusion
+[2023-07-08 18:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: myjlab
+[2023-07-08 18:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: findmyorder
+[2023-07-08 18:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MCRP
+[2023-07-08 18:50:41] INFO root fetch - processPackages [streamlit-carousel]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-08 18:50:41] INFO root fetch - processPackages [typefit]: New version: [0.5.1] Old Version: [0.4.2]
+[2023-07-08 18:50:41] INFO root fetch - processPackages [gitlabx]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-08 18:50:41] INFO root fetch - processPackages [unifi-protect-backup]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-08 18:50:41] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 18:50:41] INFO root fetch - processPackages [reprim]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 18:50:41] INFO root fetch - processPackages [MCRP]: New version: [0.2.0rc1] Old Version: [0.1.9]
+[2023-07-08 18:50:41] INFO root fetch - processPackages [gitlabx]: Downloading https://files.pythonhosted.org/packages/4c/05/7dc63e3aa2c9dfdb3fb39f223cf34d30ceb473337a96998cdcf526deccf2/gitlabx-0.5.0-py3-none-any.whl
+[2023-07-08 18:50:41] INFO root fetch - processPackages [datafusion]: New version: [27.0.0] Old Version: [26.0.0]
+[2023-07-08 18:50:41] WARNING root fetch - processPackages [myjlab]: Skipping, unable to determine old version
+[2023-07-08 18:50:41] INFO root fetch - processPackages [myjlab]: Start processing: canarysync
+[2023-07-08 18:50:41] INFO root fetch - main [MainThread]: End processing [myjlab] error
+[2023-07-08 18:50:41] INFO root fetch - processPackages [pyupgrade]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-08 18:50:41] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 18:50:41] INFO root fetch - processPackages [streamlit-carousel]: Downloading https://files.pythonhosted.org/packages/2c/10/5fbdfd2c0aa9adafbe63bd75523802d3d349dcf1c9ea018facbdd9156477/streamlit_carousel-0.0.1.tar.gz
+[2023-07-08 18:50:41] INFO root fetch - processPackages [reprim]: Downloading https://files.pythonhosted.org/packages/b7/93/6cb817e694067002b2646cebee5e45f58ad998a31e76d217443464d17687/reprim-0.0.2.tar.gz
+[2023-07-08 18:50:41] WARNING root fetch - processPackages [canarysync]: Skipping, unable to determine old version
+[2023-07-08 18:50:41] INFO root fetch - main [MainThread]: End processing [canarysync] error
+[2023-07-08 18:50:41] INFO root fetch - processPackages [unifi-protect-backup]: Downloading https://files.pythonhosted.org/packages/ea/1d/e5d959dc80051fb8331b2936b70120e1c55805bc2b9c4d0ab1b2b595cda5/unifi_protect_backup-0.9.2.tar.gz
+[2023-07-08 18:50:41] INFO root fetch - processPackages [typefit]: Downloading https://files.pythonhosted.org/packages/27/11/228fc80a0e96d8055980101273ab4f875e145f19d3f4e25305ffbed684db/typefit-0.4.2.tar.gz
+[2023-07-08 18:50:41] INFO root fetch - processPackages [MCRP]: Downloading https://files.pythonhosted.org/packages/b7/c0/fdbd77022e1752d914b85892bb3ce89a49b60ee308709e086cf4a0a0ce6e/MCRP-0.1.9-py3-none-any.whl
+[2023-07-08 18:50:41] INFO root fetch - processPackages [datafusion]: Downloading https://files.pythonhosted.org/packages/21/7a/b614d5ce31b3128455497e9ea388da98e9275b5d5387a0c95b0e70f9f118/datafusion-26.0.0.tar.gz
+[2023-07-08 18:50:41] INFO root fetch - processPackages [pyupgrade]: Downloading https://files.pythonhosted.org/packages/fc/de/b89bb5af97a3712407db232b8a43eaf8d19657cdb5740cde22650bb182d9/pyupgrade-3.8.0.tar.gz
+[2023-07-08 18:50:41] INFO root fetch - processPackages [gitlabx]: Downloading https://files.pythonhosted.org/packages/40/e9/e7d2cc01d5cfd106ba4c904c45fff332450062f60e6433c304ff5cc7e0db/gitlabx-0.5.1-py3-none-any.whl
+[2023-07-08 18:50:41] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 18:50:41] INFO root fetch - processPackages [gitlabx]: executing diffoscope
+[2023-07-08 18:50:41] INFO root fetch - processPackages [gitlabx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabx-0.5.0-py3-none-any.whl.zip tmp/gitlabx-0.5.1-py3-none-any.whl.zip --markdown 20230708/g/gitlabx/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-08 18:50:42] INFO root fetch - processPackages [streamlit-carousel]: Downloading https://files.pythonhosted.org/packages/06/23/0879b21ee9716a82c803184ed76b6c647201ba914fbe5cef81c832517f77/streamlit_carousel-0.0.2.tar.gz
+[2023-07-08 18:50:42] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 18:50:42] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 18:50:42] INFO root fetch - processPackages [reprim]: Downloading https://files.pythonhosted.org/packages/b1/61/26ffd977afc68f65fcc2598a6b4e6817403482ce21f06850706d7f24656c/reprim-0.0.3.tar.gz
+[2023-07-08 18:50:42] INFO root fetch - processPackages [unifi-protect-backup]: Downloading https://files.pythonhosted.org/packages/53/71/754837cb000c80efedcb48e4f2a2ce4e965ec57f73e0fdcc59518ee654ad/unifi_protect_backup-0.9.3.tar.gz
+[2023-07-08 18:50:42] INFO root fetch - processPackages [pyupgrade]: Downloading https://files.pythonhosted.org/packages/db/85/5ab47540646d6fe0ad149d3f8ac3a4c0955aeb3c90d267bdb1909f4b2a1a/pyupgrade-3.9.0.tar.gz
+[2023-07-08 18:50:42] INFO root fetch - processPackages [typefit]: Downloading https://files.pythonhosted.org/packages/07/24/e0c628cf974acd2c07a823bf1bf280d47a673cb8a0a5eb9f038243ccc479/typefit-0.5.1.tar.gz
+[2023-07-08 18:50:42] INFO root fetch - processPackages [datafusion]: Downloading https://files.pythonhosted.org/packages/dc/d3/70ebc7ba64121778e2f190019c700af5e49c1c831853b6fba320b2a71733/datafusion-27.0.0.tar.gz
+[2023-07-08 18:50:42] INFO root fetch - processPackages [MCRP]: Downloading https://files.pythonhosted.org/packages/40/75/566e0dee50793764794636e86da26481782cd13c2d0718b84ea3ddff8ad5/MCRP-0.2.0rc1-py3-none-any.whl
+[2023-07-08 18:50:42] INFO root fetch - processPackages [streamlit-carousel]: executing diffoscope
+[2023-07-08 18:50:42] INFO root fetch - processPackages [streamlit-carousel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_carousel-0.0.1.tar.gz tmp/streamlit_carousel-0.0.2.tar.gz --markdown 20230708/s/streamlit-carousel/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 18:50:42] INFO root fetch - processPackages [reprim]: executing diffoscope
+[2023-07-08 18:50:42] INFO root fetch - processPackages [reprim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprim-0.0.2.tar.gz tmp/reprim-0.0.3.tar.gz --markdown 20230708/r/reprim/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 18:50:42] INFO root fetch - processPackages [unifi-protect-backup]: executing diffoscope
+[2023-07-08 18:50:42] INFO root fetch - processPackages [unifi-protect-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unifi_protect_backup-0.9.2.tar.gz tmp/unifi_protect_backup-0.9.3.tar.gz --markdown 20230708/u/unifi-protect-backup/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-08 18:50:42] INFO root fetch - processPackages [typefit]: executing diffoscope
+[2023-07-08 18:50:42] INFO root fetch - processPackages [typefit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typefit-0.4.2.tar.gz tmp/typefit-0.5.1.tar.gz --markdown 20230708/t/typefit/0.4.2-0.5.1/diff.md --exclude *.pyd
+[2023-07-08 18:50:42] INFO root fetch - processPackages [datafusion]: executing diffoscope
+[2023-07-08 18:50:42] INFO root fetch - processPackages [datafusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datafusion-26.0.0.tar.gz tmp/datafusion-27.0.0.tar.gz --markdown 20230708/d/datafusion/26.0.0-27.0.0/diff.md --exclude *.pyd
+[2023-07-08 18:50:42] INFO root fetch - processPackages [MCRP]: executing diffoscope
+[2023-07-08 18:50:42] INFO root fetch - processPackages [MCRP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MCRP-0.1.9-py3-none-any.whl.zip tmp/MCRP-0.2.0rc1-py3-none-any.whl.zip --markdown 20230708/M/MCRP/0.1.9-0.2.0rc1/diff.md --exclude *.pyd
+[2023-07-08 18:50:42] INFO root fetch - processPackages [pyupgrade]: executing diffoscope
+[2023-07-08 18:50:42] INFO root fetch - processPackages [pyupgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyupgrade-3.8.0.tar.gz tmp/pyupgrade-3.9.0.tar.gz --markdown 20230708/p/pyupgrade/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-08 18:50:43] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 18:50:43] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 18:50:43] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 18:50:43] INFO root fetch - processPackages [gitlabx]: Remove: archive file [/home/abi/fetcher/tmp/gitlabx-0.5.0-py3-none-any.whl.zip]
+[2023-07-08 18:50:43] INFO root fetch - processPackages [gitlabx]: Remove: archive file [/home/abi/fetcher/tmp/gitlabx-0.5.1-py3-none-any.whl.zip]
+[2023-07-08 18:50:43] INFO root fetch - main [MainThread]: End processing [gitlabx]: success
+[2023-07-08 18:50:43] INFO root fetch - processPackages [reprim]: Remove: archive file [/home/abi/fetcher/tmp/reprim-0.0.2.tar.gz]
+[2023-07-08 18:50:43] INFO root fetch - processPackages [reprim]: Remove: archive file [/home/abi/fetcher/tmp/reprim-0.0.3.tar.gz]
+[2023-07-08 18:50:43] INFO root fetch - main [MainThread]: End processing [reprim]: success
+[2023-07-08 18:50:43] INFO root fetch - processPackages [unifi-protect-backup]: Remove: archive file [/home/abi/fetcher/tmp/unifi_protect_backup-0.9.2.tar.gz]
+[2023-07-08 18:50:43] INFO root fetch - processPackages [unifi-protect-backup]: Remove: archive file [/home/abi/fetcher/tmp/unifi_protect_backup-0.9.3.tar.gz]
+[2023-07-08 18:50:43] INFO root fetch - main [MainThread]: End processing [unifi-protect-backup]: success
+[2023-07-08 18:50:43] INFO root fetch - processPackages [streamlit-carousel]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_carousel-0.0.1.tar.gz]
+[2023-07-08 18:50:43] INFO root fetch - processPackages [streamlit-carousel]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_carousel-0.0.2.tar.gz]
+[2023-07-08 18:50:43] INFO root fetch - main [MainThread]: End processing [streamlit-carousel]: success
+[2023-07-08 18:50:43] INFO root fetch - processPackages [typefit]: Remove: archive file [/home/abi/fetcher/tmp/typefit-0.4.2.tar.gz]
+[2023-07-08 18:50:43] INFO root fetch - processPackages [typefit]: Remove: archive file [/home/abi/fetcher/tmp/typefit-0.5.1.tar.gz]
+[2023-07-08 18:50:43] INFO root fetch - main [MainThread]: End processing [typefit]: success
+[2023-07-08 18:50:43] INFO root fetch - processPackages [MCRP]: Remove: archive file [/home/abi/fetcher/tmp/MCRP-0.1.9-py3-none-any.whl.zip]
+[2023-07-08 18:50:43] INFO root fetch - processPackages [MCRP]: Remove: archive file [/home/abi/fetcher/tmp/MCRP-0.2.0rc1-py3-none-any.whl.zip]
+[2023-07-08 18:50:43] INFO root fetch - main [MainThread]: End processing [MCRP]: success
+[2023-07-08 18:50:43] INFO root fetch - processPackages [pyupgrade]: Remove: archive file [/home/abi/fetcher/tmp/pyupgrade-3.8.0.tar.gz]
+[2023-07-08 18:50:43] INFO root fetch - processPackages [pyupgrade]: Remove: archive file [/home/abi/fetcher/tmp/pyupgrade-3.9.0.tar.gz]
+[2023-07-08 18:50:43] INFO root fetch - main [MainThread]: End processing [pyupgrade]: success
+[2023-07-08 18:50:44] INFO root fetch - processPackages [datafusion]: Remove: archive file [/home/abi/fetcher/tmp/datafusion-26.0.0.tar.gz]
+[2023-07-08 18:50:44] INFO root fetch - processPackages [datafusion]: Remove: archive file [/home/abi/fetcher/tmp/datafusion-27.0.0.tar.gz]
+[2023-07-08 18:50:44] INFO root fetch - main [MainThread]: End processing [datafusion]: success
+[2023-07-08 18:50:44] INFO root fetch - main [MainThread]: Store serial: [18814522]
