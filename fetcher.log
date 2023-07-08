@@ -11430,3 +11430,68 @@
 [2023-07-08 06:04:18] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230706.tar.gz]
 [2023-07-08 06:04:18] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
 [2023-07-08 06:04:18] INFO root fetch - main [MainThread]: Store serial: [18810735]
+[2023-07-08 06:09:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810735]
+[2023-07-08 06:09:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 06:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benimang
+[2023-07-08 06:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sasktran
+[2023-07-08 06:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autosrt
+[2023-07-08 06:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plemmy
+[2023-07-08 06:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-splatoon3
+[2023-07-08 06:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spike2py-preprocess
+[2023-07-08 06:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansar-encode
+[2023-07-08 06:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ooo-dev-tools
+[2023-07-08 06:09:27] INFO root fetch - processPackages [plemmy]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-07-08 06:09:27] INFO root fetch - processPackages [benimang]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-08 06:09:27] INFO root fetch - processPackages [autosrt]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-08 06:09:27] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-08 06:09:27] WARNING root fetch - processPackages [sasktran]: Skipping, unable to determine old version
+[2023-07-08 06:09:27] INFO root fetch - main [MainThread]: End processing [sasktran] error
+[2023-07-08 06:09:27] INFO root fetch - processPackages [ooo-dev-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-08 06:09:27] INFO root fetch - processPackages [spike2py-preprocess]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 06:09:27] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/41/44/3184c5212ea19d64e5dcf92dc1f7e0c08bda64a5787bdf62a49038d1b40a/ooo_dev_tools-0.9.7.tar.gz
+[2023-07-08 06:09:27] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: Downloading https://files.pythonhosted.org/packages/54/67/931d6c49d709c20c20a4e48e5129123df04f7df7421e44af0fe1706c5324/nonebot_plugin_splatoon3-1.0.9-py3-none-any.whl
+[2023-07-08 06:09:28] WARNING root fetch - processPackages [nonebot-plugin-splatoon3]: Skipping package: exceeds size limit 95545114>=10485760
+[2023-07-08 06:09:28] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-splatoon3] error
+[2023-07-08 06:09:28] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/f4/2b/932329d268078a3611ec69baca59201e7ea70ac87bf5fae9f664c9753f72/benimang-0.3.7.tar.gz
+[2023-07-08 06:09:28] INFO root fetch - processPackages [plemmy]: Downloading https://files.pythonhosted.org/packages/51/46/2b588b4ccf6f4c2be1bd111418a8b07db8b43ac559cfb423fad1dc142b3e/plemmy-0.2.6.tar.gz
+[2023-07-08 06:09:28] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/51/5e/ae33b5a02214f5ac906448c77174b4fc72e7039774d4eab0007f58f0677d/autosrt-1.4.3.tar.gz
+[2023-07-08 06:09:28] INFO root fetch - processPackages [ansar-encode]: New version: [0.1.86] Old Version: [0.1.79]
+[2023-07-08 06:09:28] INFO root fetch - processPackages [spike2py-preprocess]: Downloading https://files.pythonhosted.org/packages/a7/46/78e332d8a8587681bdc146e231ae398c83773480ca105d8a7a3ba1856ef2/spike2py_preprocess-0.0.2.tar.gz
+[2023-07-08 06:09:28] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/a2/93/70cfc89d57fcdbc85ba55aea7ea2f95ec52ced54299a1a40dcc48a54edd0/ansar-encode-0.1.79.tar.gz
+[2023-07-08 06:09:28] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/33/34/f9ddc3f038b83c845d23f40db44244a192321cbf4a490d1edb963e148c33/benimang-0.3.8.tar.gz
+[2023-07-08 06:09:28] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/20/e8/b38a2ad24f414b81985e10c35e1192cb22350ca6b0dc68f0104509e3c0bf/ooo_dev_tools-0.9.8.tar.gz
+[2023-07-08 06:09:28] INFO root fetch - processPackages [spike2py-preprocess]: Downloading https://files.pythonhosted.org/packages/f4/2c/b77f34e29a54d25e64753c773d88d2b99c61e9fe850018fd2f5302f5fa9e/spike2py_preprocess-0.0.3.tar.gz
+[2023-07-08 06:09:28] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-08 06:09:28] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.3.7.tar.gz tmp/benimang-0.3.8.tar.gz --markdown 20230708/b/benimang/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-08 06:09:28] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/7c/36/caca0f39c2658fc15f40470e293e89f46192f1a4a39a1b1b293c5e27d222/autosrt-1.4.4.tar.gz
+[2023-07-08 06:09:28] INFO root fetch - processPackages [plemmy]: Downloading https://files.pythonhosted.org/packages/aa/3c/d434e0e6b7a0a91706ed8239e148fa48c36511355fef6258b3069c998dca/plemmy-0.3.0.tar.gz
+[2023-07-08 06:09:28] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-07-08 06:09:28] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.4.3.tar.gz tmp/autosrt-1.4.4.tar.gz --markdown 20230708/a/autosrt/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-08 06:09:28] INFO root fetch - processPackages [spike2py-preprocess]: executing diffoscope
+[2023-07-08 06:09:28] INFO root fetch - processPackages [spike2py-preprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spike2py_preprocess-0.0.2.tar.gz tmp/spike2py_preprocess-0.0.3.tar.gz --markdown 20230708/s/spike2py-preprocess/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 06:09:28] INFO root fetch - processPackages [plemmy]: executing diffoscope
+[2023-07-08 06:09:28] INFO root fetch - processPackages [plemmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plemmy-0.2.6.tar.gz tmp/plemmy-0.3.0.tar.gz --markdown 20230708/p/plemmy/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-07-08 06:09:28] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/8c/bc/2258ea22d3bd940db7280cc0a161edfd727699078526c608c454977786bc/ansar-encode-0.1.86.tar.gz
+[2023-07-08 06:09:28] INFO root fetch - processPackages [ansar-encode]: executing diffoscope
+[2023-07-08 06:09:28] INFO root fetch - processPackages [ansar-encode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-encode-0.1.79.tar.gz tmp/ansar-encode-0.1.86.tar.gz --markdown 20230708/a/ansar-encode/0.1.79-0.1.86/diff.md --exclude *.pyd
+[2023-07-08 06:09:29] INFO root fetch - processPackages [ooo-dev-tools]: executing diffoscope
+[2023-07-08 06:09:29] INFO root fetch - processPackages [ooo-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooo_dev_tools-0.9.7.tar.gz tmp/ooo_dev_tools-0.9.8.tar.gz --markdown 20230708/o/ooo-dev-tools/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-08 06:09:29] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.3.7.tar.gz]
+[2023-07-08 06:09:29] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.3.8.tar.gz]
+[2023-07-08 06:09:29] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-08 06:09:29] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.4.3.tar.gz]
+[2023-07-08 06:09:29] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.4.4.tar.gz]
+[2023-07-08 06:09:29] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-07-08 06:09:29] INFO root fetch - processPackages [spike2py-preprocess]: Remove: archive file [/home/abi/fetcher/tmp/spike2py_preprocess-0.0.2.tar.gz]
+[2023-07-08 06:09:29] INFO root fetch - processPackages [spike2py-preprocess]: Remove: archive file [/home/abi/fetcher/tmp/spike2py_preprocess-0.0.3.tar.gz]
+[2023-07-08 06:09:29] INFO root fetch - main [MainThread]: End processing [spike2py-preprocess]: success
+[2023-07-08 06:09:29] INFO root fetch - processPackages [plemmy]: Remove: archive file [/home/abi/fetcher/tmp/plemmy-0.2.6.tar.gz]
+[2023-07-08 06:09:29] INFO root fetch - processPackages [plemmy]: Remove: archive file [/home/abi/fetcher/tmp/plemmy-0.3.0.tar.gz]
+[2023-07-08 06:09:29] INFO root fetch - main [MainThread]: End processing [plemmy]: success
+[2023-07-08 06:09:30] INFO root fetch - processPackages [ansar-encode]: Remove: archive file [/home/abi/fetcher/tmp/ansar-encode-0.1.79.tar.gz]
+[2023-07-08 06:09:30] INFO root fetch - processPackages [ansar-encode]: Remove: archive file [/home/abi/fetcher/tmp/ansar-encode-0.1.86.tar.gz]
+[2023-07-08 06:09:30] INFO root fetch - main [MainThread]: End processing [ansar-encode]: success
+[2023-07-08 06:09:33] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.7.tar.gz]
+[2023-07-08 06:09:33] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
+[2023-07-08 06:09:33] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
+[2023-07-08 06:09:33] INFO root fetch - main [MainThread]: Store serial: [18810770]
