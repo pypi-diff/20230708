@@ -15783,3 +15783,21 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 13:51:16] INFO root fetch - processPackages [slackker]: Remove: archive file [/home/abi/fetcher/tmp/slackker-1.1.0.tar.gz]
 [2023-07-08 13:51:16] INFO root fetch - main [MainThread]: End processing [slackker]: success
 [2023-07-08 13:51:16] INFO root fetch - main [MainThread]: Store serial: [18812873]
+[2023-07-08 13:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812873]
+[2023-07-08 13:56:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 13:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdfsquash
+[2023-07-08 13:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ProtonC
+[2023-07-08 13:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cla
+[2023-07-08 13:56:25] INFO root fetch - processPackages [cla]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-08 13:56:25] WARNING root fetch - processPackages [pdfsquash]: Skipping, unable to determine old version
+[2023-07-08 13:56:25] INFO root fetch - main [MainThread]: End processing [pdfsquash] error
+[2023-07-08 13:56:25] WARNING root fetch - processPackages [ProtonC]: Skipping, unable to determine old version
+[2023-07-08 13:56:25] INFO root fetch - main [MainThread]: End processing [ProtonC] error
+[2023-07-08 13:56:25] INFO root fetch - processPackages [cla]: Downloading https://files.pythonhosted.org/packages/08/b2/f608769b611b083a1727f7e6c2b08d0cc433efb7090070fafb8b48cad26d/cla-2.0.2.tar.gz
+[2023-07-08 13:56:26] INFO root fetch - processPackages [cla]: Downloading https://files.pythonhosted.org/packages/f6/de/e0f111b5e6f64a1bcd2b161eedfa027fa96557c97ae40f8343c50a0fd8a1/cla-2.0.3.tar.gz
+[2023-07-08 13:56:26] INFO root fetch - processPackages [cla]: executing diffoscope
+[2023-07-08 13:56:26] INFO root fetch - processPackages [cla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cla-2.0.2.tar.gz tmp/cla-2.0.3.tar.gz --markdown 20230708/c/cla/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-08 13:56:27] INFO root fetch - processPackages [cla]: Remove: archive file [/home/abi/fetcher/tmp/cla-2.0.2.tar.gz]
+[2023-07-08 13:56:27] INFO root fetch - processPackages [cla]: Remove: archive file [/home/abi/fetcher/tmp/cla-2.0.3.tar.gz]
+[2023-07-08 13:56:27] INFO root fetch - main [MainThread]: End processing [cla]: success
+[2023-07-08 13:56:27] INFO root fetch - main [MainThread]: Store serial: [18812886]
