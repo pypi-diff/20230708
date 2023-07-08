@@ -12713,3 +12713,45 @@
 [2023-07-08 08:46:24] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.9.tar.gz]
 [2023-07-08 08:46:24] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
 [2023-07-08 08:46:24] INFO root fetch - main [MainThread]: Store serial: [18811404]
+[2023-07-08 08:51:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811404]
+[2023-07-08 08:51:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 08:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyassorted
+[2023-07-08 08:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sklearn2pmml
+[2023-07-08 08:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seunggabi-core-python
+[2023-07-08 08:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NeuroNode
+[2023-07-08 08:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: slib-sorter
+[2023-07-08 08:51:33] INFO root fetch - processPackages [slib-sorter]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-07-08 08:51:33] WARNING root fetch - processPackages [NeuroNode]: Skipping, unable to determine old version
+[2023-07-08 08:51:33] INFO root fetch - main [MainThread]: End processing [NeuroNode] error
+[2023-07-08 08:51:33] INFO root fetch - processPackages [pyassorted]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-08 08:51:33] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-08 08:51:33] INFO root fetch - processPackages [sklearn2pmml]: New version: [0.94.1] Old Version: [0.94.0]
+[2023-07-08 08:51:33] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/ab/43/d7024f6a0f17bd42d8c89d2bffff0f98dd797414cf52c34312869b4b10c2/slib-sorter-1.2.9.tar.gz
+[2023-07-08 08:51:33] INFO root fetch - processPackages [pyassorted]: Downloading https://files.pythonhosted.org/packages/41/37/224e71a92831d3ca07192df1aaaedc4fb2449b416d371fa9ee136a643adb/pyassorted-0.7.0.tar.gz
+[2023-07-08 08:51:33] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/e2/ae/234acf5c0b1bbac7fc0d7879ea09dd4da8ed2d9472c8c3c9ecdfed2718c3/sklearn2pmml-0.94.0.tar.gz
+[2023-07-08 08:51:33] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/7e/7c/6a89bd88a95506a409a7942a549d5eb0e742ba42a1ddb2e915fe038fdc30/seunggabi_core_python-0.2.3.tar.gz
+[2023-07-08 08:51:33] INFO root fetch - processPackages [pyassorted]: Downloading https://files.pythonhosted.org/packages/3e/74/38b9964f2f8e1ef5189d1bcd8a5da396d56256f07e4a84d6e39dfdd54a5b/pyassorted-0.7.1.tar.gz
+[2023-07-08 08:51:34] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/ca/a5/8564d143f18f66d530d7e4fd92531f8423885ebae01f5987c85d371c99ac/slib-sorter-1.3.0.tar.gz
+[2023-07-08 08:51:34] INFO root fetch - processPackages [pyassorted]: executing diffoscope
+[2023-07-08 08:51:34] INFO root fetch - processPackages [pyassorted]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyassorted-0.7.0.tar.gz tmp/pyassorted-0.7.1.tar.gz --markdown 20230708/p/pyassorted/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-08 08:51:34] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 08:51:34] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.2.9.tar.gz tmp/slib-sorter-1.3.0.tar.gz --markdown 20230708/s/slib-sorter/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-07-08 08:51:34] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/6b/a6/2c17c7a96c8e28d36a6d8ea8c2d6e90f5b5ac5eed0a14333ea6e901b2760/seunggabi_core_python-0.3.0.tar.gz
+[2023-07-08 08:51:34] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-07-08 08:51:34] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.2.3.tar.gz tmp/seunggabi_core_python-0.3.0.tar.gz --markdown 20230708/s/seunggabi-core-python/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-08 08:51:34] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/59/63/89431fee9a0d5e40dc81f78dfad524d6d6b7a5029d7b15aece0f22e48e85/sklearn2pmml-0.94.1.tar.gz
+[2023-07-08 08:51:34] INFO root fetch - processPackages [pyassorted]: Remove: archive file [/home/abi/fetcher/tmp/pyassorted-0.7.0.tar.gz]
+[2023-07-08 08:51:34] INFO root fetch - processPackages [pyassorted]: Remove: archive file [/home/abi/fetcher/tmp/pyassorted-0.7.1.tar.gz]
+[2023-07-08 08:51:34] INFO root fetch - main [MainThread]: End processing [pyassorted]: success
+[2023-07-08 08:51:34] INFO root fetch - processPackages [sklearn2pmml]: executing diffoscope
+[2023-07-08 08:51:34] INFO root fetch - processPackages [sklearn2pmml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn2pmml-0.94.0.tar.gz tmp/sklearn2pmml-0.94.1.tar.gz --markdown 20230708/s/sklearn2pmml/0.94.0-0.94.1/diff.md --exclude *.pyd
+[2023-07-08 08:51:35] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.9.tar.gz]
+[2023-07-08 08:51:35] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.3.0.tar.gz]
+[2023-07-08 08:51:35] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 08:51:35] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.2.3.tar.gz]
+[2023-07-08 08:51:35] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.3.0.tar.gz]
+[2023-07-08 08:51:35] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-07-08 08:53:02] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.94.0.tar.gz]
+[2023-07-08 08:53:02] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.94.1.tar.gz]
+[2023-07-08 08:53:02] INFO root fetch - main [MainThread]: End processing [sklearn2pmml]: success
+[2023-07-08 08:53:02] INFO root fetch - main [MainThread]: Store serial: [18811421]
