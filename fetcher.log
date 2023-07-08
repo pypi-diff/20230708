@@ -12078,3 +12078,11 @@
 [2023-07-08 06:51:15] INFO root fetch - processPackages [rttbackend]: Remove: archive file [/home/abi/fetcher/tmp/rttbackend-0.3.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.zip]
 [2023-07-08 06:51:15] INFO root fetch - main [MainThread]: End processing [rttbackend]: success
 [2023-07-08 06:51:15] INFO root fetch - main [MainThread]: Store serial: [18811016]
+[2023-07-08 06:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811016]
+[2023-07-08 06:56:25] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-08 06:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: binary2strings
+[2023-07-08 06:56:25] INFO root fetch - processPackages [binary2strings]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 06:56:25] INFO root fetch - processPackages [binary2strings]: Downloading https://files.pythonhosted.org/packages/b7/94/d48be4fbce27989116cdea0cab5e1df543864156c136d0da13bf03dc81aa/binary2strings-0.1.8.tar.gz
+[2023-07-08 06:56:25] WARNING root fetch - processPackages [binary2strings]: Skipping package: exceeds size limit 29935426>=10485760
+[2023-07-08 06:56:25] INFO root fetch - main [MainThread]: End processing [binary2strings] error
+[2023-07-08 06:56:25] INFO root fetch - main [MainThread]: Store serial: [18811021]
