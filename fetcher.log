@@ -22221,3 +22221,73 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 22:50:07] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
 [2023-07-08 22:50:07] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
 [2023-07-08 22:50:07] INFO root fetch - main [MainThread]: Store serial: [18815673]
+[2023-07-08 22:55:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815673]
+[2023-07-08 22:55:16] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-08 22:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KosmosX
+[2023-07-08 22:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: findmyorder
+[2023-07-08 22:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pacman-prompts
+[2023-07-08 22:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pacman-prompts
+[2023-07-08 22:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sap-pii
+[2023-07-08 22:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scribelex
+[2023-07-08 22:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nepbridge
+[2023-07-08 22:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: optimalfolios
+[2023-07-08 22:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: be-great
+[2023-07-08 22:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simplechatgpt
+[2023-07-08 22:55:16] WARNING root fetch - processPackages [KosmosX]: Skipping, unable to determine old version
+[2023-07-08 22:55:16] INFO root fetch - processPackages [KosmosX]: Start processing: ar-shared-lib
+[2023-07-08 22:55:16] INFO root fetch - main [MainThread]: End processing [KosmosX] error
+[2023-07-08 22:55:16] INFO root fetch - processPackages [be-great]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-08 22:55:16] WARNING root fetch - processPackages [simplechatgpt]: Skipping, unable to determine old version
+[2023-07-08 22:55:16] INFO root fetch - processPackages [simplechatgpt]: Start processing: scribelex
+[2023-07-08 22:55:16] INFO root fetch - main [MainThread]: End processing [simplechatgpt] error
+[2023-07-08 22:55:16] WARNING root fetch - processPackages [sap-pii]: Skipping, unable to determine old version
+[2023-07-08 22:55:16] INFO root fetch - processPackages [sap-pii]: Start processing: redb-odm
+[2023-07-08 22:55:16] INFO root fetch - main [MainThread]: End processing [sap-pii] error
+[2023-07-08 22:55:16] WARNING root fetch - processPackages [scribelex]: Skipping, unable to determine old version
+[2023-07-08 22:55:16] INFO root fetch - main [MainThread]: End processing [scribelex] error
+[2023-07-08 22:55:16] INFO root fetch - processPackages [pacman-prompts]: New version: [1.4.2] Old Version: [1.3.2]
+[2023-07-08 22:55:16] INFO root fetch - processPackages [pacman-prompts]: New version: [1.4.2] Old Version: [1.3.2]
+[2023-07-08 22:55:16] WARNING root fetch - processPackages [nepbridge]: Skipping, unable to determine old version
+[2023-07-08 22:55:16] INFO root fetch - main [MainThread]: End processing [nepbridge] error
+[2023-07-08 22:55:16] WARNING root fetch - processPackages [optimalfolios]: Skipping, unable to determine old version
+[2023-07-08 22:55:16] INFO root fetch - main [MainThread]: End processing [optimalfolios] error
+[2023-07-08 22:55:16] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 22:55:17] WARNING root fetch - processPackages [scribelex]: Skipping, unable to determine old version
+[2023-07-08 22:55:17] INFO root fetch - main [MainThread]: End processing [scribelex] error
+[2023-07-08 22:55:17] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 22:55:17] WARNING root fetch - processPackages [ar-shared-lib]: Skipping, unable to determine old version
+[2023-07-08 22:55:17] INFO root fetch - main [MainThread]: End processing [ar-shared-lib] error
+[2023-07-08 22:55:17] INFO root fetch - processPackages [pacman-prompts]: Downloading https://files.pythonhosted.org/packages/ed/f0/479f33b3438f988c57768c0fecf895df78e4a59651a8efa5163b0a88546c/pacman-prompts-1.3.2.tar.gz
+[2023-07-08 22:55:17] INFO root fetch - processPackages [pacman-prompts]: Downloading https://files.pythonhosted.org/packages/ed/f0/479f33b3438f988c57768c0fecf895df78e4a59651a8efa5163b0a88546c/pacman-prompts-1.3.2.tar.gz
+[2023-07-08 22:55:17] INFO root fetch - processPackages [redb-odm]: New version: [1.3.0] Old Version: [1.2.3]
+[2023-07-08 22:55:17] INFO root fetch - processPackages [be-great]: Downloading https://files.pythonhosted.org/packages/30/18/8572cfb7b320663995b59dcc2464b522da294f7637258d79f5125ab04b09/be_great-0.0.4.tar.gz
+[2023-07-08 22:55:17] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 22:55:17] INFO root fetch - processPackages [redb-odm]: Downloading https://files.pythonhosted.org/packages/71/bd/b083ebea13b1e095c91fc5dbc3d0ab8735903d1f614a3537dcca2d86449b/redb-odm-1.2.3.tar.gz
+[2023-07-08 22:55:17] INFO root fetch - processPackages [pacman-prompts]: Downloading https://files.pythonhosted.org/packages/71/86/eac6cc48a91dd3e1ae5f5832b516d89d5f865bfa5913eb930a87d4f0ea99/pacman-prompts-1.4.2.tar.gz
+[2023-07-08 22:55:17] INFO root fetch - processPackages [pacman-prompts]: Downloading https://files.pythonhosted.org/packages/71/86/eac6cc48a91dd3e1ae5f5832b516d89d5f865bfa5913eb930a87d4f0ea99/pacman-prompts-1.4.2.tar.gz
+[2023-07-08 22:55:17] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 22:55:17] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 22:55:17] INFO root fetch - processPackages [be-great]: Downloading https://files.pythonhosted.org/packages/5c/93/34dc194612484aff42e88917487215ab65876d19855169c8faa1799957b9/be_great-0.0.5.tar.gz
+[2023-07-08 22:55:17] INFO root fetch - processPackages [pacman-prompts]: executing diffoscope
+[2023-07-08 22:55:17] INFO root fetch - processPackages [pacman-prompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pacman-prompts-1.3.2.tar.gz tmp/pacman-prompts-1.4.2.tar.gz --markdown 20230708/p/pacman-prompts/1.3.2-1.4.2/diff.md --exclude *.pyd
+[2023-07-08 22:55:17] INFO root fetch - processPackages [pacman-prompts]: executing diffoscope
+[2023-07-08 22:55:17] INFO root fetch - processPackages [pacman-prompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pacman-prompts-1.3.2.tar.gz tmp/pacman-prompts-1.4.2.tar.gz --markdown 20230708/p/pacman-prompts/1.3.2-1.4.2/diff.md --exclude *.pyd
+[2023-07-08 22:55:17] INFO root fetch - processPackages [be-great]: executing diffoscope
+[2023-07-08 22:55:17] INFO root fetch - processPackages [be-great]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/be_great-0.0.4.tar.gz tmp/be_great-0.0.5.tar.gz --markdown 20230708/b/be-great/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-08 22:55:17] INFO root fetch - processPackages [redb-odm]: Downloading https://files.pythonhosted.org/packages/73/d0/78db5117099588f581a8e3d66aec04e366e1370664071ab7b037ef4667db/redb-odm-1.3.0.tar.gz
+[2023-07-08 22:55:18] INFO root fetch - processPackages [redb-odm]: executing diffoscope
+[2023-07-08 22:55:18] INFO root fetch - processPackages [redb-odm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redb-odm-1.2.3.tar.gz tmp/redb-odm-1.3.0.tar.gz --markdown 20230708/r/redb-odm/1.2.3-1.3.0/diff.md --exclude *.pyd
+[2023-07-08 22:55:18] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 22:55:18] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 22:55:18] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 22:55:18] INFO root fetch - processPackages [pacman-prompts]: Remove: archive file [/home/abi/fetcher/tmp/pacman-prompts-1.3.2.tar.gz]
+[2023-07-08 22:55:18] INFO root fetch - processPackages [pacman-prompts]: Remove: archive file [/home/abi/fetcher/tmp/pacman-prompts-1.4.2.tar.gz]
+[2023-07-08 22:55:18] INFO root fetch - main [MainThread]: End processing [pacman-prompts]: success
+[2023-07-08 22:55:18] INFO root fetch - main [MainThread]: End processing [pacman-prompts]: success
+[2023-07-08 22:55:18] INFO root fetch - processPackages [be-great]: Remove: archive file [/home/abi/fetcher/tmp/be_great-0.0.4.tar.gz]
+[2023-07-08 22:55:18] INFO root fetch - processPackages [be-great]: Remove: archive file [/home/abi/fetcher/tmp/be_great-0.0.5.tar.gz]
+[2023-07-08 22:55:18] INFO root fetch - main [MainThread]: End processing [be-great]: success
+[2023-07-08 22:55:18] INFO root fetch - processPackages [redb-odm]: Remove: archive file [/home/abi/fetcher/tmp/redb-odm-1.2.3.tar.gz]
+[2023-07-08 22:55:18] INFO root fetch - processPackages [redb-odm]: Remove: archive file [/home/abi/fetcher/tmp/redb-odm-1.3.0.tar.gz]
+[2023-07-08 22:55:18] INFO root fetch - main [MainThread]: End processing [redb-odm]: success
+[2023-07-08 22:55:18] INFO root fetch - main [MainThread]: Store serial: [18815733]
