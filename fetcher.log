@@ -15801,3 +15801,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 13:56:27] INFO root fetch - processPackages [cla]: Remove: archive file [/home/abi/fetcher/tmp/cla-2.0.3.tar.gz]
 [2023-07-08 13:56:27] INFO root fetch - main [MainThread]: End processing [cla]: success
 [2023-07-08 13:56:27] INFO root fetch - main [MainThread]: Store serial: [18812886]
+[2023-07-08 14:01:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812886]
+[2023-07-08 14:01:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-08 14:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ResBlaster
+[2023-07-08 14:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swanapi
+[2023-07-08 14:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fenjing
+[2023-07-08 14:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygmtools
+[2023-07-08 14:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aio-net-events
+[2023-07-08 14:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nintendeals
+[2023-07-08 14:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: formation-studio
+[2023-07-08 14:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: powertools-oas-validator
+[2023-07-08 14:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-dllib
+[2023-07-08 14:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-orca
+[2023-07-08 14:01:35] INFO root fetch - processPackages [swanapi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-08 14:01:35] INFO root fetch - processPackages [fenjing]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-08 14:01:35] INFO root fetch - processPackages [powertools-oas-validator]: New version: [6.0.0] Old Version: [0.6.0]
+[2023-07-08 14:01:35] INFO root fetch - processPackages [formation-studio]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-08 14:01:35] INFO root fetch - processPackages [ResBlaster]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-08 14:01:35] INFO root fetch - processPackages [nintendeals]: New version: [3.1.0] Old Version: [3.0.2]
+[2023-07-08 14:01:35] INFO root fetch - processPackages [pygmtools]: New version: [0.3.8a9] Old Version: [0.3.8a8]
+[2023-07-08 14:01:35] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230708] Old Version: [2.4.0b20230707]
+[2023-07-08 14:01:35] INFO root fetch - processPackages [aio-net-events]: New version: [5.0.0] Old Version: [4.0.1]
+[2023-07-08 14:01:35] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230708] Old Version: [2.4.0b20230707]
+[2023-07-08 14:01:36] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/fd/8c/f754c4432b92a3c151f5862ed0b8dc244ff95b3cb5f8f66831e6afa0ef4a/swanapi-0.1.1-py3-none-any.whl
+[2023-07-08 14:01:36] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/f8/8c/1f0e828d7314764991a815dbe13cdb3a9b03dc10a0d897980af025b4904b/pygmtools-0.3.8a8.tar.gz
+[2023-07-08 14:01:36] INFO root fetch - processPackages [ResBlaster]: Downloading https://files.pythonhosted.org/packages/9b/51/1a5e4b135ea2197fb9886a33a36259f80e8e8b2973e4f16d79a63afc2c23/ResBlaster-0.3.8.tar.gz
+[2023-07-08 14:01:36] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/12/df/28c0ac019bc1abfc1769c1f099f36f12ee6cfa3d3ac3696d730e1441744d/powertools_oas_validator-0.6.0.tar.gz
+[2023-07-08 14:01:36] INFO root fetch - processPackages [nintendeals]: Downloading https://files.pythonhosted.org/packages/3a/56/95b7a4588b4e3335f2ca134291acd874a4331797b6777386a24b9732e929/nintendeals-3.0.2.tar.gz
+[2023-07-08 14:01:36] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/57/3b/e94e647882ce40b19a73f3704bb833b032d58a703cd7c3beee7fe65b50dc/fenjing-0.4.2.tar.gz
+[2023-07-08 14:01:36] INFO root fetch - processPackages [formation-studio]: Downloading https://files.pythonhosted.org/packages/5b/da/65e869e3568048798cc13c562cd5ac25c4828be39d36f8923d8ad60a5850/formation-studio-0.6.1.tar.gz
+[2023-07-08 14:01:36] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/04/5c/586a3346706733fc4798ef6db12b5cbdf8fb934bd07324444bd61060d2d7/bigdl_orca-2.4.0b20230707-py3-none-manylinux1_x86_64.whl
+[2023-07-08 14:01:36] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/de/31/8b729cfcf65aa6bb4a96a35bd747a6e1c2dfd8ffb1783ccbcf1b4b9c522c/bigdl-dllib-2.4.0b20230707.tar.gz
+[2023-07-08 14:01:36] INFO root fetch - processPackages [aio-net-events]: Downloading https://files.pythonhosted.org/packages/4b/b6/0079f5b5b0284d5906145b1e3fa5089dee3102ed02c59ceba118dc6f58ad/aio_net_events-4.0.1.tar.gz
+[2023-07-08 14:01:36] WARNING root fetch - processPackages [ResBlaster]: Skipping package: exceeds size limit 12623068>=10485760
+[2023-07-08 14:01:36] INFO root fetch - main [MainThread]: End processing [ResBlaster] error
+[2023-07-08 14:01:36] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/18/09/d9f8c479401206e79acfd70dcc8e5c470fb93666058fba5469022d832019/pygmtools-0.3.8a9.tar.gz
+[2023-07-08 14:01:36] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/07/a3/07901bc809ca023bc796c99de730e517b79ac3a92b8e12a960b321bc9c4d/swanapi-0.1.2-py3-none-any.whl
+[2023-07-08 14:01:36] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369766>=10485760
+[2023-07-08 14:01:36] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-07-08 14:01:36] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/9d/81/eb29509cbf6703d81364935c01e581ca3dd36e69154ee15ebe6b77bddb63/powertools_oas_validator-6.0.0.tar.gz
+[2023-07-08 14:01:36] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53637852>=10485760
+[2023-07-08 14:01:36] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-07-08 14:01:36] INFO root fetch - processPackages [swanapi]: executing diffoscope
+[2023-07-08 14:01:36] INFO root fetch - processPackages [swanapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swanapi-0.1.1-py3-none-any.whl.zip tmp/swanapi-0.1.2-py3-none-any.whl.zip --markdown 20230708/s/swanapi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-08 14:01:36] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/84/e0/e7723e079b1622dd2e9c9ebd150bdb069b10aa5627f807450a9ea7077d71/fenjing-0.4.3.tar.gz
+[2023-07-08 14:01:36] INFO root fetch - processPackages [powertools-oas-validator]: executing diffoscope
+[2023-07-08 14:01:36] INFO root fetch - processPackages [powertools-oas-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powertools_oas_validator-0.6.0.tar.gz tmp/powertools_oas_validator-6.0.0.tar.gz --markdown 20230708/p/powertools-oas-validator/0.6.0-6.0.0/diff.md --exclude *.pyd
+[2023-07-08 14:01:36] INFO root fetch - processPackages [pygmtools]: executing diffoscope
+[2023-07-08 14:01:36] INFO root fetch - processPackages [pygmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtools-0.3.8a8.tar.gz tmp/pygmtools-0.3.8a9.tar.gz --markdown 20230708/p/pygmtools/0.3.8a8-0.3.8a9/diff.md --exclude *.pyd
+[2023-07-08 14:01:36] INFO root fetch - processPackages [nintendeals]: Downloading https://files.pythonhosted.org/packages/b4/a4/3802eb6cb4fdb66dc6edf0c67c19284f395095e37428bfa3cf15d7335de3/nintendeals-3.1.0.tar.gz
+[2023-07-08 14:01:36] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-07-08 14:01:36] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.4.2.tar.gz tmp/fenjing-0.4.3.tar.gz --markdown 20230708/f/fenjing/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-08 14:01:36] INFO root fetch - processPackages [aio-net-events]: Downloading https://files.pythonhosted.org/packages/5f/34/af3d9e71fd794fec0a335339ed743937f5dbdd50d6c7a777718e24c0d1b1/aio_net_events-5.0.0.tar.gz
+[2023-07-08 14:01:36] INFO root fetch - processPackages [formation-studio]: Downloading https://files.pythonhosted.org/packages/7e/ce/53db2b0ad8cfbbe0c0be76529a6fc4768602a0a150d89e1c02671e6b4f9e/formation-studio-0.6.2.tar.gz
+[2023-07-08 14:01:36] INFO root fetch - processPackages [nintendeals]: executing diffoscope
+[2023-07-08 14:01:36] INFO root fetch - processPackages [nintendeals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nintendeals-3.0.2.tar.gz tmp/nintendeals-3.1.0.tar.gz --markdown 20230708/n/nintendeals/3.0.2-3.1.0/diff.md --exclude *.pyd
+[2023-07-08 14:01:37] INFO root fetch - processPackages [aio-net-events]: executing diffoscope
+[2023-07-08 14:01:37] INFO root fetch - processPackages [aio-net-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_net_events-4.0.1.tar.gz tmp/aio_net_events-5.0.0.tar.gz --markdown 20230708/a/aio-net-events/4.0.1-5.0.0/diff.md --exclude *.pyd
+[2023-07-08 14:01:37] INFO root fetch - processPackages [formation-studio]: executing diffoscope
+[2023-07-08 14:01:37] INFO root fetch - processPackages [formation-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formation-studio-0.6.1.tar.gz tmp/formation-studio-0.6.2.tar.gz --markdown 20230708/f/formation-studio/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-08 14:01:37] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.1.1-py3-none-any.whl.zip]
+[2023-07-08 14:01:37] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.1.2-py3-none-any.whl.zip]
+[2023-07-08 14:01:37] INFO root fetch - main [MainThread]: End processing [swanapi]: success
+[2023-07-08 14:01:37] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-0.6.0.tar.gz]
+[2023-07-08 14:01:37] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-6.0.0.tar.gz]
+[2023-07-08 14:01:37] INFO root fetch - main [MainThread]: End processing [powertools-oas-validator]: success
+[2023-07-08 14:01:38] INFO root fetch - processPackages [aio-net-events]: Remove: archive file [/home/abi/fetcher/tmp/aio_net_events-4.0.1.tar.gz]
+[2023-07-08 14:01:38] INFO root fetch - processPackages [aio-net-events]: Remove: archive file [/home/abi/fetcher/tmp/aio_net_events-5.0.0.tar.gz]
+[2023-07-08 14:01:38] INFO root fetch - main [MainThread]: End processing [aio-net-events]: success
+[2023-07-08 14:01:38] INFO root fetch - processPackages [fenjing]: Remove: archive file [/home/abi/fetcher/tmp/fenjing-0.4.2.tar.gz]
+[2023-07-08 14:01:38] INFO root fetch - processPackages [fenjing]: Remove: archive file [/home/abi/fetcher/tmp/fenjing-0.4.3.tar.gz]
+[2023-07-08 14:01:38] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-07-08 14:01:38] INFO root fetch - processPackages [nintendeals]: Remove: archive file [/home/abi/fetcher/tmp/nintendeals-3.0.2.tar.gz]
+[2023-07-08 14:01:38] INFO root fetch - processPackages [nintendeals]: Remove: archive file [/home/abi/fetcher/tmp/nintendeals-3.1.0.tar.gz]
+[2023-07-08 14:01:38] INFO root fetch - main [MainThread]: End processing [nintendeals]: success
+[2023-07-08 14:01:38] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a8.tar.gz]
+[2023-07-08 14:01:38] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a9.tar.gz]
+[2023-07-08 14:01:38] INFO root fetch - main [MainThread]: End processing [pygmtools]: success
+[2023-07-08 14:01:38] INFO root fetch - processPackages [formation-studio]: Remove: archive file [/home/abi/fetcher/tmp/formation-studio-0.6.1.tar.gz]
+[2023-07-08 14:01:38] INFO root fetch - processPackages [formation-studio]: Remove: archive file [/home/abi/fetcher/tmp/formation-studio-0.6.2.tar.gz]
+[2023-07-08 14:01:38] INFO root fetch - main [MainThread]: End processing [formation-studio]: success
+[2023-07-08 14:01:38] INFO root fetch - main [MainThread]: Store serial: [18812916]
