@@ -22410,3 +22410,54 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 23:05:43] INFO root fetch - processPackages [dogpile.cache]: Remove: archive file [/home/abi/fetcher/tmp/dogpile.cache-1.2.2.tar.gz]
 [2023-07-08 23:05:43] INFO root fetch - main [MainThread]: End processing [dogpile.cache]: success
 [2023-07-08 23:05:43] INFO root fetch - main [MainThread]: Store serial: [18815771]
+[2023-07-08 23:10:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815771]
+[2023-07-08 23:10:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 23:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scribelex
+[2023-07-08 23:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scikit-rmt
+[2023-07-08 23:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dithering
+[2023-07-08 23:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FastCap2
+[2023-07-08 23:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: devopsvalidatecpf
+[2023-07-08 23:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zipp
+[2023-07-08 23:10:52] INFO root fetch - processPackages [zipp]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-08 23:10:52] INFO root fetch - processPackages [scribelex]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-08 23:10:52] INFO root fetch - processPackages [devopsvalidatecpf]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-08 23:10:52] INFO root fetch - processPackages [scikit-rmt]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-08 23:10:52] WARNING root fetch - processPackages [FastCap2]: Skipping, unable to determine old version
+[2023-07-08 23:10:52] INFO root fetch - main [MainThread]: End processing [FastCap2] error
+[2023-07-08 23:10:52] INFO root fetch - processPackages [dithering]: New version: [0.1.22] Old Version: [0.1.21]
+[2023-07-08 23:10:52] INFO root fetch - processPackages [scribelex]: Downloading https://files.pythonhosted.org/packages/5d/c1/f399058b39ebf4fe48c3481df18680de124554ff27a70731a5a0583aee55/scribelex-1.0.0.tar.gz
+[2023-07-08 23:10:52] INFO root fetch - processPackages [zipp]: Downloading https://files.pythonhosted.org/packages/41/2e/1341c5634c25e7254df01ec1f6cbd2bcdee3e647709e7c3647d1b362e3ac/zipp-3.9.0.tar.gz
+[2023-07-08 23:10:52] INFO root fetch - processPackages [scikit-rmt]: Downloading https://files.pythonhosted.org/packages/35/1d/77e4f0fd5d861b1500692e36ad52798e7f6f2bf82f489b7c59e8b17fc95f/scikit-rmt-0.6.0.tar.gz
+[2023-07-08 23:10:52] INFO root fetch - processPackages [devopsvalidatecpf]: Downloading https://files.pythonhosted.org/packages/28/b1/6562b4017bfaa4ec04d85945ab4024c65369102cb61f7e974ab181056c04/devopsvalidatecpf-0.0.3.tar.gz
+[2023-07-08 23:10:52] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/9f/b3/0bbee495326d09689ecab59e615efb8b41f869cfa15c3147bdddbf6d5527/dithering-0.1.21.tar.gz
+[2023-07-08 23:10:53] INFO root fetch - processPackages [scribelex]: Downloading https://files.pythonhosted.org/packages/a7/32/d39829b6bf3da3310dfb7e6990fe8c58c7348a9886fc69e2307d93e1720b/scribelex-1.0.1.tar.gz
+[2023-07-08 23:10:53] INFO root fetch - processPackages [zipp]: Downloading https://files.pythonhosted.org/packages/21/40/791c00c9788d8a8b005a20248a9ce2fb46aaf12fa12b0ff9e1639aea04af/zipp-3.9.1.tar.gz
+[2023-07-08 23:10:53] INFO root fetch - processPackages [devopsvalidatecpf]: Downloading https://files.pythonhosted.org/packages/33/f9/cdcf08c806b0ca99cb2c9258329f341fe8dd576ff92fcb2f00750c8356db/devopsvalidatecpf-0.0.4.tar.gz
+[2023-07-08 23:10:53] INFO root fetch - processPackages [scribelex]: executing diffoscope
+[2023-07-08 23:10:53] INFO root fetch - processPackages [scribelex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scribelex-1.0.0.tar.gz tmp/scribelex-1.0.1.tar.gz --markdown 20230708/s/scribelex/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-08 23:10:53] INFO root fetch - processPackages [scikit-rmt]: Downloading https://files.pythonhosted.org/packages/f4/bc/cd3eb5b2d17831ee3c24a87bc18dbf1fde25349b9fe6765c1bc23797b9d9/scikit-rmt-0.6.1.tar.gz
+[2023-07-08 23:10:53] INFO root fetch - processPackages [zipp]: executing diffoscope
+[2023-07-08 23:10:53] INFO root fetch - processPackages [zipp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipp-3.9.0.tar.gz tmp/zipp-3.9.1.tar.gz --markdown 20230708/z/zipp/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-08 23:10:53] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/c4/15/3cd0cddce335b764cce55c1c2dac77382e22b5abee6c800f08b52fa428eb/dithering-0.1.22-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2023-07-08 23:10:53] INFO root fetch - processPackages [devopsvalidatecpf]: executing diffoscope
+[2023-07-08 23:10:53] INFO root fetch - processPackages [devopsvalidatecpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devopsvalidatecpf-0.0.3.tar.gz tmp/devopsvalidatecpf-0.0.4.tar.gz --markdown 20230708/d/devopsvalidatecpf/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-08 23:10:53] INFO root fetch - processPackages [scikit-rmt]: executing diffoscope
+[2023-07-08 23:10:53] INFO root fetch - processPackages [scikit-rmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rmt-0.6.0.tar.gz tmp/scikit-rmt-0.6.1.tar.gz --markdown 20230708/s/scikit-rmt/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-08 23:10:53] INFO root fetch - processPackages [dithering]: executing diffoscope
+[2023-07-08 23:10:53] INFO root fetch - processPackages [dithering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dithering-0.1.21.tar.gz tmp/dithering-0.1.22-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20230708/d/dithering/0.1.21-0.1.22/diff.md --exclude *.pyd
+[2023-07-08 23:10:54] INFO root fetch - processPackages [scribelex]: Remove: archive file [/home/abi/fetcher/tmp/scribelex-1.0.0.tar.gz]
+[2023-07-08 23:10:54] INFO root fetch - processPackages [scribelex]: Remove: archive file [/home/abi/fetcher/tmp/scribelex-1.0.1.tar.gz]
+[2023-07-08 23:10:54] INFO root fetch - main [MainThread]: End processing [scribelex]: success
+[2023-07-08 23:10:54] INFO root fetch - processPackages [zipp]: Remove: archive file [/home/abi/fetcher/tmp/zipp-3.9.0.tar.gz]
+[2023-07-08 23:10:54] INFO root fetch - processPackages [zipp]: Remove: archive file [/home/abi/fetcher/tmp/zipp-3.9.1.tar.gz]
+[2023-07-08 23:10:54] INFO root fetch - main [MainThread]: End processing [zipp]: success
+[2023-07-08 23:10:54] INFO root fetch - processPackages [devopsvalidatecpf]: Remove: archive file [/home/abi/fetcher/tmp/devopsvalidatecpf-0.0.3.tar.gz]
+[2023-07-08 23:10:54] INFO root fetch - processPackages [devopsvalidatecpf]: Remove: archive file [/home/abi/fetcher/tmp/devopsvalidatecpf-0.0.4.tar.gz]
+[2023-07-08 23:10:54] INFO root fetch - main [MainThread]: End processing [devopsvalidatecpf]: success
+[2023-07-08 23:10:54] INFO root fetch - processPackages [scikit-rmt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rmt-0.6.0.tar.gz]
+[2023-07-08 23:10:54] INFO root fetch - processPackages [scikit-rmt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rmt-0.6.1.tar.gz]
+[2023-07-08 23:10:54] INFO root fetch - main [MainThread]: End processing [scikit-rmt]: success
+[2023-07-08 23:10:54] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.21.tar.gz]
+[2023-07-08 23:10:54] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.22-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
+[2023-07-08 23:10:54] INFO root fetch - main [MainThread]: End processing [dithering]: success
+[2023-07-08 23:10:54] INFO root fetch - main [MainThread]: Store serial: [18815851]
