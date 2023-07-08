@@ -15191,3 +15191,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 12:59:07] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.8.2.tar.gz]
 [2023-07-08 12:59:07] INFO root fetch - main [MainThread]: End processing [roxbot]: success
 [2023-07-08 12:59:07] INFO root fetch - main [MainThread]: Store serial: [18812609]
+[2023-07-08 13:04:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812609]
+[2023-07-08 13:04:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 13:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-splatoon3
+[2023-07-08 13:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlalchemy-bind-manager
+[2023-07-08 13:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ReverseBox
+[2023-07-08 13:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sherlibs
+[2023-07-08 13:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yetl-framework
+[2023-07-08 13:04:16] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-08 13:04:16] WARNING root fetch - processPackages [sherlibs]: Skipping, unable to determine old version
+[2023-07-08 13:04:16] INFO root fetch - processPackages [ReverseBox]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-08 13:04:16] INFO root fetch - main [MainThread]: End processing [sherlibs] error
+[2023-07-08 13:04:16] INFO root fetch - processPackages [sqlalchemy-bind-manager]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-08 13:04:16] INFO root fetch - processPackages [yetl-framework]: New version: [1.6.6.dev2] Old Version: [1.6.6.dev1]
+[2023-07-08 13:04:16] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/d8/ca/5cf74367e7b737066422b3d1dc640a298f1fc05e854991df3249869a5492/yetl-framework-1.6.6.dev1.tar.gz
+[2023-07-08 13:04:16] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: Downloading https://files.pythonhosted.org/packages/c1/d4/77db5c9b9e19c9684554908459bd34f2786b37a561a4642e5a91c42e031e/nonebot_plugin_splatoon3-1.1.2.tar.gz
+[2023-07-08 13:04:16] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Downloading https://files.pythonhosted.org/packages/a5/80/ba407b821e195b154c1630a25c4027881b052738319fab47d809df587d03/sqlalchemy_bind_manager-0.5.0.tar.gz
+[2023-07-08 13:04:16] WARNING root fetch - processPackages [nonebot-plugin-splatoon3]: Skipping package: exceeds size limit 95486071>=10485760
+[2023-07-08 13:04:16] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-splatoon3] error
+[2023-07-08 13:04:16] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/04/2c/6ec1fd71b087631bfcc2c875cfde624277a084f6d4e00a809e5bb9bb3bcf/ReverseBox-0.6.1.tar.gz
+[2023-07-08 13:04:16] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/c3/16/26d3dc4edf0635cbf892d7fecdf6156ccf7a87d754230a054385ea374183/yetl-framework-1.6.6.dev2.tar.gz
+[2023-07-08 13:04:17] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-08 13:04:17] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.6.6.dev1.tar.gz tmp/yetl-framework-1.6.6.dev2.tar.gz --markdown 20230708/y/yetl-framework/1.6.6.dev1-1.6.6.dev2/diff.md --exclude *.pyd
+[2023-07-08 13:04:17] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Downloading https://files.pythonhosted.org/packages/07/dd/4e6eb96d65d10c910e25218d4060cdb2d48ba6990af4c33604a528499242/sqlalchemy_bind_manager-0.6.0.tar.gz
+[2023-07-08 13:04:17] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/37/4f/88999a2ca8d845f3b8dbb565bb18bebd55c3392ee6e5155f489ea7f474f9/ReverseBox-0.6.2.tar.gz
+[2023-07-08 13:04:17] INFO root fetch - processPackages [ReverseBox]: executing diffoscope
+[2023-07-08 13:04:17] INFO root fetch - processPackages [ReverseBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseBox-0.6.1.tar.gz tmp/ReverseBox-0.6.2.tar.gz --markdown 20230708/R/ReverseBox/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-08 13:04:17] INFO root fetch - processPackages [sqlalchemy-bind-manager]: executing diffoscope
+[2023-07-08 13:04:17] INFO root fetch - processPackages [sqlalchemy-bind-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_bind_manager-0.5.0.tar.gz tmp/sqlalchemy_bind_manager-0.6.0.tar.gz --markdown 20230708/s/sqlalchemy-bind-manager/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-08 13:04:17] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.6.6.dev1.tar.gz]
+[2023-07-08 13:04:17] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.6.6.dev2.tar.gz]
+[2023-07-08 13:04:17] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-08 13:04:18] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_bind_manager-0.5.0.tar.gz]
+[2023-07-08 13:04:18] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_bind_manager-0.6.0.tar.gz]
+[2023-07-08 13:04:18] INFO root fetch - main [MainThread]: End processing [sqlalchemy-bind-manager]: success
+[2023-07-08 13:04:18] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.6.1.tar.gz]
+[2023-07-08 13:04:18] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.6.2.tar.gz]
+[2023-07-08 13:04:18] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
+[2023-07-08 13:04:18] INFO root fetch - main [MainThread]: Store serial: [18812625]
