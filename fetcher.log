@@ -14343,3 +14343,94 @@
 [2023-07-08 11:40:23] INFO root fetch - processPackages [visionscript]: Remove: archive file [/home/abi/fetcher/tmp/visionscript-0.0.2.tar.gz]
 [2023-07-08 11:40:23] INFO root fetch - main [MainThread]: End processing [visionscript]: success
 [2023-07-08 11:40:23] INFO root fetch - main [MainThread]: Store serial: [18812199]
+[2023-07-08 11:45:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812199]
+[2023-07-08 11:45:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-08 11:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysui-gadgets
+[2023-07-08 11:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngmapi
+[2023-07-08 11:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: igorwriter
+[2023-07-08 11:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: covdrugsim
+[2023-07-08 11:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dassana
+[2023-07-08 11:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: strawberry-graphql
+[2023-07-08 11:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiocomelit
+[2023-07-08 11:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiocomelit
+[2023-07-08 11:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: butler-connect
+[2023-07-08 11:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: github-secret-syncer
+[2023-07-08 11:45:32] INFO root fetch - processPackages [aiocomelit]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-08 11:45:32] INFO root fetch - processPackages [igorwriter]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-08 11:45:32] INFO root fetch - processPackages [covdrugsim]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-08 11:45:32] INFO root fetch - processPackages [pysui-gadgets]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-08 11:45:32] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 11:45:32] INFO root fetch - processPackages [github-secret-syncer]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-08 11:45:32] INFO root fetch - processPackages [aiocomelit]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-08 11:45:32] INFO root fetch - processPackages [butler-connect]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-08 11:45:32] INFO root fetch - processPackages [dassana]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-08 11:45:32] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-07-08 11:45:33] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/03/25/7c3d0e031f86b53899777ac1857d149bb972f8ed49be1c9f86821c262a71/covdrugsim-0.4.0.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [aiocomelit]: Downloading https://files.pythonhosted.org/packages/91/34/70cbd09baf1eaf560d0f780bb4f4393bd2b7f000ae41cf4e7ff1ef669096/aiocomelit-0.0.0.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [aiocomelit]: Downloading https://files.pythonhosted.org/packages/91/34/70cbd09baf1eaf560d0f780bb4f4393bd2b7f000ae41cf4e7ff1ef669096/aiocomelit-0.0.0.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/13/86/3d7c18a8f2dd4f2eb32a19966079123b581a8402d540deca93c3d85e8678/ngmapi-0.0.2.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [igorwriter]: Downloading https://files.pythonhosted.org/packages/ee/cb/d5d87bdb15df14bc19bcf07aaf7633bf61002928821fbf83a2dcc229bc1a/igorwriter-0.4.1.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [pysui-gadgets]: Downloading https://files.pythonhosted.org/packages/ad/db/583b8717506f3fa9c6fb600f58d00ead5c0700b3842436f38476da31f3ed/pysui_gadgets-0.1.0-py3-none-any.whl
+[2023-07-08 11:45:33] INFO root fetch - processPackages [github-secret-syncer]: Downloading https://files.pythonhosted.org/packages/06/3d/af8616c84c1274f16c15a22e4fccdbd5e03eebde4508e2b3e0c5b727b373/github-secret-syncer-0.0.6.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [butler-connect]: Downloading https://files.pythonhosted.org/packages/de/46/3b4cb519c2b1eca749eb7c2de9f37015522071e27f93f2d39008c45bee0b/butler-connect-0.7.0.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/66/46/b3cdedec31ab008aa3468fa791eb0fcf6bf7ff309fbb9262efa5781dc938/dassana-0.8.8.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [igorwriter]: Downloading https://files.pythonhosted.org/packages/eb/82/924ebf21ec4e4e6726dd729257776d7b18b9d159d009aec584d5b99f2f5e/igorwriter-0.5.0.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [aiocomelit]: Downloading https://files.pythonhosted.org/packages/59/6f/98e9c1c7cbe41d698e3a639353e4cbcebcdebd1feef087a8fe8d169a2b7f/aiocomelit-0.0.1.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [aiocomelit]: Downloading https://files.pythonhosted.org/packages/59/6f/98e9c1c7cbe41d698e3a639353e4cbcebcdebd1feef087a8fe8d169a2b7f/aiocomelit-0.0.1.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/09/12/025a21e95235e3c2b925173ee2e08823e92e857debb94b5aad25270817d9/covdrugsim-0.4.1.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [github-secret-syncer]: Downloading https://files.pythonhosted.org/packages/df/28/68e241249eeae9251b013a8cd20fd80ebea1e3c4807d04c719174deeda11/github-secret-syncer-0.0.7.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [butler-connect]: Downloading https://files.pythonhosted.org/packages/6c/7e/d662445524550f3223aca50496cc47a659b567f8e9110a07d0bcf7f5273d/butler-connect-0.7.1.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-08 11:45:33] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.2.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230708/n/ngmapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 11:45:33] INFO root fetch - processPackages [igorwriter]: executing diffoscope
+[2023-07-08 11:45:33] INFO root fetch - processPackages [igorwriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igorwriter-0.4.1.tar.gz tmp/igorwriter-0.5.0.tar.gz --markdown 20230708/i/igorwriter/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-08 11:45:33] INFO root fetch - processPackages [pysui-gadgets]: Downloading https://files.pythonhosted.org/packages/16/9d/437ef2364191d1bb49712c8fdec7ecbeae401725e038ddabe3b62cecc216/pysui_gadgets-0.2.0-py3-none-any.whl
+[2023-07-08 11:45:33] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/8e/4e/7d3d50bf262d8a54ecec7caa65b833a09c6836af619fec13826ec58b3f94/dassana-0.8.9.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-07-08 11:45:33] INFO root fetch - processPackages [aiocomelit]: executing diffoscope
+[2023-07-08 11:45:33] INFO root fetch - processPackages [aiocomelit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocomelit-0.0.0.tar.gz tmp/aiocomelit-0.0.1.tar.gz --markdown 20230708/a/aiocomelit/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-08 11:45:33] INFO root fetch - processPackages [aiocomelit]: executing diffoscope
+[2023-07-08 11:45:33] INFO root fetch - processPackages [aiocomelit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocomelit-0.0.0.tar.gz tmp/aiocomelit-0.0.1.tar.gz --markdown 20230708/a/aiocomelit/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-08 11:45:33] INFO root fetch - processPackages [butler-connect]: executing diffoscope
+[2023-07-08 11:45:33] INFO root fetch - processPackages [butler-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/butler-connect-0.7.0.tar.gz tmp/butler-connect-0.7.1.tar.gz --markdown 20230708/b/butler-connect/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-08 11:45:33] INFO root fetch - processPackages [covdrugsim]: executing diffoscope
+[2023-07-08 11:45:33] INFO root fetch - processPackages [covdrugsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covdrugsim-0.4.0.tar.gz tmp/covdrugsim-0.4.1.tar.gz --markdown 20230708/c/covdrugsim/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-08 11:45:34] INFO root fetch - processPackages [github-secret-syncer]: executing diffoscope
+[2023-07-08 11:45:34] INFO root fetch - processPackages [github-secret-syncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github-secret-syncer-0.0.6.tar.gz tmp/github-secret-syncer-0.0.7.tar.gz --markdown 20230708/g/github-secret-syncer/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-08 11:45:34] INFO root fetch - processPackages [pysui-gadgets]: executing diffoscope
+[2023-07-08 11:45:34] INFO root fetch - processPackages [pysui-gadgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui_gadgets-0.1.0-py3-none-any.whl.zip tmp/pysui_gadgets-0.2.0-py3-none-any.whl.zip --markdown 20230708/p/pysui-gadgets/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 11:45:34] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-07-08 11:45:34] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230708/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-07-08 11:45:34] INFO root fetch - processPackages [dassana]: executing diffoscope
+[2023-07-08 11:45:34] INFO root fetch - processPackages [dassana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dassana-0.8.8.tar.gz tmp/dassana-0.8.9.tar.gz --markdown 20230708/d/dassana/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-08 11:45:35] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.2.tar.gz]
+[2023-07-08 11:45:35] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.3.tar.gz]
+[2023-07-08 11:45:35] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-08 11:45:35] INFO root fetch - processPackages [igorwriter]: Remove: archive file [/home/abi/fetcher/tmp/igorwriter-0.4.1.tar.gz]
+[2023-07-08 11:45:35] INFO root fetch - processPackages [igorwriter]: Remove: archive file [/home/abi/fetcher/tmp/igorwriter-0.5.0.tar.gz]
+[2023-07-08 11:45:35] INFO root fetch - main [MainThread]: End processing [igorwriter]: success
+[2023-07-08 11:45:35] INFO root fetch - processPackages [aiocomelit]: Remove: archive file [/home/abi/fetcher/tmp/aiocomelit-0.0.0.tar.gz]
+[2023-07-08 11:45:35] INFO root fetch - processPackages [aiocomelit]: Remove: archive file [/home/abi/fetcher/tmp/aiocomelit-0.0.1.tar.gz]
+[2023-07-08 11:45:35] INFO root fetch - main [MainThread]: End processing [aiocomelit]: success
+[2023-07-08 11:45:35] INFO root fetch - processPackages [github-secret-syncer]: Remove: archive file [/home/abi/fetcher/tmp/github-secret-syncer-0.0.6.tar.gz]
+[2023-07-08 11:45:35] INFO root fetch - processPackages [github-secret-syncer]: Remove: archive file [/home/abi/fetcher/tmp/github-secret-syncer-0.0.7.tar.gz]
+[2023-07-08 11:45:35] INFO root fetch - main [MainThread]: End processing [github-secret-syncer]: success
+[2023-07-08 11:45:35] INFO root fetch - processPackages [butler-connect]: Remove: archive file [/home/abi/fetcher/tmp/butler-connect-0.7.0.tar.gz]
+[2023-07-08 11:45:35] INFO root fetch - processPackages [butler-connect]: Remove: archive file [/home/abi/fetcher/tmp/butler-connect-0.7.1.tar.gz]
+[2023-07-08 11:45:35] INFO root fetch - main [MainThread]: End processing [butler-connect]: success
+[2023-07-08 11:45:35] INFO root fetch - main [MainThread]: End processing [aiocomelit]: success
+[2023-07-08 11:45:35] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.8.tar.gz]
+[2023-07-08 11:45:35] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.9.tar.gz]
+[2023-07-08 11:45:35] INFO root fetch - main [MainThread]: End processing [dassana]: success
+[2023-07-08 11:45:35] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-0.4.0.tar.gz]
+[2023-07-08 11:45:35] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-0.4.1.tar.gz]
+[2023-07-08 11:45:35] INFO root fetch - main [MainThread]: End processing [covdrugsim]: success
+[2023-07-08 11:45:35] INFO root fetch - processPackages [pysui-gadgets]: Remove: archive file [/home/abi/fetcher/tmp/pysui_gadgets-0.1.0-py3-none-any.whl.zip]
+[2023-07-08 11:45:35] INFO root fetch - processPackages [pysui-gadgets]: Remove: archive file [/home/abi/fetcher/tmp/pysui_gadgets-0.2.0-py3-none-any.whl.zip]
+[2023-07-08 11:45:35] INFO root fetch - main [MainThread]: End processing [pysui-gadgets]: success
+[2023-07-08 11:45:36] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-07-08 11:45:36] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-07-08 11:45:36] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-07-08 11:45:36] INFO root fetch - main [MainThread]: Store serial: [18812235]
