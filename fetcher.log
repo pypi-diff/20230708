@@ -10314,3 +10314,24 @@
 [2023-07-08 04:18:53] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.0.9.tar.gz]
 [2023-07-08 04:18:53] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
 [2023-07-08 04:18:53] INFO root fetch - main [MainThread]: Store serial: [18810284]
+[2023-07-08 04:23:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810284]
+[2023-07-08 04:24:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-08 04:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qian
+[2023-07-08 04:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiokeydb
+[2023-07-08 04:24:02] INFO root fetch - processPackages [qian]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-07-08 04:24:02] INFO root fetch - processPackages [aiokeydb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 04:24:02] INFO root fetch - processPackages [aiokeydb]: Downloading https://files.pythonhosted.org/packages/20/25/21f8103754ee16f18d37a261f6c78ebd5f5ce07634c0270159d5287b3e3e/aiokeydb-0.1.8.tar.gz
+[2023-07-08 04:24:02] INFO root fetch - processPackages [qian]: Downloading https://files.pythonhosted.org/packages/1a/bb/a02bd723540ee14fee220d61590c59267276f4bfed97b7d46979101e2c12/qian-0.1.1.tar.gz
+[2023-07-08 04:24:02] INFO root fetch - processPackages [aiokeydb]: Downloading https://files.pythonhosted.org/packages/6a/d0/d5b49c43fc0ac44c201063793737833fa0cc1228a7de48a1fa0a08cc708c/aiokeydb-0.1.9.tar.gz
+[2023-07-08 04:24:02] INFO root fetch - processPackages [qian]: Downloading https://files.pythonhosted.org/packages/5c/12/4af4851d09578dc0c92f6de0c85cb3103048d6cf802a431af356b7ceafed/qian-0.1.3.tar.gz
+[2023-07-08 04:24:02] INFO root fetch - processPackages [aiokeydb]: executing diffoscope
+[2023-07-08 04:24:02] INFO root fetch - processPackages [aiokeydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokeydb-0.1.8.tar.gz tmp/aiokeydb-0.1.9.tar.gz --markdown 20230708/a/aiokeydb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 04:24:02] INFO root fetch - processPackages [qian]: executing diffoscope
+[2023-07-08 04:24:02] INFO root fetch - processPackages [qian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qian-0.1.1.tar.gz tmp/qian-0.1.3.tar.gz --markdown 20230708/q/qian/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-07-08 04:24:03] INFO root fetch - processPackages [qian]: Remove: archive file [/home/abi/fetcher/tmp/qian-0.1.1.tar.gz]
+[2023-07-08 04:24:03] INFO root fetch - processPackages [qian]: Remove: archive file [/home/abi/fetcher/tmp/qian-0.1.3.tar.gz]
+[2023-07-08 04:24:03] INFO root fetch - main [MainThread]: End processing [qian]: success
+[2023-07-08 04:24:03] INFO root fetch - processPackages [aiokeydb]: Remove: archive file [/home/abi/fetcher/tmp/aiokeydb-0.1.8.tar.gz]
+[2023-07-08 04:24:03] INFO root fetch - processPackages [aiokeydb]: Remove: archive file [/home/abi/fetcher/tmp/aiokeydb-0.1.9.tar.gz]
+[2023-07-08 04:24:03] INFO root fetch - main [MainThread]: End processing [aiokeydb]: success
+[2023-07-08 04:24:03] INFO root fetch - main [MainThread]: Store serial: [18810290]
