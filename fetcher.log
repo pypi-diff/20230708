@@ -15570,3 +15570,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 13:35:38] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230707-py3-none-win_amd64.whl.zip]
 [2023-07-08 13:35:38] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-07-08 13:35:38] INFO root fetch - main [MainThread]: Store serial: [18812770]
+[2023-07-08 13:40:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812770]
+[2023-07-08 13:40:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 13:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kanjut
+[2023-07-08 13:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyre-check-nightly
+[2023-07-08 13:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typeid-python
+[2023-07-08 13:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cvmblaster
+[2023-07-08 13:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapid-videocr
+[2023-07-08 13:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slib-sorter
+[2023-07-08 13:40:48] INFO root fetch - processPackages [rapid-videocr]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-07-08 13:40:48] INFO root fetch - processPackages [slib-sorter]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-07-08 13:40:48] INFO root fetch - processPackages [rapid-videocr]: Downloading https://files.pythonhosted.org/packages/eb/a8/eded512e21329f8856be17ded1695b87083dbc68c228c4685333047adc61/rapid_videocr-2.2.1-py3-none-any.whl
+[2023-07-08 13:40:48] WARNING root fetch - processPackages [kanjut]: Skipping, unable to determine old version
+[2023-07-08 13:40:48] INFO root fetch - main [MainThread]: End processing [kanjut] error
+[2023-07-08 13:40:48] INFO root fetch - processPackages [typeid-python]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-08 13:40:48] INFO root fetch - processPackages [cvmblaster]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-08 13:40:48] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101688814727] Old Version: [0.0.101688728340]
+[2023-07-08 13:40:48] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/10/6c/6001073709ad36821e826026f4d702fca20d413cdc8d527026d7259669b4/slib-sorter-1.4.5.tar.gz
+[2023-07-08 13:40:49] INFO root fetch - processPackages [cvmblaster]: Downloading https://files.pythonhosted.org/packages/de/ab/ff9a497d983666119504cb592b81085ec0eb889a4a73a1ba8f589a526510/cvmblaster-0.4.0.tar.gz
+[2023-07-08 13:40:49] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/65/4e/bafedd04fe80c01cd9b7c3c3723b50172579ceb363188f43b845fa3ca9f9/slib-sorter-1.4.6.tar.gz
+[2023-07-08 13:40:49] INFO root fetch - processPackages [typeid-python]: Downloading https://files.pythonhosted.org/packages/eb/39/12feed04b4c043c11abff591a131727361550300a9df7f0fea960a49e500/typeid_python-0.2.0.tar.gz
+[2023-07-08 13:40:49] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/8d/aa/3f6fdc98e3db446217c354f5e9f4e221166e70570d23ff68c4a5050be270/pyre-check-nightly-0.0.101688728340.tar.gz
+[2023-07-08 13:40:49] INFO root fetch - processPackages [rapid-videocr]: Downloading https://files.pythonhosted.org/packages/ba/ce/8aeb08f2fd98a3a40388ad6fba47e9fd95e0fe6e520d6895f75d4ff13a4c/rapid_videocr-2.2.2-py3-none-any.whl
+[2023-07-08 13:40:49] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 13:40:49] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.4.5.tar.gz tmp/slib-sorter-1.4.6.tar.gz --markdown 20230708/s/slib-sorter/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-07-08 13:40:49] INFO root fetch - processPackages [rapid-videocr]: executing diffoscope
+[2023-07-08 13:40:49] INFO root fetch - processPackages [rapid-videocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_videocr-2.2.1-py3-none-any.whl.zip tmp/rapid_videocr-2.2.2-py3-none-any.whl.zip --markdown 20230708/r/rapid-videocr/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-07-08 13:40:49] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23764954>=10485760
+[2023-07-08 13:40:49] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-08 13:40:49] INFO root fetch - processPackages [typeid-python]: Downloading https://files.pythonhosted.org/packages/3f/95/a3d244cdb81b13ebeab7a836195a245e33845cd7f48d4b2a7b22a5f68eeb/typeid_python-0.2.1.tar.gz
+[2023-07-08 13:40:49] INFO root fetch - processPackages [cvmblaster]: Downloading https://files.pythonhosted.org/packages/20/a3/26642208f1692d3a6338f79bf11a4d1a419dee78d292ba056929f92d6a36/cvmblaster-0.4.1.tar.gz
+[2023-07-08 13:40:49] INFO root fetch - processPackages [typeid-python]: executing diffoscope
+[2023-07-08 13:40:49] INFO root fetch - processPackages [typeid-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeid_python-0.2.0.tar.gz tmp/typeid_python-0.2.1.tar.gz --markdown 20230708/t/typeid-python/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-08 13:40:49] INFO root fetch - processPackages [cvmblaster]: executing diffoscope
+[2023-07-08 13:40:49] INFO root fetch - processPackages [cvmblaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvmblaster-0.4.0.tar.gz tmp/cvmblaster-0.4.1.tar.gz --markdown 20230708/c/cvmblaster/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-08 13:40:50] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.4.5.tar.gz]
+[2023-07-08 13:40:50] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.4.6.tar.gz]
+[2023-07-08 13:40:50] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 13:40:50] INFO root fetch - processPackages [rapid-videocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_videocr-2.2.1-py3-none-any.whl.zip]
+[2023-07-08 13:40:50] INFO root fetch - processPackages [rapid-videocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_videocr-2.2.2-py3-none-any.whl.zip]
+[2023-07-08 13:40:50] INFO root fetch - main [MainThread]: End processing [rapid-videocr]: success
+[2023-07-08 13:40:50] INFO root fetch - processPackages [cvmblaster]: Remove: archive file [/home/abi/fetcher/tmp/cvmblaster-0.4.0.tar.gz]
+[2023-07-08 13:40:50] INFO root fetch - processPackages [cvmblaster]: Remove: archive file [/home/abi/fetcher/tmp/cvmblaster-0.4.1.tar.gz]
+[2023-07-08 13:40:50] INFO root fetch - main [MainThread]: End processing [cvmblaster]: success
+[2023-07-08 13:40:50] INFO root fetch - processPackages [typeid-python]: Remove: archive file [/home/abi/fetcher/tmp/typeid_python-0.2.0.tar.gz]
+[2023-07-08 13:40:50] INFO root fetch - processPackages [typeid-python]: Remove: archive file [/home/abi/fetcher/tmp/typeid_python-0.2.1.tar.gz]
+[2023-07-08 13:40:50] INFO root fetch - main [MainThread]: End processing [typeid-python]: success
+[2023-07-08 13:40:50] INFO root fetch - main [MainThread]: Store serial: [18812790]
