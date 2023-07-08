@@ -3481,3 +3481,42 @@
 [2023-07-08 03:30:24] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
 [2023-07-08 03:30:24] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
 [2023-07-08 03:30:24] INFO root fetch - main [MainThread]: Store serial: [18807989]
+[2023-07-08 03:35:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807989]
+[2023-07-08 03:35:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 03:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-subminute
+[2023-07-08 03:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LolzteamApi
+[2023-07-08 03:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idoctorai
+[2023-07-08 03:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-stdlib
+[2023-07-08 03:35:33] INFO root fetch - processPackages [idoctorai]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-08 03:35:33] INFO root fetch - processPackages [LolzteamApi]: New version: [1.0.12] Old Version: [1.0.11]
+[2023-07-08 03:35:33] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-08 03:35:33] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 03:35:33] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/74/c9/9863c08830fb506da7920a061ec180045bc802bf57e317e1e13a4f8bce4b/idoctorai-0.7.2.tar.gz
+[2023-07-08 03:35:33] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-08 03:35:33] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-08 03:35:34] INFO root fetch - processPackages [LolzteamApi]: Downloading https://files.pythonhosted.org/packages/b3/d3/f9c54a6d5e8229acfc669ca80d787f0515fee474223adeaae4477e42fb53/LolzteamApi-1.0.11.tar.gz
+[2023-07-08 03:35:34] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-08 03:35:34] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/85/5a/341386c679af9e6af42f912671776297c6abc3ba8475c6440539c7f7ce8b/idoctorai-0.7.3.tar.gz
+[2023-07-08 03:35:34] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-08 03:35:34] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-07-08 03:35:34] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.7.2.tar.gz tmp/idoctorai-0.7.3.tar.gz --markdown 20230708/i/idoctorai/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-08 03:35:34] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-08 03:35:34] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230708/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-08 03:35:34] INFO root fetch - processPackages [LolzteamApi]: Downloading https://files.pythonhosted.org/packages/68/ed/761bb11185405a61e66abe32dfbc7f567e5fef132de29ffc191d0ae565ca/LolzteamApi-1.0.12.tar.gz
+[2023-07-08 03:35:34] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-08 03:35:34] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230708/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 03:35:34] INFO root fetch - processPackages [LolzteamApi]: executing diffoscope
+[2023-07-08 03:35:34] INFO root fetch - processPackages [LolzteamApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LolzteamApi-1.0.11.tar.gz tmp/LolzteamApi-1.0.12.tar.gz --markdown 20230708/L/LolzteamApi/1.0.11-1.0.12/diff.md --exclude *.pyd
+[2023-07-08 03:35:35] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-08 03:35:35] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-08 03:35:35] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-08 03:35:35] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-08 03:35:35] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-08 03:35:35] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-08 03:35:35] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.7.2.tar.gz]
+[2023-07-08 03:35:35] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.7.3.tar.gz]
+[2023-07-08 03:35:35] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-07-08 03:35:35] INFO root fetch - processPackages [LolzteamApi]: Remove: archive file [/home/abi/fetcher/tmp/LolzteamApi-1.0.11.tar.gz]
+[2023-07-08 03:35:35] INFO root fetch - processPackages [LolzteamApi]: Remove: archive file [/home/abi/fetcher/tmp/LolzteamApi-1.0.12.tar.gz]
+[2023-07-08 03:35:35] INFO root fetch - main [MainThread]: End processing [LolzteamApi]: success
+[2023-07-08 03:35:35] INFO root fetch - main [MainThread]: Store serial: [18808001]
