@@ -20861,3 +20861,42 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 20:45:08] INFO root fetch - processPackages [sphinx-basic-ng]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_basic_ng-1.0.0b2.tar.gz]
 [2023-07-08 20:45:08] INFO root fetch - main [MainThread]: End processing [sphinx-basic-ng]: success
 [2023-07-08 20:45:08] INFO root fetch - main [MainThread]: Store serial: [18815156]
+[2023-07-08 20:50:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815156]
+[2023-07-08 20:50:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 20:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs-models
+[2023-07-08 20:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uhull
+[2023-07-08 20:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trab-devops-ci-cd-process
+[2023-07-08 20:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domini
+[2023-07-08 20:50:17] INFO root fetch - processPackages [uhull]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 20:50:17] INFO root fetch - processPackages [trab-devops-ci-cd-process]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-08 20:50:17] INFO root fetch - processPackages [domini]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-08 20:50:17] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-07-08 20:50:17] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Downloading https://files.pythonhosted.org/packages/37/c8/899a519458a71f88a17fc7986a4e2ba7827e30a70ed6bf42a43da627bcf0/trab_devops_ci_cd_process-0.0.5.tar.gz
+[2023-07-08 20:50:17] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-07-08 20:50:17] INFO root fetch - processPackages [uhull]: Downloading https://files.pythonhosted.org/packages/00/2a/9a3898b7e5cb0f782e65053ebd7a923e4bc6bb857c99fbefd1c799744922/uhull-0.1.0.tar.gz
+[2023-07-08 20:50:17] INFO root fetch - processPackages [domini]: Downloading https://files.pythonhosted.org/packages/fd/4c/4e7602936520dd1b923d9fe6a0b0786f565f325d0e90d940c74e49a9c4f6/domini-0.8.1.tar.gz
+[2023-07-08 20:50:17] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-07-08 20:50:17] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Downloading https://files.pythonhosted.org/packages/96/40/17617a1092520a226eeadede7231f267347414eaeba3fcf9b95d70aee03b/trab_devops_ci_cd_process-0.0.6.tar.gz
+[2023-07-08 20:50:17] INFO root fetch - processPackages [uhull]: Downloading https://files.pythonhosted.org/packages/bf/58/3fb9e058a847011a785c77eca4f5395163f4168a1f692e9a0b963718e5ec/uhull-0.1.1.tar.gz
+[2023-07-08 20:50:17] INFO root fetch - processPackages [trab-devops-ci-cd-process]: executing diffoscope
+[2023-07-08 20:50:17] INFO root fetch - processPackages [trab-devops-ci-cd-process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trab_devops_ci_cd_process-0.0.5.tar.gz tmp/trab_devops_ci_cd_process-0.0.6.tar.gz --markdown 20230708/t/trab-devops-ci-cd-process/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-08 20:50:17] INFO root fetch - processPackages [domini]: Downloading https://files.pythonhosted.org/packages/10/a1/8d0b9485632f78b1066a253d619af640bc2de3be60e39a542bdb08703bd1/domini-0.9.0.tar.gz
+[2023-07-08 20:50:17] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-07-08 20:50:17] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230708/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-07-08 20:50:18] INFO root fetch - processPackages [domini]: executing diffoscope
+[2023-07-08 20:50:18] INFO root fetch - processPackages [domini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domini-0.8.1.tar.gz tmp/domini-0.9.0.tar.gz --markdown 20230708/d/domini/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 20:50:18] INFO root fetch - processPackages [uhull]: executing diffoscope
+[2023-07-08 20:50:18] INFO root fetch - processPackages [uhull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uhull-0.1.0.tar.gz tmp/uhull-0.1.1.tar.gz --markdown 20230708/u/uhull/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 20:50:18] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Remove: archive file [/home/abi/fetcher/tmp/trab_devops_ci_cd_process-0.0.5.tar.gz]
+[2023-07-08 20:50:18] INFO root fetch - processPackages [trab-devops-ci-cd-process]: Remove: archive file [/home/abi/fetcher/tmp/trab_devops_ci_cd_process-0.0.6.tar.gz]
+[2023-07-08 20:50:18] INFO root fetch - main [MainThread]: End processing [trab-devops-ci-cd-process]: success
+[2023-07-08 20:50:18] INFO root fetch - processPackages [domini]: Remove: archive file [/home/abi/fetcher/tmp/domini-0.8.1.tar.gz]
+[2023-07-08 20:50:18] INFO root fetch - processPackages [domini]: Remove: archive file [/home/abi/fetcher/tmp/domini-0.9.0.tar.gz]
+[2023-07-08 20:50:18] INFO root fetch - main [MainThread]: End processing [domini]: success
+[2023-07-08 20:50:18] INFO root fetch - processPackages [uhull]: Remove: archive file [/home/abi/fetcher/tmp/uhull-0.1.0.tar.gz]
+[2023-07-08 20:50:18] INFO root fetch - processPackages [uhull]: Remove: archive file [/home/abi/fetcher/tmp/uhull-0.1.1.tar.gz]
+[2023-07-08 20:50:18] INFO root fetch - main [MainThread]: End processing [uhull]: success
+[2023-07-08 20:50:19] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2023-07-08 20:50:19] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2023-07-08 20:50:19] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-07-08 20:50:19] INFO root fetch - main [MainThread]: Store serial: [18815170]
