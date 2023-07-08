@@ -11078,3 +11078,95 @@
 [2023-07-08 05:26:39] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230708.tar.gz]
 [2023-07-08 05:26:39] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-07-08 05:26:39] INFO root fetch - main [MainThread]: Store serial: [18810559]
+[2023-07-08 05:31:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810559]
+[2023-07-08 05:31:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-08 05:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cshogi
+[2023-07-08 05:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eradiate
+[2023-07-08 05:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pynose
+[2023-07-08 05:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-splatoon3
+[2023-07-08 05:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reliableGPT
+[2023-07-08 05:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hrequests
+[2023-07-08 05:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: brain-observatory-utilities
+[2023-07-08 05:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pinject-design
+[2023-07-08 05:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oceanograpy
+[2023-07-08 05:31:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gdsfactory
+[2023-07-08 05:31:48] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-08 05:31:48] INFO root fetch - processPackages [hrequests]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-08 05:31:48] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.981] Old Version: [0.2.980]
+[2023-07-08 05:31:48] INFO root fetch - processPackages [brain-observatory-utilities]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-08 05:31:48] INFO root fetch - processPackages [eradiate]: New version: [0.23.2rc4] Old Version: [0.23.2rc3]
+[2023-07-08 05:31:48] WARNING root fetch - processPackages [oceanograpy]: Skipping, unable to determine old version
+[2023-07-08 05:31:48] INFO root fetch - processPackages [oceanograpy]: Start processing: TheSilent
+[2023-07-08 05:31:48] INFO root fetch - processPackages [pynose]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-07-08 05:31:48] INFO root fetch - main [MainThread]: End processing [oceanograpy] error
+[2023-07-08 05:31:48] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 05:31:48] INFO root fetch - processPackages [cshogi]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-08 05:31:48] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-07-08 05:31:48] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 05:31:48] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/cc/f8/9e5d15bad5eefe480e6a255490c8bdd57a0f1d0ddcbf1d08ec44ac333f1b/reliableGPT-0.2.980.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [hrequests]: Downloading https://files.pythonhosted.org/packages/a5/e2/cf9d14751416a3b3eabe27250ff7b1a29a9459697fbd5e723923504aad76/hrequests-0.1.2.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: Downloading https://files.pythonhosted.org/packages/24/9e/6579622489ef2a388b5d0e408a6986be591adf0bfdd57fcb5e9141f3b522/nonebot_plugin_splatoon3-1.0.7.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [cshogi]: Downloading https://files.pythonhosted.org/packages/90/89/3af079578f36d8e289961714fea5d00cd154bc6612fd5d144064c9e9fc31/cshogi-0.5.5.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [brain-observatory-utilities]: Downloading https://files.pythonhosted.org/packages/90/ea/69192aaba30c76cf78e0b27812ea1c49f05ce2f281c9c6cdf44c6f2061a8/brain_observatory_utilities-0.2.0.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [eradiate]: Downloading https://files.pythonhosted.org/packages/5b/a8/dfe3cedfd05693e2885fa9a564830f1b2ff1677bb5ca6f803bf93af57a46/eradiate-0.23.2rc3.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/5f/f2/6f47beb8ae7800164b86a0ca180efa5ad86edb3b1419d97531dddcc0c026/pinject-design-0.1.8.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/c8/dd/88303eeb3c46484a4a64c2675611a92ea3816ae1ec8181c6eb5e78e85064/gdsfactory-6.98.2.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [pynose]: Downloading https://files.pythonhosted.org/packages/0a/99/6ff1de2101761ea8f6feec8ff7d4b68254f531dd5e67ac8afde5bec5a52b/pynose-1.4.5.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/7e/a5/85b0884228682cca3e30336ad7dfd0200f55cb3752e16dc96be593f8ddd9/reliableGPT-0.2.981.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-08 05:31:49] WARNING root fetch - processPackages [nonebot-plugin-splatoon3]: Skipping package: exceeds size limit 95486010>=10485760
+[2023-07-08 05:31:49] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-splatoon3] error
+[2023-07-08 05:31:49] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-08 05:31:49] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230708/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 05:31:49] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [brain-observatory-utilities]: Downloading https://files.pythonhosted.org/packages/a9/30/1cacddf7d312f7ba554bacc7d875cad57f41acd44a1968d079c834d3f955/brain_observatory_utilities-0.2.1.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [cshogi]: Downloading https://files.pythonhosted.org/packages/12/72/cf3f31a1a40e1f865a339103cba243027f0f3a50626572e7740bf2066f4c/cshogi-0.5.6.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [pynose]: Downloading https://files.pythonhosted.org/packages/ed/ee/9aa061f2fe0fec903329586c5750546b1babc5337131797914cf41093537/pynose-1.4.6.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-08 05:31:49] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.980.tar.gz tmp/reliableGPT-0.2.981.tar.gz --markdown 20230708/r/reliableGPT/0.2.980-0.2.981/diff.md --exclude *.pyd
+[2023-07-08 05:31:49] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-08 05:31:49] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject-design-0.1.8.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230708/p/pinject-design/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 05:31:49] INFO root fetch - processPackages [eradiate]: Downloading https://files.pythonhosted.org/packages/99/04/2067a3d532d7e3adc4c14796ccdbef87c09d2d970827975a2ef1451fa97a/eradiate-0.23.2rc4.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [hrequests]: Downloading https://files.pythonhosted.org/packages/5c/b0/e78d92a741dbe63dc50f6e0a577636c8305a06d4f36cd26999d595b88d2f/hrequests-0.2.0.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7e/ec/2cd39e2ce278d617eac6988e914b8df36d3496205cac9e991937c8cd1fe3/gdsfactory-6.99.0.tar.gz
+[2023-07-08 05:31:49] INFO root fetch - processPackages [pynose]: executing diffoscope
+[2023-07-08 05:31:49] INFO root fetch - processPackages [pynose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynose-1.4.5.tar.gz tmp/pynose-1.4.6.tar.gz --markdown 20230708/p/pynose/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-07-08 05:31:49] INFO root fetch - processPackages [cshogi]: executing diffoscope
+[2023-07-08 05:31:49] INFO root fetch - processPackages [cshogi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cshogi-0.5.5.tar.gz tmp/cshogi-0.5.6.tar.gz --markdown 20230708/c/cshogi/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-08 05:31:49] INFO root fetch - processPackages [brain-observatory-utilities]: executing diffoscope
+[2023-07-08 05:31:49] INFO root fetch - processPackages [brain-observatory-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brain_observatory_utilities-0.2.0.tar.gz tmp/brain_observatory_utilities-0.2.1.tar.gz --markdown 20230708/b/brain-observatory-utilities/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-08 05:31:49] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-07-08 05:31:49] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230708/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-07-08 05:31:49] INFO root fetch - processPackages [hrequests]: executing diffoscope
+[2023-07-08 05:31:49] INFO root fetch - processPackages [hrequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrequests-0.1.2.tar.gz tmp/hrequests-0.2.0.tar.gz --markdown 20230708/h/hrequests/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 05:31:50] INFO root fetch - processPackages [eradiate]: executing diffoscope
+[2023-07-08 05:31:50] INFO root fetch - processPackages [eradiate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eradiate-0.23.2rc3.tar.gz tmp/eradiate-0.23.2rc4.tar.gz --markdown 20230708/e/eradiate/0.23.2rc3-0.23.2rc4/diff.md --exclude *.pyd
+[2023-07-08 05:31:50] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-08 05:31:50] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-08 05:31:50] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-08 05:31:51] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.980.tar.gz]
+[2023-07-08 05:31:51] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.981.tar.gz]
+[2023-07-08 05:31:51] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-08 05:31:51] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.8.tar.gz]
+[2023-07-08 05:31:51] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.9.tar.gz]
+[2023-07-08 05:31:51] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-08 05:31:51] INFO root fetch - processPackages [cshogi]: Remove: archive file [/home/abi/fetcher/tmp/cshogi-0.5.5.tar.gz]
+[2023-07-08 05:31:51] INFO root fetch - processPackages [cshogi]: Remove: archive file [/home/abi/fetcher/tmp/cshogi-0.5.6.tar.gz]
+[2023-07-08 05:31:51] INFO root fetch - main [MainThread]: End processing [cshogi]: success
+[2023-07-08 05:31:51] INFO root fetch - processPackages [brain-observatory-utilities]: Remove: archive file [/home/abi/fetcher/tmp/brain_observatory_utilities-0.2.0.tar.gz]
+[2023-07-08 05:31:51] INFO root fetch - processPackages [brain-observatory-utilities]: Remove: archive file [/home/abi/fetcher/tmp/brain_observatory_utilities-0.2.1.tar.gz]
+[2023-07-08 05:31:51] INFO root fetch - main [MainThread]: End processing [brain-observatory-utilities]: success
+[2023-07-08 05:31:51] INFO root fetch - processPackages [pynose]: Remove: archive file [/home/abi/fetcher/tmp/pynose-1.4.5.tar.gz]
+[2023-07-08 05:31:51] INFO root fetch - processPackages [pynose]: Remove: archive file [/home/abi/fetcher/tmp/pynose-1.4.6.tar.gz]
+[2023-07-08 05:31:51] INFO root fetch - main [MainThread]: End processing [pynose]: success
+[2023-07-08 05:31:51] INFO root fetch - processPackages [hrequests]: Remove: archive file [/home/abi/fetcher/tmp/hrequests-0.1.2.tar.gz]
+[2023-07-08 05:31:51] INFO root fetch - processPackages [hrequests]: Remove: archive file [/home/abi/fetcher/tmp/hrequests-0.2.0.tar.gz]
+[2023-07-08 05:31:51] INFO root fetch - main [MainThread]: End processing [hrequests]: success
+[2023-07-08 05:31:53] INFO root fetch - processPackages [eradiate]: Remove: archive file [/home/abi/fetcher/tmp/eradiate-0.23.2rc3.tar.gz]
+[2023-07-08 05:31:53] INFO root fetch - processPackages [eradiate]: Remove: archive file [/home/abi/fetcher/tmp/eradiate-0.23.2rc4.tar.gz]
+[2023-07-08 05:31:53] INFO root fetch - main [MainThread]: End processing [eradiate]: success
+[2023-07-08 05:31:54] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.98.2.tar.gz]
+[2023-07-08 05:31:54] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
+[2023-07-08 05:31:54] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-07-08 05:31:54] INFO root fetch - main [MainThread]: Store serial: [18810603]
