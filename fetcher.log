@@ -20365,3 +20365,54 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 19:42:54] INFO root fetch - processPackages [hat-chatter]: Remove: archive file [/home/abi/fetcher/tmp/hat_chatter-0.5.9-cp38.cp39.cp310-none-any.whl.zip]
 [2023-07-08 19:42:54] INFO root fetch - main [MainThread]: End processing [hat-chatter]: success
 [2023-07-08 19:42:54] INFO root fetch - main [MainThread]: Store serial: [18814939]
+[2023-07-08 19:47:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814939]
+[2023-07-08 19:48:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 19:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iprocess
+[2023-07-08 19:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: canarypublisher
+[2023-07-08 19:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edp-redy-py
+[2023-07-08 19:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pbipy
+[2023-07-08 19:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: signe
+[2023-07-08 19:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: findmyorder
+[2023-07-08 19:48:03] INFO root fetch - processPackages [pbipy]: New version: [2.4.5] Old Version: [2.3.4]
+[2023-07-08 19:48:03] INFO root fetch - processPackages [signe]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-08 19:48:03] INFO root fetch - processPackages [iprocess]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 19:48:03] WARNING root fetch - processPackages [canarypublisher]: Skipping, unable to determine old version
+[2023-07-08 19:48:03] INFO root fetch - processPackages [edp-redy-py]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-07-08 19:48:03] INFO root fetch - main [MainThread]: End processing [canarypublisher] error
+[2023-07-08 19:48:03] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 19:48:03] INFO root fetch - processPackages [iprocess]: Downloading https://files.pythonhosted.org/packages/0b/34/b29cde621c861fb18a6b4481ecc8daf9c5ae90d9ecb549818eb75348bf1d/iprocess-0.0.2.tar.gz
+[2023-07-08 19:48:03] INFO root fetch - processPackages [edp-redy-py]: Downloading https://files.pythonhosted.org/packages/c0/15/109d8991cd325eb1c3fa56906a00bfb78414169d43f981d2a2329458a28d/edp_redy_py-0.1.1.tar.gz
+[2023-07-08 19:48:03] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 19:48:03] INFO root fetch - processPackages [pbipy]: Downloading https://files.pythonhosted.org/packages/a5/75/d8c74475b3064750a5dac379bc7e34ea8afc3dce1cd290b02304ac3fd526/pbipy-2.3.4.tar.gz
+[2023-07-08 19:48:03] INFO root fetch - processPackages [signe]: Downloading https://files.pythonhosted.org/packages/84/78/399d86b37c34e053296d21a61dc10ee661aa5cf73b0a14c6894470ab333f/signe-0.1.5.tar.gz
+[2023-07-08 19:48:03] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 19:48:04] INFO root fetch - processPackages [edp-redy-py]: Downloading https://files.pythonhosted.org/packages/9f/d8/2d7a6a8c1f27e5231c6d0caa65747b72d6aa3f7af5d9c78a4337a06253c7/edp_redy_py-0.1.3.tar.gz
+[2023-07-08 19:48:04] INFO root fetch - processPackages [iprocess]: Downloading https://files.pythonhosted.org/packages/7e/e2/00f63c4c00b01d41ab0845c8e5b5ee57be441c4c0fa244a9066397243a14/iprocess-0.0.3.tar.gz
+[2023-07-08 19:48:04] INFO root fetch - processPackages [pbipy]: Downloading https://files.pythonhosted.org/packages/87/be/777c2fe8cd0f3e272bb02f36ea8bf2dfda36cf4520f6025eec8dc790c05b/pbipy-2.4.5.tar.gz
+[2023-07-08 19:48:04] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 19:48:04] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 19:48:04] INFO root fetch - processPackages [signe]: Downloading https://files.pythonhosted.org/packages/e8/60/45b386d93eb290988e9590e17388a6ca823bb559b45be5e4fd0b0b09def7/signe-0.1.6.tar.gz
+[2023-07-08 19:48:04] INFO root fetch - processPackages [edp-redy-py]: executing diffoscope
+[2023-07-08 19:48:04] INFO root fetch - processPackages [edp-redy-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edp_redy_py-0.1.1.tar.gz tmp/edp_redy_py-0.1.3.tar.gz --markdown 20230708/e/edp-redy-py/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-07-08 19:48:04] INFO root fetch - processPackages [iprocess]: executing diffoscope
+[2023-07-08 19:48:04] INFO root fetch - processPackages [iprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iprocess-0.0.2.tar.gz tmp/iprocess-0.0.3.tar.gz --markdown 20230708/i/iprocess/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 19:48:04] INFO root fetch - processPackages [signe]: executing diffoscope
+[2023-07-08 19:48:04] INFO root fetch - processPackages [signe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signe-0.1.5.tar.gz tmp/signe-0.1.6.tar.gz --markdown 20230708/s/signe/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-08 19:48:04] INFO root fetch - processPackages [pbipy]: executing diffoscope
+[2023-07-08 19:48:04] INFO root fetch - processPackages [pbipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbipy-2.3.4.tar.gz tmp/pbipy-2.4.5.tar.gz --markdown 20230708/p/pbipy/2.3.4-2.4.5/diff.md --exclude *.pyd
+[2023-07-08 19:48:05] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 19:48:05] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 19:48:05] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 19:48:05] INFO root fetch - processPackages [edp-redy-py]: Remove: archive file [/home/abi/fetcher/tmp/edp_redy_py-0.1.1.tar.gz]
+[2023-07-08 19:48:05] INFO root fetch - processPackages [edp-redy-py]: Remove: archive file [/home/abi/fetcher/tmp/edp_redy_py-0.1.3.tar.gz]
+[2023-07-08 19:48:05] INFO root fetch - main [MainThread]: End processing [edp-redy-py]: success
+[2023-07-08 19:48:05] INFO root fetch - processPackages [iprocess]: Remove: archive file [/home/abi/fetcher/tmp/iprocess-0.0.2.tar.gz]
+[2023-07-08 19:48:05] INFO root fetch - processPackages [iprocess]: Remove: archive file [/home/abi/fetcher/tmp/iprocess-0.0.3.tar.gz]
+[2023-07-08 19:48:05] INFO root fetch - main [MainThread]: End processing [iprocess]: success
+[2023-07-08 19:48:05] INFO root fetch - processPackages [signe]: Remove: archive file [/home/abi/fetcher/tmp/signe-0.1.5.tar.gz]
+[2023-07-08 19:48:05] INFO root fetch - processPackages [signe]: Remove: archive file [/home/abi/fetcher/tmp/signe-0.1.6.tar.gz]
+[2023-07-08 19:48:05] INFO root fetch - main [MainThread]: End processing [signe]: success
+[2023-07-08 19:48:05] INFO root fetch - processPackages [pbipy]: Remove: archive file [/home/abi/fetcher/tmp/pbipy-2.3.4.tar.gz]
+[2023-07-08 19:48:05] INFO root fetch - processPackages [pbipy]: Remove: archive file [/home/abi/fetcher/tmp/pbipy-2.4.5.tar.gz]
+[2023-07-08 19:48:05] INFO root fetch - main [MainThread]: End processing [pbipy]: success
+[2023-07-08 19:48:05] INFO root fetch - main [MainThread]: Store serial: [18814957]
