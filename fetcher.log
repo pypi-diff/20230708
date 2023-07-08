@@ -14328,3 +14328,18 @@
 [2023-07-08 11:35:12] INFO root fetch - processPackages [rs4]: Remove: archive file [/home/abi/fetcher/tmp/rs4-0.3.9-py3-none-any.whl.zip]
 [2023-07-08 11:35:12] INFO root fetch - main [MainThread]: End processing [rs4]: success
 [2023-07-08 11:35:12] INFO root fetch - main [MainThread]: Store serial: [18812191]
+[2023-07-08 11:40:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812191]
+[2023-07-08 11:40:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-08 11:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bobon
+[2023-07-08 11:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: visionscript
+[2023-07-08 11:40:22] WARNING root fetch - processPackages [bobon]: Skipping, unable to determine old version
+[2023-07-08 11:40:22] INFO root fetch - processPackages [visionscript]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-08 11:40:22] INFO root fetch - main [MainThread]: End processing [bobon] error
+[2023-07-08 11:40:22] INFO root fetch - processPackages [visionscript]: Downloading https://files.pythonhosted.org/packages/bd/70/474748d770ca9fbd01d21a7825fbce0d4d8c2bb500db1f34cfd8ed980e15/visionscript-0.0.1.tar.gz
+[2023-07-08 11:40:22] INFO root fetch - processPackages [visionscript]: Downloading https://files.pythonhosted.org/packages/d1/ae/3ad456b89ad8646c97723d2fc1ae2d37df7375d47faacd3f10b6abd52936/visionscript-0.0.2.tar.gz
+[2023-07-08 11:40:22] INFO root fetch - processPackages [visionscript]: executing diffoscope
+[2023-07-08 11:40:22] INFO root fetch - processPackages [visionscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionscript-0.0.1.tar.gz tmp/visionscript-0.0.2.tar.gz --markdown 20230708/v/visionscript/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 11:40:23] INFO root fetch - processPackages [visionscript]: Remove: archive file [/home/abi/fetcher/tmp/visionscript-0.0.1.tar.gz]
+[2023-07-08 11:40:23] INFO root fetch - processPackages [visionscript]: Remove: archive file [/home/abi/fetcher/tmp/visionscript-0.0.2.tar.gz]
+[2023-07-08 11:40:23] INFO root fetch - main [MainThread]: End processing [visionscript]: success
+[2023-07-08 11:40:23] INFO root fetch - main [MainThread]: Store serial: [18812199]
