@@ -22844,3 +22844,45 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 23:47:22] INFO root fetch - main [MainThread]: End processing [asyncoinpayments]: success
 [2023-07-08 23:47:22] INFO root fetch - main [MainThread]: End processing [asyncoinpayments]: success
 [2023-07-08 23:47:22] INFO root fetch - main [MainThread]: Store serial: [18816057]
+[2023-07-08 23:52:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18816057]
+[2023-07-08 23:52:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 23:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imbalanced-learn
+[2023-07-08 23:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seleniumbase
+[2023-07-08 23:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simplechatgpt
+[2023-07-08 23:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xml-to-acts
+[2023-07-08 23:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sbase
+[2023-07-08 23:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: selenium-base
+[2023-07-08 23:52:31] WARNING root fetch - processPackages [simplechatgpt]: Skipping, unable to determine old version
+[2023-07-08 23:52:31] INFO root fetch - main [MainThread]: End processing [simplechatgpt] error
+[2023-07-08 23:52:31] INFO root fetch - processPackages [imbalanced-learn]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-08 23:52:31] WARNING root fetch - processPackages [xml-to-acts]: Skipping, unable to determine old version
+[2023-07-08 23:52:31] INFO root fetch - main [MainThread]: End processing [xml-to-acts] error
+[2023-07-08 23:52:31] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-08 23:52:31] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-08 23:52:31] INFO root fetch - processPackages [imbalanced-learn]: Downloading https://files.pythonhosted.org/packages/bf/ba/8b9214319dcab5d6451c91bef87cc053fdcff2d257b44e23d3c64d53c145/imbalanced-learn-0.9.0.tar.gz
+[2023-07-08 23:52:32] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-08 23:52:32] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2023-07-08 23:52:32] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2023-07-08 23:52:32] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-07-08 23:52:32] INFO root fetch - processPackages [imbalanced-learn]: Downloading https://files.pythonhosted.org/packages/b7/c0/e75eb7d8d2c73cdd45c532a530d78825f8c43624e2f72b1dd82cf10b5d2f/imbalanced-learn-0.9.1.tar.gz
+[2023-07-08 23:52:32] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2023-07-08 23:52:32] WARNING root fetch - processPackages [imbalanced-learn]: Skipping package: exceeds size limit 29522795>=10485760
+[2023-07-08 23:52:32] INFO root fetch - main [MainThread]: End processing [imbalanced-learn] error
+[2023-07-08 23:52:32] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2023-07-08 23:52:32] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-07-08 23:52:32] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-07-08 23:52:32] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230708/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-08 23:52:32] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-07-08 23:52:32] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230708/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-08 23:52:33] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-07-08 23:52:33] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230708/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-08 23:52:33] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2023-07-08 23:52:33] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2023-07-08 23:52:33] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-07-08 23:52:33] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2023-07-08 23:52:33] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2023-07-08 23:52:33] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-07-08 23:52:34] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2023-07-08 23:52:34] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2023-07-08 23:52:34] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-07-08 23:52:34] INFO root fetch - main [MainThread]: Store serial: [18816081]
