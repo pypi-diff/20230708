@@ -13616,3 +13616,120 @@
 [2023-07-08 10:37:48] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
 [2023-07-08 10:37:48] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
 [2023-07-08 10:37:48] INFO root fetch - main [MainThread]: Store serial: [18811816]
+[2023-07-08 10:42:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811816]
+[2023-07-08 10:42:57] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-08 10:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastdatasets
+[2023-07-08 10:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slib-sorter
+[2023-07-08 10:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: experiment-utilities
+[2023-07-08 10:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TTS
+[2023-07-08 10:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bitssh
+[2023-07-08 10:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sparkdesk-api
+[2023-07-08 10:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pocketsearch
+[2023-07-08 10:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: this-is-fine-wuzzi
+[2023-07-08 10:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ts-wuzzi
+[2023-07-08 10:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tff-nightly
+[2023-07-08 10:42:57] INFO root fetch - processPackages [experiment-utilities]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-08 10:42:57] INFO root fetch - processPackages [slib-sorter]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-08 10:42:57] WARNING root fetch - processPackages [this-is-fine-wuzzi]: Skipping, unable to determine old version
+[2023-07-08 10:42:57] INFO root fetch - processPackages [this-is-fine-wuzzi]: Start processing: degiroasync
+[2023-07-08 10:42:57] INFO root fetch - main [MainThread]: End processing [this-is-fine-wuzzi] error
+[2023-07-08 10:42:57] WARNING root fetch - processPackages [ts-wuzzi]: Skipping, unable to determine old version
+[2023-07-08 10:42:57] INFO root fetch - processPackages [ts-wuzzi]: Start processing: python3-commons
+[2023-07-08 10:42:57] INFO root fetch - main [MainThread]: End processing [ts-wuzzi] error
+[2023-07-08 10:42:57] INFO root fetch - processPackages [TTS]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-08 10:42:57] INFO root fetch - processPackages [fastdatasets]: New version: [0.9.9.post0] Old Version: [0.9.9]
+[2023-07-08 10:42:57] INFO root fetch - processPackages [sparkdesk-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-08 10:42:57] INFO root fetch - processPackages [bitssh]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-08 10:42:57] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230707] Old Version: [0.0.1.dev20230706]
+[2023-07-08 10:42:57] INFO root fetch - processPackages [pocketsearch]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-08 10:42:57] INFO root fetch - processPackages [degiroasync]: New version: [0.18.0] Old Version: [0.17.0]
+[2023-07-08 10:42:58] INFO root fetch - processPackages [python3-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 10:42:58] INFO root fetch - processPackages [bitssh]: Downloading https://files.pythonhosted.org/packages/aa/f5/f2f33da3b4b355c32c214f9d596d7195125926d612271c2512d3678a0104/bitssh-1.1.2.tar.gz
+[2023-07-08 10:42:58] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/e3/15/72686cf5236897d910e4b1ce5e4813ae6ca9fce4436c066d4d1836b572ab/slib-sorter-1.3.3.tar.gz
+[2023-07-08 10:42:58] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/e9/fd/35a5b9fb8ecdd7e27028a6eaa6b30d219393c26f9ffb7d22059243910abf/tff_nightly-0.0.1.dev20230706-py2.py3-none-any.whl
+[2023-07-08 10:42:58] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/ed/f0/8d4ae8c973115bec20261c6cbbe41b9db84edefd982957e48b4b0a972e30/fastdatasets-0.9.9-py3-none-any.whl
+[2023-07-08 10:42:58] INFO root fetch - processPackages [experiment-utilities]: Downloading https://files.pythonhosted.org/packages/ab/f8/4dc389015486fb7edd24a2174def3b78351acfd61f9d57384e11f5d3f331/experiment-utilities-0.3.3.tar.gz
+[2023-07-08 10:42:58] INFO root fetch - processPackages [sparkdesk-api]: Downloading https://files.pythonhosted.org/packages/75/f3/a57373743eff692e2287f8c3a0c7488427577bd1c926fede69ae30afb031/sparkdesk-api-1.0.2.tar.gz
+[2023-07-08 10:42:58] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/3d/47/77e98aabfd51b3e6f8909fb7a515d7978843cd537ee465aaa998ff7ef8ae/python3-commons-0.0.8.tar.gz
+[2023-07-08 10:42:58] INFO root fetch - processPackages [pocketsearch]: Downloading https://files.pythonhosted.org/packages/0c/18/cbd0e41e7b40b18ec8a5a3773b4c72265f1083b37b655d4bd50a477e3fb6/pocketsearch-0.8.0.tar.gz
+[2023-07-08 10:42:58] INFO root fetch - processPackages [TTS]: Downloading https://files.pythonhosted.org/packages/67/99/6c20d7d05ba1b790ecf630c966339575f1e1ba1de99180cfb6cd0cdef613/TTS-0.8.0.tar.gz
+[2023-07-08 10:42:58] INFO root fetch - processPackages [degiroasync]: Downloading https://files.pythonhosted.org/packages/99/45/d547942d897320cc2d078736af03f418bc6fdd2a8add4955aa4c396135f5/degiroasync-0.17.0.tar.gz
+[2023-07-08 10:42:58] INFO root fetch - processPackages [bitssh]: Downloading https://files.pythonhosted.org/packages/a0/31/a221a5cd9e94ed572f42154d306cd44b28a4d4b4570d6505c66f7c8c77d2/bitssh-1.1.3.tar.gz
+[2023-07-08 10:42:58] INFO root fetch - processPackages [sparkdesk-api]: Downloading https://files.pythonhosted.org/packages/78/d7/41060ba2c5b1305c4208c5d17c645f7fdcde5dd54044a3738cda8169e71b/sparkdesk-api-1.0.3.tar.gz
+[2023-07-08 10:42:58] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/65/30/d1e7d5ef82d3002c7bad796f1b5a58090fab5042710a409eeeb1f1f215e4/fastdatasets-0.9.9.post0-py3-none-any.whl
+[2023-07-08 10:42:58] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/02/98/f0a6319a1f9e8dac565c5c33511b94e11c3a89be215208e731173b098f79/slib-sorter-1.3.4.tar.gz
+[2023-07-08 10:42:58] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/5f/f3/d875107dc7e55fe5a35509025413eff64f7d978dbceb19982e18ba1a5ca3/python3-commons-0.0.9.tar.gz
+[2023-07-08 10:42:58] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/00/6c/f86a80338a7ed0d2a0ffdb41e44fcfbb25835aebe486ea1638b77ecb8d56/tff_nightly-0.0.1.dev20230707-py2.py3-none-any.whl
+[2023-07-08 10:42:58] INFO root fetch - processPackages [bitssh]: executing diffoscope
+[2023-07-08 10:42:58] INFO root fetch - processPackages [bitssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitssh-1.1.2.tar.gz tmp/bitssh-1.1.3.tar.gz --markdown 20230708/b/bitssh/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-08 10:42:58] INFO root fetch - processPackages [sparkdesk-api]: executing diffoscope
+[2023-07-08 10:42:58] INFO root fetch - processPackages [sparkdesk-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkdesk-api-1.0.2.tar.gz tmp/sparkdesk-api-1.0.3.tar.gz --markdown 20230708/s/sparkdesk-api/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-08 10:42:58] INFO root fetch - processPackages [pocketsearch]: Downloading https://files.pythonhosted.org/packages/93/cd/299657c0dcc82b00210d53b49b5a909a37fbd6d20aa0c1b93585e9b2408d/pocketsearch-0.9.0.tar.gz
+[2023-07-08 10:42:58] INFO root fetch - processPackages [fastdatasets]: executing diffoscope
+[2023-07-08 10:42:58] INFO root fetch - processPackages [fastdatasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdatasets-0.9.9-py3-none-any.whl.zip tmp/fastdatasets-0.9.9.post0-py3-none-any.whl.zip --markdown 20230708/f/fastdatasets/0.9.9-0.9.9.post0/diff.md --exclude *.pyd
+[2023-07-08 10:42:58] INFO root fetch - processPackages [experiment-utilities]: Downloading https://files.pythonhosted.org/packages/be/2e/a9a958026d7f00f8b525551dc1fed0ac72999d5af49ab6b10d4fa2f37de1/experiment-utilities-0.3.4.tar.gz
+[2023-07-08 10:42:58] INFO root fetch - processPackages [degiroasync]: Downloading https://files.pythonhosted.org/packages/6c/ff/465deebf91e1574407385be1b1037c35abf998045dd95825eaca72124ad4/degiroasync-0.18.0.tar.gz
+[2023-07-08 10:42:59] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-07-08 10:42:59] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.0.8.tar.gz tmp/python3-commons-0.0.9.tar.gz --markdown 20230708/p/python3-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 10:42:59] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 10:42:59] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.3.3.tar.gz tmp/slib-sorter-1.3.4.tar.gz --markdown 20230708/s/slib-sorter/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-08 10:42:59] INFO root fetch - processPackages [pocketsearch]: executing diffoscope
+[2023-07-08 10:42:59] INFO root fetch - processPackages [pocketsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketsearch-0.8.0.tar.gz tmp/pocketsearch-0.9.0.tar.gz --markdown 20230708/p/pocketsearch/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 10:42:59] INFO root fetch - processPackages [TTS]: Downloading https://files.pythonhosted.org/packages/e6/68/26dd07a1742aa1c80702fe0bf57fbe9379806b1dda277c705a37a46dd744/TTS-0.9.0.tar.gz
+[2023-07-08 10:42:59] INFO root fetch - processPackages [experiment-utilities]: executing diffoscope
+[2023-07-08 10:42:59] INFO root fetch - processPackages [experiment-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment-utilities-0.3.3.tar.gz tmp/experiment-utilities-0.3.4.tar.gz --markdown 20230708/e/experiment-utilities/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-08 10:42:59] INFO root fetch - processPackages [degiroasync]: executing diffoscope
+[2023-07-08 10:42:59] INFO root fetch - processPackages [degiroasync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/degiroasync-0.17.0.tar.gz tmp/degiroasync-0.18.0.tar.gz --markdown 20230708/d/degiroasync/0.17.0-0.18.0/diff.md --exclude *.pyd
+[2023-07-08 10:42:59] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-08 10:42:59] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230706-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230707-py2.py3-none-any.whl.zip --markdown 20230708/t/tff-nightly/0.0.1.dev20230706-0.0.1.dev20230707/diff.md --exclude *.pyd
+[2023-07-08 10:42:59] INFO root fetch - processPackages [TTS]: executing diffoscope
+[2023-07-08 10:42:59] INFO root fetch - processPackages [TTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TTS-0.8.0.tar.gz tmp/TTS-0.9.0.tar.gz --markdown 20230708/T/TTS/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 10:43:00] INFO root fetch - processPackages [sparkdesk-api]: Remove: archive file [/home/abi/fetcher/tmp/sparkdesk-api-1.0.2.tar.gz]
+[2023-07-08 10:43:00] INFO root fetch - processPackages [sparkdesk-api]: Remove: archive file [/home/abi/fetcher/tmp/sparkdesk-api-1.0.3.tar.gz]
+[2023-07-08 10:43:00] INFO root fetch - processPackages [sparkdesk-api]: Start processing: git-remote-oracle
+[2023-07-08 10:43:00] INFO root fetch - main [MainThread]: End processing [sparkdesk-api]: success
+[2023-07-08 10:43:00] INFO root fetch - processPackages [git-remote-oracle]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-08 10:43:00] INFO root fetch - processPackages [bitssh]: Remove: archive file [/home/abi/fetcher/tmp/bitssh-1.1.2.tar.gz]
+[2023-07-08 10:43:00] INFO root fetch - processPackages [bitssh]: Remove: archive file [/home/abi/fetcher/tmp/bitssh-1.1.3.tar.gz]
+[2023-07-08 10:43:00] INFO root fetch - processPackages [bitssh]: Start processing: slib-sorter
+[2023-07-08 10:43:00] INFO root fetch - main [MainThread]: End processing [bitssh]: success
+[2023-07-08 10:43:00] INFO root fetch - processPackages [slib-sorter]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-08 10:43:00] INFO root fetch - processPackages [git-remote-oracle]: Downloading https://files.pythonhosted.org/packages/56/03/5d0e7d101a4c27ef5df6ee648fe656c664dad4feb6e91591d12e7022838e/git-remote-oracle-0.0.4.tar.gz
+[2023-07-08 10:43:00] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 10:43:00] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.3.3.tar.gz tmp/slib-sorter-1.3.4.tar.gz --markdown 20230708/s/slib-sorter/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-08 10:43:00] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.0.8.tar.gz]
+[2023-07-08 10:43:00] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.0.9.tar.gz]
+[2023-07-08 10:43:00] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-07-08 10:43:00] INFO root fetch - processPackages [fastdatasets]: Remove: archive file [/home/abi/fetcher/tmp/fastdatasets-0.9.9-py3-none-any.whl.zip]
+[2023-07-08 10:43:00] INFO root fetch - processPackages [fastdatasets]: Remove: archive file [/home/abi/fetcher/tmp/fastdatasets-0.9.9.post0-py3-none-any.whl.zip]
+[2023-07-08 10:43:00] INFO root fetch - main [MainThread]: End processing [fastdatasets]: success
+[2023-07-08 10:43:00] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.3.3.tar.gz]
+[2023-07-08 10:43:00] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.3.4.tar.gz]
+[2023-07-08 10:43:00] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 10:43:00] INFO root fetch - processPackages [pocketsearch]: Remove: archive file [/home/abi/fetcher/tmp/pocketsearch-0.8.0.tar.gz]
+[2023-07-08 10:43:00] INFO root fetch - processPackages [pocketsearch]: Remove: archive file [/home/abi/fetcher/tmp/pocketsearch-0.9.0.tar.gz]
+[2023-07-08 10:43:00] INFO root fetch - main [MainThread]: End processing [pocketsearch]: success
+[2023-07-08 10:43:00] INFO root fetch - processPackages [git-remote-oracle]: Downloading https://files.pythonhosted.org/packages/06/bc/6b5fdd71e44aab785bd1e0563dece49b9d36b64e4ab8c962e4459103bf34/git-remote-oracle-0.0.5.tar.gz
+[2023-07-08 10:43:00] INFO root fetch - processPackages [degiroasync]: Remove: archive file [/home/abi/fetcher/tmp/degiroasync-0.17.0.tar.gz]
+[2023-07-08 10:43:00] INFO root fetch - processPackages [degiroasync]: Remove: archive file [/home/abi/fetcher/tmp/degiroasync-0.18.0.tar.gz]
+[2023-07-08 10:43:00] INFO root fetch - main [MainThread]: End processing [degiroasync]: success
+[2023-07-08 10:43:01] INFO root fetch - processPackages [experiment-utilities]: Remove: archive file [/home/abi/fetcher/tmp/experiment-utilities-0.3.3.tar.gz]
+[2023-07-08 10:43:01] INFO root fetch - processPackages [experiment-utilities]: Remove: archive file [/home/abi/fetcher/tmp/experiment-utilities-0.3.4.tar.gz]
+[2023-07-08 10:43:01] INFO root fetch - main [MainThread]: End processing [experiment-utilities]: success
+[2023-07-08 10:43:01] INFO root fetch - processPackages [git-remote-oracle]: executing diffoscope
+[2023-07-08 10:43:01] INFO root fetch - processPackages [git-remote-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-remote-oracle-0.0.4.tar.gz tmp/git-remote-oracle-0.0.5.tar.gz --markdown 20230708/g/git-remote-oracle/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-08 10:43:01] ERROR root fetch - processPackages [slib-sorter]: Diffoscope failed: time="2023-07-08T10:43:00+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/slib-sorter-1.3.3.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/slib-sorter-1.3.4.tar.gz: No such file or directory
+
+[2023-07-08 10:43:01] INFO root fetch - main [MainThread]: End processing [slib-sorter] error
+[2023-07-08 10:43:01] INFO root fetch - processPackages [git-remote-oracle]: Remove: archive file [/home/abi/fetcher/tmp/git-remote-oracle-0.0.4.tar.gz]
+[2023-07-08 10:43:01] INFO root fetch - processPackages [git-remote-oracle]: Remove: archive file [/home/abi/fetcher/tmp/git-remote-oracle-0.0.5.tar.gz]
+[2023-07-08 10:43:01] INFO root fetch - main [MainThread]: End processing [git-remote-oracle]: success
+[2023-07-08 10:43:01] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230706-py2.py3-none-any.whl.zip]
+[2023-07-08 10:43:01] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230707-py2.py3-none-any.whl.zip]
+[2023-07-08 10:43:01] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-08 10:43:02] INFO root fetch - processPackages [TTS]: Remove: archive file [/home/abi/fetcher/tmp/TTS-0.8.0.tar.gz]
+[2023-07-08 10:43:02] INFO root fetch - processPackages [TTS]: Remove: archive file [/home/abi/fetcher/tmp/TTS-0.9.0.tar.gz]
+[2023-07-08 10:43:02] INFO root fetch - main [MainThread]: End processing [TTS]: success
+[2023-07-08 10:43:02] INFO root fetch - main [MainThread]: Store serial: [18811858]
