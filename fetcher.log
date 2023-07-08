@@ -22122,3 +22122,33 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 22:39:43] INFO root fetch - processPackages [jupyterlab-optumi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab-optumi-3.9.9.tar.gz]
 [2023-07-08 22:39:43] INFO root fetch - main [MainThread]: End processing [jupyterlab-optumi]: success
 [2023-07-08 22:39:43] INFO root fetch - main [MainThread]: Store serial: [18815638]
+[2023-07-08 22:44:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815638]
+[2023-07-08 22:44:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-08 22:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: y2mate-api
+[2023-07-08 22:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shikithon
+[2023-07-08 22:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CalSim
+[2023-07-08 22:44:53] INFO root fetch - processPackages [y2mate-api]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-07-08 22:44:53] INFO root fetch - processPackages [CalSim]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-08 22:44:53] INFO root fetch - processPackages [shikithon]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-07-08 22:44:53] INFO root fetch - processPackages [y2mate-api]: Downloading https://files.pythonhosted.org/packages/e5/a5/093219d00b2e8b19fabfd95bc33a18a4411f0af964ef8bae89465bfe6e1e/y2mate-api-0.0.9.tar.gz
+[2023-07-08 22:44:53] INFO root fetch - processPackages [shikithon]: Downloading https://files.pythonhosted.org/packages/d0/d2/04acb45051aa8022032517b49195bf33516980a23b2f1195aa0bffc17e8a/shikithon-2.5.2.tar.gz
+[2023-07-08 22:44:54] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/15/bb/0256d9c579522412b5c2cb58c7ea657b93be69ca356718ee6cdc5744e648/calsim-0.0.6.tar.gz
+[2023-07-08 22:44:54] INFO root fetch - processPackages [y2mate-api]: Downloading https://files.pythonhosted.org/packages/d5/72/54dafbcf5a5c403bc79acc96a1763b99740f52edf4cf14c6894f42c56e02/y2mate-api-1.0.0.tar.gz
+[2023-07-08 22:44:54] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/da/5b/a898a34c12b2a50917897ce9c343b0ca8aade4344641d8ddcb0b9704734d/calsim-0.0.7.tar.gz
+[2023-07-08 22:44:54] INFO root fetch - processPackages [shikithon]: Downloading https://files.pythonhosted.org/packages/4c/62/0f9c5548c75bbdae87a73d759c5eab506f1349fe74467f8c5daeb050a05d/shikithon-2.5.3.tar.gz
+[2023-07-08 22:44:54] INFO root fetch - processPackages [y2mate-api]: executing diffoscope
+[2023-07-08 22:44:54] INFO root fetch - processPackages [y2mate-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/y2mate-api-0.0.9.tar.gz tmp/y2mate-api-1.0.0.tar.gz --markdown 20230708/y/y2mate-api/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-08 22:44:54] INFO root fetch - processPackages [CalSim]: executing diffoscope
+[2023-07-08 22:44:54] INFO root fetch - processPackages [CalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calsim-0.0.6.tar.gz tmp/calsim-0.0.7.tar.gz --markdown 20230708/C/CalSim/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-08 22:44:54] INFO root fetch - processPackages [shikithon]: executing diffoscope
+[2023-07-08 22:44:54] INFO root fetch - processPackages [shikithon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shikithon-2.5.2.tar.gz tmp/shikithon-2.5.3.tar.gz --markdown 20230708/s/shikithon/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-07-08 22:44:55] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.6.tar.gz]
+[2023-07-08 22:44:55] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.7.tar.gz]
+[2023-07-08 22:44:55] INFO root fetch - main [MainThread]: End processing [CalSim]: success
+[2023-07-08 22:44:55] INFO root fetch - processPackages [y2mate-api]: Remove: archive file [/home/abi/fetcher/tmp/y2mate-api-0.0.9.tar.gz]
+[2023-07-08 22:44:55] INFO root fetch - processPackages [y2mate-api]: Remove: archive file [/home/abi/fetcher/tmp/y2mate-api-1.0.0.tar.gz]
+[2023-07-08 22:44:55] INFO root fetch - main [MainThread]: End processing [y2mate-api]: success
+[2023-07-08 22:44:55] INFO root fetch - processPackages [shikithon]: Remove: archive file [/home/abi/fetcher/tmp/shikithon-2.5.2.tar.gz]
+[2023-07-08 22:44:55] INFO root fetch - processPackages [shikithon]: Remove: archive file [/home/abi/fetcher/tmp/shikithon-2.5.3.tar.gz]
+[2023-07-08 22:44:55] INFO root fetch - main [MainThread]: End processing [shikithon]: success
+[2023-07-08 22:44:55] INFO root fetch - main [MainThread]: Store serial: [18815648]
