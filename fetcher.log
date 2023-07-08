@@ -20455,3 +20455,42 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 19:53:17] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
 [2023-07-08 19:53:17] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
 [2023-07-08 19:53:17] INFO root fetch - main [MainThread]: Store serial: [18814969]
+[2023-07-08 19:58:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814969]
+[2023-07-08 19:58:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 19:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mapperr
+[2023-07-08 19:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edp-redy-py
+[2023-07-08 19:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ex4nicegui
+[2023-07-08 19:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hat-orchestrator
+[2023-07-08 19:58:26] INFO root fetch - processPackages [ex4nicegui]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 19:58:26] INFO root fetch - processPackages [edp-redy-py]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-08 19:58:26] INFO root fetch - processPackages [mapperr]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-08 19:58:26] INFO root fetch - processPackages [edp-redy-py]: Downloading https://files.pythonhosted.org/packages/a9/71/3625ac17b42954c411fc4ce60047942be5364615b80f6e6d331920982b21/edp_redy_py-0.1.4.tar.gz
+[2023-07-08 19:58:26] INFO root fetch - processPackages [hat-orchestrator]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-08 19:58:27] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/56/ae/c7d3f798cbad56948de0f417e5c8560fff20b45e4b7f95acf8d9b7d99b03/ex4nicegui-0.1.0.tar.gz
+[2023-07-08 19:58:27] INFO root fetch - processPackages [mapperr]: Downloading https://files.pythonhosted.org/packages/fe/4e/5f9858ed974e64a1fefb109d48b28cb7152aa202b159d334e268cdbbf1bc/mapperr-0.1.1.tar.gz
+[2023-07-08 19:58:27] INFO root fetch - processPackages [hat-orchestrator]: Downloading https://files.pythonhosted.org/packages/13/ab/f170a6a58ed82f471dd30d3b3a36bd49acc8aa095be3a5886fa57c228197/hat_orchestrator-0.6.3-cp38.cp39.cp310.cp311-none-any.whl
+[2023-07-08 19:58:27] INFO root fetch - processPackages [edp-redy-py]: Downloading https://files.pythonhosted.org/packages/e4/95/c9ff684b0348f67947cb7e99d5e8b89b76dd50c26a32fb3c5fd8b83ef1da/edp_redy_py-0.1.5.tar.gz
+[2023-07-08 19:58:27] INFO root fetch - processPackages [edp-redy-py]: executing diffoscope
+[2023-07-08 19:58:27] INFO root fetch - processPackages [edp-redy-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edp_redy_py-0.1.4.tar.gz tmp/edp_redy_py-0.1.5.tar.gz --markdown 20230708/e/edp-redy-py/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-08 19:58:27] INFO root fetch - processPackages [mapperr]: Downloading https://files.pythonhosted.org/packages/36/c9/f40eb692b02c7b27f4ae70f8db3e7ee204773c0edf2f915b7656b6140ed6/mapperr-0.2.0.tar.gz
+[2023-07-08 19:58:27] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/94/96/d4285add39953e0fe27db821fd4df929e89a17995b04aee5ad141813857d/ex4nicegui-0.1.1.tar.gz
+[2023-07-08 19:58:27] INFO root fetch - processPackages [mapperr]: executing diffoscope
+[2023-07-08 19:58:27] INFO root fetch - processPackages [mapperr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapperr-0.1.1.tar.gz tmp/mapperr-0.2.0.tar.gz --markdown 20230708/m/mapperr/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-08 19:58:27] INFO root fetch - processPackages [hat-orchestrator]: Downloading https://files.pythonhosted.org/packages/c6/e0/adb1bd6f149a7cde8f18d55e8d9aeebc2ab812d5b1e1f09a22c8120a6cf9/hat_orchestrator-0.6.4-cp310.cp311-none-any.whl
+[2023-07-08 19:58:27] INFO root fetch - processPackages [ex4nicegui]: executing diffoscope
+[2023-07-08 19:58:27] INFO root fetch - processPackages [ex4nicegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex4nicegui-0.1.0.tar.gz tmp/ex4nicegui-0.1.1.tar.gz --markdown 20230708/e/ex4nicegui/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 19:58:27] INFO root fetch - processPackages [hat-orchestrator]: executing diffoscope
+[2023-07-08 19:58:27] INFO root fetch - processPackages [hat-orchestrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_orchestrator-0.6.3-cp38.cp39.cp310.cp311-none-any.whl.zip tmp/hat_orchestrator-0.6.4-cp310.cp311-none-any.whl.zip --markdown 20230708/h/hat-orchestrator/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-08 19:58:28] INFO root fetch - processPackages [edp-redy-py]: Remove: archive file [/home/abi/fetcher/tmp/edp_redy_py-0.1.4.tar.gz]
+[2023-07-08 19:58:28] INFO root fetch - processPackages [edp-redy-py]: Remove: archive file [/home/abi/fetcher/tmp/edp_redy_py-0.1.5.tar.gz]
+[2023-07-08 19:58:28] INFO root fetch - main [MainThread]: End processing [edp-redy-py]: success
+[2023-07-08 19:58:28] INFO root fetch - processPackages [mapperr]: Remove: archive file [/home/abi/fetcher/tmp/mapperr-0.1.1.tar.gz]
+[2023-07-08 19:58:28] INFO root fetch - processPackages [mapperr]: Remove: archive file [/home/abi/fetcher/tmp/mapperr-0.2.0.tar.gz]
+[2023-07-08 19:58:28] INFO root fetch - main [MainThread]: End processing [mapperr]: success
+[2023-07-08 19:58:28] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.1.0.tar.gz]
+[2023-07-08 19:58:28] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.1.1.tar.gz]
+[2023-07-08 19:58:28] INFO root fetch - main [MainThread]: End processing [ex4nicegui]: success
+[2023-07-08 19:58:28] INFO root fetch - processPackages [hat-orchestrator]: Remove: archive file [/home/abi/fetcher/tmp/hat_orchestrator-0.6.3-cp38.cp39.cp310.cp311-none-any.whl.zip]
+[2023-07-08 19:58:28] INFO root fetch - processPackages [hat-orchestrator]: Remove: archive file [/home/abi/fetcher/tmp/hat_orchestrator-0.6.4-cp310.cp311-none-any.whl.zip]
+[2023-07-08 19:58:28] INFO root fetch - main [MainThread]: End processing [hat-orchestrator]: success
+[2023-07-08 19:58:28] INFO root fetch - main [MainThread]: Store serial: [18814979]
