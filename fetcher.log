@@ -11495,3 +11495,42 @@
 [2023-07-08 06:09:33] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
 [2023-07-08 06:09:33] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2023-07-08 06:09:33] INFO root fetch - main [MainThread]: Store serial: [18810770]
+[2023-07-08 06:14:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810770]
+[2023-07-08 06:14:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 06:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-assets-management
+[2023-07-08 06:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-it-reverse-charge
+[2023-07-08 06:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pinject-design
+[2023-07-08 06:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-07-08 06:14:42] INFO root fetch - processPackages [odoo14-addon-l10n-it-reverse-charge]: New version: [14.0.1.2.4] Old Version: [14.0.1.2.3.dev3]
+[2023-07-08 06:14:42] INFO root fetch - processPackages [odoo14-addon-assets-management]: New version: [14.0.1.0.7] Old Version: [14.0.1.0.6]
+[2023-07-08 06:14:42] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 06:14:42] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 06:14:42] INFO root fetch - processPackages [odoo14-addon-l10n-it-reverse-charge]: Downloading https://files.pythonhosted.org/packages/aa/ae/6d7a061c5ac02611c82aeb0ec196880b893c4f26ae54862e46be1e329557/odoo14_addon_l10n_it_reverse_charge-14.0.1.2.3.dev3-py3-none-any.whl
+[2023-07-08 06:14:42] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/c1/06/1dc23f83408b5ab9340314a239b68b3851cbec1a2baea895697d27dfc2d9/odoo14_addon_assets_management-14.0.1.0.6-py3-none-any.whl
+[2023-07-08 06:14:42] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/5f/f2/6f47beb8ae7800164b86a0ca180efa5ad86edb3b1419d97531dddcc0c026/pinject-design-0.1.8.tar.gz
+[2023-07-08 06:14:42] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-08 06:14:42] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-08 06:14:43] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-08 06:14:43] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-08 06:14:43] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject-design-0.1.8.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230708/p/pinject-design/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 06:14:43] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-08 06:14:43] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230708/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 06:14:43] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/c9/48/6c4517be52ec38293b3c9b5f25f4d8e10b68e6fe6b85841bebf1c18af15c/odoo14_addon_assets_management-14.0.1.0.7-py3-none-any.whl
+[2023-07-08 06:14:43] INFO root fetch - processPackages [odoo14-addon-l10n-it-reverse-charge]: Downloading https://files.pythonhosted.org/packages/7a/39/4a28c63d20904c3a21929bfb7b8b86626fc238c6fda087def84bb3ab602d/odoo14_addon_l10n_it_reverse_charge-14.0.1.2.4-py3-none-any.whl
+[2023-07-08 06:14:43] INFO root fetch - processPackages [odoo14-addon-assets-management]: executing diffoscope
+[2023-07-08 06:14:43] INFO root fetch - processPackages [odoo14-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_assets_management-14.0.1.0.6-py3-none-any.whl.zip tmp/odoo14_addon_assets_management-14.0.1.0.7-py3-none-any.whl.zip --markdown 20230708/o/odoo14-addon-assets-management/14.0.1.0.6-14.0.1.0.7/diff.md --exclude *.pyd
+[2023-07-08 06:14:43] INFO root fetch - processPackages [odoo14-addon-l10n-it-reverse-charge]: executing diffoscope
+[2023-07-08 06:14:43] INFO root fetch - processPackages [odoo14-addon-l10n-it-reverse-charge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_reverse_charge-14.0.1.2.3.dev3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_reverse_charge-14.0.1.2.4-py3-none-any.whl.zip --markdown 20230708/o/odoo14-addon-l10n-it-reverse-charge/14.0.1.2.3.dev3-14.0.1.2.4/diff.md --exclude *.pyd
+[2023-07-08 06:14:44] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.8.tar.gz]
+[2023-07-08 06:14:44] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.9.tar.gz]
+[2023-07-08 06:14:44] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-08 06:14:44] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-08 06:14:44] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-08 06:14:44] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-08 06:14:44] INFO root fetch - processPackages [odoo14-addon-l10n-it-reverse-charge]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_reverse_charge-14.0.1.2.3.dev3-py3-none-any.whl.zip]
+[2023-07-08 06:14:44] INFO root fetch - processPackages [odoo14-addon-l10n-it-reverse-charge]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_reverse_charge-14.0.1.2.4-py3-none-any.whl.zip]
+[2023-07-08 06:14:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-reverse-charge]: success
+[2023-07-08 06:14:44] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.0.6-py3-none-any.whl.zip]
+[2023-07-08 06:14:44] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.0.7-py3-none-any.whl.zip]
+[2023-07-08 06:14:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-assets-management]: success
+[2023-07-08 06:14:44] INFO root fetch - main [MainThread]: Store serial: [18810786]
