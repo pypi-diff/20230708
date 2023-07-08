@@ -20494,3 +20494,41 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 19:58:28] INFO root fetch - processPackages [hat-orchestrator]: Remove: archive file [/home/abi/fetcher/tmp/hat_orchestrator-0.6.4-cp310.cp311-none-any.whl.zip]
 [2023-07-08 19:58:28] INFO root fetch - main [MainThread]: End processing [hat-orchestrator]: success
 [2023-07-08 19:58:28] INFO root fetch - main [MainThread]: Store serial: [18814979]
+[2023-07-08 20:03:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814979]
+[2023-07-08 20:03:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 20:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Subsearch
+[2023-07-08 20:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pbcmd
+[2023-07-08 20:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mdproptools
+[2023-07-08 20:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqd-song-edit
+[2023-07-08 20:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qvsed
+[2023-07-08 20:03:37] INFO root fetch - processPackages [qvsed]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-08 20:03:37] INFO root fetch - processPackages [mdproptools]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-08 20:03:37] WARNING root fetch - processPackages [sqd-song-edit]: Skipping, unable to determine old version
+[2023-07-08 20:03:37] INFO root fetch - main [MainThread]: End processing [sqd-song-edit] error
+[2023-07-08 20:03:37] INFO root fetch - processPackages [pbcmd]: New version: [7.1] Old Version: [6.0]
+[2023-07-08 20:03:37] INFO root fetch - processPackages [Subsearch]: New version: [2.36.1] Old Version: [2.36.0rc3]
+[2023-07-08 20:03:37] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/af/2e/2b51353c21e72e8bfa7a40f05f38e79fe2bc454f549c4b1748b0efe42bf4/qvsed-1.3.1.tar.gz
+[2023-07-08 20:03:38] INFO root fetch - processPackages [mdproptools]: Downloading https://files.pythonhosted.org/packages/4c/b9/f3ea43ae12d228e0a90095a0fa737143d74f09ea2a5ab2f36a8218a245fa/mdproptools-0.0.3.tar.gz
+[2023-07-08 20:03:38] INFO root fetch - processPackages [pbcmd]: Downloading https://files.pythonhosted.org/packages/c9/42/780c9d939b202cbd6845274bc0c4fb38fe85c5a9c87aa71a023af7fea2b0/pbcmd-6.0.tar.gz
+[2023-07-08 20:03:38] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/e1/d0/625f6e97b0c0c477d96f4d70eb2a2d196cfa448c7307dd9dbbbbc7db00d9/Subsearch-2.36.0rc3.tar.gz
+[2023-07-08 20:03:38] WARNING root fetch - processPackages [mdproptools]: Skipping package: exceeds size limit 15062142>=10485760
+[2023-07-08 20:03:38] INFO root fetch - main [MainThread]: End processing [mdproptools] error
+[2023-07-08 20:03:38] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/f8/c8/c1106c39c1ef7497a03003fd89359deed580aa4155bede5fa255e4d5c668/qvsed-1.3.2.tar.gz
+[2023-07-08 20:03:38] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-08 20:03:38] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.3.1.tar.gz tmp/qvsed-1.3.2.tar.gz --markdown 20230708/q/qvsed/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-08 20:03:38] INFO root fetch - processPackages [pbcmd]: Downloading https://files.pythonhosted.org/packages/08/38/b3f46cdf335c6fa63a25b3b8f01825593cb4e27f4cdc03402bc9b273eedc/pbcmd-7.1.tar.gz
+[2023-07-08 20:03:38] INFO root fetch - processPackages [pbcmd]: executing diffoscope
+[2023-07-08 20:03:38] INFO root fetch - processPackages [pbcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbcmd-6.0.tar.gz tmp/pbcmd-7.1.tar.gz --markdown 20230708/p/pbcmd/6.0-7.1/diff.md --exclude *.pyd
+[2023-07-08 20:03:38] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/08/10/2f66b6a8fbd720f14b492410a7d85c76a28a40d74c5559983e91d2c53f1d/Subsearch-2.36.1.tar.gz
+[2023-07-08 20:03:38] INFO root fetch - processPackages [Subsearch]: executing diffoscope
+[2023-07-08 20:03:38] INFO root fetch - processPackages [Subsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Subsearch-2.36.0rc3.tar.gz tmp/Subsearch-2.36.1.tar.gz --markdown 20230708/S/Subsearch/2.36.0rc3-2.36.1/diff.md --exclude *.pyd
+[2023-07-08 20:03:39] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.1.tar.gz]
+[2023-07-08 20:03:39] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.2.tar.gz]
+[2023-07-08 20:03:39] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-08 20:03:39] INFO root fetch - processPackages [pbcmd]: Remove: archive file [/home/abi/fetcher/tmp/pbcmd-6.0.tar.gz]
+[2023-07-08 20:03:39] INFO root fetch - processPackages [pbcmd]: Remove: archive file [/home/abi/fetcher/tmp/pbcmd-7.1.tar.gz]
+[2023-07-08 20:03:39] INFO root fetch - main [MainThread]: End processing [pbcmd]: success
+[2023-07-08 20:03:39] INFO root fetch - processPackages [Subsearch]: Remove: archive file [/home/abi/fetcher/tmp/Subsearch-2.36.0rc3.tar.gz]
+[2023-07-08 20:03:39] INFO root fetch - processPackages [Subsearch]: Remove: archive file [/home/abi/fetcher/tmp/Subsearch-2.36.1.tar.gz]
+[2023-07-08 20:03:39] INFO root fetch - main [MainThread]: End processing [Subsearch]: success
+[2023-07-08 20:03:39] INFO root fetch - main [MainThread]: Store serial: [18814995]
