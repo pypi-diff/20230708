@@ -16365,3 +16365,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 14:38:19] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
 [2023-07-08 14:38:19] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-07-08 14:38:19] INFO root fetch - main [MainThread]: Store serial: [18813109]
+[2023-07-08 14:43:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813109]
+[2023-07-08 14:43:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 14:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seventv
+[2023-07-08 14:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SempCode
+[2023-07-08 14:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-walletauth
+[2023-07-08 14:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codeboxapi
+[2023-07-08 14:43:28] INFO root fetch - processPackages [codeboxapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 14:43:28] INFO root fetch - processPackages [seventv]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-08 14:43:28] WARNING root fetch - processPackages [SempCode]: Skipping, unable to determine old version
+[2023-07-08 14:43:28] INFO root fetch - processPackages [fastapi-walletauth]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 14:43:28] INFO root fetch - main [MainThread]: End processing [SempCode] error
+[2023-07-08 14:43:28] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/23/79/d9ff4f9493e38dd2872b09518f0941143c60d47f8827a266c6654e8af2a2/seventv-1.2.1.tar.gz
+[2023-07-08 14:43:28] INFO root fetch - processPackages [codeboxapi]: Downloading https://files.pythonhosted.org/packages/69/b8/d912f2239910adbb95609dea5c72b9ff622bcd809d2bce8dd957526253a3/codeboxapi-0.0.2.tar.gz
+[2023-07-08 14:43:28] INFO root fetch - processPackages [fastapi-walletauth]: Downloading https://files.pythonhosted.org/packages/2a/9c/68c303351e462a006cdb4322bd73240e691add347e1e129a6f594db15b0a/fastapi_walletauth-0.1.0.tar.gz
+[2023-07-08 14:43:29] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/5e/ca/ac7c728c700a7b10cb87ff73f4a288de7cafffc9fa8df02551b3781dd473/seventv-1.2.2.tar.gz
+[2023-07-08 14:43:29] INFO root fetch - processPackages [fastapi-walletauth]: Downloading https://files.pythonhosted.org/packages/86/88/79888376f07e2969a8aee2bbca319603c643a89628cf2446fbb3ec2b5287/fastapi_walletauth-0.1.1.tar.gz
+[2023-07-08 14:43:29] INFO root fetch - processPackages [fastapi-walletauth]: executing diffoscope
+[2023-07-08 14:43:29] INFO root fetch - processPackages [fastapi-walletauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_walletauth-0.1.0.tar.gz tmp/fastapi_walletauth-0.1.1.tar.gz --markdown 20230708/f/fastapi-walletauth/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-08 14:43:29] INFO root fetch - processPackages [codeboxapi]: Downloading https://files.pythonhosted.org/packages/41/78/08f3668038309e01f8ab5d752d87f1636048728b4f447ea611ed225c57e7/codeboxapi-0.0.3.tar.gz
+[2023-07-08 14:43:29] INFO root fetch - processPackages [seventv]: executing diffoscope
+[2023-07-08 14:43:29] INFO root fetch - processPackages [seventv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seventv-1.2.1.tar.gz tmp/seventv-1.2.2.tar.gz --markdown 20230708/s/seventv/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-08 14:43:29] INFO root fetch - processPackages [codeboxapi]: executing diffoscope
+[2023-07-08 14:43:29] INFO root fetch - processPackages [codeboxapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeboxapi-0.0.2.tar.gz tmp/codeboxapi-0.0.3.tar.gz --markdown 20230708/c/codeboxapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 14:43:29] INFO root fetch - processPackages [fastapi-walletauth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_walletauth-0.1.0.tar.gz]
+[2023-07-08 14:43:29] INFO root fetch - processPackages [fastapi-walletauth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_walletauth-0.1.1.tar.gz]
+[2023-07-08 14:43:29] INFO root fetch - main [MainThread]: End processing [fastapi-walletauth]: success
+[2023-07-08 14:43:30] INFO root fetch - processPackages [codeboxapi]: Remove: archive file [/home/abi/fetcher/tmp/codeboxapi-0.0.2.tar.gz]
+[2023-07-08 14:43:30] INFO root fetch - processPackages [codeboxapi]: Remove: archive file [/home/abi/fetcher/tmp/codeboxapi-0.0.3.tar.gz]
+[2023-07-08 14:43:30] INFO root fetch - main [MainThread]: End processing [codeboxapi]: success
+[2023-07-08 14:43:30] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-1.2.1.tar.gz]
+[2023-07-08 14:43:30] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-1.2.2.tar.gz]
+[2023-07-08 14:43:30] INFO root fetch - main [MainThread]: End processing [seventv]: success
+[2023-07-08 14:43:30] INFO root fetch - main [MainThread]: Store serial: [18813124]
