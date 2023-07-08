@@ -12473,3 +12473,39 @@
 [2023-07-08 08:04:19] INFO root fetch - processPackages [anjani]: Remove: archive file [/home/abi/fetcher/tmp/anjani-2.9.0.tar.gz]
 [2023-07-08 08:04:19] INFO root fetch - main [MainThread]: End processing [anjani]: success
 [2023-07-08 08:04:19] INFO root fetch - main [MainThread]: Store serial: [18811270]
+[2023-07-08 08:09:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811270]
+[2023-07-08 08:09:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 08:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Geode-Simplex
+[2023-07-08 08:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbvh
+[2023-07-08 08:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tolol
+[2023-07-08 08:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slib-sorter
+[2023-07-08 08:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TheSilent
+[2023-07-08 08:09:28] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 08:09:28] WARNING root fetch - processPackages [tolol]: Skipping, unable to determine old version
+[2023-07-08 08:09:28] INFO root fetch - processPackages [slib-sorter]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-08 08:09:28] INFO root fetch - main [MainThread]: End processing [tolol] error
+[2023-07-08 08:09:28] WARNING root fetch - processPackages [lbvh]: Skipping, unable to determine old version
+[2023-07-08 08:09:28] INFO root fetch - main [MainThread]: End processing [lbvh] error
+[2023-07-08 08:09:28] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-07-08 08:09:28] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-08 08:09:28] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/6e/98/7542e04b7c09ac34581c78007f8add1cb438b047d05143c62ee56770fb73/slib-sorter-1.2.6.tar.gz
+[2023-07-08 08:09:28] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/71/fe/525adfc16647206017d2898a9f436996bc906ecd86240a5d0bac16555638/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl
+[2023-07-08 08:09:28] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-08 08:09:29] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-08 08:09:29] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230708/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 08:09:29] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/3c/ab/1e7f103f476c144436e74171cc3af9dc9862af1b9be9b382367b698afcfd/slib-sorter-1.2.7.tar.gz
+[2023-07-08 08:09:29] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 08:09:29] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.2.6.tar.gz tmp/slib-sorter-1.2.7.tar.gz --markdown 20230708/s/slib-sorter/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-08 08:09:29] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/8f/99/93562b28a43421a18cd68c1a4e0a811721a99e39d3720642e78a9b79550b/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl
+[2023-07-08 08:09:29] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-07-08 08:09:29] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230708/G/Geode-Simplex/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-07-08 08:09:29] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-08 08:09:29] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-08 08:09:29] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-08 08:09:30] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.6.tar.gz]
+[2023-07-08 08:09:30] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.7.tar.gz]
+[2023-07-08 08:09:30] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 08:09:42] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-08 08:09:42] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-08 08:09:42] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-07-08 08:09:42] INFO root fetch - main [MainThread]: Store serial: [18811295]
