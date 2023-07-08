@@ -15376,3 +15376,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 13:19:51] INFO root fetch - processPackages [flet-lite]: Remove: archive file [/home/abi/fetcher/tmp/flet_lite-1.4.tar.gz]
 [2023-07-08 13:19:51] INFO root fetch - main [MainThread]: End processing [flet-lite]: success
 [2023-07-08 13:19:51] INFO root fetch - main [MainThread]: Store serial: [18812695]
+[2023-07-08 13:24:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812695]
+[2023-07-08 13:25:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 13:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioqui
+[2023-07-08 13:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tb-nightly
+[2023-07-08 13:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccxt
+[2023-07-08 13:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchtnt-nightly
+[2023-07-08 13:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LordPath
+[2023-07-08 13:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ua-parser
+[2023-07-08 13:25:00] INFO root fetch - processPackages [LordPath]: New version: [2023.7.8] Old Version: [2023.5.6.4]
+[2023-07-08 13:25:00] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.7] Old Version: [2023.7.6]
+[2023-07-08 13:25:00] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-08 13:25:00] INFO root fetch - processPackages [aioqui]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-07-08 13:25:00] INFO root fetch - processPackages [ua-parser]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-08 13:25:00] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-08 13:25:00] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-08 13:25:00] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/15/d4/acd72e9ef98e091b441c353c5dd6cb14538fd15b0cfbc9dadf59aa58b337/torchtnt-nightly-2023.7.6.tar.gz
+[2023-07-08 13:25:00] INFO root fetch - processPackages [LordPath]: Downloading https://files.pythonhosted.org/packages/8e/b1/51006634a148a165d21e98745a7e6fde4eb4615ee83a4a3506431ab20b78/LordPath-2023.5.6.4.tar.gz
+[2023-07-08 13:25:00] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/8f/ef/9a5a1efc607f054113b9ee852deb0a9077e776330dc81fa9bee14c2e4c34/aioqui-2.1.5.tar.gz
+[2023-07-08 13:25:00] INFO root fetch - processPackages [LordPath]: Downloading https://files.pythonhosted.org/packages/b3/b9/4a57a71d10867e43249741a19abacac286b2f570798d95f69641cabb691d/LordPath-2023.7.8.tar.gz
+[2023-07-08 13:25:00] INFO root fetch - processPackages [ua-parser]: Downloading https://files.pythonhosted.org/packages/b0/02/94ea43fc432fb112fbb62a89855317c41c210fb5239a2ed9b94ecb63024f/ua-parser-0.8.0.tar.gz
+[2023-07-08 13:25:00] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-08 13:25:00] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/06/e5/1390d3946a205643c84b0b64da16c59ac208e1e18189fe6a9debdbf3247d/torchtnt-nightly-2023.7.7.tar.gz
+[2023-07-08 13:25:00] INFO root fetch - processPackages [LordPath]: executing diffoscope
+[2023-07-08 13:25:00] INFO root fetch - processPackages [LordPath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LordPath-2023.5.6.4.tar.gz tmp/LordPath-2023.7.8.tar.gz --markdown 20230708/L/LordPath/2023.5.6.4-2023.7.8/diff.md --exclude *.pyd
+[2023-07-08 13:25:00] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/f9/6b/c48b0f6ab89f78acabc502b495c7b7a6c00f1f5284bc11ae5ef5ae9f0c9e/aioqui-2.1.6.tar.gz
+[2023-07-08 13:25:00] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-08 13:25:00] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.6.tar.gz tmp/torchtnt-nightly-2023.7.7.tar.gz --markdown 20230708/t/torchtnt-nightly/2023.7.6-2023.7.7/diff.md --exclude *.pyd
+[2023-07-08 13:25:00] INFO root fetch - processPackages [aioqui]: executing diffoscope
+[2023-07-08 13:25:00] INFO root fetch - processPackages [aioqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioqui-2.1.5.tar.gz tmp/aioqui-2.1.6.tar.gz --markdown 20230708/a/aioqui/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-07-08 13:25:01] INFO root fetch - processPackages [ua-parser]: Downloading https://files.pythonhosted.org/packages/91/f6/d574a5795c9776eb4ecf9a5f7ef191d31a89fbdf1cc3437b5d2efc26716c/ua-parser-0.9.0.tar.gz
+[2023-07-08 13:25:01] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-08 13:25:01] INFO root fetch - processPackages [ua-parser]: executing diffoscope
+[2023-07-08 13:25:01] INFO root fetch - processPackages [ua-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ua-parser-0.8.0.tar.gz tmp/ua-parser-0.9.0.tar.gz --markdown 20230708/u/ua-parser/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 13:25:01] INFO root fetch - processPackages [LordPath]: Remove: archive file [/home/abi/fetcher/tmp/LordPath-2023.5.6.4.tar.gz]
+[2023-07-08 13:25:01] INFO root fetch - processPackages [LordPath]: Remove: archive file [/home/abi/fetcher/tmp/LordPath-2023.7.8.tar.gz]
+[2023-07-08 13:25:01] INFO root fetch - main [MainThread]: End processing [LordPath]: success
+[2023-07-08 13:25:01] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-08 13:25:02] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.6.tar.gz]
+[2023-07-08 13:25:02] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.7.tar.gz]
+[2023-07-08 13:25:02] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-08 13:25:02] INFO root fetch - processPackages [ua-parser]: Remove: archive file [/home/abi/fetcher/tmp/ua-parser-0.8.0.tar.gz]
+[2023-07-08 13:25:02] INFO root fetch - processPackages [ua-parser]: Remove: archive file [/home/abi/fetcher/tmp/ua-parser-0.9.0.tar.gz]
+[2023-07-08 13:25:02] INFO root fetch - main [MainThread]: End processing [ua-parser]: success
+[2023-07-08 13:25:02] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.5.tar.gz]
+[2023-07-08 13:25:02] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.6.tar.gz]
+[2023-07-08 13:25:02] INFO root fetch - main [MainThread]: End processing [aioqui]: success
+[2023-07-08 13:25:02] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-08 13:25:02] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230708/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-08 13:25:03] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-08 13:25:03] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230708/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-08 13:25:04] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-08 13:25:04] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-08 13:25:04] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-08 13:25:07] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-08 13:25:07] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-08 13:25:07] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-08 13:25:07] INFO root fetch - main [MainThread]: Store serial: [18812719]
