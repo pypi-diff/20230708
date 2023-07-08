@@ -22152,3 +22152,72 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 22:44:55] INFO root fetch - processPackages [shikithon]: Remove: archive file [/home/abi/fetcher/tmp/shikithon-2.5.3.tar.gz]
 [2023-07-08 22:44:55] INFO root fetch - main [MainThread]: End processing [shikithon]: success
 [2023-07-08 22:44:55] INFO root fetch - main [MainThread]: Store serial: [18815648]
+[2023-07-08 22:49:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815648]
+[2023-07-08 22:50:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 22:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nb2workflow
+[2023-07-08 22:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: findmyorder
+[2023-07-08 22:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fmanager
+[2023-07-08 22:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-pipeline-api
+[2023-07-08 22:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cliconfig
+[2023-07-08 22:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-starter
+[2023-07-08 22:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: slib-sorter
+[2023-07-08 22:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deadcode
+[2023-07-08 22:50:04] INFO root fetch - processPackages [slib-sorter]: New version: [1.6.5] Old Version: [1.6.3]
+[2023-07-08 22:50:04] INFO root fetch - processPackages [findmyorder]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-08 22:50:04] INFO root fetch - processPackages [cliconfig]: New version: [1.0.0rc1] Old Version: [1.0.0b4]
+[2023-07-08 22:50:04] INFO root fetch - processPackages [data-pipeline-api]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-08 22:50:04] INFO root fetch - processPackages [deadcode]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-08 22:50:04] INFO root fetch - processPackages [ml-starter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 22:50:04] WARNING root fetch - processPackages [fmanager]: Skipping, unable to determine old version
+[2023-07-08 22:50:04] INFO root fetch - main [MainThread]: End processing [fmanager] error
+[2023-07-08 22:50:04] INFO root fetch - processPackages [nb2workflow]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-08 22:50:04] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/e4/66/440d16b13c297a3b6a0f5601b2e6179e453c589b5e38801f4dff58cff3b5/findmyorder-1.5.8.tar.gz
+[2023-07-08 22:50:04] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/5a/e3/ad9f64febb9c138833d5358edf26d327f14ea1a6055f09949b26082eb8a4/slib-sorter-1.6.3.tar.gz
+[2023-07-08 22:50:04] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/db/99/ce393db9f69a3b96b272123f5151ea6de970088c7738bd466878fa92ed66/cliconfig-1.0.0b4.tar.gz
+[2023-07-08 22:50:05] INFO root fetch - processPackages [nb2workflow]: Downloading https://files.pythonhosted.org/packages/7f/3b/11144848db715f6a36c1b4556e04a8a599986fe66fe77e94cbdfab641ebc/nb2workflow-1.3.8.tar.gz
+[2023-07-08 22:50:05] INFO root fetch - processPackages [data-pipeline-api]: Downloading https://files.pythonhosted.org/packages/1f/a1/2f28c948021839672ad086227732f4cc1b9b78e6822ceaf6f30b4d3bb47c/data_pipeline_api-0.7.8.tar.gz
+[2023-07-08 22:50:05] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/3f/1c/a3997b6144ecd72a60135d1938c24c3ae78cc043757fa6ffa4c168ac0b92/findmyorder-1.5.9.tar.gz
+[2023-07-08 22:50:05] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-07-08 22:50:05] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-08 22:50:05] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.8.tar.gz tmp/findmyorder-1.5.9.tar.gz --markdown 20230708/f/findmyorder/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-08 22:50:05] INFO root fetch - processPackages [deadcode]: Downloading https://files.pythonhosted.org/packages/cb/d3/a2ddc901e8e57642acb6cd9ecf2c2843fb2b5c1e37e0eedba6c1a04a9486/deadcode-1.1.2.tar.gz
+[2023-07-08 22:50:05] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/4e/43/06ea787ac91a744953f6c037330da501bcf73e39da827d4d4b7626a2d0e5/slib-sorter-1.6.5.tar.gz
+[2023-07-08 22:50:05] INFO root fetch - processPackages [nb2workflow]: Downloading https://files.pythonhosted.org/packages/2f/4a/9716cb3189e1dce858fa737e50cd60c9dee030f82fbe62a49495486fe26e/nb2workflow-1.3.9.tar.gz
+[2023-07-08 22:50:05] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/a2/a1/8bb8f1fe2a1c4d4d9e90ecb511410b79f06f3d3b03286f7b3afacf80c38f/cliconfig-1.0.0rc1.tar.gz
+[2023-07-08 22:50:05] INFO root fetch - processPackages [data-pipeline-api]: Downloading https://files.pythonhosted.org/packages/21/ce/e5ba48e6f148d2b5d5a90247dc86e963f2899704d99a9cc53d1e89d7e0ee/data_pipeline_api-0.7.9.tar.gz
+[2023-07-08 22:50:05] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/44/9f/ffb6ae287f30a52a4bcc5aae269e948d3ffcd9bd7ab6aafda6ce73f567c8/ml-starter-0.1.9.tar.gz
+[2023-07-08 22:50:05] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 22:50:05] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.6.3.tar.gz tmp/slib-sorter-1.6.5.tar.gz --markdown 20230708/s/slib-sorter/1.6.3-1.6.5/diff.md --exclude *.pyd
+[2023-07-08 22:50:05] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-07-08 22:50:05] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-1.0.0b4.tar.gz tmp/cliconfig-1.0.0rc1.tar.gz --markdown 20230708/c/cliconfig/1.0.0b4-1.0.0rc1/diff.md --exclude *.pyd
+[2023-07-08 22:50:05] INFO root fetch - processPackages [data-pipeline-api]: executing diffoscope
+[2023-07-08 22:50:05] INFO root fetch - processPackages [data-pipeline-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_pipeline_api-0.7.8.tar.gz tmp/data_pipeline_api-0.7.9.tar.gz --markdown 20230708/d/data-pipeline-api/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-08 22:50:05] INFO root fetch - processPackages [deadcode]: Downloading https://files.pythonhosted.org/packages/78/82/16b85d2cc5c629b2575d5a1112a7c05d32ecb9385abb6fea56d8c1d30bb8/deadcode-1.1.3.tar.gz
+[2023-07-08 22:50:05] INFO root fetch - processPackages [nb2workflow]: executing diffoscope
+[2023-07-08 22:50:05] INFO root fetch - processPackages [nb2workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb2workflow-1.3.8.tar.gz tmp/nb2workflow-1.3.9.tar.gz --markdown 20230708/n/nb2workflow/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-08 22:50:05] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-07-08 22:50:05] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.8.tar.gz tmp/ml-starter-0.1.9.tar.gz --markdown 20230708/m/ml-starter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 22:50:05] INFO root fetch - processPackages [deadcode]: executing diffoscope
+[2023-07-08 22:50:05] INFO root fetch - processPackages [deadcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadcode-1.1.2.tar.gz tmp/deadcode-1.1.3.tar.gz --markdown 20230708/d/deadcode/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-08 22:50:06] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.8.tar.gz]
+[2023-07-08 22:50:06] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.9.tar.gz]
+[2023-07-08 22:50:06] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-08 22:50:06] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.6.3.tar.gz]
+[2023-07-08 22:50:06] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.6.5.tar.gz]
+[2023-07-08 22:50:06] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 22:50:06] INFO root fetch - processPackages [data-pipeline-api]: Remove: archive file [/home/abi/fetcher/tmp/data_pipeline_api-0.7.8.tar.gz]
+[2023-07-08 22:50:06] INFO root fetch - processPackages [data-pipeline-api]: Remove: archive file [/home/abi/fetcher/tmp/data_pipeline_api-0.7.9.tar.gz]
+[2023-07-08 22:50:06] INFO root fetch - main [MainThread]: End processing [data-pipeline-api]: success
+[2023-07-08 22:50:07] INFO root fetch - processPackages [nb2workflow]: Remove: archive file [/home/abi/fetcher/tmp/nb2workflow-1.3.8.tar.gz]
+[2023-07-08 22:50:07] INFO root fetch - processPackages [nb2workflow]: Remove: archive file [/home/abi/fetcher/tmp/nb2workflow-1.3.9.tar.gz]
+[2023-07-08 22:50:07] INFO root fetch - main [MainThread]: End processing [nb2workflow]: success
+[2023-07-08 22:50:07] INFO root fetch - processPackages [cliconfig]: Remove: archive file [/home/abi/fetcher/tmp/cliconfig-1.0.0b4.tar.gz]
+[2023-07-08 22:50:07] INFO root fetch - processPackages [cliconfig]: Remove: archive file [/home/abi/fetcher/tmp/cliconfig-1.0.0rc1.tar.gz]
+[2023-07-08 22:50:07] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-07-08 22:50:07] INFO root fetch - processPackages [deadcode]: Remove: archive file [/home/abi/fetcher/tmp/deadcode-1.1.2.tar.gz]
+[2023-07-08 22:50:07] INFO root fetch - processPackages [deadcode]: Remove: archive file [/home/abi/fetcher/tmp/deadcode-1.1.3.tar.gz]
+[2023-07-08 22:50:07] INFO root fetch - main [MainThread]: End processing [deadcode]: success
+[2023-07-08 22:50:07] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-07-08 22:50:07] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
+[2023-07-08 22:50:07] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-07-08 22:50:07] INFO root fetch - main [MainThread]: Store serial: [18815673]
