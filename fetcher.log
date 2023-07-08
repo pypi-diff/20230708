@@ -10335,3 +10335,60 @@
 [2023-07-08 04:24:03] INFO root fetch - processPackages [aiokeydb]: Remove: archive file [/home/abi/fetcher/tmp/aiokeydb-0.1.9.tar.gz]
 [2023-07-08 04:24:03] INFO root fetch - main [MainThread]: End processing [aiokeydb]: success
 [2023-07-08 04:24:03] INFO root fetch - main [MainThread]: Store serial: [18810290]
+[2023-07-08 04:29:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810290]
+[2023-07-08 04:29:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 04:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bizlogic
+[2023-07-08 04:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kittycad
+[2023-07-08 04:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peakdet
+[2023-07-08 04:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slib-sorter
+[2023-07-08 04:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyJobRunner
+[2023-07-08 04:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fuisce
+[2023-07-08 04:29:12] INFO root fetch - processPackages [slib-sorter]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-08 04:29:12] INFO root fetch - processPackages [bizlogic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 04:29:12] INFO root fetch - processPackages [fuisce]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-07-08 04:29:12] INFO root fetch - processPackages [kittycad]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-08 04:29:12] INFO root fetch - processPackages [peakdet]: New version: [0.2.1] Old Version: [0.2.0rc1]
+[2023-07-08 04:29:12] INFO root fetch - processPackages [PyJobRunner]: New version: [4.0] Old Version: [3.9]
+[2023-07-08 04:29:12] INFO root fetch - processPackages [peakdet]: Downloading https://files.pythonhosted.org/packages/e7/ce/adcfa2c9a9fdc46d7f0d0ec8a7b71b66c94efe6f7b5d4bafab70be0683f8/peakdet-0.2.0rc1.tar.gz
+[2023-07-08 04:29:12] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/23/fd/35efd9f586253e77f30dd6fca08d1295fd6faf7ba587995847e4f05b57c7/slib-sorter-1.1.1.tar.gz
+[2023-07-08 04:29:12] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/f4/6e/9b89b3363c5e45d1a2822e7570cd7263bf94296e972b2a00f361db04036f/bizlogic-0.0.8.tar.gz
+[2023-07-08 04:29:12] INFO root fetch - processPackages [fuisce]: Downloading https://files.pythonhosted.org/packages/ca/89/e0da8a979bc8f585ef82105ee4475566292c275625b0636e08cb40ba5b98/fuisce-0.0.0.tar.gz
+[2023-07-08 04:29:12] INFO root fetch - processPackages [kittycad]: Downloading https://files.pythonhosted.org/packages/cd/4e/aabc2d2e13baf3ef3fbfd966bad8f010f0ac4a9403d07df41b7416896bbe/kittycad-0.4.3.tar.gz
+[2023-07-08 04:29:12] INFO root fetch - processPackages [PyJobRunner]: Downloading https://files.pythonhosted.org/packages/b2/6d/e84638e19f11618618e037fc2ab749cbd05aacba5031b5c4d64b31652862/PyJobRunner-3.9.tar.gz
+[2023-07-08 04:29:13] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/1e/06/121f2d57737088949b3f8291c442f93cc8c45a2740bebfe9d3dffcc4eba8/bizlogic-0.0.9.tar.gz
+[2023-07-08 04:29:13] INFO root fetch - processPackages [peakdet]: Downloading https://files.pythonhosted.org/packages/fb/4f/87e42551ba9eb138f9e05899b58e6f99fe296b205f84aa519c26b2850064/peakdet-0.2.1.tar.gz
+[2023-07-08 04:29:13] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/c3/fb/69fab794662f125f2cf8131a1711c7d73274bda85ee6804d4612bb749549/slib-sorter-1.1.2.tar.gz
+[2023-07-08 04:29:13] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-07-08 04:29:13] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.0.8.tar.gz tmp/bizlogic-0.0.9.tar.gz --markdown 20230708/b/bizlogic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 04:29:13] INFO root fetch - processPackages [fuisce]: Downloading https://files.pythonhosted.org/packages/f5/58/58f4c0efb08b187c69ab088a701f85d87016ca0695236872238ea768b7aa/fuisce-1.0.0.tar.gz
+[2023-07-08 04:29:13] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 04:29:13] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.1.1.tar.gz tmp/slib-sorter-1.1.2.tar.gz --markdown 20230708/s/slib-sorter/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-08 04:29:13] INFO root fetch - processPackages [peakdet]: executing diffoscope
+[2023-07-08 04:29:13] INFO root fetch - processPackages [peakdet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peakdet-0.2.0rc1.tar.gz tmp/peakdet-0.2.1.tar.gz --markdown 20230708/p/peakdet/0.2.0rc1-0.2.1/diff.md --exclude *.pyd
+[2023-07-08 04:29:13] INFO root fetch - processPackages [kittycad]: Downloading https://files.pythonhosted.org/packages/7c/ef/188ade7e4502720210e62cf8b629b565e8e1b37ef3b43e7186ffc5c82174/kittycad-0.4.4.tar.gz
+[2023-07-08 04:29:13] INFO root fetch - processPackages [PyJobRunner]: Downloading https://files.pythonhosted.org/packages/32/1c/28691ca0b1570d1eac08b9f5feda5f4f649841f412c1649113230852a8fa/PyJobRunner-4.0.tar.gz
+[2023-07-08 04:29:13] INFO root fetch - processPackages [kittycad]: executing diffoscope
+[2023-07-08 04:29:13] INFO root fetch - processPackages [kittycad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kittycad-0.4.3.tar.gz tmp/kittycad-0.4.4.tar.gz --markdown 20230708/k/kittycad/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-08 04:29:13] INFO root fetch - processPackages [fuisce]: executing diffoscope
+[2023-07-08 04:29:13] INFO root fetch - processPackages [fuisce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuisce-0.0.0.tar.gz tmp/fuisce-1.0.0.tar.gz --markdown 20230708/f/fuisce/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-08 04:29:13] INFO root fetch - processPackages [PyJobRunner]: executing diffoscope
+[2023-07-08 04:29:13] INFO root fetch - processPackages [PyJobRunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyJobRunner-3.9.tar.gz tmp/PyJobRunner-4.0.tar.gz --markdown 20230708/P/PyJobRunner/3.9-4.0/diff.md --exclude *.pyd
+[2023-07-08 04:29:14] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.0.8.tar.gz]
+[2023-07-08 04:29:14] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.0.9.tar.gz]
+[2023-07-08 04:29:14] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-07-08 04:29:14] INFO root fetch - processPackages [peakdet]: Remove: archive file [/home/abi/fetcher/tmp/peakdet-0.2.0rc1.tar.gz]
+[2023-07-08 04:29:14] INFO root fetch - processPackages [peakdet]: Remove: archive file [/home/abi/fetcher/tmp/peakdet-0.2.1.tar.gz]
+[2023-07-08 04:29:14] INFO root fetch - main [MainThread]: End processing [peakdet]: success
+[2023-07-08 04:29:14] INFO root fetch - processPackages [fuisce]: Remove: archive file [/home/abi/fetcher/tmp/fuisce-0.0.0.tar.gz]
+[2023-07-08 04:29:14] INFO root fetch - processPackages [fuisce]: Remove: archive file [/home/abi/fetcher/tmp/fuisce-1.0.0.tar.gz]
+[2023-07-08 04:29:14] INFO root fetch - main [MainThread]: End processing [fuisce]: success
+[2023-07-08 04:29:14] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.1.1.tar.gz]
+[2023-07-08 04:29:14] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.1.2.tar.gz]
+[2023-07-08 04:29:14] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 04:29:14] INFO root fetch - processPackages [PyJobRunner]: Remove: archive file [/home/abi/fetcher/tmp/PyJobRunner-3.9.tar.gz]
+[2023-07-08 04:29:14] INFO root fetch - processPackages [PyJobRunner]: Remove: archive file [/home/abi/fetcher/tmp/PyJobRunner-4.0.tar.gz]
+[2023-07-08 04:29:14] INFO root fetch - main [MainThread]: End processing [PyJobRunner]: success
+[2023-07-08 04:29:15] INFO root fetch - processPackages [kittycad]: Remove: archive file [/home/abi/fetcher/tmp/kittycad-0.4.3.tar.gz]
+[2023-07-08 04:29:15] INFO root fetch - processPackages [kittycad]: Remove: archive file [/home/abi/fetcher/tmp/kittycad-0.4.4.tar.gz]
+[2023-07-08 04:29:15] INFO root fetch - main [MainThread]: End processing [kittycad]: success
+[2023-07-08 04:29:15] INFO root fetch - main [MainThread]: Store serial: [18810307]
