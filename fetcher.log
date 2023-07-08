@@ -12110,3 +12110,51 @@
 [2023-07-08 07:01:36] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar-create-0.1.4.tar.gz]
 [2023-07-08 07:01:36] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
 [2023-07-08 07:01:36] INFO root fetch - main [MainThread]: Store serial: [18811031]
+[2023-07-08 07:06:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811031]
+[2023-07-08 07:06:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 07:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygis
+[2023-07-08 07:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyautosrt
+[2023-07-08 07:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-project-task-dependency
+[2023-07-08 07:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-pe
+[2023-07-08 07:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: embedchain
+[2023-07-08 07:06:45] INFO root fetch - processPackages [embedchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-08 07:06:46] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230707] Old Version: [0.1.1.dev20230706]
+[2023-07-08 07:06:46] INFO root fetch - processPackages [odoo12-addon-project-task-dependency]: New version: [12.0.1.1.0.99.dev4] Old Version: [12.0.1.1.0.99.dev3]
+[2023-07-08 07:06:46] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/fa/9b/8bddb3074933011cc682eee04982b4e3d03a699688eddf581404927a62ff/embedchain-0.0.8.tar.gz
+[2023-07-08 07:06:46] INFO root fetch - processPackages [pyautosrt]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-08 07:06:46] INFO root fetch - processPackages [pygis]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-08 07:06:46] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/ac/fa/cd28c5a6a6dccd6461afd3e4ca682ce4d7db27e63d3504274737aeb5761a/rapid_pe-0.1.1.dev20230706.tar.gz
+[2023-07-08 07:06:46] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/98/a5/0216839ba1829bc10c9f2f04d82d04da661bb99f228ec27d73c564f77135/embedchain-0.0.9.tar.gz
+[2023-07-08 07:06:46] INFO root fetch - processPackages [odoo12-addon-project-task-dependency]: Downloading https://files.pythonhosted.org/packages/94/ec/ae494ff5eb613b9d8d96f16e26d970916b8589acce2f7afc0ac66b49c336/odoo12_addon_project_task_dependency-12.0.1.1.0.99.dev3-py3-none-any.whl
+[2023-07-08 07:06:46] INFO root fetch - processPackages [pygis]: Downloading https://files.pythonhosted.org/packages/5b/5f/be39171db50c91e3dad027788667ead656d505538527e375bc10adc4b03b/pygis-0.6.0.tar.gz
+[2023-07-08 07:06:46] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/09/47/950f11347f19e01afed7bf10ed04e2bfa6bd72d91f1b78900de1bcc9514f/pyautosrt-0.2.7.tar.gz
+[2023-07-08 07:06:46] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/c1/6c/ff426b5cd3c53c7f056a26df7cf57006cfdb1c92d1b6a5928322a1231f6e/rapid_pe-0.1.1.dev20230707.tar.gz
+[2023-07-08 07:06:46] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2023-07-08 07:06:46] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.0.8.tar.gz tmp/embedchain-0.0.9.tar.gz --markdown 20230708/e/embedchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-08 07:06:46] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-08 07:06:46] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230706.tar.gz tmp/rapid_pe-0.1.1.dev20230707.tar.gz --markdown 20230708/r/rapid-pe/0.1.1.dev20230706-0.1.1.dev20230707/diff.md --exclude *.pyd
+[2023-07-08 07:06:46] INFO root fetch - processPackages [pyautosrt]: Downloading https://files.pythonhosted.org/packages/6d/e7/dfffbd8aae0ef39ab6207933cc2486791a9c98d4add02ddab573e2949b30/pyautosrt-0.2.8.tar.gz
+[2023-07-08 07:06:46] INFO root fetch - processPackages [odoo12-addon-project-task-dependency]: Downloading https://files.pythonhosted.org/packages/40/0e/203b245dda2193e8b3590fdd7406aed6fda5c305733db6ebff66be69d53a/odoo12_addon_project_task_dependency-12.0.1.1.0.99.dev4-py3-none-any.whl
+[2023-07-08 07:06:46] INFO root fetch - processPackages [pygis]: Downloading https://files.pythonhosted.org/packages/50/64/93d2a1ba596df9b41331a4a5ef272b93e2e22412ce088f65ba2111efe5a9/pygis-0.6.1.tar.gz
+[2023-07-08 07:06:47] INFO root fetch - processPackages [pyautosrt]: executing diffoscope
+[2023-07-08 07:06:47] INFO root fetch - processPackages [pyautosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautosrt-0.2.7.tar.gz tmp/pyautosrt-0.2.8.tar.gz --markdown 20230708/p/pyautosrt/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-08 07:06:47] INFO root fetch - processPackages [pygis]: executing diffoscope
+[2023-07-08 07:06:47] INFO root fetch - processPackages [pygis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygis-0.6.0.tar.gz tmp/pygis-0.6.1.tar.gz --markdown 20230708/p/pygis/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-08 07:06:47] INFO root fetch - processPackages [odoo12-addon-project-task-dependency]: executing diffoscope
+[2023-07-08 07:06:47] INFO root fetch - processPackages [odoo12-addon-project-task-dependency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_project_task_dependency-12.0.1.1.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_project_task_dependency-12.0.1.1.0.99.dev4-py3-none-any.whl.zip --markdown 20230708/o/odoo12-addon-project-task-dependency/12.0.1.1.0.99.dev3-12.0.1.1.0.99.dev4/diff.md --exclude *.pyd
+[2023-07-08 07:06:47] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.8.tar.gz]
+[2023-07-08 07:06:47] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.9.tar.gz]
+[2023-07-08 07:06:47] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2023-07-08 07:06:47] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230706.tar.gz]
+[2023-07-08 07:06:47] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230707.tar.gz]
+[2023-07-08 07:06:47] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-08 07:06:47] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.7.tar.gz]
+[2023-07-08 07:06:47] INFO root fetch - processPackages [pyautosrt]: Remove: archive file [/home/abi/fetcher/tmp/pyautosrt-0.2.8.tar.gz]
+[2023-07-08 07:06:47] INFO root fetch - main [MainThread]: End processing [pyautosrt]: success
+[2023-07-08 07:06:47] INFO root fetch - processPackages [pygis]: Remove: archive file [/home/abi/fetcher/tmp/pygis-0.6.0.tar.gz]
+[2023-07-08 07:06:47] INFO root fetch - processPackages [pygis]: Remove: archive file [/home/abi/fetcher/tmp/pygis-0.6.1.tar.gz]
+[2023-07-08 07:06:47] INFO root fetch - main [MainThread]: End processing [pygis]: success
+[2023-07-08 07:06:48] INFO root fetch - processPackages [odoo12-addon-project-task-dependency]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_project_task_dependency-12.0.1.1.0.99.dev3-py3-none-any.whl.zip]
+[2023-07-08 07:06:48] INFO root fetch - processPackages [odoo12-addon-project-task-dependency]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_project_task_dependency-12.0.1.1.0.99.dev4-py3-none-any.whl.zip]
+[2023-07-08 07:06:48] INFO root fetch - main [MainThread]: End processing [odoo12-addon-project-task-dependency]: success
+[2023-07-08 07:06:48] INFO root fetch - main [MainThread]: Store serial: [18811045]
