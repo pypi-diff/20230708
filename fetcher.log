@@ -11170,3 +11170,68 @@
 [2023-07-08 05:31:54] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
 [2023-07-08 05:31:54] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-07-08 05:31:54] INFO root fetch - main [MainThread]: Store serial: [18810603]
+[2023-07-08 05:36:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810603]
+[2023-07-08 05:37:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-08 05:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vosk-autosrt
+[2023-07-08 05:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-splatoon3
+[2023-07-08 05:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lib-not-dr
+[2023-07-08 05:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-product-template-multi-link
+[2023-07-08 05:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-e-commerce
+[2023-07-08 05:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-website-sale-product-detail-attribute-image
+[2023-07-08 05:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-e-commerce
+[2023-07-08 05:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ocdsextensionregistry
+[2023-07-08 05:37:04] INFO root fetch - processPackages [vosk-autosrt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-08 05:37:04] INFO root fetch - processPackages [lib-not-dr]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-07-08 05:37:04] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: New version: [16.0.20230607.1] Old Version: [16.0.20230601.0]
+[2023-07-08 05:37:04] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-08 05:37:04] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: New version: [16.0.20230607.1] Old Version: [16.0.20230601.0]
+[2023-07-08 05:37:04] INFO root fetch - processPackages [odoo-addon-product-template-multi-link]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.4]
+[2023-07-08 05:37:04] INFO root fetch - processPackages [ocdsextensionregistry]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-08 05:37:04] INFO root fetch - processPackages [odoo-addon-website-sale-product-detail-attribute-image]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-08 05:37:04] INFO root fetch - processPackages [ocdsextensionregistry]: Downloading https://files.pythonhosted.org/packages/9c/fc/a15499a02cc5f7c0cf2c45c06a4579096279f2d7edc659fa8616634f8419/ocdsextensionregistry-0.3.1.tar.gz
+[2023-07-08 05:37:04] INFO root fetch - processPackages [odoo-addon-website-sale-product-detail-attribute-image]: Downloading https://files.pythonhosted.org/packages/e0/18/42e966a79ae453df530d8135ff7611793380f434727779f292464e14474f/odoo_addon_website_sale_product_detail_attribute_image-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-08 05:37:04] INFO root fetch - processPackages [lib-not-dr]: Downloading https://files.pythonhosted.org/packages/a3/e7/f461d8778e2da7d1ec10514d64437c332bb34b1227d3ef91b73b6dbc1007/lib-not-dr-0.0.4.tar.gz
+[2023-07-08 05:37:04] INFO root fetch - processPackages [vosk-autosrt]: Downloading https://files.pythonhosted.org/packages/e5/80/94465a9f3bd443601d106cf4273006937868d3dbf03d30e362b07506d3a4/vosk_autosrt-0.1.0.tar.gz
+[2023-07-08 05:37:04] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: Downloading https://files.pythonhosted.org/packages/54/67/931d6c49d709c20c20a4e48e5129123df04f7df7421e44af0fe1706c5324/nonebot_plugin_splatoon3-1.0.9-py3-none-any.whl
+[2023-07-08 05:37:04] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/dd/20/84cfd587d1f65304c07d4eee9eb017fab6395ae0b92b39cc1b5642902971/odoo_addons_oca_e_commerce-16.0.20230601.0-py3-none-any.whl
+[2023-07-08 05:37:04] INFO root fetch - processPackages [odoo-addon-product-template-multi-link]: Downloading https://files.pythonhosted.org/packages/a6/c3/0c27d7b7f3b994fdb2550261d297b90a1d3b7e131e8e0ced2149a4b7fc77/odoo_addon_product_template_multi_link-15.0.1.0.0.4-py3-none-any.whl
+[2023-07-08 05:37:04] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/dd/20/84cfd587d1f65304c07d4eee9eb017fab6395ae0b92b39cc1b5642902971/odoo_addons_oca_e_commerce-16.0.20230601.0-py3-none-any.whl
+[2023-07-08 05:37:04] WARNING root fetch - processPackages [vosk-autosrt]: Skipping package: exceeds size limit 21465950>=10485760
+[2023-07-08 05:37:04] INFO root fetch - main [MainThread]: End processing [vosk-autosrt] error
+[2023-07-08 05:37:04] INFO root fetch - processPackages [odoo-addon-website-sale-product-detail-attribute-image]: Downloading https://files.pythonhosted.org/packages/fc/6d/a11e5dbc54116a44de2adc55b31c81a299866b161c89233a154890e4e44e/odoo_addon_website_sale_product_detail_attribute_image-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-08 05:37:05] INFO root fetch - processPackages [ocdsextensionregistry]: Downloading https://files.pythonhosted.org/packages/97/b3/b74b7ba4ec5b12f0e6291b28dea1d1c01463509224f51ade1ed01a128c21/ocdsextensionregistry-0.3.2.tar.gz
+[2023-07-08 05:37:05] INFO root fetch - processPackages [lib-not-dr]: Downloading https://files.pythonhosted.org/packages/a6/34/4d35fb75d90d34f5a991ae6e30af94cfe838a8d54b1a5a8fb25054a6aacb/lib-not-dr-0.1.0.tar.gz
+[2023-07-08 05:37:05] INFO root fetch - processPackages [odoo-addon-product-template-multi-link]: Downloading https://files.pythonhosted.org/packages/0d/76/f7d1909410cc6bfe10df3d61543dc52d0a45b668411c0712f82ba29b9899/odoo_addon_product_template_multi_link-15.0.1.0.0.5-py3-none-any.whl
+[2023-07-08 05:37:05] INFO root fetch - processPackages [odoo-addon-website-sale-product-detail-attribute-image]: executing diffoscope
+[2023-07-08 05:37:05] INFO root fetch - processPackages [odoo-addon-website-sale-product-detail-attribute-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_product_detail_attribute_image-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_website_sale_product_detail_attribute_image-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230708/o/odoo-addon-website-sale-product-detail-attribute-image/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-08 05:37:05] WARNING root fetch - processPackages [nonebot-plugin-splatoon3]: Skipping package: exceeds size limit 95545114>=10485760
+[2023-07-08 05:37:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-splatoon3] error
+[2023-07-08 05:37:05] INFO root fetch - processPackages [ocdsextensionregistry]: executing diffoscope
+[2023-07-08 05:37:05] INFO root fetch - processPackages [ocdsextensionregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocdsextensionregistry-0.3.1.tar.gz tmp/ocdsextensionregistry-0.3.2.tar.gz --markdown 20230708/o/ocdsextensionregistry/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-08 05:37:05] INFO root fetch - processPackages [lib-not-dr]: executing diffoscope
+[2023-07-08 05:37:05] INFO root fetch - processPackages [lib-not-dr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-not-dr-0.0.4.tar.gz tmp/lib-not-dr-0.1.0.tar.gz --markdown 20230708/l/lib-not-dr/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-07-08 05:37:05] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/5c/a0/6e7284fbc832fbaec8be67c8811c1b7bdf0432b4f03d1c5c0b30f3f9cd3d/odoo_addons_oca_e_commerce-16.0.20230607.1-py3-none-any.whl
+[2023-07-08 05:37:05] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/5c/a0/6e7284fbc832fbaec8be67c8811c1b7bdf0432b4f03d1c5c0b30f3f9cd3d/odoo_addons_oca_e_commerce-16.0.20230607.1-py3-none-any.whl
+[2023-07-08 05:37:05] INFO root fetch - processPackages [odoo-addon-product-template-multi-link]: executing diffoscope
+[2023-07-08 05:37:05] INFO root fetch - processPackages [odoo-addon-product-template-multi-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_template_multi_link-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_product_template_multi_link-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230708/o/odoo-addon-product-template-multi-link/15.0.1.0.0.4-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-08 05:37:05] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: executing diffoscope
+[2023-07-08 05:37:05] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_e_commerce-16.0.20230601.0-py3-none-any.whl.zip tmp/odoo_addons_oca_e_commerce-16.0.20230607.1-py3-none-any.whl.zip --markdown 20230708/o/odoo-addons-oca-e-commerce/16.0.20230601.0-16.0.20230607.1/diff.md --exclude *.pyd
+[2023-07-08 05:37:05] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: executing diffoscope
+[2023-07-08 05:37:05] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_e_commerce-16.0.20230601.0-py3-none-any.whl.zip tmp/odoo_addons_oca_e_commerce-16.0.20230607.1-py3-none-any.whl.zip --markdown 20230708/o/odoo-addons-oca-e-commerce/16.0.20230601.0-16.0.20230607.1/diff.md --exclude *.pyd
+[2023-07-08 05:37:06] INFO root fetch - processPackages [odoo-addon-website-sale-product-detail-attribute-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_product_detail_attribute_image-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-08 05:37:06] INFO root fetch - processPackages [odoo-addon-website-sale-product-detail-attribute-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_product_detail_attribute_image-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-08 05:37:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-product-detail-attribute-image]: success
+[2023-07-08 05:37:06] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_e_commerce-16.0.20230601.0-py3-none-any.whl.zip]
+[2023-07-08 05:37:06] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_e_commerce-16.0.20230607.1-py3-none-any.whl.zip]
+[2023-07-08 05:37:06] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-e-commerce]: success
+[2023-07-08 05:37:06] INFO root fetch - processPackages [lib-not-dr]: Remove: archive file [/home/abi/fetcher/tmp/lib-not-dr-0.0.4.tar.gz]
+[2023-07-08 05:37:06] INFO root fetch - processPackages [lib-not-dr]: Remove: archive file [/home/abi/fetcher/tmp/lib-not-dr-0.1.0.tar.gz]
+[2023-07-08 05:37:06] INFO root fetch - main [MainThread]: End processing [lib-not-dr]: success
+[2023-07-08 05:37:06] INFO root fetch - processPackages [ocdsextensionregistry]: Remove: archive file [/home/abi/fetcher/tmp/ocdsextensionregistry-0.3.1.tar.gz]
+[2023-07-08 05:37:06] INFO root fetch - processPackages [ocdsextensionregistry]: Remove: archive file [/home/abi/fetcher/tmp/ocdsextensionregistry-0.3.2.tar.gz]
+[2023-07-08 05:37:06] INFO root fetch - main [MainThread]: End processing [ocdsextensionregistry]: success
+[2023-07-08 05:37:06] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-e-commerce]: success
+[2023-07-08 05:37:06] INFO root fetch - processPackages [odoo-addon-product-template-multi-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_template_multi_link-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-08 05:37:06] INFO root fetch - processPackages [odoo-addon-product-template-multi-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_template_multi_link-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-08 05:37:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-template-multi-link]: success
+[2023-07-08 05:37:06] INFO root fetch - main [MainThread]: Store serial: [18810634]
