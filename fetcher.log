@@ -19166,3 +19166,48 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 18:14:16] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.15.0.tar.gz]
 [2023-07-08 18:14:16] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2023-07-08 18:14:16] INFO root fetch - main [MainThread]: Store serial: [18814321]
+[2023-07-08 18:19:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814321]
+[2023-07-08 18:19:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 18:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-topping
+[2023-07-08 18:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funbgcex
+[2023-07-08 18:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BRScraper
+[2023-07-08 18:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngmapi
+[2023-07-08 18:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seunggabi-core-python
+[2023-07-08 18:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: satan-game-engine
+[2023-07-08 18:19:24] WARNING root fetch - processPackages [funbgcex]: Skipping, unable to determine old version
+[2023-07-08 18:19:24] INFO root fetch - main [MainThread]: End processing [funbgcex] error
+[2023-07-08 18:19:24] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 18:19:25] INFO root fetch - processPackages [py-topping]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-08 18:19:25] INFO root fetch - processPackages [BRScraper]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-08 18:19:25] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-08 18:19:25] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/13/86/3d7c18a8f2dd4f2eb32a19966079123b581a8402d540deca93c3d85e8678/ngmapi-0.0.2.tar.gz
+[2023-07-08 18:19:25] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/8e/7d/05e7a9dbd6a4d650c56e86880fc2c01236f4928107bbd214b258a273fb94/seunggabi_core_python-0.4.0.tar.gz
+[2023-07-08 18:19:25] WARNING root fetch - processPackages [satan-game-engine]: Skipping, unable to determine old version
+[2023-07-08 18:19:25] INFO root fetch - main [MainThread]: End processing [satan-game-engine] error
+[2023-07-08 18:19:25] INFO root fetch - processPackages [py-topping]: Downloading https://files.pythonhosted.org/packages/f6/3d/f734feb8fd0812b382767d7d52f4a6839b635e735f75ba7b070d0d0a1422/py_topping-0.4.6.tar.gz
+[2023-07-08 18:19:25] INFO root fetch - processPackages [BRScraper]: Downloading https://files.pythonhosted.org/packages/a1/7b/44294b3683d3ce69c6c16bcf9bc226290517d2ffc0def2788e71224ec3a1/BRScraper-0.1.1.tar.gz
+[2023-07-08 18:19:25] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-08 18:19:25] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-08 18:19:25] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.2.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230708/n/ngmapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 18:19:25] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/26/90/10a1814cfb55b2828b77a98e81dfde2baa2a0a6ee1b95bce6ea37e66313d/seunggabi_core_python-0.5.0.tar.gz
+[2023-07-08 18:19:25] INFO root fetch - processPackages [BRScraper]: Downloading https://files.pythonhosted.org/packages/ff/e4/d9e0bdff1ca4a322056bc629f9176e902728bd53ed556f7281ef280b627e/BRScraper-0.1.2.tar.gz
+[2023-07-08 18:19:25] INFO root fetch - processPackages [py-topping]: Downloading https://files.pythonhosted.org/packages/7c/2d/c7673a821bd2abb5df62ad7625cd8177494d2b45cb2dfcf68c230953f48c/py_topping-0.4.7.tar.gz
+[2023-07-08 18:19:25] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-07-08 18:19:25] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.4.0.tar.gz tmp/seunggabi_core_python-0.5.0.tar.gz --markdown 20230708/s/seunggabi-core-python/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-08 18:19:25] INFO root fetch - processPackages [BRScraper]: executing diffoscope
+[2023-07-08 18:19:25] INFO root fetch - processPackages [BRScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BRScraper-0.1.1.tar.gz tmp/BRScraper-0.1.2.tar.gz --markdown 20230708/B/BRScraper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-08 18:19:25] INFO root fetch - processPackages [py-topping]: executing diffoscope
+[2023-07-08 18:19:25] INFO root fetch - processPackages [py-topping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_topping-0.4.6.tar.gz tmp/py_topping-0.4.7.tar.gz --markdown 20230708/p/py-topping/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-08 18:19:26] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.2.tar.gz]
+[2023-07-08 18:19:26] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.3.tar.gz]
+[2023-07-08 18:19:26] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-08 18:19:26] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.4.0.tar.gz]
+[2023-07-08 18:19:26] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.5.0.tar.gz]
+[2023-07-08 18:19:26] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-07-08 18:19:26] INFO root fetch - processPackages [BRScraper]: Remove: archive file [/home/abi/fetcher/tmp/BRScraper-0.1.1.tar.gz]
+[2023-07-08 18:19:26] INFO root fetch - processPackages [BRScraper]: Remove: archive file [/home/abi/fetcher/tmp/BRScraper-0.1.2.tar.gz]
+[2023-07-08 18:19:26] INFO root fetch - main [MainThread]: End processing [BRScraper]: success
+[2023-07-08 18:19:26] INFO root fetch - processPackages [py-topping]: Remove: archive file [/home/abi/fetcher/tmp/py_topping-0.4.6.tar.gz]
+[2023-07-08 18:19:26] INFO root fetch - processPackages [py-topping]: Remove: archive file [/home/abi/fetcher/tmp/py_topping-0.4.7.tar.gz]
+[2023-07-08 18:19:26] INFO root fetch - main [MainThread]: End processing [py-topping]: success
+[2023-07-08 18:19:26] INFO root fetch - main [MainThread]: Store serial: [18814344]
