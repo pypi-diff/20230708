@@ -17067,3 +17067,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 15:30:47] INFO root fetch - processPackages [femr-cuda]: Remove: archive file [/home/abi/fetcher/tmp/femr_cuda-0.1.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-08 15:30:47] INFO root fetch - main [MainThread]: End processing [femr-cuda]: success
 [2023-07-08 15:30:47] INFO root fetch - main [MainThread]: Store serial: [18813417]
+[2023-07-08 15:35:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813417]
+[2023-07-08 15:36:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 15:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: practistyle
+[2023-07-08 15:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eutilities
+[2023-07-08 15:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysomneo
+[2023-07-08 15:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NeuroNode
+[2023-07-08 15:36:02] INFO root fetch - processPackages [practistyle]: New version: [0.0.75] Old Version: [0.0.73]
+[2023-07-08 15:36:02] INFO root fetch - processPackages [NeuroNode]: New version: [3.6] Old Version: [3.3]
+[2023-07-08 15:36:02] WARNING root fetch - processPackages [eutilities]: Skipping, unable to determine old version
+[2023-07-08 15:36:02] INFO root fetch - main [MainThread]: End processing [eutilities] error
+[2023-07-08 15:36:02] INFO root fetch - processPackages [pysomneo]: New version: [3.0.0a5] Old Version: [3.0.0a4]
+[2023-07-08 15:36:02] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/30/d0/736a9a79b0ca56472cbc0617919ca9c85172014263988ae2c981d16a8f00/NeuroNode-3.3.tar.gz
+[2023-07-08 15:36:02] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/23/fd/08c67039ed6db48227c212df7f7f64f08c5a2768e0c0006187c99bf893f1/pysomneo-3.0.0a4.tar.gz
+[2023-07-08 15:36:02] INFO root fetch - processPackages [practistyle]: Downloading https://files.pythonhosted.org/packages/85/58/79a94730ce7de62c8b2dedeb9ec2773d2d67c0adf6e031cad31a1e490a19/practistyle-0.0.73.tar.gz
+[2023-07-08 15:36:02] WARNING root fetch - processPackages [practistyle]: Skipping package: exceeds size limit 64892036>=10485760
+[2023-07-08 15:36:02] INFO root fetch - main [MainThread]: End processing [practistyle] error
+[2023-07-08 15:36:02] INFO root fetch - processPackages [NeuroNode]: Downloading https://files.pythonhosted.org/packages/5c/87/0bb63fbb6d9d53b572a2629914ca0063e602964c2c20a9a2632decfaa7e4/NeuroNode-3.6.tar.gz
+[2023-07-08 15:36:02] INFO root fetch - processPackages [pysomneo]: Downloading https://files.pythonhosted.org/packages/aa/a0/b56f833bd1bb6eef2e0ff363ad23bef58027c9903753bc63be9b39300a51/pysomneo-3.0.0a5.tar.gz
+[2023-07-08 15:36:02] INFO root fetch - processPackages [NeuroNode]: executing diffoscope
+[2023-07-08 15:36:02] INFO root fetch - processPackages [NeuroNode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroNode-3.3.tar.gz tmp/NeuroNode-3.6.tar.gz --markdown 20230708/N/NeuroNode/3.3-3.6/diff.md --exclude *.pyd
+[2023-07-08 15:36:03] INFO root fetch - processPackages [pysomneo]: executing diffoscope
+[2023-07-08 15:36:03] INFO root fetch - processPackages [pysomneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysomneo-3.0.0a4.tar.gz tmp/pysomneo-3.0.0a5.tar.gz --markdown 20230708/p/pysomneo/3.0.0a4-3.0.0a5/diff.md --exclude *.pyd
+[2023-07-08 15:36:03] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.3.tar.gz]
+[2023-07-08 15:36:03] INFO root fetch - processPackages [NeuroNode]: Remove: archive file [/home/abi/fetcher/tmp/NeuroNode-3.6.tar.gz]
+[2023-07-08 15:36:03] INFO root fetch - main [MainThread]: End processing [NeuroNode]: success
+[2023-07-08 15:36:03] INFO root fetch - processPackages [pysomneo]: Remove: archive file [/home/abi/fetcher/tmp/pysomneo-3.0.0a4.tar.gz]
+[2023-07-08 15:36:03] INFO root fetch - processPackages [pysomneo]: Remove: archive file [/home/abi/fetcher/tmp/pysomneo-3.0.0a5.tar.gz]
+[2023-07-08 15:36:03] INFO root fetch - main [MainThread]: End processing [pysomneo]: success
+[2023-07-08 15:36:03] INFO root fetch - main [MainThread]: Store serial: [18813442]
