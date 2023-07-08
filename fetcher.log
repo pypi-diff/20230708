@@ -18287,3 +18287,69 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 17:00:40] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.72.tar.gz]
 [2023-07-08 17:00:40] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
 [2023-07-08 17:00:40] INFO root fetch - main [MainThread]: Store serial: [18813923]
+[2023-07-08 17:05:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18813923]
+[2023-07-08 17:05:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-08 17:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydatawork
+[2023-07-08 17:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: practistyle
+[2023-07-08 17:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hfmirror
+[2023-07-08 17:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yaylib
+[2023-07-08 17:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: actionai
+[2023-07-08 17:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydatawork
+[2023-07-08 17:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: policyengine-us
+[2023-07-08 17:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aliyun-python-sdk-rds
+[2023-07-08 17:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: actionai
+[2023-07-08 17:05:49] ERROR root fetch - processPackages [actionai]: Unable to get metadata: No such project 'actionai'
+[2023-07-08 17:05:49] INFO root fetch - main [MainThread]: End processing [actionai] error
+[2023-07-08 17:05:49] INFO root fetch - processPackages [practistyle]: New version: [0.0.76] Old Version: [0.0.75]
+[2023-07-08 17:05:49] INFO root fetch - processPackages [pydatawork]: New version: [0.17.5.4] Old Version: [0.17.5.3]
+[2023-07-08 17:05:49] INFO root fetch - processPackages [yaylib]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-07-08 17:05:49] INFO root fetch - processPackages [hfmirror]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-08 17:05:49] ERROR root fetch - processPackages [actionai]: Unable to get metadata: No such project 'actionai'
+[2023-07-08 17:05:49] INFO root fetch - processPackages [policyengine-us]: New version: [0.357.2] Old Version: [0.357.1]
+[2023-07-08 17:05:49] INFO root fetch - main [MainThread]: End processing [actionai] error
+[2023-07-08 17:05:49] INFO root fetch - processPackages [pydatawork]: New version: [0.17.5.4] Old Version: [0.17.5.3]
+[2023-07-08 17:05:49] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-08 17:05:49] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-08 17:05:49] INFO root fetch - processPackages [practistyle]: Downloading https://files.pythonhosted.org/packages/09/c0/bcfcad775222b1daa20c39b9acb9dd16089c5310e79b52c667cd61b6e617/practistyle-0.0.75.tar.gz
+[2023-07-08 17:05:49] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/d3/80/e8684b3776c97a184b932764e61d5a691bcd66a851543f29c4231bc1eb43/yaylib-0.1.3.tar.gz
+[2023-07-08 17:05:49] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/21/a2/30f4faaf4281c017bacef493fa0e56b6d33bfffa6ba9bcaeac20f031f3c3/pydatawork-0.17.5.3.tar.gz
+[2023-07-08 17:05:49] WARNING root fetch - processPackages [practistyle]: Skipping package: exceeds size limit 64891297>=10485760
+[2023-07-08 17:05:49] INFO root fetch - main [MainThread]: End processing [practistyle] error
+[2023-07-08 17:05:49] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/21/a2/30f4faaf4281c017bacef493fa0e56b6d33bfffa6ba9bcaeac20f031f3c3/pydatawork-0.17.5.3.tar.gz
+[2023-07-08 17:05:49] INFO root fetch - processPackages [hfmirror]: Downloading https://files.pythonhosted.org/packages/4e/e7/e09fb31022712769ee41f9028f3048a771670c18a8b1b917ed46c650771b/hfmirror-0.0.5.tar.gz
+[2023-07-08 17:05:49] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/e1/c7/2d34e668f66b67cf9dec68e9f522326e62c27508ddbb7473c21ab1a76126/policyengine-us-0.357.1.tar.gz
+[2023-07-08 17:05:49] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-08 17:05:50] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/81/37/1a50a2b419e2ab22bf057bd50a3ba6dd66070a5b443e991ff122db858012/yaylib-0.1.5.tar.gz
+[2023-07-08 17:05:50] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/73/ae/b1563c7e31358e0ece735210b8ead23393b3ef5f778852cb819a00cd7f5d/pydatawork-0.17.5.4.tar.gz
+[2023-07-08 17:05:50] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-08 17:05:50] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230708/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-08 17:05:50] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/73/ae/b1563c7e31358e0ece735210b8ead23393b3ef5f778852cb819a00cd7f5d/pydatawork-0.17.5.4.tar.gz
+[2023-07-08 17:05:50] INFO root fetch - processPackages [hfmirror]: Downloading https://files.pythonhosted.org/packages/d4/39/a87b0e35f0f4c7420f7157b8ccb6bdd9d493fc2fbd9ac8910b91bd1fedb1/hfmirror-0.0.6.tar.gz
+[2023-07-08 17:05:50] INFO root fetch - processPackages [yaylib]: executing diffoscope
+[2023-07-08 17:05:50] INFO root fetch - processPackages [yaylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaylib-0.1.3.tar.gz tmp/yaylib-0.1.5.tar.gz --markdown 20230708/y/yaylib/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-07-08 17:05:50] INFO root fetch - processPackages [hfmirror]: executing diffoscope
+[2023-07-08 17:05:50] INFO root fetch - processPackages [hfmirror]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hfmirror-0.0.5.tar.gz tmp/hfmirror-0.0.6.tar.gz --markdown 20230708/h/hfmirror/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-08 17:05:50] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-08 17:05:50] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.5.3.tar.gz tmp/pydatawork-0.17.5.4.tar.gz --markdown 20230708/p/pydatawork/0.17.5.3-0.17.5.4/diff.md --exclude *.pyd
+[2023-07-08 17:05:50] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-08 17:05:50] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.5.3.tar.gz tmp/pydatawork-0.17.5.4.tar.gz --markdown 20230708/p/pydatawork/0.17.5.3-0.17.5.4/diff.md --exclude *.pyd
+[2023-07-08 17:05:50] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/9f/39/39044afb75b3ebd14a0f0f93f99a8453e2326100d33b48f40eea7a84c6ac/policyengine-us-0.357.2.tar.gz
+[2023-07-08 17:05:50] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-08 17:05:50] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.357.1.tar.gz tmp/policyengine-us-0.357.2.tar.gz --markdown 20230708/p/policyengine-us/0.357.1-0.357.2/diff.md --exclude *.pyd
+[2023-07-08 17:05:51] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.5.3.tar.gz]
+[2023-07-08 17:05:51] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.5.4.tar.gz]
+[2023-07-08 17:05:51] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-08 17:05:51] INFO root fetch - processPackages [hfmirror]: Remove: archive file [/home/abi/fetcher/tmp/hfmirror-0.0.5.tar.gz]
+[2023-07-08 17:05:51] INFO root fetch - processPackages [hfmirror]: Remove: archive file [/home/abi/fetcher/tmp/hfmirror-0.0.6.tar.gz]
+[2023-07-08 17:05:51] INFO root fetch - main [MainThread]: End processing [hfmirror]: success
+[2023-07-08 17:05:51] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-08 17:05:51] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-0.1.3.tar.gz]
+[2023-07-08 17:05:51] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-0.1.5.tar.gz]
+[2023-07-08 17:05:51] INFO root fetch - main [MainThread]: End processing [yaylib]: success
+[2023-07-08 17:05:52] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-08 17:05:52] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-08 17:05:52] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-08 17:06:15] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.357.1.tar.gz]
+[2023-07-08 17:06:15] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.357.2.tar.gz]
+[2023-07-08 17:06:15] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-08 17:06:15] INFO root fetch - main [MainThread]: Store serial: [18813957]
