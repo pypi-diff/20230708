@@ -12692,3 +12692,24 @@
 [2023-07-08 08:41:14] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
 [2023-07-08 08:41:14] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-07-08 08:41:14] INFO root fetch - main [MainThread]: Store serial: [18811389]
+[2023-07-08 08:46:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811389]
+[2023-07-08 08:46:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 08:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wechatf
+[2023-07-08 08:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-getfile
+[2023-07-08 08:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NeuroNode
+[2023-07-08 08:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slib-sorter
+[2023-07-08 08:46:23] WARNING root fetch - processPackages [wechatf]: Skipping, unable to determine old version
+[2023-07-08 08:46:23] INFO root fetch - main [MainThread]: End processing [wechatf] error
+[2023-07-08 08:46:23] INFO root fetch - processPackages [slib-sorter]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-08 08:46:23] WARNING root fetch - processPackages [python-getfile]: Skipping, unable to determine old version
+[2023-07-08 08:46:23] WARNING root fetch - processPackages [NeuroNode]: Skipping, unable to determine old version
+[2023-07-08 08:46:23] INFO root fetch - main [MainThread]: End processing [python-getfile] error
+[2023-07-08 08:46:23] INFO root fetch - main [MainThread]: End processing [NeuroNode] error
+[2023-07-08 08:46:23] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/15/9d/e21dd0620ff3cfb0a27e2dbbf502b3fe5e2d6f228031f7eedc908dafc112/slib-sorter-1.2.8.tar.gz
+[2023-07-08 08:46:23] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/ab/43/d7024f6a0f17bd42d8c89d2bffff0f98dd797414cf52c34312869b4b10c2/slib-sorter-1.2.9.tar.gz
+[2023-07-08 08:46:24] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 08:46:24] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.2.8.tar.gz tmp/slib-sorter-1.2.9.tar.gz --markdown 20230708/s/slib-sorter/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-08 08:46:24] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.8.tar.gz]
+[2023-07-08 08:46:24] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.9.tar.gz]
+[2023-07-08 08:46:24] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 08:46:24] INFO root fetch - main [MainThread]: Store serial: [18811404]
