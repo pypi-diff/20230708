@@ -12253,3 +12253,42 @@
 [2023-07-08 07:22:26] INFO root fetch - processPackages [litedfs]: Remove: archive file [/home/abi/fetcher/tmp/litedfs-0.0.9.tar.gz]
 [2023-07-08 07:22:26] INFO root fetch - main [MainThread]: End processing [litedfs]: success
 [2023-07-08 07:22:26] INFO root fetch - main [MainThread]: Store serial: [18811094]
+[2023-07-08 07:27:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18811094]
+[2023-07-08 07:27:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-08 07:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyperdrive
+[2023-07-08 07:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KS-Constants
+[2023-07-08 07:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monstermash
+[2023-07-08 07:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slib-sorter
+[2023-07-08 07:27:45] INFO root fetch - processPackages [slib-sorter]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-08 07:27:45] INFO root fetch - processPackages [KS-Constants]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-08 07:27:45] INFO root fetch - processPackages [monstermash]: New version: [1.8.0] Old Version: [1.7.2]
+[2023-07-08 07:27:45] INFO root fetch - processPackages [hyperdrive]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-08 07:27:45] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/4a/72/e8c49f2eb6c4fa0435055931f416362560e7f632f1045dea2fe6ff7e3be9/slib-sorter-1.2.4.tar.gz
+[2023-07-08 07:27:46] INFO root fetch - processPackages [KS-Constants]: Downloading https://files.pythonhosted.org/packages/4e/f6/ddce289d358e1ca81717c9ca7cda279c3281ae836989247dc374446477e0/KS_Constants-1.2.8.tar.gz
+[2023-07-08 07:27:46] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/d4/e9/9027d5984c76d3ebb9ee95037f0747ab0ead21220fb5b17184cd60a3a1fe/monstermash-1.7.2.tar.gz
+[2023-07-08 07:27:46] INFO root fetch - processPackages [hyperdrive]: Downloading https://files.pythonhosted.org/packages/38/15/4781539e3471340b6477c42f42eea56c1525464cd3eadad93b22eb81e50d/hyperdrive-1.9.5.tar.gz
+[2023-07-08 07:27:46] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/ef/6f/bdeaed4afb2106c467a41359ab12e2260562dde27c0edc1bce26464467fd/slib-sorter-1.2.5.tar.gz
+[2023-07-08 07:27:46] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 07:27:46] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.2.4.tar.gz tmp/slib-sorter-1.2.5.tar.gz --markdown 20230708/s/slib-sorter/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-08 07:27:46] INFO root fetch - processPackages [KS-Constants]: Downloading https://files.pythonhosted.org/packages/40/56/27ad8aa3753c8eca96ba943b2503da5baa888bf4273d9dbd51f5c9270ac3/KS_Constants-1.2.9.tar.gz
+[2023-07-08 07:27:46] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/17/fe/e109571c0cb6653424a37589c2dac0129b0678baa4ed76210d2fa3a9df03/monstermash-1.8.0.tar.gz
+[2023-07-08 07:27:46] INFO root fetch - processPackages [hyperdrive]: Downloading https://files.pythonhosted.org/packages/13/86/8d620021a02e34e1bb50f6af84b59685e4f9f930093918de1c6a204c9f39/hyperdrive-1.9.6.tar.gz
+[2023-07-08 07:27:46] INFO root fetch - processPackages [monstermash]: executing diffoscope
+[2023-07-08 07:27:46] INFO root fetch - processPackages [monstermash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monstermash-1.7.2.tar.gz tmp/monstermash-1.8.0.tar.gz --markdown 20230708/m/monstermash/1.7.2-1.8.0/diff.md --exclude *.pyd
+[2023-07-08 07:27:46] INFO root fetch - processPackages [hyperdrive]: executing diffoscope
+[2023-07-08 07:27:46] INFO root fetch - processPackages [hyperdrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperdrive-1.9.5.tar.gz tmp/hyperdrive-1.9.6.tar.gz --markdown 20230708/h/hyperdrive/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-08 07:27:46] INFO root fetch - processPackages [KS-Constants]: executing diffoscope
+[2023-07-08 07:27:46] INFO root fetch - processPackages [KS-Constants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KS_Constants-1.2.8.tar.gz tmp/KS_Constants-1.2.9.tar.gz --markdown 20230708/K/KS-Constants/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-08 07:27:47] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.4.tar.gz]
+[2023-07-08 07:27:47] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.2.5.tar.gz]
+[2023-07-08 07:27:47] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 07:27:47] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-1.7.2.tar.gz]
+[2023-07-08 07:27:47] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-1.8.0.tar.gz]
+[2023-07-08 07:27:47] INFO root fetch - main [MainThread]: End processing [monstermash]: success
+[2023-07-08 07:27:47] INFO root fetch - processPackages [KS-Constants]: Remove: archive file [/home/abi/fetcher/tmp/KS_Constants-1.2.8.tar.gz]
+[2023-07-08 07:27:47] INFO root fetch - processPackages [KS-Constants]: Remove: archive file [/home/abi/fetcher/tmp/KS_Constants-1.2.9.tar.gz]
+[2023-07-08 07:27:47] INFO root fetch - main [MainThread]: End processing [KS-Constants]: success
+[2023-07-08 07:27:47] INFO root fetch - processPackages [hyperdrive]: Remove: archive file [/home/abi/fetcher/tmp/hyperdrive-1.9.5.tar.gz]
+[2023-07-08 07:27:47] INFO root fetch - processPackages [hyperdrive]: Remove: archive file [/home/abi/fetcher/tmp/hyperdrive-1.9.6.tar.gz]
+[2023-07-08 07:27:47] INFO root fetch - main [MainThread]: End processing [hyperdrive]: success
+[2023-07-08 07:27:47] INFO root fetch - main [MainThread]: Store serial: [18811106]
