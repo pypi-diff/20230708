@@ -2955,3 +2955,81 @@
 [2023-07-08 02:42:53] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.2.0.6.tar.gz]
 [2023-07-08 02:42:53] INFO root fetch - main [MainThread]: End processing [chainforge]: success
 [2023-07-08 02:42:53] INFO root fetch - main [MainThread]: Store serial: [18807781]
+[2023-07-08 02:48:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18807781]
+[2023-07-08 02:48:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-08 02:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-gspanel
+[2023-07-08 02:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: state-machine-semaphore
+[2023-07-08 02:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheSilent
+[2023-07-08 02:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arraylake-client
+[2023-07-08 02:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micropython-bmi270
+[2023-07-08 02:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfds-nightly
+[2023-07-08 02:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: motion-python
+[2023-07-08 02:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finsy
+[2023-07-08 02:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kubric-nightly
+[2023-07-08 02:48:11] INFO root fetch - processPackages [arraylake-client]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-08 02:48:11] WARNING root fetch - processPackages [micropython-bmi270]: Skipping, unable to determine old version
+[2023-07-08 02:48:11] INFO root fetch - main [MainThread]: End processing [micropython-bmi270] error
+[2023-07-08 02:48:11] INFO root fetch - processPackages [nonebot-plugin-gspanel]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-08 02:48:11] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-08 02:48:11] INFO root fetch - processPackages [motion-python]: New version: [0.1.79] Old Version: [0.1.78]
+[2023-07-08 02:48:11] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 02:48:11] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.7] Old Version: [2023.7.6]
+[2023-07-08 02:48:11] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307070045] Old Version: [4.9.2.dev202307060045]
+[2023-07-08 02:48:11] INFO root fetch - processPackages [finsy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-08 02:48:11] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-08 02:48:11] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/1b/2c/0a47c956d3a41c515a895aba2d635d4cc3355010473735c0c0ddd570e316/motion_python-0.1.78.tar.gz
+[2023-07-08 02:48:11] INFO root fetch - processPackages [arraylake-client]: Downloading https://files.pythonhosted.org/packages/98/67/b374c881eb8a16a3bb1aba75927d020d484c5c4e811967509310eb535bbe/arraylake_client-0.4.1.tar.gz
+[2023-07-08 02:48:11] INFO root fetch - processPackages [nonebot-plugin-gspanel]: Downloading https://files.pythonhosted.org/packages/a3/b1/29449482ddbfa2ff033bec36387e3f627b5ed46a33df6fd93ef747bde919/nonebot_plugin_gspanel-0.2.8.tar.gz
+[2023-07-08 02:48:11] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/7b/a9/71a17c92ba5ce268ffeb03ffb52a548c645247e1a5ff80cd3509e4932ab4/tfds-nightly-4.9.2.dev202307060045.tar.gz
+[2023-07-08 02:48:11] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/c2/b2/904cf66401d5e5074455a776b8e1575d6f0153dee02f7a0ce661acf50036/kubric-nightly-2023.7.6.tar.gz
+[2023-07-08 02:48:11] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-07-08 02:48:11] INFO root fetch - processPackages [finsy]: Downloading https://files.pythonhosted.org/packages/00/e6/0838c73be62cae24016990936d4bdaa810da94ff56a6948661c9db2c0492/finsy-0.8.0.tar.gz
+[2023-07-08 02:48:12] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-08 02:48:12] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/61/c9/4a4442b1fc2451f84dc187938f9e69eb6df8e2acb1793a2161234b6cc116/motion_python-0.1.79.tar.gz
+[2023-07-08 02:48:12] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-08 02:48:12] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230708/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 02:48:12] INFO root fetch - processPackages [arraylake-client]: Downloading https://files.pythonhosted.org/packages/76/e6/fd2c0a55fd2f4321f09a6d5439121dcb7049de80f814c85be4f3b90038cf/arraylake_client-0.4.2.tar.gz
+[2023-07-08 02:48:12] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/67/d3/f676636fb68bdfb63267afe9c16cc9f84504a00657298cbbd65a42fb555b/kubric-nightly-2023.7.7.tar.gz
+[2023-07-08 02:48:12] INFO root fetch - processPackages [arraylake-client]: executing diffoscope
+[2023-07-08 02:48:12] INFO root fetch - processPackages [arraylake-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraylake_client-0.4.1.tar.gz tmp/arraylake_client-0.4.2.tar.gz --markdown 20230708/a/arraylake-client/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-08 02:48:12] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-07-08 02:48:12] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.78.tar.gz tmp/motion_python-0.1.79.tar.gz --markdown 20230708/m/motion-python/0.1.78-0.1.79/diff.md --exclude *.pyd
+[2023-07-08 02:48:12] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-07-08 02:48:12] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/52/e6/86856dc63e3da063d69a7056010a28545e85768d0040af9a40daf30e7ef8/tfds-nightly-4.9.2.dev202307070045.tar.gz
+[2023-07-08 02:48:12] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-08 02:48:12] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.6.tar.gz tmp/kubric-nightly-2023.7.7.tar.gz --markdown 20230708/k/kubric-nightly/2023.7.6-2023.7.7/diff.md --exclude *.pyd
+[2023-07-08 02:48:12] INFO root fetch - processPackages [finsy]: Downloading https://files.pythonhosted.org/packages/15/4b/e454cff3e84238eb0cf0f9a05bb7e5fb8ed845c173710d65557c9f81fe47/finsy-0.9.0.tar.gz
+[2023-07-08 02:48:12] INFO root fetch - processPackages [nonebot-plugin-gspanel]: Downloading https://files.pythonhosted.org/packages/ac/8d/1fc05cfbdaad7396f0642747455ae029700267d84e3f657daa94a3c3197b/nonebot_plugin_gspanel-0.2.9.tar.gz
+[2023-07-08 02:48:12] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-07-08 02:48:12] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230708/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-08 02:48:12] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-08 02:48:12] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202307060045.tar.gz tmp/tfds-nightly-4.9.2.dev202307070045.tar.gz --markdown 20230708/t/tfds-nightly/4.9.2.dev202307060045-4.9.2.dev202307070045/diff.md --exclude *.pyd
+[2023-07-08 02:48:12] INFO root fetch - processPackages [nonebot-plugin-gspanel]: executing diffoscope
+[2023-07-08 02:48:12] INFO root fetch - processPackages [nonebot-plugin-gspanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_gspanel-0.2.8.tar.gz tmp/nonebot_plugin_gspanel-0.2.9.tar.gz --markdown 20230708/n/nonebot-plugin-gspanel/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-08 02:48:12] INFO root fetch - processPackages [finsy]: executing diffoscope
+[2023-07-08 02:48:12] INFO root fetch - processPackages [finsy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finsy-0.8.0.tar.gz tmp/finsy-0.9.0.tar.gz --markdown 20230708/f/finsy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 02:48:13] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-08 02:48:13] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-08 02:48:13] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-08 02:48:13] INFO root fetch - processPackages [arraylake-client]: Remove: archive file [/home/abi/fetcher/tmp/arraylake_client-0.4.1.tar.gz]
+[2023-07-08 02:48:13] INFO root fetch - processPackages [arraylake-client]: Remove: archive file [/home/abi/fetcher/tmp/arraylake_client-0.4.2.tar.gz]
+[2023-07-08 02:48:13] INFO root fetch - main [MainThread]: End processing [arraylake-client]: success
+[2023-07-08 02:48:13] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.78.tar.gz]
+[2023-07-08 02:48:13] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.79.tar.gz]
+[2023-07-08 02:48:13] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-07-08 02:48:13] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-07-08 02:48:13] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-07-08 02:48:13] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-07-08 02:48:13] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.6.tar.gz]
+[2023-07-08 02:48:13] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.7.tar.gz]
+[2023-07-08 02:48:13] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-08 02:48:14] INFO root fetch - processPackages [nonebot-plugin-gspanel]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_gspanel-0.2.8.tar.gz]
+[2023-07-08 02:48:14] INFO root fetch - processPackages [nonebot-plugin-gspanel]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_gspanel-0.2.9.tar.gz]
+[2023-07-08 02:48:14] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gspanel]: success
+[2023-07-08 02:48:14] INFO root fetch - processPackages [finsy]: Remove: archive file [/home/abi/fetcher/tmp/finsy-0.8.0.tar.gz]
+[2023-07-08 02:48:14] INFO root fetch - processPackages [finsy]: Remove: archive file [/home/abi/fetcher/tmp/finsy-0.9.0.tar.gz]
+[2023-07-08 02:48:14] INFO root fetch - main [MainThread]: End processing [finsy]: success
+[2023-07-08 02:48:18] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307060045.tar.gz]
+[2023-07-08 02:48:18] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307070045.tar.gz]
+[2023-07-08 02:48:18] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-08 02:48:18] INFO root fetch - main [MainThread]: Store serial: [18807812]
