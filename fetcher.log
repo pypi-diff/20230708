@@ -15229,3 +15229,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-08 13:04:18] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.6.2.tar.gz]
 [2023-07-08 13:04:18] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
 [2023-07-08 13:04:18] INFO root fetch - main [MainThread]: Store serial: [18812625]
+[2023-07-08 13:09:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18812625]
+[2023-07-08 13:09:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 13:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: password-lib
+[2023-07-08 13:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-toys
+[2023-07-08 13:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiocomelit
+[2023-07-08 13:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-07-08 13:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LordPath
+[2023-07-08 13:09:26] INFO root fetch - processPackages [password-lib]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 13:09:26] INFO root fetch - processPackages [LordPath]: New version: [2023.7.8] Old Version: [2023.5.6.4]
+[2023-07-08 13:09:26] INFO root fetch - processPackages [aiocomelit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-08 13:09:27] WARNING root fetch - processPackages [llm-toys]: Skipping, unable to determine old version
+[2023-07-08 13:09:27] INFO root fetch - main [MainThread]: End processing [llm-toys] error
+[2023-07-08 13:09:27] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 13:09:27] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-08 13:09:27] INFO root fetch - processPackages [LordPath]: Downloading https://files.pythonhosted.org/packages/8e/b1/51006634a148a165d21e98745a7e6fde4eb4615ee83a4a3506431ab20b78/LordPath-2023.5.6.4.tar.gz
+[2023-07-08 13:09:27] INFO root fetch - processPackages [password-lib]: Downloading https://files.pythonhosted.org/packages/54/32/e1a0f851a608052f22fa4833a30b2fb851b4f6dfc0bfc39b3ae69eed21e7/password_lib-0.0.2.tar.gz
+[2023-07-08 13:09:27] INFO root fetch - processPackages [aiocomelit]: Downloading https://files.pythonhosted.org/packages/59/6f/98e9c1c7cbe41d698e3a639353e4cbcebcdebd1feef087a8fe8d169a2b7f/aiocomelit-0.0.1.tar.gz
+[2023-07-08 13:09:27] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-08 13:09:27] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-08 13:09:27] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230708/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 13:09:27] INFO root fetch - processPackages [LordPath]: Downloading https://files.pythonhosted.org/packages/b3/b9/4a57a71d10867e43249741a19abacac286b2f570798d95f69641cabb691d/LordPath-2023.7.8.tar.gz
+[2023-07-08 13:09:27] INFO root fetch - processPackages [password-lib]: Downloading https://files.pythonhosted.org/packages/bc/0b/0625bfccbe4d0450a3f18b30af0d2366b6bebcfcac1a35297b51e97fb46b/password_lib-0.0.3.tar.gz
+[2023-07-08 13:09:27] INFO root fetch - processPackages [aiocomelit]: Downloading https://files.pythonhosted.org/packages/d9/57/aff45da6511a0ddb798c3309b555319d2319945fabe2620bbfc7590d67a6/aiocomelit-0.0.2.tar.gz
+[2023-07-08 13:09:27] INFO root fetch - processPackages [LordPath]: executing diffoscope
+[2023-07-08 13:09:27] INFO root fetch - processPackages [LordPath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LordPath-2023.5.6.4.tar.gz tmp/LordPath-2023.7.8.tar.gz --markdown 20230708/L/LordPath/2023.5.6.4-2023.7.8/diff.md --exclude *.pyd
+[2023-07-08 13:09:27] INFO root fetch - processPackages [password-lib]: executing diffoscope
+[2023-07-08 13:09:27] INFO root fetch - processPackages [password-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/password_lib-0.0.2.tar.gz tmp/password_lib-0.0.3.tar.gz --markdown 20230708/p/password-lib/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 13:09:27] INFO root fetch - processPackages [aiocomelit]: executing diffoscope
+[2023-07-08 13:09:27] INFO root fetch - processPackages [aiocomelit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocomelit-0.0.1.tar.gz tmp/aiocomelit-0.0.2.tar.gz --markdown 20230708/a/aiocomelit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-08 13:09:28] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-08 13:09:28] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-08 13:09:28] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-08 13:09:28] INFO root fetch - processPackages [LordPath]: Remove: archive file [/home/abi/fetcher/tmp/LordPath-2023.5.6.4.tar.gz]
+[2023-07-08 13:09:28] INFO root fetch - processPackages [LordPath]: Remove: archive file [/home/abi/fetcher/tmp/LordPath-2023.7.8.tar.gz]
+[2023-07-08 13:09:28] INFO root fetch - main [MainThread]: End processing [LordPath]: success
+[2023-07-08 13:09:28] INFO root fetch - processPackages [aiocomelit]: Remove: archive file [/home/abi/fetcher/tmp/aiocomelit-0.0.1.tar.gz]
+[2023-07-08 13:09:28] INFO root fetch - processPackages [aiocomelit]: Remove: archive file [/home/abi/fetcher/tmp/aiocomelit-0.0.2.tar.gz]
+[2023-07-08 13:09:28] INFO root fetch - main [MainThread]: End processing [aiocomelit]: success
+[2023-07-08 13:09:28] INFO root fetch - processPackages [password-lib]: Remove: archive file [/home/abi/fetcher/tmp/password_lib-0.0.2.tar.gz]
+[2023-07-08 13:09:28] INFO root fetch - processPackages [password-lib]: Remove: archive file [/home/abi/fetcher/tmp/password_lib-0.0.3.tar.gz]
+[2023-07-08 13:09:28] INFO root fetch - main [MainThread]: End processing [password-lib]: success
+[2023-07-08 13:09:28] INFO root fetch - main [MainThread]: Store serial: [18812643]
