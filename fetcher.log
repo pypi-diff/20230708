@@ -19262,3 +19262,59 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 18:24:40] INFO root fetch - processPackages [ragu]: Remove: archive file [/home/abi/fetcher/tmp/ragu-0.1.21.tar.gz]
 [2023-07-08 18:24:40] INFO root fetch - main [MainThread]: End processing [ragu]: success
 [2023-07-08 18:24:40] INFO root fetch - main [MainThread]: Store serial: [18814365]
+[2023-07-08 18:29:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814365]
+[2023-07-08 18:29:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-08 18:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ogre-python
+[2023-07-08 18:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vban-cmd
+[2023-07-08 18:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reprim
+[2023-07-08 18:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qvsed
+[2023-07-08 18:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py4web
+[2023-07-08 18:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysensibo
+[2023-07-08 18:29:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ngmapi
+[2023-07-08 18:29:49] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.20]
+[2023-07-08 18:29:49] INFO root fetch - processPackages [vban-cmd]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-07-08 18:29:49] WARNING root fetch - processPackages [reprim]: Skipping, unable to determine old version
+[2023-07-08 18:29:49] INFO root fetch - main [MainThread]: End processing [reprim] error
+[2023-07-08 18:29:49] INFO root fetch - processPackages [qvsed]: New version: [1.3.0] Old Version: [1.2.5]
+[2023-07-08 18:29:49] INFO root fetch - processPackages [pysensibo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 18:29:49] INFO root fetch - processPackages [py4web]: New version: [1.20230708.1] Old Version: [1.20230528.1]
+[2023-07-08 18:29:49] INFO root fetch - processPackages [ogre-python]: New version: [14.0.0] Old Version: [13.6.5]
+[2023-07-08 18:29:49] INFO root fetch - processPackages [pysensibo]: Downloading https://files.pythonhosted.org/packages/af/4c/8116c33c00bca7b5a5fff60756f8391e12b67b1d1e5ef744286e16a99e08/pysensibo-1.0.8.tar.gz
+[2023-07-08 18:29:49] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/4a/0d/3ace6112800212821092b4771b5a31d638af58451d61f1c7836eddd10570/ngmapi-0.0.20.tar.gz
+[2023-07-08 18:29:49] INFO root fetch - processPackages [ogre-python]: Downloading https://files.pythonhosted.org/packages/b7/86/4e6b6f46d319bccf565d73e4897fc0b3ddd39bac40dc9c7315173cdc0fcf/ogre_python-13.6.5-cp310-cp310-win_amd64.whl
+[2023-07-08 18:29:49] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/c2/56/b7f56ed7c684a539eff2ab2dc4e0398722b999da93dc7590fd422b70e3e4/vban_cmd-2.1.2.tar.gz
+[2023-07-08 18:29:49] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/c0/73/ccb852fb051da6032ede74c5ff756e009a97832c8adc13be9484dcab2bd4/py4web-1.20230528.1.tar.gz
+[2023-07-08 18:29:49] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/31/e8/35cd04b78b7aab4e833b22e89c33d5fc2f923fc857eb30365e523392cf0d/qvsed-1.2.5.tar.gz
+[2023-07-08 18:29:49] INFO root fetch - processPackages [pysensibo]: Downloading https://files.pythonhosted.org/packages/74/b9/30a2c00590d3482692d7b5e8d6094384f519992a13ae674c69db37cdd068/pysensibo-1.0.9.tar.gz
+[2023-07-08 18:29:50] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/55/9f/83a66e27ff59d60af85b8078f41f311e58015c53e321bee09d946312fbec/qvsed-1.3.0.tar.gz
+[2023-07-08 18:29:50] INFO root fetch - processPackages [pysensibo]: executing diffoscope
+[2023-07-08 18:29:50] INFO root fetch - processPackages [pysensibo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysensibo-1.0.8.tar.gz tmp/pysensibo-1.0.9.tar.gz --markdown 20230708/p/pysensibo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 18:29:50] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-08 18:29:50] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/4f/d3/30ef64c3f735e126b77134437beff4183e2b059e25388e314e5299fe71fa/vban_cmd-2.2.0.tar.gz
+[2023-07-08 18:29:50] WARNING root fetch - processPackages [ogre-python]: Skipping package: exceeds size limit 12204123>=10485760
+[2023-07-08 18:29:50] INFO root fetch - main [MainThread]: End processing [ogre-python] error
+[2023-07-08 18:29:50] INFO root fetch - processPackages [vban-cmd]: executing diffoscope
+[2023-07-08 18:29:50] INFO root fetch - processPackages [vban-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vban_cmd-2.1.2.tar.gz tmp/vban_cmd-2.2.0.tar.gz --markdown 20230708/v/vban-cmd/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-07-08 18:29:50] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-08 18:29:50] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.20.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230708/n/ngmapi/0.0.20-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 18:29:50] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-08 18:29:50] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.2.5.tar.gz tmp/qvsed-1.3.0.tar.gz --markdown 20230708/q/qvsed/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2023-07-08 18:29:50] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.20.tar.gz]
+[2023-07-08 18:29:50] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.3.tar.gz]
+[2023-07-08 18:29:50] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-08 18:29:50] INFO root fetch - processPackages [pysensibo]: Remove: archive file [/home/abi/fetcher/tmp/pysensibo-1.0.8.tar.gz]
+[2023-07-08 18:29:50] INFO root fetch - processPackages [pysensibo]: Remove: archive file [/home/abi/fetcher/tmp/pysensibo-1.0.9.tar.gz]
+[2023-07-08 18:29:50] INFO root fetch - main [MainThread]: End processing [pysensibo]: success
+[2023-07-08 18:29:51] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.2.5.tar.gz]
+[2023-07-08 18:29:51] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.3.0.tar.gz]
+[2023-07-08 18:29:51] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-08 18:29:51] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban_cmd-2.1.2.tar.gz]
+[2023-07-08 18:29:51] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban_cmd-2.2.0.tar.gz]
+[2023-07-08 18:29:51] INFO root fetch - main [MainThread]: End processing [vban-cmd]: success
+[2023-07-08 18:29:51] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/e4/c8/fde07efd1eeac1dbe7b1199ffe2858444c43c7051a200acb22be41e790ed/py4web-1.20230708.1.tar.gz
+[2023-07-08 18:29:52] INFO root fetch - processPackages [py4web]: executing diffoscope
+[2023-07-08 18:29:52] INFO root fetch - processPackages [py4web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web-1.20230528.1.tar.gz tmp/py4web-1.20230708.1.tar.gz --markdown 20230708/p/py4web/1.20230528.1-1.20230708.1/diff.md --exclude *.pyd
+[2023-07-08 18:29:56] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20230528.1.tar.gz]
+[2023-07-08 18:29:56] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20230708.1.tar.gz]
+[2023-07-08 18:29:56] INFO root fetch - main [MainThread]: End processing [py4web]: success
+[2023-07-08 18:29:56] INFO root fetch - main [MainThread]: Store serial: [18814393]
