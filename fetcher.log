@@ -10656,3 +10656,60 @@
 [2023-07-08 04:55:29] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230708.tar.gz]
 [2023-07-08 04:55:29] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-07-08 04:55:29] INFO root fetch - main [MainThread]: Store serial: [18810411]
+[2023-07-08 05:00:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810411]
+[2023-07-08 05:00:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-08 05:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-core
+[2023-07-08 05:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dank-mids
+[2023-07-08 05:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slib-sorter
+[2023-07-08 05:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spike2py
+[2023-07-08 05:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kybra
+[2023-07-08 05:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-bank-statement-import
+[2023-07-08 05:00:38] INFO root fetch - processPackages [spike2py]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-08 05:00:38] INFO root fetch - processPackages [slib-sorter]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-08 05:00:38] INFO root fetch - processPackages [kybra]: New version: [0.5.0rc3] Old Version: [0.5.0rc2]
+[2023-07-08 05:00:38] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-08 05:00:38] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-08 05:00:38] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: New version: [16.0.20230707.1] Old Version: [16.0.20230324.0]
+[2023-07-08 05:00:38] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/bd/47/0f5b36ef5eb5688b5c36d407584e12b6b0330b57e535715b5b7b314a5bbc/slib-sorter-1.1.4.tar.gz
+[2023-07-08 05:00:38] INFO root fetch - processPackages [kybra]: Downloading https://files.pythonhosted.org/packages/59/ca/137cf65f6d87b4fb4198d33dce1c2e197b5f2533198068aa4f6a5e9a58a0/kybra-0.5.0rc2.tar.gz
+[2023-07-08 05:00:38] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-08 05:00:38] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2023-07-08 05:00:38] INFO root fetch - processPackages [spike2py]: Downloading https://files.pythonhosted.org/packages/10/a4/52bdce240576ec503ddaff1d93ada02b9ba59e63956a412382d2719ff432/spike2py-0.2.1.tar.gz
+[2023-07-08 05:00:38] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: Downloading https://files.pythonhosted.org/packages/cf/97/b00182737333e33342f7598e7d48fbe1704c791532453bf8f19666b42659/odoo_addons_oca_bank_statement_import-16.0.20230324.0-py3-none-any.whl
+[2023-07-08 05:00:38] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-08 05:00:38] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2023-07-08 05:00:38] INFO root fetch - processPackages [slib-sorter]: Downloading https://files.pythonhosted.org/packages/48/57/e496e005e77b053be35972a48c8feb74b1374e1fcb28cf9a227100b365fe/slib-sorter-1.1.5.tar.gz
+[2023-07-08 05:00:38] INFO root fetch - processPackages [kybra]: Downloading https://files.pythonhosted.org/packages/f1/66/1801192eeb9906b67b3e9bb9b1cba548ea0ca91d8d5b6dea1570d7293f30/kybra-0.5.0rc3.tar.gz
+[2023-07-08 05:00:39] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-08 05:00:39] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230708/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-08 05:00:39] INFO root fetch - processPackages [spike2py]: Downloading https://files.pythonhosted.org/packages/ea/b5/d800d6d3d0dd792f0da95ce028a39a599aebdecdad4a1a58cf42861d509a/spike2py-0.2.2.tar.gz
+[2023-07-08 05:00:39] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-07-08 05:00:39] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230708/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-08 05:00:39] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: Downloading https://files.pythonhosted.org/packages/61/16/6f61a4bb0059b82ca906de006dd8e63d5bf070e720ce23213933f6e5c833/odoo_addons_oca_bank_statement_import-16.0.20230707.1-py3-none-any.whl
+[2023-07-08 05:00:39] INFO root fetch - processPackages [slib-sorter]: executing diffoscope
+[2023-07-08 05:00:39] INFO root fetch - processPackages [slib-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slib-sorter-1.1.4.tar.gz tmp/slib-sorter-1.1.5.tar.gz --markdown 20230708/s/slib-sorter/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-08 05:00:39] INFO root fetch - processPackages [spike2py]: executing diffoscope
+[2023-07-08 05:00:39] INFO root fetch - processPackages [spike2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spike2py-0.2.1.tar.gz tmp/spike2py-0.2.2.tar.gz --markdown 20230708/s/spike2py/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-08 05:00:39] INFO root fetch - processPackages [kybra]: executing diffoscope
+[2023-07-08 05:00:39] INFO root fetch - processPackages [kybra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kybra-0.5.0rc2.tar.gz tmp/kybra-0.5.0rc3.tar.gz --markdown 20230708/k/kybra/0.5.0rc2-0.5.0rc3/diff.md --exclude *.pyd
+[2023-07-08 05:00:39] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: executing diffoscope
+[2023-07-08 05:00:39] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_bank_statement_import-16.0.20230324.0-py3-none-any.whl.zip tmp/odoo_addons_oca_bank_statement_import-16.0.20230707.1-py3-none-any.whl.zip --markdown 20230708/o/odoo-addons-oca-bank-statement-import/16.0.20230324.0-16.0.20230707.1/diff.md --exclude *.pyd
+[2023-07-08 05:00:40] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-08 05:00:40] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-08 05:00:40] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-08 05:00:40] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.1.4.tar.gz]
+[2023-07-08 05:00:40] INFO root fetch - processPackages [slib-sorter]: Remove: archive file [/home/abi/fetcher/tmp/slib-sorter-1.1.5.tar.gz]
+[2023-07-08 05:00:40] INFO root fetch - main [MainThread]: End processing [slib-sorter]: success
+[2023-07-08 05:00:40] INFO root fetch - processPackages [spike2py]: Remove: archive file [/home/abi/fetcher/tmp/spike2py-0.2.1.tar.gz]
+[2023-07-08 05:00:40] INFO root fetch - processPackages [spike2py]: Remove: archive file [/home/abi/fetcher/tmp/spike2py-0.2.2.tar.gz]
+[2023-07-08 05:00:40] INFO root fetch - main [MainThread]: End processing [spike2py]: success
+[2023-07-08 05:00:40] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2023-07-08 05:00:40] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2023-07-08 05:00:40] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-07-08 05:00:40] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_bank_statement_import-16.0.20230324.0-py3-none-any.whl.zip]
+[2023-07-08 05:00:40] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_bank_statement_import-16.0.20230707.1-py3-none-any.whl.zip]
+[2023-07-08 05:00:40] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-bank-statement-import]: success
+[2023-07-08 05:00:41] INFO root fetch - processPackages [kybra]: Remove: archive file [/home/abi/fetcher/tmp/kybra-0.5.0rc2.tar.gz]
+[2023-07-08 05:00:41] INFO root fetch - processPackages [kybra]: Remove: archive file [/home/abi/fetcher/tmp/kybra-0.5.0rc3.tar.gz]
+[2023-07-08 05:00:41] INFO root fetch - main [MainThread]: End processing [kybra]: success
+[2023-07-08 05:00:41] INFO root fetch - main [MainThread]: Store serial: [18810427]
