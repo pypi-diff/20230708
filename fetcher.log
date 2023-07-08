@@ -11989,3 +11989,51 @@
 [2023-07-08 06:35:40] INFO root fetch - processPackages [odoo-addon-mgmtsystem-action-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_action_template-16.0.1.0.0.6-py3-none-any.whl.zip]
 [2023-07-08 06:35:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-action-template]: success
 [2023-07-08 06:35:40] INFO root fetch - main [MainThread]: Store serial: [18810988]
+[2023-07-08 06:40:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18810988]
+[2023-07-08 06:40:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 06:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-07-08 06:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KwoksTool
+[2023-07-08 06:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minato
+[2023-07-08 06:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scutls
+[2023-07-08 06:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aioqzone
+[2023-07-08 06:40:49] INFO root fetch - processPackages [aioqzone]: New version: [0.9.9.dev3] Old Version: [0.9.9.dev2]
+[2023-07-08 06:40:49] INFO root fetch - processPackages [scutls]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-07-08 06:40:49] INFO root fetch - processPackages [minato]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-08 06:40:49] INFO root fetch - processPackages [KwoksTool]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-08 06:40:49] INFO root fetch - processPackages [aioqzone]: Downloading https://files.pythonhosted.org/packages/7f/ff/f8dc9aff74e57608bbfaf7589832ca3aee3afdd16253d1e6fe206241ec8f/aioqzone-0.9.9.dev2.tar.gz
+[2023-07-08 06:40:49] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-08 06:40:50] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/ad/a1/f84fe0f967507db1b85d706cbbfcac1c11fa0786bf2c16d5db20416abf01/KwoksTool-0.0.7.tar.gz
+[2023-07-08 06:40:50] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-08 06:40:50] INFO root fetch - processPackages [minato]: Downloading https://files.pythonhosted.org/packages/2b/07/94df24fe8c8e8b589443e2c6af0e3929852f16e0f3ae5a02f081beba9508/minato-0.8.2.tar.gz
+[2023-07-08 06:40:50] INFO root fetch - processPackages [scutls]: Downloading https://files.pythonhosted.org/packages/00/b2/12d8519d5d8d8707153ee2bcc848c7559871dad9402fb90249b7a1d60f34/scutls-0.2.8.tar.gz
+[2023-07-08 06:40:50] INFO root fetch - processPackages [aioqzone]: Downloading https://files.pythonhosted.org/packages/d2/e6/57423151a50842933a21c06dc0af51e6875fd99447e03329725a06d6c191/aioqzone-0.9.9.dev3.tar.gz
+[2023-07-08 06:40:50] INFO root fetch - processPackages [aioqzone]: executing diffoscope
+[2023-07-08 06:40:50] INFO root fetch - processPackages [aioqzone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioqzone-0.9.9.dev2.tar.gz tmp/aioqzone-0.9.9.dev3.tar.gz --markdown 20230708/a/aioqzone/0.9.9.dev2-0.9.9.dev3/diff.md --exclude *.pyd
+[2023-07-08 06:40:50] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-08 06:40:50] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/4d/62/b8062e2d0e7e46a125eeb147fca72b2340c91ba05712969399d33aaffe40/KwoksTool-0.0.8.tar.gz
+[2023-07-08 06:40:50] INFO root fetch - processPackages [minato]: Downloading https://files.pythonhosted.org/packages/a8/eb/f77601014ed5abff8b428223bb1bdf453c0c334d4fd19df91f00ef0757d7/minato-0.9.0.tar.gz
+[2023-07-08 06:40:50] INFO root fetch - processPackages [scutls]: Downloading https://files.pythonhosted.org/packages/03/c2/be99113a29b321cc52fa0cc20bfde821634058c3490f3f78306ae4280384/scutls-0.3.0.tar.gz
+[2023-07-08 06:40:50] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-08 06:40:50] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230708/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-08 06:40:50] INFO root fetch - processPackages [KwoksTool]: executing diffoscope
+[2023-07-08 06:40:50] INFO root fetch - processPackages [KwoksTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KwoksTool-0.0.7.tar.gz tmp/KwoksTool-0.0.8.tar.gz --markdown 20230708/K/KwoksTool/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-08 06:40:50] INFO root fetch - processPackages [minato]: executing diffoscope
+[2023-07-08 06:40:50] INFO root fetch - processPackages [minato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minato-0.8.2.tar.gz tmp/minato-0.9.0.tar.gz --markdown 20230708/m/minato/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-08 06:40:50] INFO root fetch - processPackages [scutls]: executing diffoscope
+[2023-07-08 06:40:50] INFO root fetch - processPackages [scutls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scutls-0.2.8.tar.gz tmp/scutls-0.3.0.tar.gz --markdown 20230708/s/scutls/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-07-08 06:40:51] INFO root fetch - processPackages [aioqzone]: Remove: archive file [/home/abi/fetcher/tmp/aioqzone-0.9.9.dev2.tar.gz]
+[2023-07-08 06:40:51] INFO root fetch - processPackages [aioqzone]: Remove: archive file [/home/abi/fetcher/tmp/aioqzone-0.9.9.dev3.tar.gz]
+[2023-07-08 06:40:51] INFO root fetch - main [MainThread]: End processing [aioqzone]: success
+[2023-07-08 06:40:51] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.7.tar.gz]
+[2023-07-08 06:40:51] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.8.tar.gz]
+[2023-07-08 06:40:51] INFO root fetch - main [MainThread]: End processing [KwoksTool]: success
+[2023-07-08 06:40:51] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-08 06:40:51] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-08 06:40:51] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-08 06:40:51] INFO root fetch - processPackages [minato]: Remove: archive file [/home/abi/fetcher/tmp/minato-0.8.2.tar.gz]
+[2023-07-08 06:40:51] INFO root fetch - processPackages [minato]: Remove: archive file [/home/abi/fetcher/tmp/minato-0.9.0.tar.gz]
+[2023-07-08 06:40:51] INFO root fetch - main [MainThread]: End processing [minato]: success
+[2023-07-08 06:40:51] INFO root fetch - processPackages [scutls]: Remove: archive file [/home/abi/fetcher/tmp/scutls-0.2.8.tar.gz]
+[2023-07-08 06:40:51] INFO root fetch - processPackages [scutls]: Remove: archive file [/home/abi/fetcher/tmp/scutls-0.3.0.tar.gz]
+[2023-07-08 06:40:51] INFO root fetch - main [MainThread]: End processing [scutls]: success
+[2023-07-08 06:40:51] INFO root fetch - main [MainThread]: Store serial: [18811003]
