@@ -19118,3 +19118,51 @@ AssertionError: tmp/gsclinks-1.0.2-py3-none-any.whl.zip does not exist
 [2023-07-08 18:09:02] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.7.tar.gz]
 [2023-07-08 18:09:02] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
 [2023-07-08 18:09:02] INFO root fetch - main [MainThread]: Store serial: [18814303]
+[2023-07-08 18:14:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18814303]
+[2023-07-08 18:14:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-08 18:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysensibo
+[2023-07-08 18:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TheSilent
+[2023-07-08 18:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: philbot-voice
+[2023-07-08 18:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-neat
+[2023-07-08 18:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ngmapi
+[2023-07-08 18:14:12] INFO root fetch - processPackages [pysensibo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-08 18:14:12] INFO root fetch - processPackages [ngmapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-08 18:14:12] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-08 18:14:12] INFO root fetch - processPackages [cognite-neat]: New version: [0.15.0] Old Version: [0.14.2]
+[2023-07-08 18:14:12] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-08 18:14:12] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/13/86/3d7c18a8f2dd4f2eb32a19966079123b581a8402d540deca93c3d85e8678/ngmapi-0.0.2.tar.gz
+[2023-07-08 18:14:12] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-08 18:14:12] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/05/bb/01605bb60fce0733760899cdc771b31c44c401248bd2c28398c5ce9e9df5/philbot_voice-1.9.8.tar.gz
+[2023-07-08 18:14:12] INFO root fetch - processPackages [pysensibo]: Downloading https://files.pythonhosted.org/packages/af/4c/8116c33c00bca7b5a5fff60756f8391e12b67b1d1e5ef744286e16a99e08/pysensibo-1.0.8.tar.gz
+[2023-07-08 18:14:12] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/70/19/7a62925d897dd2cf054e0ecc5f96d437357c476b10b2b6f91e1c83f686b3/cognite_neat-0.14.2.tar.gz
+[2023-07-08 18:14:12] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/8d/f6/92b001627fbead01e6a630d44933a0c8dadbee90e274a42329baea3335c7/ngmapi-0.0.3.tar.gz
+[2023-07-08 18:14:12] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-08 18:14:12] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/3b/a7/1895e6c9d15fef6a2e8afcf48baeacca3915011fbe849f600b6b3dac7afb/philbot_voice-1.9.9.tar.gz
+[2023-07-08 18:14:13] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-08 18:14:13] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230708/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-08 18:14:13] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-07-08 18:14:13] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.8.tar.gz tmp/philbot_voice-1.9.9.tar.gz --markdown 20230708/p/philbot-voice/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-08 18:14:13] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-08 18:14:13] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.2.tar.gz tmp/ngmapi-0.0.3.tar.gz --markdown 20230708/n/ngmapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-08 18:14:13] INFO root fetch - processPackages [pysensibo]: Downloading https://files.pythonhosted.org/packages/74/b9/30a2c00590d3482692d7b5e8d6094384f519992a13ae674c69db37cdd068/pysensibo-1.0.9.tar.gz
+[2023-07-08 18:14:13] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/50/44/2f61576cfec354c923c16563af2a2b0765936054e10e18eca0b458c190d0/cognite_neat-0.15.0.tar.gz
+[2023-07-08 18:14:13] INFO root fetch - processPackages [pysensibo]: executing diffoscope
+[2023-07-08 18:14:13] INFO root fetch - processPackages [pysensibo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysensibo-1.0.8.tar.gz tmp/pysensibo-1.0.9.tar.gz --markdown 20230708/p/pysensibo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-08 18:14:13] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-07-08 18:14:13] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.14.2.tar.gz tmp/cognite_neat-0.15.0.tar.gz --markdown 20230708/c/cognite-neat/0.14.2-0.15.0/diff.md --exclude *.pyd
+[2023-07-08 18:14:13] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.2.tar.gz]
+[2023-07-08 18:14:13] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.3.tar.gz]
+[2023-07-08 18:14:13] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-08 18:14:13] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.8.tar.gz]
+[2023-07-08 18:14:13] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.9.tar.gz]
+[2023-07-08 18:14:13] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-07-08 18:14:13] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-08 18:14:13] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-08 18:14:13] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-08 18:14:14] INFO root fetch - processPackages [pysensibo]: Remove: archive file [/home/abi/fetcher/tmp/pysensibo-1.0.8.tar.gz]
+[2023-07-08 18:14:14] INFO root fetch - processPackages [pysensibo]: Remove: archive file [/home/abi/fetcher/tmp/pysensibo-1.0.9.tar.gz]
+[2023-07-08 18:14:14] INFO root fetch - main [MainThread]: End processing [pysensibo]: success
+[2023-07-08 18:14:16] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.14.2.tar.gz]
+[2023-07-08 18:14:16] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.15.0.tar.gz]
+[2023-07-08 18:14:16] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-07-08 18:14:16] INFO root fetch - main [MainThread]: Store serial: [18814321]
