@@ -20702,3 +20702,93 @@ AssertionError: tmp/trendalation-0.1.1-py3-none-any.whl.zip does not exist
 [2023-07-08 20:29:34] INFO root fetch - processPackages [astroid]: Remove: archive file [/home/abi/fetcher/tmp/astroid-3.0.0a7.tar.gz]
 [2023-07-08 20:29:34] INFO root fetch - main [MainThread]: End processing [astroid]: success
 [2023-07-08 20:29:34] INFO root fetch - main [MainThread]: Store serial: [18815066]
+[2023-07-08 20:34:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18815066]
+[2023-07-08 20:34:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-08 20:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-1234
+[2023-07-08 20:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threemystic-common
+[2023-07-08 20:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: battle-cats-game-modder
+[2023-07-08 20:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acrl
+[2023-07-08 20:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napari-live-recording
+[2023-07-08 20:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyllamacpp
+[2023-07-08 20:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mapperr
+[2023-07-08 20:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: test4957
+[2023-07-08 20:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sketchpy
+[2023-07-08 20:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dnastack-client-library
+[2023-07-08 20:34:43] INFO root fetch - processPackages [threemystic-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-08 20:34:43] INFO root fetch - processPackages [mapperr]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-08 20:34:43] INFO root fetch - processPackages [napari-live-recording]: New version: [0.3.2] Old Version: [0.3.0]
+[2023-07-08 20:34:43] INFO root fetch - processPackages [battle-cats-game-modder]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-08 20:34:43] WARNING root fetch - processPackages [acrl]: Skipping, unable to determine old version
+[2023-07-08 20:34:43] INFO root fetch - processPackages [acrl]: Start processing: olist-loafer
+[2023-07-08 20:34:43] INFO root fetch - main [MainThread]: End processing [acrl] error
+[2023-07-08 20:34:43] INFO root fetch - processPackages [test4957]: New version: [0.3.16] Old Version: [0.2.2]
+[2023-07-08 20:34:43] WARNING root fetch - processPackages [test-1234]: Skipping, unable to determine old version
+[2023-07-08 20:34:43] INFO root fetch - main [MainThread]: End processing [test-1234] error
+[2023-07-08 20:34:43] INFO root fetch - processPackages [sketchpy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-08 20:34:43] INFO root fetch - processPackages [dnastack-client-library]: New version: [3.0.84a1651270839] Old Version: [3.0.81a1650987643]
+[2023-07-08 20:34:43] INFO root fetch - processPackages [pyllamacpp]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-07-08 20:34:43] INFO root fetch - processPackages [olist-loafer]: New version: [4.0.0a2] Old Version: [4.0.0a1]
+[2023-07-08 20:34:43] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/b9/ca/5d06a676406db7cd8c68d45931420d1cf76aa87e961f9067c799a66ecd0c/threemystic_common-0.1.8.tar.gz
+[2023-07-08 20:34:43] INFO root fetch - processPackages [mapperr]: Downloading https://files.pythonhosted.org/packages/36/c9/f40eb692b02c7b27f4ae70f8db3e7ee204773c0edf2f915b7656b6140ed6/mapperr-0.2.0.tar.gz
+[2023-07-08 20:34:43] INFO root fetch - processPackages [napari-live-recording]: Downloading https://files.pythonhosted.org/packages/0a/4b/1b78e450f1c97676e80709d8cde1eedfa764e68319da515f25881184bd13/napari-live-recording-0.3.0.tar.gz
+[2023-07-08 20:34:43] INFO root fetch - processPackages [battle-cats-game-modder]: Downloading https://files.pythonhosted.org/packages/14/8c/6a7b9a2b299d7fb29f5902948f272e60f27436e45cff7528a3e31e71bcc6/battle-cats-game-modder-1.0.4.tar.gz
+[2023-07-08 20:34:43] INFO root fetch - processPackages [test4957]: Downloading https://files.pythonhosted.org/packages/7d/14/3f621f7c51852b6e90906fc316a877b4e690c85cd6bf8c3649f2a1b9ed5f/test4957-0.2.2.tar.gz
+[2023-07-08 20:34:44] INFO root fetch - processPackages [sketchpy]: Downloading https://files.pythonhosted.org/packages/5f/d1/87028b7e8b39f46fedecbdbdd596f4ed4ffa346ddc1d3c24c1052eab207d/sketchpy-0.1.2.tar.gz
+[2023-07-08 20:34:44] INFO root fetch - processPackages [dnastack-client-library]: Downloading https://files.pythonhosted.org/packages/a5/7b/18c6a0589415b823e08b73c6b477cd2b4b2aebad456466b3cd8b1ec58e57/dnastack_client_library-3.0.81a1650987643-py3-none-any.whl
+[2023-07-08 20:34:44] INFO root fetch - processPackages [olist-loafer]: Downloading https://files.pythonhosted.org/packages/ff/91/53e952fe23ab577b9a65388684faae5864380540589137f239639f12321a/olist_loafer-4.0.0a1.tar.gz
+[2023-07-08 20:34:44] INFO root fetch - processPackages [pyllamacpp]: Downloading https://files.pythonhosted.org/packages/73/3c/a79a432386087f3287f78e95f50303c4378414f884573b066a799289c831/pyllamacpp-2.4.0.tar.gz
+[2023-07-08 20:34:44] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/12/15/03c72da1e69a84fa41077540a44769e5c5cf51729b1635be1286bd10a547/threemystic_common-0.1.9.tar.gz
+[2023-07-08 20:34:44] INFO root fetch - processPackages [threemystic-common]: executing diffoscope
+[2023-07-08 20:34:44] INFO root fetch - processPackages [threemystic-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_common-0.1.8.tar.gz tmp/threemystic_common-0.1.9.tar.gz --markdown 20230708/t/threemystic-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-08 20:34:44] INFO root fetch - processPackages [mapperr]: Downloading https://files.pythonhosted.org/packages/fd/96/e3aab7ee288d06c8b4410ef29c800f1fbddd9a075b200e15c236b194be74/mapperr-0.2.1.tar.gz
+[2023-07-08 20:34:44] INFO root fetch - processPackages [battle-cats-game-modder]: Downloading https://files.pythonhosted.org/packages/09/d7/b90dc85250989685fb5f8c9a545c86ddf62e9e373a0f9c4b7eb77e9bf576/battle-cats-game-modder-1.0.5.tar.gz
+[2023-07-08 20:34:44] INFO root fetch - processPackages [napari-live-recording]: Downloading https://files.pythonhosted.org/packages/6e/9a/5d971c00077f43934c55e2175b12f4735e8a9be5a60597c1220f1252ed46/napari-live-recording-0.3.2.tar.gz
+[2023-07-08 20:34:44] INFO root fetch - processPackages [mapperr]: executing diffoscope
+[2023-07-08 20:34:44] INFO root fetch - processPackages [mapperr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapperr-0.2.0.tar.gz tmp/mapperr-0.2.1.tar.gz --markdown 20230708/m/mapperr/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-08 20:34:44] INFO root fetch - processPackages [test4957]: Downloading https://files.pythonhosted.org/packages/12/3b/e5cc9fc47dce3e4394176ea7893f99b9f1fed12b6e603d097587073d63ed/test4957-0.3.16.tar.gz
+[2023-07-08 20:34:44] INFO root fetch - processPackages [battle-cats-game-modder]: executing diffoscope
+[2023-07-08 20:34:44] INFO root fetch - processPackages [battle-cats-game-modder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/battle-cats-game-modder-1.0.4.tar.gz tmp/battle-cats-game-modder-1.0.5.tar.gz --markdown 20230708/b/battle-cats-game-modder/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-08 20:34:44] INFO root fetch - processPackages [napari-live-recording]: executing diffoscope
+[2023-07-08 20:34:44] INFO root fetch - processPackages [napari-live-recording]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-live-recording-0.3.0.tar.gz tmp/napari-live-recording-0.3.2.tar.gz --markdown 20230708/n/napari-live-recording/0.3.0-0.3.2/diff.md --exclude *.pyd
+[2023-07-08 20:34:44] INFO root fetch - processPackages [olist-loafer]: Downloading https://files.pythonhosted.org/packages/34/1e/1f6073dc9c34662405ba8e382fb23f2ad74a28ae5d9ecaa34da224f10025/olist_loafer-4.0.0a2.tar.gz
+[2023-07-08 20:34:44] INFO root fetch - processPackages [test4957]: executing diffoscope
+[2023-07-08 20:34:44] INFO root fetch - processPackages [test4957]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test4957-0.2.2.tar.gz tmp/test4957-0.3.16.tar.gz --markdown 20230708/t/test4957/0.2.2-0.3.16/diff.md --exclude *.pyd
+[2023-07-08 20:34:44] INFO root fetch - processPackages [sketchpy]: Downloading https://files.pythonhosted.org/packages/ad/17/3e3cc4a2e99b978ea0bce8fb65241bf50fbe96a6ff65cbfb67d403742756/sketchpy-0.1.3.tar.gz
+[2023-07-08 20:34:44] INFO root fetch - processPackages [pyllamacpp]: Downloading https://files.pythonhosted.org/packages/3e/6a/3532fd46c75ea8127a2622997fad84bd5f2fa6b5dbf8603b333ba61bd5ac/pyllamacpp-2.4.1.tar.gz
+[2023-07-08 20:34:44] INFO root fetch - processPackages [dnastack-client-library]: Downloading https://files.pythonhosted.org/packages/17/c7/5b87ff0cbee36b18e2e564381bca5b902804ee6c2844ca28031ffa63db35/dnastack_client_library-3.0.84a1651270839-py3-none-any.whl
+[2023-07-08 20:34:44] INFO root fetch - processPackages [olist-loafer]: executing diffoscope
+[2023-07-08 20:34:44] INFO root fetch - processPackages [olist-loafer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olist_loafer-4.0.0a1.tar.gz tmp/olist_loafer-4.0.0a2.tar.gz --markdown 20230708/o/olist-loafer/4.0.0a1-4.0.0a2/diff.md --exclude *.pyd
+[2023-07-08 20:34:44] INFO root fetch - processPackages [sketchpy]: executing diffoscope
+[2023-07-08 20:34:44] INFO root fetch - processPackages [sketchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sketchpy-0.1.2.tar.gz tmp/sketchpy-0.1.3.tar.gz --markdown 20230708/s/sketchpy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-08 20:34:44] INFO root fetch - processPackages [pyllamacpp]: executing diffoscope
+[2023-07-08 20:34:44] INFO root fetch - processPackages [pyllamacpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyllamacpp-2.4.0.tar.gz tmp/pyllamacpp-2.4.1.tar.gz --markdown 20230708/p/pyllamacpp/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-07-08 20:34:44] INFO root fetch - processPackages [dnastack-client-library]: executing diffoscope
+[2023-07-08 20:34:44] INFO root fetch - processPackages [dnastack-client-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230708:/home/abi/fetcher/20230708:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnastack_client_library-3.0.81a1650987643-py3-none-any.whl.zip tmp/dnastack_client_library-3.0.84a1651270839-py3-none-any.whl.zip --markdown 20230708/d/dnastack-client-library/3.0.81a1650987643-3.0.84a1651270839/diff.md --exclude *.pyd
+[2023-07-08 20:34:45] INFO root fetch - processPackages [mapperr]: Remove: archive file [/home/abi/fetcher/tmp/mapperr-0.2.0.tar.gz]
+[2023-07-08 20:34:45] INFO root fetch - processPackages [mapperr]: Remove: archive file [/home/abi/fetcher/tmp/mapperr-0.2.1.tar.gz]
+[2023-07-08 20:34:45] INFO root fetch - main [MainThread]: End processing [mapperr]: success
+[2023-07-08 20:34:45] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.1.8.tar.gz]
+[2023-07-08 20:34:45] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.1.9.tar.gz]
+[2023-07-08 20:34:45] INFO root fetch - main [MainThread]: End processing [threemystic-common]: success
+[2023-07-08 20:34:45] INFO root fetch - processPackages [battle-cats-game-modder]: Remove: archive file [/home/abi/fetcher/tmp/battle-cats-game-modder-1.0.4.tar.gz]
+[2023-07-08 20:34:45] INFO root fetch - processPackages [battle-cats-game-modder]: Remove: archive file [/home/abi/fetcher/tmp/battle-cats-game-modder-1.0.5.tar.gz]
+[2023-07-08 20:34:45] INFO root fetch - main [MainThread]: End processing [battle-cats-game-modder]: success
+[2023-07-08 20:34:45] INFO root fetch - processPackages [test4957]: Remove: archive file [/home/abi/fetcher/tmp/test4957-0.2.2.tar.gz]
+[2023-07-08 20:34:45] INFO root fetch - processPackages [test4957]: Remove: archive file [/home/abi/fetcher/tmp/test4957-0.3.16.tar.gz]
+[2023-07-08 20:34:45] INFO root fetch - main [MainThread]: End processing [test4957]: success
+[2023-07-08 20:34:45] INFO root fetch - processPackages [napari-live-recording]: Remove: archive file [/home/abi/fetcher/tmp/napari-live-recording-0.3.0.tar.gz]
+[2023-07-08 20:34:45] INFO root fetch - processPackages [napari-live-recording]: Remove: archive file [/home/abi/fetcher/tmp/napari-live-recording-0.3.2.tar.gz]
+[2023-07-08 20:34:45] INFO root fetch - main [MainThread]: End processing [napari-live-recording]: success
+[2023-07-08 20:34:46] INFO root fetch - processPackages [olist-loafer]: Remove: archive file [/home/abi/fetcher/tmp/olist_loafer-4.0.0a1.tar.gz]
+[2023-07-08 20:34:46] INFO root fetch - processPackages [olist-loafer]: Remove: archive file [/home/abi/fetcher/tmp/olist_loafer-4.0.0a2.tar.gz]
+[2023-07-08 20:34:46] INFO root fetch - main [MainThread]: End processing [olist-loafer]: success
+[2023-07-08 20:34:46] INFO root fetch - processPackages [sketchpy]: Remove: archive file [/home/abi/fetcher/tmp/sketchpy-0.1.2.tar.gz]
+[2023-07-08 20:34:46] INFO root fetch - processPackages [sketchpy]: Remove: archive file [/home/abi/fetcher/tmp/sketchpy-0.1.3.tar.gz]
+[2023-07-08 20:34:46] INFO root fetch - main [MainThread]: End processing [sketchpy]: success
+[2023-07-08 20:34:46] INFO root fetch - processPackages [dnastack-client-library]: Remove: archive file [/home/abi/fetcher/tmp/dnastack_client_library-3.0.81a1650987643-py3-none-any.whl.zip]
+[2023-07-08 20:34:46] INFO root fetch - processPackages [dnastack-client-library]: Remove: archive file [/home/abi/fetcher/tmp/dnastack_client_library-3.0.84a1651270839-py3-none-any.whl.zip]
+[2023-07-08 20:34:46] INFO root fetch - main [MainThread]: End processing [dnastack-client-library]: success
+[2023-07-08 20:34:46] INFO root fetch - processPackages [pyllamacpp]: Remove: archive file [/home/abi/fetcher/tmp/pyllamacpp-2.4.0.tar.gz]
+[2023-07-08 20:34:46] INFO root fetch - processPackages [pyllamacpp]: Remove: archive file [/home/abi/fetcher/tmp/pyllamacpp-2.4.1.tar.gz]
+[2023-07-08 20:34:46] INFO root fetch - main [MainThread]: End processing [pyllamacpp]: success
+[2023-07-08 20:34:46] INFO root fetch - main [MainThread]: Store serial: [18815135]
